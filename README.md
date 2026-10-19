@@ -1,5 +1,7 @@
 # Ahbar — Autonomous Daily Technical, Scientific & Strategic Dispatches
 
+The project was created using AI.
+
 **Ahbar** ([latifkedi.github.io/ahbar](https://latifkedi.github.io/ahbar/)) is an autonomous daily technical, scientific, economic, geopolitical, and philosophical news/preprint aggregator, web archive, and passwordless email digest built with **Rust** (`ahbar-shared`, `ahbar-engine`, `ahbar-api`) and a zero-framework, zero-CDN editorial frontend (`index.html`, `boot.js`, `style.css`, `app.js`) modeled after [`useful-sites`](https://github.com/latifkedi/useful-sites).
 
 Every morning at **`05:00 UTC` (`08:00 TSİ`)**—immediately following arXiv's daily announcement batch—Ahbar ingests **86 primary academic, engineering, economic, and strategic feeds**, clusters cross-source duplicates via 64-bit SimHash (`≤ 3` bits) and Jaccard title similarity, synthesizes bilingual (`TR` + `EN`) Layer-1 hooks and Layer-2 breakdowns via a multi-provider Free LLM Router (`FreeLlmRouter`), and emits split per-language JSON issues (`latest.tr.json`, `latest.en.json`), zero-JS plain-text directories (`k/index.html`, `k/en/index.html`), Atom XML feeds, and `10 × 3 = 30` dispatch HTML email digests.
