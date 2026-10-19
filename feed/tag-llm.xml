@@ -5,93 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-llm.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-llm.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-10-introducing-gemini-3-8-flash"/>
-    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-10-introducing-gemini-3-8-flash</id>
-    <updated>2026-09-02T16:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-04-sub-quadratic-sparse-attention-via"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-04-sub-quadratic-sparse-attention-via</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-11-livemace-process-aware-evaluation-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09872"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-11-livemace-process-aware-evaluation-of</id>
-    <updated>2026-10-06T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09872&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-05-verified-tool-use-trajectories-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-05-verified-tool-use-trajectories-for</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-12-scene-designer-learning-design-intelligence"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23121"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-12-scene-designer-learning-design-intelligence</id>
-    <updated>2026-10-15T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality. However, existing approaches either rely on general-purpose models lacking domain-specific design experience or learn from static scenes. In this work, we introduce Scene-Designer, an agentic framework that learns design intelligence through complementary design and critique experiences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23121&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-bridgewam-bridging-video-and-action"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.14746"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-bridgewam-bridging-video-and-action</id>
-    <updated>2026-10-09T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (MoT) attention, exposing action prediction to irrelevant visual features while enforcing matched expert depths. This coupling hinders selective visual-feature use and introduces redundant computation. We introduce Bridge-of-Experts (BoE), instantiated as BridgeWAM, which aggregates visual, language, and proprioceptive priors through 32 Latent Bridge Queries (LBQs) into a shared, limited latent space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.14746&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Learning to Think and Explore in 3D World. We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-learning-to-think-and-explore"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21783"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-learning-to-think-and-explore</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and observations (rendered images). Each rollout begins from an initial first-person view and a visual question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21783&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-15-lexical-reference-frames-interpreting-lm"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22169"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-15-lexical-reference-frames-interpreting-lm</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a state at the two ends of the residual stream. Between them, existing methods either reuse a fixed lens or treat the states as a point cloud, and neither reads a state the way the model does. We argue that every hidden state has a native reference frame, induced by the layers that read it next and adaptive to the context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22169&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-rap-a-dataset-for-paper"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23230"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-rap-a-dataset-for-paper</id>
-    <updated>2026-10-15T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which exercises summarization, visual design, and code implementation at once, using nothing beyond the paper itself. Yet benchmarks for this task in the context of visual coding remain scarce: existing resources are small and annotated only with layout boxes, so evaluation must fall back on VLM-as-judge or human checklists rather than objective render-and-compare, and the generation methods they support design layouts from scratch, leaving human-crafted posters unusable as either a retrievable design library or as verified supervision. We introduce RAP (Reconstruct A Poster), a dataset and benchmark for paper-to-poster generation as a visual coding task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23230&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Can Visual Generation Expand What Unified Multimodal Models Know?. Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully documented in text.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-can-visual-generation-expand-what"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21459"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-can-visual-generation-expand-what</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully documented in text. Can learning to generate images expand what pretrained models know? We introduce Knowledge Transfer Probing (KTP), a controlled protocol that supplies new knowledge through image-generation training and tests its accessibility through text-only question answering.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21459&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-62-echo-replacing-the-compliance-proxy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23030v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-62-echo-replacing-the-compliance-proxy</id>
-    <updated>2026-10-16T07:07:08+00:00</updated>
-    <summary type="html">&lt;p&gt;Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks. Existing optimization-based attacks share a single objective: maximize a token-level proxy of victim compliance---such as the likelihood of an affirmative prefix---computed on the prompt rather than the decoded reply. This proxy cannot distinguish a cautious hedge from a fully actionable harmful answer, leaving the search blind to what the model actually says.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23030v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-63-safe-mem-secure-agentic-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22959v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-63-safe-mem-secure-agentic-memory</id>
-    <updated>2026-10-16T05:29:55+00:00</updated>
-    <summary type="html">&lt;p&gt;Large language model (LLM) agents increasingly rely on persistent memory to support long-term reasoning and personalized interactions. However, information collected from external sources can introduce security risks when untrusted claims (i.e., atomic statements) are later treated as authorized preferences, policies, or permissions. Existing defenses typically rely on content-based filtering or coarse-grained provenance tracking, which either fail to prevent unauthorized memory use or block legitimate information, sacrificing memory utility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22959v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bridging the Language Gap in Scholarly Data II: Enhancing Gender Inference for Chinese Names</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-83-bridging-the-language-gap-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23734v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-83-bridging-the-language-gap-in</id>
-    <updated>2026-10-16T16:44:41+00:00</updated>
-    <summary type="html">&lt;p&gt;Perceived gender inference from names is important for inclusive scientometrics research, yet existing methods perform poorly on non-Western scholars. We address this gap for Chinese names, which appear in two forms, Hanzi and Pinyin, its Romanized form (e.g., Zhang Wei, Li Na). In international bibliographic records, names are often available only in Pinyin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23734v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #ml-theory&lt;/p&gt;</summary>
+    <title>Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-sharp-non-asymptotic-generalization-bounds"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-sharp-non-asymptotic-generalization-bounds</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
   </entry>
 </feed>

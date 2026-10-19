@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
-  <entry>
-    <title>BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-bridgewam-bridging-video-and-action"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.14746"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-bridgewam-bridging-video-and-action</id>
-    <updated>2026-10-09T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (MoT) attention, exposing action prediction to irrelevant visual features while enforcing matched expert depths. This coupling hinders selective visual-feature use and introduces redundant computation. We introduce Bridge-of-Experts (BoE), instantiated as BridgeWAM, which aggregates visual, language, and proprioceptive priors through 32 Latent Bridge Queries (LBQs) into a shared, limited latent space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.14746&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
 </feed>

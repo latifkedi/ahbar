@@ -5,77 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-37-hot-chips-2026-intel-s"/>
-    <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-37-hot-chips-2026-intel-s</id>
-    <updated>2026-08-27T05:12:31+00:00</updated>
-    <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
+    <title>Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-open-source-out-of-order"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-open-source-out-of-order</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-doom-gpu-flame-graphs"/>
-    <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-doom-gpu-flame-graphs</id>
-    <updated>2025-04-30T14:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-hardware-enforced-capability-tagging-eliminates"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06411"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-hardware-enforced-capability-tagging-eliminates</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\%$ of baseline at $400\text{ Gb/s}$ while deterministically trapping temporal aliasing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06411&quot;&gt;LWN.net / Systems Architecture&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #infosec #computer-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-39-bypassing-administrator-protection-by-abusing"/>
-    <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-39-bypassing-administrator-protection-by-abusing</id>
-    <updated>2026-02-12T08:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-40-security-updates-for-friday"/>
-    <link rel="related" href="https://lwn.net/Articles/1101015/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-40-security-updates-for-friday</id>
-    <updated>2026-10-16T13:17:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (environment-modules, flatpak-builder, kernel, kernel-rt, librabbitmq, libreoffice, libsoup, mod_auth_openidc:2.3, nodejs:22, nodejs:24, OpenEXR, opentelemetry-collector, pki-core:10.6, postgresql:12, python-tornado, python36:3.6, ruby:3.3, tftp, and xorg-x11-server), Debian (buildstream, firefox-esr, mariadb, and sogo), Fedora (exim, freerdp, python3-docs, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101015/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>One year later: the power of 1.1.1.1 interns</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-41-one-year-later-the-power"/>
-    <link rel="related" href="https://blog.cloudflare.com/one-year-later-1111-interns/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-41-one-year-later-the-power</id>
-    <updated>2026-10-05T13:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cloudflare.com/one-year-later-1111-interns/&quot;&gt;Cloudflare Systems &amp;amp; Network Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #networking #performance #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-43-hbfsim-a-simulator-for-exploring"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23503v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-43-hbfsim-a-simulator-for-exploring</id>
-    <updated>2026-10-16T14:14:14+00:00</updated>
-    <summary type="html">&lt;p&gt;High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND foundation brings long latency, out-of-place updates, and finite write endurance directly into the accelerator memory hierarchy, making its effects on performance and lifetime difficult to predict. To study this emerging design space, we present HBFSim, an LLM-aware event-driven simulator for heterogeneous HBM+HBF memory systems that preserves application-level memory semantics while modeling flash-internal behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23503v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-42-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-42-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How to fix a bug in a fix</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-44-how-to-fix-a-bug"/>
-    <link rel="related" href="https://projectzero.google/2026/10/emergency-patching.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-44-how-to-fix-a-bug</id>
-    <updated>2026-10-06T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/emergency-patching.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-45-windows-exploitation-techniques-dangling-com"/>
-    <link rel="related" href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-45-windows-exploitation-techniques-dangling-com</id>
-    <updated>2026-09-21T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/09/windows-dangling-com.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
+    <title>Cross-Cache Speculative Type Confusion in Modern Browser JIT Tier-Up Pipelines</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-15-cross-cache-speculative-type-confusion"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06890"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-15-cross-cache-speculative-type-confusion</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Optimizing JIT compilers elide bounds and map checks when profiling feedback indicates monomorphic object shapes. We demonstrate a speculative race condition during concurrent background compilation that leaks arbitrary WebAssembly linear memory across site isolation boundaries in under $90\text{ ms}$, along with a zero-overhead fence mitigation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06890&quot;&gt;Google Project Zero / InfoSec&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #compilers #performance&lt;/p&gt;</summary>
   </entry>
 </feed>

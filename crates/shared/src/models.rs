@@ -309,6 +309,7 @@ pub enum DigestDensity {
     /// 1 item per area (10 total) for ultra-fast scan
     Compact,
     /// 3 items per area (30 total across 10 areas) — Recommended default
+    #[serde(alias = "three_per_area")]
     ThreePerArea,
     /// 5 items per area (50 total) for deep reading
     Comprehensive,
@@ -332,7 +333,9 @@ impl DigestDensity {
 #[serde(rename_all = "kebab-case")]
 pub enum DigestFrequency {
     Daily,
+    #[serde(alias = "weekdays_only")]
     WeekdaysOnly,
+    #[serde(alias = "weekend_only")]
     WeekendOnly,
 }
 
@@ -340,7 +343,9 @@ pub enum DigestFrequency {
 #[serde(rename_all = "kebab-case")]
 pub enum ContentFilter {
     All,
+    #[serde(alias = "papers_only")]
     PapersOnly,
+    #[serde(alias = "code_only")]
     CodeOnly,
 }
 

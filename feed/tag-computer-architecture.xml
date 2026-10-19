@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-37-hot-chips-2026-intel-s"/>
-    <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-37-hot-chips-2026-intel-s</id>
-    <updated>2026-08-27T05:12:31+00:00</updated>
-    <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
+    <title>Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-open-source-out-of-order"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-open-source-out-of-order</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ConQUESTA: Topology-Aware Post-Training Structural Pruning of Quantum Neural Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-35-conquesta-topology-aware-post-training"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23415v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-35-conquesta-topology-aware-post-training</id>
-    <updated>2026-10-16T13:07:10+00:00</updated>
-    <summary type="html">&lt;p&gt;Deploying quantum neural networks (QNNs) on sparse hardware requires preserving task accuracy while reducing compiler-induced two-qubit gates, SWAPs, and depth. We present ConQUESTA (\underline{C}onstrained \underline{Qu}antum \underline{E}ntangler \underline{S}election with \underline{T}opology \underline{A}wareness), a post training pruning framework that combines task saliency with compiler cost, screens candidate entanglers, and searches complete pruning masks under an explicit accuracy constraint. Unlike one-shot ranking, each mask is transpiled as a whole across multiple coupling topologies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23415v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #compilers&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-43-hbfsim-a-simulator-for-exploring"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23503v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-43-hbfsim-a-simulator-for-exploring</id>
-    <updated>2026-10-16T14:14:14+00:00</updated>
-    <summary type="html">&lt;p&gt;High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND foundation brings long latency, out-of-place updates, and finite write endurance directly into the accelerator memory hierarchy, making its effects on performance and lifetime difficult to predict. To study this emerging design space, we present HBFSim, an LLM-aware event-driven simulator for heterogeneous HBM+HBF memory systems that preserves application-level memory semantics while modeling flash-internal behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23503v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os&lt;/p&gt;</summary>
+    <title>Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-hardware-enforced-capability-tagging-eliminates"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06411"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-hardware-enforced-capability-tagging-eliminates</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\%$ of baseline at $400\text{ Gb/s}$ while deterministically trapping temporal aliasing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06411&quot;&gt;LWN.net / Systems Architecture&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #infosec #computer-architecture&lt;/p&gt;</summary>
   </entry>
 </feed>

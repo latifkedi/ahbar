@@ -409,6 +409,18 @@
       .replace(/'/g, "&#39;");
   }
 
+  function safeUrl(raw) {
+    var s = String(raw == null ? "" : raw).trim();
+    if (!s) return "#";
+    try {
+      var parsed = new URL(s, window.location.origin);
+      if (parsed.protocol === "https:" || parsed.protocol === "http:") {
+        return parsed.href;
+      }
+    } catch (_) {}
+    return "#";
+  }
+
   function isLikelyLatexMath(expr) {
     if (!expr || expr.length > 160) return false;
     if (/^\s|\s$/.test(expr)) return false;
@@ -455,40 +467,42 @@
 
   function renderMathExpr(expr, isDisplay) {
     var u = expr
-      .replace(/\\times/g, "×")
-      .replace(/\\cdot/g, "·")
-      .replace(/\\le(?:q)?/g, "≤")
-      .replace(/\\ge(?:q)?/g, "≥")
-      .replace(/\\neq/g, "≠")
-      .replace(/\\approx/g, "≈")
-      .replace(/\\sim/g, "∼")
-      .replace(/\\ll/g, "≪")
-      .replace(/\\gg/g, "≫")
-      .replace(/\\to|\\rightarrow/g, "→")
-      .replace(/\\infty/g, "∞")
-      .replace(/\\pm/g, "±")
+      .replace(/\\(?:left|right)(?![a-zA-Z])/g, "")
+      .replace(/\\times(?![a-zA-Z])/g, "×")
+      .replace(/\\cdot(?![a-zA-Z])/g, "·")
+      .replace(/\\leq?(?![a-zA-Z])/g, "≤")
+      .replace(/\\geq?(?![a-zA-Z])/g, "≥")
+      .replace(/\\neq(?![a-zA-Z])/g, "≠")
+      .replace(/\\approx(?![a-zA-Z])/g, "≈")
+      .replace(/\\sim(?![a-zA-Z])/g, "∼")
+      .replace(/\\ll(?![a-zA-Z])/g, "≪")
+      .replace(/\\gg(?![a-zA-Z])/g, "≫")
+      .replace(/\\(?:to|rightarrow)(?![a-zA-Z])/g, "→")
+      .replace(/\\infty(?![a-zA-Z])/g, "∞")
+      .replace(/\\pm(?![a-zA-Z])/g, "±")
       .replace(/\\%/g, "%")
       .replace(/\\mathbb\{F\}/g, "𝔽")
       .replace(/\\mathbb\{R\}/g, "ℝ")
       .replace(/\\mathbb\{Z\}/g, "ℤ")
       .replace(/\\mathbb\{N\}/g, "ℕ")
       .replace(/\\mathbb\{E\}/g, "𝔼")
-      .replace(/\\alpha/g, "α")
-      .replace(/\\beta/g, "β")
-      .replace(/\\gamma/g, "γ")
-      .replace(/\\delta/g, "δ")
-      .replace(/\\Delta/g, "Δ")
-      .replace(/\\varepsilon|\\epsilon/g, "ε")
-      .replace(/\\theta/g, "θ")
-      .replace(/\\lambda/g, "λ")
-      .replace(/\\mu/g, "μ")
-      .replace(/\\nu/g, "ν")
-      .replace(/\\pi/g, "π")
-      .replace(/\\rho/g, "ρ")
-      .replace(/\\sigma/g, "σ")
-      .replace(/\\tau/g, "τ")
-      .replace(/\\omega/g, "ω")
-      .replace(/\\Omega/g, "Ω")
+      .replace(/\\mathcal\{O\}/g, "𝒪")
+      .replace(/\\alpha(?![a-zA-Z])/g, "α")
+      .replace(/\\beta(?![a-zA-Z])/g, "β")
+      .replace(/\\gamma(?![a-zA-Z])/g, "γ")
+      .replace(/\\delta(?![a-zA-Z])/g, "δ")
+      .replace(/\\Delta(?![a-zA-Z])/g, "Δ")
+      .replace(/\\(?:varepsilon|epsilon)(?![a-zA-Z])/g, "ε")
+      .replace(/\\theta(?![a-zA-Z])/g, "θ")
+      .replace(/\\lambda(?![a-zA-Z])/g, "λ")
+      .replace(/\\mu(?![a-zA-Z])/g, "μ")
+      .replace(/\\nu(?![a-zA-Z])/g, "ν")
+      .replace(/\\pi(?![a-zA-Z])/g, "π")
+      .replace(/\\rho(?![a-zA-Z])/g, "ρ")
+      .replace(/\\sigma(?![a-zA-Z])/g, "σ")
+      .replace(/\\tau(?![a-zA-Z])/g, "τ")
+      .replace(/\\omega(?![a-zA-Z])/g, "ω")
+      .replace(/\\Omega(?![a-zA-Z])/g, "Ω")
       .replace(/\{,\}/g, ",")
       .replace(/\\text\{([^}]*)\}/g, "$1")
       .replace(/\\([a-zA-Z]+)/g, "$1");
@@ -605,6 +619,12 @@
     state.query = p.get("q") || "";
     state.showAllList = p.get("all") === "1";
 
+    var voteParam = p.get("vote");
+    if ((voteParam === "signal" || voteParam === "noise") && state.activeItemId) {
+      state.voteMap[state.activeItemId] = voteParam;
+      saveJson(STORAGE_KEYS.votes, state.voteMap);
+    }
+
     var sParam = p.get("s");
     if (sParam) {
       state.sharedShelfIds = sParam.split(",").map(function (x) { return x.trim(); }).filter(Boolean);
@@ -625,13 +645,19 @@
     var qInput = document.getElementById("q");
     if (qInput) qInput.value = state.query;
 
+    var tok = p.get("token");
+    if (tok) state.subPrefs.token = tok;
+
     if (p.get("prefs") === "1") {
       var em = p.get("email");
       if (em) state.subPrefs.email = em;
+      saveJson(STORAGE_KEYS.prefs, state.subPrefs);
+      pushUrl(true);
       setTimeout(openSubDialog, 120);
     }
     if (p.get("unsub") === "1") {
       var uem = p.get("email") || state.subPrefs.email || "";
+      pushUrl(true);
       setTimeout(function () {
         alert(state.lang === "tr"
           ? uem + " adresi günlük e-posta listesinden çıkarıldı."
@@ -996,9 +1022,10 @@
     var isSeen = !!state.seenMap[item.id];
     var isCmp = state.cmpIds.indexOf(item.id) !== -1;
     var vote = state.voteMap[item.id] || "";
-    var host = extractHost(item.url);
+    var primaryUrl = safeUrl(item.url);
+    var host = extractHost(primaryUrl);
     var numStr = String(seqIndex).padStart(2, "0");
-    var waybackUrl = "https://web.archive.org/web/*/" + item.url;
+    var waybackUrl = "https://web.archive.org/web/*/" + primaryUrl;
 
     var pathHtml = showAreaPath
       ? '<p class="path"><a href="?area=' + esc(aMeta.slug) + '" data-area="' + esc(aMeta.slug) + '">' +
@@ -1021,15 +1048,15 @@
     var links = item.links || {};
     var metaLinks = [];
     metaLinks.push('<a href="?item=' + encodeURIComponent(item.id) + '" class="arch on" data-item="' + esc(item.id) + '">' + esc(t.analysis) + "</a>");
-    metaLinks.push('<a href="' + esc(item.url) + '" target="_blank" rel="noopener" class="arch">' + esc(t.sourceExt) + "</a>");
+    metaLinks.push('<a href="' + esc(primaryUrl) + '" target="_blank" rel="noopener" class="arch">' + esc(t.sourceExt) + "</a>");
     if (links.pdf_url) {
-      metaLinks.push('<a href="' + esc(links.pdf_url) + '" target="_blank" rel="noopener" class="arch">PDF</a>');
+      metaLinks.push('<a href="' + esc(safeUrl(links.pdf_url)) + '" target="_blank" rel="noopener" class="arch">PDF</a>');
     }
     if (links.html_ar5iv_url) {
-      metaLinks.push('<a href="' + esc(links.html_ar5iv_url) + '" target="_blank" rel="noopener" class="arch">ar5iv</a>');
+      metaLinks.push('<a href="' + esc(safeUrl(links.html_ar5iv_url)) + '" target="_blank" rel="noopener" class="arch">ar5iv</a>');
     }
     if (links.code_url) {
-      metaLinks.push('<a href="' + esc(links.code_url) + '" target="_blank" rel="noopener" class="arch">Code</a>');
+      metaLinks.push('<a href="' + esc(safeUrl(links.code_url)) + '" target="_blank" rel="noopener" class="arch">Code</a>');
     }
     metaLinks.push('<a href="' + esc(waybackUrl) + '" target="_blank" rel="noopener" class="arch">' + esc(t.archiveLbl) + "</a>");
     metaLinks.push(
@@ -1123,6 +1150,7 @@
     var globalSeq = 1;
     var categorizedPreviewHtml = "";
     state.visibleItems = [];
+    state.kbIndex = -1;
 
     AREAS.forEach(function (a) {
       var areaItems = allItems.filter(function (i) { return i.area === a.slug; });
@@ -1231,10 +1259,11 @@
       }),
       rowHtml(t.cmpRows.links, function (item) {
         var links = item.links || {};
-        var parts = ['<a class="arch" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(t.sourceExt) + "</a>"];
-        if (links.pdf_url) parts.push('<a class="arch" href="' + esc(links.pdf_url) + '" target="_blank" rel="noopener">PDF</a>');
-        if (links.code_url) parts.push('<a class="arch" href="' + esc(links.code_url) + '" target="_blank" rel="noopener">Code</a>');
-        parts.push('<a class="arch" href="https://web.archive.org/web/*/' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(t.archiveLbl) + "</a>");
+        var primaryUrl = safeUrl(item.url);
+        var parts = ['<a class="arch" href="' + esc(primaryUrl) + '" target="_blank" rel="noopener">' + esc(t.sourceExt) + "</a>"];
+        if (links.pdf_url) parts.push('<a class="arch" href="' + esc(safeUrl(links.pdf_url)) + '" target="_blank" rel="noopener">PDF</a>');
+        if (links.code_url) parts.push('<a class="arch" href="' + esc(safeUrl(links.code_url)) + '" target="_blank" rel="noopener">Code</a>');
+        parts.push('<a class="arch" href="https://web.archive.org/web/*/' + esc(primaryUrl) + '" target="_blank" rel="noopener">' + esc(t.archiveLbl) + "</a>");
         return parts.join(" · ");
       }),
       rowHtml(t.cmpRows.tags, function (item) {
@@ -1258,6 +1287,7 @@
     var allItems = state.issue.items || [];
     var filtered = getFilteredItems();
     state.visibleItems = filtered;
+    state.kbIndex = -1;
 
     var headerHtml = "";
     if (state.savedOnly) {
@@ -1335,19 +1365,20 @@
     var isSaved = !!state.savedMap[item.id];
     var links = item.links || {};
     var detail = item.detail || {};
-    var host = extractHost(item.url);
-    var waybackUrl = "https://web.archive.org/web/*/" + item.url;
+    var primaryUrl = safeUrl(item.url);
+    var host = extractHost(primaryUrl);
+    var waybackUrl = "https://web.archive.org/web/*/" + primaryUrl;
 
     var visitBtns = [];
-    visitBtns.push('<a class="btn primary" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(t.openSource) + "</a>");
+    visitBtns.push('<a class="btn primary" href="' + esc(primaryUrl) + '" target="_blank" rel="noopener">' + esc(t.openSource) + "</a>");
     if (links.pdf_url) {
-      visitBtns.push('<a class="btn" href="' + esc(links.pdf_url) + '" target="_blank" rel="noopener">' + esc(t.readPdf) + "</a>");
+      visitBtns.push('<a class="btn" href="' + esc(safeUrl(links.pdf_url)) + '" target="_blank" rel="noopener">' + esc(t.readPdf) + "</a>");
     }
     if (links.html_ar5iv_url) {
-      visitBtns.push('<a class="btn" href="' + esc(links.html_ar5iv_url) + '" target="_blank" rel="noopener">' + esc(t.readHtml) + "</a>");
+      visitBtns.push('<a class="btn" href="' + esc(safeUrl(links.html_ar5iv_url)) + '" target="_blank" rel="noopener">' + esc(t.readHtml) + "</a>");
     }
     if (links.code_url) {
-      visitBtns.push('<a class="btn" href="' + esc(links.code_url) + '" target="_blank" rel="noopener">' + esc(t.openCode) + "</a>");
+      visitBtns.push('<a class="btn" href="' + esc(safeUrl(links.code_url)) + '" target="_blank" rel="noopener">' + esc(t.openCode) + "</a>");
     }
     visitBtns.push('<a class="btn" href="' + esc(waybackUrl) + '" target="_blank" rel="noopener">' + esc(t.openArchive) + "</a>");
     if (detail.bibtex) {
@@ -1367,7 +1398,7 @@
           links.clustered_sources.map(function (cs) {
             return (
               "<li>" +
-                '<a href="' + esc(cs.url) + '" target="_blank" rel="noopener">' + esc(cs.source_name) + " ↗</a>" +
+                '<a href="' + esc(safeUrl(cs.url)) + '" target="_blank" rel="noopener">' + esc(cs.source_name) + " ↗</a>" +
                 '<span class="ax">' + esc(cs.title) + (cs.points ? " (" + cs.points + " pts)" : "") + "</span>" +
               "</li>"
             );
@@ -1405,7 +1436,7 @@
         '<article class="rec big">' +
           '<div class="rb">' +
             '<div class="nm">' +
-              '<h1 class="ph"><a class="name" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + formatMathHtml(itemHeadline(item)) + "</a></h1>" +
+              '<h1 class="ph"><a class="name" href="' + esc(primaryUrl) + '" target="_blank" rel="noopener">' + formatMathHtml(itemHeadline(item)) + "</a></h1>" +
               '<button type="button" class="save" data-save="' + esc(item.id) + '" aria-pressed="' + (isSaved ? "true" : "false") + '" title="' + esc(t.saveTip) + '">' +
                 (isSaved ? "★" : "☆") +
               "</button>" +
@@ -2143,7 +2174,10 @@
           window.scrollTo({ top: 0, behavior: "smooth" });
         } else if (e.key === "o" && state.kbIndex >= 0 && state.kbIndex < len) {
           e.preventDefault();
-          window.open(state.visibleItems[state.kbIndex].url, "_blank", "noopener");
+          var targetUrl = safeUrl(state.visibleItems[state.kbIndex].url);
+          if (targetUrl !== "#") {
+            window.open(targetUrl, "_blank", "noopener");
+          }
         } else if (e.key === "s" && state.kbIndex >= 0 && state.kbIndex < len) {
           e.preventDefault();
           var targetId = state.visibleItems[state.kbIndex].id;

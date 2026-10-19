@@ -154,29 +154,38 @@ pub fn latex_to_email_unicode(input: &str) -> String {
         i += 1;
     }
 
-    let replacements = [
-        ("\\times", "×"),
-        ("\\cdot", "·"),
-        ("\\le", "≤"),
-        ("\\leq", "≤"),
-        ("\\ge", "≥"),
-        ("\\geq", "≥"),
-        ("\\neq", "≠"),
-        ("\\approx", "≈"),
-        ("\\sim", "∼"),
-        ("\\ll", "≪"),
-        ("\\gg", "≫"),
-        ("\\to", "→"),
-        ("\\rightarrow", "→"),
-        ("\\infty", "∞"),
-        ("\\pm", "±"),
-        ("\\%", "%"),
+    let token_replacements = [
         ("\\mathbb{F}", "𝔽"),
         ("\\mathbb{R}", "ℝ"),
         ("\\mathbb{Z}", "ℤ"),
         ("\\mathbb{N}", "ℕ"),
         ("\\mathbb{E}", "𝔼"),
         ("\\mathcal{O}", "𝒪"),
+        ("\\%", "%"),
+        ("{,}", ","),
+    ];
+    for (pat, rep) in token_replacements {
+        s = s.replace(pat, rep);
+    }
+
+    let word_replacements = [
+        ("\\left", ""),
+        ("\\right", ""),
+        ("\\times", "×"),
+        ("\\cdot", "·"),
+        ("\\leq", "≤"),
+        ("\\le", "≤"),
+        ("\\geq", "≥"),
+        ("\\ge", "≥"),
+        ("\\neq", "≠"),
+        ("\\approx", "≈"),
+        ("\\sim", "∼"),
+        ("\\ll", "≪"),
+        ("\\gg", "≫"),
+        ("\\rightarrow", "→"),
+        ("\\to", "→"),
+        ("\\infty", "∞"),
+        ("\\pm", "±"),
         ("\\alpha", "α"),
         ("\\beta", "β"),
         ("\\gamma", "γ"),
@@ -194,10 +203,9 @@ pub fn latex_to_email_unicode(input: &str) -> String {
         ("\\tau", "τ"),
         ("\\omega", "ω"),
         ("\\Omega", "Ω"),
-        ("{,}", ","),
     ];
-    for (pat, rep) in replacements {
-        s = s.replace(pat, rep);
+    for (pat, rep) in word_replacements {
+        s = replace_latex_control_word(&s, pat, rep);
     }
     while let Some(start) = s.find("\\text{") {
         if let Some(rel_end) = s[start + 6..].find('}') {
@@ -208,6 +216,28 @@ pub fn latex_to_email_unicode(input: &str) -> String {
         }
     }
     s
+}
+
+fn replace_latex_control_word(input: &str, pat: &str, rep: &str) -> String {
+    let mut out = String::with_capacity(input.len());
+    let mut rest = input;
+    while let Some(idx) = rest.find(pat) {
+        out.push_str(&rest[..idx]);
+        let after = &rest[idx + pat.len()..];
+        let is_prefix_of_longer_word = after
+            .chars()
+            .next()
+            .map(|c| c.is_ascii_alphabetic())
+            .unwrap_or(false);
+        if is_prefix_of_longer_word {
+            out.push_str(pat);
+        } else {
+            out.push_str(rep);
+        }
+        rest = after;
+    }
+    out.push_str(rest);
+    out
 }
 
 /// Converts text containing `$...$` and `$$...$$` into safe HTML with native `<math class="m">`
@@ -371,11 +401,11 @@ pub fn simhash_64(text: &str) -> u64 {
 }
 
 fn accumulate_bits(weights: &mut [i32; 64], hash: u64, weight: i32) {
-    for bit in 0..64 {
+    for (bit, w) in weights.iter_mut().enumerate() {
         if (hash >> bit) & 1 == 1 {
-            weights[bit] += weight;
+            *w += weight;
         } else {
-            weights[bit] -= weight;
+            *w -= weight;
         }
     }
 }
@@ -437,20 +467,86 @@ fn is_stopword(w: &str) -> bool {
     )
 }
 
+/// Validates and normalizes an external HTTP/HTTPS URL, rejecting dangerous schemes
+/// (`javascript:`, `data:`, `vbscript:`, `file:`) and control characters.
+pub fn sanitize_http_url(raw: &str) -> Option<String> {
+    let trimmed = raw.trim();
+    if trimmed.is_empty() || trimmed.len() > 2048 {
+        return None;
+    }
+    if trimmed.chars().any(|c| c.is_control() || c.is_whitespace()) {
+        return None;
+    }
+    let lower = trimmed.to_ascii_lowercase();
+    if !(lower.starts_with("https://") || lower.starts_with("http://")) {
+        return None;
+    }
+    let rest = if lower.starts_with("https://") {
+        &trimmed[8..]
+    } else {
+        &trimmed[7..]
+    };
+    let host = rest.split(['/', '?', '#']).next().unwrap_or("");
+    if host.is_empty() || !host.contains('.') {
+        return None;
+    }
+    Some(trimmed.to_string())
+}
+
+/// Validates an email address with strict RFC 5321 length limits and character checks.
+pub fn is_valid_email(raw: &str) -> bool {
+    let s = raw.trim();
+    if s.len() < 5 || s.len() > 254 {
+        return false;
+    }
+    if s.chars().any(|c| c.is_control() || c.is_whitespace()) {
+        return false;
+    }
+    let mut parts = s.split('@');
+    let Some(local) = parts.next() else {
+        return false;
+    };
+    let Some(domain) = parts.next() else {
+        return false;
+    };
+    if parts.next().is_some() {
+        return false;
+    }
+    if local.is_empty() || local.len() > 64 || local.starts_with('.') || local.ends_with('.') {
+        return false;
+    }
+    if domain.len() < 3
+        || !domain.contains('.')
+        || domain.starts_with('.')
+        || domain.ends_with('.')
+        || domain.starts_with('-')
+        || domain.ends_with('-')
+    {
+        return false;
+    }
+    domain
+        .chars()
+        .all(|c| c.is_ascii_alphanumeric() || c == '.' || c == '-')
+}
+
 /// Extracts an arXiv paper ID (e.g., `2610.12345`) from an arXiv URL or identifier,
 /// and derives its direct PDF and `ar5iv` HTML5 links.
 pub fn extract_arxiv_links(url: &str) -> Option<(String, String, String)> {
     let cleaned = url.trim().trim_end_matches('/');
     let id_part = if let Some(idx) = cleaned.find("arxiv.org/abs/") {
         &cleaned[idx + "arxiv.org/abs/".len()..]
-    } else if let Some(idx) = cleaned.find("arxiv.org/pdf/") {
-        cleaned[idx + "arxiv.org/pdf/".len()..].trim_end_matches(".pdf")
     } else {
-        return None;
+        let idx = cleaned.find("arxiv.org/pdf/")?;
+        let tail = &cleaned[idx + "arxiv.org/pdf/".len()..];
+        tail.strip_suffix(".pdf").unwrap_or(tail)
     };
 
     let paper_id = id_part.split('?').next().unwrap_or(id_part).trim();
-    if paper_id.is_empty() {
+    if paper_id.is_empty()
+        || !paper_id
+            .chars()
+            .all(|c| c.is_ascii_alphanumeric() || matches!(c, '.' | '-' | '/' | '_'))
+    {
         return None;
     }
 
@@ -519,6 +615,23 @@ mod tests {
 
         let econ = "Net worth exceeding $1 billion yields $30 billion (range $28 to $36 billion).";
         assert_eq!(latex_to_html_math(econ), econ);
+
+        let macros = "$x \\leq y$ and $\\left(a \\to b\\right)$ with $x \\le 1$.";
+        let uni = latex_to_email_unicode(macros);
+        assert_eq!(uni, "x ≤ y and (a → b) with x ≤ 1.");
+    }
+
+    #[test]
+    fn test_url_and_email_validation() {
+        assert!(sanitize_http_url("https://arxiv.org/abs/2610.01234").is_some());
+        assert!(sanitize_http_url("javascript:alert(1)").is_none());
+        assert!(sanitize_http_url("data:text/html,<script>alert(1)</script>").is_none());
+        assert!(sanitize_http_url("https://localhost/admin").is_none());
+
+        assert!(is_valid_email("researcher@university.edu"));
+        assert!(!is_valid_email("bad@@example.com"));
+        assert!(!is_valid_email("user@localhost"));
+        assert!(!is_valid_email("user name@example.com"));
     }
 
     #[test]

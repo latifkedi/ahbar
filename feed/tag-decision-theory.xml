@@ -5,85 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Proportionality in Ranking Compression</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-65-proportionality-in-ranking-compression"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23193v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-65-proportionality-in-ranking-compression</id>
-    <updated>2026-10-16T09:30:10+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivated by applications in reinforcement learning from human feedback, we consider a setting where a given collection of rankings needs to be compressed into a smaller collection of rankings. This can also be seen as a combination of two fundamental social choice frameworks: ranking aggregation and multiwinner voting. We propose three proportionality notions that capture different types of representation in this setting: positional proportionality, pairwise proportionality, and proportionality for solid coalitions (PSC).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23193v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Source of Data Value: Consumer Disclosure, Access Design, and Platform Monetization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-66-the-source-of-data-value"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22864v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-66-the-source-of-data-value</id>
-    <updated>2026-10-16T03:09:29+00:00</updated>
-    <summary type="html">&lt;p&gt;Digital marketplaces increasingly earn revenue from transaction commissions and seller-facing data services. Sellers may purchase data to increase revenue or avoid competing with an informed rival. We examine how consumer disclosure rights shape these motives and the platform&amp;apos;s incentive to provide data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22864v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #optimization&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bridging the Language Gap in Scholarly Data II: Enhancing Gender Inference for Chinese Names</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-83-bridging-the-language-gap-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23734v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-83-bridging-the-language-gap-in</id>
-    <updated>2026-10-16T16:44:41+00:00</updated>
-    <summary type="html">&lt;p&gt;Perceived gender inference from names is important for inclusive scientometrics research, yet existing methods perform poorly on non-Western scholars. We address this gap for Chinese names, which appear in two forms, Hanzi and Pinyin, its Romanized form (e.g., Zhang Wei, Li Na). In international bibliographic records, names are often available only in Pinyin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23734v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Two Seconds per Day: Limitations of Circadian Burden Metrics in the Permanent Daylight Saving Time Debate</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-84-two-seconds-per-day-limitations"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23688v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-84-two-seconds-per-day-limitations</id>
-    <updated>2026-10-16T16:18:27+00:00</updated>
-    <summary type="html">&lt;p&gt;A 1410-word Letter to the Editor reporting a bug in a study published in PNAS. The authors of the original study executed their code to compute the yearly circadian burden with an Earth rotating backwards: the sun rising in the West, setting on the East. The authors have acknowledged the error and re-executed the code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23688v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Revisiting the Fairness of Pure Nash Equilibria of Round-Robin</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-85-revisiting-the-fairness-of-pure"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23686v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-85-revisiting-the-fairness-of-pure</id>
-    <updated>2026-10-16T16:14:58+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove that for additive valuations, not every pure Nash equilibrium of the Round-Robin mechanism induces an allocation that is envy-free up to one good (EF1) with respect to the agents&amp;apos; true valuations. This corrects an earlier claim of Amanatidis et al. (WINE 2021; Math. Oper. Res. 2024).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23686v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Uniform-Price Mechanism Design for Automated Market Makers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-86-uniform-price-mechanism-design-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23547v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-86-uniform-price-mechanism-design-for</id>
-    <updated>2026-10-16T14:40:13+00:00</updated>
-    <summary type="html">&lt;p&gt;Automated market makers (AMMs) are central to decentralized exchanges, but their reserve curves make mechanism design different from classical double auctions. We study a batch double auction with buyers, sellers, and a liquidity-nondecreasing AMM: post-trade reserves must have weakly larger product than the initial reserves. Each user has two-dimensional private information: a unit value and a demand or supply quantity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23547v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Stationary analysis of adaptive aspiration dynamics in graph-structured games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-87-stationary-analysis-of-adaptive-aspiration"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23418v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-87-stationary-analysis-of-adaptive-aspiration</id>
-    <updated>2026-10-16T13:08:03+00:00</updated>
-    <summary type="html">&lt;p&gt;Aspiration dynamics can favor cooperation on finite graphs through a purely local satisfaction mechanism. In the model studied here, individuals compare their payoffs with adaptive aspiration levels and revise their strategies through a self-switching Fermi rule. Although the aspirations are continuous and endogenous, the resulting finite-population process has a unique stationary distribution for every finite selection intensity and every finite connected graph under degree-normalized average payoffs when restricted to the compact forward-invariant state space in which aspirations lie in the payoff interval.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23418v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Contracting with an Agent under Model Mismatch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-88-contracting-with-an-agent-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23402v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-88-contracting-with-an-agent-under</id>
-    <updated>2026-10-16T12:56:31+00:00</updated>
-    <summary type="html">&lt;p&gt;In the classical principal-agent setting, the principal delegates some task to the agent, who receives a payment conditioned on the outcome of the task, which in turn benefits the principal. To align their objectives, the principal designs a contract that incentivizes the agent to take actions beneficial to the principal. In practice, however, the agent may act under misspecified beliefs about the underlying environment, leading to systematically suboptimal decisions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23402v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bayesian Learning of Parametric Mean Field Games with Common Noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-89-bayesian-learning-of-parametric-mean"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23387v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-89-bayesian-learning-of-parametric-mean</id>
-    <updated>2026-10-16T12:48:04+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the inverse problem of recovering unknown parameters governing the dynamics and rewards of Mean Field Games (MFGs) from partial observations of population trajectories, made stochastic by common noise. The observer seeks to recover a consistent parameter $θ$ via Bayesian inference, facing the challenge that evaluating the likelihood requires solving a new Nash equilibrium (NE) for each candidate $θ$. Due to common noise, the mean-field evolution is stochastic and equilibrium policies are population dependent, which makes solving for each parameter computationally expensive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23387v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Trembling toward Duverger: Convergence and Cycles in Synchronous Plurality Dynamics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-90-trembling-toward-duverger-convergence-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23330v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-90-trembling-toward-duverger-convergence-and</id>
-    <updated>2026-10-16T11:32:50+00:00</updated>
-    <summary type="html">&lt;p&gt;Duverger&amp;apos;s law states that plurality elections tend to concentrate support on two candidates. Pivotal-voter models typically derive this from aggregate uncertainty about votes, so that two-candidate competition emerges in the limit of large electorates. We instead propose a model for a fixed, finite population.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23330v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Imprecise Probabilities, Dutch-Book Coherence, and Epistemic Humility Under Severe Model Misspecification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-29-imprecise-probabilities-dutch-book-coherence"/>
+    <link rel="related" href="https://philsci-archive.pitt.edu/archive/26101/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-29-imprecise-probabilities-dutch-book-coherence</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical Bayesian conditioning collapses when an agent&amp;apos;s prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses. We prove a representation theorem for convex credal sets under $\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://philsci-archive.pitt.edu/archive/26101/&quot;&gt;PhilSci-Archive / Formal Epistemology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #epistemology #decision-theory #philosophy-of-science&lt;/p&gt;</summary>
   </entry>
 </feed>

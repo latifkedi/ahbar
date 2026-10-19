@@ -5,45 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-formal-proofs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-formal-proofs.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Octonions and the Standard Model (Part 15)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-octonions-and-the-standard-model"/>
-    <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-octonions-and-the-standard-model</id>
-    <updated>2026-07-18T17:56:16+00:00</updated>
-    <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
+    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-improved-polymath-bounds-on-dense"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-improved-polymath-bounds-on-dense</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Will it be a golden age or a dark age for mathematics (and science)?. [This is a guest post by Francesco Maggi.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-24-will-it-be-a-golden"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-24-will-it-be-a-golden</id>
-    <updated>2026-10-18T14:59:49+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Francesco Maggi. This blog post was initially written in a different file format and converted using AI. — T.] Large language models (LLMs) and the research systems built around them (and commonly known as “artificial intelligence”) have demonstrated remarkable abilities in generating mathematical proofs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+    <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-byzantine-fault-injection-and-split"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-byzantine-fault-injection-and-split</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Starting a new journal. [This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-25-starting-a-new-journal"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-25-starting-a-new-journal</id>
-    <updated>2026-10-18T03:11:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+    <title>Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-05-verified-tool-use-trajectories-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-05-verified-tool-use-trajectories-for</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Some of my recent talks and interviews</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-26-some-of-my-recent-talks"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/17/some-of-my-recent-talks-and-interviews/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-26-some-of-my-recent-talks</id>
-    <updated>2026-10-17T17:09:00+00:00</updated>
-    <summary type="html">&lt;p&gt;As readers of this blog have no doubt noticed, I have recently turned over the majority of content on this blog to guest posts from other authors, either within the mathematics community or adjacent to it. In this post I record some content coming from my own talks and interviews in this time period. “The […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/17/some-of-my-recent-talks-and-interviews/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SAIR Open Math OS released. As announced a few weeks ago, the SAIR Open Math OS is now soft launched.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-27-sair-open-math-os-released"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-27-sair-open-math-os-released</id>
-    <updated>2026-10-16T17:32:00+00:00</updated>
-    <summary type="html">&lt;p&gt;As announced a few weeks ago, the SAIR Open Math OS is now soft launched. It offers services and web interfaces similar to frontier AI models, though currently we are hosting existing open math models (DeepSeek V4.1 Flash, Kimi K3, and GLM 5.3 Flash) which are roughly a year or so behind the current frontier […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+    <title>Symbolic &amp; SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-symbolic-smt-guided-equivalence-checking"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.08115"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-symbolic-smt-guided-equivalence-checking</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08115&quot;&gt;arXiv Cryptography (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #smart-contracts #formal-proofs #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

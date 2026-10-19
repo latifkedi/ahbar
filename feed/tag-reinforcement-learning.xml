@@ -5,29 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
-  <entry>
-    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-10-introducing-gemini-3-8-flash"/>
-    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-10-introducing-gemini-3-8-flash</id>
-    <updated>2026-09-02T16:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Learning to Think and Explore in 3D World. We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-learning-to-think-and-explore"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21783"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-learning-to-think-and-explore</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and observations (rendered images). Each rollout begins from an initial first-person view and a visual question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21783&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bayesian Learning of Parametric Mean Field Games with Common Noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-89-bayesian-learning-of-parametric-mean"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23387v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-89-bayesian-learning-of-parametric-mean</id>
-    <updated>2026-10-16T12:48:04+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the inverse problem of recovering unknown parameters governing the dynamics and rewards of Mean Field Games (MFGs) from partial observations of population trajectories, made stochastic by common noise. The observer seeks to recover a consistent parameter $θ$ via Bayesian inference, facing the challenge that evaluating the likelihood requires solving a new Nash equilibrium (NE) for each candidate $θ$. Due to common noise, the mean-field evolution is stochastic and equilibrium policies are population dependent, which makes solving for each parameter computationally expensive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23387v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
 </feed>

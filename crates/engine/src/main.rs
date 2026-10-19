@@ -12,13 +12,17 @@ use chrono::{Datelike, NaiveDate, Utc, Weekday};
 use std::collections::HashMap;
 use std::env;
 use std::fs;
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args: Vec<String> = env::args().collect();
     let offline_mode = args.iter().any(|a| a == "--offline");
-    let root_dir = env::current_dir()?;
+    let root_dir = args
+        .windows(2)
+        .find(|w| w[0] == "--root")
+        .map(|w| PathBuf::from(&w[1]))
+        .unwrap_or(env::current_dir()?);
 
     let now = Utc::now();
     let date_str = args
@@ -174,14 +178,14 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-fn compute_issue_number(root_dir: &PathBuf, date_str: &str) -> u32 {
+fn compute_issue_number(root_dir: &Path, date_str: &str) -> u32 {
     let archive_path = root_dir.join("data").join("archive.json");
     if let Ok(raw) = fs::read_to_string(archive_path) {
         if let Ok(entries) = serde_json::from_str::<Vec<ahbar_shared::ArchiveEntry>>(&raw) {
             if let Some(existing) = entries.iter().find(|e| e.date == date_str) {
                 return existing.issue_number;
             }
-            return (entries.len() as u32) + 1;
+            return entries.iter().map(|e| e.issue_number).max().unwrap_or(0) + 1;
         }
     }
     1

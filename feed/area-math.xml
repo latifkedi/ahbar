@@ -5,77 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-math.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-math.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Octonions and the Standard Model (Part 15)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-octonions-and-the-standard-model"/>
-    <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-octonions-and-the-standard-model</id>
-    <updated>2026-07-18T17:56:16+00:00</updated>
-    <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
+    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-improved-polymath-bounds-on-dense"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-improved-polymath-bounds-on-dense</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spectral networks, finite webs, and the $T_3$ cubic differential</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-spectral-networks-finite-webs-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23752v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-spectral-networks-finite-webs-and</id>
-    <updated>2026-10-16T16:57:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We describe spectral networks for cubic differentials on $\mathbf{P}^1$ with exactly three poles all of order two, following observations of Hollands-Neitzke. To do so, we give a precise definition and establish some basic properties of a class of finite webs (corresponding to BPS states in physics) in the cubic differential setting, including their non-vanishing central charge. Turning to the example, we prove that at rational angles the network is totally degenerate; the number of walls and Stokes regions is explicitly computed and depends on an arithmetic criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23752v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #high-energy&lt;/p&gt;</summary>
+    <title>Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-08-global-regularity-for-fractional-navier"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.03902"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-08-global-regularity-for-fractional-navier</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\Delta)^\alpha u$ remain regular below $\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\infty$ regularity for $\alpha &amp;gt; 5/4 - \varepsilon_0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03902&quot;&gt;arXiv Mathematics (math.AP)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The semiring of spectral duality skeletons: cancellation, characters and factorization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-the-semiring-of-spectral-duality"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23684v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-the-semiring-of-spectral-duality</id>
-    <updated>2026-10-16T16:12:57+00:00</updated>
-    <summary type="html">&lt;p&gt;Weighted dual skeletons are the combinatorial core of spectral duality structures. Their isomorphism classes, under Cartesian product and disjoint union, form a semiring graded by the degree. We identify it completely: a class is determined by its degree, a symmetric element of the group semiring N_0[R] and its number of fixed points.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23684v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>From Alpha to Execution: Trading Horizons, Regimes, and Schedules under Concave Impact and Hurst Scaling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-22-from-alpha-to-execution-trading"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23749v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-22-from-alpha-to-execution-trading</id>
-    <updated>2026-10-16T16:55:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical execution models assume linear impact, diffusive prices, and an exogenous horizon. We study execution under concave power-law impact and Hurst-scaled price fluctuations, and make two contributions. First, we choose the execution horizon by maximizing the Sharpe ratio of the trade&amp;apos;s realized P&amp;amp;L.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23749v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #optimization&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Recursive Operator Localization and Spectral Gap Descent via the Geometry of Local Spectral Expansion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-23-recursive-operator-localization-and-spectral"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23695v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-23-recursive-operator-localization-and-spectral</id>
-    <updated>2026-10-16T16:23:52+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Will it be a golden age or a dark age for mathematics (and science)?. [This is a guest post by Francesco Maggi.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-24-will-it-be-a-golden"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-24-will-it-be-a-golden</id>
-    <updated>2026-10-18T14:59:49+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Francesco Maggi. This blog post was initially written in a different file format and converted using AI. — T.] Large language models (LLMs) and the research systems built around them (and commonly known as “artificial intelligence”) have demonstrated remarkable abilities in generating mathematical proofs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Starting a new journal. [This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-25-starting-a-new-journal"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-25-starting-a-new-journal</id>
-    <updated>2026-10-18T03:11:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Some of my recent talks and interviews</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-26-some-of-my-recent-talks"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/17/some-of-my-recent-talks-and-interviews/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-26-some-of-my-recent-talks</id>
-    <updated>2026-10-17T17:09:00+00:00</updated>
-    <summary type="html">&lt;p&gt;As readers of this blog have no doubt noticed, I have recently turned over the majority of content on this blog to guest posts from other authors, either within the mathematics community or adjacent to it. In this post I record some content coming from my own talks and interviews in this time period. “The […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/17/some-of-my-recent-talks-and-interviews/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SAIR Open Math OS released. As announced a few weeks ago, the SAIR Open Math OS is now soft launched.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-27-sair-open-math-os-released"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-27-sair-open-math-os-released</id>
-    <updated>2026-10-16T17:32:00+00:00</updated>
-    <summary type="html">&lt;p&gt;As announced a few weeks ago, the SAIR Open Math OS is now soft launched. It offers services and web interfaces similar to frontier AI models, though currently we are hosting existing open math models (DeepSeek V4.1 Flash, Kimi K3, and GLM 5.3 Flash) which are roughly a year or so behind the current frontier […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/16/sair-open-math-os-released/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+    <title>Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \ge 3$ over Number Fields</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-09-effective-chabauty-kim-method-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.04118"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-09-effective-chabauty-kim-method-for</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Determining rational points on curves of genus $g \ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04118&quot;&gt;Lean Community / arXiv math.AG&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

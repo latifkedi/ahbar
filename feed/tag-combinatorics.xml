@@ -5,61 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-doom-gpu-flame-graphs"/>
-    <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-doom-gpu-flame-graphs</id>
-    <updated>2025-04-30T14:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Spectral networks, finite webs, and the $T_3$ cubic differential</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-spectral-networks-finite-webs-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23752v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-spectral-networks-finite-webs-and</id>
-    <updated>2026-10-16T16:57:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We describe spectral networks for cubic differentials on $\mathbf{P}^1$ with exactly three poles all of order two, following observations of Hollands-Neitzke. To do so, we give a precise definition and establish some basic properties of a class of finite webs (corresponding to BPS states in physics) in the cubic differential setting, including their non-vanishing central charge. Turning to the example, we prove that at rational angles the network is totally degenerate; the number of walls and Stokes regions is explicitly computed and depends on an arithmetic criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23752v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #high-energy&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The semiring of spectral duality skeletons: cancellation, characters and factorization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-the-semiring-of-spectral-duality"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23684v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-the-semiring-of-spectral-duality</id>
-    <updated>2026-10-16T16:12:57+00:00</updated>
-    <summary type="html">&lt;p&gt;Weighted dual skeletons are the combinatorial core of spectral duality structures. Their isomorphism classes, under Cartesian product and disjoint union, form a semiring graded by the degree. We identify it completely: a class is determined by its degree, a symmetric element of the group semiring N_0[R] and its number of fixed points.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23684v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Holographic two-point functions across a PT symmetry-breaking transition</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-33-holographic-two-point-functions-across"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23580v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-33-holographic-two-point-functions-across</id>
-    <updated>2026-10-16T15:03:06+00:00</updated>
-    <summary type="html">&lt;p&gt;In parity-time (PT)-symmetric non-Hermitian systems, an exceptional point, where eigenvalues and eigenvectors coalesce, typically separates a real spectrum from complex-conjugate eigenvalues. In logarithmic conformal field theories (LCFTs), such an exceptional point appears in the spectrum of scaling dimensions. Holographic models of LCFTs, such as the dipole model, are built exactly at this point.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23580v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-57-optimal-threshold-implementations-of-all"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-57-optimal-threshold-implementations-of-all</id>
-    <updated>2026-10-12T12:53:16+00:00</updated>
-    <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LigRNA: High-accuracy prediction of RNA-ligand binding sites via dynamic chemical complementarity and language model encoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-47-ligrna-high-accuracy-prediction-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.15.759315v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-47-ligrna-high-accuracy-prediction-of</id>
-    <updated>2026-10-17T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;RNA-binding small molecules represent a validated therapeutic modality, yet pinpointing their exact RNA binding sites remains critical for mechanistic understanding and drug optimization. Experimental methods, while precise, are costly and low-throughput, necessitating robust computational alternatives. Approaches based on static feature concatenation may overlook input-dependent relationships between RNA residues and ligand functional groups.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.15.759315v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Stationary analysis of adaptive aspiration dynamics in graph-structured games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-87-stationary-analysis-of-adaptive-aspiration"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23418v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-87-stationary-analysis-of-adaptive-aspiration</id>
-    <updated>2026-10-16T13:08:03+00:00</updated>
-    <summary type="html">&lt;p&gt;Aspiration dynamics can favor cooperation on finite graphs through a purely local satisfaction mechanism. In the model studied here, individuals compare their payoffs with adaptive aspiration levels and revise their strategies through a self-switching Fermi rule. Although the aspirations are continuous and endogenous, the resulting finite-population process has a unique stationary distribution for every finite selection intensity and every finite connected graph under degree-normalized average payoffs when restricted to the compact forward-invariant state space in which aspirations lie in the payoff interval.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23418v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
+    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-improved-polymath-bounds-on-dense"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-improved-polymath-bounds-on-dense</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

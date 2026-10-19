@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-68-stochlob-heavy-tailed-score-matching"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21081v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-68-stochlob-heavy-tailed-score-matching</id>
-    <updated>2026-10-15T01:33:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Score-based diffusion methods usually perturb data with Brownian Gaussian noise, corresponding to a light-tailed forward stochastic differential equation (SDE). For market time series this SDE can be a poor abstraction: limit order book (LOB) order flow is heavy-tailed, bursty, and occasionally jump-like. We study STOCHLOB, a training-only score-matching framework that changes the forward diffusion corruption law while leaving the deployed predictor deterministic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21081v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #clean-tech&lt;/p&gt;</summary>
+    <title>Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-24-optimal-execution-and-adverse-selection"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.09522"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-24-optimal-execution-and-adverse-selection</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\text{ bps}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09522&quot;&gt;arXiv Quantitative Finance (q-fin.TR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats&lt;/p&gt;</summary>
   </entry>
 </feed>

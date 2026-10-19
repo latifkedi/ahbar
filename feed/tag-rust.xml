@@ -5,37 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-60-pq-spending-for-stealth-address"/>
-    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-60-pq-spending-for-stealth-address</id>
-    <updated>2026-09-28T01:09:06+00:00</updated>
-    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-63-safe-mem-secure-agentic-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22959v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-63-safe-mem-secure-agentic-memory</id>
-    <updated>2026-10-16T05:29:55+00:00</updated>
-    <summary type="html">&lt;p&gt;Large language model (LLM) agents increasingly rely on persistent memory to support long-term reasoning and personalized interactions. However, information collected from external sources can introduce security risks when untrusted claims (i.e., atomic statements) are later treated as authorized preferences, policies, or permissions. Existing defenses typically rely on content-based filtering or coarse-grained provenance tracking, which either fail to prevent unauthorized memory use or block legitimate information, sacrificing memory utility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22959v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-42-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-42-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Nuclear Deal That Could Save NATO</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-78-the-nuclear-deal-that-could"/>
-    <link rel="related" href="https://www.foreignaffairs.com/europe/nuclear-deal-could-save-nato"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-78-the-nuclear-deal-that-could</id>
-    <updated>2026-10-16T08:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Former U.S. NATO ambassador Ivo Daalder argues that the scramble to shore up Europe&amp;apos;s conventional defense risks overlooking the continent&amp;apos;s greatest security weakness: nuclear deterrence. Europe knows it can&amp;apos;t fully trust Washington&amp;apos;s guarantee anymore. But he lays out a middle path between dependence and nuclearization that would extend France&amp;apos;s and the United Kingdom&amp;apos;s nuclear umbrella—a course, he argues, that could even repair the transatlantic alliance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/europe/nuclear-deal-could-save-nato&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #rust&lt;/p&gt;</summary>
+    <title>Zero-Copy Region Inference for Asynchronous Rust State Machines</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-zero-copy-region-inference-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-01-zero-copy-region-inference-for</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
   </entry>
 </feed>

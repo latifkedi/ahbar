@@ -1,23 +1,48 @@
 // Ahbar — Cloudflare Worker + D1 Edge API for Passwordless Subscriptions & Signal/Noise Votes
-// Mirrors crates/api (Axum) so you can run either self-hosted Rust or zero-cost Cloudflare Workers.
+// Mirrors crates/api so you can run either self-hosted Rust or zero-cost Cloudflare Workers.
 
 const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, Authorization"
+  "Access-Control-Allow-Headers": "Content-Type, Authorization",
+  "X-Content-Type-Options": "nosniff"
 };
 
-async function signToken(email, action, secret) {
+function isValidEmail(raw) {
+  const s = (raw || "").trim();
+  if (s.length < 5 || s.length > 254 || /\s/.test(s)) return false;
+  const parts = s.split("@");
+  if (parts.length !== 2) return false;
+  const [local, domain] = parts;
+  if (!local || local.length > 64 || local.startsWith(".") || local.endsWith(".")) return false;
+  if (domain.length < 3 || !domain.includes(".") || domain.startsWith(".") || domain.endsWith(".")) return false;
+  return /^[A-Za-z0-9.-]+$/.test(domain);
+}
+
+function constantTimeEqual(a, b) {
+  if (typeof a !== "string" || typeof b !== "string" || a.length !== b.length) {
+    return false;
+  }
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) {
+    diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return diff === 0;
+}
+
+// Identical to crates/shared/src/auth.rs: HMAC-SHA256("ahbar:v1:" + lowercase_email) truncated to 16 bytes (32 hex chars)
+async function signSubscriberToken(email, secret) {
   const enc = new TextEncoder();
   const key = await crypto.subtle.importKey(
     "raw",
-    enc.encode(secret || "ahbar-default-dev-secret"),
+    enc.encode(secret || "ahbar-default-dev-hmac-secret-key"),
     { name: "HMAC", hash: "SHA-256" },
     false,
     ["sign"]
   );
-  const sig = await crypto.subtle.sign("HMAC", key, enc.encode(`${email.trim().toLowerCase()}|${action}`));
-  return Array.from(new Uint8Array(sig))
+  const msg = `ahbar:v1:${(email || "").trim().toLowerCase()}`;
+  const sig = await crypto.subtle.sign("HMAC", key, enc.encode(msg));
+  return Array.from(new Uint8Array(sig).slice(0, 16))
     .map((b) => b.toString(16).padStart(2, "0"))
     .join("");
 }
@@ -32,23 +57,48 @@ export default {
 
     // 1. POST /api/subscribe (Create or update passwordless subscription)
     if (request.method === "POST" && url.pathname === "/api/subscribe") {
-      const body = await request.json();
+      let body;
+      try {
+        body = await request.json();
+      } catch {
+        return Response.json({ ok: false, error: "Invalid JSON" }, { status: 400, headers: CORS_HEADERS });
+      }
       const email = (body.email || "").trim().toLowerCase();
-      if (!email || !email.includes("@")) {
+      if (!isValidEmail(email)) {
         return Response.json({ ok: false, message: "Invalid email address" }, { status: 400, headers: CORS_HEADERS });
       }
 
-      const mode = body.mode || "hybrid";
-      const density = body.density || "compact";
-      const frequency = body.frequency || "daily";
-      const contentFilter = body.content_filter || "all";
-      const areasJson = JSON.stringify(body.areas || ["cs", "ai", "math", "physics", "systems"]);
-      const tagsJson = JSON.stringify(body.tags || []);
+      const expectedToken = await signSubscriberToken(email, env.AHBAR_HMAC_SECRET);
+      const hasValidToken = typeof body.token === "string" && constantTimeEqual(body.token.trim().toLowerCase(), expectedToken);
+
+      const mode = ["standard", "personalized", "hybrid"].includes(body.mode) ? body.mode : "standard";
+      const density = ["three-per-area", "three_per_area", "compact", "comprehensive"].includes(body.density) ? body.density : "three-per-area";
+      const frequency = ["daily", "weekdays_only", "weekend_only"].includes(body.frequency) ? body.frequency : "daily";
+      const contentFilter = ["all", "papers_only", "code_only"].includes(body.content_filter) ? body.content_filter : "all";
+      const safeAreas = Array.isArray(body.areas) ? body.areas.slice(0, 10) : ["cs", "ai", "math", "physics", "systems", "bio", "crypto", "econ", "geopolitics", "philosophy"];
+      const safeTags = Array.isArray(body.tags)
+        ? body.tags.filter((t) => typeof t === "string" && /^[A-Za-z0-9_-]{1,40}$/.test(t)).slice(0, 30)
+        : [];
+      const areasJson = JSON.stringify(safeAreas);
+      const tagsJson = JSON.stringify(safeTags);
 
       if (env.DB) {
+        const existing = await env.DB.prepare("SELECT email FROM subscribers WHERE email = ?1").bind(email).first();
+        if (existing && !hasValidToken) {
+          return Response.json(
+            {
+              ok: true,
+              email,
+              requires_magic_link: true,
+              message: "This address is already subscribed. Use the magic link in your email to modify preferences."
+            },
+            { headers: CORS_HEADERS }
+          );
+        }
+
         await env.DB.prepare(
           `INSERT INTO subscribers (email, mode, density, frequency, content_filter, areas_json, tags_json, verified, updated_at)
-           VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, 1, datetime('now'))
+           VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, datetime('now'))
            ON CONFLICT(email) DO UPDATE SET
              mode = excluded.mode,
              density = excluded.density,
@@ -56,46 +106,63 @@ export default {
              content_filter = excluded.content_filter,
              areas_json = excluded.areas_json,
              tags_json = excluded.tags_json,
+             verified = excluded.verified,
              updated_at = datetime('now')`
         )
-          .bind(email, mode, density, frequency, contentFilter, areasJson, tagsJson)
+          .bind(email, mode, density, frequency, contentFilter, areasJson, tagsJson, hasValidToken ? 1 : 0)
           .run();
       }
 
-      const prefsToken = await signToken(email, "prefs", env.AHBAR_HMAC_SECRET);
       return Response.json(
         {
           ok: true,
-          message: "Preferences saved. Your passwordless daily dispatch is active.",
-          prefs_token: prefsToken
+          email,
+          message: "Preferences saved. Your passwordless daily dispatch is active."
         },
         { headers: CORS_HEADERS }
       );
     }
 
-    // 2. GET /api/unsubscribe (1-click RFC 8058 unsubscribe)
-    if (url.pathname === "/api/unsubscribe") {
-      const email = (url.searchParams.get("email") || "").trim().toLowerCase();
-      const token = url.searchParams.get("token") || "";
-      const expected = await signToken(email, "unsub", env.AHBAR_HMAC_SECRET);
-      if (!email || token !== expected) {
+    // 2. GET or POST /api/unsubscribe (1-click RFC 8058 unsubscribe)
+    if (url.pathname === "/api/unsubscribe" && (request.method === "GET" || request.method === "POST")) {
+      let email = (url.searchParams.get("email") || "").trim().toLowerCase();
+      let token = (url.searchParams.get("token") || "").trim().toLowerCase();
+      if (request.method === "POST" && (!email || !token)) {
+        try {
+          const body = await request.json();
+          email = (body.email || email).trim().toLowerCase();
+          token = (body.token || token).trim().toLowerCase();
+        } catch {
+          // ignore non-JSON POST body when query params are used
+        }
+      }
+      const expected = await signSubscriberToken(email, env.AHBAR_HMAC_SECRET);
+      if (!isValidEmail(email) || !constantTimeEqual(token, expected)) {
         return Response.json({ ok: false, message: "Invalid unsubscribe signature" }, { status: 403, headers: CORS_HEADERS });
       }
       if (env.DB) {
         await env.DB.prepare("DELETE FROM subscribers WHERE email = ?1").bind(email).run();
       }
-      return Response.json({ ok: true, message: `Unsubscribed ${email} from Ahbar.` }, { headers: CORS_HEADERS });
+      return Response.json({ ok: true, unsubscribed: true, message: `Unsubscribed ${email} from Ahbar.` }, { headers: CORS_HEADERS });
     }
 
     // 3. POST /api/vote (Signal / Noise item feedback)
     if (request.method === "POST" && url.pathname === "/api/vote") {
-      const body = await request.json();
-      const itemId = (body.item_id || "").trim();
+      let body;
+      try {
+        body = await request.json();
+      } catch {
+        return Response.json({ ok: false, error: "Invalid JSON" }, { status: 400, headers: CORS_HEADERS });
+      }
+      const itemId = typeof body.item_id === "string" ? body.item_id.trim() : "";
+      if (!/^[A-Za-z0-9_-]{1,120}$/.test(itemId)) {
+        return Response.json({ ok: false, error: "Invalid item_id" }, { status: 400, headers: CORS_HEADERS });
+      }
       const vote = body.vote === "noise" ? "noise" : "signal";
       const ip = request.headers.get("CF-Connecting-IP") || "anon";
-      const voterHash = await signToken(ip, itemId, env.AHBAR_HMAC_SECRET);
+      const voterHash = await signSubscriberToken(`${ip}|${itemId}`, env.AHBAR_HMAC_SECRET);
 
-      if (env.DB && itemId) {
+      if (env.DB) {
         await env.DB.prepare(
           `INSERT INTO item_votes (item_id, vote, voter_hash)
            VALUES (?1, ?2, ?3)

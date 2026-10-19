@@ -5,77 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-cs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-cs.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Linux 7.3 Released. Linus Torvalds has released the 7.3 kernel, as expected.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-linux-7-3-released"/>
-    <link rel="related" href="https://lwn.net/Articles/1101143/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-01-linux-7-3-released</id>
-    <updated>2026-10-19T07:23:57Z</updated>
-    <summary type="html">&lt;p&gt;Linus Torvalds has released the 7.3 kernel, as expected. It&amp;apos;s Sunday afternoon, and this week I somehow kept my wits together long enough to keep track of the day of the week, so the release isn&amp;apos;t randomly delayed. Will wonders never cease? Anyway, nothing very special seems to have happened this last week, so as expected the final 7.3 is out, and thus tomorrow the merge window for 7.4 opens.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101143/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Zero-Copy Region Inference for Asynchronous Rust State Machines</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-zero-copy-region-inference-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-01-zero-copy-region-inference-for</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RepRapMicron</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-reprapmicron"/>
-    <link rel="related" href="https://github.com/VikOlliver/RepRapMicron/wiki"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-reprapmicron</id>
-    <updated>2026-10-18T13:48:48Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/VikOlliver/RepRapMicron/wiki&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-byzantine-fault-injection-and-split"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-byzantine-fault-injection-and-split</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Open MicroManipulator – A sub-micrometer 3D motion control plattform</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-open-micromanipulator-a-sub-micrometer"/>
-    <link rel="related" href="https://github.com/0x23/MicroManipulatorStepper"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-open-micromanipulator-a-sub-micrometer</id>
-    <updated>2026-10-18T11:16:22Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/0x23/MicroManipulatorStepper&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A new way to think about borrow checking (in reverse). Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-04-a-new-way-to-think"/>
-    <link rel="related" href="https://verdagon.dev/blog/reverse-borrow-checking"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-04-a-new-way-to-think</id>
-    <updated>2026-10-18T12:11:13Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://verdagon.dev/blog/reverse-borrow-checking&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PalmOS Lemmings</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-05-palmos-lemmings"/>
-    <link rel="related" href="https://github.com/ardiri/palmos-lemmings"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-05-palmos-lemmings</id>
-    <updated>2026-10-18T17:56:59Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/ardiri/palmos-lemmings&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Show HN: WhatsApp MCP running free on Cloudflare</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-show-hn-whatsapp-mcp-running"/>
-    <link rel="related" href="https://github.com/finereli/whatsapp-mcp"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-show-hn-whatsapp-mcp-running</id>
-    <updated>2026-10-18T21:36:10Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/finereli/whatsapp-mcp&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Someone behind the software</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-someone-behind-the-software"/>
-    <link rel="related" href="https://karrisaarinen.com/posts/someone-behind-the-software/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-someone-behind-the-software</id>
-    <updated>2026-10-18T16:32:00Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://karrisaarinen.com/posts/someone-behind-the-software/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>There&apos;s never been a better time to go into math (by: 3blue1brown) [video]</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-08-there-s-never-been-a"/>
-    <link rel="related" href="https://www.youtube.com/watch?v=LKrwhjOI8Nc"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-08-there-s-never-been-a</id>
-    <updated>2026-10-17T23:26:35Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=LKrwhjOI8Nc&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>macOS 15.8.2 Breaks OpenGL</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-09-macos-15-8-2-breaks"/>
-    <link rel="related" href="https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-09-macos-15-8-2-breaks</id>
-    <updated>2026-10-18T15:26:06Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-deterministic-b-tree-compaction-under"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-deterministic-b-tree-compaction-under</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
   </entry>
 </feed>

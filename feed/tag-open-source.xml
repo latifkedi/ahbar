@@ -5,85 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-source.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-source.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Linux 7.3 Released. Linus Torvalds has released the 7.3 kernel, as expected.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-linux-7-3-released"/>
-    <link rel="related" href="https://lwn.net/Articles/1101143/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-01-linux-7-3-released</id>
-    <updated>2026-10-19T07:23:57Z</updated>
-    <summary type="html">&lt;p&gt;Linus Torvalds has released the 7.3 kernel, as expected. It&amp;apos;s Sunday afternoon, and this week I somehow kept my wits together long enough to keep track of the day of the week, so the release isn&amp;apos;t randomly delayed. Will wonders never cease? Anyway, nothing very special seems to have happened this last week, so as expected the final 7.3 is out, and thus tomorrow the merge window for 7.4 opens.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101143/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RepRapMicron</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-reprapmicron"/>
-    <link rel="related" href="https://github.com/VikOlliver/RepRapMicron/wiki"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-reprapmicron</id>
-    <updated>2026-10-18T13:48:48Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/VikOlliver/RepRapMicron/wiki&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Open MicroManipulator – A sub-micrometer 3D motion control plattform</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-open-micromanipulator-a-sub-micrometer"/>
-    <link rel="related" href="https://github.com/0x23/MicroManipulatorStepper"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-open-micromanipulator-a-sub-micrometer</id>
-    <updated>2026-10-18T11:16:22Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/0x23/MicroManipulatorStepper&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A new way to think about borrow checking (in reverse). Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-04-a-new-way-to-think"/>
-    <link rel="related" href="https://verdagon.dev/blog/reverse-borrow-checking"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-04-a-new-way-to-think</id>
-    <updated>2026-10-18T12:11:13Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://verdagon.dev/blog/reverse-borrow-checking&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PalmOS Lemmings</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-05-palmos-lemmings"/>
-    <link rel="related" href="https://github.com/ardiri/palmos-lemmings"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-05-palmos-lemmings</id>
-    <updated>2026-10-18T17:56:59Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/ardiri/palmos-lemmings&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Show HN: WhatsApp MCP running free on Cloudflare</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-show-hn-whatsapp-mcp-running"/>
-    <link rel="related" href="https://github.com/finereli/whatsapp-mcp"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-show-hn-whatsapp-mcp-running</id>
-    <updated>2026-10-18T21:36:10Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/finereli/whatsapp-mcp&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-18-hybrid-reasoning-agents-llm-agents"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.18861"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-18-hybrid-reasoning-agents-llm-agents</id>
-    <updated>2026-10-18T20:48:14Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.18861&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Someone behind the software</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-someone-behind-the-software"/>
-    <link rel="related" href="https://karrisaarinen.com/posts/someone-behind-the-software/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-someone-behind-the-software</id>
-    <updated>2026-10-18T16:32:00Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://karrisaarinen.com/posts/someone-behind-the-software/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>There&apos;s never been a better time to go into math (by: 3blue1brown) [video]</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-08-there-s-never-been-a"/>
-    <link rel="related" href="https://www.youtube.com/watch?v=LKrwhjOI8Nc"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-08-there-s-never-been-a</id>
-    <updated>2026-10-17T23:26:35Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=LKrwhjOI8Nc&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>macOS 15.8.2 Breaks OpenGL</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-09-macos-15-8-2-breaks"/>
-    <link rel="related" href="https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-09-macos-15-8-2-breaks</id>
-    <updated>2026-10-18T15:26:06Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-open-source-out-of-order"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-open-source-out-of-order</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

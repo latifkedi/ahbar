@@ -5,45 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-consensus.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-consensus.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-55-possible-futures-of-the-ethereum"/>
-    <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-55-possible-futures-of-the-ethereum</id>
-    <updated>2024-10-29T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>On the (In)stability of Adaptive Fee Mechanisms in Multi-Chain Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-58-on-the-in-stability-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23305v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-58-on-the-in-stability-of</id>
-    <updated>2026-10-16T11:08:32+00:00</updated>
-    <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How Much Screening Buys a Second? Speed, Selection, and the Maker&apos;s Spread</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-59-how-much-screening-buys-a"/>
-    <link rel="related" href="https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-59-how-much-screening-buys-a</id>
-    <updated>2026-10-15T13:04:19+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the spread a liquidity provider needs to break even against counterparties that can exploit a stale quote, and we place two defenses on a single scale: repricing sooner and screening informed flow. A break-even condition pins down the exact screening rate at which a slower maker matches a faster unscreened venue: the selection that buys back the extra staleness. The result requires only an integrable price innovation and therefore holds under jumps, atoms and infinite variance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #infosec #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-60-pq-spending-for-stealth-address"/>
-    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-60-pq-spending-for-stealth-address</id>
-    <updated>2026-09-28T01:09:06+00:00</updated>
-    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-61-9-key-moments-from-marc"/>
-    <link rel="related" href="https://a16zcrypto.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-61-9-key-moments-from-marc</id>
-    <updated>2026-08-07T18:21:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zcrypto.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
+    <title>Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-single-slot-finality-under-sub"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-single-slot-finality-under-sub</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

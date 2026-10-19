@@ -5,53 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>The Covering Radius of $\text{RM}(1,9)$ is Precisely $242$</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-56-the-covering-radius-of-text"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2529"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-56-the-covering-radius-of-text</id>
-    <updated>2026-10-18T14:48:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\rho(r,n)$ denote its covering radius, so that $\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\rho(1,n)$ was previously known only for $n\le 7$. It is known that $242\le\rho(1,9)\le 244$, but the exact determination of $\rho(1,9)$ has been a long-standing open question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2529&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-57-optimal-threshold-implementations-of-all"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-57-optimal-threshold-implementations-of-all</id>
-    <updated>2026-10-12T12:53:16+00:00</updated>
-    <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>On the (In)stability of Adaptive Fee Mechanisms in Multi-Chain Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-58-on-the-in-stability-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23305v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-58-on-the-in-stability-of</id>
-    <updated>2026-10-16T11:08:32+00:00</updated>
-    <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-62-echo-replacing-the-compliance-proxy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23030v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-62-echo-replacing-the-compliance-proxy</id>
-    <updated>2026-10-16T07:07:08+00:00</updated>
-    <summary type="html">&lt;p&gt;Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks. Existing optimization-based attacks share a single objective: maximize a token-level proxy of victim compliance---such as the likelihood of an affirmative prefix---computed on the prompt rather than the decoded reply. This proxy cannot distinguish a cautious hedge from a fully actionable harmful answer, leaving the search blind to what the model actually says.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23030v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-63-safe-mem-secure-agentic-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22959v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-63-safe-mem-secure-agentic-memory</id>
-    <updated>2026-10-16T05:29:55+00:00</updated>
-    <summary type="html">&lt;p&gt;Large language model (LLM) agents increasingly rely on persistent memory to support long-term reasoning and personalized interactions. However, information collected from external sources can introduce security risks when untrusted claims (i.e., atomic statements) are later treated as authorized preferences, policies, or permissions. Existing defenses typically rely on content-based filtering or coarse-grained provenance tracking, which either fail to prevent unauthorized memory use or block legitimate information, sacrificing memory utility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22959v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-42-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-42-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+    <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-hyperfold-prover-optimal-lattice-folding"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-hyperfold-prover-optimal-lattice-folding</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
   </entry>
 </feed>

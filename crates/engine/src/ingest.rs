@@ -1,12 +1,14 @@
 use ahbar_shared::{
-    extract_arxiv_links, resolve_canonical_tag, Area, SourceDescriptor, SourceHealthRecord,
-    SourceKind, SOURCES,
+    extract_arxiv_links, resolve_canonical_tag, sanitize_http_url, Area, SourceDescriptor,
+    SourceHealthRecord, SourceKind, SOURCES,
 };
 use chrono::Utc;
 use regex::Regex;
-use reqwest::Client;
+use reqwest::{redirect, Client};
 use serde::Deserialize;
 use std::time::{Duration, Instant};
+
+const MAX_FEED_BYTES: usize = 5 * 1024 * 1024;
 
 #[derive(Debug, Clone)]
 pub struct RawCandidate {
@@ -37,17 +39,42 @@ pub struct IngestResult {
 
 /// Fetches all configured primary sources in parallel using Tokio.
 pub async fn fetch_all_sources() -> IngestResult {
+    let redirect_policy = redirect::Policy::custom(|attempt| {
+        if attempt.previous().len() >= 5 {
+            return attempt.error("too many redirects");
+        }
+        let url = attempt.url();
+        let scheme = url.scheme();
+        if scheme != "https" && scheme != "http" {
+            return attempt.error("disallowed redirect scheme");
+        }
+        if let Some(host) = url.host_str() {
+            let h = host.to_ascii_lowercase();
+            if h == "localhost"
+                || h.starts_with("127.")
+                || h.starts_with("10.")
+                || h.starts_with("169.254.")
+                || h.starts_with("192.168.")
+                || h == "[::1]"
+            {
+                return attempt.error("disallowed redirect host");
+            }
+        }
+        attempt.follow()
+    });
+
     let client = Client::builder()
         .user_agent("AhbarBot/0.1 (+https://github.com/latifkedi/ahbar; technical-digest)")
+        .redirect(redirect_policy)
         .timeout(Duration::from_secs(18))
         .build()
         .expect("Failed to initialize HTTP client");
 
     let mut handles = Vec::new();
-    for src in SOURCES.iter().cloned() {
+    for src in SOURCES {
         let client_clone = client.clone();
         handles.push(tokio::spawn(async move {
-            fetch_single_source(&client_clone, &src).await
+            fetch_single_source(&client_clone, src).await
         }));
     }
 
@@ -74,7 +101,7 @@ async fn fetch_single_source(
     let start = Instant::now();
     let now_iso = Utc::now().to_rfc3339();
 
-    let resp = match client.get(src.url).send().await {
+    let mut resp = match client.get(src.url).send().await {
         Ok(r) => r,
         Err(e) => {
             return (
@@ -112,25 +139,47 @@ async fn fetch_single_source(
         );
     }
 
-    let bytes = match resp.bytes().await {
-        Ok(b) => b,
-        Err(e) => {
-            return (
-                Vec::new(),
-                SourceHealthRecord {
-                    id: src.id.to_string(),
-                    name: src.name.to_string(),
-                    area: src.area,
-                    url: src.url.to_string(),
-                    status: "read_error".to_string(),
-                    items_fetched: 0,
-                    latency_ms: start.elapsed().as_millis() as u64,
-                    last_checked: now_iso,
-                    error: Some(e.to_string()),
-                },
-            );
+    let mut bytes = Vec::new();
+    loop {
+        match resp.chunk().await {
+            Ok(Some(chunk)) => {
+                if bytes.len() + chunk.len() > MAX_FEED_BYTES {
+                    return (
+                        Vec::new(),
+                        SourceHealthRecord {
+                            id: src.id.to_string(),
+                            name: src.name.to_string(),
+                            area: src.area,
+                            url: src.url.to_string(),
+                            status: "payload_too_large".to_string(),
+                            items_fetched: 0,
+                            latency_ms: start.elapsed().as_millis() as u64,
+                            last_checked: now_iso,
+                            error: Some("Feed exceeded 5 MB limit".to_string()),
+                        },
+                    );
+                }
+                bytes.extend_from_slice(&chunk);
+            }
+            Ok(None) => break,
+            Err(e) => {
+                return (
+                    Vec::new(),
+                    SourceHealthRecord {
+                        id: src.id.to_string(),
+                        name: src.name.to_string(),
+                        area: src.area,
+                        url: src.url.to_string(),
+                        status: "read_error".to_string(),
+                        items_fetched: 0,
+                        latency_ms: start.elapsed().as_millis() as u64,
+                        last_checked: now_iso,
+                        error: Some(e.to_string()),
+                    },
+                );
+            }
         }
-    };
+    }
 
     let parsed = match src.kind {
         SourceKind::ArxivApi | SourceKind::RssAtom => parse_rss_or_atom(&bytes, src),
@@ -198,7 +247,7 @@ fn parse_rss_or_atom(bytes: &[u8], src: &SourceDescriptor) -> Result<Vec<RawCand
             })
             .unwrap_or_default();
 
-        let primary_link = entry
+        let raw_link = entry
             .links
             .iter()
             .find(|l| l.rel.as_deref() != Some("related"))
@@ -206,9 +255,9 @@ fn parse_rss_or_atom(bytes: &[u8], src: &SourceDescriptor) -> Result<Vec<RawCand
             .map(|l| l.href.clone())
             .unwrap_or_default();
 
-        if primary_link.is_empty() {
+        let Some(primary_link) = sanitize_http_url(&raw_link) else {
             continue;
-        }
+        };
 
         let mut pdf_url = entry
             .links
@@ -218,7 +267,7 @@ fn parse_rss_or_atom(bytes: &[u8], src: &SourceDescriptor) -> Result<Vec<RawCand
                     || l.href.ends_with(".pdf")
                     || l.href.contains("/pdf/")
             })
-            .map(|l| l.href.clone());
+            .and_then(|l| sanitize_http_url(&l.href));
 
         let mut html_ar5iv_url = None;
         let mut final_url = primary_link.clone();
@@ -229,7 +278,7 @@ fn parse_rss_or_atom(bytes: &[u8], src: &SourceDescriptor) -> Result<Vec<RawCand
             html_ar5iv_url = Some(ar5iv);
         } else if primary_link.contains("eprint.iacr.org/") {
             let trimmed = primary_link.trim_end_matches('/');
-            pdf_url = Some(format!("{}.pdf", trimmed));
+            pdf_url = sanitize_http_url(&format!("{}.pdf", trimmed));
         }
 
         let code_url = extract_github_repo_url(&raw_summary);
@@ -239,7 +288,7 @@ fn parse_rss_or_atom(bytes: &[u8], src: &SourceDescriptor) -> Result<Vec<RawCand
         if src.id == "lobsters" {
             // Lobste.rs puts the comments URL in entry.id or alternate link
             if entry.id.starts_with("https://lobste.rs/s/") {
-                discussion_url = Some(entry.id.clone());
+                discussion_url = sanitize_http_url(&entry.id);
                 discussion_label = Some("Lobsters".to_string());
             }
         }
@@ -318,15 +367,17 @@ fn parse_hn_algolia(bytes: &[u8], src: &SourceDescriptor) -> Result<Vec<RawCandi
             Some(t) if !t.trim().is_empty() => t.trim().to_string(),
             _ => continue,
         };
-        let url = match hit.url {
-            Some(u) if u.starts_with("http") => u,
-            _ => continue,
+        let Some(url) = hit.url.as_deref().and_then(sanitize_http_url) else {
+            continue;
         };
         let points = hit.points.unwrap_or(10);
         if points < 15 {
             continue;
         }
 
+        if !hit.object_id.chars().all(|c| c.is_ascii_alphanumeric()) {
+            continue;
+        }
         let hn_url = format!("https://news.ycombinator.com/item?id={}", hit.object_id);
         let mut pdf_url = None;
         let mut html_ar5iv_url = None;
@@ -415,6 +466,13 @@ fn parse_hf_daily_papers(
             .map(|s| normalize_whitespace(&s))
             .unwrap_or_default();
         let paper_id = p.id.trim().to_string();
+        if paper_id.is_empty()
+            || !paper_id
+                .chars()
+                .all(|c| c.is_ascii_alphanumeric() || matches!(c, '.' | '-' | '_'))
+        {
+            continue;
+        }
         let abs_url = format!("https://arxiv.org/abs/{}", paper_id);
         let pdf_url = Some(format!("https://arxiv.org/pdf/{}.pdf", paper_id));
         let html_ar5iv_url = Some(format!("https://ar5iv.labs.arxiv.org/html/{}", paper_id));
@@ -423,7 +481,8 @@ fn parse_hf_daily_papers(
         let upvotes = p.upvotes.unwrap_or(15);
         let code_url = p
             .github_repo
-            .filter(|u| u.starts_with("http"))
+            .as_deref()
+            .and_then(sanitize_http_url)
             .or_else(|| extract_github_repo_url(&summary));
 
         let authors: Vec<String> = p
@@ -478,7 +537,7 @@ pub fn extract_github_repo_url(text: &str) -> Option<String> {
     let re = Regex::new(r"https?://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+").ok()?;
     re.find(text).map(|m| {
         m.as_str()
-            .trim_end_matches(|c: char| matches!(c, '.' | ',' | ')' | ']' | ';'))
+            .trim_end_matches(['.', ',', ')', ']', ';'])
             .to_string()
     })
 }
@@ -596,7 +655,7 @@ fn infer_area_override(
     {
         return Area::Systems;
     }
-    if combined.contains("CRISPR")
+    if combined.contains("crispr")
         || combined.contains("protein folding")
         || combined.contains("genomic")
         || combined.contains("bioinformatics")

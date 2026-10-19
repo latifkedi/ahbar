@@ -5,77 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>SubcellPert: Benchmarking Subcellular Perturbation Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-46-subcellpert-benchmarking-subcellular-perturbation-prediction"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.11.758305v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-46-subcellpert-benchmarking-subcellular-perturbation-prediction</id>
-    <updated>2026-10-17T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Perturbations change both RNA abundance and intracellular organization, but gene-count predictors omit the positions needed to model spatial responses. To address this limitation, we introduce textbf{textit{SubcellPert}}, a benchmark for perturbation-response prediction at single-RNA-molecule resolution. It comprises 14 imaging datasets with 13.88 million cells and 3.65 billion RNA molecules.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.11.758305v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-all-atom-equivariant-flow-matching"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.05980"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-all-atom-equivariant-flow-matching</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\text{cat}}/K_M &amp;gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ in wet-lab assays without directed evolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05980&quot;&gt;arXiv Quantitative Biology (q-bio.BM)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LigRNA: High-accuracy prediction of RNA-ligand binding sites via dynamic chemical complementarity and language model encoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-47-ligrna-high-accuracy-prediction-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.15.759315v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-47-ligrna-high-accuracy-prediction-of</id>
-    <updated>2026-10-17T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;RNA-binding small molecules represent a validated therapeutic modality, yet pinpointing their exact RNA binding sites remains critical for mechanistic understanding and drug optimization. Experimental methods, while precise, are costly and low-throughput, necessitating robust computational alternatives. Approaches based on static feature concatenation may overlook input-dependent relationships between RNA residues and ligand functional groups.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.15.759315v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-48-hybrid-modeling-for-improved-structure"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-48-hybrid-modeling-for-improved-structure</id>
-    <updated>2026-10-15T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-49-hdock-multimer-improved-structure-prediction"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-49-hdock-multimer-improved-structure-prediction</id>
-    <updated>2026-10-14T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LLMs predict material properties based on atom types and not atom positions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-50-llms-predict-material-properties-based"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01044-3"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-50-llms-predict-material-properties-based</id>
-    <updated>2026-10-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 October 2026; doi:10.1038/s43588-026-01044-3 Accurately predicting properties of materials is one of the main challenges in computational materials science. Systematic experiments now show that large language models (LLMs) struggle to use positional information for the prediction of those properties. This limitation does not reverse as model or dataset sizes grow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01044-3&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HIP: Hessian Interatomic Potentials without derivatives</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-51-hip-hessian-interatomic-potentials-without"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01066-x"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-51-hip-hessian-interatomic-potentials-without</id>
-    <updated>2026-10-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 October 2026; doi:10.1038/s43588-026-01066-x The authors introduce an extension of machine learning interatomic potentials that predicts molecular Hessians directly, improving accuracy and speed compared in transition-state searches, geometry optimization and vibrational analysis relative to Hessians from automatic differentiation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01066-x&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Less can be more for predicting properties with large language models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-52-less-can-be-more-for"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01045-2"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-52-less-can-be-more-for</id>
-    <updated>2026-10-12T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 October 2026; doi:10.1038/s43588-026-01045-2 Researchers show that large language models cannot learn from spatial coordinates regardless of model or data scale. Specialized geometric neural networks consistently outperform language models for material property prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01045-2&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Photonic circuits become trainable AI hardware</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-53-photonic-circuits-become-trainable-ai"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01071-0"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-53-photonic-circuits-become-trainable-ai</id>
-    <updated>2026-10-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 09 October 2026; doi:10.1038/s43588-026-01071-0 A physics-based in situ learning method is demonstrated that directly measures optical gradients with photonic integrated circuits, allowing diverse circuit topologies to be trained after fabrication. This hardware achieves matrix design, multiwavelength computation and rapid meta-learning without requiring a full digital…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01071-0&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Steering complex rhythms</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-54-steering-complex-rhythms"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01064-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-54-steering-complex-rhythms</id>
-    <updated>2026-10-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 09 October 2026; doi:10.1038/s43588-026-01064-z A recent study reports a property-first computational strategy, identifying coordinated parameter changes that can tune several features of a complex oscillator at the same time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01064-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+    <title>Pangenome Graph Indexing in Sub-Linear Space via Wheeler Bureaucrat Wavelet Trees</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-pangenome-graph-indexing-in-sub"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06112"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-pangenome-graph-indexing-in-sub</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\text{ GB}$ of memory at $3.4\times$ higher throughput than Minigraph-Cactus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06112&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #algorithms&lt;/p&gt;</summary>
   </entry>
 </feed>

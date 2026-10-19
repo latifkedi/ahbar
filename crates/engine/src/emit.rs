@@ -1,6 +1,6 @@
 use ahbar_shared::{
-    latex_to_html_math, ArchiveEntry, Area, DailyIssue, NewsItem, SourceHealthRecord,
-    TechnicalDetail, CANON_TAGS,
+    latex_to_html_math, sanitize_http_url, ArchiveEntry, Area, DailyIssue, NewsItem,
+    SourceHealthRecord, TechnicalDetail, CANON_TAGS,
 };
 use std::collections::HashMap;
 use std::fs;
@@ -95,7 +95,7 @@ pub fn emit_all(
         fs::write(root_dir.join(&rel_path), xml).map_err(|e| e.to_string())?;
     }
 
-    // Per-tag feeds for canonical tags
+    // Per-tag feeds for canonical tags (always write so stale tag feeds are overwritten)
     let mut by_tag: HashMap<String, Vec<NewsItem>> = HashMap::new();
     for item in &issue.items {
         for tag in &item.tags {
@@ -105,18 +105,16 @@ pub fn emit_all(
 
     for canon in CANON_TAGS {
         let items = by_tag.get(canon.slug).cloned().unwrap_or_default();
-        if !items.is_empty() {
-            let rel_path = format!("feed/tag-{}.xml", canon.slug);
-            let xml = build_atom_feed(
-                &format!("Ahbar · #{}", canon.label),
-                &format!("Daily technical dispatches tagged with #{}.", canon.slug),
-                site_base_url,
-                &rel_path,
-                &issue.generated_at,
-                &items,
-            );
-            fs::write(root_dir.join(&rel_path), xml).map_err(|e| e.to_string())?;
-        }
+        let rel_path = format!("feed/tag-{}.xml", canon.slug);
+        let xml = build_atom_feed(
+            &format!("Ahbar · #{}", canon.label),
+            &format!("Daily technical dispatches tagged with #{}.", canon.slug),
+            site_base_url,
+            &rel_path,
+            &issue.generated_at,
+            &items,
+        );
+        fs::write(root_dir.join(&rel_path), xml).map_err(|e| e.to_string())?;
     }
 
     // 7. Emit plain-text static editions: k/index.html (TR) and k/en/index.html (EN)
@@ -247,7 +245,7 @@ fn build_static_directory_html(issue: &DailyIssue, is_tr: bool) -> String {
         if is_tr { "tr" } else { "en" }
     ));
     html.push_str("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
-    html.push_str("<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'\">\n");
+    html.push_str("<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'none'\">\n");
     html.push_str(&format!("<title>{}</title>\n", escape_xml(&title)));
     html.push_str(&format!("<link rel=\"stylesheet\" href=\"{}\">\n", css_href));
     html.push_str("</head>\n<body class=\"calm static\">\n<div class=\"wrap\">\n");
@@ -328,7 +326,8 @@ fn build_static_directory_html(issue: &DailyIssue, is_tr: bool) -> String {
             } else {
                 &item.summary
             };
-            let wayback = format!("https://web.archive.org/web/*/{}", item.url);
+            let safe_item_url = sanitize_http_url(&item.url).unwrap_or_else(|| "#".to_string());
+            let wayback = format!("https://web.archive.org/web/*/{}", safe_item_url);
             html.push_str(&format!(
                 "<article class=\"rec\"><div class=\"no\">{:02}</div><div class=\"rb\">",
                 seq
@@ -336,7 +335,7 @@ fn build_static_directory_html(issue: &DailyIssue, is_tr: bool) -> String {
             seq += 1;
             html.push_str(&format!(
                 "<div class=\"nm\"><a class=\"name\" href=\"{}\" target=\"_blank\" rel=\"noopener\">{}</a> <span class=\"host\">{}</span></div>",
-                escape_xml(&item.url),
+                escape_xml(&safe_item_url),
                 latex_to_html_math(head),
                 escape_xml(&item.source_name)
             ));
@@ -352,10 +351,12 @@ fn build_static_directory_html(issue: &DailyIssue, is_tr: bool) -> String {
             );
             html.push_str("</span><span class=\"meta\">");
             if let Some(ref pdf) = item.links.pdf_url {
-                html.push_str(&format!(
-                    "<a class=\"arch\" href=\"{}\" target=\"_blank\" rel=\"noopener\">PDF</a>",
-                    escape_xml(pdf)
-                ));
+                if let Some(safe_pdf) = sanitize_http_url(pdf) {
+                    html.push_str(&format!(
+                        "<a class=\"arch\" href=\"{}\" target=\"_blank\" rel=\"noopener\">PDF</a>",
+                        escape_xml(&safe_pdf)
+                    ));
+                }
             }
             html.push_str(&format!(
                 "<a class=\"arch\" href=\"{}\" target=\"_blank\" rel=\"noopener\">{}</a>",
@@ -374,7 +375,7 @@ fn build_static_directory_html(issue: &DailyIssue, is_tr: bool) -> String {
 /// Builds the pre-rendered `<div class="home" data-pre="1">` HTML and embeds `style.css`
 /// directly into `index.html` between marker comments so the initial paint is 0ms.
 pub fn render_prerendered_home_html(issue: &DailyIssue) -> String {
-    let mut out = String::with_capacity(32768);
+    let mut out = String::with_capacity(49152);
     out.push_str("<div class=\"home\" data-pre=\"1\">");
     out.push_str(&format!(
         "<p class=\"proof\">{} seçilmiş kayıt · {} · {} birincil kaynaktan {} makale ve besleme tarandı · her gün 08:00 TSİ · izleyici yok</p>",
@@ -471,6 +472,55 @@ pub fn render_prerendered_home_html(issue: &DailyIssue) -> String {
         issue.items.len()
     ));
     out.push_str("</section>");
+
+    // 3. Categorized preview (3 top items per area = 30 items preview)
+    out.push_str("<section class=\"hsec\"><h2 class=\"k\">Kategorilere Göre Günün Kayıtları<span>her alandan öne çıkan 3 kayıt</span></h2>");
+    let mut global_idx = 0usize;
+    for area in Area::ALL {
+        let area_items: Vec<&NewsItem> = issue
+            .items
+            .iter()
+            .filter(|i| i.area == area)
+            .take(3)
+            .collect();
+        if area_items.is_empty() {
+            continue;
+        }
+        out.push_str(&format!(
+            "<div style=\"margin-top:20px;\"><h2 class=\"sh\" style=\"margin-top:12px;\"><a href=\"?area={}\" data-area=\"{}\" style=\"text-decoration:none;border:0;color:var(--ink);\"><span class=\"rn\">{}</span> {}</a> <span class=\"n\">{} →</span></h2><div class=\"recs\">",
+            area.slug(),
+            area.slug(),
+            area.numeral(),
+            escape_xml(area.title_tr()),
+            area_items.len()
+        ));
+        for item in area_items {
+            global_idx += 1;
+            let head = item.headline_tr.as_deref().unwrap_or(&item.headline);
+            let sum = item.summary_tr.as_deref().unwrap_or(&item.summary);
+            let safe_item_url = sanitize_http_url(&item.url).unwrap_or_else(|| "#".to_string());
+            out.push_str(&format!(
+                "<article class=\"rec\" id=\"rec-{}\" data-idx=\"{}\"><div class=\"no\">{:02}</div><div class=\"rb\"><div class=\"nm\"><a class=\"name\" href=\"?item={}\" data-item=\"{}\">{}</a> <span class=\"host\">{}</span></div><p class=\"desc\">{}</p><div class=\"mt\"><span class=\"itags\">{}</span><span class=\"meta\"><a class=\"arch\" href=\"{}\" target=\"_blank\" rel=\"noopener\">kaynak ↗</a></span></div></div></article>",
+                escape_xml(&item.id),
+                global_idx - 1,
+                global_idx,
+                escape_xml(&item.id),
+                escape_xml(&item.id),
+                latex_to_html_math(head),
+                escape_xml(&item.source_name),
+                latex_to_html_math(sum),
+                item.tags
+                    .iter()
+                    .take(4)
+                    .map(|t| format!("<a href=\"?tag={}\" data-tag=\"{}\">#{}</a>", escape_xml(t), escape_xml(t), escape_xml(t)))
+                    .collect::<Vec<_>>()
+                    .join(""),
+                escape_xml(&safe_item_url)
+            ));
+        }
+        out.push_str("</div></div>");
+    }
+    out.push_str("</section>");
     out.push_str("</div>");
     out
 }
@@ -492,8 +542,8 @@ fn inject_prerender_into_index_html(root_dir: &Path, issue: &DailyIssue) -> Resu
                 (index_html.find(start_marker), index_html.find(end_marker))
             {
                 if s_idx < e_idx {
-                    let replacement =
-                        format!("{}\n<style>{}</style>\n", start_marker, css_raw.trim());
+                    let safe_css = css_raw.trim().replace("</style", "<\\/style");
+                    let replacement = format!("{}\n<style>{}</style>\n", start_marker, safe_css);
                     index_html.replace_range(s_idx..e_idx, &replacement);
                 }
             }
@@ -600,6 +650,7 @@ fn build_atom_feed(
 
     for item in items.iter().take(40) {
         let item_detail_url = format!("{}/?item={}", base, item.id);
+        let safe_url = sanitize_http_url(&item.url).unwrap_or_else(|| item_detail_url.clone());
         xml.push_str("  <entry>\n");
         xml.push_str(&format!(
             "    <title>{}</title>\n",
@@ -611,7 +662,7 @@ fn build_atom_feed(
         ));
         xml.push_str(&format!(
             "    <link rel=\"related\" href=\"{}\"/>\n",
-            escape_xml(&item.url)
+            escape_xml(&safe_url)
         ));
         xml.push_str(&format!(
             "    <id>{}/item/{}</id>\n",
@@ -627,11 +678,11 @@ fn build_atom_feed(
             escape_xml(&format!(
                 "<p>{}</p><p><strong>Source:</strong> <a href=\"{}\">{}</a> · <strong>Tags:</strong> {}</p>",
                 escape_xml(&item.summary),
-                escape_xml(&item.url),
+                escape_xml(&safe_url),
                 escape_xml(&item.source_name),
                 item.tags
                     .iter()
-                    .map(|t| format!("#{}", t))
+                    .map(|t| format!("#{}", escape_xml(t)))
                     .collect::<Vec<_>>()
                     .join(" ")
             ))

@@ -1,7 +1,7 @@
 use crate::emit::escape_xml;
 use ahbar_shared::{
-    latex_to_email_unicode, sign_subscriber_token, Area, ContentFilter, DailyIssue,
-    DigestFrequency, DigestMode, EditionType, NewsItem, SubscriptionPreferences,
+    latex_to_email_unicode, sanitize_http_url, sign_subscriber_token, Area, ContentFilter,
+    DailyIssue, DigestFrequency, DigestMode, EditionType, NewsItem, SubscriptionPreferences,
 };
 use reqwest::Client;
 use std::env;
@@ -237,7 +237,9 @@ pub fn render_digest_email_html_with_lang(
             } else {
                 format!("{}/?item={}", base, item.id)
             };
-            let wayback_url = format!("https://web.archive.org/web/*/{}", item.url);
+            let safe_item_url =
+                sanitize_http_url(&item.url).unwrap_or_else(|| detail_url.clone());
+            let wayback_url = format!("https://web.archive.org/web/*/{}", safe_item_url);
             let vote_sig_url = format!("{}/?vote=signal&item={}", base, item.id);
             let vote_noise_url = format!("{}/?vote=noise&item={}", base, item.id);
 
@@ -290,26 +292,32 @@ pub fn render_digest_email_html_with_lang(
             ));
             html.push_str(&format!(
                 "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">{}</a>",
-                escape_xml(&item.url),
+                escape_xml(&safe_item_url),
                 source_lbl
             ));
             if let Some(ref pdf) = item.links.pdf_url {
-                html.push_str(&format!(
-                    "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">PDF</a>",
-                    escape_xml(pdf)
-                ));
+                if let Some(safe_pdf) = sanitize_http_url(pdf) {
+                    html.push_str(&format!(
+                        "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">PDF</a>",
+                        escape_xml(&safe_pdf)
+                    ));
+                }
             }
             if let Some(ref ar5iv) = item.links.html_ar5iv_url {
-                html.push_str(&format!(
-                    "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">HTML (ar5iv)</a>",
-                    escape_xml(ar5iv)
-                ));
+                if let Some(safe_ar5iv) = sanitize_http_url(ar5iv) {
+                    html.push_str(&format!(
+                        "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">HTML (ar5iv)</a>",
+                        escape_xml(&safe_ar5iv)
+                    ));
+                }
             }
             if let Some(ref code) = item.links.code_url {
-                html.push_str(&format!(
-                    "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">Code</a>",
-                    escape_xml(code)
-                ));
+                if let Some(safe_code) = sanitize_http_url(code) {
+                    html.push_str(&format!(
+                        "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">Code</a>",
+                        escape_xml(&safe_code)
+                    ));
+                }
             }
             html.push_str(&format!(
                 "<a href=\"{}\" style=\"color:#686256;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">{}</a>",

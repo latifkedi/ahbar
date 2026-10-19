@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
   <entry>
-    <title>StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-68-stochlob-heavy-tailed-score-matching"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21081v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-68-stochlob-heavy-tailed-score-matching</id>
-    <updated>2026-10-15T01:33:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Score-based diffusion methods usually perturb data with Brownian Gaussian noise, corresponding to a light-tailed forward stochastic differential equation (SDE). For market time series this SDE can be a poor abstraction: limit order book (LOB) order flow is heavy-tailed, bursty, and occasionally jump-like. We study STOCHLOB, a training-only score-matching framework that changes the forward diffusion corruption law while leaving the deployed predictor deterministic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21081v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How Much Screening Buys a Second? Speed, Selection, and the Maker&apos;s Spread</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-59-how-much-screening-buys-a"/>
-    <link rel="related" href="https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-59-how-much-screening-buys-a</id>
-    <updated>2026-10-15T13:04:19+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the spread a liquidity provider needs to break even against counterparties that can exploit a stale quote, and we place two defenses on a single scale: repricing sooner and screening informed flow. A break-even condition pins down the exact screening rate at which a slower maker matches a faster unscreened venue: the selection that buys back the extra staleness. The result requires only an integrable price innovation and therefore holds under jumps, atoms and infinite variance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #infosec #clean-tech&lt;/p&gt;</summary>
+    <title>Neural Phonon Boltzmann Transport Solver Identifies Ultralow-Kappa Solid-State Electrolytes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-18-neural-phonon-boltzmann-transport-solver"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06255"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-18-neural-phonon-boltzmann-transport-solver</id>
+    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <summary type="html">&lt;p&gt;First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\%$ of DFT-BTE at $10^4\times$ lower compute cost, uncovering three stable argyrodite phases.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06255&quot;&gt;arXiv Materials &amp;amp; CompSci (cond-mat.mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #materials-science #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>
