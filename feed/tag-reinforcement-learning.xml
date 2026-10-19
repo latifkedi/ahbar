@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Reinforcement Learning</title>
+  <subtitle>Daily technical dispatches tagged with #reinforcement-learning.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Learning to Think and Explore in 3D World. We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-learning-to-think-and-explore"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.21783"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-learning-to-think-and-explore</id>
+    <updated>2026-10-14T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move left) and observations (rendered images). Each rollout begins from an initial first-person view and a visual question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21783&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+</feed>

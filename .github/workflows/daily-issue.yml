@@ -1,0 +1,61 @@
+name: Daily Issue & Digest Pipeline
+
+on:
+  schedule:
+    # Runs every day at 05:00 UTC (08:00 Turkey Time / TSİ), right after arXiv's daily batch
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      send_emails:
+        description: "Dispatch daily emails via Resend if RESEND_API_KEY is set"
+        required: false
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  publish-daily-issue:
+    name: Ingest, Triage, Synthesize & Publish Issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Cargo registry and build artifacts
+        uses: Swatinem/rust-cache@v2
+
+      - name: Run unit tests & guardrails verification
+        run: cargo test --workspace
+
+      - name: Run Ahbar Engine (Ingest + Triage + Emit Issue & Atom Feeds)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          AHBAR_FROM_EMAIL: ${{ secrets.AHBAR_FROM_EMAIL }}
+          AHBAR_HMAC_SECRET: ${{ secrets.AHBAR_HMAC_SECRET }}
+          AHBAR_SITE_URL: "https://latifkedi.github.io/ahbar"
+        run: |
+          if [ "${{ github.event.inputs.send_emails }}" = "false" ]; then
+            cargo run --release -p ahbar-engine -- --root .
+          else
+            cargo run --release -p ahbar-engine -- --root . --send-emails
+          fi
+
+      - name: Commit & push daily issue artifacts
+        run: |
+          git config user.name "ahbar-bot"
+          git config user.email "actions@github.com"
+          git add data/ feed.xml feed/
+          if git diff --cached --quiet; then
+            echo "No changes in issue artifacts."
+          else
+            ISSUE_DATE=$(date -u +"%Y-%m-%d")
+            git commit -m "chore(issue): publish daily dispatch for ${ISSUE_DATE}"
+            git push origin HEAD:main
+          fi

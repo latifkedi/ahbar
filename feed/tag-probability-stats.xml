@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Probability &amp; Statistics</title>
+  <subtitle>Daily technical dispatches tagged with #probability-stats.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Recursive Operator Localization and Spectral Gap Descent via the Geometry of Local Spectral Expansion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-recursive-operator-localization-and-spectral"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23695v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-recursive-operator-localization-and-spectral</id>
+    <updated>2026-10-16T16:23:52+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, PR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing #probability-stats&lt;/p&gt;</summary>
+  </entry>
+</feed>

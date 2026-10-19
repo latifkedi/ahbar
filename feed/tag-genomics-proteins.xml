@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Genomics &amp; Protein Folding</title>
+  <subtitle>Daily technical dispatches tagged with #genomics-proteins.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-46-hybrid-modeling-for-improved-structure"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-46-hybrid-modeling-for-improved-structure</id>
+    <updated>2026-10-15T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-47-hdock-multimer-improved-structure-prediction"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-47-hdock-multimer-improved-structure-prediction</id>
+    <updated>2026-10-14T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Ionic switching between supermagnetic states. Supermagnetic states are typically set during synthesis.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-54-ionic-switching-between-supermagnetic-states"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23829v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-54-ionic-switching-between-supermagnetic-states</id>
+    <updated>2026-10-16T17:52:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Supermagnetic states are typically set during synthesis. Changing and retaining these states requires sustained external stimulus. Without resynthesis or continued stimulus, we show, for the first time, a reversible magneto-ionic switching between superferromagnetic (SFM) and superspin-glass (SSG) states using room-temperature Li-ion transport.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23829v1&quot;&gt;arXiv Quantitative Biology (q-bio)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+</feed>

@@ -1,0 +1,27 @@
+name: Rust CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  check-and-test:
+    name: Cargo Check & Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Cargo artifacts
+        uses: Swatinem/rust-cache@v2
+
+      - name: Check workspace compilation
+        run: cargo check --workspace --all-targets
+
+      - name: Run workspace unit tests (Taxonomy, LaTeX Guardrails, HMAC Auth, Mailer)
+        run: cargo test --workspace

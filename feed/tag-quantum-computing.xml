@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Quantum Computing</title>
+  <subtitle>Daily technical dispatches tagged with #quantum-computing.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Recursive Operator Localization and Spectral Gap Descent via the Geometry of Local Spectral Expansion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-recursive-operator-localization-and-spectral"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23695v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-recursive-operator-localization-and-spectral</id>
+    <updated>2026-10-16T16:23:52+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, PR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Simultaneous high-fidelity single-qubit gates in a spin qubit array</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-32-simultaneous-high-fidelity-single-qubit"/>
+    <link rel="related" href="https://www.nature.com/articles/s41567-026-03466-2"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-32-simultaneous-high-fidelity-single-qubit</id>
+    <updated>2026-10-15T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Physics, Published online: 15 October 2026; doi:10.1038/s41567-026-03466-2 Quantum computers require simultaneous control of multiple qubits, which is challenging to achieve in nanoscale semiconductor devices. Now high-fidelity parallel operations have been demonstrated for five silicon spin qubits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03466-2&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #quantum-computing #semiconductors&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Demonstration of Logical Error Suppression in a Surface Code Memory on a Cloud-Accessible IBM Superconducting Processor</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-36-demonstration-of-logical-error-suppression"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23840v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-36-demonstration-of-logical-error-suppression</id>
+    <updated>2026-10-16T17:56:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum error correction can suppress logical errors exponentially with code distance when physical noise is below threshold. Realizing this on hardware requires tight coordination among quantum gates, mid-circuit measurements, and qubit coherence. Device variation, noise asymmetry, and correlations across space and time complicate the translation of these capabilities into logical error suppression.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23840v1&quot;&gt;arXiv Physics (quant-ph, cond-mat, hep-th, astro-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter&lt;/p&gt;</summary>
+  </entry>
+</feed>

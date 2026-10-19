@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Computational Neuroscience</title>
+  <subtitle>Daily technical dispatches tagged with #neuroscience.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Less can be more for predicting properties with large language models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-50-less-can-be-more-for"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01045-2"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-50-less-can-be-more-for</id>
+    <updated>2026-10-12T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 October 2026; doi:10.1038/s43588-026-01045-2 Researchers show that large language models cannot learn from spatial coordinates regardless of model or data scale. Specialized geometric neural networks consistently outperform language models for material property prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01045-2&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
+  </entry>
+</feed>

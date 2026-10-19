@@ -1,0 +1,8 @@
+name = "ahbar-edge-api"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ahbar_db"
+database_id = "00000000-0000-0000-0000-000000000000"

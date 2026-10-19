@@ -1,0 +1,223 @@
+[
+  {
+    "id": "arxiv-cs-pl-se",
+    "name": "arXiv CS (PL, SE, DB, DC)",
+    "area": "cs",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.PL+OR+cat:cs.SE+OR+cat:cs.DB+OR+cat:cs.DC+OR+cat:cs.DS&sortBy=submittedDate&sortOrder=descending&max_results=30",
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 986,
+    "last_checked": "2026-10-19T08:38:05.911861600+00:00"
+  },
+  {
+    "id": "hacker-news-top",
+    "name": "Hacker News",
+    "area": "cs",
+    "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=35",
+    "status": "ok",
+    "items_fetched": 26,
+    "latency_ms": 920,
+    "last_checked": "2026-10-19T08:38:05.914499200+00:00"
+  },
+  {
+    "id": "lobsters",
+    "name": "Lobste.rs",
+    "area": "cs",
+    "url": "https://lobste.rs/rss",
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 786,
+    "last_checked": "2026-10-19T08:38:05.911831+00:00"
+  },
+  {
+    "id": "acm-technews",
+    "name": "Communications of the ACM",
+    "area": "cs",
+    "url": "https://cacm.acm.org/feed/",
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 327,
+    "last_checked": "2026-10-19T08:38:05.914315800+00:00"
+  },
+  {
+    "id": "hf-daily-papers",
+    "name": "Hugging Face Daily Papers",
+    "area": "ai",
+    "url": "https://huggingface.co/api/daily_papers",
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 625,
+    "last_checked": "2026-10-19T08:38:05.914851200+00:00"
+  },
+  {
+    "id": "arxiv-ai-ml",
+    "name": "arXiv AI & ML (cs.AI, cs.LG, cs.CL, cs.CV)",
+    "area": "ai",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.CV+OR+cat:cs.RO&sortBy=submittedDate&sortOrder=descending&max_results=35",
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 954,
+    "last_checked": "2026-10-19T08:38:05.911830800+00:00"
+  },
+  {
+    "id": "arxiv-math",
+    "name": "arXiv Mathematics (NT, CO, AG, LO, PR)",
+    "area": "math",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:math.NT+OR+cat:math.CO+OR+cat:math.AG+OR+cat:math.LO+OR+cat:math.PR+OR+cat:math.AP&sortBy=submittedDate&sortOrder=descending&max_results=30",
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 860,
+    "last_checked": "2026-10-19T08:38:05.914729500+00:00"
+  },
+  {
+    "id": "quanta-math",
+    "name": "Quanta Magazine (Mathematics)",
+    "area": "math",
+    "url": "https://api.quantamagazine.org/v1/izar/feed/?section=mathematics",
+    "status": "ok",
+    "items_fetched": 0,
+    "latency_ms": 1527,
+    "last_checked": "2026-10-19T08:38:05.915413+00:00"
+  },
+  {
+    "id": "terence-tao",
+    "name": "What's New (Terence Tao)",
+    "area": "math",
+    "url": "https://terrytao.wordpress.com/feed/",
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 1032,
+    "last_checked": "2026-10-19T08:38:05.911880200+00:00"
+  },
+  {
+    "id": "arxiv-physics-quantum",
+    "name": "arXiv Physics (quant-ph, cond-mat, hep-th, astro-ph)",
+    "area": "physics",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:quant-ph+OR+cat:cond-mat.supr-con+OR+cat:hep-th+OR+cat:astro-ph.CO+OR+cat:physics.optics&sortBy=submittedDate&sortOrder=descending&max_results=30",
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 817,
+    "last_checked": "2026-10-19T08:38:05.914640700+00:00"
+  },
+  {
+    "id": "aps-physics",
+    "name": "APS Physics Magazine",
+    "area": "physics",
+    "url": "https://physics.aps.org/rss/recent.xml",
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 862,
+    "last_checked": "2026-10-19T08:38:05.911913400+00:00",
+    "error": "HTTP 404 Not Found"
+  },
+  {
+    "id": "nature-physics",
+    "name": "Nature Physics",
+    "area": "physics",
+    "url": "https://www.nature.com/nphys.rss",
+    "status": "ok",
+    "items_fetched": 8,
+    "latency_ms": 160,
+    "last_checked": "2026-10-19T08:38:05.914806600+00:00"
+  },
+  {
+    "id": "arxiv-systems-arch",
+    "name": "arXiv Systems & Architecture (cs.OS, cs.AR, cs.NI)",
+    "area": "systems",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.OS+OR+cat:cs.AR+OR+cat:cs.NI+OR+cat:cs.PF&sortBy=submittedDate&sortOrder=descending&max_results=25",
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 860,
+    "last_checked": "2026-10-19T08:38:05.911933600+00:00"
+  },
+  {
+    "id": "lwn-net",
+    "name": "LWN.net (Linux & Kernel)",
+    "area": "systems",
+    "url": "https://lwn.net/headlines/rss",
+    "status": "ok",
+    "items_fetched": 15,
+    "latency_ms": 657,
+    "last_checked": "2026-10-19T08:38:05.914375700+00:00"
+  },
+  {
+    "id": "project-zero",
+    "name": "Google Project Zero",
+    "area": "systems",
+    "url": "https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss",
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 6400,
+    "last_checked": "2026-10-19T08:38:05.911958200+00:00"
+  },
+  {
+    "id": "trail-of-bits",
+    "name": "Trail of Bits Security Research",
+    "area": "systems",
+    "url": "https://blog.trailofbits.com/feed/",
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 1612,
+    "last_checked": "2026-10-19T08:38:05.914563400+00:00"
+  },
+  {
+    "id": "arxiv-qbio",
+    "name": "arXiv Quantitative Biology (q-bio)",
+    "area": "bio",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:q-bio.QM+OR+cat:q-bio.GN+OR+cat:q-bio.NC+OR+cat:q-bio.BM+OR+cat:cond-mat.mtrl-sci&sortBy=submittedDate&sortOrder=descending&max_results=25",
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 855,
+    "last_checked": "2026-10-19T08:38:05.911974500+00:00"
+  },
+  {
+    "id": "nature-bt-comp",
+    "name": "Nature Computational Science",
+    "area": "bio",
+    "url": "https://www.nature.com/natcomputsci.rss",
+    "status": "ok",
+    "items_fetched": 8,
+    "latency_ms": 159,
+    "last_checked": "2026-10-19T08:38:05.914446300+00:00"
+  },
+  {
+    "id": "iacr-eprint",
+    "name": "IACR Cryptology ePrint Archive",
+    "area": "crypto",
+    "url": "https://eprint.iacr.org/rss/rss.xml",
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 1290,
+    "last_checked": "2026-10-19T08:38:05.914920100+00:00"
+  },
+  {
+    "id": "arxiv-crypto",
+    "name": "arXiv Cryptography & Security (cs.CR)",
+    "area": "crypto",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CR&sortBy=submittedDate&sortOrder=descending&max_results=25",
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 597,
+    "last_checked": "2026-10-19T08:38:05.915026100+00:00"
+  },
+  {
+    "id": "ethresearch",
+    "name": "Ethereum Research (ethresear.ch)",
+    "area": "crypto",
+    "url": "https://ethresear.ch/latest.rss",
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 2892,
+    "last_checked": "2026-10-19T08:38:05.915072500+00:00"
+  },
+  {
+    "id": "vitalik-blog",
+    "name": "Vitalik Buterin's Blog",
+    "area": "crypto",
+    "url": "https://vitalik.eth.limo/feed.xml",
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 898,
+    "last_checked": "2026-10-19T08:38:05.915173100+00:00"
+  }
+]

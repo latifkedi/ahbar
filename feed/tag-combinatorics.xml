@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Combinatorics &amp; Graph Theory</title>
+  <subtitle>Daily technical dispatches tagged with #combinatorics.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Spectral networks, finite webs, and the $T_3$ cubic differential</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-spectral-networks-finite-webs-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23752v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-spectral-networks-finite-webs-and</id>
+    <updated>2026-10-16T16:57:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We describe spectral networks for cubic differentials on $\mathbf{P}^1$ with exactly three poles all of order two, following observations of Hollands-Neitzke. To do so, we give a precise definition and establish some basic properties of a class of finite webs (corresponding to BPS states in physics) in the cubic differential setting, including their non-vanishing central charge. Turning to the example, we prove that at rational angles the network is totally degenerate; the number of walls and Stokes regions is explicitly computed and depends on an arithmetic criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23752v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, PR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #high-energy&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Recursive Operator Localization and Spectral Gap Descent via the Geometry of Local Spectral Expansion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-recursive-operator-localization-and-spectral"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23695v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-recursive-operator-localization-and-spectral</id>
+    <updated>2026-10-16T16:23:52+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, PR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-57-optimal-threshold-implementations-of-all"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-57-optimal-threshold-implementations-of-all</id>
+    <updated>2026-10-12T12:53:16+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SoK: Pseudorandom Generation for Masked Cryptographic Implementation. This paper investigates pseudorandom generation in the context of masked cryptographic implementation.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-63-sok-pseudorandom-generation-for-masked"/>
+    <link rel="related" href="https://eprint.iacr.org/2024/1968"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-63-sok-pseudorandom-generation-for-masked</id>
+    <updated>2024-12-05T14:35:18+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper investigates pseudorandom generation in the context of masked cryptographic implementation. Although masking and pseudorandom generators (PRGs) have been distinctly studied for a long time, there has been little study on how randomness should be generated in masked implementation. The lack of analysis on mask-bits generators obscures the practical security of masked cryptographic implementation, potentially confusing practitioners (e.g., designer, implementer, and evaluator) about how to realize them securely.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/1968&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+</feed>

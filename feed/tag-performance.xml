@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Performance &amp; Profiling</title>
+  <subtitle>Daily technical dispatches tagged with #performance.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-performance.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-performance.xml</id>
+  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <entry>
+    <title>Security updates for Friday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-security-updates-for-friday"/>
+    <link rel="related" href="https://lwn.net/Articles/1101015/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-security-updates-for-friday</id>
+    <updated>2026-10-16T13:17:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (environment-modules, flatpak-builder, kernel, kernel-rt, librabbitmq, libreoffice, libsoup, mod_auth_openidc:2.3, nodejs:22, nodejs:24, OpenEXR, opentelemetry-collector, pki-core:10.6, postgresql:12, python-tornado, python36:3.6, ruby:3.3, tftp, and xorg-x11-server), Debian (buildstream, firefox-esr, mariadb, and sogo), Fedora (exim, freerdp, python3-docs, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101015/&quot;&gt;LWN.net (Linux &amp;amp; Kernel)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
+  </entry>
+</feed>

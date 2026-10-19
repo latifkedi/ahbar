@@ -1,0 +1,282 @@
+[
+  {
+    "area": "cs",
+    "label": "Rust",
+    "slug": "rust"
+  },
+  {
+    "area": "cs",
+    "label": "C & C++",
+    "slug": "c-cpp"
+  },
+  {
+    "area": "cs",
+    "label": "Go",
+    "slug": "go"
+  },
+  {
+    "area": "cs",
+    "label": "Python",
+    "slug": "python"
+  },
+  {
+    "area": "cs",
+    "label": "TypeScript & Web",
+    "slug": "typescript"
+  },
+  {
+    "area": "cs",
+    "label": "Compilers & PL",
+    "slug": "compilers"
+  },
+  {
+    "area": "cs",
+    "label": "Databases",
+    "slug": "databases"
+  },
+  {
+    "area": "cs",
+    "label": "Distributed Systems",
+    "slug": "distributed-systems"
+  },
+  {
+    "area": "cs",
+    "label": "Algorithms",
+    "slug": "algorithms"
+  },
+  {
+    "area": "cs",
+    "label": "Open Source",
+    "slug": "open-source"
+  },
+  {
+    "area": "cs",
+    "label": "Architecture",
+    "slug": "software-architecture"
+  },
+  {
+    "area": "ai",
+    "label": "LLMs",
+    "slug": "llm"
+  },
+  {
+    "area": "ai",
+    "label": "Agents",
+    "slug": "agents"
+  },
+  {
+    "area": "ai",
+    "label": "Inference & Quantization",
+    "slug": "inference"
+  },
+  {
+    "area": "ai",
+    "label": "RAG & Retrieval",
+    "slug": "rag"
+  },
+  {
+    "area": "ai",
+    "label": "ML Theory",
+    "slug": "ml-theory"
+  },
+  {
+    "area": "ai",
+    "label": "Computer Vision",
+    "slug": "computer-vision"
+  },
+  {
+    "area": "ai",
+    "label": "Robotics",
+    "slug": "robotics"
+  },
+  {
+    "area": "ai",
+    "label": "Multimodal & Audio",
+    "slug": "multimodal"
+  },
+  {
+    "area": "ai",
+    "label": "Reinforcement Learning",
+    "slug": "reinforcement-learning"
+  },
+  {
+    "area": "ai",
+    "label": "Open Weights",
+    "slug": "open-weights"
+  },
+  {
+    "area": "math",
+    "label": "Number Theory",
+    "slug": "number-theory"
+  },
+  {
+    "area": "math",
+    "label": "Combinatorics & Graph Theory",
+    "slug": "combinatorics"
+  },
+  {
+    "area": "math",
+    "label": "Logic & Foundations",
+    "slug": "logic"
+  },
+  {
+    "area": "math",
+    "label": "Formal Proofs (Lean/Rocq)",
+    "slug": "formal-proofs"
+  },
+  {
+    "area": "math",
+    "label": "Algebra & Geometry",
+    "slug": "algebra-geometry"
+  },
+  {
+    "area": "math",
+    "label": "Analysis & PDEs",
+    "slug": "analysis-pde"
+  },
+  {
+    "area": "math",
+    "label": "Probability & Statistics",
+    "slug": "probability-stats"
+  },
+  {
+    "area": "math",
+    "label": "Topology",
+    "slug": "topology"
+  },
+  {
+    "area": "math",
+    "label": "Optimization",
+    "slug": "optimization"
+  },
+  {
+    "area": "physics",
+    "label": "Quantum Computing",
+    "slug": "quantum-computing"
+  },
+  {
+    "area": "physics",
+    "label": "Quantum Mechanics",
+    "slug": "quantum-physics"
+  },
+  {
+    "area": "physics",
+    "label": "Condensed Matter",
+    "slug": "condensed-matter"
+  },
+  {
+    "area": "physics",
+    "label": "Astrophysics & Cosmology",
+    "slug": "astrophysics"
+  },
+  {
+    "area": "physics",
+    "label": "High-Energy & Particle Physics",
+    "slug": "high-energy"
+  },
+  {
+    "area": "physics",
+    "label": "Optics & Photonics",
+    "slug": "optics-photonics"
+  },
+  {
+    "area": "physics",
+    "label": "Fluid & Statistical Mechanics",
+    "slug": "fluid-dynamics"
+  },
+  {
+    "area": "systems",
+    "label": "Kernel & OS",
+    "slug": "kernel-os"
+  },
+  {
+    "area": "systems",
+    "label": "Semiconductors & Chips",
+    "slug": "semiconductors"
+  },
+  {
+    "area": "systems",
+    "label": "Computer Architecture",
+    "slug": "computer-architecture"
+  },
+  {
+    "area": "systems",
+    "label": "Vulnerability & InfoSec",
+    "slug": "infosec"
+  },
+  {
+    "area": "systems",
+    "label": "Networking & Protocols",
+    "slug": "networking"
+  },
+  {
+    "area": "systems",
+    "label": "Embedded & Firmware",
+    "slug": "embedded"
+  },
+  {
+    "area": "systems",
+    "label": "Performance & Profiling",
+    "slug": "performance"
+  },
+  {
+    "area": "bio",
+    "label": "Bioinformatics",
+    "slug": "bioinformatics"
+  },
+  {
+    "area": "bio",
+    "label": "Genomics & Protein Folding",
+    "slug": "genomics-proteins"
+  },
+  {
+    "area": "bio",
+    "label": "Computational Neuroscience",
+    "slug": "neuroscience"
+  },
+  {
+    "area": "bio",
+    "label": "Materials Science",
+    "slug": "materials-science"
+  },
+  {
+    "area": "bio",
+    "label": "Energy & Fusion",
+    "slug": "clean-tech"
+  },
+  {
+    "area": "bio",
+    "label": "Climate & Earth Simulation",
+    "slug": "climate-earth"
+  },
+  {
+    "area": "crypto",
+    "label": "Cryptography",
+    "slug": "cryptography"
+  },
+  {
+    "area": "crypto",
+    "label": "Zero-Knowledge Proofs",
+    "slug": "zkp"
+  },
+  {
+    "area": "crypto",
+    "label": "Post-Quantum Crypto",
+    "slug": "post-quantum"
+  },
+  {
+    "area": "crypto",
+    "label": "Consensus & BFT",
+    "slug": "consensus"
+  },
+  {
+    "area": "crypto",
+    "label": "Smart Contracts & EVM",
+    "slug": "smart-contracts"
+  },
+  {
+    "area": "crypto",
+    "label": "MEV & Protocol Economics",
+    "slug": "mev-defi"
+  }
+]

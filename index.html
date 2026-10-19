@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahbar — Daily Technical &amp; Scientific Dispatches</title>
+  <meta name="description" content="Autonomous daily technical digest and archive across computer science, AI, mathematics, physics, systems, computational biology, and cryptography.">
+  <link rel="alternate" type="application/atom+xml" title="Ahbar — All Dispatches" href="feed.xml">
+  <!-- KaTeX CSS & JS for LaTeX math rendering in Mathematics, Physics & CS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <!-- Top Header Bar -->
+    <header class="top" role="banner">
+      <div class="brand-wrap">
+        <a href="?" class="logo" id="home-logo" aria-label="Ahbar Home">
+          <svg class="enso" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M49 16C40 7 22 8 14 20c-8 12-4 29 9 35 12 6 28 0 32-13 3-9-1-19-8-23"/>
+          </svg>
+          <span>Ahbar</span>
+        </a>
+
+        <!-- Issue / Archive Navigator -->
+        <div class="issue-bar" aria-label="Issue Navigator">
+          <button type="button" class="issue-nav-btn" id="prev-issue-btn" title="Older Issue">‹</button>
+          <select id="issue-select" aria-label="Select Issue Date"></select>
+          <button type="button" class="issue-nav-btn" id="next-issue-btn" title="Newer Issue">›</button>
+        </div>
+      </div>
+
+      <!-- Instant Search -->
+      <div class="search-box">
+        <input type="search" id="q" placeholder="Search papers, theorems, systems, #tags…" autocomplete="off" spellcheck="false">
+        <kbd>/</kbd>
+      </div>
+
+      <!-- Actions -->
+      <div class="top-actions">
+        <button type="button" class="btn" id="saved-btn" title="Saved Reading List (Local)">
+          <span>Saved</span>
+          <span class="n" id="saved-count">0</span>
+        </button>
+        <a href="data/sample-email.html" target="_blank" rel="noopener" class="lnk" title="Preview Today's Email Format">Email Preview ↗</a>
+        <button type="button" class="btn primary" id="subscribe-btn">Subscribe / Preferences</button>
+        <button type="button" class="lnk" id="theme-btn" aria-label="Toggle dark/light theme" title="Toggle theme">◐</button>
+      </div>
+    </header>
+
+    <!-- Subheader Issue Banner -->
+    <section class="sub-banner" id="issue-banner">
+      <div>
+        <h1 id="edition-heading">Daily Technical &amp; Scientific <em>Dispatches</em></h1>
+      </div>
+      <div class="stats-pill" id="issue-stats">
+        <span>Loading issue telemetry…</span>
+      </div>
+    </section>
+
+    <!-- Main Feed View -->
+    <main id="feed-view">
+      <!-- Today's Top Picks (Showcase) -->
+      <section class="top-picks-section" id="top-picks-section">
+        <h2 class="k">
+          <span class="rn">★</span> Today's Top Picks
+          <span id="top-picks-subtitle">Highest-signal breakthroughs selected for the Standard Digest</span>
+        </h2>
+        <div class="top-picks-grid" id="top-picks-grid"></div>
+      </section>
+
+      <!-- All Dispatches + Filter Panel -->
+      <section id="all-news-section">
+        <h2 class="k">
+          All Dispatches
+          <span id="active-filter-summary">7 Areas · Ranked by Multi-Signal + Technical Rigor Score</span>
+        </h2>
+
+        <div class="controls-panel">
+          <!-- 7 Top-Level Areas -->
+          <div class="area-tabs" id="area-tabs" role="tablist" aria-label="Scientific and Technical Areas"></div>
+
+          <!-- Quick Technical Filters + Sort & RSS -->
+          <div class="filter-row">
+            <div class="quick-filters" id="quick-filters">
+              <button type="button" class="chip" data-filter="code" aria-pressed="false">[Has Code]</button>
+              <button type="button" class="chip" data-filter="papers" aria-pressed="false">[Papers Only]</button>
+              <button type="button" class="chip" data-filter="discussed" aria-pressed="false">[Discussed]</button>
+              <button type="button" class="chip" data-filter="unread" aria-pressed="false">[Unread Only]</button>
+            </div>
+
+            <div class="sort-and-rss">
+              <label for="sort-select">Sort:</label>
+              <select id="sort-select">
+                <option value="score">Importance Score</option>
+                <option value="community">Community Points</option>
+                <option value="source">Primary Source</option>
+              </select>
+              <a href="feed/all.xml" id="current-rss-link" class="badge-link" target="_blank" rel="noopener" title="Atom/RSS Feed for current selection">RSS / Atom ↗</a>
+            </div>
+          </div>
+
+          <!-- Canonical Tag Chips -->
+          <div class="tag-bar" id="tag-bar" aria-label="Canonical Tags"></div>
+        </div>
+
+        <!-- Filtered News Items -->
+        <div class="feed-list" id="feed-list" role="feed"></div>
+      </section>
+    </main>
+
+    <!-- Layer-2 Item Detail Page View (?item=<id>) -->
+    <article id="detail-view" class="detail-view" hidden></article>
+
+    <!-- Footer -->
+    <footer class="site-foot">
+      <div>
+        <strong>Ahbar</strong> · Autonomous daily digest updated at <code>05:00 UTC</code> (08:00 TSİ) ·
+        <a href="feed.xml">Atom Feed</a> ·
+        <a href="data/health.json" target="_blank" rel="noopener">Source Health</a>
+      </div>
+      <div class="kbd-help">
+        <span><kbd>j</kbd>/<kbd>k</kbd> navigate</span>
+        <span><kbd>Enter</kbd> analysis</span>
+        <span><kbd>o</kbd> source</span>
+        <span><kbd>s</kbd> save</span>
+        <span><kbd>/</kbd> search</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Passwordless Subscription & Preferences Modal -->
+  <div class="modal-backdrop" id="sub-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="sub-modal-title">
+      <div class="modal-header">
+        <h2 id="sub-modal-title">Daily Email Digest — Passwordless Subscription</h2>
+        <button type="button" class="lnk" id="close-sub-modal" aria-label="Close">✕</button>
+      </div>
+      <form id="sub-form">
+        <div class="form-group">
+          <label class="field-title" for="sub-email">Email Address (No Password Required)</label>
+          <input type="email" id="sub-email" class="input-text" placeholder="researcher@university.edu" required>
+        </div>
+
+        <div class="form-group">
+          <label class="field-title">1. Digest Mode</label>
+          <div class="radio-grid" id="mode-options">
+            <label class="radio-card selected" data-val="hybrid">
+              <input type="radio" name="mode" value="hybrid" checked hidden>
+              <strong>Hybrid (Recommended)</strong>
+              <span>Top Picks across all fields + your custom tags</span>
+            </label>
+            <label class="radio-card" data-val="standard">
+              <input type="radio" name="mode" value="standard" hidden>
+              <strong>Standard Digest</strong>
+              <span>The highest-scoring breakthroughs from all 7 areas</span>
+            </label>
+            <label class="radio-card" data-val="personalized">
+              <input type="radio" name="mode" value="personalized" hidden>
+              <strong>Personalized Only</strong>
+              <span>Strictly items matching your selected areas &amp; tags</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-title">2. Reading Density</label>
+          <div class="radio-grid" id="density-options">
+            <label class="radio-card selected" data-val="compact">
+              <input type="radio" name="density" value="compact" checked hidden>
+              <strong>Compact (5–7 items)</strong>
+              <span>Fast 3-minute morning scan, zero fluff</span>
+            </label>
+            <label class="radio-card" data-val="comprehensive">
+              <input type="radio" name="density" value="comprehensive" hidden>
+              <strong>Comprehensive (15–20 items)</strong>
+              <span>Deep daily coverage across your selected areas</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-title">3. Delivery Schedule &amp; Content Filter</label>
+          <div class="radio-grid">
+            <div>
+              <select id="sub-frequency" class="input-text">
+                <option value="daily">Every Morning (Daily + Weekend Edition)</option>
+                <option value="weekdays-only">Weekdays Only (Mon–Fri)</option>
+                <option value="weekend-only">Weekend Deep-Dive Only (Sat–Sun)</option>
+              </select>
+            </div>
+            <div>
+              <select id="sub-content-filter" class="input-text">
+                <option value="all">All Qualified Dispatches</option>
+                <option value="papers-only">Academic Preprints / Papers Only</option>
+                <option value="code-only">Items with Open-Source Code Only</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-title">4. Areas of Interest</label>
+          <div class="quick-filters" id="sub-areas-picker"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-title">5. Canonical Tags (Optional Fine-Grained Filter)</label>
+          <div class="quick-filters" id="sub-tags-picker"></div>
+        </div>
+
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--rule);">
+          <span id="sub-status-msg" style="font-size:13px;color:var(--red);"></span>
+          <div style="display:flex;gap:8px;">
+            <a href="data/sample-email.html" target="_blank" rel="noopener" class="btn">Preview Email HTML</a>
+            <button type="submit" class="btn primary">Save Subscription Preferences</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Saved Reading List Modal -->
+  <div class="modal-backdrop" id="saved-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="saved-modal-title">
+      <div class="modal-header">
+        <h2 id="saved-modal-title">Saved Dispatches &amp; Citations</h2>
+        <button type="button" class="lnk" id="close-saved-modal" aria-label="Close">✕</button>
+      </div>
+      <div style="display:flex;gap:8px;margin-bottom:16px;">
+        <button type="button" class="btn" id="export-md-btn">Export Markdown (.md)</button>
+        <button type="button" class="btn" id="export-bib-btn">Export BibTeX (.bib)</button>
+        <button type="button" class="btn" id="clear-saved-btn" style="margin-left:auto;">Clear All</button>
+      </div>
+      <div id="saved-list-container"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
