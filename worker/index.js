@@ -174,6 +174,73 @@ export default {
       return Response.json({ ok: true, item_id: itemId, vote }, { headers: CORS_HEADERS });
     }
 
+    // 4. GET /feed/custom (Dynamic user-filtered Atom 1.0 feed)
+    if (request.method === "GET" && url.pathname === "/feed/custom") {
+      const areaFilter = url.searchParams.get("area");
+      const tagFilter = url.searchParams.get("tag");
+      const minScore = parseFloat(url.searchParams.get("min_score") || "0");
+      const lang = url.searchParams.get("lang") === "tr" ? "tr" : "en";
+
+      const dataUrl = `https://latifkedi.github.io/ahbar/data/latest.${lang}.json`;
+      let issueData;
+      try {
+        const resp = await fetch(dataUrl, { cf: { cacheTtl: 300, cacheEverything: true } });
+        if (!resp.ok) throw new Error("Failed to fetch latest issue data");
+        issueData = await resp.json();
+      } catch {
+        return new Response(
+          `<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ahbar Error</title></feed>`,
+          {
+            status: 502,
+            headers: { "Content-Type": "application/atom+xml; charset=utf-8", ...CORS_HEADERS }
+          }
+        );
+      }
+
+      let items = issueData.items || [];
+      if (areaFilter) {
+        items = items.filter((i) => i.area === areaFilter);
+      }
+      if (tagFilter) {
+        const tags = tagFilter.split(",").map((t) => t.trim().toLowerCase());
+        items = items.filter((i) => (i.tags || []).some((t) => tags.includes(t.toLowerCase())));
+      }
+      if (minScore > 0) {
+        items = items.filter((i) => (i.metrics?.final_score || 0) >= minScore);
+      }
+
+      function escapeXml(str) {
+        return (str || "")
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&apos;");
+      }
+
+      const feedId = `tag:latifkedi.github.io,2026:ahbar:custom:${encodeURIComponent(url.search)}`;
+      const feedTitle = `Ahbar — Custom Filtered Feed (${areaFilter || "All"} / ${tagFilter || "All Tags"})`;
+      const updated = issueData.generated_at || new Date().toISOString();
+
+      let entriesXml = "";
+      for (const item of items) {
+        const title = lang === "tr" && item.headline_tr ? item.headline_tr : item.headline;
+        const summary = lang === "tr" && item.summary_tr ? item.summary_tr : item.summary;
+        const itemUrl = item.url || `https://latifkedi.github.io/ahbar/?item=${item.id}`;
+        entriesXml += `  <entry>\n    <title>${escapeXml(title)}</title>\n    <link href="${escapeXml(itemUrl)}"/>\n    <id>tag:latifkedi.github.io,2026:ahbar:item:${item.id}</id>\n    <updated>${updated}</updated>\n    <summary>${escapeXml(summary)}</summary>\n    <author><name>${escapeXml(item.source_name || "Ahbar")}</name></author>\n    <category term="${escapeXml(item.area)}"/>\n  </entry>\n`;
+      }
+
+      const atomXml = `<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom">\n  <title>${escapeXml(feedTitle)}</title>\n  <link href="https://latifkedi.github.io/ahbar"/>\n  <link rel="self" href="${escapeXml(url.href)}"/>\n  <id>${escapeXml(feedId)}</id>\n  <updated>${updated}</updated>\n  <author><name>Ahbar Autonomous Synthesizer</name></author>\n${entriesXml}</feed>`;
+
+      return new Response(atomXml, {
+        headers: {
+          "Content-Type": "application/atom+xml; charset=utf-8",
+          "Cache-Control": "public, max-age=300, s-maxage=300",
+          ...CORS_HEADERS
+        }
+      });
+    }
+
     return Response.json({ service: "ahbar-edge-api", status: "ok" }, { headers: CORS_HEADERS });
   }
 };

@@ -453,6 +453,94 @@ fn urlencoding_simple(s: &str) -> String {
     out
 }
 
+/// Builds the HTML formatted text for Telegram Bot broadcast.
+pub fn build_telegram_digest_text(issue: &DailyIssue, site_base_url: &str) -> String {
+    let mut text = format!(
+        "⚡ <b>Ahbar — Günlük Bilim &amp; Teknoloji Seçkisi</b> (Sayı #{})\n<i>{} · {} Nitelikli Kayıt</i>\n\n",
+        issue.issue_number, issue.date, issue.stats.qualified_items
+    );
+
+    let mut picked = Vec::new();
+    for area in Area::ALL {
+        if let Some(item) = issue
+            .items
+            .iter()
+            .find(|i| i.area == area && i.is_top_pick)
+            .or_else(|| issue.items.iter().find(|i| i.area == area))
+        {
+            picked.push(item);
+        }
+    }
+
+    for item in picked.iter().take(10) {
+        let title = item.headline_tr.as_deref().unwrap_or(&item.headline);
+        let summary = item.summary_tr.as_deref().unwrap_or(&item.summary);
+        let safe_url = sanitize_http_url(&item.url)
+            .unwrap_or_else(|| "https://latifkedi.github.io/ahbar".to_string());
+        let item_link = format!("{}/?item={}", site_base_url.trim_end_matches('/'), item.id);
+
+        text.push_str(&format!(
+            "<b>{} {}</b> · <a href=\"{}\">{}</a>\n{}\n<a href=\"{}\">Detay &amp; Analiz →</a> · <a href=\"{}\">Kaynak ↗</a>\n\n",
+            item.area.numeral(),
+            escape_xml(item.area.title_tr()),
+            escape_xml(&item_link),
+            escape_xml(title),
+            escape_xml(summary),
+            escape_xml(&item_link),
+            escape_xml(&safe_url)
+        ));
+    }
+
+    text.push_str(&format!(
+        "🌐 <a href=\"{}\">Tüm bülteni web üzerinde oku ({}) →</a>",
+        escape_xml(site_base_url),
+        issue.items.len()
+    ));
+
+    if text.chars().count() > 3900 {
+        let mut truncated: String = text.chars().take(3800).collect();
+        truncated.push_str(&format!(
+            "\n\n... <a href=\"{}\">Devamını web üzerinde oku →</a>",
+            escape_xml(site_base_url)
+        ));
+        text = truncated;
+    }
+
+    text
+}
+
+/// Dispatches a high-priority summary of the daily issue to Telegram via Bot API.
+pub async fn dispatch_telegram_digest(
+    client: &Client,
+    issue: &DailyIssue,
+    bot_token: &str,
+    chat_id: &str,
+    site_base_url: &str,
+) -> Result<String, String> {
+    let text = build_telegram_digest_text(issue, site_base_url);
+    let url = format!("https://api.telegram.org/bot{}/sendMessage", bot_token);
+    let payload = serde_json::json!({
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": true
+    });
+
+    let resp = client
+        .post(&url)
+        .json(&payload)
+        .send()
+        .await
+        .map_err(|e| e.to_string())?;
+
+    if !resp.status().is_success() {
+        let err_body = resp.text().await.unwrap_or_default();
+        return Err(format!("Telegram API error: {}", err_body));
+    }
+
+    Ok("telegram_ok".to_string())
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -478,5 +566,23 @@ mod tests {
         assert!(html.contains("Ahbar"));
         assert!(html.contains("Manage Tags &amp; Preferences (No Login)"));
         assert!(html.contains("One-Click Unsubscribe"));
+    }
+
+    #[test]
+    fn test_telegram_digest_formatting() {
+        let issue = DailyIssue {
+            issue_number: 42,
+            date: "2026-10-19".to_string(),
+            edition_type: EditionType::Daily,
+            generated_at: "2026-10-19T05:00:00Z".to_string(),
+            stats: IssueStats {
+                qualified_items: 25,
+                ..Default::default()
+            },
+            items: Vec::new(),
+        };
+        let text = build_telegram_digest_text(&issue, "https://latifkedi.github.io/ahbar");
+        assert!(text.contains("Ahbar — Günlük Bilim &amp; Teknoloji Seçkisi"));
+        assert!(text.contains("Sayı #42"));
     }
 }

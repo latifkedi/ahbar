@@ -1,0 +1,19 @@
+{
+  "name": "Ahbar — Günlük Teknik & Bilimsel Bülten",
+  "short_name": "Ahbar",
+  "description": "Yazılım, yapay zekâ, matematik, fizik, sistem ve bilim alanlarında günlük teknik bülten ve fihrist.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f1e7",
+  "theme_color": "#f6f1e7",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><rect width='60' height='60' rx='12' fill='%23f6f1e7'/><path d='M43 12A22 22 0 1 0 51 30' fill='none' stroke='%23a8321f' stroke-width='6' stroke-linecap='round'/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

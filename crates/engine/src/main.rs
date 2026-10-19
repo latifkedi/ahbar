@@ -166,6 +166,29 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
+    if args.iter().any(|a| a == "--send-telegram") || env::var("TELEGRAM_BOT_TOKEN").is_ok() {
+        if let (Ok(token), Ok(chat_id)) =
+            (env::var("TELEGRAM_BOT_TOKEN"), env::var("TELEGRAM_CHAT_ID"))
+        {
+            let client = reqwest::Client::new();
+            match mailer::dispatch_telegram_digest(
+                &client,
+                &issue,
+                &token,
+                &chat_id,
+                &site_base_url,
+            )
+            .await
+            {
+                Ok(_) => println!(
+                    "[Ahbar Engine] Dispatched Telegram daily digest to {}",
+                    chat_id
+                ),
+                Err(e) => eprintln!("[Ahbar Engine] Telegram dispatch error: {}", e),
+            }
+        }
+    }
+
     println!(
         "[Ahbar Engine] Emitted Issue #{} ({}) -> {} qualified items ({} Top Picks, {} in 10x3 email)",
         issue.issue_number,

@@ -1356,10 +1356,67 @@
     }
   }
 
+  function buildCoinsTitle(item) {
+    var params = [
+      "ctx_ver=Z39.88-2004",
+      "rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal",
+      "rft.genre=article",
+      "rft.atitle=" + encodeURIComponent(item.original_title || item.headline || ""),
+      "rft.jtitle=" + encodeURIComponent(item.source_name || "Ahbar"),
+      "rft.date=" + encodeURIComponent(item.issue_date || ""),
+      "rft_id=" + encodeURIComponent(item.url || "")
+    ];
+    if (item.authors && item.authors.length) {
+      item.authors.forEach(function (au) {
+        params.push("rft.au=" + encodeURIComponent(au));
+      });
+    }
+    return params.join("&");
+  }
+
+  function updateAcademicMeta(item) {
+    clearAcademicMeta();
+    var head = document.head;
+    if (!head) return;
+    function addMeta(name, val) {
+      if (!val) return;
+      var m = document.createElement("meta");
+      m.setAttribute("name", name);
+      m.setAttribute("content", val);
+      m.setAttribute("data-academic", "1");
+      head.appendChild(m);
+    }
+    addMeta("citation_title", item.original_title || item.headline);
+    addMeta("citation_publication_date", item.issue_date || "");
+    addMeta("citation_journal_title", "Ahbar — " + (item.source_name || "Scientific Dispatch"));
+    addMeta("citation_public_url", item.url);
+    if (item.authors && item.authors.length) {
+      item.authors.forEach(function (au) {
+        addMeta("citation_author", au);
+      });
+    }
+    var links = item.links || {};
+    if (links.pdf_url) {
+      addMeta("citation_pdf_url", links.pdf_url);
+    }
+    if (item.url && item.url.indexOf("arxiv.org") !== -1) {
+      var arx = item.url.replace(/^.*\/abs\//, "").replace(/^.*\/pdf\//, "").replace(/\.pdf$/, "");
+      if (arx) addMeta("citation_arxiv_id", arx);
+    }
+  }
+
+  function clearAcademicMeta() {
+    var existing = document.querySelectorAll('meta[data-academic="1"]');
+    for (var i = 0; i < existing.length; i++) {
+      existing[i].parentNode.removeChild(existing[i]);
+    }
+  }
+
   function renderDetailView(mainEl, item) {
     var t = tr();
     state.seenMap[item.id] = Date.now();
     saveJson(STORAGE_KEYS.seen, state.seenMap);
+    updateAcademicMeta(item);
 
     var aMeta = getArea(item.area);
     var isSaved = !!state.savedMap[item.id];
@@ -1434,6 +1491,7 @@
           esc(item.source_name) +
         "</p>" +
         '<article class="rec big">' +
+          '<span class="Z3988" title="' + esc(buildCoinsTitle(item)) + '"></span>' +
           '<div class="rb">' +
             '<div class="nm">' +
               '<h1 class="ph"><a class="name" href="' + esc(primaryUrl) + '" target="_blank" rel="noopener">' + formatMathHtml(itemHeadline(item)) + "</a></h1>" +
@@ -1529,6 +1587,8 @@
         state.activeItemId = null;
       }
     }
+
+    clearAcademicMeta();
 
     if (isAtHome()) {
       renderHomeView(mainEl);
@@ -1700,17 +1760,53 @@
   }
 
   function formatMarkdown(item) {
-    return [
-      "### " + itemHeadline(item),
-      "- **Original Title:** " + item.original_title,
-      "- **Source:** [" + item.source_name + "](" + item.url + ") (" + item.issue_date + ")",
-      item.links && item.links.pdf_url ? "- **PDF:** " + item.links.pdf_url : null,
-      item.links && item.links.code_url ? "- **Code:** " + item.links.code_url : null,
-      "- **Tags:** " + (item.tags || []).map(function (t) { return "#" + t; }).join(" "),
+    var d = item.detail || {};
+    var tags = (item.tags || []).map(function (t) { return t.replace(/-/g, "_"); });
+    var authorsStr = (item.authors && item.authors.length) ? JSON.stringify(item.authors) : "[]";
+    var links = item.links || {};
+
+    var lines = [
+      "---",
+      "title: " + JSON.stringify(itemHeadline(item)),
+      "original_title: " + JSON.stringify(item.original_title || itemHeadline(item)),
+      "area: " + JSON.stringify(item.area),
+      "source: " + JSON.stringify(item.source_name),
+      "url: " + JSON.stringify(item.url),
+      "date: " + JSON.stringify(item.issue_date || new Date().toISOString().slice(0, 10)),
+      "authors: " + authorsStr,
+      "tags: [" + tags.map(function (t) { return '"' + t + '"'; }).join(", ") + "]",
+      "score: " + (item.metrics && item.metrics.final_score ? item.metrics.final_score.toFixed(1) : "0.0"),
+      "---",
       "",
-      itemSummary(item),
+      "# " + itemHeadline(item),
+      "",
+      "> **" + (state.lang === "tr" ? "Özet" : "Summary") + ":** " + itemSummary(item),
+      "",
+      "- **" + (state.lang === "tr" ? "Kaynak" : "Source") + ":** [" + item.source_name + "](" + item.url + ")",
+      links.pdf_url ? "- **PDF:** [" + links.pdf_url + "](" + links.pdf_url + ")" : null,
+      links.code_url ? "- **" + (state.lang === "tr" ? "Kod" : "Code") + ":** [" + links.code_url + "](" + links.code_url + ")" : null,
+      "",
+      "## 1. " + (state.lang === "tr" ? "Problem ve Teknik Bağlam" : "Problem & Technical Context"),
+      itemDetailField(item, "problem_context") || itemSummary(item),
+      "",
+      "## 2. " + (state.lang === "tr" ? "Yöntem ve Mimari" : "Method & Architecture"),
+      itemDetailField(item, "method_architecture") || "—",
+      "",
+      "## 3. " + (state.lang === "tr" ? "Bulgular ve Ödünleşimler" : "Findings & Trade-offs"),
+      itemDetailField(item, "findings_tradeoffs") || "—",
       ""
-    ].filter(Boolean).join("\n");
+    ];
+    if (d.abstract_excerpt) {
+      lines.push("## " + (state.lang === "tr" ? "Özet Parçası (Abstract)" : "Abstract Excerpt"));
+      lines.push("> " + d.abstract_excerpt);
+      lines.push("");
+    }
+    if (d.bibtex) {
+      lines.push("## BibTeX");
+      lines.push("```bibtex\n" + d.bibtex + "\n```");
+      lines.push("");
+    }
+    return lines.filter(function (l) { return l !== null; }).join("\n");
   }
 
   function downloadFile(filename, text, mime) {

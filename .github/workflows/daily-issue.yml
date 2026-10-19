@@ -45,15 +45,18 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           AHBAR_FROM_EMAIL: ${{ secrets.AHBAR_FROM_EMAIL }}
           AHBAR_HMAC_SECRET: ${{ secrets.AHBAR_HMAC_SECRET }}
           AHBAR_SITE_URL: "https://latifkedi.github.io/ahbar"
         run: |
-          if [ "${{ github.event.inputs.send_emails }}" = "false" ]; then
-            cargo run --release -p ahbar-engine -- --root .
-          else
-            cargo run --release -p ahbar-engine -- --root . --send-emails
+          SEND_EMAIL_FLAG=""
+          if [ "${{ github.event.inputs.send_emails }}" != "false" ]; then
+            SEND_EMAIL_FLAG="--send-emails"
           fi
+          cargo run --release -p ahbar-engine -- --root . $SEND_EMAIL_FLAG --send-telegram
+
 
       - name: Commit & push daily issue artifacts
         run: |

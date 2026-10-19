@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml</id>
-  <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
   <entry>
     <title>All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-all-atom-equivariant-flow-matching"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05980"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-all-atom-equivariant-flow-matching</id>
-    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
     <summary type="html">&lt;p&gt;Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\text{cat}}/K_M &amp;gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ in wet-lab assays without directed evolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05980&quot;&gt;arXiv Quantitative Biology (q-bio.BM)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -19,7 +19,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-pangenome-graph-indexing-in-sub"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06112"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-pangenome-graph-indexing-in-sub</id>
-    <updated>2026-10-19T10:47:41.534091900+00:00</updated>
+    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
     <summary type="html">&lt;p&gt;Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\text{ GB}$ of memory at $3.4\times$ higher throughput than Minigraph-Cactus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06112&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #algorithms&lt;/p&gt;</summary>
   </entry>
 </feed>
