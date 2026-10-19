@@ -1,0 +1,11 @@
+{
+  "name": "oh-my-claudecode",
+  "displayName": "Oh My ClaudeCode (OMC)",
+  "version": "5.7.4",
+  "description": "Teams-first multi-agent orchestration system with 48 workflow skills, 19 specialized agents, and execution protocols.",
+  "suggestedPrompts": [
+    "autopilot: yeni bir özelliği baştan sona planla, kodla ve doğrula",
+    "ralplan: bu mimari değişikliği detaylıca planla",
+    "deep-interview: gereksinimleri netleştirmek için beni sorgula"
+  ]
+}

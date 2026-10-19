@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "omc-tools": {
+      "command": "node",
+      "args": [
+        "C:/Program Files/FlyEnv-Data/env/node/node_modules/oh-my-claude-sisyphus/bridge/mcp-server.cjs"
+      ]
+    }
+  }
+}

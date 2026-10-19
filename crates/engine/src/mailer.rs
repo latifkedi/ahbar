@@ -1,26 +1,26 @@
 use crate::emit::escape_xml;
 use ahbar_shared::{
-    sign_subscriber_token, ContentFilter, DailyIssue, DigestFrequency, DigestMode, EditionType,
-    NewsItem, SubscriptionPreferences,
+    latex_to_email_unicode, sign_subscriber_token, Area, ContentFilter, DailyIssue,
+    DigestFrequency, DigestMode, EditionType, NewsItem, SubscriptionPreferences,
 };
 use reqwest::Client;
 use std::env;
 
 /// Selects the exact list of items for a subscriber according to their
-/// Mode (Standard / Personalized / Hybrid), Density (Compact 5-7 / Comprehensive 15-20),
+/// Mode (Standard / Personalized / Hybrid), Density (ThreePerArea = 3 per category = 21 items,
+/// Compact = 1 per category = 7 items, Comprehensive = 5 per category = 35 items),
 /// Frequency, and ContentFilter (All / PapersOnly / CodeOnly).
 pub fn select_items_for_subscriber<'a>(
     issue: &'a DailyIssue,
     prefs: &SubscriptionPreferences,
 ) -> Vec<&'a NewsItem> {
-    // Check frequency compatibility
     match (issue.edition_type, prefs.frequency) {
         (EditionType::Weekend, DigestFrequency::WeekdaysOnly) => return Vec::new(),
         (EditionType::Daily, DigestFrequency::WeekendOnly) => return Vec::new(),
         _ => {}
     }
 
-    let max_items = prefs.density.max_items();
+    let per_area = prefs.density.items_per_area();
 
     let matches_content_filter = |item: &NewsItem| -> bool {
         match prefs.content_filter {
@@ -30,41 +30,18 @@ pub fn select_items_for_subscriber<'a>(
         }
     };
 
-    let matches_personal_interest = |item: &NewsItem| -> bool {
-        let area_match = prefs.areas.is_empty() || prefs.areas.contains(&item.area);
-        let tag_match = prefs.tags.is_empty()
-            || item
-                .tags
-                .iter()
-                .any(|t| prefs.tags.iter().any(|pt| pt == t));
-        if !prefs.areas.is_empty() && !prefs.tags.is_empty() {
-            area_match || tag_match
-        } else if !prefs.areas.is_empty() {
-            area_match
-        } else if !prefs.tags.is_empty() {
-            tag_match
-        } else {
-            true
-        }
-    };
-
     let mut selected: Vec<&'a NewsItem> = Vec::new();
 
     match prefs.mode {
-        DigestMode::Standard => {
-            for item in issue.items.iter().filter(|i| i.is_top_pick) {
-                if matches_content_filter(item) {
-                    selected.push(item);
-                    if selected.len() >= max_items {
-                        break;
-                    }
-                }
-            }
-            if selected.len() < max_items {
-                for item in &issue.items {
-                    if !selected.iter().any(|s| s.id == item.id) && matches_content_filter(item) {
+        DigestMode::Standard | DigestMode::Hybrid => {
+            // Select `per_area` (default 3) highest-scoring items from every one of the 7 areas
+            for area in Area::ALL {
+                let mut count = 0;
+                for item in issue.items.iter().filter(|i| i.area == area) {
+                    if matches_content_filter(item) {
                         selected.push(item);
-                        if selected.len() >= max_items {
+                        count += 1;
+                        if count >= per_area {
                             break;
                         }
                     }
@@ -72,34 +49,25 @@ pub fn select_items_for_subscriber<'a>(
             }
         }
         DigestMode::Personalized => {
-            for item in &issue.items {
-                if matches_content_filter(item) && matches_personal_interest(item) {
-                    selected.push(item);
-                    if selected.len() >= max_items {
-                        break;
-                    }
-                }
-            }
-        }
-        DigestMode::Hybrid => {
-            // Half top picks, half personalized matches
-            let half = (max_items / 2).max(3);
-            for item in issue.items.iter().filter(|i| i.is_top_pick) {
-                if matches_content_filter(item) {
-                    selected.push(item);
-                    if selected.len() >= half {
-                        break;
-                    }
-                }
-            }
-            for item in &issue.items {
-                if !selected.iter().any(|s| s.id == item.id)
-                    && matches_content_filter(item)
-                    && matches_personal_interest(item)
-                {
-                    selected.push(item);
-                    if selected.len() >= max_items {
-                        break;
+            let active_areas = if prefs.areas.is_empty() {
+                Area::ALL.to_vec()
+            } else {
+                prefs.areas.clone()
+            };
+            for area in active_areas {
+                let mut count = 0;
+                for item in issue.items.iter().filter(|i| i.area == area) {
+                    let tag_ok = prefs.tags.is_empty()
+                        || item
+                            .tags
+                            .iter()
+                            .any(|t| prefs.tags.iter().any(|pt| pt == t));
+                    if matches_content_filter(item) && tag_ok {
+                        selected.push(item);
+                        count += 1;
+                        if count >= per_area {
+                            break;
+                        }
                     }
                 }
             }
@@ -109,8 +77,8 @@ pub fn select_items_for_subscriber<'a>(
     selected
 }
 
-/// Renders the minimalist editorial HTML email (starts directly with Item #1, zero intro fluff).
-/// Clicking any headline takes the reader to the Item Detail Page (`?item=<id>`) on Ahbar.
+/// Renders the editorial HTML email grouped by the 7 scientific/technical categories
+/// (3 dispatches per category = 21 dispatches by default), starting directly with Area I (zero intro fluff).
 pub fn render_digest_email_html(
     issue: &DailyIssue,
     items: &[&NewsItem],
@@ -118,6 +86,25 @@ pub fn render_digest_email_html(
     site_base_url: &str,
     hmac_secret: &str,
 ) -> String {
+    render_digest_email_html_with_lang(
+        issue,
+        items,
+        subscriber_email,
+        site_base_url,
+        hmac_secret,
+        "en",
+    )
+}
+
+pub fn render_digest_email_html_with_lang(
+    issue: &DailyIssue,
+    items: &[&NewsItem],
+    subscriber_email: &str,
+    site_base_url: &str,
+    hmac_secret: &str,
+    lang: &str,
+) -> String {
+    let is_tr = lang.eq_ignore_ascii_case("tr");
     let base = site_base_url.trim_end_matches('/');
     let token = sign_subscriber_token(subscriber_email, hmac_secret);
     let prefs_url = format!(
@@ -133,121 +120,214 @@ pub fn render_digest_email_html(
         token
     );
 
-    let edition_badge = match issue.edition_type {
-        EditionType::Daily => format!("ISSUE #{} · {}", issue.issue_number, issue.date),
-        EditionType::Weekend => format!("WEEKEND EDITION #{} · {}", issue.issue_number, issue.date),
+    let edition_badge = match (issue.edition_type, is_tr) {
+        (EditionType::Daily, false) => format!(
+            "ISSUE #{} · {} · {} DISPATCHES",
+            issue.issue_number,
+            issue.date,
+            items.len()
+        ),
+        (EditionType::Daily, true) => format!(
+            "SAYI #{} · {} · {} BÜLTEN KAYDI",
+            issue.issue_number,
+            issue.date,
+            items.len()
+        ),
+        (EditionType::Weekend, false) => format!(
+            "WEEKEND EDITION #{} · {}",
+            issue.issue_number, issue.date
+        ),
+        (EditionType::Weekend, true) => {
+            format!("HAFTA SONU SAYISI #{} · {}", issue.issue_number, issue.date)
+        }
     };
 
-    let mut html = String::with_capacity(16384);
-    html.push_str("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n");
+    let mut html = String::with_capacity(32768);
+    html.push_str(&format!(
+        "<!DOCTYPE html>\n<html lang=\"{}\">\n<head>\n<meta charset=\"utf-8\">\n",
+        if is_tr { "tr" } else { "en" }
+    ));
     html.push_str("<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n");
     html.push_str(&format!(
         "<title>Ahbar · {}</title>\n</head>\n",
         escape_xml(&edition_badge)
     ));
-    html.push_str("<body style=\"margin:0;padding:24px 14px;background-color:#f6f1e7;color:#1c1a16;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.6;\">\n");
-    html.push_str("<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width:680px;margin:0 auto;background-color:#fbf8f1;border:1px solid #ddd5c4;border-radius:6px;padding:24px 28px;\">\n");
+    html.push_str("<body style=\"margin:0;padding:28px 16px;background-color:#f6f1e7;color:#1c1a16;font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;line-height:1.6;\">\n");
+    html.push_str("<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"max-width:740px;margin:0 auto;background-color:#f6f1e7;\">\n");
 
-    // Minimal header bar — goes straight into Item #1 with zero intro paragraph
+    // Top Masthead Bar (useful-sites aesthetic: Enso mark + Ahbar + Issue Telemetry)
     html.push_str("<tr><td style=\"padding-bottom:14px;border-bottom:1px solid #ddd5c4;\">\n");
     html.push_str("<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n");
     html.push_str(&format!(
-        "<td><a href=\"{}/\" style=\"font-family:Georgia,'Times New Roman',serif;font-size:21px;font-weight:700;color:#1c1a16;text-decoration:none;letter-spacing:-0.01em;\"><span style=\"color:#a8321f;\">●</span> Ahbar</a></td>\n",
+        "<td><a href=\"{}/\" style=\"font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;color:#1c1a16;text-decoration:none;letter-spacing:-0.01em;\"><span style=\"color:#a8321f;font-weight:700;\">◯</span> Ahbar</a></td>\n",
         escape_xml(base)
     ));
     html.push_str(&format!(
-        "<td align=\"right\" style=\"font-size:12px;font-weight:600;letter-spacing:0.1em;color:#a8321f;text-transform:uppercase;\">{}</td>\n",
+        "<td align=\"right\" style=\"font-size:12px;font-weight:600;letter-spacing:0.12em;color:#a8321f;text-transform:uppercase;\">{}</td>\n",
         escape_xml(&edition_badge)
     ));
     html.push_str("</tr></table>\n</td></tr>\n");
 
-    // Items list (starting directly with #1)
-    for (idx, item) in items.iter().enumerate() {
-        let num = idx + 1;
-        let detail_url = format!("{}/?item={}", base, item.id);
-        let vote_sig_url = format!("{}/?vote=signal&item={}", base, item.id);
-        let vote_noise_url = format!("{}/?vote=noise&item={}", base, item.id);
-
-        html.push_str("<tr><td style=\"padding:18px 0;border-bottom:1px solid #e9e2d3;\">\n");
-
-        // Area & Source row
-        html.push_str(&format!(
-            "<div style=\"font-size:11.5px;color:#686256;margin-bottom:5px;\"><strong style=\"color:#a8321f;font-family:Georgia,serif;\">{:02}.</strong> <span style=\"text-transform:uppercase;letter-spacing:0.08em;font-weight:600;color:#5b564c;\">{}</span> · <span>{}</span></div>\n",
-            num,
-            escape_xml(item.area.title()),
-            escape_xml(&item.source_name)
-        ));
-
-        // 1-2 Sentence Technical Headline linking to Ahbar Item Detail Page
-        html.push_str(&format!(
-            "<div style=\"margin:0 0 8px 0;\"><a href=\"{}\" style=\"font-family:Georgia,'Times New Roman',serif;font-size:17.5px;font-weight:600;line-height:1.35;color:#1c1a16;text-decoration:none;\">{}</a></div>\n",
-            escape_xml(&detail_url),
-            escape_xml(&item.headline)
-        ));
-
-        // Single-paragraph Technical Summary
-        html.push_str(&format!(
-            "<p style=\"margin:0 0 10px 0;font-size:14.5px;line-height:1.58;color:#1c1a16;\">{}</p>\n",
-            escape_xml(&item.summary)
-        ));
-
-        // Direct Badges + Canonical Tags + Signal/Noise links
-        html.push_str("<div style=\"font-size:12px;color:#5b564c;\">\n");
-        html.push_str(&format!(
-            "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:none;margin-right:10px;\">[Analysis &amp; Details]</a>",
-            escape_xml(&detail_url)
-        ));
-        html.push_str(&format!(
-            "<a href=\"{}\" style=\"color:#5b564c;text-decoration:underline;margin-right:10px;\">[Source ↗]</a>",
-            escape_xml(&item.url)
-        ));
-        if let Some(ref pdf) = item.links.pdf_url {
-            html.push_str(&format!(
-                "<a href=\"{}\" style=\"color:#5b564c;text-decoration:underline;margin-right:10px;\">[PDF]</a>",
-                escape_xml(pdf)
-            ));
+    // Group items by the 7 Areas (3 items per area = 21 items total)
+    let mut global_seq = 1usize;
+    for area in Area::ALL {
+        let area_items: Vec<&&NewsItem> = items.iter().filter(|i| i.area == area).collect();
+        if area_items.is_empty() {
+            continue;
         }
-        if let Some(ref ar5iv) = item.links.html_ar5iv_url {
-            html.push_str(&format!(
-                "<a href=\"{}\" style=\"color:#5b564c;text-decoration:underline;margin-right:10px;\">[HTML / ar5iv]</a>",
-                escape_xml(ar5iv)
-            ));
-        }
-        if let Some(ref code) = item.links.code_url {
-            html.push_str(&format!(
-                "<a href=\"{}\" style=\"color:#5b564c;text-decoration:underline;margin-right:10px;\">[Code]</a>",
-                escape_xml(code)
-            ));
-        }
-        for tag in &item.tags {
-            html.push_str(&format!(
-                "<span style=\"display:inline-block;background-color:#efe8da;border:1px solid #ddd5c4;border-radius:999px;padding:1px 8px;margin-right:5px;font-size:11.5px;color:#5b564c;\">#{}</span>",
-                escape_xml(tag)
-            ));
-        }
+
+        let area_title = if is_tr {
+            area.title_tr()
+        } else {
+            area.title()
+        };
+        let area_sub = if is_tr {
+            area.subtitle_tr()
+        } else {
+            area.subtitle()
+        };
+
+        // Category Header Row (Roman Numeral + Area Title + Count)
+        html.push_str("<tr><td style=\"padding:26px 0 8px 0;border-bottom:1px solid #ddd5c4;\">\n");
         html.push_str(&format!(
-            "<span style=\"float:right;\"><a href=\"{}\" style=\"color:#686256;text-decoration:none;margin-right:6px;\" title=\"High signal\">▲ Signal</a><a href=\"{}\" style=\"color:#686256;text-decoration:none;\" title=\"Noise\">▼ Noise</a></span>",
-            escape_xml(&vote_sig_url),
-            escape_xml(&vote_noise_url)
+            "<div style=\"font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;color:#1c1a16;letter-spacing:-0.01em;\"><span style=\"color:#a8321f;margin-right:8px;\">{}</span>{} <span style=\"font-family:system-ui,sans-serif;font-size:12px;font-weight:400;color:#686256;margin-left:6px;\">({})</span></div>\n",
+            escape_xml(area.numeral()),
+            escape_xml(area_title),
+            area_items.len()
         ));
-        html.push_str("</div>\n</td></tr>\n");
+        html.push_str(&format!(
+            "<div style=\"font-size:13px;color:#5b564c;margin-top:2px;\">{}</div>\n",
+            escape_xml(area_sub)
+        ));
+        html.push_str("</td></tr>\n");
+
+        // The 3 items in this Area
+        for item in area_items {
+            let num = global_seq;
+            global_seq += 1;
+
+            let detail_url = format!("{}/?item={}", base, item.id);
+            let vote_sig_url = format!("{}/?vote=signal&item={}", base, item.id);
+            let vote_noise_url = format!("{}/?vote=noise&item={}", base, item.id);
+
+            let headline_raw = if is_tr {
+                item.headline_tr.as_deref().unwrap_or(&item.headline)
+            } else {
+                &item.headline
+            };
+            let summary_raw = if is_tr {
+                item.summary_tr.as_deref().unwrap_or(&item.summary)
+            } else {
+                &item.summary
+            };
+
+            let headline_clean = latex_to_email_unicode(headline_raw);
+            let summary_clean = latex_to_email_unicode(summary_raw);
+
+            html.push_str("<tr><td style=\"padding:16px 0;border-bottom:1px solid #e9e2d3;\">\n");
+            html.push_str("<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n");
+
+            // Left column: tabular serif sequence number in red (matches .rec .no in useful-sites)
+            html.push_str(&format!(
+                "<td width=\"32\" valign=\"top\" style=\"font-family:'Source Serif 4',Georgia,serif;font-size:13.5px;font-weight:600;color:#a8321f;padding-right:10px;padding-top:3px;text-align:right;\">{:02}</td>\n",
+                num
+            ));
+
+            // Right column: headline, source host, 1-paragraph summary, tags & direct links
+            html.push_str("<td valign=\"top\">\n");
+            html.push_str(&format!(
+                "<div style=\"margin:0 0 5px 0;\"><a href=\"{}\" style=\"font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:18px;font-weight:600;line-height:1.32;color:#1c1a16;text-decoration:none;\">{}</a> <span style=\"font-size:12.5px;color:#686256;margin-left:6px;\">· {}</span></div>\n",
+                escape_xml(&detail_url),
+                escape_xml(&headline_clean),
+                escape_xml(&item.source_name)
+            ));
+
+            html.push_str(&format!(
+                "<p style=\"margin:0 0 9px 0;font-size:15px;line-height:1.62;color:#5b564c;\">{}</p>\n",
+                escape_xml(&summary_clean)
+            ));
+
+            // Metadata bar (links + inline tags)
+            html.push_str("<div style=\"font-size:12.5px;color:#686256;\">\n");
+            let analysis_lbl = if is_tr { "Analiz & Atıf" } else { "Analysis & Cite" };
+            let source_lbl = if is_tr { "Kaynak ↗" } else { "Source ↗" };
+            html.push_str(&format!(
+                "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:none;margin-right:12px;\">{}</a>",
+                escape_xml(&detail_url),
+                analysis_lbl
+            ));
+            html.push_str(&format!(
+                "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">{}</a>",
+                escape_xml(&item.url),
+                source_lbl
+            ));
+            if let Some(ref pdf) = item.links.pdf_url {
+                html.push_str(&format!(
+                    "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">PDF</a>",
+                    escape_xml(pdf)
+                ));
+            }
+            if let Some(ref ar5iv) = item.links.html_ar5iv_url {
+                html.push_str(&format!(
+                    "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">HTML (ar5iv)</a>",
+                    escape_xml(ar5iv)
+                ));
+            }
+            if let Some(ref code) = item.links.code_url {
+                html.push_str(&format!(
+                    "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">Code</a>",
+                    escape_xml(code)
+                ));
+            }
+            for (t_idx, tag) in item.tags.iter().enumerate() {
+                if t_idx > 0 {
+                    html.push_str("<span style=\"color:#ddd5c4;margin:0 4px;\">·</span>");
+                }
+                html.push_str(&format!(
+                    "<span style=\"color:#5b564c;\">#{}</span>",
+                    escape_xml(tag)
+                ));
+            }
+            html.push_str(&format!(
+                "<span style=\"float:right;\"><a href=\"{}\" style=\"color:#686256;text-decoration:none;margin-right:8px;\">▲</a><a href=\"{}\" style=\"color:#686256;text-decoration:none;\">▼</a></span>",
+                escape_xml(&vote_sig_url),
+                escape_xml(&vote_noise_url)
+            ));
+            html.push_str("</div>\n</td></tr></table>\n</td></tr>\n");
+        }
     }
 
     // Passwordless Magic-Link Footer
-    html.push_str("<tr><td style=\"padding-top:18px;font-size:12px;color:#686256;text-align:center;\">\n");
-    html.push_str(&format!(
-        "<a href=\"{}/\" style=\"color:#1c1a16;text-decoration:underline;\">Read all {} dispatches on Ahbar</a> · ",
-        escape_xml(base),
-        issue.stats.qualified_items
-    ));
-    html.push_str(&format!(
-        "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:underline;\">Manage Tags &amp; Preferences (No Login)</a> · ",
-        escape_xml(&prefs_url)
-    ));
-    html.push_str(&format!(
-        "<a href=\"{}\" style=\"color:#686256;text-decoration:underline;\">One-Click Unsubscribe</a>\n",
-        escape_xml(&unsub_url)
-    ));
+    html.push_str("<tr><td style=\"padding-top:24px;font-size:13px;color:#686256;\">\n");
+    if is_tr {
+        html.push_str(&format!(
+            "<a href=\"{}/?lang=tr\" style=\"color:#1c1a16;text-decoration:underline;\">Ahbar üzerindeki tüm {} kaydı gör →</a> · ",
+            escape_xml(base),
+            issue.stats.qualified_items
+        ));
+        html.push_str(&format!(
+            "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:underline;\">Manage Tags &amp; Preferences (No Login)</a> · ",
+            escape_xml(&prefs_url)
+        ));
+        html.push_str(&format!(
+            "<a href=\"{}\" style=\"color:#686256;text-decoration:underline;\">One-Click Unsubscribe</a>\n",
+            escape_xml(&unsub_url)
+        ));
+    } else {
+        html.push_str(&format!(
+            "<a href=\"{}/\" style=\"color:#1c1a16;text-decoration:underline;\">Read all {} dispatches in the full index →</a> · ",
+            escape_xml(base),
+            issue.stats.qualified_items
+        ));
+        html.push_str(&format!(
+            "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:underline;\">Manage Tags &amp; Preferences (No Login)</a> · ",
+            escape_xml(&prefs_url)
+        ));
+        html.push_str(&format!(
+            "<a href=\"{}\" style=\"color:#686256;text-decoration:underline;\">One-Click Unsubscribe</a>\n",
+            escape_xml(&unsub_url)
+        ));
+    }
     html.push_str("</td></tr>\n</table>\n</body>\n</html>\n");
     html
 }

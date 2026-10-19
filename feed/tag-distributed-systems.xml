@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <updated>2026-10-19T09:03:59.309708600+00:00</updated>
   <entry>
     <title>On the (In)stability of Adaptive Fee Mechanisms in Multi-Chain Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-58-on-the-in-stability-of"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-64-on-the-in-stability-of"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23305v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-58-on-the-in-stability-of</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-64-on-the-in-stability-of</id>
     <updated>2026-10-16T11:08:32+00:00</updated>
-    <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
   </entry>
 </feed>

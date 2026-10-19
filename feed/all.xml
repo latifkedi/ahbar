@@ -5,7 +5,7 @@
   <link href="https://latifkedi.github.io/ahbar/feed/all.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/all.xml</id>
-  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <updated>2026-10-19T09:03:59.309708600+00:00</updated>
   <entry>
     <title>Linux 7.3 Released. Linus Torvalds has released the 7.3 kernel, as expected.</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-linux-7-3-released"/>
@@ -24,9 +24,9 @@
   </entry>
   <entry>
     <title>BridgeWAM: Bridging Video and Action Experts via Latent Bridge Queries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-10-bridgewam-bridging-video-and-action"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-11-bridgewam-bridging-video-and-action"/>
     <link rel="related" href="https://arxiv.org/abs/2610.14746"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-10-bridgewam-bridging-video-and-action</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-11-bridgewam-bridging-video-and-action</id>
     <updated>2026-10-09T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;World Action Models (WAMs) commonly couple video and action experts through dense, layer-wise Mixture-of-Transformers (MoT) attention, exposing action prediction to irrelevant visual features while enforcing matched expert depths. This coupling hinders selective visual-feature use and introduces redundant computation. We introduce Bridge-of-Experts (BoE), instantiated as BridgeWAM, which aggregates visual, language, and proprioceptive priors through 32 Latent Bridge Queries (LBQs) into a shared, limited latent space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.14746&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
   </entry>
@@ -40,19 +40,11 @@
   </entry>
   <entry>
     <title>RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-11-rap-a-dataset-for-paper"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-12-rap-a-dataset-for-paper"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23230"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-11-rap-a-dataset-for-paper</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-12-rap-a-dataset-for-paper</id>
     <updated>2026-10-15T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which exercises summarization, visual design, and code implementation at once, using nothing beyond the paper itself. Yet benchmarks for this task in the context of visual coding remain scarce: existing resources are small and annotated only with layout boxes, so evaluation must fall back on VLM-as-judge or human checklists rather than objective render-and-compare, and the generation methods they support design layouts from scratch, leaving human-crafted posters unusable as either a retrievable design library or as verified supervision. We introduce RAP (Reconstruct A Poster), a dataset and benchmark for paper-to-poster generation as a visual coding task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23230&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-12-lexical-reference-frames-interpreting-lm"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22169"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-12-lexical-reference-frames-interpreting-lm</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a state at the two ends of the residual stream. Between them, existing methods either reuse a fixed lens or treat the states as a point cloud, and neither reads a state the way the model does. We argue that every hidden state has a native reference frame, induced by the layers that read it next and adaptive to the context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22169&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Learning to Think and Explore in 3D World. We study how vision-language models (VLMs) can learn to think and actively explore in 3D space.</title>
@@ -72,11 +64,19 @@
   </entry>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-61-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-61-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Blockchain. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-lexical-reference-frames-interpreting-lm"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.22169"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-lexical-reference-frames-interpreting-lm</id>
+    <updated>2026-10-14T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a state at the two ends of the residual stream. Between them, existing methods either reuse a fixed lens or treat the states as a point cloud, and neither reads a state the way the model does. We argue that every hidden state has a native reference frame, induced by the layers that read it next and adaptive to the context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22169&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PalmOS Lemmings</title>
@@ -87,44 +87,52 @@
     <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/ardiri/palmos-lemmings&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-15-livemace-process-aware-evaluation-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.09872"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-15-livemace-process-aware-evaluation-of</id>
+    <updated>2026-10-06T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09872&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-hybrid-reasoning-agents-llm-agents"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-hybrid-reasoning-agents-llm-agents"/>
     <link rel="related" href="https://arxiv.org/abs/2610.18861"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-hybrid-reasoning-agents-llm-agents</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-hybrid-reasoning-agents-llm-agents</id>
     <updated>2026-10-18T20:48:14Z</updated>
     <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.18861&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Someone behind the software</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-someone-behind-the-software"/>
-    <link rel="related" href="https://karrisaarinen.com/posts/someone-behind-the-software/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-someone-behind-the-software</id>
-    <updated>2026-10-18T16:32:00Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://karrisaarinen.com/posts/someone-behind-the-software/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: WhatsApp MCP running free on Cloudflare</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-show-hn-whatsapp-mcp-running"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-show-hn-whatsapp-mcp-running"/>
     <link rel="related" href="https://github.com/finereli/whatsapp-mcp"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-show-hn-whatsapp-mcp-running</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-show-hn-whatsapp-mcp-running</id>
     <updated>2026-10-18T21:36:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/finereli/whatsapp-mcp&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-15-stuck-on-shuffle-on-attribute"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22602"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-15-stuck-on-shuffle-on-attribute</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Retrieval is a fundamental task in multimodal systems: given an image or text query, the goal is to find the most relevant images or texts in a collection, often using a shared embedding space. Reliable retrieval requires these embeddings to capture not only which concepts are present, but also how they are composed. One key compositional challenge is attribute--object binding: encoding which attributes belong to which objects.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22602&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Can Visual Generation Expand What Unified Multimodal Models Know?. Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully documented in text.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-can-visual-generation-expand-what"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-can-visual-generation-expand-what"/>
     <link rel="related" href="https://arxiv.org/abs/2610.21459"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-can-visual-generation-expand-what</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-can-visual-generation-expand-what</id>
     <updated>2026-10-14T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Unified multimodal models (UMMs) receive image-generation supervision that exposes them to visual information not fully documented in text. Can learning to generate images expand what pretrained models know? We introduce Knowledge Transfer Probing (KTP), a controlled protocol that supplies new knowledge through image-generation training and tests its accessibility through text-only question answering.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21459&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Someone behind the software</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-someone-behind-the-software"/>
+    <link rel="related" href="https://karrisaarinen.com/posts/someone-behind-the-software/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-someone-behind-the-software</id>
+    <updated>2026-10-18T16:32:00Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://karrisaarinen.com/posts/someone-behind-the-software/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Stuck on Shuffle: On Attribute-Object Binding in Vision-Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-18-stuck-on-shuffle-on-attribute"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.22602"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-18-stuck-on-shuffle-on-attribute</id>
+    <updated>2026-10-14T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Retrieval is a fundamental task in multimodal systems: given an image or text query, the goal is to find the most relevant images or texts in a collection, often using a shared embedding space. Reliable retrieval requires these embeddings to capture not only which concepts are present, but also how they are composed. One key compositional challenge is attribute--object binding: encoding which attributes belong to which objects.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22602&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>There&apos;s never been a better time to go into math (by: 3blue1brown) [video]</title>
@@ -136,9 +144,9 @@
   </entry>
   <entry>
     <title>AVC-Reward: Event-Centric Audio-Video Consistency Evaluation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-avc-reward-event-centric-audio"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-avc-reward-event-centric-audio"/>
     <link rel="related" href="https://arxiv.org/abs/2610.22321"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-avc-reward-event-centric-audio</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-avc-reward-event-centric-audio</id>
     <updated>2026-10-14T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;As joint audio-video generation models become more capable, they can generate audio-visual scenes exhibiting three forms of complexity: multi-event composition, multi-layer audio mixture, and asymmetric cross-modal relations. However, current evaluations largely reuse metrics from earlier simple and unidirectional tasks. They typically evaluate an audio-video clip as a whole and rely on simple predefined relations, making them unsuitable for these increasingly complex scenes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22321&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
@@ -152,178 +160,170 @@
   </entry>
   <entry>
     <title>Dream2Discern: Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-18-dream2discern-learning-from-hard-latent"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-dream2discern-learning-from-hard-latent"/>
     <link rel="related" href="https://arxiv.org/abs/2610.16071"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-18-dream2discern-learning-from-hard-latent</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-dream2discern-learning-from-hard-latent</id>
     <updated>2026-10-11T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Reliable deployment of LLM-based multi-agent systems calls for runtime auditors that predict terminal outcomes from observed execution prefixes. These auditors typically learn from a limited corpus of trajectories with verified outcomes. Expanding this corpus requires costly execution and verification, yet broader failure coverage alone provides no explicit criterion for identifying prefixes that the current auditor finds difficult to classify.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.16071&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Dogs seem to agree with humans that &apos;bouba&apos; is round and &apos;kiki&apos; is spiky</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-10-dogs-seem-to-agree-with"/>
+    <link rel="related" href="https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-10-dogs-seem-to-agree-with</id>
+    <updated>2026-10-18T01:38:08Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-41-hot-chips-2026-intel-s"/>
+    <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-41-hot-chips-2026-intel-s</id>
+    <updated>2026-08-27T05:12:31+00:00</updated>
+    <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Octonions and the Standard Model (Part 15)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-octonions-and-the-standard-model"/>
+    <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-octonions-and-the-standard-model</id>
+    <updated>2026-07-18T17:56:16+00:00</updated>
+    <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Doom GPU Flame Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-42-doom-gpu-flame-graphs"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-42-doom-gpu-flame-graphs</id>
+    <updated>2025-04-30T14:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Spectral networks, finite webs, and the $T_3$ cubic differential</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-22-spectral-networks-finite-webs-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23752v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-22-spectral-networks-finite-webs-and</id>
+    <updated>2026-10-16T16:57:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We describe spectral networks for cubic differentials on $\mathbf{P}^1$ with exactly three poles all of order two, following observations of Hollands-Neitzke. To do so, we give a precise definition and establish some basic properties of a class of finite webs (corresponding to BPS states in physics) in the cubic differential setting, including their non-vanishing central charge. Turning to the example, we prove that at rational angles the network is totally degenerate; the number of walls and Stokes regions is explicitly computed and depends on an arithmetic criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23752v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #high-energy&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The semiring of spectral duality skeletons: cancellation, characters and factorization</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-23-the-semiring-of-spectral-duality"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23684v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-23-the-semiring-of-spectral-duality</id>
+    <updated>2026-10-16T16:12:57+00:00</updated>
+    <summary type="html">&lt;p&gt;Weighted dual skeletons are the combinatorial core of spectral duality structures. Their isomorphism classes, under Cartesian product and disjoint union, form a semiring graded by the degree. We identify it completely: a class is determined by its degree, a symmetric element of the group semiring N_0[R] and its number of fixed points.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23684v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-37-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-43-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-37-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-43-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spectral networks, finite webs, and the $T_3$ cubic differential</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-spectral-networks-finite-webs-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23752v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-spectral-networks-finite-webs-and</id>
-    <updated>2026-10-16T16:57:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We describe spectral networks for cubic differentials on $\mathbf{P}^1$ with exactly three poles all of order two, following observations of Hollands-Neitzke. To do so, we give a precise definition and establish some basic properties of a class of finite webs (corresponding to BPS states in physics) in the cubic differential setting, including their non-vanishing central charge. Turning to the example, we prove that at rational angles the network is totally degenerate; the number of walls and Stokes regions is explicitly computed and depends on an arithmetic criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23752v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, PR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #high-energy&lt;/p&gt;</summary>
+    <title>Anyonic Neural Network Wavefunctions. The macroscopic behavior of a non-interacting gas of Abelian anyons has remained unsettled for many decades.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-31-anyonic-neural-network-wavefunctions"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23815v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-31-anyonic-neural-network-wavefunctions</id>
+    <updated>2026-10-16T17:39:06+00:00</updated>
+    <summary type="html">&lt;p&gt;The macroscopic behavior of a non-interacting gas of Abelian anyons has remained unsettled for many decades. Prior numerical methods employing exact diagonalization in the continuum and on the plane have been limited to small system sizes, at most $N = 4$ anyons. Using the rapidly developing technology of neural network wavefunctions, we develop variational ansatze appropriate for studying continuum models of the Abelian anyon gas.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23815v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Orbital Angular Momentum Currents and Textures in a Multiorbital Double Helix</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-32-orbital-angular-momentum-currents-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23814v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-32-orbital-angular-momentum-currents-and</id>
+    <updated>2026-10-16T17:35:45+00:00</updated>
+    <summary type="html">&lt;p&gt;The microscopic origin of chirality induced spin selectivity (CISS) in biomolecular structures has traditionally been discussed in terms of spin orbit coupling and spin angular momentum. However, orbital angular momentum (OAM) is increasingly recognized as a more direct electronic response to molecular chirality. A helical hopping network built only from s orbitals can support an itinerant orbital moment and an orbital Edelstein response, but such a basis has no local atomic OAM and therefore omits the complementary contribution arising from coherence among active p orbitals.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23814v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Engineering nonrelativistic spin splitting in semiconductors by altermagnetic proximity</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-33-engineering-nonrelativistic-spin-splitting-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23773v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-33-engineering-nonrelativistic-spin-splitting-in</id>
+    <updated>2026-10-16T17:09:46+00:00</updated>
+    <summary type="html">&lt;p&gt;Altermagnets combine vanishing net magnetization with momentum-dependent, nonrelativistic spin splitting, offering functionalities attractive for spintronics and quantum devices. Their practical use, however, is constrained by the limited availability of materials that simultaneously possess the required altermagnetic symmetry, semiconducting electronic structure, and weak spin-orbit coupling. Here we show that these requirements can instead be separated between constituent materials through proximity engineering.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23773v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #semiconductors&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Temperature and Thickness Dependent Spin Current Transmission through Epitaxial Antiferromagnetic α-Fe2O3</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-34-temperature-and-thickness-dependent-spin"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23764v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-34-temperature-and-thickness-dependent-spin</id>
+    <updated>2026-10-16T17:05:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Antiferromagnetic insulator α-Fe2O3 is a potential medium for coherent motion of spin waves over relatively large distances, allowing non-dissipative transfer of information between circuit elements. However, the structural defects and temperature dependent spin reorientations in this oxide impact the propagation. Understanding how the magnetic state of an antiferromagnetic insulator affects spin-current transmission is therefore important for elucidating the mechanisms governing spin transport.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23764v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Limits from nonlinear loss of spin-orbit-torque control of magnon transport</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-35-limits-from-nonlinear-loss-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23763v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-35-limits-from-nonlinear-loss-of</id>
+    <updated>2026-10-16T17:05:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Controlling magnon currents is central to the development of magnonic devices, which exploit spin excitations for information transport without charge flow. Here, we use the spin-orbit torque (SOT) from a Pt gate to control the effective magnon damping in three-terminal devices fabricated from low-damping lithium aluminum ferrite (LAFO) thin films and identify the nonlinear damping that ultimately limits the gate response. With increasing gate current, the nonlocal magnon signal initially increases, but saturates and subsequently decreases above a critical gate current density.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23763v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Holographic two-point functions across a PT symmetry-breaking transition</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-36-holographic-two-point-functions-across"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23580v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-36-holographic-two-point-functions-across</id>
+    <updated>2026-10-16T15:03:06+00:00</updated>
+    <summary type="html">&lt;p&gt;In parity-time (PT)-symmetric non-Hermitian systems, an exceptional point, where eigenvalues and eigenvectors coalesce, typically separates a real spectrum from complex-conjugate eigenvalues. In logarithmic conformal field theories (LCFTs), such an exceptional point appears in the spectrum of scaling dimensions. Holographic models of LCFTs, such as the dipole model, are built exactly at this point.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23580v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Renormalization Group Domain Walls from Phantom Symmetries. We develop a systematic construction of renormalization group (RG) domain walls between two-dimensional rational conformal field theories.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-37-renormalization-group-domain-walls-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23529v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-37-renormalization-group-domain-walls-from</id>
+    <updated>2026-10-16T14:28:02+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop a systematic construction of renormalization group (RG) domain walls between two-dimensional rational conformal field theories. Using phantom currents, we consider an auxiliary chiral extension linked to the folded ultraviolet--infrared theory by a topological interface. The construction of RG walls then reduces to identifying suitable automorphism-twisted Cardy states in the auxiliary theory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23529v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #topology&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ConQUESTA: Topology-Aware Post-Training Structural Pruning of Quantum Neural Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-conquesta-topology-aware-post-training"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23415v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-conquesta-topology-aware-post-training</id>
+    <updated>2026-10-16T13:07:10+00:00</updated>
+    <summary type="html">&lt;p&gt;Deploying quantum neural networks (QNNs) on sparse hardware requires preserving task accuracy while reducing compiler-induced two-qubit gates, SWAPs, and depth. We present ConQUESTA (\underline{C}onstrained \underline{Qu}antum \underline{E}ntangler \underline{S}election with \underline{T}opology \underline{A}wareness), a post training pruning framework that combines task saliency with compiler cost, screens candidate entanglers, and searches complete pruning masks under an explicit accuracy constraint. Unlike one-shot ranking, each mask is transpiled as a whole across multiple coupling topologies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23415v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #compilers&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Recursive Operator Localization and Spectral Gap Descent via the Geometry of Local Spectral Expansion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-recursive-operator-localization-and-spectral"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-24-recursive-operator-localization-and-spectral"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23695v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-recursive-operator-localization-and-spectral</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-24-recursive-operator-localization-and-spectral</id>
     <updated>2026-10-16T16:23:52+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, PR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing #probability-stats&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The Covering Radius of $\text{RM}(1,9)$ is Precisely $242$</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-56-the-covering-radius-of-text"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-62-the-covering-radius-of-text"/>
     <link rel="related" href="https://eprint.iacr.org/2026/2529"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-56-the-covering-radius-of-text</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-62-the-covering-radius-of-text</id>
     <updated>2026-10-18T14:48:53+00:00</updated>
     <summary type="html">&lt;p&gt;Let $\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\rho(r,n)$ denote its covering radius, so that $\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\rho(1,n)$ was previously known only for $n\le 7$. It is known that $242\le\rho(1,9)\le 244$, but the exact determination of $\rho(1,9)$ has been a long-standing open question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2529&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-57-optimal-threshold-implementations-of-all"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-63-optimal-threshold-implementations-of-all"/>
     <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-57-optimal-threshold-implementations-of-all</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-63-optimal-threshold-implementations-of-all</id>
     <updated>2026-10-12T12:53:16+00:00</updated>
     <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-security-updates-for-friday"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-44-security-updates-for-friday"/>
     <link rel="related" href="https://lwn.net/Articles/1101015/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-security-updates-for-friday</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-44-security-updates-for-friday</id>
     <updated>2026-10-16T13:17:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (environment-modules, flatpak-builder, kernel, kernel-rt, librabbitmq, libreoffice, libsoup, mod_auth_openidc:2.3, nodejs:22, nodejs:24, OpenEXR, opentelemetry-collector, pki-core:10.6, postgresql:12, python-tornado, python36:3.6, ruby:3.3, tftp, and xorg-x11-server), Debian (buildstream, firefox-esr, mariadb, and sogo), Fedora (exim, freerdp, python3-docs, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101015/&quot;&gt;LWN.net (Linux &amp;amp; Kernel)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (environment-modules, flatpak-builder, kernel, kernel-rt, librabbitmq, libreoffice, libsoup, mod_auth_openidc:2.3, nodejs:22, nodejs:24, OpenEXR, opentelemetry-collector, pki-core:10.6, postgresql:12, python-tornado, python36:3.6, ruby:3.3, tftp, and xorg-x11-server), Debian (buildstream, firefox-esr, mariadb, and sogo), Fedora (exim, freerdp, python3-docs, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101015/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>On the (In)stability of Adaptive Fee Mechanisms in Multi-Chain Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-58-on-the-in-stability-of"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-64-on-the-in-stability-of"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23305v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-58-on-the-in-stability-of</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-64-on-the-in-stability-of</id>
     <updated>2026-10-16T11:08:32+00:00</updated>
-    <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-59-pq-spending-for-stealth-address"/>
-    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-59-pq-spending-for-stealth-address</id>
-    <updated>2026-09-28T01:09:06+00:00</updated>
-    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ECHO: Replacing the Compliance Proxy with Response Harmfulness in Optimization-Based Jailbreak Attack</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-60-echo-replacing-the-compliance-proxy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23030v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-60-echo-replacing-the-compliance-proxy</id>
-    <updated>2026-10-16T07:07:08+00:00</updated>
-    <summary type="html">&lt;p&gt;Despite extensive safety alignment, large language models remain vulnerable to jailbreak attacks. Existing optimization-based attacks share a single objective: maximize a token-level proxy of victim compliance---such as the likelihood of an affirmative prefix---computed on the prompt rather than the decoded reply. This proxy cannot distinguish a cautious hedge from a fully actionable harmful answer, leaving the search blind to what the model actually says.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23030v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-61-safe-mem-secure-agentic-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22959v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-61-safe-mem-secure-agentic-memory</id>
-    <updated>2026-10-16T05:29:55+00:00</updated>
-    <summary type="html">&lt;p&gt;Large language model (LLM) agents increasingly rely on persistent memory to support long-term reasoning and personalized interactions. However, information collected from external sources can introduce security risks when untrusted claims (i.e., atomic statements) are later treated as authorized preferences, policies, or permissions. Existing defenses typically rely on content-based filtering or coarse-grained provenance tracking, which either fail to prevent unauthorized memory use or block legitimate information, sacrificing memory utility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22959v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HBFSim: A Simulator for Exploring HBF in Memory Hierarchies for LLMs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-40-hbfsim-a-simulator-for-exploring"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23503v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-40-hbfsim-a-simulator-for-exploring</id>
-    <updated>2026-10-16T14:14:14+00:00</updated>
-    <summary type="html">&lt;p&gt;High Bandwidth Flash (HBF) has recently emerged as a promising technology that provides terabyte-scale accelerator-local capacity at bandwidths approaching HBM, with a potential cost-per-bit advantage over HBM. However, its NAND foundation brings long latency, out-of-place updates, and finite write endurance directly into the accelerator memory hierarchy, making its effects on performance and lifetime difficult to predict. To study this emerging design space, we present HBFSim, an LLM-aware event-driven simulator for heterogeneous HBM+HBF memory systems that preserves application-level memory semantics while modeling flash-internal behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23503v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-39-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-39-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SCMAC and LOL2.0: An AEAD Design Framework and A New Version of LOL Stream Cipher Design Framework</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-62-scmac-and-lol2-0-an"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/925"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-62-scmac-and-lol2-0-an</id>
-    <updated>2025-05-22T06:51:02+00:00</updated>
-    <summary type="html">&lt;p&gt;In this paper, we introduce SCMAC, a general framework that transforms large-memory stream ciphers into AEAD schemes. It represents an intermediate design paradigm between Encrypt-then-MAC and dedicated single-pass AEAD, partially integrating encryption and authentication mechanisms while mitigating the risk of state leakage associated with immediate absorption and squeezing. Consequently, this approach harmonizes high performance with enhanced security.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/925&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SoK: Pseudorandom Generation for Masked Cryptographic Implementation. This paper investigates pseudorandom generation in the context of masked cryptographic implementation.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-63-sok-pseudorandom-generation-for-masked"/>
-    <link rel="related" href="https://eprint.iacr.org/2024/1968"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-63-sok-pseudorandom-generation-for-masked</id>
-    <updated>2024-12-05T14:35:18+00:00</updated>
-    <summary type="html">&lt;p&gt;This paper investigates pseudorandom generation in the context of masked cryptographic implementation. Although masking and pseudorandom generators (PRGs) have been distinctly studied for a long time, there has been little study on how randomness should be generated in masked implementation. The lack of analysis on mask-bits generators obscures the practical security of masked cryptographic implementation, potentially confusing practitioners (e.g., designer, implementer, and evaluator) about how to realize them securely.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/1968&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Chaos control with broken symmetries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-28-chaos-control-with-broken-symmetries"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03480-4"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-28-chaos-control-with-broken-symmetries</id>
-    <updated>2026-10-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 16 October 2026; doi:10.1038/s41567-026-03480-4 By breaking both material and cavity symmetries, waves can be funnelled into robust closed-loop patterns. This dual-symmetry-breaking approach enables the development of a new class of devices for wave-based signal processing and sensing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03480-4&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cavity-less Brillouin strong coupling in a solid-state continuous system</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-29-cavity-less-brillouin-strong-coupling"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03458-2"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-29-cavity-less-brillouin-strong-coupling</id>
-    <updated>2026-10-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 16 October 2026; doi:10.1038/s41567-026-03458-2 Strong coupling between light and matter is typically realized in resonators. Now it is shown that this can happen in a cavity-less waveguide scenario in which the light passes through only once.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03458-2&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The extraction of work from hidden degrees of freedom</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-30-the-extraction-of-work-from"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03442-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-30-the-extraction-of-work-from</id>
-    <updated>2026-10-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 16 October 2026; doi:10.1038/s41567-026-03442-w According to the laws of thermodynamics, information can be converted into energy. An information engine that harnesses environmental memory and exhibits non-Markovian dynamics has now been realized in experiments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03442-w&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Reaction–diffusion competition drives anomalous relaxation of vitrimers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-31-reaction-diffusion-competition-drives-anomalous"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03468-0"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-31-reaction-diffusion-competition-drives-anomalous</id>
-    <updated>2026-10-15T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 15 October 2026; doi:10.1038/s41567-026-03468-0 Vitrimers—polymers that form covalent networks—show glassy behaviour with viscosity decoupled from structural relaxation. This decoupling is now found to originate from a competition between chemical exchange reactions and diffusion processes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03468-0&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Simultaneous high-fidelity single-qubit gates in a spin qubit array</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-32-simultaneous-high-fidelity-single-qubit"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03466-2"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-32-simultaneous-high-fidelity-single-qubit</id>
-    <updated>2026-10-15T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 15 October 2026; doi:10.1038/s41567-026-03466-2 Quantum computers require simultaneous control of multiple qubits, which is challenging to achieve in nanoscale semiconductor devices. Now high-fidelity parallel operations have been demonstrated for five silicon spin qubits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03466-2&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #quantum-computing #semiconductors&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Monolayer van der Waals kagome lattice for high-temperature flat-band physics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-33-monolayer-van-der-waals-kagome"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03492-0"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-33-monolayer-van-der-waals-kagome</id>
-    <updated>2026-10-15T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 15 October 2026; doi:10.1038/s41567-026-03492-0 The experimental realization of intrinsic 2D kagome materials with controllable flat bands has remained challenging. Now a van der Waals kagome material family is shown to host an isolated, gate-tunable flat band down to the monolayer limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03492-0&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A dynamic ruler for positional memory in regeneration</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-34-a-dynamic-ruler-for-positional"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03488-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-34-a-dynamic-ruler-for-positional</id>
-    <updated>2026-10-14T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 14 October 2026; doi:10.1038/s41567-026-03488-w Zebrafish can determine the amount of tissue to regrow after appendage amputation. Now, a study shows that a signal gradient that scales with the amount of tissue left to regenerate ensures that an amputated tailfin regrows to the correct length.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03488-w&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
   </entry>
 </feed>

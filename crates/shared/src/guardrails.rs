@@ -103,6 +103,49 @@ pub fn sanitize_and_validate_latex(input: &str) -> String {
     text
 }
 
+/// Converts inline LaTeX markers (`$...$`, `\times`, `\le`, `\ge`, `\alpha`, `\mathbb{F}`, etc.)
+/// into clean Unicode math symbols for HTML email clients that do not execute KaTeX JS.
+pub fn latex_to_email_unicode(input: &str) -> String {
+    let mut s = input.to_string();
+    let replacements = [
+        ("$$", ""),
+        ("$", ""),
+        ("\\times", "×"),
+        ("\\cdot", "·"),
+        ("\\le", "≤"),
+        ("\\ge", "≥"),
+        ("\\neq", "≠"),
+        ("\\approx", "≈"),
+        ("\\ll", "≪"),
+        ("\\gg", "≫"),
+        ("\\infty", "∞"),
+        ("\\%", "%"),
+        ("\\mathbb{F}", "𝔽"),
+        ("\\mathbb{R}", "ℝ"),
+        ("\\mathbb{Z}", "ℤ"),
+        ("\\alpha", "α"),
+        ("\\beta", "β"),
+        ("\\gamma", "γ"),
+        ("\\Delta", "Δ"),
+        ("\\varepsilon", "ε"),
+        ("\\lambda", "λ"),
+        ("\\nu", "ν"),
+        ("{,}", ","),
+    ];
+    for (pat, rep) in replacements {
+        s = s.replace(pat, rep);
+    }
+    while let Some(start) = s.find("\\text{") {
+        if let Some(rel_end) = s[start + 6..].find('}') {
+            let inner = s[start + 6..start + 6 + rel_end].to_string();
+            s.replace_range(start..start + 6 + rel_end + 1, &inner);
+        } else {
+            break;
+        }
+    }
+    s
+}
+
 /// Computes a 64-bit SimHash fingerprint over normalized word/character 3-grams
 /// for fast cross-source deduplication and story clustering.
 pub fn simhash_64(text: &str) -> u64 {

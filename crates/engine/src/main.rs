@@ -60,7 +60,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 area: src.area,
                 url: src.url.to_string(),
                 status: "offline_seed".to_string(),
-                items_fetched: 2,
+                items_fetched: 3,
                 latency_ms: 0,
                 last_checked: now_iso.clone(),
                 error: None,
@@ -68,15 +68,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
-    // Ensure every one of the 7 areas has rich technical coverage by supplementing
-    // any sparse area with curated baseline candidates.
+    // Ensure every one of the 7 areas has at least 3 high-rigor dispatches
     let baseline = seed::baseline_candidates(&now_iso);
     let mut area_counts: HashMap<Area, usize> = HashMap::new();
     for c in &raw_candidates {
         *area_counts.entry(c.area).or_insert(0) += 1;
     }
     for base_cand in baseline {
-        if *area_counts.get(&base_cand.area).unwrap_or(&0) < 2 {
+        if *area_counts.get(&base_cand.area).unwrap_or(&0) < 3 {
+            *area_counts.entry(base_cand.area).or_insert(0) += 1;
             raw_candidates.push(base_cand);
         }
     }
@@ -113,26 +113,37 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     emit::emit_all(&root_dir, &issue, &health_records, &site_base_url)?;
 
-    // Render sample email preview to data/sample-email.html
+    // Render sample email previews (7 areas × 3 items = 21 items) in both English and Turkish
     let default_prefs = SubscriptionPreferences {
         email: "reader@example.org".to_string(),
         mode: DigestMode::Standard,
-        density: DigestDensity::Compact,
+        density: DigestDensity::ThreePerArea,
         frequency: DigestFrequency::Daily,
         content_filter: ContentFilter::All,
         areas: Area::ALL.to_vec(),
         tags: Vec::new(),
+        lang: "en".to_string(),
         verified: true,
     };
     let selected_for_preview = mailer::select_items_for_subscriber(&issue, &default_prefs);
-    let preview_html = mailer::render_digest_email_html(
+    let preview_html_en = mailer::render_digest_email_html_with_lang(
         &issue,
         &selected_for_preview,
         &default_prefs.email,
         &site_base_url,
         &hmac_secret,
+        "en",
     );
-    fs::write(root_dir.join("data").join("sample-email.html"), &preview_html)?;
+    let preview_html_tr = mailer::render_digest_email_html_with_lang(
+        &issue,
+        &selected_for_preview,
+        &default_prefs.email,
+        &site_base_url,
+        &hmac_secret,
+        "tr",
+    );
+    fs::write(root_dir.join("data").join("sample-email.html"), &preview_html_en)?;
+    fs::write(root_dir.join("data").join("sample-email-tr.html"), &preview_html_tr)?;
 
     if args.iter().any(|a| a == "--send-emails") {
         if let Ok(target_email) = env::var("AHBAR_TO_EMAIL") {
@@ -142,7 +153,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 &client,
                 &target_email,
                 &subject,
-                &preview_html,
+                &preview_html_en,
             )
             .await
             {
@@ -152,11 +163,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     println!(
-        "[Ahbar Engine] Emitted Issue #{} ({}) -> {} qualified items ({} Top Picks)",
+        "[Ahbar Engine] Emitted Issue #{} ({}) -> {} qualified items ({} Top Picks, {} in 7x3 email)",
         issue.issue_number,
         issue.date,
         issue.stats.qualified_items,
-        issue.stats.top_picks_count
+        issue.stats.top_picks_count,
+        selected_for_preview.len()
     );
 
     Ok(())

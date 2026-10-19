@@ -5,28 +5,36 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-10-19T08:38:05.910345700+00:00</updated>
+  <updated>2026-10-19T09:03:59.309708600+00:00</updated>
   <entry>
     <title>RAP: A Dataset for Paper-to-Poster Generation via Declarative Markup from Human-Crafted Exemplars</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-11-rap-a-dataset-for-paper"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-12-rap-a-dataset-for-paper"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23230"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-11-rap-a-dataset-for-paper</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-12-rap-a-dataset-for-paper</id>
     <updated>2026-10-15T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which exercises summarization, visual design, and code implementation at once, using nothing beyond the paper itself. Yet benchmarks for this task in the context of visual coding remain scarce: existing resources are small and annotated only with layout boxes, so evaluation must fall back on VLM-as-judge or human checklists rather than objective render-and-compare, and the generation methods they support design layouts from scratch, leaving human-crafted posters unusable as either a retrievable design library or as verified supervision. We introduce RAP (Reconstruct A Poster), a dataset and benchmark for paper-to-poster generation as a visual coding task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23230&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-15-livemace-process-aware-evaluation-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.09872"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-15-livemace-process-aware-evaluation-of</id>
+    <updated>2026-10-06T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09872&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Hybrid Reasoning Agents: LLM agents that think in latent space, act through text</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-hybrid-reasoning-agents-llm-agents"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-hybrid-reasoning-agents-llm-agents"/>
     <link rel="related" href="https://arxiv.org/abs/2610.18861"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-hybrid-reasoning-agents-llm-agents</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-hybrid-reasoning-agents-llm-agents</id>
     <updated>2026-10-18T20:48:14Z</updated>
     <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.18861&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dream2Discern: Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-18-dream2discern-learning-from-hard-latent"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-dream2discern-learning-from-hard-latent"/>
     <link rel="related" href="https://arxiv.org/abs/2610.16071"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-18-dream2discern-learning-from-hard-latent</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-dream2discern-learning-from-hard-latent</id>
     <updated>2026-10-11T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Reliable deployment of LLM-based multi-agent systems calls for runtime auditors that predict terminal outcomes from observed execution prefixes. These auditors typically learn from a limited corpus of trajectories with verified outcomes. Expanding this corpus requires costly execution and verification, yet broader failure coverage alone provides no explicit criterion for identifying prefixes that the current auditor finds difficult to classify.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.16071&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>

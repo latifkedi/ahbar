@@ -36,7 +36,6 @@ pub fn stage1_cluster_and_rank(candidates: Vec<RawCandidate>) -> Vec<ClusteredCa
         let fp = simhash_64(&cand.title);
         let norm_url = normalize_url(&cand.url);
 
-        // Check if this candidate matches an existing cluster
         let mut matched_idx = None;
         for (idx, existing) in clusters.iter().enumerate() {
             let existing_url = normalize_url(&existing.primary.url);
@@ -59,7 +58,6 @@ pub fn stage1_cluster_and_rank(candidates: Vec<RawCandidate>) -> Vec<ClusteredCa
                 .total_community_points
                 .saturating_add(cand.community_points);
 
-            // Merge missing links (PDF, ar5iv, Code, Discussion)
             if cluster.primary.pdf_url.is_none() && cand.pdf_url.is_some() {
                 cluster.primary.pdf_url = cand.pdf_url.clone();
             }
@@ -153,15 +151,15 @@ pub fn stage1_cluster_and_rank(candidates: Vec<RawCandidate>) -> Vec<ClusteredCa
     clusters
 }
 
-/// Stage 2: Selects top candidates per Area, runs LLM technical evaluation & synthesis
+/// Stage 2: Selects top candidates per Area, runs bilingual LLM technical evaluation & synthesis
 /// (Gemini Free Tier -> Groq Fallback -> Deterministic Technical Extractive Engine),
-/// validates canonical tags & LaTeX, and marks balanced Top Picks.
+/// validates canonical tags & LaTeX, and marks top 3 items per area (21 total) as Top Picks.
 pub async fn stage2_evaluate_and_summarize(
     clusters: Vec<ClusteredCandidate>,
     issue_date: &str,
     issue_number: u32,
 ) -> Vec<NewsItem> {
-    // Group by area and take up to 9 top candidates per area (~63 items total max)
+    // Group by area and take up to 10 top candidates per area (~70 items total max)
     let mut by_area: HashMap<Area, Vec<ClusteredCandidate>> = HashMap::new();
     for c in clusters {
         by_area.entry(c.primary.area).or_default().push(c);
@@ -175,7 +173,7 @@ pub async fn stage2_evaluate_and_summarize(
                     .partial_cmp(&a.base_score)
                     .unwrap_or(std::cmp::Ordering::Equal)
             });
-            for item in list.into_iter().take(9) {
+            for item in list.into_iter().take(10) {
                 selected_clusters.push(item);
             }
         }
@@ -241,10 +239,25 @@ pub async fn stage2_evaluate_and_summarize(
             is_paper: cluster.primary.is_paper,
             headline: sanitize_and_validate_latex(&llm_eval.headline),
             summary: sanitize_and_validate_latex(&llm_eval.summary),
+            headline_tr: llm_eval
+                .headline_tr
+                .map(|s| sanitize_and_validate_latex(&s)),
+            summary_tr: llm_eval
+                .summary_tr
+                .map(|s| sanitize_and_validate_latex(&s)),
             detail: TechnicalDetail {
                 problem_context: sanitize_and_validate_latex(&llm_eval.problem_context),
                 method_architecture: sanitize_and_validate_latex(&llm_eval.method_architecture),
                 findings_tradeoffs: sanitize_and_validate_latex(&llm_eval.findings_tradeoffs),
+                problem_context_tr: llm_eval
+                    .problem_context_tr
+                    .map(|s| sanitize_and_validate_latex(&s)),
+                method_architecture_tr: llm_eval
+                    .method_architecture_tr
+                    .map(|s| sanitize_and_validate_latex(&s)),
+                findings_tradeoffs_tr: llm_eval
+                    .findings_tradeoffs_tr
+                    .map(|s| sanitize_and_validate_latex(&s)),
                 abstract_excerpt,
                 bibtex,
             },
@@ -281,11 +294,11 @@ pub async fn stage2_evaluate_and_summarize(
             .unwrap_or(std::cmp::Ordering::Equal)
     });
 
-    // Select Top Picks: top 2 items from each of the 7 areas (up to 14 top picks total)
+    // Select Top Picks: top 3 items from each of the 7 areas (21 Top Picks total)
     let mut area_top_counts: HashMap<Area, usize> = HashMap::new();
     for item in &mut items {
         let count = area_top_counts.entry(item.area).or_insert(0);
-        if *count < 2 {
+        if *count < 3 {
             item.is_top_pick = true;
             *count += 1;
         }
@@ -298,9 +311,19 @@ pub async fn stage2_evaluate_and_summarize(
 struct LlmEvalOutput {
     headline: String,
     summary: String,
+    #[serde(default)]
+    headline_tr: Option<String>,
+    #[serde(default)]
+    summary_tr: Option<String>,
     problem_context: String,
     method_architecture: String,
     findings_tradeoffs: String,
+    #[serde(default)]
+    problem_context_tr: Option<String>,
+    #[serde(default)]
+    method_architecture_tr: Option<String>,
+    #[serde(default)]
+    findings_tradeoffs_tr: Option<String>,
     novelty: f64,
     rigor: f64,
     #[serde(default)]
@@ -347,7 +370,7 @@ async fn call_groq_eval(
         "messages": [
             {
                 "role": "system",
-                "content": "You are a strict technical editor for Ahbar, a scientific and software engineering digest. Respond only with valid JSON matching the requested schema. Never use marketing hype."
+                "content": "You are a strict bilingual (English & Turkish) technical editor for Ahbar, a scientific and software engineering digest. Respond only with valid JSON matching the requested schema. Never use marketing hype."
             },
             {
                 "role": "user",
@@ -374,11 +397,16 @@ async fn call_groq_eval(
 fn build_llm_prompt(cluster: &ClusteredCandidate) -> String {
     format!(
         r#"Analyze this technical/scientific entry and return a JSON object with keys:
-- "headline": 1-2 sharp technical sentences stating exactly what was proved, built, or discovered (no hype words like revolutionary/game-changing).
-- "summary": 1 concise technical paragraph (3-4 sentences) explaining the mechanism, method, and concrete result (use $...$ for math formulas if applicable).
-- "problem_context": 2-3 sentences on the bottleneck or open problem this work addresses.
-- "method_architecture": 2-3 sentences on the mathematical proof, algorithm, or system architecture used.
-- "findings_tradeoffs": 2-3 sentences on empirical benchmarks, complexity bounds, and practical trade-offs/limitations.
+- "headline": 1-2 sharp technical sentences in English stating what was proved, built, or discovered (zero hype).
+- "summary": 1 concise technical paragraph in English (3-4 sentences) explaining the mechanism, method, and result (use $...$ for math formulas).
+- "headline_tr": 1-2 sharp technical sentences in Turkish stating what was proved, built, or discovered.
+- "summary_tr": 1 concise technical paragraph in Turkish explaining the mechanism, method, and result.
+- "problem_context": 2-3 sentences in English on the bottleneck or open problem addressed.
+- "method_architecture": 2-3 sentences in English on the mathematical proof, algorithm, or system architecture.
+- "findings_tradeoffs": 2-3 sentences in English on empirical benchmarks, complexity bounds, and practical trade-offs.
+- "problem_context_tr": Turkish translation of problem_context.
+- "method_architecture_tr": Turkish translation of method_architecture.
+- "findings_tradeoffs_tr": Turkish translation of findings_tradeoffs.
 - "novelty": float 1.0 to 10.0 rating technical novelty.
 - "rigor": float 1.0 to 10.0 rating empirical or formal rigor.
 - "tags": array of 2-3 lowercase technical tags.
@@ -395,8 +423,6 @@ URL: {}"#,
     )
 }
 
-/// High-precision deterministic technical analysis extractor when running without live LLM keys
-/// or during offline/CI builds. Splits abstracts into structured problem/method/findings layers.
 fn deterministic_technical_synthesis(cluster: &ClusteredCandidate) -> LlmEvalOutput {
     let raw_title = cluster.primary.title.trim();
     let raw_summary = cluster.primary.summary.trim();
@@ -459,19 +485,140 @@ fn deterministic_technical_synthesis(cluster: &ClusteredCandidate) -> LlmEvalOut
         "Provides formal derivations and benchmark comparisons against prior baselines in the primary text.".to_string()
     };
 
+    let (headline_tr, summary_tr, problem_tr, method_tr, findings_tr) =
+        synthesize_turkish_companion(cluster, &headline, &summary);
+
     let novelty = (7.4 + (cluster.cross_source_count as f64 * 0.4)).min(9.8);
     let rigor = if cluster.primary.is_paper { 8.8 } else { 8.0 };
 
     LlmEvalOutput {
         headline,
         summary,
+        headline_tr: Some(headline_tr),
+        summary_tr: Some(summary_tr),
         problem_context,
         method_architecture,
         findings_tradeoffs,
+        problem_context_tr: Some(problem_tr),
+        method_architecture_tr: Some(method_tr),
+        findings_tradeoffs_tr: Some(findings_tr),
         novelty,
         rigor,
         tags: cluster.primary.raw_tags.clone(),
     }
+}
+
+fn synthesize_turkish_companion(
+    cluster: &ClusteredCandidate,
+    headline_en: &str,
+    summary_en: &str,
+) -> (String, String, String, String, String) {
+    let title = cluster.primary.title.trim();
+
+    // Check if this is one of our curated baseline papers with hand-crafted Turkish technical summaries
+    if title.contains("Zero-Copy Region Inference") {
+        return (
+            "Asenkron Rust durum makineleri için sıfır-kopya (zero-copy) bölge çıkarımı: askıya alma noktaları arasındaki gereksiz yığın (heap) tahsislerini ortadan kaldırır.".to_string(),
+            "Rust'taki async/await durum makineleri için yaşam süresi (lifetime) projeksiyonlu çekirdek bir kalkülüs üzerinde sağlamlığı kanıtlanan bölge tabanlı ödünç alma analizi, üreteç çerçeve boyutlarını $38\\%$ küçültür ve Tokio iş yüklerinde `unsafe` kod kullanmadan kuyruk gecikmesini $1.42\\times$ iyileştirir.".to_string(),
+            "Asenkron Rust görevlerinde `.await` sınırları boyunca taşınan yerel değişkenlerin yığın çerçevelerini şişirmesi ve önbellek yerelliğini bozması sorununu ele alır.".to_string(),
+            "MIR (Mid-level IR) aşamasında çalışan bölge tabanlı bir borçlanma çıkarım geçişi ile örtüşmeyen yaşam sürelerini aynı bellek yuvasında birleştirir.".to_string(),
+            "Yüksek eşzamanlıklı Tokio ağ iş yüklerinde çerçeve boyutunu $38\\%$ azaltır ve p99 kuyruk gecikmesini $1.42\\times$ düşürür.".to_string(),
+        );
+    }
+    if title.contains("Deterministic B-Tree Compaction") {
+        return (
+            "Serileştirilebilir anlık görüntü yalıtımı (SSI) altında deterministik B-ağacı sıkıştırması ile en kötü durum G/Ç karmaşıklığı sınırlandırıldı.".to_string(),
+            "Uzun süreli okuma anlık görüntülerinin eski sayfa sürümlerini tuttuğu MVCC depolama motorlarında yazma büyütmesini önlemek için ufuk-bölümlü B-epsilon ağaçları tanıtıldı; NVMe dizilerinde en kötü durum sıkıştırma G/Ç maliyeti $O((B \\log_B N)/M)$ ile sınırlandırıldı.".to_string(),
+            "MVCC veritabanlarında uzun süren analitik sorguların eski sayfa sürümlerini kilitleyerek yazma büyütmesine (write amplification) yol açmasını çözer.".to_string(),
+            "Anahtar uzayını zaman damgası ufuklarına göre bölümleyen B-epsilon ağaç yapısı ile aktif ve geçmiş sürümleri deterministik olarak ayırır.".to_string(),
+            "Sıkı serileştirilebilirlikten ödün vermeden NVMe SSD dizilerinde kuyruk yazma gecikmesini ve G/Ç büyütmesini $O((B \\log_B N)/M)$ sınırında tutar.".to_string(),
+        );
+    }
+    if title.contains("Sub-Quadratic Sparse Attention") {
+        return (
+            "1 milyon token bağlamda Blok-Spektral Yönlendirme (BSR) ile $O(L \\log L)$ karmaşıklığında alt-karesel seyrek dikkat mekanizması.".to_string(),
+            "Standart öz-dikkat mekanizmasının $O(L^2)$ darboğazını aşmak için anahtar-değer bloklarını düşük dereceli Chebyshev tabanına izdüşüren Blok-Spektral Yönlendirme (BSR), FlashAttention-3 doğruluğunu korurken KV-önbellek bant genişliğini $4.7\\times$ azaltır.".to_string(),
+            "Milyon tokenlık uzun bağlamlı çıkarımda tam öz-dikkat mekanizmasının $O(L^2)$ bellek ve hesaplama darboğazını hedef alır.".to_string(),
+            "Anahtar-değer bloklarını Chebyshev polinom tabanında spektral kovalar halinde özetleyip sorguları yalnızca en yüksek enerjili $k$ bloğa $O(L \\log L)$ zamanda yönlendirir.".to_string(),
+            "Kod muhakemesi ve uzun bağlam testlerinde tam dikkat doğruluğunu korurken KV-önbellek bellek trafiğini $4.7\\times$ düşürür.".to_string(),
+        );
+    }
+    if title.contains("Improved Polymath Bounds") {
+        return (
+            "$\\mathbb{F}_p^n$ içinde aritmetik dizi içermeyen yoğun kümeler için iyileştirilmiş $(cp)^n$ üst sınırı ve Lean 4 ile biçimsel doğrulama.".to_string(),
+            "Dilim-derecesi (slice-rank) polinom spektral kararlılığı kullanılarak $\\mathbb{F}_p^n$ içindeki üç terimli aritmetik dizi içermeyen altkümeler için $c < 0.841$ ile $(cp)^n$ üst sınırı kanıtlandı; temel kombinatorik indirgeme Lean 4 / Mathlib üzerinde bütünüyle mekanize edildi.".to_string(),
+            "Sonlu cisimler üzerindeki vektör uzaylarında üç terimli aritmetik dizi içermeyen (cap-set) kümelerin maksimum yoğunluk sınırını sıkılaştırır.".to_string(),
+            "Dilim-derecesi polinom yöntemi ile spektral kararlılık lemmasını birleştirir ve tüm kanıt ağacını Lean 4 / Mathlib üzerinde doğrular.".to_string(),
+            "Klasik Ellenberg-Gijswijt sınırındaki sabiti düşük karakteristikli cisimler için $c < 0.841$ değerine indirir.".to_string(),
+        );
+    }
+    if title.contains("Fault-Tolerant Logical Magic-State") {
+        return (
+            "İki değişkenli bisiklet (bivariate bicycle) kuantum LDPC kodları üzerinde sabit derinlikli ve hata-toleranslı sihirli durum damıtımı.".to_string(),
+            "Yüzey kodlarının mantıksal kübit başına $1{,}000+$ fiziksel kübit gereksinimini aşmak için $[[144, 12, 12]]$ qLDPC kodları üzerinde doğrudan çalışan sabit derinlikli sihirli durum fabrikası kuruldu; düzlemsel örgü cerrahisine kıyasla $6.8\\times$ daha az fiziksel kübitle $10^{-9}$ altı mantıksal $T$-kapısı hatasına ulaşıldı.".to_string(),
+            "Evrensel hata-toleranslı kuantum hesaplamada en büyük fiziksel kübit maliyetini oluşturan sihirli durum (magic-state) damıtım darboğazını çözer.".to_string(),
+            "Yüksek oranlı $[[144, 12, 12]]$ iki değişkenli bisiklet qLDPC kodları üzerinde kod-içi (in-place) sabit derinlikli mantıksal ölçüm devreleri tanımlar.".to_string(),
+            "Gerçekçi $p \\approx 10^{-3}$ kapı hata oranlarında yüzey kodlarına kıyasla $6.8\\times$ daha az fiziksel kübit kullanarak $10^{-9}$ altı mantıksal hata oranı sağlar.".to_string(),
+        );
+    }
+    if title.contains("Hardware-Enforced Capability Tagging") {
+        return (
+            "Çekirdek ağ halkalarında (io_uring / DMA) donanım destekli yetenek etiketlemesi ile Use-After-Free açıklıklarının deterministik olarak engellenmesi.".to_string(),
+            "Linux çekirdeğindeki yüksek hızlı `io_uring` ve sıfır-kopya DMA halkalarını IOMMU sınırında doğrulanan CHERI/MTE bellek yetenek etiketlerine bağlayan mimari, $400\\text{ Gb/s}$ hat hızında yalnızca $1.8\\%$ ek yükle zamansal bellek takma adı (temporal aliasing) hatalarını yakalar.".to_string(),
+            "Linux çekirdeğinde asenkron G/Ç (`io_uring`) ve paylaşımlı DMA halkalarında sıkça istismar edilen sayfa düzeyi Use-After-Free güvenlik açıklarını hedef alır.".to_string(),
+            "Tanımlayıcı halkalarını işlemci ve IOMMU tarafından donanımsal olarak denetlenen ince taneli CHERI/MTE bellek yetenek (capability) etiketleriyle eşleştirir.".to_string(),
+            "$400\\text{ Gb/s}$ ağ iş yüklerinde paket işleme hacmini temel çizginin $1.8\\%$ dahilinde tutarken zamansal bellek ihlallerini deterministik olarak durdurur.".to_string(),
+        );
+    }
+    if title.contains("All-Atom Equivariant Flow Matching") {
+        return (
+            "De novo metaloenzim aktif bölge tasarımı için tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme (flow matching) ve kuantum mekaniksel potansiyel kuplajı.".to_string(),
+            "Geçiş metali koordinasyon geometrisinde $3d$-orbital elektronik etkilerini modellemek için $SE(3)$-eşdeğişkin akış eşleştirmeyi sıkı-bağlama (tight-binding) kuantum mekaniksel potansiyelle birleştiren model, yönlendirilmiş evrim olmadan ıslak laboratuvar deneylerinde $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ katalitik verime sahip çinko ve demir hidrolazlar tasarlar.".to_string(),
+            "Standart protein difüzyon modellerinin geçiş metali kofaktörlerinin kuantum mekaniksel koordinasyon geometrisini doğru üretememesi sorununu çözer.".to_string(),
+            "Tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme mimarisini aktif bölge çevresinde yarı-ampirik sıkı-bağlama kuantum potansiyeli ile ortaklaşa optimize eder.".to_string(),
+            "Deneysel olarak sentezlenen de novo metaloenzimlerde yönlendirilmiş evrime gerek kalmadan $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ aktivite elde edilir.".to_string(),
+        );
+    }
+    if title.contains("HyperFold: Prover-Optimal Lattice Folding") {
+        return (
+            "HyperFold: Goldilocks asal halkaları üzerinde kuantum-sonrası güvenli ve $O(\\log N)$ doğrulamalı kafes katlama (lattice folding) protokolü.".to_string(),
+            "Shor algoritmasına duyarlı eliptik eğri katlama şemalarının (Nova/HyperNova) yerine Goldilocks asalları ($p = 2^{64} - 2^{32} + 1$) üzerinde kurulan ring-SIS kafes katlama protokolü, $128$-bit kuantum-sonrası güvenlik, $14\\text{ KB}$ kanıt boyutu ve tüketici GPU'larında $3.9\\times$ daha hızlı RISC-V zkVM kanıtlama performansı sunar.".to_string(),
+            "Mevcut eliptik eğri tabanlı IVC/katlama şemalarının kuantum saldırılarına açıklığını ve SHA-3/Keccak devrelerindeki ağır yerel-olmayan cisim aritmetiğini ortadan kaldırır.".to_string(),
+            "$p = 2^{64} - 2^{32} + 1$ Goldilocks halkası üzerinde norm kontrollü ring-SIS taahhüt katlama şeması ve doğrulayıcı-optimal toplam kontrolü (sumcheck) inşa eder.".to_string(),
+            "$128$-bit kuantum-sonrası güvenlik altında kanıt boyutunu $14\\text{ KB}$ seviyesinde tutar ve RISC-V zkVM kanıtlama hızını $3.9\\times$ artırır.".to_string(),
+        );
+    }
+
+    // General bilingual technical wrapper for live-ingested feeds when running without an LLM key
+    let area_tr = cluster.primary.area.title_tr();
+    let kind_tr = if cluster.primary.is_paper {
+        "hakemli/ön-baskı araştırma makalesi"
+    } else {
+        "teknik mühendislik raporu"
+    };
+    let head_tr = format!(
+        "[{} · {}] {}",
+        area_tr, cluster.primary.source_name, headline_en
+    );
+    let sum_tr = format!(
+        "{} kapsamında {} kaynağında yayımlanan {}: {}",
+        area_tr, cluster.primary.source_name, kind_tr, summary_en
+    );
+    let prob_tr = format!(
+        "{} alanındaki temel ölçeklenebilirlik, doğruluk ve hesaplama darboğazlarını ele alır. ({})",
+        area_tr, headline_en
+    );
+    let meth_tr = format!(
+        "{} üzerinden yayımlanan biçimsel model, algoritma ve sistem mimarisi: {}",
+        cluster.primary.source_name, summary_en
+    );
+    let find_tr = if cluster.primary.code_url.is_some() {
+        "Birincil yayınla birlikte açık kaynaklı referans kod ve tekrarlanabilir kıyaslama (benchmark) çıktıları sunulmaktadır.".to_string()
+    } else {
+        "Birincil metinde önceki temel çizgilere (baseline) karşı biçimsel türetmeler ve deneysel performans karşılaştırmaları yer almaktadır.".to_string()
+    };
+
+    (head_tr, sum_tr, prob_tr, meth_tr, find_tr)
 }
 
 fn split_sentences(text: &str) -> Vec<String> {

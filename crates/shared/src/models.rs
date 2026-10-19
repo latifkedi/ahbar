@@ -60,15 +60,39 @@ impl Area {
         }
     }
 
+    pub fn title_tr(&self) -> &'static str {
+        match self {
+            Area::Cs => "Bilgisayar Bilimi & Yazılım",
+            Area::Ai => "Yapay Zekâ & Makine Öğrenmesi",
+            Area::Math => "Matematik",
+            Area::Physics => "Fizik & Kuantum",
+            Area::Systems => "Sistem, Donanım & Güvenlik",
+            Area::Bio => "Hesaplamalı Bilim & Biyoloji",
+            Area::Crypto => "Kriptografi, Web3 & Blokzincir",
+        }
+    }
+
     pub fn subtitle(&self) -> &'static str {
         match self {
-            Area::Cs => "Languages, compilers, distributed systems, databases, web and open-source software.",
+            Area::Cs => "Languages, compilers, distributed systems, databases, formal verification and open-source software.",
             Area::Ai => "Large language models, agents, learning theory, computer vision, robotics and inference.",
             Area::Math => "Number theory, combinatorics, logic, formal proof assistants (Lean/Rocq), algebra and analysis.",
             Area::Physics => "Quantum computing, condensed matter, astrophysics, high-energy theory and optics.",
             Area::Systems => "Operating systems, kernels, semiconductors, computer architecture, networking and InfoSec.",
             Area::Bio => "Bioinformatics, computational neuroscience, genomics, materials science and clean tech.",
             Area::Crypto => "Zero-knowledge proofs, cryptographic primitives, consensus protocols, smart contract security and MEV.",
+        }
+    }
+
+    pub fn subtitle_tr(&self) -> &'static str {
+        match self {
+            Area::Cs => "Programlama dilleri, derleyiciler, dağıtık sistemler, veritabanları, biçimsel doğrulama ve açık kaynak.",
+            Area::Ai => "Büyük dil modelleri, otonom ajanlar, öğrenme kuramı, bilgisayarlı görü, robotik ve çıkarım motorları.",
+            Area::Math => "Sayılar kuramı, kombinatorik, mantık, biçimsel kanıt asistanları (Lean/Rocq), cebir ve analiz.",
+            Area::Physics => "Kuantum hesaplama, yoğun madde, astrofizik, yüksek enerji kuramı ve optik/fotonik.",
+            Area::Systems => "İşletim sistemleri, çekirdek, yarı iletkenler, bilgisayar mimarisi, ağ protokolleri ve siber güvenlik.",
+            Area::Bio => "Biyoinformatik, hesaplamalı sinirbilim, genomik, protein tasarımı, malzeme bilimi ve temiz enerji.",
+            Area::Crypto => "Sıfır-bilgi kanıtları (ZKP), kuantum-sonrası kriptografi, mutabakat protokolleri ve akıllı sözleşme güvenliği.",
         }
     }
 
@@ -122,6 +146,12 @@ pub struct TechnicalDetail {
     pub problem_context: String,
     pub method_architecture: String,
     pub findings_tradeoffs: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub problem_context_tr: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub method_architecture_tr: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub findings_tradeoffs_tr: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub abstract_excerpt: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -146,10 +176,16 @@ pub struct NewsItem {
     pub area: Area,
     pub is_top_pick: bool,
     pub is_paper: bool,
-    /// 1-2 sentence sharp technical hook: what changed, was proved, or was built.
+    /// 1-2 sentence sharp technical hook: what changed, was proved, or was built (English).
     pub headline: String,
-    /// Single-paragraph concise technical summary (supports inline KaTeX).
+    /// Single-paragraph concise technical summary (English, supports inline KaTeX).
     pub summary: String,
+    /// 1-2 sentence sharp technical hook in Turkish.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub headline_tr: Option<String>,
+    /// Single-paragraph concise technical summary in Turkish.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub summary_tr: Option<String>,
     /// Layer-2 technical analysis shown on the item detail page (?item=<id>).
     pub detail: TechnicalDetail,
     pub original_title: String,
@@ -218,16 +254,25 @@ pub enum DigestMode {
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "kebab-case")]
 pub enum DigestDensity {
+    /// 1 item per area (7 total) for ultra-fast scan
     Compact,
+    /// 3 items per area (21 total across 7 areas) — Recommended default
+    ThreePerArea,
+    /// 5 items per area (35 total) for deep reading
     Comprehensive,
 }
 
 impl DigestDensity {
-    pub fn max_items(&self) -> usize {
+    pub fn items_per_area(&self) -> usize {
         match self {
-            DigestDensity::Compact => 7,
-            DigestDensity::Comprehensive => 18,
+            DigestDensity::Compact => 1,
+            DigestDensity::ThreePerArea => 3,
+            DigestDensity::Comprehensive => 5,
         }
+    }
+
+    pub fn max_items(&self) -> usize {
+        self.items_per_area() * 7
     }
 }
 
@@ -256,8 +301,14 @@ pub struct SubscriptionPreferences {
     pub content_filter: ContentFilter,
     pub areas: Vec<Area>,
     pub tags: Vec<String>,
+    #[serde(default = "default_lang")]
+    pub lang: String,
     #[serde(default)]
     pub verified: bool,
+}
+
+fn default_lang() -> String {
+    "tr".to_string()
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
