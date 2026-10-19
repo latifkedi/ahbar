@@ -1,5 +1,7 @@
 # Ahbar — Autonomous Daily Technical & Scientific Dispatches
 
+The project was created using AI.
+
 **Ahbar** is an autonomous daily technical and scientific news/preprint aggregator, web archive, and passwordless email digest built with **Rust** (`ahbar-shared`, `ahbar-engine`, `ahbar-api`) and a zero-framework editorial frontend (`index.html`, `style.css`, `app.js`).
 
 Every morning at **`05:00 UTC` (`08:00 TSİ`)**—immediately following arXiv's daily announcement batch—Ahbar ingests 28+ primary academic and engineering feeds, clusters cross-source duplicates via Jaccard title similarity and normalized URLs, scores candidates with a multi-signal + novelty/rigor formula, and emits static JSON issues, per-area/per-tag Atom XML feeds, and inline-styled HTML email digests.
