@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Smart Contracts &amp; EVM</title>
+  <subtitle>Daily technical dispatches tagged with #smart-contracts.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-smart-contracts.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-smart-contracts.xml</id>
+  <updated>2026-10-19T10:11:16.079600+00:00</updated>
+  <entry>
+    <title>Symbolic &amp; SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-44-symbolic-smt-guided-equivalence-checking"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.08115"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-44-symbolic-smt-guided-equivalence-checking</id>
+    <updated>2026-10-19T10:11:16.079600+00:00</updated>
+    <summary type="html">&lt;p&gt;Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08115&quot;&gt;arXiv Cryptography (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #smart-contracts #formal-proofs #zkp&lt;/p&gt;</summary>
+  </entry>
+</feed>

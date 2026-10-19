@@ -10,6 +10,7 @@ use std::time::{Duration, Instant};
 
 #[derive(Debug, Clone)]
 pub struct RawCandidate {
+    #[allow(dead_code)]
     pub source_id: String,
     pub source_name: String,
     pub area: Area,

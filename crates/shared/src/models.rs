@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-/// The 7 top-level scientific and technical areas in Ahbar.
+/// The 10 top-level scientific, technical, economic, geopolitical, and philosophical areas in Ahbar.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
 #[serde(rename_all = "kebab-case")]
 pub enum Area {
@@ -11,10 +11,13 @@ pub enum Area {
     Systems,
     Bio,
     Crypto,
+    Econ,
+    Geopolitics,
+    Philosophy,
 }
 
 impl Area {
-    pub const ALL: [Area; 7] = [
+    pub const ALL: [Area; 10] = [
         Area::Cs,
         Area::Ai,
         Area::Math,
@@ -22,6 +25,9 @@ impl Area {
         Area::Systems,
         Area::Bio,
         Area::Crypto,
+        Area::Econ,
+        Area::Geopolitics,
+        Area::Philosophy,
     ];
 
     pub fn slug(&self) -> &'static str {
@@ -33,6 +39,9 @@ impl Area {
             Area::Systems => "systems",
             Area::Bio => "bio",
             Area::Crypto => "crypto",
+            Area::Econ => "econ",
+            Area::Geopolitics => "geopolitics",
+            Area::Philosophy => "philosophy",
         }
     }
 
@@ -45,6 +54,34 @@ impl Area {
             Area::Systems => "V",
             Area::Bio => "VI",
             Area::Crypto => "VII",
+            Area::Econ => "VIII",
+            Area::Geopolitics => "IX",
+            Area::Philosophy => "X",
+        }
+    }
+
+    pub fn short_label(&self, is_tr: bool) -> &'static str {
+        match (self, is_tr) {
+            (Area::Cs, false) => "CS",
+            (Area::Cs, true) => "Yazılım",
+            (Area::Ai, false) => "AI",
+            (Area::Ai, true) => "YZ",
+            (Area::Math, false) => "Math",
+            (Area::Math, true) => "Matematik",
+            (Area::Physics, false) => "Physics",
+            (Area::Physics, true) => "Fizik",
+            (Area::Systems, false) => "Systems",
+            (Area::Systems, true) => "Sistem",
+            (Area::Bio, false) => "Bio",
+            (Area::Bio, true) => "Biyo",
+            (Area::Crypto, false) => "Crypto",
+            (Area::Crypto, true) => "Kripto",
+            (Area::Econ, false) => "Econ",
+            (Area::Econ, true) => "Ekonomi",
+            (Area::Geopolitics, false) => "IR & Geo",
+            (Area::Geopolitics, true) => "Jeopolitik",
+            (Area::Philosophy, false) => "Phil & Cog",
+            (Area::Philosophy, true) => "Felsefe",
         }
     }
 
@@ -52,11 +89,14 @@ impl Area {
         match self {
             Area::Cs => "Computer Science & Software",
             Area::Ai => "AI & Machine Learning",
-            Area::Math => "Mathematics",
-            Area::Physics => "Physics & Quantum",
+            Area::Math => "Mathematics & Formal Sciences",
+            Area::Physics => "Physics, Quantum & Space",
             Area::Systems => "Systems, Hardware & Security",
-            Area::Bio => "Computational Science & Bio",
-            Area::Crypto => "Cryptography, Web3 & Blockchain",
+            Area::Bio => "Biotech, Medicine & Materials",
+            Area::Crypto => "Cryptography, Web3 & Protocols",
+            Area::Econ => "Economics, Markets & Quantitative Finance",
+            Area::Geopolitics => "International Relations, Geopolitics & Strategy",
+            Area::Philosophy => "Philosophy of Science, Decision Theory & Cognition",
         }
     }
 
@@ -64,23 +104,29 @@ impl Area {
         match self {
             Area::Cs => "Bilgisayar Bilimi & Yazılım",
             Area::Ai => "Yapay Zekâ & Makine Öğrenmesi",
-            Area::Math => "Matematik",
-            Area::Physics => "Fizik & Kuantum",
-            Area::Systems => "Sistem, Donanım & Güvenlik",
-            Area::Bio => "Hesaplamalı Bilim & Biyoloji",
-            Area::Crypto => "Kriptografi, Web3 & Blokzincir",
+            Area::Math => "Matematik & Biçimsel Bilimler",
+            Area::Physics => "Fizik, Kuantum & Uzay",
+            Area::Systems => "Sistem, Donanım & Siber Güvenlik",
+            Area::Bio => "Biyoteknoloji, Tıp & Malzeme Bilimi",
+            Area::Crypto => "Kriptografi, Web3 & Dağıtık Protokoller",
+            Area::Econ => "Ekonomi, Finans & Makro Analiz",
+            Area::Geopolitics => "Uluslararası İlişkiler, Jeopolitik & Strateji",
+            Area::Philosophy => "Bilim Felsefesi, Karar Kuramı & Bilişsel Bilimler",
         }
     }
 
     pub fn subtitle(&self) -> &'static str {
         match self {
             Area::Cs => "Languages, compilers, distributed systems, databases, formal verification and open-source software.",
-            Area::Ai => "Large language models, agents, learning theory, computer vision, robotics and inference.",
-            Area::Math => "Number theory, combinatorics, logic, formal proof assistants (Lean/Rocq), algebra and analysis.",
+            Area::Ai => "Large language models, autonomous agents, learning theory, computer vision, robotics and inference.",
+            Area::Math => "Number theory, combinatorics, logic, formal proof assistants (Lean 4 / Rocq), algebra and analysis.",
             Area::Physics => "Quantum computing, condensed matter, astrophysics, high-energy theory and optics.",
             Area::Systems => "Operating systems, kernels, semiconductors, computer architecture, networking and InfoSec.",
-            Area::Bio => "Bioinformatics, computational neuroscience, genomics, materials science and clean tech.",
-            Area::Crypto => "Zero-knowledge proofs, cryptographic primitives, consensus protocols, smart contract security and MEV.",
+            Area::Bio => "Bioinformatics, computational neuroscience, genomics, protein design, materials science and clean tech.",
+            Area::Crypto => "Zero-knowledge proofs, post-quantum cryptography, consensus protocols, smart contract security and MEV.",
+            Area::Econ => "Macroeconomics, monetary policy, econometrics, quantitative finance, market design and industrial organization.",
+            Area::Geopolitics => "Grand strategy, technology & semiconductor policy, defense analysis, energy security and international law.",
+            Area::Philosophy => "Philosophy of science, formal epistemology, decision & game theory, cognitive science and complex systems.",
         }
     }
 
@@ -88,11 +134,14 @@ impl Area {
         match self {
             Area::Cs => "Programlama dilleri, derleyiciler, dağıtık sistemler, veritabanları, biçimsel doğrulama ve açık kaynak.",
             Area::Ai => "Büyük dil modelleri, otonom ajanlar, öğrenme kuramı, bilgisayarlı görü, robotik ve çıkarım motorları.",
-            Area::Math => "Sayılar kuramı, kombinatorik, mantık, biçimsel kanıt asistanları (Lean/Rocq), cebir ve analiz.",
+            Area::Math => "Sayılar kuramı, kombinatorik, mantık, biçimsel kanıt asistanları (Lean 4 / Rocq), cebir ve analiz.",
             Area::Physics => "Kuantum hesaplama, yoğun madde, astrofizik, yüksek enerji kuramı ve optik/fotonik.",
             Area::Systems => "İşletim sistemleri, çekirdek, yarı iletkenler, bilgisayar mimarisi, ağ protokolleri ve siber güvenlik.",
             Area::Bio => "Biyoinformatik, hesaplamalı sinirbilim, genomik, protein tasarımı, malzeme bilimi ve temiz enerji.",
             Area::Crypto => "Sıfır-bilgi kanıtları (ZKP), kuantum-sonrası kriptografi, mutabakat protokolleri ve akıllı sözleşme güvenliği.",
+            Area::Econ => "Makroekonomi, para politikası, ekonometri, kantitatif finans, piyasa tasarımı ve sanayi iktisadı.",
+            Area::Geopolitics => "Küresel strateji, teknoloji ve çip jeopolitiği, savunma analizi, enerji güvenliği ve uluslararası hukuk.",
+            Area::Philosophy => "Bilim felsefesi, biçimsel epistemoloji, karar ve oyun kuramı, bilişsel bilimler ve karmaşık sistemler.",
         }
     }
 
@@ -105,6 +154,9 @@ impl Area {
             "systems" | "hardware" | "security" => Some(Area::Systems),
             "bio" | "science" | "computational-science" => Some(Area::Bio),
             "crypto" | "cryptography" | "blockchain" | "web3" => Some(Area::Crypto),
+            "econ" | "economics" | "finance" | "q-fin" => Some(Area::Econ),
+            "geopolitics" | "ir" | "strategy" | "international-relations" => Some(Area::Geopolitics),
+            "philosophy" | "cognition" | "decision-theory" | "phil" => Some(Area::Philosophy),
             _ => None,
         }
     }
@@ -178,7 +230,7 @@ pub struct NewsItem {
     pub is_paper: bool,
     /// 1-2 sentence sharp technical hook: what changed, was proved, or was built (English).
     pub headline: String,
-    /// Single-paragraph concise technical summary (English, supports inline KaTeX).
+    /// Single-paragraph concise technical summary (English).
     pub summary: String,
     /// 1-2 sentence sharp technical hook in Turkish.
     #[serde(default, skip_serializing_if = "Option::is_none")]
@@ -254,11 +306,11 @@ pub enum DigestMode {
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "kebab-case")]
 pub enum DigestDensity {
-    /// 1 item per area (7 total) for ultra-fast scan
+    /// 1 item per area (10 total) for ultra-fast scan
     Compact,
-    /// 3 items per area (21 total across 7 areas) — Recommended default
+    /// 3 items per area (30 total across 10 areas) — Recommended default
     ThreePerArea,
-    /// 5 items per area (35 total) for deep reading
+    /// 5 items per area (50 total) for deep reading
     Comprehensive,
 }
 
@@ -272,7 +324,7 @@ impl DigestDensity {
     }
 
     pub fn max_items(&self) -> usize {
-        self.items_per_area() * 7
+        self.items_per_area() * Area::ALL.len()
     }
 }
 

@@ -33,9 +33,17 @@ jobs:
 
       - name: Run Ahbar Engine (Ingest + Triage + Emit Issue & Atom Feeds)
         env:
+          FREELLMAPI_URL: ${{ secrets.FREELLMAPI_URL }}
+          FREELLMAPI_KEY: ${{ secrets.FREELLMAPI_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           AHBAR_FROM_EMAIL: ${{ secrets.AHBAR_FROM_EMAIL }}
           AHBAR_HMAC_SECRET: ${{ secrets.AHBAR_HMAC_SECRET }}
@@ -51,11 +59,12 @@ jobs:
         run: |
           git config user.name "ahbar-bot"
           git config user.email "actions@github.com"
-          git add data/ feed.xml feed/
+          git add data/ feed.xml feed/ k/ index.html
           if git diff --cached --quiet; then
             echo "No changes in issue artifacts."
           else
             ISSUE_DATE=$(date -u +"%Y-%m-%d")
             git commit -m "chore(issue): publish daily dispatch for ${ISSUE_DATE}"
-            git push origin HEAD:main
+            git push origin HEAD
           fi
+

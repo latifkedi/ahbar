@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #ML Theory</title>
+  <subtitle>Daily technical dispatches tagged with #ml-theory.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
+  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <entry>
+    <title>Proportionality in Ranking Compression</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-65-proportionality-in-ranking-compression"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23193v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-65-proportionality-in-ranking-compression</id>
+    <updated>2026-10-16T09:30:10+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivated by applications in reinforcement learning from human feedback, we consider a setting where a given collection of rankings needs to be compressed into a smaller collection of rankings. This can also be seen as a combination of two fundamental social choice frameworks: ranking aggregation and multiwinner voting. We propose three proportionality notions that capture different types of representation in this setting: positional proportionality, pairwise proportionality, and proportionality for solid coalitions (PSC).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23193v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-68-stochlob-heavy-tailed-score-matching"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.21081v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-68-stochlob-heavy-tailed-score-matching</id>
+    <updated>2026-10-15T01:33:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Score-based diffusion methods usually perturb data with Brownian Gaussian noise, corresponding to a light-tailed forward stochastic differential equation (SDE). For market time series this SDE can be a poor abstraction: limit order book (LOB) order flow is heavy-tailed, bursty, and occasionally jump-like. We study STOCHLOB, a training-only score-matching framework that changes the forward diffusion corruption law while leaving the deployed predictor deterministic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21081v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #clean-tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bridging the Language Gap in Scholarly Data II: Enhancing Gender Inference for Chinese Names</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-83-bridging-the-language-gap-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23734v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-83-bridging-the-language-gap-in</id>
+    <updated>2026-10-16T16:44:41+00:00</updated>
+    <summary type="html">&lt;p&gt;Perceived gender inference from names is important for inclusive scientometrics research, yet existing methods perform poorly on non-Western scholars. We address this gap for Chinese names, which appear in two forms, Hanzi and Pinyin, its Romanized form (e.g., Zhang Wei, Li Na). In international bibliographic records, names are often available only in Pinyin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23734v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #ml-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Contracting with an Agent under Model Mismatch</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-88-contracting-with-an-agent-under"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23402v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-88-contracting-with-an-agent-under</id>
+    <updated>2026-10-16T12:56:31+00:00</updated>
+    <summary type="html">&lt;p&gt;In the classical principal-agent setting, the principal delegates some task to the agent, who receives a payment conditioned on the outcome of the task, which in turn benefits the principal. To align their objectives, the principal designs a contract that incentivizes the agent to take actions beneficial to the principal. In practice, however, the agent may act under misspecified beliefs about the underlying environment, leading to systematically suboptimal decisions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23402v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+  </entry>
+</feed>

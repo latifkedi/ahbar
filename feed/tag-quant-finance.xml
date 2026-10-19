@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Quantitative Finance</title>
+  <subtitle>Daily technical dispatches tagged with #quant-finance.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
+  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
+  <entry>
+    <title>Market Efficiency in a Changing Asset Population: Mobility, Entry, and Survival over Cryptocurrency&apos;s Full History</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-64-market-efficiency-in-a-changing"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23283v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-64-market-efficiency-in-a-changing</id>
+    <updated>2026-10-16T10:53:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Weak-form efficiency implies symmetry restrictions on the Markov chain governing movement across the cryptocurrency capitalisation distribution. We test them on the full listed population: 8,970 assets, 690 weekly cross-sections, 2013 to 2026, with entry, exit and survival observed rather than inferred. Symmetry is rejected in every era, but the asymmetry falls by seventy percent, and what converged is entry-driven compositional churn rather than coins&amp;apos; own valuations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23283v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Agentic AI in Automated Markets. Automated markets increasingly host autonomous, learning trading agents and are powered by formulaic automated market makers (AMMs).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-67-agentic-ai-in-automated-markets"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.22522v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-67-agentic-ai-in-automated-markets</id>
+    <updated>2026-10-15T18:15:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Automated markets increasingly host autonomous, learning trading agents and are powered by formulaic automated market makers (AMMs). We study how heterogeneous agent behavior shapes stress, risk-adjusted performance, liquidity, and volatility in these types of markets. Three behavioral archetypes are modeled as agentic reinforcement learning (RL) systems: a rational arbitrageur, a manipulator, and a retail herd-follower.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22522v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>From Alpha to Execution: Trading Horizons, Regimes, and Schedules under Concave Impact and Hurst Scaling</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-22-from-alpha-to-execution-trading"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23749v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-22-from-alpha-to-execution-trading</id>
+    <updated>2026-10-16T16:55:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical execution models assume linear impact, diffusive prices, and an exogenous horizon. We study execution under concave power-law impact and Hurst-scaled price fluctuations, and make two contributions. First, we choose the execution horizon by maximizing the Sharpe ratio of the trade&amp;apos;s realized P&amp;amp;L.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23749v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-68-stochlob-heavy-tailed-score-matching"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.21081v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-68-stochlob-heavy-tailed-score-matching</id>
+    <updated>2026-10-15T01:33:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Score-based diffusion methods usually perturb data with Brownian Gaussian noise, corresponding to a light-tailed forward stochastic differential equation (SDE). For market time series this SDE can be a poor abstraction: limit order book (LOB) order flow is heavy-tailed, bursty, and occasionally jump-like. We study STOCHLOB, a training-only score-matching framework that changes the forward diffusion corruption law while leaving the deployed predictor deterministic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21081v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #clean-tech&lt;/p&gt;</summary>
+  </entry>
+</feed>

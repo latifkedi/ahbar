@@ -278,5 +278,95 @@
     "area": "crypto",
     "label": "MEV & Protocol Economics",
     "slug": "mev-defi"
+  },
+  {
+    "area": "econ",
+    "label": "Macroeconomics",
+    "slug": "macroeconomics"
+  },
+  {
+    "area": "econ",
+    "label": "Monetary Policy & Central Banks",
+    "slug": "monetary-policy"
+  },
+  {
+    "area": "econ",
+    "label": "Quantitative Finance",
+    "slug": "quant-finance"
+  },
+  {
+    "area": "econ",
+    "label": "Econometrics & Causal Inference",
+    "slug": "econometrics"
+  },
+  {
+    "area": "econ",
+    "label": "Market Design & Auctions",
+    "slug": "market-design"
+  },
+  {
+    "area": "econ",
+    "label": "Trade & Industrial Policy",
+    "slug": "trade-industry"
+  },
+  {
+    "area": "geopolitics",
+    "label": "Geopolitics & Grand Strategy",
+    "slug": "geopolitics"
+  },
+  {
+    "area": "geopolitics",
+    "label": "Tech & Semiconductor Policy",
+    "slug": "tech-policy"
+  },
+  {
+    "area": "geopolitics",
+    "label": "Defense & Deterrence",
+    "slug": "defense-strategy"
+  },
+  {
+    "area": "geopolitics",
+    "label": "Energy & Supply Chains",
+    "slug": "energy-security"
+  },
+  {
+    "area": "geopolitics",
+    "label": "International Law & Governance",
+    "slug": "international-law"
+  },
+  {
+    "area": "geopolitics",
+    "label": "Cyber Statecraft",
+    "slug": "cyber-statecraft"
+  },
+  {
+    "area": "philosophy",
+    "label": "Philosophy of Science",
+    "slug": "philosophy-of-science"
+  },
+  {
+    "area": "philosophy",
+    "label": "Formal Epistemology",
+    "slug": "epistemology"
+  },
+  {
+    "area": "philosophy",
+    "label": "Decision & Game Theory",
+    "slug": "decision-theory"
+  },
+  {
+    "area": "philosophy",
+    "label": "Cognitive Science",
+    "slug": "cognitive-science"
+  },
+  {
+    "area": "philosophy",
+    "label": "Complex Systems",
+    "slug": "complex-systems"
+  },
+  {
+    "area": "philosophy",
+    "label": "AI Alignment & Philosophy of Mind",
+    "slug": "ai-ethics"
   }
 ]

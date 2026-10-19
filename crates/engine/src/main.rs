@@ -113,7 +113,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     emit::emit_all(&root_dir, &issue, &health_records, &site_base_url)?;
 
-    // Render sample email previews (7 areas × 3 items = 21 items) in both English and Turkish
+    // Render sample email previews (10 areas × 3 items = 30 items) in both English and Turkish
     let default_prefs = SubscriptionPreferences {
         email: "reader@example.org".to_string(),
         mode: DigestMode::Standard,
@@ -163,7 +163,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     println!(
-        "[Ahbar Engine] Emitted Issue #{} ({}) -> {} qualified items ({} Top Picks, {} in 7x3 email)",
+        "[Ahbar Engine] Emitted Issue #{} ({}) -> {} qualified items ({} Top Picks, {} in 10x3 email)",
         issue.issue_number,
         issue.date,
         issue.stats.qualified_items,

@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-10-19T09:03:59.309708600+00:00</updated>
+  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-42-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-42-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>ConQUESTA: Topology-Aware Post-Training Structural Pruning of Quantum Neural Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-38-conquesta-topology-aware-post-training"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-35-conquesta-topology-aware-post-training"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23415v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-38-conquesta-topology-aware-post-training</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-35-conquesta-topology-aware-post-training</id>
     <updated>2026-10-16T13:07:10+00:00</updated>
     <summary type="html">&lt;p&gt;Deploying quantum neural networks (QNNs) on sparse hardware requires preserving task accuracy while reducing compiler-induced two-qubit gates, SWAPs, and depth. We present ConQUESTA (\underline{C}onstrained \underline{Qu}antum \underline{E}ntangler \underline{S}election with \underline{T}opology \underline{A}wareness), a post training pruning framework that combines task saliency with compiler cost, screens candidate entanglers, and searches complete pruning masks under an explicit accuracy constraint. Unlike one-shot ranking, each mask is transpiled as a whole across multiple coupling topologies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23415v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #compilers&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>On the (In)stability of Adaptive Fee Mechanisms in Multi-Chain Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-64-on-the-in-stability-of"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-58-on-the-in-stability-of"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23305v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-64-on-the-in-stability-of</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-58-on-the-in-stability-of</id>
     <updated>2026-10-16T11:08:32+00:00</updated>
     <summary type="html">&lt;p&gt;EIP-1559 has become the dominant transaction fee mechanism in permissionless blockchains, regulating scarce block space through an adaptive base fee. The design balances a trade-off between responsiveness to demand fluctuations and stability of long-term resource usage. On a single chain, this trade-off is well understood and empirically stable.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23305v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #consensus&lt;/p&gt;</summary>
   </entry>

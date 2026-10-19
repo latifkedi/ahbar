@@ -10,7 +10,7 @@ pub struct CanonicalTag {
 
 /// Canonical tag dictionary (inspired by useful-sites/data/tags.py).
 /// Free-form tags emitted by feeds or LLMs are normalized into this fixed set
-/// so the filter bar stays clean and free of single-use noise.
+/// so the filter bar stays clean and free of single-use noise across all 10 areas.
 pub const CANON_TAGS: &[CanonicalTag] = &[
     // I. Computer Science & Software
     CanonicalTag { slug: "rust", label: "Rust", area_slug: "cs" },
@@ -37,7 +37,7 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "reinforcement-learning", label: "Reinforcement Learning", area_slug: "ai" },
     CanonicalTag { slug: "open-weights", label: "Open Weights", area_slug: "ai" },
 
-    // III. Mathematics
+    // III. Mathematics & Formal Sciences
     CanonicalTag { slug: "number-theory", label: "Number Theory", area_slug: "math" },
     CanonicalTag { slug: "combinatorics", label: "Combinatorics & Graph Theory", area_slug: "math" },
     CanonicalTag { slug: "logic", label: "Logic & Foundations", area_slug: "math" },
@@ -48,7 +48,7 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "topology", label: "Topology", area_slug: "math" },
     CanonicalTag { slug: "optimization", label: "Optimization", area_slug: "math" },
 
-    // IV. Physics & Quantum
+    // IV. Physics, Quantum & Space
     CanonicalTag { slug: "quantum-computing", label: "Quantum Computing", area_slug: "physics" },
     CanonicalTag { slug: "quantum-physics", label: "Quantum Mechanics", area_slug: "physics" },
     CanonicalTag { slug: "condensed-matter", label: "Condensed Matter", area_slug: "physics" },
@@ -66,7 +66,7 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "embedded", label: "Embedded & Firmware", area_slug: "systems" },
     CanonicalTag { slug: "performance", label: "Performance & Profiling", area_slug: "systems" },
 
-    // VI. Computational Science & Bio
+    // VI. Biotech, Medicine & Materials
     CanonicalTag { slug: "bioinformatics", label: "Bioinformatics", area_slug: "bio" },
     CanonicalTag { slug: "genomics-proteins", label: "Genomics & Protein Folding", area_slug: "bio" },
     CanonicalTag { slug: "neuroscience", label: "Computational Neuroscience", area_slug: "bio" },
@@ -74,13 +74,37 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "clean-tech", label: "Energy & Fusion", area_slug: "bio" },
     CanonicalTag { slug: "climate-earth", label: "Climate & Earth Simulation", area_slug: "bio" },
 
-    // VII. Cryptography, Web3 & Blockchain
+    // VII. Cryptography, Web3 & Protocols
     CanonicalTag { slug: "cryptography", label: "Cryptography", area_slug: "crypto" },
     CanonicalTag { slug: "zkp", label: "Zero-Knowledge Proofs", area_slug: "crypto" },
     CanonicalTag { slug: "post-quantum", label: "Post-Quantum Crypto", area_slug: "crypto" },
     CanonicalTag { slug: "consensus", label: "Consensus & BFT", area_slug: "crypto" },
     CanonicalTag { slug: "smart-contracts", label: "Smart Contracts & EVM", area_slug: "crypto" },
     CanonicalTag { slug: "mev-defi", label: "MEV & Protocol Economics", area_slug: "crypto" },
+
+    // VIII. Economics, Markets & Quantitative Finance
+    CanonicalTag { slug: "macroeconomics", label: "Macroeconomics", area_slug: "econ" },
+    CanonicalTag { slug: "monetary-policy", label: "Monetary Policy & Central Banks", area_slug: "econ" },
+    CanonicalTag { slug: "quant-finance", label: "Quantitative Finance", area_slug: "econ" },
+    CanonicalTag { slug: "econometrics", label: "Econometrics & Causal Inference", area_slug: "econ" },
+    CanonicalTag { slug: "market-design", label: "Market Design & Auctions", area_slug: "econ" },
+    CanonicalTag { slug: "trade-industry", label: "Trade & Industrial Policy", area_slug: "econ" },
+
+    // IX. International Relations, Geopolitics & Strategy
+    CanonicalTag { slug: "geopolitics", label: "Geopolitics & Grand Strategy", area_slug: "geopolitics" },
+    CanonicalTag { slug: "tech-policy", label: "Tech & Semiconductor Policy", area_slug: "geopolitics" },
+    CanonicalTag { slug: "defense-strategy", label: "Defense & Deterrence", area_slug: "geopolitics" },
+    CanonicalTag { slug: "energy-security", label: "Energy & Supply Chains", area_slug: "geopolitics" },
+    CanonicalTag { slug: "international-law", label: "International Law & Governance", area_slug: "geopolitics" },
+    CanonicalTag { slug: "cyber-statecraft", label: "Cyber Statecraft", area_slug: "geopolitics" },
+
+    // X. Philosophy of Science, Decision Theory & Cognition
+    CanonicalTag { slug: "philosophy-of-science", label: "Philosophy of Science", area_slug: "philosophy" },
+    CanonicalTag { slug: "epistemology", label: "Formal Epistemology", area_slug: "philosophy" },
+    CanonicalTag { slug: "decision-theory", label: "Decision & Game Theory", area_slug: "philosophy" },
+    CanonicalTag { slug: "cognitive-science", label: "Cognitive Science", area_slug: "philosophy" },
+    CanonicalTag { slug: "complex-systems", label: "Complex Systems", area_slug: "philosophy" },
+    CanonicalTag { slug: "ai-ethics", label: "AI Alignment & Philosophy of Mind", area_slug: "philosophy" },
 ];
 
 /// Maps raw/free-form tags or arXiv categories into canonical Ahbar tag slugs.
@@ -134,7 +158,7 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
         "math.co" | "graphs" | "graph-theory" | "discrete-math" => Some("combinatorics"),
         "math.lo" | "set-theory" | "model-theory" | "cs.lo" => Some("logic"),
         "lean" | "lean4" | "coq" | "rocq" | "isabelle" | "agda" | "mathlib"
-        | "Automated-theorem-proving"
+        | "automated-theorem-proving"
         | "formal-verification" => Some("formal-proofs"),
         "math.ag" | "math.rt" | "math.ra" | "math.ac" | "algebra" | "geometry" | "math.dg" => {
             Some("algebra-geometry")
@@ -179,8 +203,10 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
         "q-bio.gn" | "q-bio.bm" | "crispr" | "alphafold" | "protein" | "dna" | "rna" => {
             Some("genomics-proteins")
         }
-        "q-bio.nc" | "brain" | "fMRI" | "connectome" => Some("neuroscience"),
-        "materials" | "battery" | "chemistry" | "polymers" => Some("materials-science"),
+        "q-bio.nc" | "brain" | "fmri" | "connectome" => Some("neuroscience"),
+        "materials" | "battery" | "chemistry" | "polymers" | "cond-mat.mtrl-sci" => {
+            Some("materials-science")
+        }
         "fusion" | "solar" | "energy" | "nuclear" => Some("clean-tech"),
         "climate" | "physics.ao-ph" | "geophysics" => Some("climate-earth"),
 
@@ -194,6 +220,53 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
         "bft" | "blockchain" | "ethereum" | "bitcoin" | "l2" | "rollup" => Some("consensus"),
         "solidity" | "evm" | "smart-contract" | "audit" | "vyper" => Some("smart-contracts"),
         "mev" | "defi" | "amm" | "flashbots" => Some("mev-defi"),
+
+        // Economics, Markets & Quantitative Finance aliases
+        "econ.gn" | "macro" | "inflation" | "gdp" | "fiscal" | "growth" => Some("macroeconomics"),
+        "central-bank" | "fed" | "ecb" | "tcmb" | "bis" | "interest-rates" | "liquidity" => {
+            Some("monetary-policy")
+        }
+        "q-fin" | "q-fin.st" | "q-fin.mf" | "q-fin.tr" | "q-fin.cp" | "q-fin.pm" | "q-fin.rm"
+        | "asset-pricing" | "volatility" | "derivatives" => Some("quant-finance"),
+        "econ.em" | "causal" | "causal-inference" | "panel-data" | "time-series" => {
+            Some("econometrics")
+        }
+        "econ.th" | "q-fin.ec" | "auctions" | "mechanism-design" | "matching" => {
+            Some("market-design")
+        }
+        "trade" | "tariffs" | "supply-chain" | "industrial-organization" => Some("trade-industry"),
+
+        // International Relations, Geopolitics & Strategy aliases
+        "foreign-policy" | "diplomacy" | "grand-strategy" | "ir" | "multipolarity" => {
+            Some("geopolitics")
+        }
+        "export-controls" | "chip-war" | "sovereignty" | "ai-governance" | "sanctions" => {
+            Some("tech-policy")
+        }
+        "defense" | "nato" | "deterrence" | "military" | "arms-control" | "sipri" => {
+            Some("defense-strategy")
+        }
+        "critical-minerals" | "lng" | "grid-security" | "maritime" => Some("energy-security"),
+        "treaties" | "un" | "lawfare" | "sovereign-debt" => Some("international-law"),
+        "cyber-warfare" | "apt" | "critical-infrastructure" => Some("cyber-statecraft"),
+
+        // Philosophy of Science, Decision Theory & Cognition aliases
+        "philsci" | "foundations-of-physics" | "scientific-realism" | "methodology" => {
+            Some("philosophy-of-science")
+        }
+        "bayesian-epistemology" | "belief-revision" | "formal-epistemology" => {
+            Some("epistemology")
+        }
+        "cs.gt" | "game-theory" | "social-choice" | "rationality" | "utility" => {
+            Some("decision-theory")
+        }
+        "cognition" | "perception" | "psycholinguistics" | "active-inference" => {
+            Some("cognitive-science")
+        }
+        "nlin.ao" | "physics.soc-ph" | "emergence" | "self-organization" | "network-science" => {
+            Some("complex-systems")
+        }
+        "alignment" | "philosophy-of-mind" | "consciousness" | "agency" => Some("ai-ethics"),
 
         _ => None,
     }
@@ -216,7 +289,6 @@ pub fn normalize_tags(raw_tags: &[String], fallback_area_slug: &str) -> Vec<Stri
     }
 
     if out.is_empty() {
-        // Pick the default canonical tag for this area if none matched
         let default_tag = match fallback_area_slug {
             "cs" => "software-architecture",
             "ai" => "ml-theory",
@@ -225,6 +297,9 @@ pub fn normalize_tags(raw_tags: &[String], fallback_area_slug: &str) -> Vec<Stri
             "systems" => "kernel-os",
             "bio" => "bioinformatics",
             "crypto" => "cryptography",
+            "econ" => "macroeconomics",
+            "geopolitics" => "geopolitics",
+            "philosophy" => "philosophy-of-science",
             _ => "open-source",
         };
         out.push(default_tag.to_string());

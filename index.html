@@ -1,53 +1,450 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="tr" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ahbar — Daily Technical &amp; Scientific Dispatches</title>
-<meta name="description" content="Autonomous daily technical digest and archive across computer science, AI, mathematics, physics, systems, computational biology, and cryptography. Every dispatch states what was proved, built, or measured.">
-<link rel="alternate" type="application/atom+xml" title="Ahbar — All Dispatches" href="feed.xml">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https:; base-uri 'self'; form-action 'self'">
+<title>Ahbar — Günlük Teknik, Bilimsel &amp; Stratejik Bülten</title>
+<meta name="description" content="Yazılım, yapay zekâ, matematik, fizik, sistem mimarisi, biyoteknoloji, kriptografi, ekonomi, jeopolitik ve bilim felsefesi alanlarında otonom günlük teknik bülten ve dizin. Her kayıt neyin kanıtlandığını, inşa edildiğini veya ölçüldüğünü söyler.">
+<link rel="alternate" type="application/atom+xml" title="Ahbar — Tüm Kayıtlar (Atom)" href="feed.xml">
+<link rel="preload" href="fonts/serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/serif-600.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><path d='M43 12A22 22 0 1 0 51 30' fill='none' stroke='%23a8321f' stroke-width='6' stroke-linecap='round'/></svg>">
 <meta name="theme-color" content="#f6f1e7">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css">
+<script src="boot.js" data-tr="data/latest.tr.json" data-en="data/latest.en.json"></script>
+<!-- INLINE_CSS_START -->
+<style>/* Ahbar — Single stylesheet.
+   Built directly on the useful-sites editorial design language:
+   Ink, paper, and a single functional red (--red).
+   Headings and record titles in Source Serif 4 (SIL OFL WOFF2);
+   body in system sans-serif; numbers and counters in tabular-nums. */
+
+@font-face{
+  font-family:"Serif Fallback";
+  src:local("Georgia"),local("Times New Roman"),local("Iowan Old Style");
+  size-adjust:98.7%;ascent-override:105%;descent-override:34%;line-gap-override:0%;
+}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400;font-display:swap;
+  src:url("fonts/serif-400.woff2") format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:600;font-display:swap;
+  src:url("fonts/serif-600.woff2") format("woff2")}
+
+/* ---------------------------------------------------------------- tokens */
+:root{
+  --bg:#f6f1e7; --panel:#efe8da; --field:#fbf8f1;
+  --fg:#1c1a16; --dim:#5b564c; --faint:#686256;
+  --rule:#ddd5c4; --rule2:#e9e2d3;
+  --red:#a8321f; --red-soft:#f1e0d6; --on-red:#fbf8f1; --mark:#f1dccd;
+  --shadow:0 16px 44px rgba(28,26,22,.14); --scrim:rgba(28,26,22,.42);
+  --serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --step:cubic-bezier(.2,.6,.3,1);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#15140f; --panel:#1e1c17; --field:#1a1914;
+    --fg:#ebe5d8; --dim:#b3ad9f; --faint:#9a9486;
+    --rule:#302d26; --rule2:#24221c;
+    --red:#e8735b; --red-soft:#2e1a14; --on-red:#15140f; --mark:#3d241b;
+    --shadow:0 16px 44px rgba(0,0,0,.5); --scrim:rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15140f; --panel:#1e1c17; --field:#1a1914;
+  --fg:#ebe5d8; --dim:#b3ad9f; --faint:#9a9486;
+  --rule:#302d26; --rule2:#24221c;
+  --red:#e8735b; --red-soft:#2e1a14; --on-red:#15140f; --mark:#3d241b;
+  --shadow:0 16px 44px rgba(0,0,0,.5); --scrim:rgba(0,0,0,.6);
+  color-scheme:dark;
+}
+
+/* ---------------------------------------------------------------- base */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  font:16px/1.6 var(--sans);font-feature-settings:"kern" 1;
+  -webkit-font-smoothing:antialiased;padding:0 28px 88px;
+}
+::selection{background:var(--red-soft);color:var(--fg)}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px;border-radius:2px}
+.wrap{max-width:1120px;margin:0 auto}
+kbd{font:11.5px/1.5 var(--mono);color:var(--faint);background:var(--field);
+  border:1px solid var(--rule);border-radius:3px;padding:0 5px}
+code{font:.88em var(--mono);background:var(--panel);border-radius:3px;padding:0 4px}
+mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
+math.m{font-family:var(--serif);font-size:1.02em;color:var(--fg)}
+math.m-block{display:block;margin:10px 0;font-size:1.08em}
+.rn{font-family:var(--serif);font-weight:600;color:var(--red);letter-spacing:.02em}
+.n{font:400 12.5px/1 var(--sans);color:var(--faint);font-variant-numeric:tabular-nums}
+.k{margin:0;display:flex;align-items:center;gap:12px;
+  font:600 12px/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+.k::after{content:"";flex:1;height:1px;background:var(--rule)}
+.k span{font-weight:400;letter-spacing:.02em;text-transform:none;color:var(--faint)}
+.ld{flex:1 1 auto;min-width:18px;border-bottom:1.5px dotted var(--rule);transform:translateY(-5px)}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-9999px;top:0;z-index:60;padding:12px 18px;
+  font:14px/1 var(--sans);color:var(--on-red);background:var(--red);
+  text-decoration:none;border-radius:0 0 4px 0}
+.skip:focus{left:0}
+@keyframes fadeup{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.home,.fieldpage,.one{animation:fadeup .16s var(--step) both}
+
+/* ---------------------------------------------------------------- buttons & chips */
+.lnk{display:inline-flex;align-items:center;gap:6px;background:none;border:0;border-radius:5px;
+  padding:8px 10px;cursor:pointer;font:13.5px/1 var(--sans);color:var(--dim);text-decoration:none;
+  transition:color .12s var(--step),background .12s var(--step)}
+.lnk:hover{color:var(--fg);background:var(--panel)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;
+  font:13.5px/1 var(--sans);color:var(--dim);background:var(--field);
+  border:1px solid var(--rule);border-radius:6px;padding:9px 14px;text-decoration:none;
+  transition:color .12s var(--step),border-color .12s var(--step),background .12s var(--step)}
+.btn:hover{color:var(--fg);border-color:var(--faint)}
+.btn.primary{color:var(--bg);background:var(--fg);border-color:var(--fg)}
+.btn.primary:hover{color:var(--on-red);background:var(--red);border-color:var(--red)}
+.btn:disabled{opacity:.4;cursor:default}
+.chip{display:inline-flex;align-items:center;gap:6px;cursor:pointer;white-space:nowrap;
+  font:13px/1.2 var(--sans);color:var(--dim);background:var(--field);
+  border:1px solid var(--rule);border-radius:999px;padding:6px 13px;text-decoration:none;
+  transition:color .12s var(--step),border-color .12s var(--step),background .12s var(--step)}
+.chip:hover{color:var(--fg);border-color:var(--faint)}
+.chip.on,.chip[aria-pressed="true"]{color:var(--red);border-color:var(--red);background:var(--red-soft)}
+.chip .c{color:var(--faint);font-variant-numeric:tabular-nums}
+.chip.on .c,.chip[aria-pressed="true"] .c{color:inherit}
+.chip .x{font-size:11px;opacity:.75}
+.chip.more{border-style:dashed}
+
+/* ---------------------------------------------------------------- top bar */
+header.top{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;
+  grid-template-areas:"logo search acts";align-items:center;gap:14px 24px;
+  padding:16px 0;border-bottom:1px solid var(--rule)}
+.logo{grid-area:logo;display:inline-flex;align-items:center;gap:10px;text-decoration:none;
+  font:600 17px/1 var(--serif);letter-spacing:-.01em;white-space:nowrap;color:var(--fg)}
+.enso{width:26px;height:26px;flex:none}
+.enso path,.wm path{fill:none;stroke:var(--red);stroke-linecap:round}
+.enso path{stroke-width:5}
+.hero,.wm{display:none}
+.search{grid-area:search;position:relative;width:100%;max-width:540px}
+#q{width:100%;font:15px/1.4 var(--sans);color:var(--fg);background:var(--field);
+  border:1px solid var(--rule);border-radius:6px;padding:9px 40px 9px 13px;
+  transition:border-color .12s var(--step),box-shadow .12s var(--step)}
+#q::placeholder{color:var(--faint)}
+#q:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft)}
+.search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);pointer-events:none}
+#q:focus + kbd{display:none}
+.acts{grid-area:acts;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
+
+body.at-home header.top{grid-template-columns:minmax(0,1fr) auto;
+  grid-template-areas:"logo acts" "hero hero" "search search";row-gap:0;padding:16px 0 24px}
+body.at-home .hero{grid-area:hero;display:block;position:relative;z-index:1;
+  margin:30px 0 20px;max-width:32ch;font:400 36px/1.14 var(--serif);letter-spacing:-.022em;
+  text-wrap:balance}
+body.at-home .hero em{font-style:normal;color:var(--red)}
+body.at-home .wm{display:block;position:absolute;right:-24px;top:34px;width:330px;height:330px;
+  opacity:.09;pointer-events:none}
+body.at-home .wm path{stroke-width:1.6}
+body.at-home .search{max-width:660px;z-index:1}
+body.at-home #q{font:19px/1.4 var(--serif);padding:12px 40px 12px 0;background:transparent;
+  border:0;border-bottom:1.5px solid var(--fg);border-radius:0}
+body.at-home #q:focus{box-shadow:none;border-bottom-color:var(--red)}
+body.at-home .search kbd{right:0}
+
+/* ---------------------------------------------------------------- layout & sidebar */
+.cols{display:grid;grid-template-columns:200px minmax(0,1fr);gap:56px;margin-top:34px;align-items:start}
+.cols > *{min-width:0}
+body.calm .cols{grid-template-columns:minmax(0,1fr)}
+body.calm .side{display:none}
+.side{position:sticky;top:22px;max-height:calc(100vh - 44px);overflow:auto;padding-bottom:12px}
+.side-k{margin:0 0 10px;font:600 12px/1.35 var(--sans);letter-spacing:.12em;
+  text-transform:uppercase;color:var(--red)}
+.side ol{list-style:none;margin:0;padding:0}
+.side a{display:flex;align-items:baseline;gap:8px;padding:7px 0;border-bottom:1px solid var(--rule2);
+  font-size:14px;line-height:1.35;color:var(--dim);text-decoration:none;transition:color .12s var(--step);cursor:pointer}
+.side a .t{flex:1}
+.side a:hover{color:var(--fg)}
+.side a.on{color:var(--fg);font-weight:600}
+.side a.on::before{content:"▸";color:var(--red)}
+.side a.all{border:0;margin-top:10px;font-size:13px;color:var(--faint)}
+.side a.all:hover{color:var(--red)}
+
+/* ---------------------------------------------------------------- page header */
+.crumb{margin:0 0 8px;font-size:13px;color:var(--faint)}
+.crumb a{color:var(--dim);text-decoration:none;cursor:pointer}
+.crumb a:hover{color:var(--red)}
+.crumb b{margin:0 7px;font-weight:400;color:var(--red)}
+.ph{margin:0 0 12px;display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 12px;
+  font:600 34px/1.12 var(--serif);letter-spacing:-.017em}
+.ph .rn{font-size:.6em}
+.lede{margin:0 0 20px;max-width:66ch;font:400 17px/1.62 var(--serif);color:var(--dim)}
+.none{padding:36px 0;color:var(--dim)}
+.none a{color:var(--red);cursor:pointer}
+.sh{margin:36px 0 2px;padding-bottom:10px;border-bottom:1px solid var(--rule);
+  display:flex;align-items:baseline;gap:10px;font:600 20px/1.25 var(--serif);letter-spacing:-.01em}
+.sh .more-area{margin-left:auto;font:400 13px/1 var(--sans);color:var(--faint);text-decoration:none}
+.sh .more-area:hover{color:var(--red)}
+
+/* ---------------------------------------------------------------- toolbar (.tb) */
+.tb{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 0;margin:0 0 4px;
+  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.tb .sp{margin-left:auto;display:flex;align-items:center;gap:12px;font-size:13px;color:var(--faint)}
+.sortl{display:inline-flex;align-items:center;gap:6px}
+.tb select{font:13px/1.2 var(--sans);color:var(--dim);background:var(--field);
+  border:1px solid var(--rule);border-radius:6px;padding:5px 8px;cursor:pointer}
+.tb select:hover{border-color:var(--faint);color:var(--fg)}
+
+/* ---------------------------------------------------------------- record (.rec) */
+.recs{margin:0}
+#list .rec:not(.big){content-visibility:auto;contain-intrinsic-size:auto 150px}
+.rec{display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:8px;
+  padding:18px 0;border-bottom:1px solid var(--rule2)}
+.rec.kb-focus{background:var(--panel);margin:0 -12px;padding:18px 12px;border-radius:4px}
+.rec .no{font:600 13.5px/28px var(--serif);color:var(--red);text-align:right;
+  font-variant-numeric:tabular-nums}
+.rb{min-width:0}
+.path{margin:0 0 2px;font-size:12.5px;color:var(--faint)}
+.path a{color:var(--red);text-decoration:none;cursor:pointer}
+.path a:hover{text-decoration:underline}
+.nm{display:flex;align-items:baseline;gap:4px 10px;flex-wrap:wrap}
+.rec a.name{font:600 19.5px/1.3 var(--serif);letter-spacing:-.006em;text-decoration:none;color:var(--fg);cursor:pointer}
+.rec a.name:hover{color:var(--red);text-decoration:underline;text-underline-offset:3px;
+  text-decoration-thickness:1px}
+.rec.seen a.name{color:var(--dim)}
+.host{font-size:13px;color:var(--faint);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.pk{font:12px/1.5 var(--sans);color:var(--red);border:1px solid var(--red);border-radius:3px;
+  padding:0 6px;white-space:nowrap}
+.desc{margin:6px 0 0;max-width:72ch;font-size:15.5px;line-height:1.64;color:var(--dim)}
+.mt{margin-top:9px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;
+  font-size:13px;color:var(--faint)}
+.itags span{cursor:pointer;color:var(--dim);transition:color .12s var(--step)}
+.itags span:hover{color:var(--red)}
+.itags i{font-style:normal;color:var(--rule);margin:0 5px}
+.rel a{color:var(--dim);text-decoration:none;border-bottom:1px solid var(--rule);cursor:pointer}
+.rel a:hover{color:var(--red);border-bottom-color:var(--red)}
+.meta{margin-left:auto;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.arch{color:var(--faint);text-decoration:none;border-bottom:1px dotted var(--rule);cursor:pointer;background:none;border-top:0;border-left:0;border-right:0;padding:0;font:inherit}
+.arch:hover,.arch.on{color:var(--red);border-bottom-color:var(--red)}
+.save{flex:none;margin-left:auto;padding:2px 4px;background:none;border:0;border-radius:4px;cursor:pointer;
+  font-size:17px;line-height:1;color:var(--faint);transition:color .12s var(--step)}
+.save:hover,.save[aria-pressed="true"]{color:var(--red)}
+.cmpb{padding:0;background:none;border:0;border-bottom:1px dotted var(--rule);cursor:pointer;
+  font:inherit;color:var(--faint)}
+.cmpb:hover,.cmpb[aria-pressed="true"]{color:var(--red);border-bottom-color:var(--red)}
+@media (hover:hover){
+  .rec .meta .cmpb:not([aria-pressed="true"]){visibility:hidden}
+  .rec:hover .meta .cmpb,.rec:focus-within .meta .cmpb{visibility:visible}
+}
+#savedb .c{color:var(--red);font-variant-numeric:tabular-nums}
+#savedb[aria-pressed="true"]{color:var(--fg)}
+.shelfx{margin:0 0 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+
+/* Compare Tray & Side-by-Side Table (.tray & .cmp) */
+.tray{position:fixed;left:50%;bottom:20px;z-index:35;transform:translateX(-50%);display:flex;gap:8px;padding:8px;
+  background:var(--bg);border:1px solid var(--rule);border-radius:12px;box-shadow:var(--shadow)}
+.tray[hidden]{display:none}
+.tray .btn{text-decoration:none}
+.cmpwrap{overflow-x:auto;scroll-snap-type:x mandatory;margin:8px 0 0;border-top:1px solid var(--rule)}
+.cmp{border-collapse:separate;border-spacing:0;min-width:100%}
+.cmp th,.cmp td{padding:12px 14px;border-bottom:1px solid var(--rule2);vertical-align:top;text-align:left;
+  font-size:14.5px;line-height:1.55;color:var(--dim)}
+.cmp thead th{min-width:240px;scroll-snap-align:start;font:600 18px/1.3 var(--serif);color:var(--fg)}
+.cmp thead th a{color:var(--fg);text-decoration:none}
+.cmp thead th a:hover{color:var(--red)}
+.cmp thead .host{display:block;margin:2px 0 0;font:400 12.5px/1.4 var(--sans)}
+.cmp thead .lnk{margin:4px 0 0 -10px;font-size:12.5px}
+.cmp tbody th{width:150px;font:600 11.5px/1.5 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+.cmp tbody td{min-width:240px}
+.cmp tr > :first-child{position:sticky;left:0;z-index:1;background:var(--bg)}
+
+/* Detail View (.rec.big / .one) */
+.rec.big{grid-template-columns:minmax(0,1fr);border-bottom:0;padding-top:4px}
+.rec.big .no{display:none}
+.rec.big .ph{margin:0}
+.rec.big a.name{font-size:31px;line-height:1.18;letter-spacing:-.016em}
+.rec.big .desc{font:400 17.5px/1.66 var(--serif);max-width:68ch;color:var(--fg);margin-top:14px}
+.visit{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
+.visit .btn{text-decoration:none}
+.vs{list-style:none;margin:10px 0 28px;padding:0}
+.vs li{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;padding:11px 0;border-bottom:1px solid var(--rule2)}
+.vs a{font:600 16.5px/1.3 var(--serif);color:var(--fg);text-decoration:none;cursor:pointer}
+.vs a:hover{color:var(--red)}
+.vs .ax{font-size:14.5px;line-height:1.62;color:var(--dim);max-width:72ch}
+.bibtex-pre{background:var(--panel);border:1px solid var(--rule);border-radius:6px;
+  padding:12px 14px;font:12px/1.5 var(--mono);overflow-x:auto;white-space:pre-wrap;margin:10px 0 24px}
+
+/* ---------------------------------------------------------------- home (.home) */
+.home{padding:22px 0 0}
+.hsec{margin:0 0 46px}
+.hpicks{list-style:none;margin:16px 0 0;padding:0;
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 34px}
+.hpicks li{padding:13px 0;border-bottom:1px solid var(--rule2)}
+.hpicks a.hp-title{font:600 16.5px/1.32 var(--serif);text-decoration:none;display:inline;cursor:pointer}
+.hpicks a.hp-title::before{content:"◆";color:var(--red);font-size:.6em;margin-right:8px;position:relative;top:-.15em}
+.hpicks a.hp-title:hover{color:var(--red)}
+.hpicks p{margin:5px 0 0;font-size:14px;line-height:1.55;color:var(--dim)}
+.fx{list-style:none;margin:18px 0 0;padding:0;columns:2;column-gap:56px}
+.fe{break-inside:avoid;padding:12px 0 14px;border-bottom:1px solid var(--rule2)}
+.ft{display:flex;align-items:baseline;gap:10px;text-decoration:none;cursor:pointer}
+.ft .rn{width:34px;flex:none;font-size:15px}
+.fn{font:600 21px/1.25 var(--serif);letter-spacing:-.012em;transition:color .12s var(--step)}
+.ft:hover .fn{color:var(--red)}
+.fc{margin:5px 0 0 44px;font-size:14.5px;line-height:1.6;color:var(--faint)}
+.fc a{color:var(--dim);text-decoration:none;border-bottom:1px solid var(--rule2);cursor:pointer}
+.fc a:hover{color:var(--red);border-bottom-color:var(--red)}
+.hlinks{display:flex;gap:26px;flex-wrap:wrap;margin:28px 0 0;font-size:14px}
+.hlinks a{color:var(--dim);text-decoration:none;cursor:pointer}
+.hlinks a:hover{color:var(--red)}
+.proof{margin:0 0 12px;font-size:13.5px;line-height:1.6;color:var(--dim)}
+.tryq{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 34px}
+.tryq span{margin-right:4px;font-size:13px;color:var(--faint)}
+.tryq .chip{text-decoration:none}
+
+/* ---------------------------------------------------------------- dialogs (filt, sub, pal, kbh) */
+dialog#filt,dialog#sub,dialog#pal,dialog#kbh{border:1px solid var(--rule);border-radius:12px;padding:0;
+  background:var(--bg);color:var(--fg);box-shadow:var(--shadow)}
+dialog#filt::backdrop,dialog#sub::backdrop,dialog#pal::backdrop,dialog#kbh::backdrop{background:var(--scrim)}
+dialog#filt{width:min(580px,calc(100vw - 32px))}
+dialog#sub{width:min(680px,calc(100vw - 32px));max-height:calc(100vh - 48px)}
+dialog#pal,dialog#kbh{margin:12vh auto auto;width:min(600px,calc(100vw - 32px))}
+.fl-h{display:flex;align-items:center;gap:4px;padding:12px 12px 10px 18px;border-bottom:1px solid var(--rule2)}
+.fl-h h2{margin:0 auto 0 0;font:600 19px/1.2 var(--serif)}
+.fl-b{padding:8px 18px 16px;max-height:min(65vh,560px);overflow:auto}
+.fg{padding:12px 0 4px}
+.fk{margin:0 0 8px;font:600 11.5px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.fg .cs{display:flex;flex-wrap:wrap;gap:6px}
+.sub-h{display:flex;align-items:baseline;gap:12px;padding:20px 22px 14px;border-bottom:1px solid var(--rule)}
+.sub-h h2{margin:0;font:600 21px/1.2 var(--serif)}
+.sub-h .btn{margin-left:auto}
+.sub-body{padding:18px 22px 8px;overflow-y:auto;max-height:calc(100vh - 210px)}
+.fld{margin:0 0 14px}
+.fld label{display:block;margin-bottom:6px;font:600 11.5px/1 var(--sans);letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+.fld input,.fld select{width:100%;font:15px/1.55 var(--sans);color:var(--fg);
+  background:var(--field);border:1px solid var(--rule);border-radius:6px;padding:9px 11px}
+.fld input:focus,.fld select:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft)}
+.sub-note{margin:0 0 16px;font-size:14px;line-height:1.66;color:var(--dim)}
+.sub-note b{color:var(--fg);font-weight:600}
+.sub-f{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:14px 22px 20px;border-top:1px solid var(--rule2)}
+.sub-f .msg{margin-left:auto;text-align:right;font-size:12.5px;line-height:1.5;color:var(--red)}
+
+#pal-q{width:100%;padding:14px 18px;font:17px/1.4 var(--sans);color:var(--fg);background:var(--field);
+  border:0;border-bottom:1px solid var(--rule);border-radius:12px 12px 0 0}
+#pal-q:focus{outline:none;box-shadow:inset 0 -2px 0 var(--red)}
+#pal-list{list-style:none;margin:0;padding:6px;max-height:min(56vh,460px);overflow:auto}
+.pal-g{padding:10px 12px 4px;font:600 11px/1 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+#pal-list [role="option"]{display:flex;align-items:baseline;gap:12px;min-height:40px;padding:9px 12px;
+  border-radius:6px;cursor:pointer}
+#pal-list [role="option"]:hover,#pal-list [aria-selected="true"]{background:var(--panel);box-shadow:inset 3px 0 0 var(--red)}
+.ps{margin-left:auto;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12.5px;color:var(--faint)}
+#kbh-list{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 18px;margin:0;padding:16px 18px 22px}
+#kbh-list dt{white-space:nowrap}
+#kbh-list dd{margin:0;color:var(--dim)}
+
+/* ---------------------------------------------------------------- loading skeleton (html.pending) */
+html.pending #list > [data-pre]{display:none}
+html.pending #list::before{content:"";display:block;height:520px;border-radius:4px;
+  background:repeating-linear-gradient(to bottom,var(--panel) 0 20px,transparent 20px 36px,
+    var(--rule2) 36px 52px,transparent 52px 104px);animation:pulse 1.1s ease-in-out infinite alternate}
+@keyframes pulse{from{opacity:.5}to{opacity:1}}
+
+/* ---------------------------------------------------------------- footer & top btn */
+footer{margin-top:72px;padding-top:22px;border-top:1px solid var(--rule);max-width:82ch;
+  font-size:14px;line-height:1.8;color:var(--faint)}
+footer p{margin:0 0 8px}
+footer a{color:var(--dim)}
+footer a:hover{color:var(--red)}
+footer .lnk{padding:4px 6px;font-size:14px}
+#top{position:fixed;right:24px;bottom:24px;z-index:30;opacity:0;pointer-events:none;
+  transform:translateY(6px);transition:opacity .18s var(--step),transform .18s var(--step)}
+#top.show{opacity:1;pointer-events:auto;transform:none}
+
+/* ---------------------------------------------------------------- responsive & accessibility */
+@media (max-width:1000px){
+  .hpicks{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:900px){
+  .cols{grid-template-columns:minmax(0,1fr);gap:0;margin-top:20px}
+  .side{display:none}
+  .fx{columns:1}
+}
+@media (max-width:720px){
+  body{padding:0 16px 72px}
+  header.top{grid-template-columns:minmax(0,1fr);grid-template-areas:"logo" "acts" "search";row-gap:10px}
+  body.at-home header.top{grid-template-areas:"logo" "acts" "hero" "search";padding:14px 0 22px}
+  body.static header.top{grid-template-columns:minmax(0,1fr);grid-template-areas:"logo" "acts";row-gap:4px}
+  body.at-home .hero{font-size:29px;margin:20px 0 14px}
+  body.at-home .wm{display:none}
+  body.at-home #q{font-size:17px}
+  .hpicks{grid-template-columns:1fr}
+  .rec{grid-template-columns:24px minmax(0,1fr);column-gap:6px;padding:15px 0}
+  .rec a.name{font-size:17.5px}
+  .rec.big a.name{font-size:25px}
+  .meta{margin-left:0}
+  .tray{left:12px;right:12px;bottom:12px;transform:none}
+  .tray .btn{flex:1}
+  .cmp tbody th{width:104px;min-width:104px;letter-spacing:.04em}
+  .cmp thead th,.cmp tbody td{min-width:72vw}
+}
+@media (forced-colors:active){
+  .chip.on,.chip[aria-pressed="true"],.save[aria-pressed="true"],
+  .cmpb[aria-pressed="true"],#pal-list [aria-selected="true"]{
+    forced-color-adjust:none;color:HighlightText;background:Highlight;border-color:Highlight}
+  .k::after{background:CanvasText}
+  .ld{border-bottom-color:CanvasText}
+  .enso path,.wm path{stroke:CanvasText}
+  :focus-visible{outline-color:Highlight}
+}
+@media (prefers-contrast:more){
+  :root{--dim:#3d3932; --faint:#46423a; --rule:#8f877a; --rule2:#b3aa98; --mark:#f6e6d9}
+  :root[data-theme="dark"]{--dim:#d6d0c2; --faint:#c7c1b2; --rule:#6b6555; --rule2:#4d483d; --mark:#2c1a14}
+  .rec a.name,.fc a,.rel a{text-decoration:underline;text-underline-offset:3px}
+}</style>
+<!-- INLINE_CSS_END -->
 </head>
 <body class="calm at-home">
-<a class="skip" id="skip" href="#list">Skip to content</a>
+<a class="skip" id="skip" href="#list">İçeriğe geç</a>
 <div class="wrap">
 
 <header class="top">
-  <a class="logo" id="logo" href="./" data-home="1" aria-label="Ahbar — Index">
+  <a class="logo" id="logo" href="./" data-home="1" aria-label="Ahbar — Fihrist">
     <svg class="enso" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg>
     <span id="t-title">Ahbar</span>
   </a>
-  <h1 class="hero" id="hero"><em>63</em> technical &amp; scientific dispatches today. Each one states what was proved, built, or measured.</h1>
+  <h1 class="hero" id="hero">Sayı #1 içinde <em>90</em> teknik, bilimsel ve stratejik bülten kaydı. Her biri neyin kanıtlandığını, inşa edildiğini veya ölçüldüğünü söyler.</h1>
   <svg class="wm" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg>
   <div class="search">
-    <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search papers, theorems, systems, #tags…" aria-label="Search dispatches">
+    <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Ara: makale, teorem, sistem, #etiket, kaynak…" aria-label="Bülten kayıtlarında ara">
     <kbd aria-hidden="true">/</kbd>
   </div>
-  <nav class="acts" id="acts" aria-label="Tools">
-    <button class="lnk" id="savedb" type="button" aria-pressed="false">Saved <span class="c" id="saved-count">0</span></button>
-    <a class="lnk" id="emailprev" href="data/sample-email.html" target="_blank" rel="noopener">Email (7×3) ↗</a>
-    <button class="lnk" id="subbtn" type="button">Subscribe</button>
-    <button class="lnk" id="rand" type="button">Random</button>
-    <button class="lnk" id="langbtn" type="button" title="Switch language">TR</button>
-    <button class="lnk" id="theme" type="button" title="Theme" aria-label="Theme">◐</button>
+  <nav class="acts" id="acts" aria-label="Araçlar">
+    <button class="lnk" id="savedb" type="button" aria-pressed="false">Kaydedilenler</button>
+    <a class="lnk" id="emailprev" href="data/sample-email-tr.html" target="_blank" rel="noopener">E-Posta (10×3) ↗</a>
+    <button class="lnk" id="subbtn" type="button">Abone Ol</button>
+    <button class="lnk" id="rand" type="button">Rastgele</button>
+    <button class="lnk" id="langbtn" type="button" title="Switch language">EN</button>
+    <button class="lnk" id="theme" type="button" title="Tema" aria-label="Tema">◐</button>
   </nav>
 </header>
 
 <div class="cols">
-  <aside class="side" id="side" aria-label="Index"><div id="nav"></div></aside>
+  <aside class="side" id="side" aria-label="Fihrist"><div id="nav"></div></aside>
   <p id="live" class="vh" role="status" aria-live="polite" aria-atomic="true"></p>
-  <main id="list" tabindex="-1"></main>
+  <main id="list" tabindex="-1">
+<!-- PRERENDER_START -->
+<div class="home" data-pre="1"><p class="proof">90 seçilmiş kayıt · 2026-10-19 · 86 birincil kaynaktan 1486 makale ve besleme tarandı · her gün 08:00 TSİ · izleyici yok</p><p class="tryq"><span>Dene:</span><a class="chip" href="?q=llm" data-q="llm">llm</a><a class="chip" href="?q=rust" data-q="rust">rust</a><a class="chip" href="?q=zkp" data-q="zkp">zkp</a><a class="chip" href="?q=quantum" data-q="quantum">quantum</a><a class="chip" href="?q=lean 4" data-q="lean 4">lean 4</a><a class="chip" href="?q=monetary-policy" data-q="monetary-policy">monetary-policy</a><a class="chip" href="?q=geopolitics" data-q="geopolitics">geopolitics</a><a class="chip" href="?q=epistemology" data-q="epistemology">epistemology</a></p><section class="hsec hp"><h2 class="k">Günün Seçkisi (Top Picks)<span>her kategoriden 3 haber · e-postada 30 kayıt</span></h2><ol class="hpicks"><li><a class="hp-title" href="?item=2026-10-19-01-linux-7-3-released" data-item="2026-10-19-01-linux-7-3-released">Linux 7.3 Yayımlandı. Linus Torvalds beklendiği gibi 7.3 çekirdeğini yayınladı.</a><p>Linus Torvalds beklendiği gibi 7.3 çekirdeğini yayınladı. Bugün Pazar öğleden sonraydı ve bu hafta bir şekilde haftanın günlerini takip edebilecek kadar aklımı topladım, böylece yayın rastgele bir şekilde gecikmeyecek. Harikalar hiç bitmeyecek mi? Her neyse, geçen hafta çok özel bir şey olmamış gibi görünüyor, yani beklendiği gibi son 7.3 çıktı ve dolayısıyla yarın…</p><div class="n" style="margin-top:6px;"><span class="rn">I</span> · Bilgisayar Bilimi &amp; Yazılım · Hacker News</div></li><li><a class="hp-title" href="?item=2026-10-19-10-introducing-gemini-3-8-flash" data-item="2026-10-19-10-introducing-gemini-3-8-flash">Gemini 3.8 Flash ve 3.8 Flash Cyber ​​ile tanışın. Google, güvenlik açıklarını bulup düzeltmeye yönelik hafif bir siber güvenlik modeli olan Gemini 3.5 Flash Cyber&#39;ı tanıttı.</a><p>Google, güvenlik açıklarını bulup düzeltmeye yönelik hafif bir siber güvenlik modeli olan Gemini 3.5 Flash Cyber&#39;ı tanıttı.</p><div class="n" style="margin-top:6px;"><span class="rn">II</span> · Yapay Zekâ &amp; Makine Öğrenmesi · Google DeepMind Research Blog</div></li><li><a class="hp-title" href="?item=2026-10-19-19-octonions-and-the-standard-model" data-item="2026-10-19-19-octonions-and-the-standard-model">Oktonyonlar ve Standart Model (Bölüm 15)</a><p>John Baez, Endre Bokor ve Latham Boyle&#39;un, Standart Model ölçü grubunu ele alan yeni bir makaleleri var ve bunun, biyoktonyon çiftlerinden oluşan Jordan üçlüsünden başlayarak fermiyonların bir nesline ilişkin temsili var.</p><div class="n" style="margin-top:6px;"><span class="rn">III</span> · Matematik &amp; Biçimsel Bilimler · The n-Category Café (Math, Physics &amp; Philosophy)</div></li><li><a class="hp-title" href="?item=2026-10-19-28-anyonic-neural-network-wavefunctions" data-item="2026-10-19-28-anyonic-neural-network-wavefunctions">Anyonik Sinir Ağı Dalga Fonksiyonları. Abelian anyonların etkileşime girmeyen bir gazının makroskobik davranışı onlarca yıldır belirsiz kalmıştır.</a><p>Abelian anyonların etkileşime girmeyen bir gazının makroskobik davranışı onlarca yıldır belirsiz kalmıştır. Süreklilikte ve düzlemde tam köşegenleştirmeyi kullanan önceki sayısal yöntemler, en fazla <math display="inline" class="m"><mrow>N = 4</mrow></math> anyon olmak üzere küçük sistem boyutlarıyla sınırlıydı. Sinir ağı dalga fonksiyonlarının hızla gelişen teknolojisini kullanarak değişkenlik geliştiriyoruz…</p><div class="n" style="margin-top:6px;"><span class="rn">IV</span> · Fizik, Kuantum &amp; Uzay · arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat)</div></li><li><a class="hp-title" href="?item=2026-10-19-37-hot-chips-2026-intel-s" data-item="2026-10-19-37-hot-chips-2026-intel-s">Sıcak Cips 2026: Intel&#39;in Hilal Adası. Her şeyi uygun fiyatlı hale getirmekle ilgili her şey</a><p>Her şeyi uygun fiyatlı hale getirmekle ilgili her şey</p><div class="n" style="margin-top:6px;"><span class="rn">V</span> · Sistem, Donanım &amp; Siber Güvenlik · Chips and Cheese (Microarchitecture Deep-Dives)</div></li><li><a class="hp-title" href="?item=2026-10-19-46-subcellpert-benchmarking-subcellular-perturbation-prediction" data-item="2026-10-19-46-subcellpert-benchmarking-subcellular-perturbation-prediction">SubcellPert: Hücre Altı Pertürbasyon Tahmininin Kıyaslanması</a><p>Karışıklıklar hem RNA bolluğunu hem de hücre içi organizasyonu değiştirir, ancak gen sayısı tahmin edicileri, mekansal tepkileri modellemek için gereken pozisyonları atlar. Bu sınırlamayı gidermek için, tek RNA molekülü çözünürlüğünde tedirginlik tepkisi tahmini için bir kıyaslama olan textbf{textit{SubcellPert}}&#39;yi sunuyoruz. 13,88 milyon CE içeren 14 görüntüleme veri kümesinden oluşur.</p><div class="n" style="margin-top:6px;"><span class="rn">VI</span> · Biyoteknoloji, Tıp &amp; Malzeme Bilimi · bioRxiv Bioinformatics Preprints</div></li></ol></section><section class="hsec"><h2 class="k">Fihrist<span>10 alan, 74 kanonik etiket</span></h2><ol class="fx"><li class="fe"><a class="ft" href="?area=cs" data-area="cs"><span class="rn">I</span><span class="fn">Bilgisayar Bilimi &amp; Yazılım</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=cs&amp;tag=rust" data-area-tag="cs:rust">#rust</a>, <a href="?area=cs&amp;tag=c-cpp" data-area-tag="cs:c-cpp">#c-cpp</a>, <a href="?area=cs&amp;tag=go" data-area-tag="cs:go">#go</a>, <a href="?area=cs&amp;tag=python" data-area-tag="cs:python">#python</a>, <a href="?area=cs&amp;tag=typescript" data-area-tag="cs:typescript">#typescript</a>, <a href="?area=cs&amp;tag=compilers" data-area-tag="cs:compilers">#compilers</a></p></li><li class="fe"><a class="ft" href="?area=ai" data-area="ai"><span class="rn">II</span><span class="fn">Yapay Zekâ &amp; Makine Öğrenmesi</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=ai&amp;tag=llm" data-area-tag="ai:llm">#llm</a>, <a href="?area=ai&amp;tag=agents" data-area-tag="ai:agents">#agents</a>, <a href="?area=ai&amp;tag=inference" data-area-tag="ai:inference">#inference</a>, <a href="?area=ai&amp;tag=rag" data-area-tag="ai:rag">#rag</a>, <a href="?area=ai&amp;tag=ml-theory" data-area-tag="ai:ml-theory">#ml-theory</a>, <a href="?area=ai&amp;tag=computer-vision" data-area-tag="ai:computer-vision">#computer-vision</a></p></li><li class="fe"><a class="ft" href="?area=math" data-area="math"><span class="rn">III</span><span class="fn">Matematik &amp; Biçimsel Bilimler</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=math&amp;tag=number-theory" data-area-tag="math:number-theory">#number-theory</a>, <a href="?area=math&amp;tag=combinatorics" data-area-tag="math:combinatorics">#combinatorics</a>, <a href="?area=math&amp;tag=logic" data-area-tag="math:logic">#logic</a>, <a href="?area=math&amp;tag=formal-proofs" data-area-tag="math:formal-proofs">#formal-proofs</a>, <a href="?area=math&amp;tag=algebra-geometry" data-area-tag="math:algebra-geometry">#algebra-geometry</a>, <a href="?area=math&amp;tag=analysis-pde" data-area-tag="math:analysis-pde">#analysis-pde</a></p></li><li class="fe"><a class="ft" href="?area=physics" data-area="physics"><span class="rn">IV</span><span class="fn">Fizik, Kuantum &amp; Uzay</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=physics&amp;tag=quantum-computing" data-area-tag="physics:quantum-computing">#quantum-computing</a>, <a href="?area=physics&amp;tag=quantum-physics" data-area-tag="physics:quantum-physics">#quantum-physics</a>, <a href="?area=physics&amp;tag=condensed-matter" data-area-tag="physics:condensed-matter">#condensed-matter</a>, <a href="?area=physics&amp;tag=astrophysics" data-area-tag="physics:astrophysics">#astrophysics</a>, <a href="?area=physics&amp;tag=high-energy" data-area-tag="physics:high-energy">#high-energy</a>, <a href="?area=physics&amp;tag=optics-photonics" data-area-tag="physics:optics-photonics">#optics-photonics</a></p></li><li class="fe"><a class="ft" href="?area=systems" data-area="systems"><span class="rn">V</span><span class="fn">Sistem, Donanım &amp; Siber Güvenlik</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=systems&amp;tag=kernel-os" data-area-tag="systems:kernel-os">#kernel-os</a>, <a href="?area=systems&amp;tag=semiconductors" data-area-tag="systems:semiconductors">#semiconductors</a>, <a href="?area=systems&amp;tag=computer-architecture" data-area-tag="systems:computer-architecture">#computer-architecture</a>, <a href="?area=systems&amp;tag=infosec" data-area-tag="systems:infosec">#infosec</a>, <a href="?area=systems&amp;tag=networking" data-area-tag="systems:networking">#networking</a>, <a href="?area=systems&amp;tag=embedded" data-area-tag="systems:embedded">#embedded</a></p></li><li class="fe"><a class="ft" href="?area=bio" data-area="bio"><span class="rn">VI</span><span class="fn">Biyoteknoloji, Tıp &amp; Malzeme Bilimi</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=bio&amp;tag=bioinformatics" data-area-tag="bio:bioinformatics">#bioinformatics</a>, <a href="?area=bio&amp;tag=genomics-proteins" data-area-tag="bio:genomics-proteins">#genomics-proteins</a>, <a href="?area=bio&amp;tag=neuroscience" data-area-tag="bio:neuroscience">#neuroscience</a>, <a href="?area=bio&amp;tag=materials-science" data-area-tag="bio:materials-science">#materials-science</a>, <a href="?area=bio&amp;tag=clean-tech" data-area-tag="bio:clean-tech">#clean-tech</a>, <a href="?area=bio&amp;tag=climate-earth" data-area-tag="bio:climate-earth">#climate-earth</a></p></li><li class="fe"><a class="ft" href="?area=crypto" data-area="crypto"><span class="rn">VII</span><span class="fn">Kriptografi, Web3 &amp; Dağıtık Protokoller</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=crypto&amp;tag=cryptography" data-area-tag="crypto:cryptography">#cryptography</a>, <a href="?area=crypto&amp;tag=zkp" data-area-tag="crypto:zkp">#zkp</a>, <a href="?area=crypto&amp;tag=post-quantum" data-area-tag="crypto:post-quantum">#post-quantum</a>, <a href="?area=crypto&amp;tag=consensus" data-area-tag="crypto:consensus">#consensus</a>, <a href="?area=crypto&amp;tag=smart-contracts" data-area-tag="crypto:smart-contracts">#smart-contracts</a>, <a href="?area=crypto&amp;tag=mev-defi" data-area-tag="crypto:mev-defi">#mev-defi</a></p></li><li class="fe"><a class="ft" href="?area=econ" data-area="econ"><span class="rn">VIII</span><span class="fn">Ekonomi, Finans &amp; Makro Analiz</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=econ&amp;tag=macroeconomics" data-area-tag="econ:macroeconomics">#macroeconomics</a>, <a href="?area=econ&amp;tag=monetary-policy" data-area-tag="econ:monetary-policy">#monetary-policy</a>, <a href="?area=econ&amp;tag=quant-finance" data-area-tag="econ:quant-finance">#quant-finance</a>, <a href="?area=econ&amp;tag=econometrics" data-area-tag="econ:econometrics">#econometrics</a>, <a href="?area=econ&amp;tag=market-design" data-area-tag="econ:market-design">#market-design</a>, <a href="?area=econ&amp;tag=trade-industry" data-area-tag="econ:trade-industry">#trade-industry</a></p></li><li class="fe"><a class="ft" href="?area=geopolitics" data-area="geopolitics"><span class="rn">IX</span><span class="fn">Uluslararası İlişkiler, Jeopolitik &amp; Strateji</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=geopolitics&amp;tag=geopolitics" data-area-tag="geopolitics:geopolitics">#geopolitics</a>, <a href="?area=geopolitics&amp;tag=tech-policy" data-area-tag="geopolitics:tech-policy">#tech-policy</a>, <a href="?area=geopolitics&amp;tag=defense-strategy" data-area-tag="geopolitics:defense-strategy">#defense-strategy</a>, <a href="?area=geopolitics&amp;tag=energy-security" data-area-tag="geopolitics:energy-security">#energy-security</a>, <a href="?area=geopolitics&amp;tag=international-law" data-area-tag="geopolitics:international-law">#international-law</a>, <a href="?area=geopolitics&amp;tag=cyber-statecraft" data-area-tag="geopolitics:cyber-statecraft">#cyber-statecraft</a></p></li><li class="fe"><a class="ft" href="?area=philosophy" data-area="philosophy"><span class="rn">X</span><span class="fn">Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler</span><span class="ld"></span><span class="n">9</span></a><p class="fc"><a href="?area=philosophy&amp;tag=philosophy-of-science" data-area-tag="philosophy:philosophy-of-science">#philosophy-of-science</a>, <a href="?area=philosophy&amp;tag=epistemology" data-area-tag="philosophy:epistemology">#epistemology</a>, <a href="?area=philosophy&amp;tag=decision-theory" data-area-tag="philosophy:decision-theory">#decision-theory</a>, <a href="?area=philosophy&amp;tag=cognitive-science" data-area-tag="philosophy:cognitive-science">#cognitive-science</a>, <a href="?area=philosophy&amp;tag=complex-systems" data-area-tag="philosophy:complex-systems">#complex-systems</a>, <a href="?area=philosophy&amp;tag=ai-ethics" data-area-tag="philosophy:ai-ethics">#ai-ethics</a></p></li></ol><p class="hlinks"><a href="?all=1" data-all="1">Tüm kayıtları tek listede gör (90) →</a><a href="data/sample-email-tr.html" target="_blank" rel="noopener">Günlük E-Posta Önizlemesi (10×3 = 30 Kayıt) ↗</a><a href="k/">Düz metin dizini (k/)</a></p></section></div>
+<!-- PRERENDER_END -->
+  </main>
 </div>
 
 <footer id="foot">
   <p id="foot-t"></p>
   <p class="foot-x">
-    <span id="l-exp">Export saved:</span>
+    <span id="l-exp">Kaydedilenleri dışa aktar:</span>
     <button class="lnk" type="button" id="exp-md">Markdown (.md)</button>
     <span aria-hidden="true">·</span>
     <button class="lnk" type="button" id="exp-bib">BibTeX (.bib)</button>
@@ -55,17 +452,25 @@
     <button class="lnk" type="button" id="exp-json">JSON</button>
     <span aria-hidden="true">·</span>
     <a class="lnk" id="rss-foot" href="feed.xml" target="_blank" rel="noopener">Atom / RSS ↗</a>
+    <span aria-hidden="true">·</span>
+    <a class="lnk" id="static-foot" href="k/">Düz metin (k/)</a>
   </p>
   <p id="foot-kb"></p>
 </footer>
 </div>
 
+<!-- Compare Tray (.tray) -->
+<div id="tray" class="tray" hidden>
+  <a class="btn primary" id="tray-go" href="?cmp=">Karşılaştır (0)</a>
+  <button class="btn" id="tray-clear" type="button">Temizle</button>
+</div>
+
 <!-- Filter Dialog (Canonical Tags & Technical Switches) -->
 <dialog id="filt" aria-labelledby="f-title">
   <div class="fl-h">
-    <h2 id="f-title">Filter Dispatches</h2>
-    <button class="lnk" id="f-clear" type="button">Clear</button>
-    <button class="lnk" id="f-close" type="button" aria-label="Close">✕</button>
+    <h2 id="f-title">Kayıtları Süz</h2>
+    <button class="lnk" id="f-clear" type="button">Temizle</button>
+    <button class="lnk" id="f-close" type="button" aria-label="Kapat">✕</button>
   </div>
   <div class="fl-b" id="f-body"></div>
 </dialog>
@@ -73,74 +478,74 @@
 <!-- Passwordless Subscription Dialog -->
 <dialog id="sub" aria-labelledby="s-title">
   <div class="sub-h">
-    <h2 id="s-title">Daily Email Digest — Passwordless</h2>
-    <button class="btn" id="s-close" type="button" aria-label="Close">✕</button>
+    <h2 id="s-title">Günlük E-Posta Bülteni — Şifresiz</h2>
+    <button class="btn" id="s-close" type="button" aria-label="Kapat">✕</button>
   </div>
   <form id="sub-form">
     <div class="sub-body">
       <p class="sub-note" id="s-note">
-        Starts directly at <b>Area I, Item #01</b> with zero intro fluff. By default, delivers <b>3 top dispatches from each of the 7 areas (21 items total)</b> every morning at <code>08:00 TSİ</code> (<code>05:00 UTC</code>). No password required — manage or unsubscribe in one click via HMAC-signed links.
+        Üstte <b>I – X hızlı geçiş dizini</b> ile doğrudan <b>Alan I, Kayıt #01</b>'den başlar. Varsayılan olarak <b>10 kategorinin her birinden en önemli 3 haberi (toplam 30 kayıt)</b> her sabah <code>08:00 TSİ</code> (<code>05:00 UTC</code>) saatinde gönderir. Şifre veya hesap gerekmez — HMAC imzalı bağlantılarla tek tıkla yönetilir.
       </p>
       <div class="fld">
-        <label for="sub-email" id="l-email">Email Address</label>
-        <input id="sub-email" type="email" placeholder="researcher@university.edu" required>
+        <label for="sub-email" id="l-email">E-Posta Adresi</label>
+        <input id="sub-email" type="email" placeholder="arastirmaci@universite.edu.tr" required>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;">
         <div class="fld">
-          <label for="sub-density" id="l-density">Digest Density</label>
+          <label for="sub-density" id="l-density">Bülten Yoğunluğu</label>
           <select id="sub-density">
-            <option value="three-per-area" selected>3 Per Category (21 Items · Recommended)</option>
-            <option value="compact">1 Per Category (7 Items · Fast Scan)</option>
-            <option value="comprehensive">5 Per Category (35 Items · Deep Coverage)</option>
+            <option value="three-per-area" selected>Kategori Başına 3 Haber (30 Kayıt · Önerilen)</option>
+            <option value="compact">Kategori Başına 1 Haber (10 Kayıt · Hızlı Tarama)</option>
+            <option value="comprehensive">Kategori Başına 5 Haber (50 Kayıt · Derin Kapsam)</option>
           </select>
         </div>
         <div class="fld">
-          <label for="sub-mode" id="l-mode">Selection Mode</label>
+          <label for="sub-mode" id="l-mode">Seçim Modu</label>
           <select id="sub-mode">
-            <option value="standard" selected>All 7 Categories (Standard)</option>
-            <option value="personalized">Only My Selected Categories &amp; Tags</option>
-            <option value="hybrid">Hybrid (Top Picks + Custom Tags)</option>
+            <option value="standard" selected>Tüm 10 Kategori (Standart 10×3)</option>
+            <option value="personalized">Yalnızca Seçtiğim Alan ve Etiketler</option>
+            <option value="hybrid">Hibrit (Günün Seçkisi + Özel Etiketler)</option>
           </select>
         </div>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;">
         <div class="fld">
-          <label for="sub-freq" id="l-freq">Schedule</label>
+          <label for="sub-freq" id="l-freq">Gönderim Takvimi</label>
           <select id="sub-freq">
-            <option value="daily" selected>Every Morning (Daily + Weekend Edition)</option>
-            <option value="weekdays-only">Weekdays Only (Mon–Fri)</option>
-            <option value="weekend-only">Weekend Edition Only (Sat–Sun)</option>
+            <option value="daily" selected>Her Sabah (Günlük + Hafta Sonu Sayısı)</option>
+            <option value="weekdays-only">Yalnızca Hafta İçi (Pzt–Cum)</option>
+            <option value="weekend-only">Yalnızca Hafta Sonu Özeti (Cmt–Paz)</option>
           </select>
         </div>
         <div class="fld">
-          <label for="sub-lang" id="l-sub-lang">Digest Language</label>
+          <label for="sub-lang" id="l-sub-lang">Bülten Dili</label>
           <select id="sub-lang">
+            <option value="tr" selected>Türkçe (Teknik Özet &amp; Analiz)</option>
             <option value="en">English (Technical Original)</option>
-            <option value="tr">Türkçe (Teknik Özet &amp; Analiz)</option>
           </select>
         </div>
       </div>
       <div class="fld">
-        <label for="sub-cfilter" id="l-cfilter">Content Filter</label>
+        <label for="sub-cfilter" id="l-cfilter">İçerik Süzgeci</label>
         <select id="sub-cfilter">
-          <option value="all" selected>All Qualified Dispatches (Papers + Engineering)</option>
-          <option value="papers-only">Academic Preprints / Papers Only</option>
-          <option value="code-only">Dispatches with Open-Source Code Only</option>
+          <option value="all" selected>Tüm Seçilmiş Kayıtlar (Makale + Mühendislik + Analiz)</option>
+          <option value="papers-only">Yalnızca Akademik Ön-Baskı ve Makaleler</option>
+          <option value="code-only">Yalnızca Açık Kaynak Kodlu Kayıtlar</option>
         </select>
       </div>
       <div class="fld">
-        <label id="l-areas">Areas of Interest</label>
+        <label id="l-areas">İlgilenilen Alanlar (I – X)</label>
         <div class="cs" id="sub-areas-picker" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
       </div>
       <div class="fld">
-        <label id="l-tags">Canonical Tags (Optional)</label>
+        <label id="l-tags">Kanonik Etiketler (İsteğe Bağlı)</label>
         <div class="cs" id="sub-tags-picker" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
       </div>
     </div>
     <div class="sub-f">
-      <button type="submit" class="btn primary" id="sub-save-btn">Save Preferences</button>
-      <a href="data/sample-email.html" target="_blank" rel="noopener" class="btn" id="sub-prev-en">Preview Email (EN) ↗</a>
-      <a href="data/sample-email-tr.html" target="_blank" rel="noopener" class="btn" id="sub-prev-tr">Örnek E-Posta (TR) ↗</a>
+      <button type="submit" class="btn primary" id="sub-save-btn">Tercihleri Kaydet</button>
+      <a href="data/sample-email-tr.html" target="_blank" rel="noopener" class="btn" id="sub-prev-tr">Örnek E-Posta (TR · 10×3) ↗</a>
+      <a href="data/sample-email.html" target="_blank" rel="noopener" class="btn" id="sub-prev-en">Preview Email (EN · 10×3) ↗</a>
       <span class="msg" id="sub-msg"></span>
     </div>
   </form>
@@ -148,22 +553,22 @@
 
 <!-- Command Palette (Ctrl+K / Cmd+K) -->
 <dialog id="pal" aria-labelledby="pal-t">
-  <h2 id="pal-t" class="vh">Command Palette</h2>
+  <h2 id="pal-t" class="vh">Komut Paleti</h2>
   <input id="pal-q" type="text" role="combobox" aria-expanded="true" aria-controls="pal-list"
-         aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Jump to a dispatch, area, #tag, or action…">
+         aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Bir kayda, alana, #etikete ya da komuta git…">
   <ul id="pal-list" role="listbox" aria-labelledby="pal-t"></ul>
 </dialog>
 
 <!-- Keyboard Shortcuts Help (?) -->
 <dialog id="kbh" aria-labelledby="kbh-t">
   <div class="fl-h">
-    <h2 id="kbh-t">Keyboard Shortcuts</h2>
-    <button class="lnk" id="kbh-close" type="button" aria-label="Close">✕</button>
+    <h2 id="kbh-t">Klavye Kısayolları</h2>
+    <button class="lnk" id="kbh-close" type="button" aria-label="Kapat">✕</button>
   </div>
   <dl id="kbh-list"></dl>
 </dialog>
 
-<button class="btn" id="top" type="button" title="Back to top" aria-label="Back to top">↑</button>
+<button class="btn" id="top" type="button" title="Başa dön" aria-label="Başa dön">↑</button>
 
 <script src="app.js"></script>
 </body>

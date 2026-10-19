@@ -1,12 +1,13 @@
 /* Ahbar — Client application.
    Built directly on the useful-sites editorial architecture:
-   - Bilingual (EN / TR) UI + bilingual technical headlines, summaries & Layer-2 analyses
+   - 10 Areas (I – X): CS, AI, Math, Physics, Systems, Bio, Crypto, Econ, Geopolitics, Philosophy
+   - Split per-language payloads (data/latest.tr.json & data/latest.en.json) pre-fetched via boot.js
+   - Zero external CDNs: native MathML (<math class="m">) rendering for inline $...$ and $$...$$
    - Home view (body.calm.at-home): Hero, Enso watermark, .proof telemetry, .tryq chips,
      3-column Top Picks (ol.hpicks), 2-column Fihrist Index (ol.fx with .ld dotted leaders),
-     and full categorized dispatch list (.recs)
-   - Area / Tag / Search / Detail views: 2-column layout (.cols) with sticky 200px left Fihrist (.side)
-   - Layer-2 Item Detail Page (?item=<id>): Problem, Method, Findings, Abstract, BibTeX & Markdown copy
-   - Command Palette (Ctrl+K / Cmd+K), Keyboard Shortcuts (?, j/k, Enter, o, s, r, /), KaTeX math */
+     and 3-per-category preview (30 dispatches) with link to full 2-column view (?all=1)
+   - Compare Tray (.tray & ?cmp=id1,id2), Shareable Saved Shelf (?s=id1,id2), Wayback Archive links,
+     and Plain-Text Static Edition (k/ & k/en/) */
 
 (function () {
   "use strict";
@@ -33,8 +34,8 @@
     {
       slug: "math",
       numeral: "III",
-      en: "Mathematics",
-      tr: "Matematik",
+      en: "Mathematics & Formal Sciences",
+      tr: "Matematik & Biçimsel Bilimler",
       desc_en: "Number theory, combinatorics, logic, formal proof assistants (Lean 4 / Rocq), algebra and analysis.",
       desc_tr: "Sayılar kuramı, kombinatorik, mantık, biçimsel kanıt asistanları (Lean 4 / Rocq), cebir ve analiz.",
       tags: ["number-theory", "combinatorics", "formal-proofs", "analysis-pde", "algebra-geometry", "probability-stats", "logic"]
@@ -42,8 +43,8 @@
     {
       slug: "physics",
       numeral: "IV",
-      en: "Physics & Quantum",
-      tr: "Fizik & Kuantum",
+      en: "Physics, Quantum & Space",
+      tr: "Fizik, Kuantum & Uzay",
       desc_en: "Quantum computing, condensed matter, astrophysics, high-energy theory and optics.",
       desc_tr: "Kuantum hesaplama, yoğun madde, astrofizik, yüksek enerji kuramı ve optik/fotonik.",
       tags: ["quantum-computing", "quantum-physics", "condensed-matter", "high-energy", "astrophysics", "optics-photonics"]
@@ -52,7 +53,7 @@
       slug: "systems",
       numeral: "V",
       en: "Systems, Hardware & Security",
-      tr: "Sistem, Donanım & Güvenlik",
+      tr: "Sistem, Donanım & Siber Güvenlik",
       desc_en: "Operating systems, kernels, semiconductors, computer architecture, networking and InfoSec.",
       desc_tr: "İşletim sistemleri, çekirdek, yarı iletkenler, bilgisayar mimarisi, ağ protokolleri ve siber güvenlik.",
       tags: ["kernel-os", "computer-architecture", "semiconductors", "infosec", "networking", "performance"]
@@ -60,8 +61,8 @@
     {
       slug: "bio",
       numeral: "VI",
-      en: "Computational Science & Bio",
-      tr: "Hesaplamalı Bilim & Biyoloji",
+      en: "Biotech, Medicine & Materials",
+      tr: "Biyoteknoloji, Tıp & Malzeme Bilimi",
       desc_en: "Bioinformatics, computational neuroscience, genomics, protein design, materials science and clean tech.",
       desc_tr: "Biyoinformatik, hesaplamalı sinirbilim, genomik, protein tasarımı, malzeme bilimi ve temiz enerji.",
       tags: ["bioinformatics", "genomics-proteins", "neuroscience", "materials-science", "clean-tech"]
@@ -69,11 +70,38 @@
     {
       slug: "crypto",
       numeral: "VII",
-      en: "Cryptography, Web3 & Blockchain",
-      tr: "Kriptografi, Web3 & Blokzincir",
+      en: "Cryptography, Web3 & Protocols",
+      tr: "Kriptografi, Web3 & Dağıtık Protokoller",
       desc_en: "Zero-knowledge proofs, post-quantum cryptography, consensus protocols, smart contract security and MEV.",
       desc_tr: "Sıfır-bilgi kanıtları (ZKP), kuantum-sonrası kriptografi, mutabakat protokolleri ve akıllı sözleşme güvenliği.",
       tags: ["zkp", "cryptography", "post-quantum", "consensus", "smart-contracts"]
+    },
+    {
+      slug: "econ",
+      numeral: "VIII",
+      en: "Economics, Markets & Quantitative Finance",
+      tr: "Ekonomi, Finans & Makro Analiz",
+      desc_en: "Macroeconomics, monetary policy, econometrics, quantitative finance, market design and industrial organization.",
+      desc_tr: "Makroekonomi, para politikası, ekonometri, kantitatif finans, piyasa tasarımı ve sanayi iktisadı.",
+      tags: ["macroeconomics", "monetary-policy", "quant-finance", "econometrics", "market-design", "trade-industry"]
+    },
+    {
+      slug: "geopolitics",
+      numeral: "IX",
+      en: "International Relations, Geopolitics & Strategy",
+      tr: "Uluslararası İlişkiler, Jeopolitik & Strateji",
+      desc_en: "Grand strategy, technology & semiconductor policy, defense analysis, energy security and international law.",
+      desc_tr: "Küresel strateji, teknoloji ve çip jeopolitiği, savunma analizi, enerji güvenliği ve uluslararası hukuk.",
+      tags: ["geopolitics", "tech-policy", "defense-strategy", "energy-security", "international-law", "cyber-statecraft"]
+    },
+    {
+      slug: "philosophy",
+      numeral: "X",
+      en: "Philosophy of Science, Decision Theory & Cognition",
+      tr: "Bilim Felsefesi, Karar Kuramı & Bilişsel Bilimler",
+      desc_en: "Philosophy of science, formal epistemology, decision & game theory, cognitive science and complex systems.",
+      desc_tr: "Bilim felsefesi, biçimsel epistemoloji, karar ve oyun kuramı, bilişsel bilimler ve karmaşık sistemler.",
+      tags: ["philosophy-of-science", "epistemology", "decision-theory", "cognitive-science", "complex-systems", "ai-ethics"]
     }
   ];
 
@@ -81,28 +109,34 @@
     en: {
       title: "Ahbar",
       hero: function (n, issueNo) {
-        return "<em>" + n + "</em> technical &amp; scientific dispatches in Issue #" + issueNo + ". Each one states what was proved, built, or measured.";
+        return "<em>" + n + "</em> technical, scientific &amp; strategic dispatches in Issue #" + issueNo + ". Each one states what was proved, built, or measured.";
       },
       proof: function (n, date, sources, scanned) {
         return n + " qualified dispatches · Issue " + date + " · " + scanned + " raw papers &amp; feeds triaged from " + sources + " primary sources · updated 05:00 UTC · no trackers";
       },
       tryLbl: "Try:",
-      tryQs: ["llm", "rust", "zkp", "quantum", "lean 4", "kernel", "protein"],
+      tryQs: ["llm", "rust", "zkp", "quantum", "lean 4", "monetary-policy", "geopolitics", "epistemology"],
       hStart: "Today's Top Picks",
-      hStartNote: "3 per category · 21 dispatches",
+      hStartNote: "3 per category · 30 dispatches in daily email",
       fxHead: "Index",
       fxNote: function (a, t) { return a + " areas, " + t + " canonical tags"; },
-      allDispatches: "All Dispatches by Category",
+      homePreviewHead: "Selected Dispatches by Category",
+      homePreviewNote: "top 3 per area · 30 dispatches",
+      seeAreaAll: function (cnt) { return "All " + cnt + " in this area →"; },
+      seeFullList: function (cnt) { return "See all " + cnt + " dispatches in one list →"; },
+      allDispatchesTitle: "All Dispatches",
       allAreas: "← Full Index (Home)",
       sideHead: "Index",
       saved: "Saved",
-      emailPrev: "Email (7×3) ↗",
+      emailPrev: "Email (10×3) ↗",
       emailHref: "data/sample-email.html",
+      staticHref: "k/en/",
+      staticLbl: "Plain-text index (k/)",
       subscribe: "Subscribe",
       rand: "Random",
       langBtn: "TR",
       langTitle: "Türkçeye geç",
-      ph: "Search papers, theorems, systems, #tags…",
+      ph: "Search papers, theorems, systems, policy, #tags…",
       filterBtn: function (n) { return "Filter" + (n ? " (" + n + ")" : ""); },
       hasCode: "Has Code",
       papersOnly: "Papers Only",
@@ -117,8 +151,27 @@
       codeBadge: "Code",
       analysis: "Analysis & Cite",
       sourceExt: "Source ↗",
+      archiveLbl: "archive",
+      cmpBtn: "compare",
+      cmpOn: "✓ compare",
+      cmpGo: function (n) { return "Compare (" + n + ")"; },
+      cmpClear: "Clear",
+      cmpTitle: "Side-by-Side Comparison",
+      cmpRemove: "Remove",
+      cmpRows: {
+        area: "Area",
+        summary: "Summary",
+        problem: "I. Problem & Context",
+        method: "II. Method & Architecture",
+        findings: "III. Findings & Trade-offs",
+        source: "Source & Authors",
+        links: "Primary Links",
+        tags: "Canonical Tags"
+      },
+      shareShelfBtn: "Copy shareable link (?s=…)",
+      shareShelfCopied: "✓ Shareable URL copied",
       saveTip: "Save to local reading list (s)",
-      savedEmpty: "Nothing saved yet. Click ☆ or press s on any dispatch to keep it here for Markdown (.md) or BibTeX (.bib) export.",
+      savedEmpty: "Nothing saved yet. Click ☆ or press s on any dispatch to keep it here for Markdown (.md), BibTeX (.bib), or shareable URL (?s=…) export.",
       backArea: "← All dispatches in this area",
       origTitle: "Original Title",
       authorsLbl: "Authors",
@@ -126,6 +179,7 @@
       readPdf: "Read PDF ↗",
       readHtml: "Read HTML (ar5iv) ↗",
       openCode: "Code Repository ↗",
+      openArchive: "Wayback Archive ↗",
       copyBib: "Copy BibTeX",
       copyMd: "Copy Markdown",
       copied: "✓ Copied",
@@ -136,14 +190,14 @@
       clusteredHead: "Clustered Sources & Discussions",
       relatedHead: "Related Dispatches in This Issue",
       footText: function (date, sources) {
-        return "Autonomous daily technical &amp; scientific digest, last built <b>" + date + "</b> at <code>05:00 UTC</code> (08:00 TSİ) across <b>" + sources + "</b> primary feeds. Zero marketing copy; every dispatch states what was proved, built, or measured. <a href=\"data/health.json\" target=\"_blank\" rel=\"noopener\">Source health telemetry ↗</a>";
+        return "Autonomous daily technical, scientific &amp; strategic digest, last built <b>" + date + "</b> at <code>05:00 UTC</code> (08:00 TSİ) across <b>" + sources + "</b> primary feeds. Zero marketing copy; every dispatch states what was proved, built, or measured. <a href=\"data/health.json\" target=\"_blank\" rel=\"noopener\">Source health telemetry ↗</a>";
       },
       expLbl: "Export saved:",
       kbFoot: "<kbd>/</kbd> Search · <kbd>Ctrl K</kbd> Commands · <kbd>j</kbd>/<kbd>k</kbd> Navigate · <kbd>Enter</kbd> Analysis · <kbd>s</kbd> Save · <kbd>r</kbd> Random · <kbd>?</kbd> Shortcuts",
       palPh: "Jump to a dispatch, area, #tag, or command…",
       palNone: "Nothing matches",
       gAct: "Actions",
-      gArea: "Areas",
+      gArea: "Areas (I – X)",
       gTag: "Canonical Tags",
       gRec: "Dispatches",
       kbTitle: "Keyboard Shortcuts",
@@ -162,28 +216,34 @@
     tr: {
       title: "Ahbar",
       hero: function (n, issueNo) {
-        return "Sayı #" + issueNo + " içinde <em>" + n + "</em> teknik ve bilimsel bülten kaydı. Her biri neyin kanıtlandığını, inşa edildiğini veya ölçüldüğünü söyler.";
+        return "Sayı #" + issueNo + " içinde <em>" + n + "</em> teknik, bilimsel ve stratejik bülten kaydı. Her biri neyin kanıtlandığını, inşa edildiğini veya ölçüldüğünü söyler.";
       },
       proof: function (n, date, sources, scanned) {
         return n + " seçilmiş kayıt · " + date + " · " + sources + " birincil kaynaktan " + scanned + " makale ve besleme tarandı · her gün 08:00 TSİ · izleyici yok";
       },
       tryLbl: "Dene:",
-      tryQs: ["llm", "rust", "zkp", "quantum", "lean 4", "kernel", "protein"],
+      tryQs: ["llm", "rust", "zkp", "quantum", "lean 4", "monetary-policy", "geopolitics", "epistemology"],
       hStart: "Günün Seçkisi (Top Picks)",
-      hStartNote: "her kategoriden 3 haber · toplam 21 kayıt",
+      hStartNote: "her kategoriden 3 haber · e-postada 30 kayıt",
       fxHead: "Fihrist",
       fxNote: function (a, t) { return a + " alan, " + t + " kanonik etiket"; },
-      allDispatches: "Kategorilere Göre Tüm Kayıtlar",
+      homePreviewHead: "Kategorilere Göre Günün Özeti",
+      homePreviewNote: "her alandan en önemli 3 kayıt · toplam 30 kayıt",
+      seeAreaAll: function (cnt) { return "Bu alandaki tüm " + cnt + " kaydı gör →"; },
+      seeFullList: function (cnt) { return "Tüm kayıtları tek listede gör (" + cnt + ") →"; },
+      allDispatchesTitle: "Tüm Kayıtlar",
       allAreas: "← Fihrist (Ana Sayfa)",
       sideHead: "Fihrist",
       saved: "Kaydedilenler",
-      emailPrev: "E-Posta (7×3) ↗",
+      emailPrev: "E-Posta (10×3) ↗",
       emailHref: "data/sample-email-tr.html",
+      staticHref: "k/",
+      staticLbl: "Düz metin dizini (k/)",
       subscribe: "Abone Ol",
       rand: "Rastgele",
       langBtn: "EN",
       langTitle: "Switch to English",
-      ph: "Ara: makale, teorem, sistem, #etiket, kaynak…",
+      ph: "Ara: makale, teorem, sistem, ekonomi, #etiket, kaynak…",
       filterBtn: function (n) { return "Süz" + (n ? " (" + n + ")" : ""); },
       hasCode: "Açık Kodlu",
       papersOnly: "Sadece Makale",
@@ -198,8 +258,27 @@
       codeBadge: "Kod",
       analysis: "Analiz & Atıf",
       sourceExt: "Kaynak ↗",
+      archiveLbl: "arşiv",
+      cmpBtn: "karşılaştır",
+      cmpOn: "✓ karşılaştır",
+      cmpGo: function (n) { return "Karşılaştır (" + n + ")"; },
+      cmpClear: "Temizle",
+      cmpTitle: "Yan Yana Karşılaştırma",
+      cmpRemove: "Kaldır",
+      cmpRows: {
+        area: "Alan",
+        summary: "Özet",
+        problem: "I. Problem & Bağlam",
+        method: "II. Yöntem & Mimari",
+        findings: "III. Bulgular & Ödünleşimler",
+        source: "Kaynak & Yazarlar",
+        links: "Birincil Bağlantılar",
+        tags: "Kanonik Etiketler"
+      },
+      shareShelfBtn: "Paylaşılabilir bağlantı kopyala (?s=…)",
+      shareShelfCopied: "✓ Paylaşım bağlantısı kopyalandı",
       saveTip: "Okuma listesine kaydet (s)",
-      savedEmpty: "Henüz kaydedilmiş bir haber yok. Herhangi bir kayıttaki ☆ düğmesiyle veya s tuşuyla buraya ekleyip Markdown (.md) ya da BibTeX (.bib) olarak dışa aktarabilirsin.",
+      savedEmpty: "Henüz kaydedilmiş bir haber yok. Herhangi bir kayıttaki ☆ düğmesiyle veya s tuşuyla buraya ekleyip Markdown (.md), BibTeX (.bib) ya da paylaşılabilir bağlantı (?s=…) olarak dışa aktarabilirsin.",
       backArea: "← Bu alandaki tüm kayıtlar",
       origTitle: "Orijinal Başlık",
       authorsLbl: "Yazarlar",
@@ -207,6 +286,7 @@
       readPdf: "PDF Oku ↗",
       readHtml: "HTML Oku (ar5iv) ↗",
       openCode: "Kod Deposu ↗",
+      openArchive: "Wayback Arşivi ↗",
       copyBib: "BibTeX Kopyala",
       copyMd: "Markdown Kopyala",
       copied: "✓ Kopyalandı",
@@ -217,14 +297,14 @@
       clusteredHead: "Kümelenmiş Kaynaklar & Tartışmalar",
       relatedHead: "Bu Sayıdaki İlgili Diğer Kayıtlar",
       footText: function (date, sources) {
-        return "Otonom günlük teknik ve bilimsel bülten; son derleme <b>" + date + "</b> saat <code>08:00 TSİ</code> (<code>05:00 UTC</code>), <b>" + sources + "</b> birincil kaynak tarandı. Pazarlama dili içermez; her kayıt neyin kanıtlandığını veya inşa edildiğini belirtir. <a href=\"data/health.json\" target=\"_blank\" rel=\"noopener\">Kaynak sağlık telemetrisi ↗</a>";
+        return "Otonom günlük teknik, bilimsel ve stratejik bülten; son derleme <b>" + date + "</b> saat <code>08:00 TSİ</code> (<code>05:00 UTC</code>), <b>" + sources + "</b> birincil kaynak tarandı. Pazarlama dili içermez; her kayıt neyin kanıtlandığını veya inşa edildiğini belirtir. <a href=\"data/health.json\" target=\"_blank\" rel=\"noopener\">Kaynak sağlık telemetrisi ↗</a>";
       },
       expLbl: "Kaydedilenleri dışa aktar:",
       kbFoot: "<kbd>/</kbd> Ara · <kbd>Ctrl K</kbd> Komutlar · <kbd>j</kbd>/<kbd>k</kbd> Gezin · <kbd>Enter</kbd> Analiz · <kbd>s</kbd> Kaydet · <kbd>r</kbd> Rastgele · <kbd>?</kbd> Kısayollar",
       palPh: "Bir kayda, alana, #etikete ya da komuta git…",
       palNone: "Eşleşen sonuç yok",
       gAct: "Komutlar",
-      gArea: "Alanlar",
+      gArea: "Alanlar (I – X)",
       gTag: "Kanonik Etiketler",
       gRec: "Kayıtlar",
       kbTitle: "Klavye Kısayolları",
@@ -251,9 +331,12 @@
     prefs: "ahbar.prefs.v2"
   };
 
+  var bootLang = (window.__boot && window.__boot.lang) || loadStr(STORAGE_KEYS.lang, "tr");
+
   var state = {
-    lang: loadStr(STORAGE_KEYS.lang, "en"),
+    lang: bootLang,
     issue: null,
+    issueCache: {},
     archive: [],
     canonicalTags: [],
     area: null,
@@ -261,6 +344,10 @@
     query: "",
     sort: "score",
     savedOnly: false,
+    sharedShelfIds: [],
+    showAllList: false,
+    cmpIds: [],
+    comparing: false,
     filters: {
       code: false,
       papers: false,
@@ -279,7 +366,7 @@
       frequency: "daily",
       content_filter: "all",
       lang: "tr",
-      areas: ["cs", "ai", "math", "physics", "systems", "bio", "crypto"],
+      areas: AREAS.map(function (a) { return a.slug; }),
       tags: []
     })
   };
@@ -322,8 +409,129 @@
       .replace(/'/g, "&#39;");
   }
 
+  function isLikelyLatexMath(expr) {
+    if (!expr || expr.length > 160) return false;
+    if (/^\s|\s$/.test(expr)) return false;
+    if (expr.indexOf(". ") !== -1 || expr.indexOf(".\n") !== -1) return false;
+    if (/^[0-9]/.test(expr) && expr.indexOf("\\") === -1) {
+      if (/^[0-9.,]+\s+[A-Za-z\u00C0-\u024F]{2,}/.test(expr)) return false;
+      if (!/[\^_=<>+\-*\/]/.test(expr) && expr.length > 6) return false;
+    }
+    return true;
+  }
+
+  // Zero-CDN LaTeX-to-MathML formatter matching Rust's `latex_to_html_math`
+  function formatMathHtml(input) {
+    var s = String(input == null ? "" : input);
+    if (s.indexOf("$") === -1) return esc(s);
+
+    var out = "";
+    var i = 0;
+    while (i < s.length) {
+      if (s.charAt(i) === "\\" && i + 1 < s.length && s.charAt(i + 1) === "$") {
+        out += "$";
+        i += 2;
+        continue;
+      }
+      if (s.charAt(i) === "$") {
+        var isDisplay = i + 1 < s.length && s.charAt(i + 1) === "$";
+        var dLen = isDisplay ? 2 : 1;
+        var start = i + dLen;
+        var end = isDisplay ? s.indexOf("$$", start) : s.indexOf("$", start);
+        if (end !== -1) {
+          var expr = s.slice(start, end);
+          if (isDisplay || isLikelyLatexMath(expr)) {
+            out += renderMathExpr(expr, isDisplay);
+            i = end + dLen;
+            continue;
+          }
+        }
+      }
+      out += esc(s.charAt(i));
+      i += 1;
+    }
+    return out;
+  }
+
+  function renderMathExpr(expr, isDisplay) {
+    var u = expr
+      .replace(/\\times/g, "×")
+      .replace(/\\cdot/g, "·")
+      .replace(/\\le(?:q)?/g, "≤")
+      .replace(/\\ge(?:q)?/g, "≥")
+      .replace(/\\neq/g, "≠")
+      .replace(/\\approx/g, "≈")
+      .replace(/\\sim/g, "∼")
+      .replace(/\\ll/g, "≪")
+      .replace(/\\gg/g, "≫")
+      .replace(/\\to|\\rightarrow/g, "→")
+      .replace(/\\infty/g, "∞")
+      .replace(/\\pm/g, "±")
+      .replace(/\\%/g, "%")
+      .replace(/\\mathbb\{F\}/g, "𝔽")
+      .replace(/\\mathbb\{R\}/g, "ℝ")
+      .replace(/\\mathbb\{Z\}/g, "ℤ")
+      .replace(/\\mathbb\{N\}/g, "ℕ")
+      .replace(/\\mathbb\{E\}/g, "𝔼")
+      .replace(/\\alpha/g, "α")
+      .replace(/\\beta/g, "β")
+      .replace(/\\gamma/g, "γ")
+      .replace(/\\delta/g, "δ")
+      .replace(/\\Delta/g, "Δ")
+      .replace(/\\varepsilon|\\epsilon/g, "ε")
+      .replace(/\\theta/g, "θ")
+      .replace(/\\lambda/g, "λ")
+      .replace(/\\mu/g, "μ")
+      .replace(/\\nu/g, "ν")
+      .replace(/\\pi/g, "π")
+      .replace(/\\rho/g, "ρ")
+      .replace(/\\sigma/g, "σ")
+      .replace(/\\tau/g, "τ")
+      .replace(/\\omega/g, "ω")
+      .replace(/\\Omega/g, "Ω")
+      .replace(/\{,\}/g, ",")
+      .replace(/\\text\{([^}]*)\}/g, "$1")
+      .replace(/\\([a-zA-Z]+)/g, "$1");
+
+    var body = "";
+    var i = 0;
+    while (i < u.length) {
+      var ch = u.charAt(i);
+      if ((ch === "^" || ch === "_") && i + 1 < u.length) {
+        var tag = ch === "^" ? "sup" : "sub";
+        i += 1;
+        var grp = "";
+        if (u.charAt(i) === "{") {
+          i += 1;
+          while (i < u.length && u.charAt(i) !== "}") {
+            grp += esc(u.charAt(i));
+            i += 1;
+          }
+          if (i < u.length && u.charAt(i) === "}") i += 1;
+        } else {
+          while (i < u.length && /[a-zA-Z0-9+\-\/]/.test(u.charAt(i))) {
+            grp += esc(u.charAt(i));
+            i += 1;
+          }
+        }
+        body += "<" + tag + ">" + grp + "</" + tag + ">";
+        continue;
+      }
+      if (ch === "{" || ch === "}") {
+        i += 1;
+        continue;
+      }
+      body += esc(ch);
+      i += 1;
+    }
+
+    return isDisplay
+      ? '<math display="block" class="m m-block"><mrow>' + body + "</mrow></math>"
+      : '<math display="inline" class="m"><mrow>' + body + "</mrow></math>";
+  }
+
   function tr() {
-    return T[state.lang] || T.en;
+    return T[state.lang] || T.tr;
   }
 
   function getArea(slug) {
@@ -364,7 +572,7 @@
     }
   }
 
-  // --- Theme & Language Init ---
+  // --- Theme Init ---
   function initTheme() {
     var saved = loadStr(STORAGE_KEYS.theme, "");
     if (saved === "dark" || saved === "light") {
@@ -382,22 +590,6 @@
     }
   }
 
-  function triggerMath(el) {
-    if (typeof window.renderMathInElement === "function") {
-      try {
-        window.renderMathInElement(el || document.body, {
-          delimiters: [
-            { left: "$$", right: "$$", display: true },
-            { left: "$", right: "$", display: false },
-            { left: "\\(", right: "\\)", display: false },
-            { left: "\\[", right: "\\]", display: true }
-          ],
-          throwOnError: false
-        });
-      } catch (_) {}
-    }
-  }
-
   // --- URL State ---
   function readUrlParams() {
     var p = new URLSearchParams(window.location.search);
@@ -411,7 +603,24 @@
     state.area = areaParam && AREAS.some(function (a) { return a.slug === areaParam; }) ? areaParam : null;
     state.tag = p.get("tag") || null;
     state.query = p.get("q") || "";
-    state.savedOnly = p.get("saved") === "1";
+    state.showAllList = p.get("all") === "1";
+
+    var sParam = p.get("s");
+    if (sParam) {
+      state.sharedShelfIds = sParam.split(",").map(function (x) { return x.trim(); }).filter(Boolean);
+      state.savedOnly = true;
+    } else {
+      state.sharedShelfIds = [];
+      state.savedOnly = p.get("saved") === "1";
+    }
+
+    var cmpParam = p.get("cmp");
+    if (cmpParam) {
+      state.cmpIds = cmpParam.split(",").map(function (x) { return x.trim(); }).filter(Boolean).slice(0, 3);
+      state.comparing = state.cmpIds.length > 0;
+    } else {
+      state.comparing = false;
+    }
 
     var qInput = document.getElementById("q");
     if (qInput) qInput.value = state.query;
@@ -433,13 +642,18 @@
 
   function pushUrl(replace) {
     var p = new URLSearchParams();
-    if (state.lang === "tr") p.set("lang", "tr");
+    if (state.lang === "en") p.set("lang", "en");
     if (state.issue && state.archive.length > 0 && state.issue.date !== state.archive[0].date) {
       p.set("issue", state.issue.date);
     }
-    if (state.activeItemId) {
+    if (state.comparing && state.cmpIds.length > 0) {
+      p.set("cmp", state.cmpIds.join(","));
+    } else if (state.activeItemId) {
       p.set("item", state.activeItemId);
+    } else if (state.sharedShelfIds.length > 0) {
+      p.set("s", state.sharedShelfIds.join(","));
     } else {
+      if (state.showAllList) p.set("all", "1");
       if (state.area) p.set("area", state.area);
       if (state.tag) p.set("tag", state.tag);
       if (state.query) p.set("q", state.query);
@@ -454,6 +668,8 @@
   function isAtHome() {
     return (
       !state.activeItemId &&
+      !state.comparing &&
+      !state.showAllList &&
       !state.area &&
       !state.tag &&
       !state.query.trim() &&
@@ -464,7 +680,7 @@
     );
   }
 
-  // --- Data Loading ---
+  // --- Data Loading (Split Language Payloads) ---
   function fetchJson(path) {
     return fetch(path, { cache: "no-cache" }).then(function (r) {
       if (!r.ok) throw new Error("HTTP " + r.status);
@@ -472,16 +688,52 @@
     });
   }
 
+  function fetchIssueForLang(lang, issueDate) {
+    var cacheKey = (issueDate || "latest") + ":" + lang;
+    if (state.issueCache[cacheKey]) {
+      return Promise.resolve(state.issueCache[cacheKey]);
+    }
+    var primaryPath = issueDate
+      ? "data/issues/" + issueDate + "." + lang + ".json"
+      : "data/latest." + lang + ".json";
+    var fallbackPath = issueDate
+      ? "data/issues/" + issueDate + ".json"
+      : "data/latest.json";
+
+    return fetchJson(primaryPath)
+      .catch(function () {
+        return fetchJson(fallbackPath);
+      })
+      .then(function (iss) {
+        if (iss) state.issueCache[cacheKey] = iss;
+        return iss;
+      });
+  }
+
   function initData() {
     readUrlParams();
     var p = new URLSearchParams(window.location.search);
     var reqIssue = p.get("issue");
 
+    var issuePromise;
+    if (!reqIssue && window.__boot && window.__boot.lang === state.lang && window.__boot.issuePromise) {
+      issuePromise = window.__boot.issuePromise.then(function (iss) {
+        if (iss) {
+          state.issueCache["latest:" + state.lang] = iss;
+          return iss;
+        }
+        return fetchIssueForLang(state.lang, null);
+      });
+    } else {
+      issuePromise = fetchIssueForLang(state.lang, reqIssue);
+    }
+
     Promise.allSettled([
       fetchJson("data/archive.json"),
       fetchJson("data/tags.json"),
-      reqIssue ? fetchJson("data/issues/" + reqIssue + ".json") : fetchJson("data/latest.json")
+      issuePromise
     ]).then(function (res) {
+      document.documentElement.classList.remove("pending");
       if (res[0].status === "fulfilled" && Array.isArray(res[0].value)) {
         state.archive = res[0].value;
       }
@@ -496,10 +748,23 @@
   }
 
   function loadIssueDate(dateStr) {
-    fetchJson("data/issues/" + dateStr + ".json").then(function (iss) {
+    fetchIssueForLang(state.lang, dateStr).then(function (iss) {
       state.issue = iss;
       state.activeItemId = null;
       pushUrl(false);
+      renderAll();
+    });
+  }
+
+  function switchLanguage(nextLang) {
+    state.lang = nextLang;
+    saveStr(STORAGE_KEYS.lang, state.lang);
+    var curDate = state.issue && state.archive.length > 0 && state.issue.date !== state.archive[0].date
+      ? state.issue.date
+      : null;
+    fetchIssueForLang(state.lang, curDate).then(function (iss) {
+      if (iss) state.issue = iss;
+      pushUrl(true);
       renderAll();
     });
   }
@@ -537,8 +802,19 @@
 
   function getFilteredItems() {
     if (!state.issue || !state.issue.items) return [];
+    if (state.sharedShelfIds.length > 0) {
+      return state.sharedShelfIds
+        .map(function (id) {
+          return state.issue.items.find(function (i) { return i.id === id; }) || state.savedMap[id];
+        })
+        .filter(Boolean);
+    }
     if (state.savedOnly) {
-      return Object.values(state.savedMap);
+      return Object.keys(state.savedMap)
+        .map(function (id) {
+          return state.issue.items.find(function (i) { return i.id === id; }) || state.savedMap[id];
+        })
+        .filter(Boolean);
     }
     var list = state.issue.items.filter(function (i) { return matchesItem(i, false, false); });
     list.sort(function (a, b) {
@@ -555,7 +831,7 @@
     return list;
   }
 
-  // --- Render Chrome (Header, Sidebar, Footer) ---
+  // --- Render Chrome (Header, Sidebar, Compare Tray, Footer) ---
   function renderChrome() {
     var t = tr();
     document.documentElement.lang = state.lang;
@@ -564,7 +840,7 @@
     document.body.classList.toggle("at-home", atHome);
     document.body.classList.toggle("calm", atHome);
 
-    var totalItems = state.issue && state.issue.items ? state.issue.items.length : 63;
+    var totalItems = state.issue && state.issue.items ? state.issue.items.length : 90;
     var issueNo = state.issue ? state.issue.issue_number : 1;
 
     var heroEl = document.getElementById("hero");
@@ -586,6 +862,12 @@
       emailPrev.href = t.emailHref;
     }
 
+    var staticFoot = document.getElementById("static-foot");
+    if (staticFoot) {
+      staticFoot.textContent = t.staticLbl;
+      staticFoot.href = t.staticHref;
+    }
+
     var subBtn = document.getElementById("subbtn");
     if (subBtn) subBtn.textContent = t.subscribe;
 
@@ -596,6 +878,21 @@
     if (langBtn) {
       langBtn.textContent = t.langBtn;
       langBtn.title = t.langTitle;
+    }
+
+    // Compare tray (#tray)
+    var trayEl = document.getElementById("tray");
+    var trayGo = document.getElementById("tray-go");
+    var trayClear = document.getElementById("tray-clear");
+    if (trayEl && trayGo && trayClear) {
+      if (state.cmpIds.length > 0 && !state.comparing) {
+        trayEl.hidden = false;
+        trayGo.textContent = t.cmpGo(state.cmpIds.length);
+        trayGo.href = "?cmp=" + encodeURIComponent(state.cmpIds.join(","));
+        trayClear.textContent = t.cmpClear;
+      } else {
+        trayEl.hidden = true;
+      }
     }
 
     // Left sticky Fihrist sidebar (#nav)
@@ -627,7 +924,7 @@
     // Footer
     var footT = document.getElementById("foot-t");
     if (footT && state.issue) {
-      var sCount = state.issue.stats ? state.issue.stats.sources_checked : 56;
+      var sCount = state.issue.stats ? state.issue.stats.sources_checked : 86;
       footT.innerHTML = t.footText(state.issue.date, sCount);
     }
     var expLbl = document.getElementById("l-exp");
@@ -697,9 +994,11 @@
     var aMeta = getArea(item.area);
     var isSaved = !!state.savedMap[item.id];
     var isSeen = !!state.seenMap[item.id];
+    var isCmp = state.cmpIds.indexOf(item.id) !== -1;
     var vote = state.voteMap[item.id] || "";
     var host = extractHost(item.url);
     var numStr = String(seqIndex).padStart(2, "0");
+    var waybackUrl = "https://web.archive.org/web/*/" + item.url;
 
     var pathHtml = showAreaPath
       ? '<p class="path"><a href="?area=' + esc(aMeta.slug) + '" data-area="' + esc(aMeta.slug) + '">' +
@@ -732,6 +1031,11 @@
     if (links.code_url) {
       metaLinks.push('<a href="' + esc(links.code_url) + '" target="_blank" rel="noopener" class="arch">Code</a>');
     }
+    metaLinks.push('<a href="' + esc(waybackUrl) + '" target="_blank" rel="noopener" class="arch">' + esc(t.archiveLbl) + "</a>");
+    metaLinks.push(
+      '<button type="button" class="cmpb" data-cmp="' + esc(item.id) + '" aria-pressed="' + (isCmp ? "true" : "false") + '">' +
+      esc(isCmp ? t.cmpOn : t.cmpBtn) + "</button>"
+    );
     metaLinks.push(
       '<button type="button" class="arch' + (vote === "signal" ? " on" : "") + '" data-vote="signal" data-item-id="' + esc(item.id) + '">▲ ' +
       item.metrics.final_score.toFixed(1) + "</button>"
@@ -744,7 +1048,7 @@
           pathHtml +
           '<div class="nm">' +
             '<a class="name" href="?item=' + encodeURIComponent(item.id) + '" data-item="' + esc(item.id) + '">' +
-              esc(itemHeadline(item)) +
+              formatMathHtml(itemHeadline(item)) +
             "</a>" +
             (host ? '<span class="host">' + esc(host) + "</span>" : "") +
             badges +
@@ -752,7 +1056,7 @@
               (isSaved ? "★" : "☆") +
             "</button>" +
           "</div>" +
-          '<p class="desc">' + esc(itemSummary(item)) + "</p>" +
+          '<p class="desc">' + formatMathHtml(itemSummary(item)) + "</p>" +
           '<div class="mt">' +
             '<span class="itags">' + tagsHtml + "</span>" +
             '<span class="meta">' + metaLinks.join("") + "</span>" +
@@ -773,7 +1077,7 @@
       return '<a class="chip" href="?q=' + encodeURIComponent(q) + '" data-q="' + esc(q) + '">' + esc(q) + "</a>";
     }).join("");
 
-    // 2. Top Picks (1 from each of the first 6 areas in the 3-column ol.hpicks showcase)
+    // 2. Top Picks (6 items in the 3-column ol.hpicks showcase)
     var showcasePicks = [];
     AREAS.forEach(function (a) {
       var topForArea = allItems.find(function (i) { return i.area === a.slug && i.is_top_pick; }) ||
@@ -788,18 +1092,18 @@
       return (
         "<li>" +
           '<a class="hp-title" href="?item=' + encodeURIComponent(item.id) + '" data-item="' + esc(item.id) + '">' +
-            esc(itemHeadline(item)) +
+            formatMathHtml(itemHeadline(item)) +
           "</a>" +
-          "<p>" + esc(itemSummary(item)) + "</p>" +
+          "<p>" + formatMathHtml(itemSummary(item)) + "</p>" +
           '<div class="n" style="margin-top:6px;"><span class="rn">' + esc(aMeta.numeral) + "</span> · " + esc(areaTitle(aMeta)) + " · " + esc(item.source_name) + "</div>" +
         "</li>"
       );
     }).join("");
 
-    // 3. Fihrist (Index: 7 Areas in 2-column ol.fx with dotted leaders .ld and clickable sub-tags)
+    // 3. Fihrist (Index: 10 Areas in 2-column ol.fx with dotted leaders .ld and clickable sub-tags)
     var fxHtml = AREAS.map(function (a) {
       var cnt = allItems.filter(function (i) { return i.area === a.slug; }).length;
-      var subTags = a.tags.map(function (tg) {
+      var subTags = a.tags.slice(0, 6).map(function (tg) {
         return '<a href="?area=' + esc(a.slug) + "&tag=" + esc(tg) + '" data-area-tag="' + esc(a.slug + ":" + tg) + '">#' + esc(tg) + "</a>";
       }).join(", ");
       return (
@@ -815,22 +1119,24 @@
       );
     }).join("");
 
-    // 4. All Dispatches grouped by the 7 Categories (with Toolbar)
+    // 4. Categorized Preview on Home: show ONLY top 3 dispatches per category (30 total)
     var globalSeq = 1;
-    var categorizedListHtml = "";
+    var categorizedPreviewHtml = "";
     state.visibleItems = [];
 
     AREAS.forEach(function (a) {
       var areaItems = allItems.filter(function (i) { return i.area === a.slug; });
       if (!areaItems.length) return;
-      categorizedListHtml +=
+      var previewItems = areaItems.slice(0, 3);
+      categorizedPreviewHtml +=
         '<section id="sec-' + esc(a.slug) + '">' +
           '<h3 class="sh"><span class="rn">' + esc(a.numeral) + "</span> " +
             '<a href="?area=' + esc(a.slug) + '" data-area="' + esc(a.slug) + '" style="text-decoration:none;">' + esc(areaTitle(a)) + "</a>" +
-            ' <span class="n">' + areaItems.length + "</span>" +
+            ' <span class="n">' + previewItems.length + " / " + areaItems.length + "</span>" +
+            '<a class="more-area" href="?area=' + esc(a.slug) + '" data-area="' + esc(a.slug) + '">' + esc(t.seeAreaAll(areaItems.length)) + "</a>" +
           "</h3>" +
           '<div class="recs">' +
-            areaItems.map(function (item) {
+            previewItems.map(function (item) {
               state.visibleItems.push(item);
               return buildRecHtml(item, globalSeq++, false);
             }).join("") +
@@ -838,23 +1144,112 @@
         "</section>";
     });
 
+    var canonCount = state.canonicalTags.length || 74;
+
     mainEl.innerHTML =
       '<div class="home">' +
-        '<p class="proof">' + t.proof(allItems.length, state.issue.date, stats.sources_checked || 56, stats.raw_items_scanned || 180) + "</p>" +
+        '<p class="proof">' + t.proof(allItems.length, state.issue.date, stats.sources_checked || 86, stats.raw_items_scanned || 240) + "</p>" +
         '<p class="tryq"><span>' + esc(t.tryLbl) + "</span>" + tryChips + "</p>" +
         '<section class="hsec hp">' +
           '<h2 class="k">' + esc(t.hStart) + "<span>" + esc(t.hStartNote) + "</span></h2>" +
           '<ol class="hpicks">' + hpicksHtml + "</ol>" +
         "</section>" +
         '<section class="hsec">' +
-          '<h2 class="k">' + esc(t.fxHead) + "<span>" + esc(t.fxNote(7, 41)) + "</span></h2>" +
+          '<h2 class="k">' + esc(t.fxHead) + "<span>" + esc(t.fxNote(AREAS.length, canonCount)) + "</span></h2>" +
           '<ol class="fx">' + fxHtml + "</ol>" +
+          '<p class="hlinks">' +
+            '<a href="?all=1" data-all="1">' + esc(t.seeFullList(allItems.length)) + "</a>" +
+            '<a href="' + esc(t.emailHref) + '" target="_blank" rel="noopener">' + esc(t.emailPrev) + "</a>" +
+            '<a href="' + esc(t.staticHref) + '">' + esc(t.staticLbl) + "</a>" +
+          "</p>" +
         "</section>" +
         '<section class="hsec">' +
-          '<h2 class="k">' + esc(t.allDispatches) + "</h2>" +
-          buildToolbarHtml(allItems.length, allItems.length) +
-          categorizedListHtml +
+          '<h2 class="k">' + esc(t.homePreviewHead) + "<span>" + esc(t.homePreviewNote) + "</span></h2>" +
+          categorizedPreviewHtml +
+          '<p class="hlinks" style="margin-top:28px;">' +
+            '<a class="btn" href="?all=1" data-all="1">' + esc(t.seeFullList(allItems.length)) + "</a>" +
+          "</p>" +
         "</section>" +
+      "</div>";
+  }
+
+  function renderCompareView(mainEl) {
+    var t = tr();
+    var allItems = state.issue.items || [];
+    var cmpItems = state.cmpIds
+      .map(function (id) {
+        return allItems.find(function (i) { return i.id === id; }) || state.savedMap[id];
+      })
+      .filter(Boolean);
+
+    if (cmpItems.length === 0) {
+      state.comparing = false;
+      renderAll();
+      return;
+    }
+
+    var headCols = cmpItems.map(function (item) {
+      var host = extractHost(item.url);
+      return (
+        "<th>" +
+          '<a href="?item=' + encodeURIComponent(item.id) + '" data-item="' + esc(item.id) + '">' +
+            formatMathHtml(itemHeadline(item)) +
+          "</a>" +
+          '<span class="host">' + esc(item.source_name) + (host ? " · " + esc(host) : "") + "</span>" +
+          '<button type="button" class="lnk" data-cmp-remove="' + esc(item.id) + '">✕ ' + esc(t.cmpRemove) + "</button>" +
+        "</th>"
+      );
+    }).join("");
+
+    function rowHtml(label, cellFn) {
+      return (
+        "<tr><th>" + esc(label) + "</th>" +
+        cmpItems.map(function (item) { return "<td>" + cellFn(item) + "</td>"; }).join("") +
+        "</tr>"
+      );
+    }
+
+    var rows = [
+      rowHtml(t.cmpRows.area, function (item) {
+        var aMeta = getArea(item.area);
+        return '<span class="rn">' + esc(aMeta.numeral) + "</span> " + esc(areaTitle(aMeta));
+      }),
+      rowHtml(t.cmpRows.summary, function (item) {
+        return formatMathHtml(itemSummary(item));
+      }),
+      rowHtml(t.cmpRows.problem, function (item) {
+        return formatMathHtml(itemDetailField(item, "problem_context"));
+      }),
+      rowHtml(t.cmpRows.method, function (item) {
+        return formatMathHtml(itemDetailField(item, "method_architecture"));
+      }),
+      rowHtml(t.cmpRows.findings, function (item) {
+        return formatMathHtml(itemDetailField(item, "findings_tradeoffs"));
+      }),
+      rowHtml(t.cmpRows.source, function (item) {
+        return esc(item.original_title) + (item.authors && item.authors.length ? "<br><span class=\"n\">" + esc(item.authors.join(", ")) + "</span>" : "");
+      }),
+      rowHtml(t.cmpRows.links, function (item) {
+        var links = item.links || {};
+        var parts = ['<a class="arch" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(t.sourceExt) + "</a>"];
+        if (links.pdf_url) parts.push('<a class="arch" href="' + esc(links.pdf_url) + '" target="_blank" rel="noopener">PDF</a>');
+        if (links.code_url) parts.push('<a class="arch" href="' + esc(links.code_url) + '" target="_blank" rel="noopener">Code</a>');
+        parts.push('<a class="arch" href="https://web.archive.org/web/*/' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(t.archiveLbl) + "</a>");
+        return parts.join(" · ");
+      }),
+      rowHtml(t.cmpRows.tags, function (item) {
+        return (item.tags || []).map(function (tg) { return "#" + esc(tg); }).join(" · ");
+      })
+    ].join("");
+
+    mainEl.innerHTML =
+      '<div class="fieldpage">' +
+        '<p class="crumb"><a href="./" data-home="1">' + esc(t.fxHead) + "</a><b>›</b>" + esc(t.cmpTitle) + "</p>" +
+        '<h1 class="ph">' + esc(t.cmpTitle) + ' <span class="n">' + cmpItems.length + "</span></h1>" +
+        '<div class="cmpwrap"><table class="cmp">' +
+          "<thead><tr><th></th>" + headCols + "</tr></thead>" +
+          "<tbody>" + rows + "</tbody>" +
+        "</table></div>" +
       "</div>";
   }
 
@@ -866,9 +1261,14 @@
 
     var headerHtml = "";
     if (state.savedOnly) {
+      var shelfIds = filtered.map(function (i) { return i.id; });
+      var shelfBar = shelfIds.length > 0
+        ? '<div class="shelfx"><button type="button" class="btn" id="copy-shelf-btn">' + esc(t.shareShelfBtn) + "</button></div>"
+        : "";
       headerHtml =
         '<p class="crumb"><a href="./" data-home="1">' + esc(t.fxHead) + "</a><b>›</b>" + esc(t.saved) + "</p>" +
-        '<h1 class="ph">' + esc(t.saved) + ' <span class="n">' + filtered.length + "</span></h1>";
+        '<h1 class="ph">' + esc(t.saved) + ' <span class="n">' + filtered.length + "</span></h1>" +
+        shelfBar;
     } else if (state.area) {
       var aMeta = getArea(state.area);
       headerHtml =
@@ -884,6 +1284,10 @@
       headerHtml =
         '<p class="crumb"><a href="./" data-home="1">' + esc(t.fxHead) + "</a><b>›</b>“" + esc(state.query) + "”</p>" +
         '<h1 class="ph">“' + esc(state.query) + '” <span class="n">' + filtered.length + "</span></h1>";
+    } else {
+      headerHtml =
+        '<p class="crumb"><a href="./" data-home="1">' + esc(t.fxHead) + "</a><b>›</b>" + esc(t.allDispatchesTitle) + "</p>" +
+        '<h1 class="ph">' + esc(t.allDispatchesTitle) + ' <span class="n">' + filtered.length + "</span></h1>";
     }
 
     var listHtml = "";
@@ -908,6 +1312,18 @@
         buildToolbarHtml(filtered.length, allItems.length) +
         listHtml +
       "</div>";
+
+    var copyShelfBtn = document.getElementById("copy-shelf-btn");
+    if (copyShelfBtn) {
+      copyShelfBtn.onclick = function () {
+        var ids = filtered.map(function (i) { return i.id; }).join(",");
+        var shareUrl = window.location.origin + window.location.pathname + "?s=" + encodeURIComponent(ids);
+        navigator.clipboard.writeText(shareUrl).then(function () {
+          copyShelfBtn.textContent = t.shareShelfCopied;
+          setTimeout(function () { copyShelfBtn.textContent = t.shareShelfBtn; }, 1800);
+        });
+      };
+    }
   }
 
   function renderDetailView(mainEl, item) {
@@ -920,6 +1336,7 @@
     var links = item.links || {};
     var detail = item.detail || {};
     var host = extractHost(item.url);
+    var waybackUrl = "https://web.archive.org/web/*/" + item.url;
 
     var visitBtns = [];
     visitBtns.push('<a class="btn primary" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(t.openSource) + "</a>");
@@ -932,6 +1349,7 @@
     if (links.code_url) {
       visitBtns.push('<a class="btn" href="' + esc(links.code_url) + '" target="_blank" rel="noopener">' + esc(t.openCode) + "</a>");
     }
+    visitBtns.push('<a class="btn" href="' + esc(waybackUrl) + '" target="_blank" rel="noopener">' + esc(t.openArchive) + "</a>");
     if (detail.bibtex) {
       visitBtns.push('<button type="button" class="btn" id="copy-bib-btn">' + esc(t.copyBib) + "</button>");
     }
@@ -969,7 +1387,7 @@
           related.map(function (r) {
             return (
               "<li>" +
-                '<a href="?item=' + encodeURIComponent(r.id) + '" data-item="' + esc(r.id) + '">' + esc(itemHeadline(r)) + "</a>" +
+                '<a href="?item=' + encodeURIComponent(r.id) + '" data-item="' + esc(r.id) + '">' + formatMathHtml(itemHeadline(r)) + "</a>" +
                 '<span class="ax">' + esc(r.source_name) + "</span>" +
               "</li>"
             );
@@ -987,17 +1405,17 @@
         '<article class="rec big">' +
           '<div class="rb">' +
             '<div class="nm">' +
-              '<h1 class="ph"><a class="name" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(itemHeadline(item)) + "</a></h1>" +
+              '<h1 class="ph"><a class="name" href="' + esc(item.url) + '" target="_blank" rel="noopener">' + formatMathHtml(itemHeadline(item)) + "</a></h1>" +
               '<button type="button" class="save" data-save="' + esc(item.id) + '" aria-pressed="' + (isSaved ? "true" : "false") + '" title="' + esc(t.saveTip) + '">' +
                 (isSaved ? "★" : "☆") +
               "</button>" +
             "</div>" +
             '<p class="path" style="margin-top:4px;">' +
-              "<b>" + esc(t.origTitle) + ":</b> " + esc(item.original_title) +
+              "<b>" + esc(t.origTitle) + ":</b> " + formatMathHtml(item.original_title) +
               (host ? ' · <span class="host">' + esc(host) + "</span>" : "") +
               (item.authors && item.authors.length ? "<br><b>" + esc(t.authorsLbl) + ":</b> " + esc(item.authors.join(", ")) : "") +
             "</p>" +
-            '<p class="desc">' + esc(itemSummary(item)) + "</p>" +
+            '<p class="desc">' + formatMathHtml(itemSummary(item)) + "</p>" +
             '<div class="visit">' + visitBtns.join("") + "</div>" +
             '<div class="mt" style="margin-bottom:28px;">' +
               '<span class="itags">' + tagsHtml + "</span>" +
@@ -1006,23 +1424,23 @@
 
             '<h2 class="k">' + esc(t.sec1) + "</h2>" +
             '<p style="margin:10px 0 24px;max-width:70ch;font-size:15.5px;line-height:1.66;color:var(--fg);">' +
-              esc(itemDetailField(item, "problem_context")) +
+              formatMathHtml(itemDetailField(item, "problem_context")) +
             "</p>" +
 
             '<h2 class="k">' + esc(t.sec2) + "</h2>" +
             '<p style="margin:10px 0 24px;max-width:70ch;font-size:15.5px;line-height:1.66;color:var(--fg);">' +
-              esc(itemDetailField(item, "method_architecture")) +
+              formatMathHtml(itemDetailField(item, "method_architecture")) +
             "</p>" +
 
             '<h2 class="k">' + esc(t.sec3) + "</h2>" +
             '<p style="margin:10px 0 24px;max-width:70ch;font-size:15.5px;line-height:1.66;color:var(--fg);">' +
-              esc(itemDetailField(item, "findings_tradeoffs")) +
+              formatMathHtml(itemDetailField(item, "findings_tradeoffs")) +
             "</p>" +
 
             (detail.abstract_excerpt
               ? '<details style="margin:18px 0 24px;padding:12px 0;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule2);">' +
                   '<summary style="cursor:pointer;font-weight:600;color:var(--dim);">' + esc(t.absHead) + "</summary>" +
-                  '<p style="margin:10px 0 0;max-width:70ch;font-size:14.5px;line-height:1.62;color:var(--dim);">' + esc(detail.abstract_excerpt) + "</p>" +
+                  '<p style="margin:10px 0 0;max-width:70ch;font-size:14.5px;line-height:1.62;color:var(--dim);">' + formatMathHtml(detail.abstract_excerpt) + "</p>" +
                 "</details>"
               : "") +
 
@@ -1064,13 +1482,17 @@
     var mainEl = document.getElementById("list");
     if (!mainEl) return;
 
+    if (state.comparing && state.cmpIds.length > 0) {
+      renderCompareView(mainEl);
+      return;
+    }
+
     if (state.activeItemId) {
       var found = (state.issue.items || []).find(function (i) { return i.id === state.activeItemId; }) ||
                   state.savedMap[state.activeItemId];
       if (found) {
         renderDetailView(mainEl, found);
         bindToolbarEvents();
-        triggerMath(mainEl);
         return;
       } else {
         state.activeItemId = null;
@@ -1084,7 +1506,6 @@
     }
 
     bindToolbarEvents();
-    triggerMath(mainEl);
   }
 
   function bindToolbarEvents() {
@@ -1172,7 +1593,13 @@
       }).join("");
     }
     if (tp) {
-      var tags = ["llm", "agents", "ml-theory", "compilers", "distributed-systems", "databases", "rust", "formal-proofs", "number-theory", "combinatorics", "quantum-computing", "condensed-matter", "kernel-os", "computer-architecture", "infosec", "bioinformatics", "genomics-proteins", "zkp", "cryptography", "post-quantum", "consensus"];
+      var tags = [
+        "llm", "agents", "ml-theory", "compilers", "distributed-systems", "databases", "rust",
+        "formal-proofs", "number-theory", "combinatorics", "quantum-computing", "condensed-matter",
+        "kernel-os", "computer-architecture", "infosec", "bioinformatics", "genomics-proteins",
+        "zkp", "cryptography", "post-quantum", "macroeconomics", "monetary-policy", "quant-finance",
+        "geopolitics", "tech-policy", "defense-strategy", "philosophy-of-science", "epistemology", "decision-theory"
+      ];
       tp.innerHTML = tags.map(function (tg) {
         var on = (state.subPrefs.tags || []).indexOf(tg) !== -1;
         return '<button type="button" class="chip' + (on ? " on" : "") + '" data-sub-tag="' + esc(tg) + '">#' + esc(tg) + "</button>";
@@ -1198,7 +1625,6 @@
     var clean = q.toLowerCase().trim();
     var html = "";
 
-    // Areas matching
     var matchedAreas = AREAS.filter(function (a) {
       return !clean || areaTitle(a).toLowerCase().indexOf(clean) !== -1 || a.slug.indexOf(clean) !== -1;
     });
@@ -1209,7 +1635,6 @@
       });
     }
 
-    // Dispatches matching
     var matchedItems = (state.issue.items || []).filter(function (i) {
       if (!clean) return i.is_top_pick;
       return itemHeadline(i).toLowerCase().indexOf(clean) !== -1 ||
@@ -1274,6 +1699,7 @@
     var items = state.issue.items;
     var pick = items[Math.floor(Math.random() * items.length)];
     state.activeItemId = pick.id;
+    state.comparing = false;
     pushUrl(false);
     renderAll();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1281,24 +1707,26 @@
 
   // --- Global Events ---
   function bindEvents() {
-    // Search input
     var qIn = document.getElementById("q");
     if (qIn) {
       qIn.addEventListener("input", function () {
         state.query = qIn.value;
         state.activeItemId = null;
+        state.comparing = false;
         state.savedOnly = false;
+        state.sharedShelfIds = [];
         pushUrl(true);
         renderAll();
       });
     }
 
-    // Top bar actions
     var savedBtn = document.getElementById("savedb");
     if (savedBtn) {
       savedBtn.onclick = function () {
         state.savedOnly = !state.savedOnly;
+        state.sharedShelfIds = [];
         state.activeItemId = null;
+        state.comparing = false;
         pushUrl(false);
         renderAll();
       };
@@ -1313,8 +1741,27 @@
     var langBtn = document.getElementById("langbtn");
     if (langBtn) {
       langBtn.onclick = function () {
-        state.lang = state.lang === "en" ? "tr" : "en";
-        saveStr(STORAGE_KEYS.lang, state.lang);
+        switchLanguage(state.lang === "en" ? "tr" : "en");
+      };
+    }
+
+    // Compare tray buttons
+    var trayGo = document.getElementById("tray-go");
+    var trayClear = document.getElementById("tray-clear");
+    if (trayGo) {
+      trayGo.onclick = function (e) {
+        e.preventDefault();
+        state.comparing = true;
+        state.activeItemId = null;
+        pushUrl(false);
+        renderAll();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    }
+    if (trayClear) {
+      trayClear.onclick = function () {
+        state.cmpIds = [];
+        state.comparing = false;
         pushUrl(true);
         renderAll();
       };
@@ -1406,12 +1853,29 @@
       if (homeLink) {
         e.preventDefault();
         state.activeItemId = null;
+        state.comparing = false;
+        state.showAllList = false;
         state.area = null;
         state.tag = null;
         state.query = "";
         state.savedOnly = false;
+        state.sharedShelfIds = [];
         state.filters = { code: false, papers: false, discussed: false };
         if (qIn) qIn.value = "";
+        pushUrl(false);
+        renderAll();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+
+      var allLink = e.target.closest("[data-all]");
+      if (allLink && !e.ctrlKey && !e.metaKey) {
+        e.preventDefault();
+        state.showAllList = true;
+        state.area = null;
+        state.tag = null;
+        state.activeItemId = null;
+        state.comparing = false;
         pushUrl(false);
         renderAll();
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1424,7 +1888,10 @@
         state.area = areaLink.getAttribute("data-area");
         state.tag = null;
         state.activeItemId = null;
+        state.comparing = false;
+        state.showAllList = false;
         state.savedOnly = false;
+        state.sharedShelfIds = [];
         pushUrl(false);
         renderAll();
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1438,7 +1905,10 @@
         state.area = parts[0];
         state.tag = parts[1];
         state.activeItemId = null;
+        state.comparing = false;
+        state.showAllList = false;
         state.savedOnly = false;
+        state.sharedShelfIds = [];
         pushUrl(false);
         renderAll();
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1449,9 +1919,34 @@
       if (itemLink && !e.ctrlKey && !e.metaKey) {
         e.preventDefault();
         state.activeItemId = itemLink.getAttribute("data-item");
+        state.comparing = false;
         pushUrl(false);
         renderAll();
         window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+
+      var cmpBtn = e.target.closest("[data-cmp]");
+      if (cmpBtn) {
+        var cid = cmpBtn.getAttribute("data-cmp");
+        var cidx = state.cmpIds.indexOf(cid);
+        if (cidx >= 0) {
+          state.cmpIds.splice(cidx, 1);
+        } else {
+          if (state.cmpIds.length >= 3) state.cmpIds.shift();
+          state.cmpIds.push(cid);
+        }
+        renderAll();
+        return;
+      }
+
+      var cmpRem = e.target.closest("[data-cmp-remove]");
+      if (cmpRem) {
+        var rid = cmpRem.getAttribute("data-cmp-remove");
+        state.cmpIds = state.cmpIds.filter(function (x) { return x !== rid; });
+        if (state.cmpIds.length === 0) state.comparing = false;
+        pushUrl(true);
+        renderAll();
         return;
       }
 
@@ -1461,6 +1956,7 @@
         state.query = qChip.getAttribute("data-q");
         if (qIn) qIn.value = state.query;
         state.activeItemId = null;
+        state.comparing = false;
         pushUrl(false);
         renderAll();
         return;
@@ -1471,6 +1967,7 @@
         var tg = tagSpan.getAttribute("data-tag");
         state.tag = state.tag === tg ? null : tg;
         state.activeItemId = null;
+        state.comparing = false;
         pushUrl(false);
         renderAll();
         return;
@@ -1550,6 +2047,7 @@
       if (palArea) {
         state.area = palArea.getAttribute("data-pal-area");
         state.activeItemId = null;
+        state.comparing = false;
         document.getElementById("pal").close();
         pushUrl(false);
         renderAll();
@@ -1559,6 +2057,7 @@
       var palItem = e.target.closest("[data-pal-item]");
       if (palItem) {
         state.activeItemId = palItem.getAttribute("data-pal-item");
+        state.comparing = false;
         document.getElementById("pal").close();
         pushUrl(false);
         renderAll();
@@ -1599,12 +2098,15 @@
           document.activeElement.blur();
           return;
         }
-        if (state.activeItemId || state.area || state.tag || state.query || state.savedOnly) {
+        if (state.activeItemId || state.comparing || state.showAllList || state.area || state.tag || state.query || state.savedOnly) {
           state.activeItemId = null;
+          state.comparing = false;
+          state.showAllList = false;
           state.area = null;
           state.tag = null;
           state.query = "";
           state.savedOnly = false;
+          state.sharedShelfIds = [];
           if (qIn) qIn.value = "";
           pushUrl(false);
           renderAll();
@@ -1623,7 +2125,7 @@
       } else if (e.key === "r") {
         e.preventDefault();
         jumpRandom();
-      } else if (!state.activeItemId && state.visibleItems.length > 0) {
+      } else if (!state.activeItemId && !state.comparing && state.visibleItems.length > 0) {
         var len = state.visibleItems.length;
         if (e.key === "j") {
           e.preventDefault();
@@ -1662,10 +2164,6 @@
       if (on) r.scrollIntoView({ block: "nearest", behavior: "smooth" });
     });
   }
-
-  window.addEventListener("load", function () {
-    triggerMath(document.body);
-  });
 
   initTheme();
   bindEvents();

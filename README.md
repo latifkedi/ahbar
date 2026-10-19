@@ -1,90 +1,61 @@
-# Ahbar — Autonomous Daily Technical & Scientific Dispatches
+# Ahbar — Autonomous Daily Technical, Scientific & Strategic Dispatches
 
-The project was created using AI.
+**Ahbar** ([latifkedi.github.io/ahbar](https://latifkedi.github.io/ahbar/)) is an autonomous daily technical, scientific, economic, geopolitical, and philosophical news/preprint aggregator, web archive, and passwordless email digest built with **Rust** (`ahbar-shared`, `ahbar-engine`, `ahbar-api`) and a zero-framework, zero-CDN editorial frontend (`index.html`, `boot.js`, `style.css`, `app.js`) modeled after [`useful-sites`](https://github.com/latifkedi/useful-sites).
 
-**Ahbar** is an autonomous daily technical and scientific news/preprint aggregator, web archive, and passwordless email digest built with **Rust** (`ahbar-shared`, `ahbar-engine`, `ahbar-api`) and a zero-framework editorial frontend (`index.html`, `style.css`, `app.js`).
-
-Every morning at **`05:00 UTC` (`08:00 TSİ`)**—immediately following arXiv's daily announcement batch—Ahbar ingests 28+ primary academic and engineering feeds, clusters cross-source duplicates via Jaccard title similarity and normalized URLs, scores candidates with a multi-signal + novelty/rigor formula, and emits static JSON issues, per-area/per-tag Atom XML feeds, and inline-styled HTML email digests.
+Every morning at **`05:00 UTC` (`08:00 TSİ`)**—immediately following arXiv's daily announcement batch—Ahbar ingests **86 primary academic, engineering, economic, and strategic feeds**, clusters cross-source duplicates via 64-bit SimHash (`≤ 3` bits) and Jaccard title similarity, synthesizes bilingual (`TR` + `EN`) Layer-1 hooks and Layer-2 breakdowns via a multi-provider Free LLM Router (`FreeLlmRouter`), and emits split per-language JSON issues (`latest.tr.json`, `latest.en.json`), zero-JS plain-text directories (`k/index.html`, `k/en/index.html`), Atom XML feeds, and `10 × 3 = 30` dispatch HTML email digests.
 
 ---
 
-## I. Seven Scientific & Technical Areas
+## I. Ten Scientific, Technical & Strategic Areas (`I` – `X`)
 
-| Numeral | Slug | Area | Primary Coverage |
+| Numeral | Slug | Area (EN / TR) | Primary Coverage |
 | :--- | :--- | :--- | :--- |
-| **I** | `cs` | **Computer Science & Software** | Programming languages, compilers, distributed systems, databases, formal verification, open-source software |
-| **II** | `ai` | **AI & Machine Learning** | Large language models, autonomous agents, statistical learning theory, computer vision, robotics, inference systems |
-| **III** | `math` | **Mathematics** | Number theory, combinatorics, logic, formal proof assistants (`Lean 4` / `Rocq`), algebra, geometry, analysis |
-| **IV** | `physics` | **Physics & Quantum** | Quantum computing & fault tolerance, condensed matter, astrophysics, high-energy theory, optics & photonics |
-| **V** | `systems` | **Systems, Hardware & Security** | Operating systems, kernels, semiconductors (`RISC-V`, ASICs), computer architecture, networking, offensive/defensive InfoSec |
-| **VI** | `bio` | **Computational Science & Bio** | Bioinformatics, protein design, genomics, computational neuroscience, materials science, climate & fusion tech |
-| **VII** | `crypto` | **Cryptography, Web3 & Blockchain** | Zero-knowledge proof systems (`SNARKs`/`STARKs`), post-quantum cryptography, consensus protocols, smart contract security, MEV |
+| **I** | `cs` | **Computer Science & Software** / *Bilgisayar Bilimi ve Yazılım* | Programming languages, compilers, distributed systems, databases, formal verification, open-source software |
+| **II** | `ai` | **AI & Machine Learning** / *Yapay Zekâ ve Makine Öğrenmesi* | Large language models, autonomous agents, statistical learning theory, computer vision, robotics, inference systems |
+| **III** | `math` | **Mathematics** / *Matematik* | Number theory, combinatorics, logic, formal proof assistants (`Lean 4` / `Rocq`), algebra, geometry, analysis |
+| **IV** | `physics` | **Physics & Quantum** / *Fizik ve Kuantum* | Quantum computing & fault tolerance, condensed matter, astrophysics, high-energy theory, optics & photonics |
+| **V** | `systems` | **Systems, Hardware & Security** / *Sistemler, Donanım ve Güvenlik* | Operating systems, kernels, semiconductors (`RISC-V`, ASICs), computer architecture, networking, offensive/defensive InfoSec |
+| **VI** | `bio` | **Computational Science & Bio** / *Hesaplamalı Bilim ve Biyoloji* | Bioinformatics, protein design, genomics, computational neuroscience, materials science, climate & fusion tech |
+| **VII** | `crypto` | **Cryptography, Web3 & Blockchain** / *Kriptografi, Web3 ve Blokzincir* | Zero-knowledge proof systems (`SNARKs`/`STARKs`), post-quantum cryptography, consensus protocols, smart contract security, MEV |
+| **VIII** | `econ` | **Economics, Markets & Quantitative Finance** / *Ekonomi, Piyasalar ve Kantitatif Finans* | Macroeconomics, monetary policy, econometrics, market microstructure, quantitative finance (`NBER`, `BIS`, `VoxEU`, `TCMB`, `TEPAV`) |
+| **IX** | `geopolitics` | **International Relations, Geopolitics & Strategy** / *Uluslararası İlişkiler, Jeopolitik ve Strateji* | Grand strategy, defense & deterrence, tech & cyber policy, energy & supply chains (`Foreign Affairs`, `Carnegie`, `CSIS`, `War on the Rocks`, `EDAM`) |
+| **X** | `philosophy` | **Philosophy of Science, Decision Theory & Cognition** / *Bilim Felsefesi, Karar Teorisi ve Biliş* | Philosophy of science & physics, epistemology, decision & game theory, ethics of technology, complex systems (`PhilSci-Archive`, `Aeon`, `Daily Nous`, `SFI`) |
 
 ---
 
 ## II. Key Architectural Features
 
-1. **Two-Layer Technical Structure:**
-   - **Layer 1 (Feed & Email Digest):** A sharp 1–2 sentence technical hook stating *what was proved, built, or measured*, followed by a single dense technical summary paragraph (with native **KaTeX** `$...$` rendering on the web and Unicode math fallback in emails), canonical tags (`#llm`, `#pl-compilers`, `#zk-proofs`, etc.), and direct action badges (`[Analysis & Cite]`, `[Source ↗]`, `[PDF]`, `[HTML / ar5iv]`, `[Code]`, `[HN / Lobsters]`).
-   - **Layer 2 (Item Detail Page `?item=<id>`):** Structured 3-part technical breakdown (*I. Problem & Technical Context*, *II. Method, Architecture & Formal Construction*, *III. Empirical Findings, Benchmarks & Trade-offs*), collapsible original paper abstract, one-click **Copy BibTeX** & **Copy Markdown**, clustered cross-source links, and related dispatches.
-2. **Weekday vs. Weekend Edition Lifecycle:**
-   - **Monday–Friday (`Daily Issue #N`):** Prioritizes fresh arXiv (`cs.*`, `math.*`, `quant-ph`, `cond-mat`, `q-bio`), IACR ePrint, Quanta Magazine, ACM Queue, LWN, and high-signal engineering releases.
-   - **Saturday–Sunday (`Weekend Edition #N`):** Automatically switches to deep-dive essays, systems post-mortems, and top weekly breakthroughs when academic preprint servers pause announcements.
-3. **Strict Guardrails (`crates/shared/src/guardrails.rs` & `tags.rs`):**
-   - Enforces a closed vocabulary of **41 canonical tags** (with automatic alias mapping) so LLM outputs never pollute the taxonomy.
-   - Balances LaTeX `$` delimiters for web KaTeX and converts LaTeX macros (`\alpha`, `\le`, `\mathcal{O}`, subscripts/superscripts) into clean Unicode for email clients.
-4. **Passwordless Email Subscriptions (`crates/api` & `worker/`):**
-   - Zero passwords. Preferences and one-click `List-Unsubscribe-Post` (RFC 8058) links are authenticated with stateless `HMAC-SHA256` tokens.
-   - Subscribers customize 4 axes: **Mode** (*Hybrid*, *Standard*, *Personalized*), **Density** (*Compact 5–7*, *Comprehensive 15–20*), **Schedule** (*Daily*, *Weekdays Only*, *Weekend Only*), and **Content Filter** (*All*, *Papers Only*, *Code Only*).
+1. **`useful-sites` Editorial Discipline & 0ms First Paint:**
+   - **Zero External CDNs & Strict CSP:** No third-party scripts or stylesheets (`default-src 'self'`). All mathematical formulas (`$...$` and `$$...$$`) are compiled directly into native HTML5 **MathML (`<math class="m">`)** at build time (`latex_to_html_math`) and client time.
+   - **Build-Time Pre-Rendered Home (`<div class="home" data-pre="1">`):** `ahbar-engine` inlines `style.css` and pre-renders the Turkish Home page (Hero + Enso watermark + 3-column Top Picks `ol.hpicks` + 2-column Roman-numeral Fihrist `ol.fx` `I`–`X` with dotted leaders + 30 categorized preview dispatches) directly into `index.html`.
+   - **Split Language Payloads (`latest.tr.json` / `latest.en.json`):** `boot.js` detects the active language (`TR` or `EN`) in `<head>` and pre-fetches only that language's JSON payload.
+2. **All 4 `useful-sites` Craft Utilities:**
+   - **Compare Tray (`?cmp=id1,id2`):** Select up to 3 dispatches (`karşılaştır` / `compare`) to inspect their hooks, methods, benchmarks, and metadata side-by-side in `table.cmp`.
+   - **Shareable Saved Shelf (`?s=id1,id2,...`):** Stateless shareable URL for bookmarked dispatches.
+   - **Wayback Machine Archive Links (`arşiv` / `archive`):** Direct `web.archive.org` preservation links on every card, detail page, static directory entry, and email item.
+   - **Plain-Text Static Edition (`k/index.html` & `k/en/index.html`):** Zero-JavaScript archival edition (`body.static`) for terminal browsers (`lynx`, `w3m`) and crawlers.
+3. **Multi-Provider Free LLM Router (`FreeLlmRouter`) + Zero-Key Neural Turkish Translator:**
+   - Compatible with [`tashfeenahmed/freellmapi`](https://github.com/tashfeenahmed/freellmapi) and supports automatic waterfall failover across `FREELLMAPI_URL` -> `GEMINI_API_KEY` (`gemini-2.0-flash`) -> `GROQ_API_KEY` (`llama-3.3-70b-versatile`) -> `CEREBRAS_API_KEY` -> `OPENROUTER_API_KEY` (`meta-llama/llama-3.3-70b-instruct:free`) -> `MISTRAL_API_KEY` -> `GITHUB_MODELS_TOKEN`.
+   - Even with zero API keys configured, `ahbar-engine` automatically translates live English dispatches into natural Turkish while preserving `$math$` expressions intact.
+4. **Daily Email Digest (`10 Categories × 3 Dispatches = 30 Dispatches`):**
+   - Features a clickable Roman-numeral quick-jump bar (`I` – `X`) beneath the masthead and 3 top-ranked dispatches per category (`data/sample-email-tr.html` and `data/sample-email.html`).
 
 ---
 
-## III. Repository Layout
-
-```text
-.
-├── Cargo.toml                  # Rust workspace manifest
-├── crates/
-│   ├── shared/                 # Domain models, 41 canonical tags, 28+ sources, LaTeX/Unicode guardrails, HMAC auth
-│   ├── engine/                 # Async RSS/Atom/arXiv/HN ingestor, Jaccard deduplicator, LLM synthesizer, JSON/Atom/Email emitter
-│   └── api/                    # Self-hosted Axum + SQLite API for passwordless subscriptions & Signal/Noise votes
-├── worker/
-│   ├── index.js                # Serverless Cloudflare Worker + D1 edge alternative to crates/api
-│   ├── schema.sql              # D1 / SQLite schema (subscribers, item_votes)
-│   └── wrangler.toml           # Cloudflare Wrangler configuration
-├── index.html                  # Zero-framework static web shell
-├── style.css                   # Paper & Ink + Functional Red stylesheet (Source Serif 4 + tabular-nums)
-├── app.js                      # Client runtime (filtering, ?item=<id> detail view, KaTeX, Saved export, keyboard nav)
-├── fonts/                      # Self-hosted Source Serif 4 WOFF2 fonts
-├── data/                       # Generated daily issues (latest.json, archive.json, tags.json, health.json, sample-email.html)
-└── feed/                       # Generated Atom XML feeds (all.xml, area-*.xml, tag-*.xml)
-```
-
----
-
-## IV. Local Development & Running the Rust Engine
+## III. Local Development & Running the Rust Engine
 
 ### 1. Run Unit Tests
 ```bash
 cargo test --workspace
 ```
 
-### 2. Generate Today's Issue & Feeds Locally
+### 2. Generate Today's Issue, Split Payloads, Static Edition & Emails
 ```bash
 cargo run -p ahbar-engine -- --root .
 ```
-- If `OPENAI_API_KEY` is set in your environment, `ahbar-engine` uses the configured LLM (`OPENAI_MODEL`, default `gpt-4o-mini`) to synthesize Layer-1 hooks and Layer-2 technical breakdowns.
-- Without `OPENAI_API_KEY`, the engine runs deterministically using heuristic extraction + curated high-rigor baseline dispatches so local development and CI work out of the box with zero secrets.
 
 ### 3. Preview the Web App
-Serve the repository root with any static HTTP server:
 ```bash
 python -m http.server 8080
 ```
 Then open `http://localhost:8080`.
-
-### 4. Run the Self-Hosted Subscription API (Optional)
-```bash
-cargo run -p ahbar-api
-```
-Listens on `127.0.0.1:8787` (configurable via `AHBAR_BIND`) with SQLite persistence (`AHBAR_DB_URL`).

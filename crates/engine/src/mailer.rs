@@ -7,8 +7,8 @@ use reqwest::Client;
 use std::env;
 
 /// Selects the exact list of items for a subscriber according to their
-/// Mode (Standard / Personalized / Hybrid), Density (ThreePerArea = 3 per category = 21 items,
-/// Compact = 1 per category = 7 items, Comprehensive = 5 per category = 35 items),
+/// Mode (Standard / Personalized / Hybrid), Density (ThreePerArea = 3 per category = 30 items,
+/// Compact = 1 per category = 10 items, Comprehensive = 5 per category = 50 items),
 /// Frequency, and ContentFilter (All / PapersOnly / CodeOnly).
 pub fn select_items_for_subscriber<'a>(
     issue: &'a DailyIssue,
@@ -34,7 +34,7 @@ pub fn select_items_for_subscriber<'a>(
 
     match prefs.mode {
         DigestMode::Standard | DigestMode::Hybrid => {
-            // Select `per_area` (default 3) highest-scoring items from every one of the 7 areas
+            // Select `per_area` (default 3) highest-scoring items from every one of the 10 areas (30 items total)
             for area in Area::ALL {
                 let mut count = 0;
                 for item in issue.items.iter().filter(|i| i.area == area) {
@@ -77,8 +77,9 @@ pub fn select_items_for_subscriber<'a>(
     selected
 }
 
-/// Renders the editorial HTML email grouped by the 7 scientific/technical categories
-/// (3 dispatches per category = 21 dispatches by default), starting directly with Area I (zero intro fluff).
+/// Renders the editorial HTML email grouped by the 10 scientific/technical/strategic categories
+/// (3 dispatches per category = 30 dispatches by default), with a top Roman-numeral quick-jump bar (`I` – `X`).
+#[allow(dead_code)]
 pub fn render_digest_email_html(
     issue: &DailyIssue,
     items: &[&NewsItem],
@@ -122,27 +123,32 @@ pub fn render_digest_email_html_with_lang(
 
     let edition_badge = match (issue.edition_type, is_tr) {
         (EditionType::Daily, false) => format!(
-            "ISSUE #{} · {} · {} DISPATCHES",
+            "ISSUE #{} · {} · {} DISPATCHES (10×3)",
             issue.issue_number,
             issue.date,
             items.len()
         ),
         (EditionType::Daily, true) => format!(
-            "SAYI #{} · {} · {} BÜLTEN KAYDI",
+            "SAYI #{} · {} · {} BÜLTEN KAYDI (10×3)",
             issue.issue_number,
             issue.date,
             items.len()
         ),
         (EditionType::Weekend, false) => format!(
-            "WEEKEND EDITION #{} · {}",
-            issue.issue_number, issue.date
+            "WEEKEND EDITION #{} · {} · {} DISPATCHES",
+            issue.issue_number,
+            issue.date,
+            items.len()
         ),
-        (EditionType::Weekend, true) => {
-            format!("HAFTA SONU SAYISI #{} · {}", issue.issue_number, issue.date)
-        }
+        (EditionType::Weekend, true) => format!(
+            "HAFTA SONU SAYISI #{} · {} · {} KAYIT",
+            issue.issue_number,
+            issue.date,
+            items.len()
+        ),
     };
 
-    let mut html = String::with_capacity(32768);
+    let mut html = String::with_capacity(49152);
     html.push_str(&format!(
         "<!DOCTYPE html>\n<html lang=\"{}\">\n<head>\n<meta charset=\"utf-8\">\n",
         if is_tr { "tr" } else { "en" }
@@ -168,7 +174,24 @@ pub fn render_digest_email_html_with_lang(
     ));
     html.push_str("</tr></table>\n</td></tr>\n");
 
-    // Group items by the 7 Areas (3 items per area = 21 items total)
+    // Roman-Numeral Quick-Jump Index Bar (I – X)
+    html.push_str("<tr><td style=\"padding:10px 0;border-bottom:1px solid #ddd5c4;font-size:12.5px;line-height:1.8;color:#686256;\">\n");
+    let mut jump_links = Vec::new();
+    for area in Area::ALL {
+        let has_any = items.iter().any(|i| i.area == area);
+        if has_any {
+            jump_links.push(format!(
+                "<a href=\"#area-{}\" style=\"color:#1c1a16;text-decoration:none;white-space:nowrap;\"><span style=\"font-family:'Source Serif 4',Georgia,serif;font-weight:600;color:#a8321f;\">{}</span> {}</a>",
+                escape_xml(area.slug()),
+                escape_xml(area.numeral()),
+                escape_xml(area.short_label(is_tr))
+            ));
+        }
+    }
+    html.push_str(&jump_links.join(" <span style=\"color:#ddd5c4;margin:0 5px;\">·</span> "));
+    html.push_str("\n</td></tr>\n");
+
+    // Group items by the 10 Areas (3 items per area = 30 items total)
     let mut global_seq = 1usize;
     for area in Area::ALL {
         let area_items: Vec<&&NewsItem> = items.iter().filter(|i| i.area == area).collect();
@@ -188,7 +211,10 @@ pub fn render_digest_email_html_with_lang(
         };
 
         // Category Header Row (Roman Numeral + Area Title + Count)
-        html.push_str("<tr><td style=\"padding:26px 0 8px 0;border-bottom:1px solid #ddd5c4;\">\n");
+        html.push_str(&format!(
+            "<tr><td id=\"area-{}\" style=\"padding:26px 0 8px 0;border-bottom:1px solid #ddd5c4;\">\n",
+            escape_xml(area.slug())
+        ));
         html.push_str(&format!(
             "<div style=\"font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;color:#1c1a16;letter-spacing:-0.01em;\"><span style=\"color:#a8321f;margin-right:8px;\">{}</span>{} <span style=\"font-family:system-ui,sans-serif;font-size:12px;font-weight:400;color:#686256;margin-left:6px;\">({})</span></div>\n",
             escape_xml(area.numeral()),
@@ -206,7 +232,12 @@ pub fn render_digest_email_html_with_lang(
             let num = global_seq;
             global_seq += 1;
 
-            let detail_url = format!("{}/?item={}", base, item.id);
+            let detail_url = if is_tr {
+                format!("{}/?lang=tr&item={}", base, item.id)
+            } else {
+                format!("{}/?item={}", base, item.id)
+            };
+            let wayback_url = format!("https://web.archive.org/web/*/{}", item.url);
             let vote_sig_url = format!("{}/?vote=signal&item={}", base, item.id);
             let vote_noise_url = format!("{}/?vote=noise&item={}", base, item.id);
 
@@ -251,6 +282,7 @@ pub fn render_digest_email_html_with_lang(
             html.push_str("<div style=\"font-size:12.5px;color:#686256;\">\n");
             let analysis_lbl = if is_tr { "Analiz & Atıf" } else { "Analysis & Cite" };
             let source_lbl = if is_tr { "Kaynak ↗" } else { "Source ↗" };
+            let arch_lbl = if is_tr { "arşiv" } else { "archive" };
             html.push_str(&format!(
                 "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:none;margin-right:12px;\">{}</a>",
                 escape_xml(&detail_url),
@@ -279,6 +311,11 @@ pub fn render_digest_email_html_with_lang(
                     escape_xml(code)
                 ));
             }
+            html.push_str(&format!(
+                "<a href=\"{}\" style=\"color:#686256;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">{}</a>",
+                escape_xml(&wayback_url),
+                arch_lbl
+            ));
             for (t_idx, tag) in item.tags.iter().enumerate() {
                 if t_idx > 0 {
                     html.push_str("<span style=\"color:#ddd5c4;margin:0 4px;\">·</span>");
@@ -301,23 +338,31 @@ pub fn render_digest_email_html_with_lang(
     html.push_str("<tr><td style=\"padding-top:24px;font-size:13px;color:#686256;\">\n");
     if is_tr {
         html.push_str(&format!(
-            "<a href=\"{}/?lang=tr\" style=\"color:#1c1a16;text-decoration:underline;\">Ahbar üzerindeki tüm {} kaydı gör →</a> · ",
+            "<a href=\"{}/?lang=tr&amp;all=1\" style=\"color:#1c1a16;text-decoration:underline;\">Ahbar üzerindeki tüm {} kaydı gör →</a> · ",
             escape_xml(base),
             issue.stats.qualified_items
         ));
         html.push_str(&format!(
-            "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:underline;\">Manage Tags &amp; Preferences (No Login)</a> · ",
+            "<a href=\"{}/k/\" style=\"color:#5b564c;text-decoration:underline;\">Düz metin dizini (k/)</a> · ",
+            escape_xml(base)
+        ));
+        html.push_str(&format!(
+            "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:underline;\">Etiket &amp; Tercih Yönetimi (Şifresiz)</a> · ",
             escape_xml(&prefs_url)
         ));
         html.push_str(&format!(
-            "<a href=\"{}\" style=\"color:#686256;text-decoration:underline;\">One-Click Unsubscribe</a>\n",
+            "<a href=\"{}\" style=\"color:#686256;text-decoration:underline;\">Tek Tıkla Abonelikten Çık</a>\n",
             escape_xml(&unsub_url)
         ));
     } else {
         html.push_str(&format!(
-            "<a href=\"{}/\" style=\"color:#1c1a16;text-decoration:underline;\">Read all {} dispatches in the full index →</a> · ",
+            "<a href=\"{}/?all=1\" style=\"color:#1c1a16;text-decoration:underline;\">Read all {} dispatches in the full index →</a> · ",
             escape_xml(base),
             issue.stats.qualified_items
+        ));
+        html.push_str(&format!(
+            "<a href=\"{}/k/en/\" style=\"color:#5b564c;text-decoration:underline;\">Plain-text index (k/)</a> · ",
+            escape_xml(base)
         ));
         html.push_str(&format!(
             "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:underline;\">Manage Tags &amp; Preferences (No Login)</a> · ",

@@ -22,10 +22,11 @@ pub struct SourceDescriptor {
     pub default_tags: &'static [&'static str],
 }
 
-/// 56 curated primary scientific, mathematical, and systems engineering sources across the 7 areas of Ahbar.
+/// 86 curated primary scientific, mathematical, systems engineering, economic, geopolitical,
+/// and philosophical sources across the 10 areas of Ahbar.
 pub const SOURCES: &[SourceDescriptor] = &[
     // =========================================================================
-    // I. Computer Science & Software Engineering (10 sources)
+    // I. Computer Science & Software Engineering (12 sources)
     // =========================================================================
     SourceDescriptor {
         id: "arxiv-cs-pl-se",
@@ -127,9 +128,29 @@ pub const SOURCES: &[SourceDescriptor] = &[
         is_academic_paper: false,
         default_tags: &["distributed-systems", "databases"],
     },
+    SourceDescriptor {
+        id: "stripe-eng",
+        name: "Stripe Engineering Blog",
+        area: Area::Cs,
+        kind: SourceKind::RssAtom,
+        url: "https://stripe.com/blog/feed.rss",
+        authority_weight: 8.8,
+        is_academic_paper: false,
+        default_tags: &["distributed-systems", "software-architecture"],
+    },
+    SourceDescriptor {
+        id: "discord-eng",
+        name: "Discord Systems & Database Engineering",
+        area: Area::Cs,
+        kind: SourceKind::RssAtom,
+        url: "https://discord.com/blog/rss.xml",
+        authority_weight: 8.7,
+        is_academic_paper: false,
+        default_tags: &["rust", "databases"],
+    },
 
     // =========================================================================
-    // II. AI & Machine Learning (9 sources)
+    // II. AI & Machine Learning (11 sources)
     // =========================================================================
     SourceDescriptor {
         id: "hf-daily-papers",
@@ -221,9 +242,29 @@ pub const SOURCES: &[SourceDescriptor] = &[
         is_academic_paper: true,
         default_tags: &["ml-theory", "computer-vision"],
     },
+    SourceDescriptor {
+        id: "deepmind-blog",
+        name: "Google DeepMind Research Blog",
+        area: Area::Ai,
+        kind: SourceKind::RssAtom,
+        url: "https://deepmind.google/blog/rss.xml",
+        authority_weight: 9.3,
+        is_academic_paper: false,
+        default_tags: &["llm", "reinforcement-learning"],
+    },
+    SourceDescriptor {
+        id: "openai-research",
+        name: "OpenAI Research & Systems",
+        area: Area::Ai,
+        kind: SourceKind::RssAtom,
+        url: "https://openai.com/news/rss.xml",
+        authority_weight: 9.1,
+        is_academic_paper: false,
+        default_tags: &["llm", "agents"],
+    },
 
     // =========================================================================
-    // III. Mathematics (8 sources)
+    // III. Mathematics & Formal Sciences (9 sources)
     // =========================================================================
     SourceDescriptor {
         id: "arxiv-math-pure",
@@ -305,9 +346,19 @@ pub const SOURCES: &[SourceDescriptor] = &[
         is_academic_paper: false,
         default_tags: &["algebra-geometry", "formal-proofs"],
     },
+    SourceDescriptor {
+        id: "ams-math",
+        name: "American Mathematical Society (AMS News & Research)",
+        area: Area::Math,
+        kind: SourceKind::RssAtom,
+        url: "https://www.ams.org/rss/mathnews.rss",
+        authority_weight: 9.1,
+        is_academic_paper: false,
+        default_tags: &["number-theory", "algebra-geometry"],
+    },
 
     // =========================================================================
-    // IV. Physics & Quantum (8 sources)
+    // IV. Physics, Quantum & Space (9 sources)
     // =========================================================================
     SourceDescriptor {
         id: "arxiv-physics-quantum",
@@ -389,9 +440,19 @@ pub const SOURCES: &[SourceDescriptor] = &[
         is_academic_paper: false,
         default_tags: &["high-energy", "quantum-physics"],
     },
+    SourceDescriptor {
+        id: "phys-org-quantum",
+        name: "Phys.org (Quantum & Condensed Matter)",
+        area: Area::Physics,
+        kind: SourceKind::RssAtom,
+        url: "https://phys.org/rss-feed/physics-news/quantum-physics/",
+        authority_weight: 8.7,
+        is_academic_paper: false,
+        default_tags: &["quantum-physics", "condensed-matter"],
+    },
 
     // =========================================================================
-    // V. Systems, Hardware & Security (9 sources)
+    // V. Systems, Hardware & Security (10 sources)
     // =========================================================================
     SourceDescriptor {
         id: "arxiv-systems-arch",
@@ -483,9 +544,19 @@ pub const SOURCES: &[SourceDescriptor] = &[
         is_academic_paper: false,
         default_tags: &["infosec", "networking"],
     },
+    SourceDescriptor {
+        id: "ieee-spectrum",
+        name: "IEEE Spectrum (Semiconductors & Hardware)",
+        area: Area::Systems,
+        kind: SourceKind::RssAtom,
+        url: "https://spectrum.ieee.org/feeds/feed.rss",
+        authority_weight: 8.9,
+        is_academic_paper: false,
+        default_tags: &["semiconductors", "computer-architecture"],
+    },
 
     // =========================================================================
-    // VI. Computational Science & Bio (6 sources)
+    // VI. Biotech, Medicine & Materials (6 sources)
     // =========================================================================
     SourceDescriptor {
         id: "arxiv-qbio",
@@ -549,7 +620,7 @@ pub const SOURCES: &[SourceDescriptor] = &[
     },
 
     // =========================================================================
-    // VII. Cryptography, Web3 & Blockchain Systems (6 sources)
+    // VII. Cryptography, Web3 & Protocols (6 sources)
     // =========================================================================
     SourceDescriptor {
         id: "iacr-eprint",
@@ -610,5 +681,247 @@ pub const SOURCES: &[SourceDescriptor] = &[
         authority_weight: 8.7,
         is_academic_paper: false,
         default_tags: &["zkp", "consensus"],
+    },
+
+    // =========================================================================
+    // VIII. Economics, Markets & Quantitative Finance (9 sources — Global + TR)
+    // =========================================================================
+    SourceDescriptor {
+        id: "arxiv-econ",
+        name: "arXiv Economics (econ.EM, econ.GN, econ.TH)",
+        area: Area::Econ,
+        kind: SourceKind::ArxivApi,
+        url: "https://export.arxiv.org/api/query?search_query=cat:econ.EM+OR+cat:econ.GN+OR+cat:econ.TH&sortBy=submittedDate&sortOrder=descending&max_results=25",
+        authority_weight: 9.3,
+        is_academic_paper: true,
+        default_tags: &["econometrics", "macroeconomics"],
+    },
+    SourceDescriptor {
+        id: "arxiv-qfin",
+        name: "arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)",
+        area: Area::Econ,
+        kind: SourceKind::ArxivApi,
+        url: "https://export.arxiv.org/api/query?search_query=cat:q-fin.ST+OR+cat:q-fin.MF+OR+cat:q-fin.TR+OR+cat:q-fin.CP+OR+cat:q-fin.EC&sortBy=submittedDate&sortOrder=descending&max_results=25",
+        authority_weight: 9.2,
+        is_academic_paper: true,
+        default_tags: &["quant-finance", "market-design"],
+    },
+    SourceDescriptor {
+        id: "nber-working-papers",
+        name: "NBER Working Papers (National Bureau of Economic Research)",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://back.nber.org/rss/new.xml",
+        authority_weight: 9.6,
+        is_academic_paper: true,
+        default_tags: &["macroeconomics", "econometrics"],
+    },
+    SourceDescriptor {
+        id: "voxeu-cepr",
+        name: "VoxEU / CEPR Economic Policy Research",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://cepr.org/rss/voxeu",
+        authority_weight: 9.3,
+        is_academic_paper: false,
+        default_tags: &["macroeconomics", "monetary-policy"],
+    },
+    SourceDescriptor {
+        id: "bis-research",
+        name: "Bank for International Settlements (BIS Research)",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://www.bis.org/doclist/bis_fsi_publs.rss",
+        authority_weight: 9.4,
+        is_academic_paper: true,
+        default_tags: &["monetary-policy", "quant-finance"],
+    },
+    SourceDescriptor {
+        id: "fed-liberty-street",
+        name: "Federal Reserve Bank of New York — Liberty Street Economics",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://libertystreeteconomics.newyorkfed.org/feed/",
+        authority_weight: 9.2,
+        is_academic_paper: false,
+        default_tags: &["monetary-policy", "macroeconomics", "quant-finance"],
+    },
+    SourceDescriptor {
+        id: "piie-econ",
+        name: "Peterson Institute for International Economics (PIIE)",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://www.piie.com/rss.xml",
+        authority_weight: 9.1,
+        is_academic_paper: false,
+        default_tags: &["trade-industry", "monetary-policy"],
+    },
+    SourceDescriptor {
+        id: "tcmb-blog",
+        name: "TCMB Araştırma Blogu (Merkez Bankası)",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://tcmblog.org/tr/feed/",
+        authority_weight: 9.2,
+        is_academic_paper: false,
+        default_tags: &["monetary-policy", "macroeconomics"],
+    },
+    SourceDescriptor {
+        id: "tepav-research",
+        name: "TEPAV (Türkiye Ekonomi Politikaları Araştırma Vakfı)",
+        area: Area::Econ,
+        kind: SourceKind::RssAtom,
+        url: "https://www.tepav.org.tr/tr/rss/blog",
+        authority_weight: 8.9,
+        is_academic_paper: false,
+        default_tags: &["macroeconomics", "trade-industry"],
+    },
+
+    // =========================================================================
+    // IX. International Relations, Geopolitics & Strategy (7 sources)
+    // =========================================================================
+    SourceDescriptor {
+        id: "foreign-affairs",
+        name: "Foreign Affairs",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://www.foreignaffairs.com/rss.xml",
+        authority_weight: 9.4,
+        is_academic_paper: false,
+        default_tags: &["geopolitics", "defense-strategy"],
+    },
+    SourceDescriptor {
+        id: "carnegie-endowment",
+        name: "Carnegie Endowment for International Peace",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://carnegieendowment.org/rss/solr",
+        authority_weight: 9.2,
+        is_academic_paper: false,
+        default_tags: &["geopolitics", "tech-policy"],
+    },
+    SourceDescriptor {
+        id: "atlantic-council",
+        name: "Atlantic Council (Geopolitics, Statecraft & Tech Strategy)",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://www.atlanticcouncil.org/feed/",
+        authority_weight: 9.1,
+        is_academic_paper: false,
+        default_tags: &["geopolitics", "defense-strategy", "tech-policy"],
+    },
+    SourceDescriptor {
+        id: "war-on-the-rocks",
+        name: "War on the Rocks (Defense & Grand Strategy)",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://warontherocks.com/feed/",
+        authority_weight: 9.0,
+        is_academic_paper: false,
+        default_tags: &["defense-strategy", "geopolitics"],
+    },
+    SourceDescriptor {
+        id: "lawfare-blog",
+        name: "Lawfare (National Security, Tech Policy & International Law)",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://www.lawfaremedia.org/rss.xml",
+        authority_weight: 9.2,
+        is_academic_paper: false,
+        default_tags: &["international-law", "cyber-statecraft"],
+    },
+    SourceDescriptor {
+        id: "ecfr-eu",
+        name: "European Council on Foreign Relations (ECFR)",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://ecfr.eu/feed/",
+        authority_weight: 9.0,
+        is_academic_paper: false,
+        default_tags: &["geopolitics", "energy-security"],
+    },
+    SourceDescriptor {
+        id: "edam-turkey",
+        name: "EDAM (Ekonomi ve Dış Politika Araştırmalar Merkezi)",
+        area: Area::Geopolitics,
+        kind: SourceKind::RssAtom,
+        url: "https://edam.org.tr/feed/",
+        authority_weight: 8.9,
+        is_academic_paper: false,
+        default_tags: &["geopolitics", "defense-strategy"],
+    },
+
+    // =========================================================================
+    // X. Philosophy of Science, Decision Theory & Cognition (7 sources)
+    // =========================================================================
+    SourceDescriptor {
+        id: "arxiv-gt-complex",
+        name: "arXiv Game Theory, Complex Systems & Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)",
+        area: Area::Philosophy,
+        kind: SourceKind::ArxivApi,
+        url: "https://export.arxiv.org/api/query?search_query=cat:cs.GT+OR+cat:nlin.AO+OR+cat:physics.soc-ph+OR+cat:physics.hist-ph&sortBy=submittedDate&sortOrder=descending&max_results=25",
+        authority_weight: 9.2,
+        is_academic_paper: true,
+        default_tags: &["decision-theory", "complex-systems"],
+    },
+    SourceDescriptor {
+        id: "philsci-archive",
+        name: "PhilSci-Archive (Philosophy of Science Preprints)",
+        area: Area::Philosophy,
+        kind: SourceKind::RssAtom,
+        url: "https://philsci-archive.pitt.edu/cgi/latest_tool?output=Atom",
+        authority_weight: 9.5,
+        is_academic_paper: true,
+        default_tags: &["philosophy-of-science", "epistemology"],
+    },
+    SourceDescriptor {
+        id: "aeon-essays",
+        name: "Aeon (Philosophy, Science & Cognitive Essays)",
+        area: Area::Philosophy,
+        kind: SourceKind::RssAtom,
+        url: "https://aeon.co/feed.rss",
+        authority_weight: 9.0,
+        is_academic_paper: false,
+        default_tags: &["philosophy-of-science", "cognitive-science"],
+    },
+    SourceDescriptor {
+        id: "daily-nous",
+        name: "Daily Nous (Philosophy Research & Epistemology)",
+        area: Area::Philosophy,
+        kind: SourceKind::RssAtom,
+        url: "https://dailynous.com/feed/",
+        authority_weight: 8.8,
+        is_academic_paper: false,
+        default_tags: &["epistemology", "ai-ethics"],
+    },
+    SourceDescriptor {
+        id: "mit-press-reader",
+        name: "The MIT Press Reader (Science, Epistemology & Systems)",
+        area: Area::Philosophy,
+        kind: SourceKind::RssAtom,
+        url: "https://thereader.mitpress.mit.edu/feed/",
+        authority_weight: 8.9,
+        is_academic_paper: false,
+        default_tags: &["cognitive-science", "philosophy-of-science"],
+    },
+    SourceDescriptor {
+        id: "santa-fe-institute",
+        name: "Santa Fe Institute (Complexity & Adaptive Systems)",
+        area: Area::Philosophy,
+        kind: SourceKind::RssAtom,
+        url: "https://www.santafe.edu/news-center/news/rss",
+        authority_weight: 9.3,
+        is_academic_paper: false,
+        default_tags: &["complex-systems", "decision-theory"],
+    },
+    SourceDescriptor {
+        id: "sarkac-bilim",
+        name: "Bilim Akademisi — Sarkaç",
+        area: Area::Philosophy,
+        kind: SourceKind::RssAtom,
+        url: "https://sarkac.org/feed/",
+        authority_weight: 9.1,
+        is_academic_paper: false,
+        default_tags: &["philosophy-of-science", "cognitive-science"],
     },
 ];

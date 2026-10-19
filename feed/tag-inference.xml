@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ahbar · #Inference &amp; Quantization</title>
+  <subtitle>Daily technical dispatches tagged with #inference.</subtitle>
+  <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://latifkedi.github.io/ahbar/"/>
+  <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
+  <updated>2026-10-19T10:08:54.874487700+00:00</updated>
+  <entry>
+    <title>TUPLE-Bench: Evaluating and Mitigating Privacy-Utility Trade-offs in Typed Decision Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-60-tuple-bench-evaluating-and-mitigating"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23668v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-60-tuple-bench-evaluating-and-mitigating</id>
+    <updated>2026-10-16T16:00:57+00:00</updated>
+    <summary type="html">&lt;p&gt;Typed decision models often return more than a selected category. They also expose probabilities for each candidate and, sometimes, a separate confidence score. These fields support downstream decisions but may reveal information beyond a recipient&amp;apos;s authorization.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23668v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #inference&lt;/p&gt;</summary>
+  </entry>
+</feed>

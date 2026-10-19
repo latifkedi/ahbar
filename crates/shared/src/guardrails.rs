@@ -55,8 +55,50 @@ pub fn is_sponsored_or_clickbait(title: &str, summary: &str, url: &str) -> bool 
     false
 }
 
+/// Returns `true` if `expr` (the content between single `$ ... $` delimiters)
+/// is genuine inline LaTeX math rather than prose between two currency `$` signs
+/// (e.g. `"$1 billion ... $30 billion"` or `"$28 to $36 billion"`).
+pub fn is_likely_latex_math(expr: &str) -> bool {
+    if expr.is_empty() || expr.len() > 160 {
+        return false;
+    }
+    if expr.starts_with(char::is_whitespace) || expr.ends_with(char::is_whitespace) {
+        return false;
+    }
+    if expr.contains(". ") || expr.contains(".\n") {
+        return false;
+    }
+    // If it starts with a number followed by whitespace and a word (e.g. "1 billion", "28 to"),
+    // it is a currency figure unless it contains an explicit LaTeX backslash command.
+    let bytes = expr.as_bytes();
+    if bytes[0].is_ascii_digit() && !expr.contains('\\') {
+        let mut k = 0;
+        while k < bytes.len() && (bytes[k].is_ascii_digit() || bytes[k] == b'.' || bytes[k] == b',')
+        {
+            k += 1;
+        }
+        if k < bytes.len() && bytes[k].is_ascii_whitespace() {
+            let rest = expr[k..].trim_start();
+            let first_word_len = rest
+                .chars()
+                .take_while(|c| c.is_alphabetic())
+                .count();
+            if first_word_len >= 2 {
+                return false;
+            }
+        }
+        // Pure number without math symbols between two `$` is also unlikely to be math if > 6 chars
+        if !expr.chars().any(|c| matches!(c, '^' | '_' | '=' | '<' | '>' | '+' | '-' | '*' | '/'))
+            && expr.len() > 6
+        {
+            return false;
+        }
+    }
+    true
+}
+
 /// Validates and repairs inline LaTeX delimiters (`$...$` and `$$...$$`)
-/// so unclosed math markers never corrupt paragraph rendering.
+/// so unclosed math markers never corrupt paragraph rendering, while leaving currency `$` intact.
 pub fn sanitize_and_validate_latex(input: &str) -> String {
     let mut text = input.trim().to_string();
     if text.is_empty() {
@@ -66,70 +108,92 @@ pub fn sanitize_and_validate_latex(input: &str) -> String {
     // Normalize `\( ... \)` into `$...$` and `\[ ... \]` into `$$...$$`
     text = text.replace("\\(", "$").replace("\\)", "$");
     text = text.replace("\\[", "$$").replace("\\]", "$$");
-
-    // Count non-escaped single `$` signs (ignoring `$$` and `\$`)
-    let chars: Vec<char> = text.chars().collect();
-    let mut single_dollar_positions = Vec::new();
-    let mut i = 0;
-    while i < chars.len() {
-        if chars[i] == '\\' {
-            i += 2;
-            continue;
-        }
-        if chars[i] == '$' {
-            if i + 1 < chars.len() && chars[i + 1] == '$' {
-                i += 2;
-                continue;
-            }
-            single_dollar_positions.push(i);
-        }
-        i += 1;
-    }
-
-    // If there is an odd number of unescaped single `$` delimiters, escape the stray last one
-    if single_dollar_positions.len() % 2 == 1 {
-        if let Some(&last_pos) = single_dollar_positions.last() {
-            let mut repaired = String::with_capacity(text.len() + 1);
-            for (idx, ch) in chars.iter().enumerate() {
-                if idx == last_pos {
-                    repaired.push('\\');
-                }
-                repaired.push(*ch);
-            }
-            text = repaired;
-        }
-    }
+    // Unescape any previously escaped `\$` before currency numbers so prose stays clean
+    text = text.replace("\\$", "$");
 
     text
 }
 
 /// Converts inline LaTeX markers (`$...$`, `\times`, `\le`, `\ge`, `\alpha`, `\mathbb{F}`, etc.)
-/// into clean Unicode math symbols for HTML email clients that do not execute KaTeX JS.
+/// into clean Unicode math symbols for HTML email clients and plain-text views,
+/// while preserving currency dollar signs (`$100`, `$1 billion`).
 pub fn latex_to_email_unicode(input: &str) -> String {
-    let mut s = input.to_string();
+    // First strip only genuine `$ ... $` and `$$ ... $$` delimiters, keeping currency `$`
+    let chars: Vec<char> = input.chars().collect();
+    let mut s = String::with_capacity(input.len());
+    let mut i = 0;
+    while i < chars.len() {
+        if chars[i] == '$' {
+            let is_display = i + 1 < chars.len() && chars[i + 1] == '$';
+            let delim_len = if is_display { 2 } else { 1 };
+            let start = i + delim_len;
+            let mut end = None;
+            let mut j = start;
+            while j < chars.len() {
+                if is_display {
+                    if j + 1 < chars.len() && chars[j] == '$' && chars[j + 1] == '$' {
+                        end = Some(j);
+                        break;
+                    }
+                } else if chars[j] == '$' {
+                    end = Some(j);
+                    break;
+                }
+                j += 1;
+            }
+            if let Some(end_idx) = end {
+                let expr: String = chars[start..end_idx].iter().collect();
+                if is_display || is_likely_latex_math(&expr) {
+                    s.push_str(&expr);
+                    i = end_idx + delim_len;
+                    continue;
+                }
+            }
+        }
+        s.push(chars[i]);
+        i += 1;
+    }
+
     let replacements = [
-        ("$$", ""),
-        ("$", ""),
         ("\\times", "×"),
         ("\\cdot", "·"),
         ("\\le", "≤"),
+        ("\\leq", "≤"),
         ("\\ge", "≥"),
+        ("\\geq", "≥"),
         ("\\neq", "≠"),
         ("\\approx", "≈"),
+        ("\\sim", "∼"),
         ("\\ll", "≪"),
         ("\\gg", "≫"),
+        ("\\to", "→"),
+        ("\\rightarrow", "→"),
         ("\\infty", "∞"),
+        ("\\pm", "±"),
         ("\\%", "%"),
         ("\\mathbb{F}", "𝔽"),
         ("\\mathbb{R}", "ℝ"),
         ("\\mathbb{Z}", "ℤ"),
+        ("\\mathbb{N}", "ℕ"),
+        ("\\mathbb{E}", "𝔼"),
+        ("\\mathcal{O}", "𝒪"),
         ("\\alpha", "α"),
         ("\\beta", "β"),
         ("\\gamma", "γ"),
+        ("\\delta", "δ"),
         ("\\Delta", "Δ"),
         ("\\varepsilon", "ε"),
+        ("\\epsilon", "ϵ"),
+        ("\\theta", "θ"),
         ("\\lambda", "λ"),
+        ("\\mu", "μ"),
         ("\\nu", "ν"),
+        ("\\pi", "π"),
+        ("\\rho", "ρ"),
+        ("\\sigma", "σ"),
+        ("\\tau", "τ"),
+        ("\\omega", "ω"),
+        ("\\Omega", "Ω"),
         ("{,}", ","),
     ];
     for (pat, rep) in replacements {
@@ -144,6 +208,127 @@ pub fn latex_to_email_unicode(input: &str) -> String {
         }
     }
     s
+}
+
+/// Converts text containing `$...$` and `$$...$$` into safe HTML with native `<math class="m">`
+/// elements and typographic `<msup>` / `<msub>` tags — zero external KaTeX CDN required!
+/// Automatically preserves currency figures like `$1 billion` or `$28 to $36 billion`.
+pub fn latex_to_html_math(input: &str) -> String {
+    let mut out = String::with_capacity(input.len() + 64);
+    let chars: Vec<char> = input.chars().collect();
+    let mut i = 0;
+
+    while i < chars.len() {
+        if chars[i] == '\\' && i + 1 < chars.len() && chars[i + 1] == '$' {
+            out.push('$');
+            i += 2;
+            continue;
+        }
+        if chars[i] == '$' {
+            let is_display = i + 1 < chars.len() && chars[i + 1] == '$';
+            let delim_len = if is_display { 2 } else { 1 };
+            let start = i + delim_len;
+            let mut end = None;
+            let mut j = start;
+            while j < chars.len() {
+                if chars[j] == '\\' {
+                    j += 2;
+                    continue;
+                }
+                if is_display {
+                    if j + 1 < chars.len() && chars[j] == '$' && chars[j + 1] == '$' {
+                        end = Some(j);
+                        break;
+                    }
+                } else if chars[j] == '$' {
+                    end = Some(j);
+                    break;
+                }
+                j += 1;
+            }
+
+            if let Some(end_idx) = end {
+                let expr: String = chars[start..end_idx].iter().collect();
+                if is_display || is_likely_latex_math(&expr) {
+                    let rendered = render_math_expr_to_mathml(&expr, is_display);
+                    out.push_str(&rendered);
+                    i = end_idx + delim_len;
+                    continue;
+                }
+            }
+        }
+        push_escaped_html_char(&mut out, chars[i]);
+        i += 1;
+    }
+
+    out
+}
+
+fn render_math_expr_to_mathml(expr: &str, is_display: bool) -> String {
+    let unicode_expr = latex_to_email_unicode(expr);
+    let chars: Vec<char> = unicode_expr.chars().collect();
+    let mut body = String::with_capacity(unicode_expr.len() + 32);
+    let mut i = 0;
+    while i < chars.len() {
+        if (chars[i] == '^' || chars[i] == '_') && i + 1 < chars.len() {
+            let tag = if chars[i] == '^' { "sup" } else { "sub" };
+            i += 1;
+            let mut group = String::new();
+            if chars[i] == '{' {
+                i += 1;
+                while i < chars.len() && chars[i] != '}' {
+                    push_escaped_html_char(&mut group, chars[i]);
+                    i += 1;
+                }
+                if i < chars.len() && chars[i] == '}' {
+                    i += 1;
+                }
+            } else {
+                while i < chars.len()
+                    && (chars[i].is_ascii_alphanumeric() || matches!(chars[i], '-' | '+' | '/'))
+                {
+                    push_escaped_html_char(&mut group, chars[i]);
+                    i += 1;
+                }
+            }
+            body.push_str(&format!("<{}>{}</{}>", tag, group, tag));
+            continue;
+        }
+        if chars[i] == '\\' {
+            // Strip remaining LaTeX command prefix like \log, \sin, \min
+            i += 1;
+            continue;
+        }
+        if chars[i] == '{' || chars[i] == '}' {
+            i += 1;
+            continue;
+        }
+        push_escaped_html_char(&mut body, chars[i]);
+        i += 1;
+    }
+
+    if is_display {
+        format!(
+            "<math display=\"block\" class=\"m m-block\"><mrow>{}</mrow></math>",
+            body
+        )
+    } else {
+        format!(
+            "<math display=\"inline\" class=\"m\"><mrow>{}</mrow></math>",
+            body
+        )
+    }
+}
+
+fn push_escaped_html_char(out: &mut String, ch: char) {
+    match ch {
+        '&' => out.push_str("&amp;"),
+        '<' => out.push_str("&lt;"),
+        '>' => out.push_str("&gt;"),
+        '"' => out.push_str("&quot;"),
+        '\'' => out.push_str("&#39;"),
+        _ => out.push(ch),
+    }
 }
 
 /// Computes a 64-bit SimHash fingerprint over normalized word/character 3-grams
@@ -166,7 +351,6 @@ pub fn simhash_64(text: &str) -> u64 {
 
     let mut weights = [0i32; 64];
     for (idx, &tok) in tokens.iter().enumerate() {
-        // Combine unigram and adjacent bigram features
         let h1 = fnv1a_64(tok.as_bytes());
         accumulate_bits(&mut weights, h1, 2);
 
@@ -265,7 +449,6 @@ pub fn extract_arxiv_links(url: &str) -> Option<(String, String, String)> {
         return None;
     };
 
-    // Strip version suffix like v1/v2 for canonical ID if needed, but keep clean ID
     let paper_id = id_part.split('?').next().unwrap_or(id_part).trim();
     if paper_id.is_empty() {
         return None;
@@ -322,13 +505,20 @@ mod tests {
     }
 
     #[test]
-    fn test_latex_sanitizer() {
+    fn test_latex_sanitizer_and_mathml() {
         let valid = "Runs in $O(n \\log n)$ time with $$E = mc^2$$.";
         assert_eq!(sanitize_and_validate_latex(valid), valid);
 
-        let broken = "Costs $50 for $O(n)$ queries.";
-        let fixed = sanitize_and_validate_latex(broken);
-        assert_eq!(fixed, "Costs $50 for $O(n)\\$ queries.");
+        let html = latex_to_html_math(valid);
+        assert!(html.contains("<math display=\"inline\" class=\"m\">"));
+        assert!(html.contains("<sup>2</sup>"));
+
+        let mixed = "Costs $50 for $O(n)$ queries.";
+        let mixed_html = latex_to_html_math(mixed);
+        assert!(mixed_html.contains("Costs $50 for <math display=\"inline\" class=\"m\"><mrow>O(n)</mrow></math> queries."));
+
+        let econ = "Net worth exceeding $1 billion yields $30 billion (range $28 to $36 billion).";
+        assert_eq!(latex_to_html_math(econ), econ);
     }
 
     #[test]

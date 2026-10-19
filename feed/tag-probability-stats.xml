@@ -5,20 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-10-19T09:03:59.309708600+00:00</updated>
+  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
   <entry>
     <title>The semiring of spectral duality skeletons: cancellation, characters and factorization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-23-the-semiring-of-spectral-duality"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-the-semiring-of-spectral-duality"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23684v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-23-the-semiring-of-spectral-duality</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-the-semiring-of-spectral-duality</id>
     <updated>2026-10-16T16:12:57+00:00</updated>
     <summary type="html">&lt;p&gt;Weighted dual skeletons are the combinatorial core of spectral duality structures. Their isomorphism classes, under Cartesian product and disjoint union, form a semiring graded by the degree. We identify it completely: a class is determined by its degree, a symmetric element of the group semiring N_0[R] and its number of fixed points.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23684v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>From Alpha to Execution: Trading Horizons, Regimes, and Schedules under Concave Impact and Hurst Scaling</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-22-from-alpha-to-execution-trading"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23749v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-22-from-alpha-to-execution-trading</id>
+    <updated>2026-10-16T16:55:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical execution models assume linear impact, diffusive prices, and an exogenous horizon. We study execution under concave power-law impact and Hurst-scaled price fluctuations, and make two contributions. First, we choose the execution horizon by maximizing the Sharpe ratio of the trade&amp;apos;s realized P&amp;amp;L.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23749v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Recursive Operator Localization and Spectral Gap Descent via the Geometry of Local Spectral Expansion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-24-recursive-operator-localization-and-spectral"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-23-recursive-operator-localization-and-spectral"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23695v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-24-recursive-operator-localization-and-spectral</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-23-recursive-operator-localization-and-spectral</id>
     <updated>2026-10-16T16:23:52+00:00</updated>
     <summary type="html">&lt;p&gt;We introduce Recursive Operator Localization (ROL), a framework for constructing hierarchies of local energy problems linked by linear maps between Hilbert spaces. To address spectral-gap problems, including those arising in quantum systems, we study a realization of ROL by nested subspaces indexed by a weighted simplicial complex. Using spectral gaps of auxiliary classical random walks on links, we propagate geometric estimates upward and use them to turn local spectral gaps at the bottom of the hierarchy into a spectral-gap bound for the global operator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23695v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing&lt;/p&gt;</summary>
   </entry>

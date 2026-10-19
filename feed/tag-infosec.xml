@@ -5,53 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-19T09:03:59.309708600+00:00</updated>
+  <updated>2026-10-19T10:20:07.577641100+00:00</updated>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-43-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-39-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-43-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-39-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Limits from nonlinear loss of spin-orbit-torque control of magnon transport</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-35-limits-from-nonlinear-loss-of"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-32-limits-from-nonlinear-loss-of"/>
     <link rel="related" href="https://arxiv.org/abs/2610.23763v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-35-limits-from-nonlinear-loss-of</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-32-limits-from-nonlinear-loss-of</id>
     <updated>2026-10-16T17:05:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Controlling magnon currents is central to the development of magnonic devices, which exploit spin excitations for information transport without charge flow. Here, we use the spin-orbit torque (SOT) from a Pt gate to control the effective magnon damping in three-terminal devices fabricated from low-damping lithium aluminum ferrite (LAFO) thin films and identify the nonlinear damping that ultimately limits the gate response. With increasing gate current, the nonlocal magnon signal initially increases, but saturates and subsequently decreases above a critical gate current density.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23763v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #infosec&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Controlling magnon currents is central to the development of magnonic devices, which exploit spin excitations for information transport without charge flow. Here, we use the spin-orbit torque (SOT) from a Pt gate to control the effective magnon damping in three-terminal devices fabricated from low-damping lithium aluminum ferrite (LAFO) thin films and identify the nonlinear damping that ultimately limits the gate response. With increasing gate current, the nonlocal magnon signal initially increases, but saturates and subsequently decreases above a critical gate current density.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23763v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>How Much Screening Buys a Second? Speed, Selection, and the Maker&apos;s Spread</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-59-how-much-screening-buys-a"/>
+    <link rel="related" href="https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-59-how-much-screening-buys-a</id>
+    <updated>2026-10-15T13:04:19+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the spread a liquidity provider needs to break even against counterparties that can exploit a stale quote, and we place two defenses on a single scale: repricing sooner and screening informed flow. A break-even condition pins down the exact screening rate at which a slower maker matches a faster unscreened venue: the selection that buys back the extra staleness. The result requires only an integrable price innovation and therefore holds under jumps, atoms and infinite variance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/how-much-screening-buys-a-second-speed-selection-and-the-makers-spread/26158&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #infosec #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-46-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-42-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-46-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-42-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>How to fix a bug in a fix</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-48-how-to-fix-a-bug"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-44-how-to-fix-a-bug"/>
     <link rel="related" href="https://projectzero.google/2026/10/emergency-patching.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-48-how-to-fix-a-bug</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-44-how-to-fix-a-bug</id>
     <updated>2026-10-06T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/emergency-patching.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-49-windows-exploitation-techniques-dangling-com"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-45-windows-exploitation-techniques-dangling-com"/>
     <link rel="related" href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-49-windows-exploitation-techniques-dangling-com</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-45-windows-exploitation-techniques-dangling-com</id>
     <updated>2026-09-21T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/09/windows-dangling-com.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Testing race conditions with memory access tracing and stack-based delay injection</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-50-testing-race-conditions-with-memory"/>
-    <link rel="related" href="https://projectzero.google/2026/09/maccconc-race-condition.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-50-testing-race-conditions-with-memory</id>
-    <updated>2026-09-08T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliably triggers the bug as part of a test suite.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/09/maccconc-race-condition.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
+    <title>Europe’s Credibility Gap</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-76-europe-s-credibility-gap"/>
+    <link rel="related" href="https://www.foreignaffairs.com/europe/europes-credibility-gap"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-76-europe-s-credibility-gap</id>
+    <updated>2026-10-19T08:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Ngaire Woods, Dean of Oxford’s Blavatnik School of Government, Class Mertens, also at Oxford, have written a piece arguing that Europe, despite its attempts at self-sufficiency, remains dependent on an unpredictable United States. The continent needs to address this vulnerability so that it can convince other countries, many of which find themselves similarly vulnerable to great-power coercion, that it is a worthy…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/europe/europes-credibility-gap&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>
