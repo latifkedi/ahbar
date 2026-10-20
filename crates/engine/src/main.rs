@@ -9,7 +9,7 @@ use ahbar_shared::{
     IssueStats, SourceHealthRecord, SubscriptionPreferences, SOURCES,
 };
 use chrono::{Datelike, NaiveDate, Utc, Weekday};
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use std::env;
 use std::fs;
 use std::path::{Path, PathBuf};
@@ -150,30 +150,55 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     fs::write(root_dir.join("data").join("sample-email-tr.html"), &preview_html_tr)?;
 
     if args.iter().any(|a| a == "--send-emails") {
-        if let Ok(target_emails) = env::var("AHBAR_TO_EMAIL") {
-            let client = reqwest::Client::new();
-            let subject = format!("Ahbar Sayı #{} — {}", issue.issue_number, issue.date);
-            let email_html = if env::var("AHBAR_EMAIL_LANG").unwrap_or_else(|_| "tr".to_string()) == "tr" {
-                &preview_html_tr
-            } else {
-                &preview_html_en
-            };
-            for target_email in target_emails.split(',').map(|s| s.trim()).filter(|s| !s.is_empty()) {
-                println!("[Ahbar Engine] Dispatching daily email digest to {}...", target_email);
+        let client = reqwest::Client::new();
+        let default_lang = env::var("AHBAR_EMAIL_LANG").unwrap_or_else(|_| "tr".to_string());
+        let subscribers = collect_active_subscribers(&client, &root_dir, &default_lang).await;
+
+        if subscribers.is_empty() {
+            println!("[Ahbar Engine] Notice: --send-emails specified but no active subscribers found (check AHBAR_SUBSCRIBERS_URL, RESEND_AUDIENCE_ID, data/subscribers.json, or AHBAR_TO_EMAIL)");
+        } else {
+            println!(
+                "[Ahbar Engine] Starting automated daily dispatch to {} subscriber(s)...",
+                subscribers.len()
+            );
+
+            for sub in &subscribers {
+                let selected = mailer::select_items_for_subscriber(&issue, sub);
+                if selected.is_empty() {
+                    continue;
+                }
+                let html = mailer::render_digest_email_html_with_lang(
+                    &issue,
+                    &selected,
+                    &sub.email,
+                    &site_base_url,
+                    &hmac_secret,
+                    &sub.lang,
+                );
+                let subject = if sub.lang == "tr" {
+                    format!("Ahbar Sayı #{} — {}", issue.issue_number, issue.date)
+                } else {
+                    format!("Ahbar Issue #{} — {}", issue.issue_number, issue.date)
+                };
+
                 match mailer::dispatch_email_via_provider(
                     &client,
-                    target_email,
+                    &sub.email,
                     &subject,
-                    email_html,
+                    &html,
                 )
                 .await
                 {
-                    Ok(provider) => println!("[Ahbar Engine] Dispatched email digest to {} via {}", target_email, provider),
-                    Err(e) => eprintln!("[Ahbar Engine] Failed to dispatch email to {}: {}", target_email, e),
+                    Ok(provider) => println!(
+                        "[Ahbar Engine] Successfully delivered issue to {} via {}",
+                        sub.email, provider
+                    ),
+                    Err(e) => eprintln!(
+                        "[Ahbar Engine] Delivery failed for {}: {}",
+                        sub.email, e
+                    ),
                 }
             }
-        } else {
-            println!("[Ahbar Engine] Notice: --send-emails specified but AHBAR_TO_EMAIL is not set in environment");
         }
     }
 
@@ -210,6 +235,117 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     );
 
     Ok(())
+}
+
+
+async fn collect_active_subscribers(
+    client: &reqwest::Client,
+    root_dir: &Path,
+    default_lang: &str,
+) -> Vec<SubscriptionPreferences> {
+    let mut subscribers: Vec<SubscriptionPreferences> = Vec::new();
+    let mut seen_emails = HashSet::new();
+
+    // 1. From local data/subscribers.json (if present)
+    let subs_file = root_dir.join("data").join("subscribers.json");
+    if subs_file.exists() {
+        if let Ok(raw) = fs::read_to_string(&subs_file) {
+            if let Ok(list) = serde_json::from_str::<Vec<SubscriptionPreferences>>(&raw) {
+                for s in list {
+                    if s.verified && seen_emails.insert(s.email.to_lowercase()) {
+                        subscribers.push(s);
+                    }
+                }
+            }
+        }
+    }
+
+    // 2. From Cloudflare Worker API (AHBAR_SUBSCRIBERS_URL)
+    if let Ok(worker_url) = env::var("AHBAR_SUBSCRIBERS_URL") {
+        let secret = env::var("AHBAR_HMAC_SECRET").unwrap_or_else(|_| "ahbar-default-dev-hmac-secret-key".to_string());
+        if let Ok(resp) = client.get(&worker_url).bearer_auth(&secret).send().await {
+            if resp.status().is_success() {
+                if let Ok(json) = resp.json::<serde_json::Value>().await {
+                    if let Some(list) = json.get("subscribers").and_then(|v| v.as_array()) {
+                        for item in list {
+                            if let Some(email) = item.get("email").and_then(|v| v.as_str()) {
+                                let email = email.trim().to_lowercase();
+                                if !email.is_empty() && seen_emails.insert(email.clone()) {
+                                    let lang = item.get("lang").and_then(|v| v.as_str()).unwrap_or(default_lang).to_string();
+                                    subscribers.push(SubscriptionPreferences {
+                                        email,
+                                        mode: DigestMode::Standard,
+                                        density: DigestDensity::ThreePerArea,
+                                        frequency: DigestFrequency::Daily,
+                                        content_filter: ContentFilter::All,
+                                        areas: Area::ALL.to_vec(),
+                                        tags: Vec::new(),
+                                        lang,
+                                        verified: true,
+                                    });
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 3. From Resend Audience API (if RESEND_AUDIENCE_ID and RESEND_API_KEY are configured)
+    if let (Ok(resend_key), Ok(aud_id)) = (env::var("RESEND_API_KEY"), env::var("RESEND_AUDIENCE_ID")) {
+        let url = format!("https://api.resend.com/audiences/{}/contacts", aud_id);
+        if let Ok(resp) = client.get(&url).bearer_auth(&resend_key).send().await {
+            if resp.status().is_success() {
+                if let Ok(json) = resp.json::<serde_json::Value>().await {
+                    if let Some(contacts) = json.get("data").and_then(|v| v.as_array()) {
+                        for c in contacts {
+                            let unsub = c.get("unsubscribed").and_then(|v| v.as_bool()).unwrap_or(false);
+                            if !unsub {
+                                if let Some(em) = c.get("email").and_then(|v| v.as_str()) {
+                                    let em = em.trim().to_lowercase();
+                                    if !em.is_empty() && seen_emails.insert(em.clone()) {
+                                        subscribers.push(SubscriptionPreferences {
+                                            email: em,
+                                            mode: DigestMode::Standard,
+                                            density: DigestDensity::ThreePerArea,
+                                            frequency: DigestFrequency::Daily,
+                                            content_filter: ContentFilter::All,
+                                            areas: Area::ALL.to_vec(),
+                                            tags: Vec::new(),
+                                            lang: default_lang.to_string(),
+                                            verified: true,
+                                        });
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 4. From AHBAR_TO_EMAIL environment fallback
+    if let Ok(direct_emails) = env::var("AHBAR_TO_EMAIL") {
+        for em in direct_emails.split(',').map(|s| s.trim().to_lowercase()).filter(|s| !s.is_empty()) {
+            if seen_emails.insert(em.clone()) {
+                subscribers.push(SubscriptionPreferences {
+                    email: em,
+                    mode: DigestMode::Standard,
+                    density: DigestDensity::ThreePerArea,
+                    frequency: DigestFrequency::Daily,
+                    content_filter: ContentFilter::All,
+                    areas: Area::ALL.to_vec(),
+                    tags: Vec::new(),
+                    lang: default_lang.to_string(),
+                    verified: true,
+                });
+            }
+        }
+    }
+
+    subscribers
 }
 
 fn compute_issue_number(root_dir: &Path, date_str: &str) -> u32 {

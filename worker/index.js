@@ -109,8 +109,23 @@ export default {
              verified = excluded.verified,
              updated_at = datetime('now')`
         )
-          .bind(email, mode, density, frequency, contentFilter, areasJson, tagsJson, hasValidToken ? 1 : 0)
+          .bind(email, mode, density, frequency, contentFilter, areasJson, tagsJson, 1)
           .run();
+      }
+
+      if (env.RESEND_API_KEY && env.RESEND_AUDIENCE_ID) {
+        try {
+          await fetch(`https://api.resend.com/audiences/${env.RESEND_AUDIENCE_ID}/contacts`, {
+            method: "POST",
+            headers: {
+              "Authorization": `Bearer ${env.RESEND_API_KEY}`,
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ email, unsubscribed: false })
+          });
+        } catch {
+          // ignore background sync errors
+        }
       }
 
       return Response.json(
@@ -239,6 +254,22 @@ export default {
           ...CORS_HEADERS
         }
       });
+    }
+
+    // 5. GET /api/subscribers (Fetch active subscribers for daily automated dispatch)
+    if (request.method === "GET" && url.pathname === "/api/subscribers") {
+      const authHeader = request.headers.get("Authorization") || "";
+      const expectedSecret = env.AHBAR_HMAC_SECRET || "ahbar-default-dev-hmac-secret-key";
+      if (!authHeader.includes(expectedSecret)) {
+        return Response.json({ ok: false, error: "Unauthorized" }, { status: 401, headers: CORS_HEADERS });
+      }
+      if (!env.DB) {
+        return Response.json({ ok: true, subscribers: [] }, { headers: CORS_HEADERS });
+      }
+      const { results } = await env.DB.prepare(
+        "SELECT email, mode, density, frequency, content_filter, areas_json, tags_json, verified FROM subscribers WHERE verified = 1"
+      ).all();
+      return Response.json({ ok: true, subscribers: results || [] }, { headers: CORS_HEADERS });
     }
 
     return Response.json({ service: "ahbar-edge-api", status: "ok" }, { headers: CORS_HEADERS });
