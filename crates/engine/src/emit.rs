@@ -75,6 +75,10 @@ pub fn emit_all(
     fs::write(feed_dir.join("all.xml"), &all_atom).map_err(|e| e.to_string())?;
     fs::write(root_dir.join("feed.xml"), &all_atom).map_err(|e| e.to_string())?;
 
+    // Podcast RSS 2.0 feed with iTunes namespace
+    let podcast_xml = build_podcast_feed(issue, site_base_url);
+    fs::write(feed_dir.join("podcast.xml"), &podcast_xml).map_err(|e| e.to_string())?;
+
     // Per-area feeds across all 10 areas
     for area in Area::ALL {
         let area_items: Vec<NewsItem> = issue
@@ -195,6 +199,7 @@ fn build_localized_issue(issue: &DailyIssue, is_tr: bool) -> DailyIssue {
                     findings_tradeoffs_tr: None,
                     abstract_excerpt: item.detail.abstract_excerpt.clone(),
                     bibtex: item.detail.bibtex.clone(),
+                    author_institutions: item.detail.author_institutions.clone(),
                 },
                 original_title: item.original_title.clone(),
                 authors: item.authors.clone(),
@@ -619,6 +624,52 @@ fn emit_tags_metadata(data_dir: &Path) -> Result<(), String> {
     let json = serde_json::to_string_pretty(&list).map_err(|e| e.to_string())?;
     fs::write(data_dir.join("tags.json"), json).map_err(|e| e.to_string())?;
     Ok(())
+}
+
+
+fn build_podcast_feed(issue: &DailyIssue, base_url: &str) -> String {
+    let base = base_url.trim_end_matches('/');
+    let mut xml = String::new();
+    xml.push_str("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
+    xml.push_str("<rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\">\n");
+    xml.push_str("  <channel>\n");
+    xml.push_str("    <title>Ahbar — Günlük Bilim ve Teknoloji Sesli Bülteni</title>\n");
+    xml.push_str(&format!("    <link>{}/</link>\n", escape_xml(base)));
+    xml.push_str("    <description>Yazılım mimarisi, yapay zekâ, matematik, kuantum fiziği, biyoteknoloji, kriptografi, ekonomi ve jeopolitik alanlarında günlük 5 dakikalık teknik sesli özet.</description>\n");
+    xml.push_str("    <language>tr</language>\n");
+    xml.push_str("    <itunes:author>Ahbar Autonomous Synthesizer</itunes:author>\n");
+    xml.push_str("    <itunes:category text=\"Technology\"/>\n");
+    xml.push_str("    <itunes:category text=\"Science\"/>\n");
+    xml.push_str(&format!("    <itunes:image href=\"{}/icons/icon-512.svg\"/>\n", escape_xml(base)));
+    xml.push_str("    <itunes:explicit>false</itunes:explicit>\n");
+
+    let mut picks = Vec::new();
+    for area in Area::ALL {
+        if let Some(item) = issue.items.iter().find(|i| i.area == area && i.is_top_pick)
+            .or_else(|| issue.items.iter().find(|i| i.area == area)) {
+            picks.push(item);
+        }
+    }
+
+    let mut desc_builder = String::new();
+    desc_builder.push_str(&format!("Ahbar Sayı #{} ({}):\n\n", issue.issue_number, issue.date));
+    for (idx, item) in picks.iter().enumerate() {
+        let title = item.headline_tr.as_deref().unwrap_or(&item.headline);
+        let summary = item.summary_tr.as_deref().unwrap_or(&item.summary);
+        desc_builder.push_str(&format!("{}. [{}] {}\n{}\n\n", idx + 1, item.area.title_tr(), title, summary));
+    }
+
+    xml.push_str("    <item>\n");
+    xml.push_str(&format!("      <title>Ahbar Günlük Bülten — Sayı #{} ({})</title>\n", issue.issue_number, escape_xml(&issue.date)));
+    xml.push_str(&format!("      <link>{}/?date={}</link>\n", escape_xml(base), escape_xml(&issue.date)));
+    xml.push_str(&format!("      <guid isPermaLink=\"false\">ahbar:podcast:{}:issue:{}</guid>\n", escape_xml(&issue.date), issue.issue_number));
+    xml.push_str(&format!("      <pubDate>{}</pubDate>\n", escape_xml(&issue.generated_at)));
+    xml.push_str(&format!("      <description>{}</description>\n", escape_xml(&desc_builder)));
+    xml.push_str("      <itunes:duration>300</itunes:duration>\n");
+    xml.push_str("    </item>\n");
+    xml.push_str("  </channel>\n");
+    xml.push_str("</rss>\n");
+    xml
 }
 
 fn build_atom_feed(

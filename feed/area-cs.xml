@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-cs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-cs.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T10:53:10.728755600+00:00</updated>
   <entry>
     <title>Zero-Copy Region Inference for Asynchronous Rust State Machines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-zero-copy-region-inference-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-01-zero-copy-region-inference-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-01-zero-copy-region-inference-for</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-01-zero-copy-region-inference-for</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-byzantine-fault-injection-and-split"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-byzantine-fault-injection-and-split"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-byzantine-fault-injection-and-split</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-deterministic-b-tree-compaction-under"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-03-deterministic-b-tree-compaction-under"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-03-deterministic-b-tree-compaction-under</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -136,7 +136,7 @@
       rand: "Random",
       langBtn: "TR",
       langTitle: "Türkçeye geç",
-      ph: "Search papers, theorems, systems, policy, #tags…",
+      ph: "Search dispatches, #tag, author:X, area:Y, min:8, is:paper... (/)",
       filterBtn: function (n) { return "Filter" + (n ? " (" + n + ")" : ""); },
       hasCode: "Has Code",
       papersOnly: "Papers Only",
@@ -183,6 +183,13 @@
       copyBib: "Copy BibTeX",
       copyMd: "Copy Markdown",
       copied: "✓ Copied",
+      audioBriefBtn: "▶ Audio Brief",
+      audioPlaying: "Playing",
+      audioPaused: "Paused",
+      audioTitle: "Daily Audio Digest",
+      citationsLbl: "Citations",
+      influentialLbl: "influential",
+      institutionsLbl: "Affiliations",
       sec1: "I. Problem & Technical Context",
       sec2: "II. Method, Architecture & Formal Construction",
       sec3: "III. Empirical Findings, Benchmarks & Trade-offs",
@@ -243,7 +250,7 @@
       rand: "Rastgele",
       langBtn: "EN",
       langTitle: "Switch to English",
-      ph: "Ara: makale, teorem, sistem, ekonomi, #etiket, kaynak…",
+      ph: "Bültende ara, #etiket, yazar:X, alan:Y, min:8, is:paper... (/)",
       filterBtn: function (n) { return "Süz" + (n ? " (" + n + ")" : ""); },
       hasCode: "Açık Kodlu",
       papersOnly: "Sadece Makale",
@@ -290,6 +297,13 @@
       copyBib: "BibTeX Kopyala",
       copyMd: "Markdown Kopyala",
       copied: "✓ Kopyalandı",
+      audioBriefBtn: "▶ Sesli Bülten",
+      audioPlaying: "Okunuyor",
+      audioPaused: "Duraklatıldı",
+      audioTitle: "Günün Sesli Seçkisi",
+      citationsLbl: "Atıf",
+      influentialLbl: "etkili",
+      institutionsLbl: "Kurumlar",
       sec1: "I. Problem & Teknik Bağlam",
       sec2: "II. Yöntem, Mimari & Biçimsel Yapı",
       sec3: "III. Deneysel Bulgular, Kıyaslamalar & Ödünleşimler",
@@ -796,6 +810,162 @@
   }
 
   // --- Filtering ---
+
+  // --- Hybrid / Fuzzy / Field-Weighted Search Engine ---
+  function foldDiacritics(str) {
+    if (!str) return "";
+    return str
+      .toLowerCase()
+      .replace(/[çÇ]/g, "c")
+      .replace(/[ğĞ]/g, "g")
+      .replace(/[ıİI]/g, "i")
+      .replace(/[öÖ]/g, "o")
+      .replace(/[şŞ]/g, "s")
+      .replace(/[üÜ]/g, "u")
+      .replace(/[âÂ]/g, "a")
+      .replace(/[îÎ]/g, "i")
+      .replace(/[ûÛ]/g, "u")
+      .replace(/[éèêë]/g, "e");
+  }
+
+  function levenshteinDistance(a, b) {
+    if (a === b) return 0;
+    var al = a.length, bl = b.length;
+    var row = [];
+    for (var i = 0; i <= bl; i++) row[i] = i;
+    for (var i = 1; i <= al; i++) {
+      var prev = i;
+      for (var j = 1; j <= bl; j++) {
+        var val = (a.charAt(i - 1) === b.charAt(j - 1)) ? row[j - 1] : Math.min(row[j - 1], row[j], prev) + 1;
+        row[j - 1] = prev;
+        prev = val;
+      }
+      row[bl] = prev;
+    }
+    return row[bl];
+  }
+
+  function fuzzyMatchText(text, token) {
+    var words = text.split(/[\s,.:;!?\"\'()\[\]{}<>\/\\_-]+/);
+    for (var i = 0; i < words.length; i++) {
+      var w = words[i];
+      if (Math.abs(w.length - token.length) <= 1 && w.length >= 4) {
+        if (levenshteinDistance(w, token) <= 1) return true;
+      }
+    }
+    return false;
+  }
+
+  function parseSearchQuery(rawQuery) {
+    var textTokens = [];
+    var filters = {
+      author: null,
+      area: null,
+      tag: null,
+      minScore: null,
+      isPaper: false,
+      isCode: false,
+      isTop: false
+    };
+
+    var parts = rawQuery.trim().split(/\s+/);
+    for (var i = 0; i < parts.length; i++) {
+      var part = parts[i];
+      if (!part) continue;
+      var colon = part.indexOf(":");
+      if (colon !== -1) {
+        var key = part.slice(0, colon).toLowerCase();
+        var val = part.slice(colon + 1).toLowerCase();
+        if (key === "author" || key === "yazar") {
+          filters.author = foldDiacritics(val);
+        } else if (key === "area" || key === "alan" || key === "kat") {
+          filters.area = val;
+        } else if (key === "tag" || key === "etiket") {
+          filters.tag = foldDiacritics(val.replace(/^#/, ""));
+        } else if (key === "min" || key === "score" || key === "puan") {
+          filters.minScore = parseFloat(val) || null;
+        } else if (key === "is") {
+          if (val === "paper" || val === "makale") filters.isPaper = true;
+          if (val === "code" || val === "kod") filters.isCode = true;
+          if (val === "top" || val === "seckin") filters.isTop = true;
+        } else {
+          textTokens.push(foldDiacritics(part));
+        }
+      } else if (part.charAt(0) === "#") {
+        filters.tag = foldDiacritics(part.slice(1));
+      } else {
+        textTokens.push(foldDiacritics(part));
+      }
+    }
+    return { tokens: textTokens, filters: filters };
+  }
+
+  function computeItemSearchScore(item, queryParsed) {
+    var f = queryParsed.filters;
+    if (f.area && item.area !== f.area) {
+      var aMeta = getArea(item.area);
+      if (!aMeta || (aMeta.slug !== f.area && foldDiacritics(aMeta.title_tr).indexOf(f.area) === -1)) {
+        return 0;
+      }
+    }
+    if (f.tag) {
+      var hasTag = (item.tags || []).some(function (t) {
+        return foldDiacritics(t).indexOf(f.tag) !== -1;
+      });
+      if (!hasTag) return 0;
+    }
+    if (f.author) {
+      var hasAuthor = (item.authors || []).some(function (au) {
+        return foldDiacritics(au).indexOf(f.author) !== -1;
+      });
+      if (!hasAuthor) return 0;
+    }
+    if (f.minScore !== null) {
+      if (!item.metrics || item.metrics.final_score < f.minScore) return 0;
+    }
+    if (f.isPaper && !item.is_paper) return 0;
+    if (f.isCode && !(item.links && item.links.code_url)) return 0;
+    if (f.isTop && !item.is_top_pick) return 0;
+
+    var tokens = queryParsed.tokens;
+    if (tokens.length === 0) return 1.0;
+
+    var headFold = foldDiacritics(itemHeadline(item));
+    var origFold = foldDiacritics(item.original_title || "");
+    var summaryFold = foldDiacritics(itemSummary(item));
+    var tagsFold = (item.tags || []).map(foldDiacritics).join(" ");
+    var authorsFold = (item.authors || []).map(foldDiacritics).join(" ");
+    var detailFold = foldDiacritics(
+      (item.detail && (item.detail.problem_context || "") + " " + (item.detail.method_architecture || "")) || ""
+    );
+
+    var totalScore = 0;
+    for (var i = 0; i < tokens.length; i++) {
+      var tok = tokens[i];
+      var tokScore = 0;
+      if (headFold.indexOf(tok) !== -1) tokScore += 12;
+      if (origFold.indexOf(tok) !== -1) tokScore += 10;
+      if (tagsFold.indexOf(tok) !== -1) tokScore += 7;
+      if (authorsFold.indexOf(tok) !== -1) tokScore += 5;
+      if (summaryFold.indexOf(tok) !== -1) tokScore += 3;
+      if (detailFold.indexOf(tok) !== -1) tokScore += 2;
+
+      if (tokScore === 0 && tok.length >= 5) {
+        if (fuzzyMatchText(headFold, tok)) tokScore += 6;
+        else if (fuzzyMatchText(origFold, tok)) tokScore += 5;
+        else if (fuzzyMatchText(tagsFold, tok)) tokScore += 4;
+        else if (fuzzyMatchText(summaryFold, tok)) tokScore += 2;
+      }
+
+      if (tokScore === 0) {
+        return 0;
+      }
+      totalScore += tokScore;
+    }
+
+    return totalScore;
+  }
+
   function matchesItem(item, ignoreArea, ignoreTag) {
     if (state.savedOnly && !state.savedMap[item.id]) return false;
     if (!ignoreArea && state.area && item.area !== state.area) return false;
@@ -806,22 +976,10 @@
       return false;
     }
     if (state.query.trim()) {
-      var q = state.query.toLowerCase().trim();
-      var cleanTag = q.charAt(0) === "#" ? q.slice(1) : q;
-      if (q.charAt(0) === "#") {
-        return (item.tags || []).some(function (t) { return t.toLowerCase().indexOf(cleanTag) !== -1; });
-      }
-      var hay = [
-        item.headline,
-        item.summary,
-        item.headline_tr || "",
-        item.summary_tr || "",
-        item.original_title,
-        item.source_name,
-        (item.authors || []).join(" "),
-        (item.tags || []).join(" ")
-      ].join(" ").toLowerCase();
-      if (hay.indexOf(q) === -1) return false;
+      var qParsed = parseSearchQuery(state.query);
+      var score = computeItemSearchScore(item, qParsed);
+      if (score <= 0) return false;
+      item._matchScore = score;
     }
     return true;
   }
@@ -844,6 +1002,11 @@
     }
     var list = state.issue.items.filter(function (i) { return matchesItem(i, false, false); });
     list.sort(function (a, b) {
+      if (state.query.trim()) {
+        var sa = a._matchScore || 0;
+        var sb = b._matchScore || 0;
+        if (sb !== sa) return sb - sa;
+      }
       if (state.sort === "community") {
         var pa = (a.metrics && a.metrics.community_points) || 0;
         var pb = (b.metrics && b.metrics.community_points) || 0;
@@ -874,6 +1037,27 @@
 
     var qEl = document.getElementById("q");
     if (qEl) qEl.placeholder = t.ph;
+
+    var audioBtn = document.getElementById("audiobtn");
+    if (audioBtn) audioBtn.onclick = toggleAudioBrief;
+
+    var adToggle = document.getElementById("ad-toggle");
+    if (adToggle) adToggle.onclick = toggleAudioBrief;
+
+    var adPrev = document.getElementById("ad-prev");
+    if (adPrev) adPrev.onclick = prevAudioItem;
+
+    var adNext = document.getElementById("ad-next");
+    if (adNext) adNext.onclick = nextAudioItem;
+
+    var adRate = document.getElementById("ad-rate");
+    if (adRate) adRate.onclick = cycleAudioRate;
+
+    var adStop = document.getElementById("ad-stop");
+    if (adStop) adStop.onclick = stopAudioBrief;
+
+    var audioBtn = document.getElementById("audiobtn");
+    if (audioBtn && !audioState.speaking) audioBtn.textContent = t.audioBriefBtn;
 
     var savedBtn = document.getElementById("savedb");
     var savedCount = Object.keys(state.savedMap).length;
@@ -1508,7 +1692,10 @@
             '<div class="visit">' + visitBtns.join("") + "</div>" +
             '<div class="mt" style="margin-bottom:28px;">' +
               '<span class="itags">' + tagsHtml + "</span>" +
-              '<span class="meta"><span class="n">Score ' + item.metrics.final_score.toFixed(1) + " · Novelty " + item.metrics.llm_novelty.toFixed(1) + " · Rigor " + item.metrics.llm_rigor.toFixed(1) + "</span></span>" +
+              '<span class="meta"><span class="n">Score ' + item.metrics.final_score.toFixed(1) + " · Novelty " + item.metrics.llm_novelty.toFixed(1) + " · Rigor " + item.metrics.llm_rigor.toFixed(1) + "</span>" +
+              (item.metrics.citation_count ? '<span class="badge-cite">📚 ' + esc(t.citationsLbl) + ': ' + item.metrics.citation_count + (item.metrics.influential_citations ? ' (' + item.metrics.influential_citations + ' ' + esc(t.influentialLbl) + ')' : '') + '</span>' : '') +
+              "</span>" +
+              (detail.author_institutions && detail.author_institutions.length ? '<span class="badge-inst">🏛️ <b>' + esc(t.institutionsLbl) + ':</b> ' + esc(detail.author_institutions.join(", ")) + '</span>' : '') +
             "</div>" +
 
             '<h2 class="k">' + esc(t.sec1) + "</h2>" +
@@ -1776,6 +1963,8 @@
       "authors: " + authorsStr,
       "tags: [" + tags.map(function (t) { return '"' + t + '"'; }).join(", ") + "]",
       "score: " + (item.metrics && item.metrics.final_score ? item.metrics.final_score.toFixed(1) : "0.0"),
+      item.metrics && item.metrics.citation_count ? "citations: " + item.metrics.citation_count : null,
+      d.author_institutions && d.author_institutions.length ? "institutions: " + JSON.stringify(d.author_institutions) : null,
       "---",
       "",
       "# " + itemHeadline(item),
@@ -1830,6 +2019,162 @@
     pushUrl(false);
     renderAll();
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+
+  // --- 5-Minute Daily Audio Briefing (SpeechSynthesis) ---
+  var audioState = {
+    supported: ("speechSynthesis" in window) && ("SpeechSynthesisUtterance" in window),
+    speaking: false,
+    paused: false,
+    index: 0,
+    items: [],
+    rate: 1.0,
+    utter: null
+  };
+
+  function initAudioBrief() {
+    if (!audioState.supported || !state.issue || !state.issue.items) return;
+    var picks = [];
+    AREAS.forEach(function (a) {
+      var item = state.issue.items.find(function (i) { return i.area === a.slug && i.is_top_pick; }) ||
+                 state.issue.items.find(function (i) { return i.area === a.slug; });
+      if (item) picks.push(item);
+    });
+    audioState.items = picks;
+    audioState.index = 0;
+  }
+
+  function getSpeechVoice(lang) {
+    if (!window.speechSynthesis) return null;
+    var voices = window.speechSynthesis.getVoices() || [];
+    var prefix = lang === "tr" ? "tr" : "en";
+    var found = voices.find(function (v) { return v.lang && v.lang.toLowerCase().indexOf(prefix) === 0; });
+    return found || null;
+  }
+
+  function speakCurrentItem() {
+    if (!audioState.supported || !audioState.items.length) return;
+    window.speechSynthesis.cancel();
+    if (audioState.index >= audioState.items.length) {
+      stopAudioBrief();
+      return;
+    }
+    var item = audioState.items[audioState.index];
+    var aMeta = getArea(item.area);
+    var head = itemHeadline(item);
+    var sum = itemSummary(item);
+
+    var text = (state.lang === "tr")
+      ? (aMeta.numeral + ". Kategori: " + areaTitle(aMeta) + ". " + head + ". " + sum)
+      : ("Category " + aMeta.numeral + ": " + areaTitle(aMeta) + ". " + head + ". " + sum);
+
+    var utter = new SpeechSynthesisUtterance(text);
+    utter.rate = audioState.rate;
+    utter.voice = getSpeechVoice(state.lang);
+    utter.lang = state.lang === "tr" ? "tr-TR" : "en-US";
+
+    utter.onend = function () {
+      if (audioState.speaking && !audioState.paused) {
+        audioState.index += 1;
+        speakCurrentItem();
+      }
+    };
+    utter.onerror = function () {
+      stopAudioBrief();
+    };
+
+    audioState.utter = utter;
+    audioState.speaking = true;
+    audioState.paused = false;
+    updateAudioDockUi();
+    window.speechSynthesis.speak(utter);
+  }
+
+  function toggleAudioBrief() {
+    if (!audioState.supported) {
+      alert(state.lang === "tr" ? "Tarayıcınız ses sentezleme (SpeechSynthesis) desteklemiyor." : "Speech synthesis not supported in this browser.");
+      return;
+    }
+    if (!audioState.speaking) {
+      initAudioBrief();
+      if (!audioState.items.length) return;
+      audioState.index = 0;
+      audioState.speaking = true;
+      speakCurrentItem();
+    } else if (audioState.paused) {
+      window.speechSynthesis.resume();
+      audioState.paused = false;
+      updateAudioDockUi();
+    } else {
+      window.speechSynthesis.pause();
+      audioState.paused = true;
+      updateAudioDockUi();
+    }
+  }
+
+  function stopAudioBrief() {
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    audioState.speaking = false;
+    audioState.paused = false;
+    audioState.index = 0;
+    updateAudioDockUi();
+  }
+
+  function nextAudioItem() {
+    if (audioState.index < audioState.items.length - 1) {
+      audioState.index += 1;
+      speakCurrentItem();
+    } else {
+      stopAudioBrief();
+    }
+  }
+
+  function prevAudioItem() {
+    if (audioState.index > 0) {
+      audioState.index -= 1;
+      speakCurrentItem();
+    }
+  }
+
+  function cycleAudioRate() {
+    var rates = [1.0, 1.25, 1.5, 1.75];
+    var currIdx = rates.indexOf(audioState.rate);
+    audioState.rate = rates[(currIdx + 1) % rates.length];
+    if (audioState.speaking && !audioState.paused) {
+      speakCurrentItem();
+    } else {
+      updateAudioDockUi();
+    }
+  }
+
+  function updateAudioDockUi() {
+    var dock = document.getElementById("audio-dock");
+    var btn = document.getElementById("audiobtn");
+    var adToggle = document.getElementById("ad-toggle");
+    var adTitle = document.getElementById("ad-title");
+    var adMeta = document.getElementById("ad-meta");
+    var adRate = document.getElementById("ad-rate");
+    var t = tr();
+
+    if (!dock) return;
+
+    if (!audioState.speaking) {
+      dock.style.display = "none";
+      if (btn) btn.textContent = t.audioBriefBtn;
+      return;
+    }
+
+    dock.style.display = "flex";
+    if (btn) btn.textContent = audioState.paused ? ("❚❚ " + t.audioPaused) : ("▶ " + t.audioPlaying);
+    if (adToggle) adToggle.textContent = audioState.paused ? "▶" : "❚❚";
+    if (adRate) adRate.textContent = audioState.rate.toFixed(2).replace(/\.00$/, "") + "×";
+
+    var currItem = audioState.items[audioState.index];
+    if (currItem) {
+      if (adTitle) adTitle.textContent = itemHeadline(currItem);
+      if (adMeta) adMeta.textContent = (audioState.index + 1) + " / " + audioState.items.length;
+    }
   }
 
   // --- Global Events ---

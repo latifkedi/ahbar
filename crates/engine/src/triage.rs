@@ -6,7 +6,7 @@ use ahbar_shared::{
 };
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use std::env;
 use std::time::Duration;
 
@@ -361,6 +361,15 @@ pub async fn stage2_evaluate_and_summarize(
             None
         };
 
+        let mut academic_meta = AcademicGraphData::default();
+        if let Some(ref client) = http_client {
+            if let Some(arx_id) = extract_arxiv_id(&cluster.primary.url) {
+                if let Some(meta) = fetch_academic_graph_metadata(client, &arx_id).await {
+                    academic_meta = meta;
+                }
+            }
+        }
+
         items.push(NewsItem {
             id: item_id,
             issue_date: issue_date.to_string(),
@@ -391,6 +400,7 @@ pub async fn stage2_evaluate_and_summarize(
                     .map(|s| sanitize_and_validate_latex(&s)),
                 abstract_excerpt,
                 bibtex,
+                author_institutions: academic_meta.author_institutions,
             },
             original_title: cluster.primary.title.clone(),
             authors: cluster.primary.authors.clone(),
@@ -412,6 +422,8 @@ pub async fn stage2_evaluate_and_summarize(
                 final_score,
                 community_points: cluster.total_community_points,
                 cross_source_count: cluster.cross_source_count,
+                citation_count: academic_meta.citation_count,
+                influential_citations: academic_meta.influential_citations,
             },
             published_at: cluster.primary.published_at,
         });
@@ -1216,6 +1228,104 @@ fn make_item_id(issue_date: &str, seq: usize, title: &str) -> String {
         .collect::<Vec<_>>()
         .join("-");
     format!("{}-{:02}-{}", issue_date, seq, slug)
+}
+
+
+#[derive(Debug, Default, Clone)]
+pub struct AcademicGraphData {
+    pub citation_count: Option<u32>,
+    pub influential_citations: Option<u32>,
+    pub author_institutions: Option<Vec<String>>,
+}
+
+pub fn extract_arxiv_id(url: &str) -> Option<String> {
+    if !url.contains("arxiv.org") {
+        return None;
+    }
+    let parts: Vec<&str> = url.split("/abs/").collect();
+    let id_part = if parts.len() > 1 {
+        parts[1]
+    } else {
+        let pdf_parts: Vec<&str> = url.split("/pdf/").collect();
+        if pdf_parts.len() > 1 {
+            pdf_parts[1]
+        } else {
+            return None;
+        }
+    };
+    let clean = id_part.trim_end_matches(".pdf").trim();
+    if clean.is_empty() {
+        return None;
+    }
+    let no_v = if let Some(v_idx) = clean.rfind('v') {
+        if v_idx > 0 && clean[v_idx + 1..].chars().all(|ch| ch.is_ascii_digit()) {
+            &clean[..v_idx]
+        } else {
+            clean
+        }
+    } else {
+        clean
+    };
+    Some(no_v.to_string())
+}
+
+pub async fn fetch_academic_graph_metadata(
+    client: &Client,
+    arxiv_id: &str,
+) -> Option<AcademicGraphData> {
+    let url = format!(
+        "https://api.semanticscholar.org/graph/v1/paper/arXiv:{}?fields=citationCount,influentialCitationCount,authors.affiliations",
+        arxiv_id
+    );
+
+    let resp = client
+        .get(&url)
+        .header(
+            "User-Agent",
+            "Ahbar/0.1 (https://latifkedi.github.io/ahbar; mailto:contact@ahbar.org)",
+        )
+        .send()
+        .await
+        .ok()?;
+
+    if !resp.status().is_success() {
+        return None;
+    }
+
+    let json: serde_json::Value = resp.json().await.ok()?;
+
+    let citation_count = json.get("citationCount").and_then(|v| v.as_u64()).map(|n| n as u32);
+    let influential_citations = json.get("influentialCitationCount").and_then(|v| v.as_u64()).map(|n| n as u32);
+
+    let mut inst_set = HashSet::new();
+    if let Some(authors) = json.get("authors").and_then(|v| v.as_array()) {
+        for a in authors {
+            if let Some(affils) = a.get("affiliations").and_then(|v| v.as_array()) {
+                for af in affils {
+                    if let Some(s) = af.as_str() {
+                        let trimmed = s.trim();
+                        if !trimmed.is_empty() && trimmed.len() <= 60 {
+                            inst_set.insert(trimmed.to_string());
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    let author_institutions = if inst_set.is_empty() {
+        None
+    } else {
+        let mut list: Vec<String> = inst_set.into_iter().collect();
+        list.sort();
+        Some(list)
+    };
+
+    Some(AcademicGraphData {
+        citation_count,
+        influential_citations,
+        author_institutions,
+    })
 }
 
 fn generate_bibtex(

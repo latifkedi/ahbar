@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T10:53:10.728755600+00:00</updated>
   <entry>
     <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-04-sub-quadratic-sparse-attention-via"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-04-sub-quadratic-sparse-attention-via"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-04-sub-quadratic-sparse-attention-via</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-04-sub-quadratic-sparse-attention-via</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-05-verified-tool-use-trajectories-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-verified-tool-use-trajectories-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-05-verified-tool-use-trajectories-for</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-verified-tool-use-trajectories-for</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-sharp-non-asymptotic-generalization-bounds"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-06-sharp-non-asymptotic-generalization-bounds"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-sharp-non-asymptotic-generalization-bounds</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-06-sharp-non-asymptotic-generalization-bounds</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
   </entry>
 </feed>

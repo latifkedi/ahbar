@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-source.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-source.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T10:53:10.728755600+00:00</updated>
   <entry>
     <title>Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-open-source-out-of-order"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-13-open-source-out-of-order"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-open-source-out-of-order</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-13-open-source-out-of-order</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

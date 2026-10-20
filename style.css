@@ -389,3 +389,34 @@ footer .lnk{padding:4px 6px;font-size:14px}
   :root[data-theme="dark"]{--dim:#d6d0c2; --faint:#c7c1b2; --rule:#6b6555; --rule2:#4d483d; --mark:#2c1a14}
   .rec a.name,.fc a,.rel a{text-decoration:underline;text-underline-offset:3px}
 }
+
+/* Audio Briefing Dock */
+.audio-dock{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  background:var(--panel);border:1px solid var(--rule);border-radius:4px;
+  padding:8px 14px;margin:12px 0;box-shadow:0 2px 8px rgba(28,26,22,.06);
+}
+.ad-info{display:flex;align-items:center;gap:10px;min-width:0;overflow:hidden;}
+.ad-badge{
+  font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.06em;
+  background:var(--red);color:var(--on-red);padding:2px 6px;border-radius:2px;
+}
+.ad-title{
+  font-family:var(--serif);font-size:14.5px;color:var(--fg);white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;
+}
+.ad-meta{font-family:var(--mono);font-size:12px;color:var(--dim);white-space:nowrap;}
+.ad-actions{display:flex;align-items:center;gap:6px;flex-shrink:0;}
+.btn.micro{padding:4px 8px;font-size:12px;min-height:28px;}
+
+/* Academic Graph Badges */
+.badge-cite{
+  font-family:var(--mono);font-size:11.5px;font-weight:600;padding:2px 7px;
+  border-radius:3px;background:var(--panel);color:var(--dim);border:1px solid var(--rule);
+  display:inline-flex;align-items:center;gap:4px;margin-left:6px;
+}
+.badge-inst{
+  font-family:var(--sans);font-size:12.5px;color:var(--dim);margin-top:6px;
+  display:block;line-height:1.4;
+}
+

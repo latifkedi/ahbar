@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-consensus.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-consensus.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T10:53:10.728755600+00:00</updated>
   <entry>
     <title>Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-single-slot-finality-under-sub"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-single-slot-finality-under-sub"/>
     <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-single-slot-finality-under-sub</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-single-slot-finality-under-sub</id>
+    <updated>2026-10-20T10:53:10.728755600+00:00</updated>
     <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

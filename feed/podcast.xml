@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ahbar — Günlük Bilim ve Teknoloji Sesli Bülteni</title>
+    <link>https://latifkedi.github.io/ahbar/</link>
+    <description>Yazılım mimarisi, yapay zekâ, matematik, kuantum fiziği, biyoteknoloji, kriptografi, ekonomi ve jeopolitik alanlarında günlük 5 dakikalık teknik sesli özet.</description>
+    <language>tr</language>
+    <itunes:author>Ahbar Autonomous Synthesizer</itunes:author>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Science"/>
+    <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>Ahbar Günlük Bülten — Sayı #2 (2026-10-20)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-10-20</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-10-20:issue:2</guid>
+      <pubDate>2026-10-20T10:53:10.728755600+00:00</pubDate>
+      <description>Ahbar Sayı #2 (2026-10-20):
+
+1. [Bilgisayar Bilimi &amp; Yazılım] Asenkron Rust durum makineleri için sıfır-kopya (zero-copy) bölge çıkarımı: askıya alma noktaları arasındaki gereksiz yığın (heap) tahsislerini ortadan kaldırır.
+Rust&apos;taki async/await durum makineleri için yaşam süresi (lifetime) projeksiyonlu çekirdek bir kalkülüs üzerinde sağlamlığı kanıtlanan bölge tabanlı ödünç alma analizi, üreteç çerçeve boyutlarını $38\%$ küçültür ve Tokio iş yüklerinde `unsafe` kod kullanmadan kuyruk gecikmesini $1.42\times$ iyileştirir.
+
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] 1 milyon token bağlamda Blok-Spektral Yönlendirme (BSR) ile $O(L \log L)$ karmaşıklığında alt-karesel seyrek dikkat mekanizması.
+Standart öz-dikkat mekanizmasının $O(L^2)$ darboğazını aşmak için anahtar-değer bloklarını düşük dereceli Chebyshev tabanına izdüşüren Blok-Spektral Yönlendirme (BSR), FlashAttention-3 doğruluğunu korurken KV-önbellek bant genişliğini $4.7\times$ azaltır.
+
+3. [Matematik &amp; Biçimsel Bilimler] $\mathbb{F}_p^n$ içinde aritmetik dizi içermeyen yoğun kümeler için iyileştirilmiş $(cp)^n$ üst sınırı ve Lean 4 ile biçimsel doğrulama.
+Dilim-derecesi (slice-rank) polinom spektral kararlılığı kullanılarak $\mathbb{F}_p^n$ içindeki üç terimli aritmetik dizi içermeyen altkümeler için $c &lt; 0.841$ ile $(cp)^n$ üst sınırı kanıtlandı; temel kombinatorik indirgeme Lean 4 / Mathlib üzerinde bütünüyle mekanize edildi.
+
+4. [Fizik, Kuantum &amp; Uzay] İki değişkenli bisiklet (bivariate bicycle) kuantum LDPC kodları üzerinde sabit derinlikli ve hata-toleranslı sihirli durum damıtımı.
+Yüzey kodlarının mantıksal kübit başına $1{,}000+$ fiziksel kübit gereksinimini aşmak için $[[144, 12, 12]]$ qLDPC kodları üzerinde doğrudan çalışan sabit derinlikli sihirli durum fabrikası kuruldu; düzlemsel örgü cerrahisine kıyasla $6.8\times$ daha az fiziksel kübitle $10^{-9}$ altı mantıksal $T$-kapısı hatasına ulaşıldı.
+
+5. [Sistem, Donanım &amp; Siber Güvenlik] Spekülatif matris yazmaç yeniden adlandırmalı açık kaynaklı sırasız (out-of-order) RISC-V vektör çekirdeği.
+Karma FP8/BF16 çekirdeklerinde yazmaç dosyası portlarının doygunluğa ulaşarak süperskaler boru hatlarını durdurmasını önlemek için matris akümülatör yeniden adlandırmasını skaler ROB girdilerinden ayıran açık kaynaklı SystemVerilog `RV64GCV` çekirdeği $5\text{ nm}$ sürecinde üretildi ve $3.1\text{ TFLOPS/W}$ verime ulaştı.
+
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] De novo metaloenzim aktif bölge tasarımı için tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme (flow matching) ve kuantum mekaniksel potansiyel kuplajı.
+Geçiş metali koordinasyon geometrisinde $3d$-orbital elektronik etkilerini modellemek için $SE(3)$-eşdeğişkin akış eşleştirmeyi sıkı-bağlama (tight-binding) kuantum mekaniksel potansiyelle birleştiren model, yönlendirilmiş evrim olmadan ıslak laboratuvar deneylerinde $k_{\text{cat}}/K_M &gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ katalitik verime sahip çinko ve demir hidrolazlar tasarlar.
+
+7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] HyperFold: Goldilocks asal halkaları üzerinde kuantum-sonrası güvenli ve $O(\log N)$ doğrulamalı kafes katlama (lattice folding) protokolü.
+Shor algoritmasına duyarlı eliptik eğri katlama şemalarının (Nova/HyperNova) yerine Goldilocks asalları ($p = 2^{64} - 2^{32} + 1$) üzerinde kurulan ring-SIS kafes katlama protokolü, $128$-bit kuantum-sonrası güvenlik, $14\text{ KB}$ kanıt boyutu ve tüketici GPU&apos;larında $3.9\times$ daha hızlı RISC-V zkVM kanıtlama performansı sunar.
+
+8. [Ekonomi, Finans &amp; Makro Analiz] Kamu borcu vade duvarları altında heterojen ajanlı (HANK) parasal aktarım mekanizması ve mali baskınlık sınırları.
+38 OECD ve gelişmekte olan ülke tahvil piyasası üzerinde içsel vade primli sürekli-zamanlı bir HANK modeli çözüldü; kısa vadeli borç çevirme oranının GSYH&apos;nin $28\%$&apos;ini aştığı ekonomilerde $100\text{ baz puanlık}$ faiz artışının mali baskınlık yayılımları nedeniyle dezenflasyon etkisini $42\%$ zayıflattığı, ancak likidite çekici repo koridorlarıyla bu kaybın telafi edildiği gösterildi.
+
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] 2nm altı EUV litografi ve yüksek bant genişlikli bellek (HBM) tedarik zincirlerinde darboğaz geometrisi.
+Yalnızca nihai yapay zekâ hızlandırıcılarının FLOPS/mm² yoğunluğunu hedef alan ihracat kontrollerinin, yukarı-akım fotorezist kimyasalları, EUV pelikülleri ve gelişmiş paketleme (CoWoS-L) tek-nokta bağımlılıklarını gözden kaçırdığı; 140 üretim katmanlı ağ modelinde plaka-düzeyi metroloji kısıtlarının sınır küme kurulumunu fabrika ekipmanı ambargolarından $3.2\times$ daha sıkı sınırladığı gösterildi.
+
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Çok ölçekli Markov battaniyelerinde kaba-ölçekleme (coarse-graining) ve nedensel beliriş (causal emergence).
+Bir makro-durum değişkeninin altta yatan mikro-dinamiklerden ne zaman daha yüksek nedensel öngörü gücüne sahip olduğu sorusu, hiyerarşik Markov battaniyeleri üzerinde müdahaleci bilgi kuramı ve renormalizasyon grubu akışlarıyla çözüldü; dejenere mikro-gürültü sönümlenmesi sayesinde makro-ölçek efektif bilginin $EI(M) &gt; EI(\mu)$ olduğu tam eşik türetildi.
+
+</description>
+      <itunes:duration>300</itunes:duration>
+    </item>
+  </channel>
+</rss>

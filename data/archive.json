@@ -1,5 +1,17 @@
 [
   {
+    "issue_number": 2,
+    "date": "2026-10-20",
+    "edition_type": "daily",
+    "qualified_items": 30,
+    "top_picks_count": 30,
+    "top_headlines": [
+      "Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.",
+      "HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\\log N)$ Verification",
+      "Improved Polymath Bounds on Dense Progression-Free Sets in $\\mathbb{F}_p^n$ and Formalization in Lean 4"
+    ]
+  },
+  {
     "issue_number": 1,
     "date": "2026-10-19",
     "edition_type": "daily",

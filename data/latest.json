@@ -1,8 +1,8 @@
 {
-  "issue_number": 1,
-  "date": "2026-10-19",
+  "issue_number": 2,
+  "date": "2026-10-20",
   "edition_type": "daily",
-  "generated_at": "2026-10-19T16:28:26.779070900+00:00",
+  "generated_at": "2026-10-20T10:53:10.728755600+00:00",
   "stats": {
     "sources_checked": 86,
     "sources_healthy": 86,
@@ -13,9 +13,9 @@
   },
   "items": [
     {
-      "id": "2026-10-19-04-sub-quadratic-sparse-attention-via",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-04-sub-quadratic-sparse-attention-via",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "ai",
       "is_top_pick": true,
       "is_paper": true,
@@ -31,7 +31,7 @@
         "method_architecture_tr": "Anahtar-değer bloklarını Chebyshev polinom tabanında spektral kovalar halinde özetleyip sorguları yalnızca en yüksek enerjili $k$ bloğa $O(L \\log L)$ zamanda yönlendirir.",
         "findings_tradeoffs_tr": "Kod muhakemesi ve uzun bağlam testlerinde tam dikkat doğruluğunu korurken KV-önbellek bellek trafiğini $4.7\\times$ düşürür.",
         "abstract_excerpt": "Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \\log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\\times$ lower KV-cache bandwidth.",
-        "bibtex": "@article{2026_10_19_04_sub_quadratic_sparse_attention_via,\n  title = {Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context},\n  author = {D. Dao and Y. Zhang and L. Bottou},\n  year = {2026},\n  journal = {Hugging Face Daily Papers},\n  url = {https://arxiv.org/abs/2610.09241}\n}"
+        "bibtex": "@article{2026_10_20_04_sub_quadratic_sparse_attention_via,\n  title = {Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context},\n  author = {D. Dao and Y. Zhang and L. Bottou},\n  year = {2026},\n  journal = {Hugging Face Daily Papers},\n  url = {https://arxiv.org/abs/2610.09241}\n}"
       },
       "original_title": "Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context",
       "authors": [
@@ -75,12 +75,12 @@
         "community_points": 310,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-19-hyperfold-prover-optimal-lattice-folding",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-19-hyperfold-prover-optimal-lattice-folding",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "crypto",
       "is_top_pick": true,
       "is_paper": true,
@@ -96,7 +96,7 @@
         "method_architecture_tr": "$p = 2^{64} - 2^{32} + 1$ Goldilocks halkası üzerinde norm kontrollü ring-SIS taahhüt katlama şeması ve doğrulayıcı-optimal toplam kontrolü (sumcheck) inşa eder.",
         "findings_tradeoffs_tr": "$128$-bit kuantum-sonrası güvenlik altında kanıt boyutunu $14\\text{ KB}$ seviyesinde tutar ve RISC-V zkVM kanıtlama hızını $3.9\\times$ artırır.",
         "abstract_excerpt": "Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor's algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\\text{ KB}$ proof size, and $3.9\\times$ faster RISC-V zkVM proving on consumer GPUs.",
-        "bibtex": "@article{2026_10_19_19_hyperfold_prover_optimal_lattice_folding,\n  title = {HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\\log N)$ Verification},\n  author = {S. Setty and D. Boneh and B. Bünz},\n  year = {2026},\n  journal = {IACR Cryptology ePrint Archive},\n  url = {https://eprint.iacr.org/2026/1412}\n}"
+        "bibtex": "@article{2026_10_20_19_hyperfold_prover_optimal_lattice_folding,\n  title = {HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\\log N)$ Verification},\n  author = {S. Setty and D. Boneh and B. Bünz},\n  year = {2026},\n  journal = {IACR Cryptology ePrint Archive},\n  url = {https://eprint.iacr.org/2026/1412}\n}"
       },
       "original_title": "HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\\log N)$ Verification",
       "authors": [
@@ -139,12 +139,12 @@
         "community_points": 240,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-07-improved-polymath-bounds-on-dense",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-07-improved-polymath-bounds-on-dense",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "math",
       "is_top_pick": true,
       "is_paper": true,
@@ -160,7 +160,7 @@
         "method_architecture_tr": "Dilim-derecesi polinom yöntemi ile spektral kararlılık lemmasını birleştirir ve tüm kanıt ağacını Lean 4 / Mathlib üzerinde doğrular.",
         "findings_tradeoffs_tr": "Klasik Ellenberg-Gijswijt sınırındaki sabiti düşük karakteristikli cisimler için $c < 0.841$ değerine indirir.",
         "abstract_excerpt": "We establish a sharper upper bound of $(c p)^{n}$ with $c < 0.841$ for subsets of $\\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.",
-        "bibtex": "@article{2026_10_19_07_improved_polymath_bounds_on_dense,\n  title = {Improved Polymath Bounds on Dense Progression-Free Sets in $\\mathbb{F}_p^n$ and Formalization in Lean 4},\n  author = {T. Tao and B. Green and J. Commelin},\n  year = {2026},\n  journal = {arXiv Mathematics (math.NT)},\n  url = {https://arxiv.org/abs/2610.03319}\n}"
+        "bibtex": "@article{2026_10_20_07_improved_polymath_bounds_on_dense,\n  title = {Improved Polymath Bounds on Dense Progression-Free Sets in $\\mathbb{F}_p^n$ and Formalization in Lean 4},\n  author = {T. Tao and B. Green and J. Commelin},\n  year = {2026},\n  journal = {arXiv Mathematics (math.NT)},\n  url = {https://arxiv.org/abs/2610.03319}\n}"
       },
       "original_title": "Improved Polymath Bounds on Dense Progression-Free Sets in $\\mathbb{F}_p^n$ and Formalization in Lean 4",
       "authors": [
@@ -194,14 +194,16 @@
         "llm_rigor": 8.8,
         "final_score": 14.04,
         "community_points": 220,
-        "cross_source_count": 1
+        "cross_source_count": 1,
+        "citation_count": 0,
+        "influential_citations": 0
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-10-fault-tolerant-logical-magic-state",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-10-fault-tolerant-logical-magic-state",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "physics",
       "is_top_pick": true,
       "is_paper": true,
@@ -217,7 +219,7 @@
         "method_architecture_tr": "Yüksek oranlı $[[144, 12, 12]]$ iki değişkenli bisiklet qLDPC kodları üzerinde kod-içi (in-place) sabit derinlikli mantıksal ölçüm devreleri tanımlar.",
         "findings_tradeoffs_tr": "Gerçekçi $p \\approx 10^{-3}$ kapı hata oranlarında yüzey kodlarına kıyasla $6.8\\times$ daha az fiziksel kübit kullanarak $10^{-9}$ altı mantıksal hata oranı sağlar.",
         "abstract_excerpt": "Surface codes require over $1{,}000$ physical qubits per logical qubit at realistic gate error rates $p \\approx 10^{-3}$. We demonstrate a constant-depth magic-state factory directly on high-rate bivariate bicycle qLDPC codes ($[[144, 12, 12]]$), achieving logical $T$-gate infidelity below $10^{-9}$ with $6.8\\times$ fewer physical qubits than planar lattice surgery.",
-        "bibtex": "@article{2026_10_19_10_fault_tolerant_logical_magic_state,\n  title = {Fault-Tolerant Logical Magic-State Distillation on Bivariate Bicycle Quantum LDPC Codes},\n  author = {S. Bravyi and N. P. Breuckmann and D. Gottesman},\n  year = {2026},\n  journal = {arXiv Quantum Physics (quant-ph)},\n  url = {https://arxiv.org/abs/2610.07105}\n}"
+        "bibtex": "@article{2026_10_20_10_fault_tolerant_logical_magic_state,\n  title = {Fault-Tolerant Logical Magic-State Distillation on Bivariate Bicycle Quantum LDPC Codes},\n  author = {S. Bravyi and N. P. Breuckmann and D. Gottesman},\n  year = {2026},\n  journal = {arXiv Quantum Physics (quant-ph)},\n  url = {https://arxiv.org/abs/2610.07105}\n}"
       },
       "original_title": "Fault-Tolerant Logical Magic-State Distillation on Bivariate Bicycle Quantum LDPC Codes",
       "authors": [
@@ -252,12 +254,12 @@
         "community_points": 195,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-01-zero-copy-region-inference-for",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-01-zero-copy-region-inference-for",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "cs",
       "is_top_pick": true,
       "is_paper": true,
@@ -273,7 +275,7 @@
         "method_architecture_tr": "MIR (Mid-level IR) aşamasında çalışan bölge tabanlı bir borçlanma çıkarım geçişi ile örtüşmeyen yaşam sürelerini aynı bellek yuvasında birleştirir.",
         "findings_tradeoffs_tr": "Yüksek eşzamanlıklı Tokio ağ iş yüklerinde çerçeve boyutunu $38\\%$ azaltır ve p99 kuyruk gecikmesini $1.42\\times$ düşürür.",
         "abstract_excerpt": "We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\\%$ and improves tail latency by $1.42\\times$ on high-concurrency Tokio workloads without unsafe code.",
-        "bibtex": "@article{2026_10_19_01_zero_copy_region_inference_for,\n  title = {Zero-Copy Region Inference for Asynchronous Rust State Machines},\n  author = {M. Lindqvist and A. Balasubramanian and E. K. Chen},\n  year = {2026},\n  journal = {arXiv CS (cs.PL)},\n  url = {https://arxiv.org/abs/2610.04812}\n}"
+        "bibtex": "@article{2026_10_20_01_zero_copy_region_inference_for,\n  title = {Zero-Copy Region Inference for Asynchronous Rust State Machines},\n  author = {M. Lindqvist and A. Balasubramanian and E. K. Chen},\n  year = {2026},\n  journal = {arXiv CS (cs.PL)},\n  url = {https://arxiv.org/abs/2610.04812}\n}"
       },
       "original_title": "Zero-Copy Region Inference for Asynchronous Rust State Machines",
       "authors": [
@@ -317,12 +319,12 @@
         "community_points": 184,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-16-all-atom-equivariant-flow-matching",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-16-all-atom-equivariant-flow-matching",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "bio",
       "is_top_pick": true,
       "is_paper": true,
@@ -338,7 +340,7 @@
         "method_architecture_tr": "Tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme mimarisini aktif bölge çevresinde yarı-ampirik sıkı-bağlama kuantum potansiyeli ile ortaklaşa optimize eder.",
         "findings_tradeoffs_tr": "Deneysel olarak sentezlenen de novo metaloenzimlerde yönlendirilmiş evrime gerek kalmadan $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ aktivite elde edilir.",
         "abstract_excerpt": "Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ in wet-lab assays without directed evolution.",
-        "bibtex": "@article{2026_10_19_16_all_atom_equivariant_flow_matching,\n  title = {All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design},\n  author = {D. Baker and J. Jumper and N. Anand},\n  year = {2026},\n  journal = {arXiv Quantitative Biology (q-bio.BM)},\n  url = {https://arxiv.org/abs/2610.05980}\n}"
+        "bibtex": "@article{2026_10_20_16_all_atom_equivariant_flow_matching,\n  title = {All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design},\n  author = {D. Baker and J. Jumper and N. Anand},\n  year = {2026},\n  journal = {arXiv Quantitative Biology (q-bio.BM)},\n  url = {https://arxiv.org/abs/2610.05980}\n}"
       },
       "original_title": "All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design",
       "authors": [
@@ -373,12 +375,12 @@
         "community_points": 165,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-13-open-source-out-of-order",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-13-open-source-out-of-order",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "systems",
       "is_top_pick": true,
       "is_paper": true,
@@ -394,7 +396,7 @@
         "method_architecture_tr": "Matris akümülatör yeniden adlandırma tablosunu skaler yeniden sıralama tamponundan (ROB) ayıran çift katmanlı `RV64GCV` mikro-mimarisi sunar.",
         "findings_tradeoffs_tr": "$5\\text{ nm}$ üretim sürecinde $3.1\\text{ TFLOPS/W}$ enerji verimliliği ve açık kaynaklı RTL doğrulama paketi sağlar.",
         "abstract_excerpt": "Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\\text{ TFLOPS/W}$.",
-        "bibtex": "@article{2026_10_19_13_open_source_out_of_order,\n  title = {Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming},\n  author = {K. Asanović and L. Benini},\n  year = {2026},\n  journal = {arXiv Hardware Architecture (cs.AR)},\n  url = {https://arxiv.org/abs/2610.06604}\n}"
+        "bibtex": "@article{2026_10_20_13_open_source_out_of_order,\n  title = {Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming},\n  author = {K. Asanović and L. Benini},\n  year = {2026},\n  journal = {arXiv Hardware Architecture (cs.AR)},\n  url = {https://arxiv.org/abs/2610.06604}\n}"
       },
       "original_title": "Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming",
       "authors": [
@@ -429,12 +431,12 @@
         "community_points": 154,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-02-byzantine-fault-injection-and-split",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-02-byzantine-fault-injection-and-split",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "cs",
       "is_top_pick": true,
       "is_paper": false,
@@ -490,14 +492,16 @@
         "llm_rigor": 8.2,
         "final_score": 13.55,
         "community_points": 178,
-        "cross_source_count": 1
+        "cross_source_count": 1,
+        "citation_count": 0,
+        "influential_citations": 0
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-05-verified-tool-use-trajectories-for",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-05-verified-tool-use-trajectories-for",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "ai",
       "is_top_pick": true,
       "is_paper": true,
@@ -513,7 +517,7 @@
         "method_architecture_tr": "Araç çağrısı şemalarına hafif sıklet Hoare mantığı önkoşulları ekleyerek durum geçişlerini yürütme öncesinde statik olarak doğrular.",
         "findings_tradeoffs_tr": "SWE-bench Verified üzerinde çözüm oranını $11.4\\%$ yükseltirken toplam token ve araç çağrısı maliyetini $32\\%$ düşürür.",
         "abstract_excerpt": "Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\\%$ with $32\\%$ fewer token rollouts.",
-        "bibtex": "@article{2026_10_19_05_verified_tool_use_trajectories_for,\n  title = {Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions},\n  author = {R. Jiménez and K. Narasimhan},\n  year = {2026},\n  journal = {arXiv AI (cs.LG)},\n  url = {https://arxiv.org/abs/2610.08814}\n}"
+        "bibtex": "@article{2026_10_20_05_verified_tool_use_trajectories_for,\n  title = {Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions},\n  author = {R. Jiménez and K. Narasimhan},\n  year = {2026},\n  journal = {arXiv AI (cs.LG)},\n  url = {https://arxiv.org/abs/2610.08814}\n}"
       },
       "original_title": "Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions",
       "authors": [
@@ -548,12 +552,12 @@
         "community_points": 145,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-17-pangenome-graph-indexing-in-sub",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-17-pangenome-graph-indexing-in-sub",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "bio",
       "is_top_pick": true,
       "is_paper": true,
@@ -569,7 +573,7 @@
         "method_architecture_tr": "Çift yönlü FM-dizinleri üzerinde Wheeler bürokrat dalgacık ağaçları (wavelet trees) kullanarak kayıpsız sıkıştırılmış alt-doğrusal arama yapısı kurar.",
         "findings_tradeoffs_tr": "Bellek ayak izini $100\\text{ GB}$ seviyesinden $4.2\\text{ GB}$ düzeyine indirirken uzun okuma hizalama hızını $3.4\\times$ artırır.",
         "abstract_excerpt": "Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\\text{ GB}$ of memory at $3.4\\times$ higher throughput than Minigraph-Cactus.",
-        "bibtex": "@article{2026_10_19_17_pangenome_graph_indexing_in_sub,\n  title = {Pangenome Graph Indexing in Sub-Linear Space via Wheeler Bureaucrat Wavelet Trees},\n  author = {H. Li and E. Garrison and B. Langmead},\n  year = {2026},\n  journal = {Nature Computational Science},\n  url = {https://arxiv.org/abs/2610.06112}\n}"
+        "bibtex": "@article{2026_10_20_17_pangenome_graph_indexing_in_sub,\n  title = {Pangenome Graph Indexing in Sub-Linear Space via Wheeler Bureaucrat Wavelet Trees},\n  author = {H. Li and E. Garrison and B. Langmead},\n  year = {2026},\n  journal = {Nature Computational Science},\n  url = {https://arxiv.org/abs/2610.06112}\n}"
       },
       "original_title": "Pangenome Graph Indexing in Sub-Linear Space via Wheeler Bureaucrat Wavelet Trees",
       "authors": [
@@ -605,12 +609,12 @@
         "community_points": 128,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-20-symbolic-smt-guided-equivalence-checking",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-20-symbolic-smt-guided-equivalence-checking",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "crypto",
       "is_top_pick": true,
       "is_paper": true,
@@ -626,7 +630,7 @@
         "method_architecture_tr": "EVM yürütme semantiği ile Plonkish aritmetik devre kısıtlarını ortak bir ilişkisel Hoare mantığı ve SMT çözücüsüne indirger.",
         "findings_tradeoffs_tr": "Döngü-sınırlı akıllı sözleşmelerde bayt kodu ile ZK devresi arasındaki bit-kesin eşdeğerliği otomatik olarak sertifikalandırır.",
         "abstract_excerpt": "Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.",
-        "bibtex": "@article{2026_10_19_20_symbolic_smt_guided_equivalence_checking,\n  title = {Symbolic & SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers},\n  author = {A. Shankar and C. Fournet},\n  year = {2026},\n  journal = {arXiv Cryptography (cs.CR)},\n  url = {https://arxiv.org/abs/2610.08115}\n}"
+        "bibtex": "@article{2026_10_20_20_symbolic_smt_guided_equivalence_checking,\n  title = {Symbolic & SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers},\n  author = {A. Shankar and C. Fournet},\n  year = {2026},\n  journal = {arXiv Cryptography (cs.CR)},\n  url = {https://arxiv.org/abs/2610.08115}\n}"
       },
       "original_title": "Symbolic & SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers",
       "authors": [
@@ -661,12 +665,12 @@
         "community_points": 132,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-14-hardware-enforced-capability-tagging-eliminates",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-14-hardware-enforced-capability-tagging-eliminates",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "systems",
       "is_top_pick": true,
       "is_paper": true,
@@ -682,7 +686,7 @@
         "method_architecture_tr": "Tanımlayıcı halkalarını işlemci ve IOMMU tarafından donanımsal olarak denetlenen ince taneli CHERI/MTE bellek yetenek (capability) etiketleriyle eşleştirir.",
         "findings_tradeoffs_tr": "$400\\text{ Gb/s}$ ağ iş yüklerinde paket işleme hacmini temel çizginin $1.8\\%$ dahilinde tutarken zamansal bellek ihlallerini deterministik olarak durdurur.",
         "abstract_excerpt": "High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\\%$ of baseline at $400\\text{ Gb/s}$ while deterministically trapping temporal aliasing.",
-        "bibtex": "@article{2026_10_19_14_hardware_enforced_capability_tagging_eliminates,\n  title = {Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings},\n  author = {R. N. M. Watson and D. Chisnall},\n  year = {2026},\n  journal = {LWN.net / Systems Architecture},\n  url = {https://arxiv.org/abs/2610.06411}\n}"
+        "bibtex": "@article{2026_10_20_14_hardware_enforced_capability_tagging_eliminates,\n  title = {Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings},\n  author = {R. N. M. Watson and D. Chisnall},\n  year = {2026},\n  journal = {LWN.net / Systems Architecture},\n  url = {https://arxiv.org/abs/2610.06411}\n}"
       },
       "original_title": "Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings",
       "authors": [
@@ -724,12 +728,12 @@
         "community_points": 210,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-22-heterogeneous-agent-monetary-transmission-under",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-22-heterogeneous-agent-monetary-transmission-under",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "econ",
       "is_top_pick": true,
       "is_paper": true,
@@ -745,7 +749,7 @@
         "method_architecture_tr": "İçsel getiri eğrisi primleri ve doğrusal-olmayan mali tepki fonksiyonları içeren sürekli-zamanlı heterojen ajanlı Yeni Keynesyen (HANK) modeli çözer.",
         "findings_tradeoffs_tr": "Kısa vadeli borç yenileme duvarının GSYH'nin $28\\%$'ini geçtiği noktada parasal aktarımın $42\\%$ aşındığını ve sterilize repo koridorlarının gerekliliğini ortaya koyar.",
         "abstract_excerpt": "We solve a continuous-time HANK model with endogenous term-premia and non-linear fiscal reaction functions across 38 OECD and emerging sovereign bond markets. When short-term refinancing exceeds $28\\%$ of GDP, a $100\\text{ bps}$ policy tightening induces fiscal dominance spillovers that attenuate disinflation by $42\\%$ unless paired with liquidity-draining repo corridors.",
-        "bibtex": "@article{2026_10_19_22_heterogeneous_agent_monetary_transmission_under,\n  title = {Heterogeneous Agent Monetary Transmission Under Sovereign Debt Maturity Walls},\n  author = {G. Kaplan and B. Moll and H. Rey},\n  year = {2026},\n  journal = {NBER Working Papers / arXiv econ.EM},\n  url = {https://arxiv.org/abs/2610.09410}\n}"
+        "bibtex": "@article{2026_10_20_22_heterogeneous_agent_monetary_transmission_under,\n  title = {Heterogeneous Agent Monetary Transmission Under Sovereign Debt Maturity Walls},\n  author = {G. Kaplan and B. Moll and H. Rey},\n  year = {2026},\n  journal = {NBER Working Papers / arXiv econ.EM},\n  url = {https://arxiv.org/abs/2610.09410}\n}"
       },
       "original_title": "Heterogeneous Agent Monetary Transmission Under Sovereign Debt Maturity Walls",
       "authors": [
@@ -780,12 +784,12 @@
         "community_points": 182,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-25-chokepoint-geometries-in-sub-2nm",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-25-chokepoint-geometries-in-sub-2nm",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "geopolitics",
       "is_top_pick": true,
       "is_paper": false,
@@ -832,12 +836,12 @@
         "community_points": 194,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-15-cross-cache-speculative-type-confusion",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-15-cross-cache-speculative-type-confusion",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "systems",
       "is_top_pick": true,
       "is_paper": false,
@@ -886,12 +890,12 @@
         "community_points": 188,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-28-coarse-graining-and-causal-emergence",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-28-coarse-graining-and-causal-emergence",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "philosophy",
       "is_top_pick": true,
       "is_paper": true,
@@ -907,7 +911,7 @@
         "method_architecture_tr": "Hiyerarşik Markov battaniyeleri üzerinde Judea Pearl'ün müdahale (do-calculus) operatörlerini renormalizasyon grubu kaba-ölçeklemesiyle birleştirir.",
         "findings_tradeoffs_tr": "Makro-ölçek efektif bilginin ($EI(M)$) mikro-ölçeği ($EI(\\mu)$) aştığı analitik faz sınırını türetir.",
         "abstract_excerpt": "When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics? Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) > EI(\\mu)$ due to degenerate micro-noise cancellation.",
-        "bibtex": "@article{2026_10_19_28_coarse_graining_and_causal_emergence,\n  title = {Coarse-Graining and Causal Emergence in Multi-Scale Markov Blankets},\n  author = {D. Krakauer and J. Flack and K. Friston},\n  year = {2026},\n  journal = {Santa Fe Institute / arXiv cs.GT},\n  url = {https://arxiv.org/abs/2610.09812}\n}"
+        "bibtex": "@article{2026_10_20_28_coarse_graining_and_causal_emergence,\n  title = {Coarse-Graining and Causal Emergence in Multi-Scale Markov Blankets},\n  author = {D. Krakauer and J. Flack and K. Friston},\n  year = {2026},\n  journal = {Santa Fe Institute / arXiv cs.GT},\n  url = {https://arxiv.org/abs/2610.09812}\n}"
       },
       "original_title": "Coarse-Graining and Causal Emergence in Multi-Scale Markov Blankets",
       "authors": [
@@ -942,12 +946,12 @@
         "community_points": 172,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-23-supply-chain-network-topology-and",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-23-supply-chain-network-topology-and",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "econ",
       "is_top_pick": true,
       "is_paper": true,
@@ -963,7 +967,7 @@
         "method_architecture_tr": "$1.4$ milyon firma-firma fatura bağlantısı üzerinde Katz ağ merkeziliği ve parametrik-olmayan girdi-çıktı fiyat katılığı tahmincisi uygular.",
         "findings_tradeoffs_tr": "Merkezi tedarik düğümlerindeki marj katılığının aşağı-akım TÜFE dezenflasyonunu ortalama $2.6$ çeyrek geciktirdiğini ortaya koyar.",
         "abstract_excerpt": "Using firm-to-firm VAT invoice graphs covering $1.4\\times 10^6$ supplier links, we estimate non-parametric input-output price rigidities during monetary tightening. Upstream oligopolistic bottlenecks with high Katz centrality delay downstream consumer price stabilization by $2.6$ quarters compared to competitive peripheral sectors.",
-        "bibtex": "@article{2026_10_19_23_supply_chain_network_topology_and,\n  title = {Supply-Chain Network Topology and Pass-Through Asymmetries in Disinflation Episodes},\n  author = {D. Acemoglu and U. Akçiğit and S. Kalemli-Özcan},\n  year = {2026},\n  journal = {TCMB Araştırma / BIS Working Papers},\n  url = {https://arxiv.org/abs/2610.09680}\n}"
+        "bibtex": "@article{2026_10_20_23_supply_chain_network_topology_and,\n  title = {Supply-Chain Network Topology and Pass-Through Asymmetries in Disinflation Episodes},\n  author = {D. Acemoglu and U. Akçiğit and S. Kalemli-Özcan},\n  year = {2026},\n  journal = {TCMB Araştırma / BIS Working Papers},\n  url = {https://arxiv.org/abs/2610.09680}\n}"
       },
       "original_title": "Supply-Chain Network Topology and Pass-Through Asymmetries in Disinflation Episodes",
       "authors": [
@@ -998,12 +1002,12 @@
         "community_points": 168,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-29-imprecise-probabilities-dutch-book-coherence",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-29-imprecise-probabilities-dutch-book-coherence",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "philosophy",
       "is_top_pick": true,
       "is_paper": true,
@@ -1019,7 +1023,7 @@
         "method_architecture_tr": "Dışbükey olasılık kümeleri (credal sets) üzerinde $\\alpha$-ıraksama tabanlı genelleştirilmiş güncelleme kuralları ve Dutch-Book tutarlılık teoremi kurar.",
         "findings_tradeoffs_tr": "Dinamik tutarlılıktan ödün vermeden yapısal model hatasını asimptotik olarak yakalayan epistemik tevazu sınırlarını kanıtlar.",
         "abstract_excerpt": "Classical Bayesian conditioning collapses when an agent's prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses. We prove a representation theorem for convex credal sets under $\\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.",
-        "bibtex": "@article{2026_10_19_29_imprecise_probabilities_dutch_book_coherence,\n  title = {Imprecise Probabilities, Dutch-Book Coherence, and Epistemic Humility Under Severe Model Misspecification},\n  author = {H. Leitgeb and S. Bradley},\n  year = {2026},\n  journal = {PhilSci-Archive / Formal Epistemology},\n  url = {https://philsci-archive.pitt.edu/archive/26101/}\n}"
+        "bibtex": "@article{2026_10_20_29_imprecise_probabilities_dutch_book_coherence,\n  title = {Imprecise Probabilities, Dutch-Book Coherence, and Epistemic Humility Under Severe Model Misspecification},\n  author = {H. Leitgeb and S. Bradley},\n  year = {2026},\n  journal = {PhilSci-Archive / Formal Epistemology},\n  url = {https://philsci-archive.pitt.edu/archive/26101/}\n}"
       },
       "original_title": "Imprecise Probabilities, Dutch-Book Coherence, and Epistemic Humility Under Severe Model Misspecification",
       "authors": [
@@ -1051,12 +1055,12 @@
         "community_points": 156,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-21-single-slot-finality-under-sub",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-21-single-slot-finality-under-sub",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "crypto",
       "is_top_pick": true,
       "is_paper": true,
@@ -1072,7 +1076,7 @@
         "method_architecture_tr": "PeerDAS veri erişilebilirliği alt-örneklemesini cebirsel sıçramalı (rateless) BLS eşik imza toplama ağaçlarıyla birleştirir.",
         "findings_tradeoffs_tr": "Düğüm başına ağ trafiğini $4.5\\text{ MB/s}$ sınırının altında tutarak $12$ saniyelik tek yuvada iki turlu kesinliği kanıtlar.",
         "abstract_excerpt": "Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\\text{ MB/s}$ while guaranteeing two-round finality.",
-        "bibtex": "@article{2026_10_19_21_single_slot_finality_under_sub,\n  title = {Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees},\n  author = {V. Buterin and D. Feist and F. D'Amato},\n  year = {2026},\n  journal = {Ethereum Research (ethresear.ch)},\n  url = {https://eprint.iacr.org/2026/1428}\n}"
+        "bibtex": "@article{2026_10_20_21_single_slot_finality_under_sub,\n  title = {Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees},\n  author = {V. Buterin and D. Feist and F. D'Amato},\n  year = {2026},\n  journal = {Ethereum Research (ethresear.ch)},\n  url = {https://eprint.iacr.org/2026/1428}\n}"
       },
       "original_title": "Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees",
       "authors": [
@@ -1114,12 +1118,12 @@
         "community_points": 175,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-24-optimal-execution-and-adverse-selection",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-24-optimal-execution-and-adverse-selection",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "econ",
       "is_top_pick": true,
       "is_paper": true,
@@ -1135,7 +1139,7 @@
         "method_architecture_tr": "Karşılıklı uyarımlı iki değişkenli Hawkes nokta süreçlerini $H \\approx 0.12$ kesirli oynaklık çekirdeğiyle birleştirerek Riccati kontrol denklemlerini çözer.",
         "findings_tradeoffs_tr": "Geleneksel TWAP/Almgren-Chriss çizelgelerine kıyasla gerçekleşen uygulama maliyetini ortalama $19.4\\text{ bps}$ azaltır.",
         "abstract_excerpt": "Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \\approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\\text{ bps}$.",
-        "bibtex": "@article{2026_10_19_24_optimal_execution_and_adverse_selection,\n  title = {Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility},\n  author = {J. Gatheral and M. Rosenbaum},\n  year = {2026},\n  journal = {arXiv Quantitative Finance (q-fin.TR)},\n  url = {https://arxiv.org/abs/2610.09522}\n}"
+        "bibtex": "@article{2026_10_20_24_optimal_execution_and_adverse_selection,\n  title = {Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility},\n  author = {J. Gatheral and M. Rosenbaum},\n  year = {2026},\n  journal = {arXiv Quantitative Finance (q-fin.TR)},\n  url = {https://arxiv.org/abs/2610.09522}\n}"
       },
       "original_title": "Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility",
       "authors": [
@@ -1169,12 +1173,12 @@
         "community_points": 146,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-11-fractional-quantum-anomalous-hall-superconductivity",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-11-fractional-quantum-anomalous-hall-superconductivity",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "physics",
       "is_top_pick": true,
       "is_paper": true,
@@ -1190,7 +1194,7 @@
         "method_architecture_tr": "hBN ile hizalanmış beş katmanlı rombohedral grafen heteroyapılarında milikelvin sıcaklıkta elektrostatik kapılama ve taşınım spektroskopisi uygular.",
         "findings_tradeoffs_tr": "$\\nu = -2/3$ kesirli topolojik durumun hemen komşuluğunda $T_c = 380\\text{ mK}$ kritik sıcaklığa sahip kayıpsız süperiletken faz geçişini doğrular.",
         "abstract_excerpt": "Coexistence of fractional Chern insulator states and unconventional superconductivity at zero magnetic field has remained elusive in moiré heterostructures. Transport spectroscopy in hBN-aligned rhombohedral pentalayer graphene reveals a dissipationless superconducting dome emerging directly out of a $\\nu = -2/3$ fractional topological state below $T_c = 380\\text{ mK}$.",
-        "bibtex": "@article{2026_10_19_11_fractional_quantum_anomalous_hall_superconductivity,\n  title = {Fractional Quantum Anomalous Hall Superconductivity in Rhombohedral Pentalayer Graphene},\n  author = {L. Ju and P. Jarillo-Herrero},\n  year = {2026},\n  journal = {APS Physical Review Letters},\n  url = {https://arxiv.org/abs/2610.07388}\n}"
+        "bibtex": "@article{2026_10_20_11_fractional_quantum_anomalous_hall_superconductivity,\n  title = {Fractional Quantum Anomalous Hall Superconductivity in Rhombohedral Pentalayer Graphene},\n  author = {L. Ju and P. Jarillo-Herrero},\n  year = {2026},\n  journal = {APS Physical Review Letters},\n  url = {https://arxiv.org/abs/2610.07388}\n}"
       },
       "original_title": "Fractional Quantum Anomalous Hall Superconductivity in Rhombohedral Pentalayer Graphene",
       "authors": [
@@ -1223,12 +1227,12 @@
         "community_points": 142,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-26-attritional-cost-exchange-ratios-of",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-26-attritional-cost-exchange-ratios-of",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "geopolitics",
       "is_top_pick": true,
       "is_paper": false,
@@ -1274,12 +1278,12 @@
         "community_points": 162,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-30-compositional-generalization-limits-in-connectionist",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-30-compositional-generalization-limits-in-connectionist",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "philosophy",
       "is_top_pick": true,
       "is_paper": true,
@@ -1295,7 +1299,7 @@
         "method_architecture_tr": "MDL tabanlı sembolik Bayesçi program tümevarımını dönüştürücü (transformer) dikkat devrelerinin durum izleme kapasitesiyle biçimsel olarak karşılaştırır.",
         "findings_tradeoffs_tr": "Dağılım-dışı özyineleme derinliği $d \\ge 7$ olduğunda otoregresif devrelerde keskin bir doğruluk çöküşü (faz geçişi) gerçekleştiğini kanıtlar.",
         "abstract_excerpt": "Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls. Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \\ge 7$.",
-        "bibtex": "@article{2026_10_19_30_compositional_generalization_limits_in_connectionist,\n  title = {Compositional Generalization Limits in Connectionist Architectures Versus Symbolic Program Induction},\n  author = {J. B. Tenenbaum and S. Dehaene},\n  year = {2026},\n  journal = {Bilim Akademisi Sarkaç / Cognitive Systems},\n  url = {https://arxiv.org/abs/2610.09904}\n}"
+        "bibtex": "@article{2026_10_20_30_compositional_generalization_limits_in_connectionist,\n  title = {Compositional Generalization Limits in Connectionist Architectures Versus Symbolic Program Induction},\n  author = {J. B. Tenenbaum and S. Dehaene},\n  year = {2026},\n  journal = {Bilim Akademisi Sarkaç / Cognitive Systems},\n  url = {https://arxiv.org/abs/2610.09904}\n}"
       },
       "original_title": "Compositional Generalization Limits in Connectionist Architectures Versus Symbolic Program Induction",
       "authors": [
@@ -1329,12 +1333,12 @@
         "community_points": 149,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-06-sharp-non-asymptotic-generalization-bounds",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-06-sharp-non-asymptotic-generalization-bounds",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "ai",
       "is_top_pick": true,
       "is_paper": true,
@@ -1350,7 +1354,7 @@
         "method_architecture_tr": "Ağır kuyruklu stokastik gradyan gürültüsü altında adaptör matrislerinin kararlı derecesine ($\text{sr}(BA)$) dayalı PAC-Bayes sınırları türetir.",
         "findings_tradeoffs_tr": "Derece-$16$ ($r=16$) adaptörlerin örneklem karmaşıklığında tam ince ayarı yakaladığını ve ezberlemeyi bastırdığını doğrular.",
         "abstract_excerpt": "Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\\text{sr}(BA) \\ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.",
-        "bibtex": "@article{2026_10_19_06_sharp_non_asymptotic_generalization_bounds,\n  title = {Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients},\n  author = {S. Arora and M. Belkin},\n  year = {2026},\n  journal = {JMLR / stat.ML},\n  url = {https://arxiv.org/abs/2610.08901}\n}"
+        "bibtex": "@article{2026_10_20_06_sharp_non_asymptotic_generalization_bounds,\n  title = {Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients},\n  author = {S. Arora and M. Belkin},\n  year = {2026},\n  journal = {JMLR / stat.ML},\n  url = {https://arxiv.org/abs/2610.08901}\n}"
       },
       "original_title": "Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients",
       "authors": [
@@ -1384,12 +1388,12 @@
         "community_points": 118,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-27-subsea-hvdc-interconnectors-critical-mineral",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-27-subsea-hvdc-interconnectors-critical-mineral",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "geopolitics",
       "is_top_pick": true,
       "is_paper": false,
@@ -1436,12 +1440,12 @@
         "community_points": 148,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-08-global-regularity-for-fractional-navier",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-08-global-regularity-for-fractional-navier",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "math",
       "is_top_pick": true,
       "is_paper": true,
@@ -1457,7 +1461,7 @@
         "method_architecture_tr": "Girdap (vorticity) filamentleri boyunca nicel De Giorgi-Nash-Moser eşitsizlikleri ve çok ölçekli enerji sönümü uygular.",
         "findings_tradeoffs_tr": "$\\alpha > 5/4 - \\varepsilon_0$ rejiminde sonlu zamanda tekillik oluşmadığını ve küresel $C^\\infty$ düzenliliğin korunduğunu kanıtlar.",
         "abstract_excerpt": "Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\\Delta)^\\alpha u$ remain regular below $\\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\\infty$ regularity for $\\alpha > 5/4 - \\varepsilon_0$.",
-        "bibtex": "@article{2026_10_19_08_global_regularity_for_fractional_navier,\n  title = {Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent},\n  author = {C. De Lellis and V. Vicol},\n  year = {2026},\n  journal = {arXiv Mathematics (math.AP)},\n  url = {https://arxiv.org/abs/2610.03902}\n}"
+        "bibtex": "@article{2026_10_20_08_global_regularity_for_fractional_navier,\n  title = {Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent},\n  author = {C. De Lellis and V. Vicol},\n  year = {2026},\n  journal = {arXiv Mathematics (math.AP)},\n  url = {https://arxiv.org/abs/2610.03902}\n}"
       },
       "original_title": "Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent",
       "authors": [
@@ -1490,12 +1494,12 @@
         "community_points": 115,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-18-neural-phonon-boltzmann-transport-solver",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-18-neural-phonon-boltzmann-transport-solver",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "bio",
       "is_top_pick": true,
       "is_paper": true,
@@ -1511,7 +1515,7 @@
         "method_architecture_tr": "Kristal simetri grubuna saygılı eşdeğişkin sinirsel operatör ile doğrusallaştırılmış fonon Boltzmann taşınım denklemini (BTE) doğrudan çözer.",
         "findings_tradeoffs_tr": "DFT-BTE doğruluğunu $10^4\\times$ daha hızlı yakalayarak yüksek iyonik iletkenlikli üç yeni arjirodit fazını belirler.",
         "abstract_excerpt": "First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\\%$ of DFT-BTE at $10^4\\times$ lower compute cost, uncovering three stable argyrodite phases.",
-        "bibtex": "@article{2026_10_19_18_neural_phonon_boltzmann_transport_solver,\n  title = {Neural Phonon Boltzmann Transport Solver Identifies Ultralow-Kappa Solid-State Electrolytes},\n  author = {G. Ceder and K. Persson},\n  year = {2026},\n  journal = {arXiv Materials & CompSci (cond-mat.mtrl-sci)},\n  url = {https://arxiv.org/abs/2610.06255}\n}"
+        "bibtex": "@article{2026_10_20_18_neural_phonon_boltzmann_transport_solver,\n  title = {Neural Phonon Boltzmann Transport Solver Identifies Ultralow-Kappa Solid-State Electrolytes},\n  author = {G. Ceder and K. Persson},\n  year = {2026},\n  journal = {arXiv Materials & CompSci (cond-mat.mtrl-sci)},\n  url = {https://arxiv.org/abs/2610.06255}\n}"
       },
       "original_title": "Neural Phonon Boltzmann Transport Solver Identifies Ultralow-Kappa Solid-State Electrolytes",
       "authors": [
@@ -1544,12 +1548,12 @@
         "community_points": 112,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-09-effective-chabauty-kim-method-for",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-09-effective-chabauty-kim-method-for",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "math",
       "is_top_pick": true,
       "is_paper": true,
@@ -1565,7 +1569,7 @@
         "method_architecture_tr": "Selmer çeşitlilikleri üzerinde $p$-adik Coleman-Gross yükseklikleri ve değişmeli-olmayan temel grup bölümlerini hesaplar.",
         "findings_tradeoffs_tr": "Cinsiyeti $3$ olan hipereliptik eğri aileleri için rasyonel noktaların tam listesini bilgisayar destekli sertifika ile üretir.",
         "abstract_excerpt": "Determining rational points on curves of genus $g \\ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.",
-        "bibtex": "@article{2026_10_19_09_effective_chabauty_kim_method_for,\n  title = {Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \\ge 3$ over Number Fields},\n  author = {M. Kim and J. S. Balakrishnan},\n  year = {2026},\n  journal = {Lean Community / arXiv math.AG},\n  url = {https://arxiv.org/abs/2610.04118}\n}"
+        "bibtex": "@article{2026_10_20_09_effective_chabauty_kim_method_for,\n  title = {Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \\ge 3$ over Number Fields},\n  author = {M. Kim and J. S. Balakrishnan},\n  year = {2026},\n  journal = {Lean Community / arXiv math.AG},\n  url = {https://arxiv.org/abs/2610.04118}\n}"
       },
       "original_title": "Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \\ge 3$ over Number Fields",
       "authors": [
@@ -1598,12 +1602,12 @@
         "community_points": 98,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-12-conformal-bootstrap-bounds-on-graviton",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-12-conformal-bootstrap-bounds-on-graviton",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "physics",
       "is_top_pick": true,
       "is_paper": true,
@@ -1619,7 +1623,7 @@
         "method_architecture_tr": "Süpersimetrik lokalizasyon kısıtlarını hiperbolik dağılım bağıntıları ve sayısal konformal önyükleme (bootstrap) optimizasyonuyla birleştirir.",
         "findings_tradeoffs_tr": "İlk üç yüksek-türevli Wilson katsayısını tüm 't Hooft kuplaj aralığında $0.04\\%$ hata payı içinde sıkıştırır.",
         "abstract_excerpt": "Non-perturbative stringy corrections to supergravity amplitudes at finite 't Hooft coupling $\\lambda$ are constrained by dispersion relations and crossing symmetry. Combining numerical conformal bootstrap with localization inputs, we pin down the first three higher-derivative Wilson coefficients to within $0.04\\%$ across all couplings.",
-        "bibtex": "@article{2026_10_19_12_conformal_bootstrap_bounds_on_graviton,\n  title = {Conformal Bootstrap Bounds on Graviton Scattering Amplitudes in $\\text{AdS}_5 \\times S^5$},\n  author = {D. Simmons-Duffin and S. Caron-Huot},\n  year = {2026},\n  journal = {arXiv High-Energy Theory (hep-th)},\n  url = {https://arxiv.org/abs/2610.07512}\n}"
+        "bibtex": "@article{2026_10_20_12_conformal_bootstrap_bounds_on_graviton,\n  title = {Conformal Bootstrap Bounds on Graviton Scattering Amplitudes in $\\text{AdS}_5 \\times S^5$},\n  author = {D. Simmons-Duffin and S. Caron-Huot},\n  year = {2026},\n  journal = {arXiv High-Energy Theory (hep-th)},\n  url = {https://arxiv.org/abs/2610.07512}\n}"
       },
       "original_title": "Conformal Bootstrap Bounds on Graviton Scattering Amplitudes in $\\text{AdS}_5 \\times S^5$",
       "authors": [
@@ -1652,12 +1656,12 @@
         "community_points": 104,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     },
     {
-      "id": "2026-10-19-03-deterministic-b-tree-compaction-under",
-      "issue_date": "2026-10-19",
-      "issue_number": 1,
+      "id": "2026-10-20-03-deterministic-b-tree-compaction-under",
+      "issue_date": "2026-10-20",
+      "issue_number": 2,
       "area": "cs",
       "is_top_pick": true,
       "is_paper": true,
@@ -1673,7 +1677,7 @@
         "method_architecture_tr": "Anahtar uzayını zaman damgası ufuklarına göre bölümleyen B-epsilon ağaç yapısı ile aktif ve geçmiş sürümleri deterministik olarak ayırır.",
         "findings_tradeoffs_tr": "Sıkı serileştirilebilirlikten ödün vermeden NVMe SSD dizilerinde kuyruk yazma gecikmesini ve G/Ç büyütmesini $O((B \\log_B N)/M)$ sınırında tutar.",
         "abstract_excerpt": "Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \\log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.",
-        "bibtex": "@article{2026_10_19_03_deterministic_b_tree_compaction_under,\n  title = {Deterministic B-Tree Compaction Under Serializable Snapshot Isolation},\n  author = {S. Pavlo and H. Kimura},\n  year = {2026},\n  journal = {arXiv CS (cs.DB)},\n  url = {https://arxiv.org/abs/2610.05109}\n}"
+        "bibtex": "@article{2026_10_20_03_deterministic_b_tree_compaction_under,\n  title = {Deterministic B-Tree Compaction Under Serializable Snapshot Isolation},\n  author = {S. Pavlo and H. Kimura},\n  year = {2026},\n  journal = {arXiv CS (cs.DB)},\n  url = {https://arxiv.org/abs/2610.05109}\n}"
       },
       "original_title": "Deterministic B-Tree Compaction Under Serializable Snapshot Isolation",
       "authors": [
@@ -1707,7 +1711,7 @@
         "community_points": 92,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-19T16:28:26.779070900+00:00"
+      "published_at": "2026-10-20T10:53:10.728755600+00:00"
     }
   ]
 }

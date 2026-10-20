@@ -208,6 +208,8 @@ pub struct TechnicalDetail {
     pub abstract_excerpt: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub bibtex: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub author_institutions: Option<Vec<String>>,
 }
 
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]
@@ -218,6 +220,10 @@ pub struct ItemMetrics {
     pub final_score: f64,
     pub community_points: u32,
     pub cross_source_count: u32,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub citation_count: Option<u32>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub influential_citations: Option<u32>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
