@@ -14,7 +14,7 @@
       <title>Ahbar Günlük Bülten — Sayı #2 (2026-10-20)</title>
       <link>https://latifkedi.github.io/ahbar/?date=2026-10-20</link>
       <guid isPermaLink="false">ahbar:podcast:2026-10-20:issue:2</guid>
-      <pubDate>2026-10-20T16:21:05.112221900+00:00</pubDate>
+      <pubDate>2026-10-20T16:49:34.141753100+00:00</pubDate>
       <description>Ahbar Sayı #2 (2026-10-20):
 
 1. [Bilgisayar Bilimi &amp; Yazılım] Asenkron Rust durum makineleri için sıfır-kopya (zero-copy) bölge çıkarımı: askıya alma noktaları arasındaki gereksiz yığın (heap) tahsislerini ortadan kaldırır.
@@ -29,7 +29,7 @@ Dilim-derecesi (slice-rank) polinom spektral kararlılığı kullanılarak $\mat
 4. [Fizik, Kuantum &amp; Uzay] İki değişkenli bisiklet (bivariate bicycle) kuantum LDPC kodları üzerinde sabit derinlikli ve hata-toleranslı sihirli durum damıtımı.
 Yüzey kodlarının mantıksal kübit başına $1{,}000+$ fiziksel kübit gereksinimini aşmak için $[[144, 12, 12]]$ qLDPC kodları üzerinde doğrudan çalışan sabit derinlikli sihirli durum fabrikası kuruldu; düzlemsel örgü cerrahisine kıyasla $6.8\times$ daha az fiziksel kübitle $10^{-9}$ altı mantıksal $T$-kapısı hatasına ulaşıldı.
 
-5. [Sistem, Donanım &amp; Siber Güvenlik] Spekülatif matris yazmaç yeniden adlandırmalı açık kaynaklı sırasız (out-of-order) RISC-V vektör çekirdeği.
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Spekülatif matris yazmaç yeniden adlandırmalı açık kaynaklı sırasız (out-of-order) RISC-V vektör çekirdeği.
 Karma FP8/BF16 çekirdeklerinde yazmaç dosyası portlarının doygunluğa ulaşarak süperskaler boru hatlarını durdurmasını önlemek için matris akümülatör yeniden adlandırmasını skaler ROB girdilerinden ayıran açık kaynaklı SystemVerilog `RV64GCV` çekirdeği $5\text{ nm}$ sürecinde üretildi ve $3.1\text{ TFLOPS/W}$ verime ulaştı.
 
 6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] De novo metaloenzim aktif bölge tasarımı için tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme (flow matching) ve kuantum mekaniksel potansiyel kuplajı.

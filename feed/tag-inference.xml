@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-10-20T16:21:05.112221900+00:00</updated>
+  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
   <entry>
     <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-04-sub-quadratic-sparse-attention-via"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-04-sub-quadratic-sparse-attention-via</id>
-    <updated>2026-10-20T16:21:05.112221900+00:00</updated>
+    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
     <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

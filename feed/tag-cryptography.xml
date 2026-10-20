@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-10-20T16:21:05.112221900+00:00</updated>
+  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
   <entry>
     <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-19-hyperfold-prover-optimal-lattice-folding"/>
     <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-20T16:21:05.112221900+00:00</updated>
+    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
     <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
   </entry>
 </feed>

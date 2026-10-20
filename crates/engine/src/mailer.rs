@@ -194,6 +194,83 @@ pub fn render_digest_email_html_with_lang(
     html.push_str(&jump_links.join(" <span style=\"color:#ddd5c4;margin:0 5px;\">·</span> "));
     html.push_str("\n</td></tr>\n");
 
+    // Showcase: Trending Repos, Open Weights & Applied Tech (Top 3 Dispatches)
+    let trending_picks: Vec<&&NewsItem> = items
+        .iter()
+        .filter(|i| {
+            i.tags.iter().any(|t| {
+                matches!(
+                    t.as_str(),
+                    "trending-repo"
+                        | "ai-models"
+                        | "open-weights"
+                        | "open-source"
+                        | "consumer-tech"
+                        | "hardware"
+                )
+            }) || i.links.code_url.is_some()
+        })
+        .take(3)
+        .collect();
+
+    if !trending_picks.is_empty() {
+        let showcase_title = if is_tr {
+            "🔥 HAFTANIN TREND AÇIK KAYNAK PROJELERİ & YENİ AI MODELLERİ"
+        } else {
+            "🔥 TRENDING OPEN-SOURCE REPOSITORIES & AI MODEL RELEASES"
+        };
+        let showcase_sub = if is_tr {
+            "Geliştirici araçları, açık modeller ve halka yansıyan yeni donanımlar"
+        } else {
+            "Trending developer tools, open weights & applied hardware"
+        };
+
+        html.push_str("<tr><td style=\"padding:18px 0 6px 0;\">\n");
+        html.push_str("<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color:#eee7d8;border-left:4px solid #a8321f;border-radius:4px;padding:14px 16px;\"><tr><td>\n");
+        html.push_str(&format!(
+            "<div style=\"font-size:12px;font-weight:700;letter-spacing:0.06em;color:#a8321f;text-transform:uppercase;\">{}</div>\n",
+            escape_xml(showcase_title)
+        ));
+        html.push_str(&format!(
+            "<div style=\"font-size:12px;color:#686256;margin:2px 0 12px 0;\">{}</div>\n",
+            escape_xml(showcase_sub)
+        ));
+
+        for tp in &trending_picks {
+            let tp_head = latex_to_email_unicode(tp.headline_tr.as_deref().unwrap_or(&tp.headline));
+            let tp_sum = latex_to_email_unicode(tp.simple_summary(lang));
+            let tp_url = if is_tr {
+                format!("{}/?lang=tr&item={}", base, tp.id)
+            } else {
+                format!("{}/?item={}", base, tp.id)
+            };
+
+            html.push_str("<div style=\"margin-bottom:10px;padding-bottom:10px;border-bottom:1px dashed #ddd5c4;\">\n");
+            html.push_str(&format!(
+                "<a href=\"{}\" style=\"font-family:'Source Serif 4',Georgia,serif;font-size:15px;font-weight:600;color:#1c1a16;text-decoration:none;\">{}</a>\n",
+                escape_xml(&tp_url),
+                escape_xml(&tp_head)
+            ));
+            html.push_str(&format!(
+                "<p style=\"margin:3px 0 5px 0;font-size:13.5px;line-height:1.55;color:#5b564c;\">{}</p>\n",
+                escape_xml(&tp_sum)
+            ));
+            if let Some(ref code) = tp.links.code_url {
+                html.push_str(&format!(
+                    "<a href=\"{}\" style=\"font-size:11.5px;font-weight:600;color:#a8321f;text-decoration:underline;margin-right:12px;\">GitHub Kaynak Kodu ↗</a>",
+                    escape_xml(code)
+                ));
+            }
+            html.push_str(&format!(
+                "<a href=\"{}\" style=\"font-size:11.5px;color:#686256;text-decoration:underline;\">Ahbar Analizi →</a>\n",
+                escape_xml(&tp_url)
+            ));
+            html.push_str("</div>\n");
+        }
+
+        html.push_str("</td></tr></table>\n</td></tr>\n");
+    }
+
     // Group items by the 10 Areas (3 items per area = 30 items total)
     let mut global_seq = 1usize;
     for area in Area::ALL {
@@ -251,14 +328,33 @@ pub fn render_digest_email_html_with_lang(
             } else {
                 &item.headline
             };
-            let summary_raw = if is_tr {
-                item.summary_tr.as_deref().unwrap_or(&item.summary)
-            } else {
-                &item.summary
-            };
+            let summary_raw = item.simple_summary(lang);
 
             let headline_clean = latex_to_email_unicode(headline_raw);
             let summary_clean = latex_to_email_unicode(summary_raw);
+
+            let mut badges_html = String::new();
+            if item.links.code_url.is_some() {
+                badges_html.push_str(if is_tr {
+                    " <span style=\"background-color:#eee7d8;color:#a8321f;border:1px solid #ddd5c4;border-radius:3px;padding:1px 5px;font-size:11px;font-weight:600;\">Açık Kod</span>"
+                } else {
+                    " <span style=\"background-color:#eee7d8;color:#a8321f;border:1px solid #ddd5c4;border-radius:3px;padding:1px 5px;font-size:11px;font-weight:600;\">Code</span>"
+                });
+            }
+            if item.tags.iter().any(|t| t == "consumer-tech" || t == "hardware") {
+                badges_html.push_str(if is_tr {
+                    " <span style=\"background-color:#eee7d8;color:#a8321f;border:1px solid #ddd5c4;border-radius:3px;padding:1px 5px;font-size:11px;font-weight:600;\">Tüketici Teknoloji</span>"
+                } else {
+                    " <span style=\"background-color:#eee7d8;color:#a8321f;border:1px solid #ddd5c4;border-radius:3px;padding:1px 5px;font-size:11px;font-weight:600;\">Hardware</span>"
+                });
+            }
+            if item.tags.iter().any(|t| t == "open-weights" || t == "ai-models") {
+                badges_html.push_str(if is_tr {
+                    " <span style=\"background-color:#eee7d8;color:#a8321f;border:1px solid #ddd5c4;border-radius:3px;padding:1px 5px;font-size:11px;font-weight:600;\">Açık Model</span>"
+                } else {
+                    " <span style=\"background-color:#eee7d8;color:#a8321f;border:1px solid #ddd5c4;border-radius:3px;padding:1px 5px;font-size:11px;font-weight:600;\">Open Model</span>"
+                });
+            }
 
             html.push_str("<tr><td style=\"padding:16px 0;border-bottom:1px solid #e9e2d3;\">\n");
             html.push_str("<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n");
@@ -272,26 +368,28 @@ pub fn render_digest_email_html_with_lang(
             // Right column: headline, source host, 1-paragraph summary, tags & direct links
             html.push_str("<td valign=\"top\">\n");
             html.push_str(&format!(
-                "<div style=\"margin:0 0 5px 0;\"><a href=\"{}\" style=\"font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:18px;font-weight:600;line-height:1.32;color:#1c1a16;text-decoration:none;\">{}</a> <span style=\"font-size:12.5px;color:#686256;margin-left:6px;\">· {}</span></div>\n",
+                "<div style=\"margin:0 0 5px 0;\"><a href=\"{}\" style=\"font-family:'Source Serif 4',Georgia,'Times New Roman',serif;font-size:18px;font-weight:600;line-height:1.32;color:#1c1a16;text-decoration:none;\">{}</a>{} <span style=\"font-size:12.5px;color:#686256;margin-left:6px;\">· {}</span></div>\n",
                 escape_xml(&detail_url),
                 escape_xml(&headline_clean),
+                badges_html,
                 escape_xml(&item.source_name)
             ));
 
             html.push_str(&format!(
-                "<p style=\"margin:0 0 9px 0;font-size:15px;line-height:1.62;color:#5b564c;\">{}</p>\n",
+                "<p style=\"margin:0 0 8px 0;font-size:15px;line-height:1.62;color:#5b564c;\"><strong style=\"color:#a8321f;font-size:12px;letter-spacing:0.04em;\">💡 {}</strong> {}</p>\n",
+                if is_tr { "ÖZET:" } else { "SUMMARY:" },
                 escape_xml(&summary_clean)
             ));
 
             // Metadata bar (links + inline tags)
             html.push_str("<div style=\"font-size:12.5px;color:#686256;\">\n");
-            let analysis_lbl = if is_tr { "Analiz & Atıf" } else { "Analysis & Cite" };
+            let tech_lbl = if is_tr { "🔬 Teknik Analiz Oku →" } else { "🔬 Technical Detail →" };
             let source_lbl = if is_tr { "Kaynak ↗" } else { "Source ↗" };
             let arch_lbl = if is_tr { "arşiv" } else { "archive" };
             html.push_str(&format!(
                 "<a href=\"{}\" style=\"color:#a8321f;font-weight:600;text-decoration:none;margin-right:12px;\">{}</a>",
                 escape_xml(&detail_url),
-                analysis_lbl
+                tech_lbl
             ));
             html.push_str(&format!(
                 "<a href=\"{}\" style=\"color:#5b564c;text-decoration:none;border-bottom:1px dotted #ddd5c4;margin-right:12px;\">{}</a>",
