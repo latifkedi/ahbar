@@ -2,10 +2,10 @@
   "issue_number": 2,
   "date": "2026-10-20",
   "edition_type": "daily",
-  "generated_at": "2026-10-20T12:08:58.790180500+00:00",
+  "generated_at": "2026-10-20T16:21:05.112221900+00:00",
   "stats": {
-    "sources_checked": 86,
-    "sources_healthy": 86,
+    "sources_checked": 92,
+    "sources_healthy": 92,
     "raw_items_scanned": 30,
     "clusters_formed": 30,
     "qualified_items": 30,
@@ -23,6 +23,10 @@
       "summary": "Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \\log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\\times$ lower KV-cache bandwidth.",
       "headline_tr": "1 milyon token bağlamda Blok-Spektral Yönlendirme (BSR) ile $O(L \\log L)$ karmaşıklığında alt-karesel seyrek dikkat mekanizması.",
       "summary_tr": "Standart öz-dikkat mekanizmasının $O(L^2)$ darboğazını aşmak için anahtar-değer bloklarını düşük dereceli Chebyshev tabanına izdüşüren Blok-Spektral Yönlendirme (BSR), FlashAttention-3 doğruluğunu korurken KV-önbellek bant genişliğini $4.7\\times$ azaltır.",
+      "summary_simple": "Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.",
+      "summary_simple_tr": "Standart öz-dikkat mekanizmasının $O(L^2)$ darboğazını aşmak için anahtar-değer bloklarını düşük dereceli Chebyshev tabanına izdüşüren Blok-Spektral Yönlendirme (BSR), FlashAttention-3 doğruluğunu korurken KV-önbellek bant genişliğini $4.7\\times$ azaltır.",
+      "summary_technical": "We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \\log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\\times$ lower KV-cache bandwidth.",
+      "summary_technical_tr": "Anahtar-değer bloklarını Chebyshev polinom tabanında spektral kovalar halinde özetleyip sorguları yalnızca en yüksek enerjili $k$ bloğa $O(L \\log L)$ zamanda yönlendirir.",
       "detail": {
         "problem_context": "Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.",
         "method_architecture": "We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \\log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\\times$ lower KV-cache bandwidth.",
@@ -75,7 +79,7 @@
         "community_points": 310,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-19-hyperfold-prover-optimal-lattice-folding",
@@ -88,6 +92,10 @@
       "summary": "Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor's algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\\text{ KB}$ proof size, and $3.9\\times$ faster RISC-V zkVM proving…",
       "headline_tr": "HyperFold: Goldilocks asal halkaları üzerinde kuantum-sonrası güvenli ve $O(\\log N)$ doğrulamalı kafes katlama (lattice folding) protokolü.",
       "summary_tr": "Shor algoritmasına duyarlı eliptik eğri katlama şemalarının (Nova/HyperNova) yerine Goldilocks asalları ($p = 2^{64} - 2^{32} + 1$) üzerinde kurulan ring-SIS kafes katlama protokolü, $128$-bit kuantum-sonrası güvenlik, $14\\text{ KB}$ kanıt boyutu ve tüketici GPU'larında $3.9\\times$ daha hızlı RISC-V zkVM kanıtlama performansı sunar.",
+      "summary_simple": "Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor's algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits.",
+      "summary_simple_tr": "Shor algoritmasına duyarlı eliptik eğri katlama şemalarının (Nova/HyperNova) yerine Goldilocks asalları ($p = 2^{64} - 2^{32} + 1$) üzerinde kurulan ring-SIS kafes katlama protokolü, $128$-bit kuantum-sonrası güvenlik, $14\\text{ KB}$ kanıt boyutu ve tüketici GPU'larında $3.9\\times$ daha hızlı RISC-V zkVM kanıtlama performansı sunar.",
+      "summary_technical": "We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\\text{ KB}$ proof size, and $3.9\\times$ faster RISC-V zkVM proving on consumer GPUs.",
+      "summary_technical_tr": "$p = 2^{64} - 2^{32} + 1$ Goldilocks halkası üzerinde norm kontrollü ring-SIS taahhüt katlama şeması ve doğrulayıcı-optimal toplam kontrolü (sumcheck) inşa eder.",
       "detail": {
         "problem_context": "Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor's algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits.",
         "method_architecture": "We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\\text{ KB}$ proof size, and $3.9\\times$ faster RISC-V zkVM proving on consumer GPUs.",
@@ -139,7 +147,7 @@
         "community_points": 240,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-07-improved-polymath-bounds-on-dense",
@@ -152,6 +160,10 @@
       "summary": "We establish a sharper upper bound of $(c p)^{n}$ with $c < 0.841$ for subsets of $\\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.",
       "headline_tr": "$\\mathbb{F}_p^n$ içinde aritmetik dizi içermeyen yoğun kümeler için iyileştirilmiş $(cp)^n$ üst sınırı ve Lean 4 ile biçimsel doğrulama.",
       "summary_tr": "Dilim-derecesi (slice-rank) polinom spektral kararlılığı kullanılarak $\\mathbb{F}_p^n$ içindeki üç terimli aritmetik dizi içermeyen altkümeler için $c < 0.841$ ile $(cp)^n$ üst sınırı kanıtlandı; temel kombinatorik indirgeme Lean 4 / Mathlib üzerinde bütünüyle mekanize edildi.",
+      "summary_simple": "We establish a sharper upper bound of $(c p)^{n}$ with $c < 0.841$ for subsets of $\\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability.",
+      "summary_simple_tr": "Dilim-derecesi (slice-rank) polinom spektral kararlılığı kullanılarak $\\mathbb{F}_p^n$ içindeki üç terimli aritmetik dizi içermeyen altkümeler için $c < 0.841$ ile $(cp)^n$ üst sınırı kanıtlandı; temel kombinatorik indirgeme Lean 4 / Mathlib üzerinde bütünüyle mekanize edildi.",
+      "summary_technical": "The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.",
+      "summary_technical_tr": "Dilim-derecesi polinom yöntemi ile spektral kararlılık lemmasını birleştirir ve tüm kanıt ağacını Lean 4 / Mathlib üzerinde doğrular.",
       "detail": {
         "problem_context": "We establish a sharper upper bound of $(c p)^{n}$ with $c < 0.841$ for subsets of $\\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability.",
         "method_architecture": "The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.",
@@ -196,7 +208,7 @@
         "community_points": 220,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-10-fault-tolerant-logical-magic-state",
@@ -209,6 +221,10 @@
       "summary": "Surface codes require over $1{,}000$ physical qubits per logical qubit at realistic gate error rates $p \\approx 10^{-3}$. We demonstrate a constant-depth magic-state factory directly on high-rate bivariate bicycle qLDPC codes ($[[144, 12, 12]]$), achieving logical $T$-gate infidelity below $10^{-9}$ with $6.8\\times$ fewer physical qubits than planar lattice surgery.",
       "headline_tr": "İki değişkenli bisiklet (bivariate bicycle) kuantum LDPC kodları üzerinde sabit derinlikli ve hata-toleranslı sihirli durum damıtımı.",
       "summary_tr": "Yüzey kodlarının mantıksal kübit başına $1{,}000+$ fiziksel kübit gereksinimini aşmak için $[[144, 12, 12]]$ qLDPC kodları üzerinde doğrudan çalışan sabit derinlikli sihirli durum fabrikası kuruldu; düzlemsel örgü cerrahisine kıyasla $6.8\\times$ daha az fiziksel kübitle $10^{-9}$ altı mantıksal $T$-kapısı hatasına ulaşıldı.",
+      "summary_simple": "Surface codes require over $1{,}000$ physical qubits per logical qubit at realistic gate error rates $p \\approx 10^{-3}$.",
+      "summary_simple_tr": "Yüzey kodlarının mantıksal kübit başına $1{,}000+$ fiziksel kübit gereksinimini aşmak için $[[144, 12, 12]]$ qLDPC kodları üzerinde doğrudan çalışan sabit derinlikli sihirli durum fabrikası kuruldu; düzlemsel örgü cerrahisine kıyasla $6.8\\times$ daha az fiziksel kübitle $10^{-9}$ altı mantıksal $T$-kapısı hatasına ulaşıldı.",
+      "summary_technical": "We demonstrate a constant-depth magic-state factory directly on high-rate bivariate bicycle qLDPC codes ($[[144, 12, 12]]$), achieving logical $T$-gate infidelity below $10^{-9}$ with $6.8\\times$ fewer physical qubits than planar lattice surgery.",
+      "summary_technical_tr": "Yüksek oranlı $[[144, 12, 12]]$ iki değişkenli bisiklet qLDPC kodları üzerinde kod-içi (in-place) sabit derinlikli mantıksal ölçüm devreleri tanımlar.",
       "detail": {
         "problem_context": "Surface codes require over $1{,}000$ physical qubits per logical qubit at realistic gate error rates $p \\approx 10^{-3}$.",
         "method_architecture": "We demonstrate a constant-depth magic-state factory directly on high-rate bivariate bicycle qLDPC codes ($[[144, 12, 12]]$), achieving logical $T$-gate infidelity below $10^{-9}$ with $6.8\\times$ fewer physical qubits than planar lattice surgery.",
@@ -250,11 +266,9 @@
         "llm_rigor": 8.8,
         "final_score": 13.9,
         "community_points": 195,
-        "cross_source_count": 1,
-        "citation_count": 0,
-        "influential_citations": 0
+        "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-01-zero-copy-region-inference-for",
@@ -267,6 +281,10 @@
       "summary": "We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\\%$ and improves tail latency by $1.42\\times$ on high-concurrency Tokio workloads without unsafe code.",
       "headline_tr": "Asenkron Rust durum makineleri için sıfır-kopya (zero-copy) bölge çıkarımı: askıya alma noktaları arasındaki gereksiz yığın (heap) tahsislerini ortadan kaldırır.",
       "summary_tr": "Rust'taki async/await durum makineleri için yaşam süresi (lifetime) projeksiyonlu çekirdek bir kalkülüs üzerinde sağlamlığı kanıtlanan bölge tabanlı ödünç alma analizi, üreteç çerçeve boyutlarını $38\\%$ küçültür ve Tokio iş yüklerinde `unsafe` kod kullanmadan kuyruk gecikmesini $1.42\\times$ iyileştirir.",
+      "summary_simple": "We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points.",
+      "summary_simple_tr": "Rust'taki async/await durum makineleri için yaşam süresi (lifetime) projeksiyonlu çekirdek bir kalkülüs üzerinde sağlamlığı kanıtlanan bölge tabanlı ödünç alma analizi, üreteç çerçeve boyutlarını $38\\%$ küçültür ve Tokio iş yüklerinde `unsafe` kod kullanmadan kuyruk gecikmesini $1.42\\times$ iyileştirir.",
+      "summary_technical": "By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\\%$ and improves tail latency by $1.42\\times$ on high-concurrency Tokio workloads without unsafe code.",
+      "summary_technical_tr": "MIR (Mid-level IR) aşamasında çalışan bölge tabanlı bir borçlanma çıkarım geçişi ile örtüşmeyen yaşam sürelerini aynı bellek yuvasında birleştirir.",
       "detail": {
         "problem_context": "We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points.",
         "method_architecture": "By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\\%$ and improves tail latency by $1.42\\times$ on high-concurrency Tokio workloads without unsafe code.",
@@ -319,7 +337,7 @@
         "community_points": 184,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-16-all-atom-equivariant-flow-matching",
@@ -332,6 +350,10 @@
       "summary": "Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ in wet-lab assays without directed evolution.",
       "headline_tr": "De novo metaloenzim aktif bölge tasarımı için tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme (flow matching) ve kuantum mekaniksel potansiyel kuplajı.",
       "summary_tr": "Geçiş metali koordinasyon geometrisinde $3d$-orbital elektronik etkilerini modellemek için $SE(3)$-eşdeğişkin akış eşleştirmeyi sıkı-bağlama (tight-binding) kuantum mekaniksel potansiyelle birleştiren model, yönlendirilmiş evrim olmadan ıslak laboratuvar deneylerinde $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ katalitik verime sahip çinko ve demir hidrolazlar tasarlar.",
+      "summary_simple": "Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover.",
+      "summary_simple_tr": "Geçiş metali koordinasyon geometrisinde $3d$-orbital elektronik etkilerini modellemek için $SE(3)$-eşdeğişkin akış eşleştirmeyi sıkı-bağlama (tight-binding) kuantum mekaniksel potansiyelle birleştiren model, yönlendirilmiş evrim olmadan ıslak laboratuvar deneylerinde $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ katalitik verime sahip çinko ve demir hidrolazlar tasarlar.",
+      "summary_technical": "We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ in wet-lab assays without directed evolution.",
+      "summary_technical_tr": "Tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme mimarisini aktif bölge çevresinde yarı-ampirik sıkı-bağlama kuantum potansiyeli ile ortaklaşa optimize eder.",
       "detail": {
         "problem_context": "Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover.",
         "method_architecture": "We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\\text{cat}}/K_M > 10^5\\text{ M}^{-1}\\text{s}^{-1}$ in wet-lab assays without directed evolution.",
@@ -375,7 +397,7 @@
         "community_points": 165,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-13-open-source-out-of-order",
@@ -388,6 +410,10 @@
       "summary": "Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\\text{ TFLOPS/W}$.",
       "headline_tr": "Spekülatif matris yazmaç yeniden adlandırmalı açık kaynaklı sırasız (out-of-order) RISC-V vektör çekirdeği.",
       "summary_tr": "Karma FP8/BF16 çekirdeklerinde yazmaç dosyası portlarının doygunluğa ulaşarak süperskaler boru hatlarını durdurmasını önlemek için matris akümülatör yeniden adlandırmasını skaler ROB girdilerinden ayıran açık kaynaklı SystemVerilog `RV64GCV` çekirdeği $5\\text{ nm}$ sürecinde üretildi ve $3.1\\text{ TFLOPS/W}$ verime ulaştı.",
+      "summary_simple": "Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels.",
+      "summary_simple_tr": "Karma FP8/BF16 çekirdeklerinde yazmaç dosyası portlarının doygunluğa ulaşarak süperskaler boru hatlarını durdurmasını önlemek için matris akümülatör yeniden adlandırmasını skaler ROB girdilerinden ayıran açık kaynaklı SystemVerilog `RV64GCV` çekirdeği $5\\text{ nm}$ sürecinde üretildi ve $3.1\\text{ TFLOPS/W}$ verime ulaştı.",
+      "summary_technical": "We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\\text{ TFLOPS/W}$.",
+      "summary_technical_tr": "Matris akümülatör yeniden adlandırma tablosunu skaler yeniden sıralama tamponundan (ROB) ayıran çift katmanlı `RV64GCV` mikro-mimarisi sunar.",
       "detail": {
         "problem_context": "Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels.",
         "method_architecture": "We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\\text{ TFLOPS/W}$.",
@@ -431,7 +457,7 @@
         "community_points": 154,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-02-byzantine-fault-injection-and-split",
@@ -444,6 +470,10 @@
       "summary": "Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\\text{ seconds}$ of simulated cluster time.",
       "headline_tr": "Mutabakat tabanlı nesne depolarında Bizans hata enjeksiyonu ve bölünmüş-beyin (split-brain) kurtarma analizi.",
       "summary_tr": "Beş farklı Raft ve Paxos depolama motoru üzerinde yürütülen deterministik simülasyon testleri, asimetrik ağ bölünmeleri ve NVMe `fsync` duraklamaları altında bayat okuma (stale read) hatalarını ortaya çıkardı; geliştirilen TLA+ değişmez denetleyicisi doğrusallaştırılabilirlik ihlallerini $40\\text{ saniye}$ altında yeniden üretir.",
+      "summary_simple": "Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls.",
+      "summary_simple_tr": "Beş farklı Raft ve Paxos depolama motoru üzerinde yürütülen deterministik simülasyon testleri, asimetrik ağ bölünmeleri ve NVMe `fsync` duraklamaları altında bayat okuma (stale read) hatalarını ortaya çıkardı; geliştirilen TLA+ değişmez denetleyicisi doğrusallaştırılabilirlik ihlallerini $40\\text{ saniye}$ altında yeniden üretir.",
+      "summary_technical": "We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\\text{ seconds}$ of simulated cluster time.",
+      "summary_technical_tr": "Deterministik simülasyon testini biçimsel TLA+ durum uzayı değişmez (invariant) denetimiyle birleştirerek hatalı lider değişim izlerini yakalar.",
       "detail": {
         "problem_context": "Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls.",
         "method_architecture": "We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\\text{ seconds}$ of simulated cluster time.",
@@ -494,7 +524,7 @@
         "community_points": 178,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-05-verified-tool-use-trajectories-for",
@@ -507,6 +537,10 @@
       "summary": "Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\\%$ with $32\\%$ fewer token rollouts.",
       "headline_tr": "Çok adımlı kodlama ajanları için biçimsel önkoşullarla doğrulanmış araç kullanım yörüngeleri.",
       "summary_tr": "Otonom kodlama ajanlarının hatalı ara hipotezlerde yıkıcı kabuk veya dosya sistemi işlemleri yürütmesini engellemek için MCP araç şemalarına Hoare tarzı durum önkoşulları eklendi; geçersiz eylem dalları yürütme öncesinde budanarak SWE-bench Verified başarısı $32\\%$ daha az token ile $11.4\\%$ artırıldı.",
+      "summary_simple": "Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail.",
+      "summary_simple_tr": "Otonom kodlama ajanlarının hatalı ara hipotezlerde yıkıcı kabuk veya dosya sistemi işlemleri yürütmesini engellemek için MCP araç şemalarına Hoare tarzı durum önkoşulları eklendi; geçersiz eylem dalları yürütme öncesinde budanarak SWE-bench Verified başarısı $32\\%$ daha az token ile $11.4\\%$ artırıldı.",
+      "summary_technical": "We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\\%$ with $32\\%$ fewer token rollouts.",
+      "summary_technical_tr": "Araç çağrısı şemalarına hafif sıklet Hoare mantığı önkoşulları ekleyerek durum geçişlerini yürütme öncesinde statik olarak doğrular.",
       "detail": {
         "problem_context": "Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail.",
         "method_architecture": "We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\\%$ with $32\\%$ fewer token rollouts.",
@@ -550,7 +584,7 @@
         "community_points": 145,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-17-pangenome-graph-indexing-in-sub",
@@ -563,6 +597,10 @@
       "summary": "Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\\text{ GB}$ of memory at $3.4\\times$ higher throughput than Minigraph-Cactus.",
       "headline_tr": "Wheeler dalgacık ağaçları ile alt-doğrusal bellekte insan pangenom çizgesi dizinleme ve hızlı Nanopore hizalama.",
       "summary_tr": "Binlerce haplotip içeren popülasyon ölçekli insan pangenom çizgelerinin $100\\text{ GB}$ üstü RAM gereksinimini aşmak için çift yönlü FM-dizinleri üzerinde sıkıştırılmış Wheeler çizge dizini kuruldu; uzun Nanopore okumaları yalnızca $4.2\\text{ GB}$ bellekte Minigraph-Cactus'tan $3.4\\times$ daha hızlı hizalanır.",
+      "summary_simple": "Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\\text{ GB}$ of RAM using conventional $k$-mer seed tables.",
+      "summary_simple_tr": "Binlerce haplotip içeren popülasyon ölçekli insan pangenom çizgelerinin $100\\text{ GB}$ üstü RAM gereksinimini aşmak için çift yönlü FM-dizinleri üzerinde sıkıştırılmış Wheeler çizge dizini kuruldu; uzun Nanopore okumaları yalnızca $4.2\\text{ GB}$ bellekte Minigraph-Cactus'tan $3.4\\times$ daha hızlı hizalanır.",
+      "summary_technical": "We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\\text{ GB}$ of memory at $3.4\\times$ higher throughput than Minigraph-Cactus.",
+      "summary_technical_tr": "Çift yönlü FM-dizinleri üzerinde Wheeler bürokrat dalgacık ağaçları (wavelet trees) kullanarak kayıpsız sıkıştırılmış alt-doğrusal arama yapısı kurar.",
       "detail": {
         "problem_context": "Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\\text{ GB}$ of RAM using conventional $k$-mer seed tables.",
         "method_architecture": "We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\\text{ GB}$ of memory at $3.4\\times$ higher throughput than Minigraph-Cactus.",
@@ -607,7 +645,7 @@
         "community_points": 128,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-20-symbolic-smt-guided-equivalence-checking",
@@ -620,6 +658,10 @@
       "summary": "Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.",
       "headline_tr": "EVM bayt kodu ile ZK-devre derleyicileri arasında sembolik ve SMT destekli bit-kesin eşdeğerlik doğrulaması.",
       "summary_tr": "zkSNARK devrelerindeki eksik kısıtlanmış aritmetik kapıları ve Solidity/Yul derleyici hatalarını yakalamak için geliştirilen SMT destekli ilişkisel doğrulayıcı, optimize edilmiş EVM bayt kodu ile Plonkish kısıt sistemleri arasındaki bit-kesin eşdeğerliği döngü-sınırlı sözleşmeler için polinom zamanda kanıtlar.",
+      "summary_simple": "Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits.",
+      "summary_simple_tr": "zkSNARK devrelerindeki eksik kısıtlanmış aritmetik kapıları ve Solidity/Yul derleyici hatalarını yakalamak için geliştirilen SMT destekli ilişkisel doğrulayıcı, optimize edilmiş EVM bayt kodu ile Plonkish kısıt sistemleri arasındaki bit-kesin eşdeğerliği döngü-sınırlı sözleşmeler için polinom zamanda kanıtlar.",
+      "summary_technical": "We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.",
+      "summary_technical_tr": "EVM yürütme semantiği ile Plonkish aritmetik devre kısıtlarını ortak bir ilişkisel Hoare mantığı ve SMT çözücüsüne indirger.",
       "detail": {
         "problem_context": "Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits.",
         "method_architecture": "We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.",
@@ -663,7 +705,7 @@
         "community_points": 132,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-14-hardware-enforced-capability-tagging-eliminates",
@@ -676,6 +718,10 @@
       "summary": "High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\\%$ of baseline at $400\\text{ Gb/s}$ while deterministically trapping temporal aliasing.",
       "headline_tr": "Çekirdek ağ halkalarında (io_uring / DMA) donanım destekli yetenek etiketlemesi ile Use-After-Free açıklıklarının deterministik olarak engellenmesi.",
       "summary_tr": "Linux çekirdeğindeki yüksek hızlı `io_uring` ve sıfır-kopya DMA halkalarını IOMMU sınırında doğrulanan CHERI/MTE bellek yetenek etiketlerine bağlayan mimari, $400\\text{ Gb/s}$ hat hızında yalnızca $1.8\\%$ ek yükle zamansal bellek takma adı (temporal aliasing) hatalarını yakalar.",
+      "summary_simple": "High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel.",
+      "summary_simple_tr": "Linux çekirdeğindeki yüksek hızlı `io_uring` ve sıfır-kopya DMA halkalarını IOMMU sınırında doğrulanan CHERI/MTE bellek yetenek etiketlerine bağlayan mimari, $400\\text{ Gb/s}$ hat hızında yalnızca $1.8\\%$ ek yükle zamansal bellek takma adı (temporal aliasing) hatalarını yakalar.",
+      "summary_technical": "By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\\%$ of baseline at $400\\text{ Gb/s}$ while deterministically trapping temporal aliasing.",
+      "summary_technical_tr": "Tanımlayıcı halkalarını işlemci ve IOMMU tarafından donanımsal olarak denetlenen ince taneli CHERI/MTE bellek yetenek (capability) etiketleriyle eşleştirir.",
       "detail": {
         "problem_context": "High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel.",
         "method_architecture": "By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\\%$ of baseline at $400\\text{ Gb/s}$ while deterministically trapping temporal aliasing.",
@@ -726,7 +772,7 @@
         "community_points": 210,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-22-heterogeneous-agent-monetary-transmission-under",
@@ -739,6 +785,10 @@
       "summary": "We solve a continuous-time HANK model with endogenous term-premia and non-linear fiscal reaction functions across 38 OECD and emerging sovereign bond markets. When short-term refinancing exceeds $28\\%$ of GDP, a $100\\text{ bps}$ policy tightening induces fiscal dominance spillovers that attenuate disinflation by $42\\%$ unless paired with liquidity-draining repo corridors.",
       "headline_tr": "Kamu borcu vade duvarları altında heterojen ajanlı (HANK) parasal aktarım mekanizması ve mali baskınlık sınırları.",
       "summary_tr": "38 OECD ve gelişmekte olan ülke tahvil piyasası üzerinde içsel vade primli sürekli-zamanlı bir HANK modeli çözüldü; kısa vadeli borç çevirme oranının GSYH'nin $28\\%$'ini aştığı ekonomilerde $100\\text{ baz puanlık}$ faiz artışının mali baskınlık yayılımları nedeniyle dezenflasyon etkisini $42\\%$ zayıflattığı, ancak likidite çekici repo koridorlarıyla bu kaybın telafi edildiği gösterildi.",
+      "summary_simple": "We solve a continuous-time HANK model with endogenous term-premia and non-linear fiscal reaction functions across 38 OECD and emerging sovereign bond markets.",
+      "summary_simple_tr": "38 OECD ve gelişmekte olan ülke tahvil piyasası üzerinde içsel vade primli sürekli-zamanlı bir HANK modeli çözüldü; kısa vadeli borç çevirme oranının GSYH'nin $28\\%$'ini aştığı ekonomilerde $100\\text{ baz puanlık}$ faiz artışının mali baskınlık yayılımları nedeniyle dezenflasyon etkisini $42\\%$ zayıflattığı, ancak likidite çekici repo koridorlarıyla bu kaybın telafi edildiği gösterildi.",
+      "summary_technical": "When short-term refinancing exceeds $28\\%$ of GDP, a $100\\text{ bps}$ policy tightening induces fiscal dominance spillovers that attenuate disinflation by $42\\%$ unless paired with liquidity-draining repo corridors.",
+      "summary_technical_tr": "İçsel getiri eğrisi primleri ve doğrusal-olmayan mali tepki fonksiyonları içeren sürekli-zamanlı heterojen ajanlı Yeni Keynesyen (HANK) modeli çözer.",
       "detail": {
         "problem_context": "We solve a continuous-time HANK model with endogenous term-premia and non-linear fiscal reaction functions across 38 OECD and emerging sovereign bond markets.",
         "method_architecture": "When short-term refinancing exceeds $28\\%$ of GDP, a $100\\text{ bps}$ policy tightening induces fiscal dominance spillovers that attenuate disinflation by $42\\%$ unless paired with liquidity-draining repo corridors.",
@@ -782,7 +832,7 @@
         "community_points": 182,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-25-chokepoint-geometries-in-sub-2nm",
@@ -795,6 +845,10 @@
       "summary": "Export control regimes targeting final AI accelerator FLOPS/mm² overlook upstream chemical precursor, photo-acid generator, and advanced packaging (CoWoS-L) single-point dependencies. Input-output network modeling across 140 fabrication tiers shows that wafer-level metrology and EUV pellicle bottlenecks constrain frontier cluster deployment $3.2\\times$ more tightly than fab tool embargoes.",
       "headline_tr": "2nm altı EUV litografi ve yüksek bant genişlikli bellek (HBM) tedarik zincirlerinde darboğaz geometrisi.",
       "summary_tr": "Yalnızca nihai yapay zekâ hızlandırıcılarının FLOPS/mm² yoğunluğunu hedef alan ihracat kontrollerinin, yukarı-akım fotorezist kimyasalları, EUV pelikülleri ve gelişmiş paketleme (CoWoS-L) tek-nokta bağımlılıklarını gözden kaçırdığı; 140 üretim katmanlı ağ modelinde plaka-düzeyi metroloji kısıtlarının sınır küme kurulumunu fabrika ekipmanı ambargolarından $3.2\\times$ daha sıkı sınırladığı gösterildi.",
+      "summary_simple": "Export control regimes targeting final AI accelerator FLOPS/mm² overlook upstream chemical precursor, photo-acid generator, and advanced packaging (CoWoS-L) single-point dependencies.",
+      "summary_simple_tr": "Yalnızca nihai yapay zekâ hızlandırıcılarının FLOPS/mm² yoğunluğunu hedef alan ihracat kontrollerinin, yukarı-akım fotorezist kimyasalları, EUV pelikülleri ve gelişmiş paketleme (CoWoS-L) tek-nokta bağımlılıklarını gözden kaçırdığı; 140 üretim katmanlı ağ modelinde plaka-düzeyi metroloji kısıtlarının sınır küme kurulumunu fabrika ekipmanı ambargolarından $3.2\\times$ daha sıkı sınırladığı gösterildi.",
+      "summary_technical": "Input-output network modeling across 140 fabrication tiers shows that wafer-level metrology and EUV pellicle bottlenecks constrain frontier cluster deployment $3.2\\times$ more tightly than fab tool embargoes.",
+      "summary_technical_tr": "140 yarı iletken üretim, litografi kimyasalı, EUV pelikül ve CoWoS-L paketleme katmanı üzerinde girdi-çıktı darboğaz çizgesi kurar.",
       "detail": {
         "problem_context": "Export control regimes targeting final AI accelerator FLOPS/mm² overlook upstream chemical precursor, photo-acid generator, and advanced packaging (CoWoS-L) single-point dependencies.",
         "method_architecture": "Input-output network modeling across 140 fabrication tiers shows that wafer-level metrology and EUV pellicle bottlenecks constrain frontier cluster deployment $3.2\\times$ more tightly than fab tool embargoes.",
@@ -834,7 +888,7 @@
         "community_points": 194,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-15-cross-cache-speculative-type-confusion",
@@ -847,6 +901,10 @@
       "summary": "Optimizing JIT compilers elide bounds and map checks when profiling feedback indicates monomorphic object shapes. We demonstrate a speculative race condition during concurrent background compilation that leaks arbitrary WebAssembly linear memory across site isolation boundaries in under $90\\text{ ms}$, along with a zero-overhead fence mitigation.",
       "headline_tr": "Modern tarayıcı JIT derleyici katmanlarında önbellekler-arası spekülatif tip karışıklığı (type confusion) ve sıfır-maliyetli bariyer çözümü.",
       "summary_tr": "Arka planda eşzamanlı JIT derlemesi sırasında monomorfik nesne şekil varsayımlarının spekülatif yarış koşuluna girmesiyle site yalıtım sınırları arasında $90\\text{ ms}$ altında keyfi WebAssembly doğrusal belleği sızdırabildiği gösterildi ve sıfır ek yüklü bellek bariyeri yaması sunuldu.",
+      "summary_simple": "Optimizing JIT compilers elide bounds and map checks when profiling feedback indicates monomorphic object shapes.",
+      "summary_simple_tr": "Arka planda eşzamanlı JIT derlemesi sırasında monomorfik nesne şekil varsayımlarının spekülatif yarış koşuluna girmesiyle site yalıtım sınırları arasında $90\\text{ ms}$ altında keyfi WebAssembly doğrusal belleği sızdırabildiği gösterildi ve sıfır ek yüklü bellek bariyeri yaması sunuldu.",
+      "summary_technical": "We demonstrate a speculative race condition during concurrent background compilation that leaks arbitrary WebAssembly linear memory across site isolation boundaries in under $90\\text{ ms}$, along with a zero-overhead fence mitigation.",
+      "summary_technical_tr": "Arka plan derleyici iş parçacığı ile ana JS yürütme hattı arasındaki harita geçiş yarışını (race condition) spekülatif önbellek yan kanalıyla birleştirir.",
       "detail": {
         "problem_context": "Optimizing JIT compilers elide bounds and map checks when profiling feedback indicates monomorphic object shapes.",
         "method_architecture": "We demonstrate a speculative race condition during concurrent background compilation that leaks arbitrary WebAssembly linear memory across site isolation boundaries in under $90\\text{ ms}$, along with a zero-overhead fence mitigation.",
@@ -888,7 +946,7 @@
         "community_points": 188,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-28-coarse-graining-and-causal-emergence",
@@ -901,6 +959,10 @@
       "summary": "When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics? Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) > EI(\\mu)$ due to degenerate micro-noise cancellation.",
       "headline_tr": "Çok ölçekli Markov battaniyelerinde kaba-ölçekleme (coarse-graining) ve nedensel beliriş (causal emergence).",
       "summary_tr": "Bir makro-durum değişkeninin altta yatan mikro-dinamiklerden ne zaman daha yüksek nedensel öngörü gücüne sahip olduğu sorusu, hiyerarşik Markov battaniyeleri üzerinde müdahaleci bilgi kuramı ve renormalizasyon grubu akışlarıyla çözüldü; dejenere mikro-gürültü sönümlenmesi sayesinde makro-ölçek efektif bilginin $EI(M) > EI(\\mu)$ olduğu tam eşik türetildi.",
+      "summary_simple": "When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics?",
+      "summary_simple_tr": "Bir makro-durum değişkeninin altta yatan mikro-dinamiklerden ne zaman daha yüksek nedensel öngörü gücüne sahip olduğu sorusu, hiyerarşik Markov battaniyeleri üzerinde müdahaleci bilgi kuramı ve renormalizasyon grubu akışlarıyla çözüldü; dejenere mikro-gürültü sönümlenmesi sayesinde makro-ölçek efektif bilginin $EI(M) > EI(\\mu)$ olduğu tam eşik türetildi.",
+      "summary_technical": "Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) > EI(\\mu)$ due to degenerate micro-noise cancellation.",
+      "summary_technical_tr": "Hiyerarşik Markov battaniyeleri üzerinde Judea Pearl'ün müdahale (do-calculus) operatörlerini renormalizasyon grubu kaba-ölçeklemesiyle birleştirir.",
       "detail": {
         "problem_context": "When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics?",
         "method_architecture": "Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) > EI(\\mu)$ due to degenerate micro-noise cancellation.",
@@ -944,7 +1006,7 @@
         "community_points": 172,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-23-supply-chain-network-topology-and",
@@ -957,6 +1019,10 @@
       "summary": "Using firm-to-firm VAT invoice graphs covering $1.4\\times 10^6$ supplier links, we estimate non-parametric input-output price rigidities during monetary tightening. Upstream oligopolistic bottlenecks with high Katz centrality delay downstream consumer price stabilization by $2.6$ quarters compared to competitive peripheral sectors.",
       "headline_tr": "Tedarik zinciri ağ topolojisi ve dezenflasyon dönemlerinde girdi-çıktı fiyat geçişkenliği asimetrileri.",
       "summary_tr": "$1.4\\times 10^6$ tedarikçi bağlantısını kapsayan firmalar-arası KDV fatura çizgeleri üzerinde yapılan parametrik-olmayan tahminde, yüksek Katz merkeziliğine sahip yukarı-akım oligopolistik darboğazların parasal sıkılaşma sonrasında tüketici fiyat istikrarını rekabetçi sektörlere kıyasla $2.6$ çeyrek geciktirdiği kanıtlandı.",
+      "summary_simple": "Using firm-to-firm VAT invoice graphs covering $1.4\\times 10^6$ supplier links, we estimate non-parametric input-output price rigidities during monetary tightening.",
+      "summary_simple_tr": "$1.4\\times 10^6$ tedarikçi bağlantısını kapsayan firmalar-arası KDV fatura çizgeleri üzerinde yapılan parametrik-olmayan tahminde, yüksek Katz merkeziliğine sahip yukarı-akım oligopolistik darboğazların parasal sıkılaşma sonrasında tüketici fiyat istikrarını rekabetçi sektörlere kıyasla $2.6$ çeyrek geciktirdiği kanıtlandı.",
+      "summary_technical": "Upstream oligopolistic bottlenecks with high Katz centrality delay downstream consumer price stabilization by $2.6$ quarters compared to competitive peripheral sectors.",
+      "summary_technical_tr": "$1.4$ milyon firma-firma fatura bağlantısı üzerinde Katz ağ merkeziliği ve parametrik-olmayan girdi-çıktı fiyat katılığı tahmincisi uygular.",
       "detail": {
         "problem_context": "Using firm-to-firm VAT invoice graphs covering $1.4\\times 10^6$ supplier links, we estimate non-parametric input-output price rigidities during monetary tightening.",
         "method_architecture": "Upstream oligopolistic bottlenecks with high Katz centrality delay downstream consumer price stabilization by $2.6$ quarters compared to competitive peripheral sectors.",
@@ -1000,7 +1066,7 @@
         "community_points": 168,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-29-imprecise-probabilities-dutch-book-coherence",
@@ -1013,6 +1079,10 @@
       "summary": "Classical Bayesian conditioning collapses when an agent's prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses. We prove a representation theorem for convex credal sets under $\\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.",
       "headline_tr": "Ciddi model yanlış-belirtimi altında kesin-olmayan olasılıklar (imprecise probabilities), Dutch-Book tutarlılığı ve epistemik tevazu.",
       "summary_tr": "Klasik Bayesçi koşullandırma, ajanın önsel dağılım desteği gerçek veri-üretim sürecini dışladığında yanlış sınır hipotezlerine aşırı özgüvenle yakınsar; $\\alpha$-ıraksama güncellemeleri altında dışbükey inanç kümeleri (credal sets) için kanıtlanan temsil teoremi, dinamik tutarlılığı korurken yapısal model hatasının asimptotik tespitini garanti eder.",
+      "summary_simple": "Classical Bayesian conditioning collapses when an agent's prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses.",
+      "summary_simple_tr": "Klasik Bayesçi koşullandırma, ajanın önsel dağılım desteği gerçek veri-üretim sürecini dışladığında yanlış sınır hipotezlerine aşırı özgüvenle yakınsar; $\\alpha$-ıraksama güncellemeleri altında dışbükey inanç kümeleri (credal sets) için kanıtlanan temsil teoremi, dinamik tutarlılığı korurken yapısal model hatasının asimptotik tespitini garanti eder.",
+      "summary_technical": "We prove a representation theorem for convex credal sets under $\\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.",
+      "summary_technical_tr": "Dışbükey olasılık kümeleri (credal sets) üzerinde $\\alpha$-ıraksama tabanlı genelleştirilmiş güncelleme kuralları ve Dutch-Book tutarlılık teoremi kurar.",
       "detail": {
         "problem_context": "Classical Bayesian conditioning collapses when an agent's prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses.",
         "method_architecture": "We prove a representation theorem for convex credal sets under $\\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.",
@@ -1053,7 +1123,7 @@
         "community_points": 156,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-21-single-slot-finality-under-sub",
@@ -1066,6 +1136,10 @@
       "summary": "Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\\text{ MB/s}$ while guaranteeing two-round finality.",
       "headline_tr": "Eşik BLS imza toplama ağaçları ve PeerDAS veri örneklemesi altında tek-yuva kesinliği (Single-Slot Finality).",
       "summary_tr": "$10^6$ üstü doğrulayıcıya sahip BFT mutabakatında $12$ saniyelik tek yuvada kesinlik sağlamak için silme kodlamalı veri erişilebilirliği örneklemesi (PeerDAS) ile oransız cebirsel BLS imza birleştirme ağaçları birleştirildi; düğüm başına bant genişliği $4.5\\text{ MB/s}$ altında tutularak iki turlu kesinlik garanti edildi.",
+      "summary_simple": "Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout.",
+      "summary_simple_tr": "$10^6$ üstü doğrulayıcıya sahip BFT mutabakatında $12$ saniyelik tek yuvada kesinlik sağlamak için silme kodlamalı veri erişilebilirliği örneklemesi (PeerDAS) ile oransız cebirsel BLS imza birleştirme ağaçları birleştirildi; düğüm başına bant genişliği $4.5\\text{ MB/s}$ altında tutularak iki turlu kesinlik garanti edildi.",
+      "summary_technical": "Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\\text{ MB/s}$ while guaranteeing two-round finality.",
+      "summary_technical_tr": "PeerDAS veri erişilebilirliği alt-örneklemesini cebirsel sıçramalı (rateless) BLS eşik imza toplama ağaçlarıyla birleştirir.",
       "detail": {
         "problem_context": "Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout.",
         "method_architecture": "Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\\text{ MB/s}$ while guaranteeing two-round finality.",
@@ -1116,7 +1190,7 @@
         "community_points": 175,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-24-optimal-execution-and-adverse-selection",
@@ -1129,6 +1203,10 @@
       "summary": "Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \\approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\\text{ bps}$.",
       "headline_tr": "Pürüzlü oynaklık (rough volatility) ve Hawkes süreçli limit emir defterlerinde optimal emir yürütme ve ters seçim.",
       "summary_tr": "Klasik Almgren-Chriss modelinin likidite kuruması anlarında kuyruk kaymasını (slippage) eksik tahmin etmesini aşmak için emir akışı çift değişkenli öz-uyarımlı Hawkes süreci ve kesirli Hurst üssü $H \\approx 0.12$ ile modellendi; kapalı-form Riccati yürütme çizelgeleri uygulama açığını (implementation shortfall) $19.4\\text{ baz puan}$ düşürür.",
+      "summary_simple": "Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts.",
+      "summary_simple_tr": "Klasik Almgren-Chriss modelinin likidite kuruması anlarında kuyruk kaymasını (slippage) eksik tahmin etmesini aşmak için emir akışı çift değişkenli öz-uyarımlı Hawkes süreci ve kesirli Hurst üssü $H \\approx 0.12$ ile modellendi; kapalı-form Riccati yürütme çizelgeleri uygulama açığını (implementation shortfall) $19.4\\text{ baz puan}$ düşürür.",
+      "summary_technical": "Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \\approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\\text{ bps}$.",
+      "summary_technical_tr": "Karşılıklı uyarımlı iki değişkenli Hawkes nokta süreçlerini $H \\approx 0.12$ kesirli oynaklık çekirdeğiyle birleştirerek Riccati kontrol denklemlerini çözer.",
       "detail": {
         "problem_context": "Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts.",
         "method_architecture": "Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \\approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\\text{ bps}$.",
@@ -1171,7 +1249,7 @@
         "community_points": 146,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-11-fractional-quantum-anomalous-hall-superconductivity",
@@ -1184,6 +1262,10 @@
       "summary": "Coexistence of fractional Chern insulator states and unconventional superconductivity at zero magnetic field has remained elusive in moiré heterostructures. Transport spectroscopy in hBN-aligned rhombohedral pentalayer graphene reveals a dissipationless superconducting dome emerging directly out of a $\\nu = -2/3$ fractional topological state below $T_c = 380\\text{ mK}$.",
       "headline_tr": "Rombohedral beş katmanlı grafende sıfır manyetik alanda kesirli kuantum anormal Hall süperiletkenliği gözlemlendi.",
       "summary_tr": "hBN hizalı rombohedral beş katmanlı grafende yapılan taşınım spektroskopisi, sıfır dış manyetik alanda $\\nu = -2/3$ kesirli topolojik Chern yalıtkanı durumundan doğrudan doğan ve $T_c = 380\\text{ mK}$ altında kayıpsız akım taşıyan bir süperiletken kubbe ortaya çıkardı.",
+      "summary_simple": "Coexistence of fractional Chern insulator states and unconventional superconductivity at zero magnetic field has remained elusive in moiré heterostructures.",
+      "summary_simple_tr": "hBN hizalı rombohedral beş katmanlı grafende yapılan taşınım spektroskopisi, sıfır dış manyetik alanda $\\nu = -2/3$ kesirli topolojik Chern yalıtkanı durumundan doğrudan doğan ve $T_c = 380\\text{ mK}$ altında kayıpsız akım taşıyan bir süperiletken kubbe ortaya çıkardı.",
+      "summary_technical": "Transport spectroscopy in hBN-aligned rhombohedral pentalayer graphene reveals a dissipationless superconducting dome emerging directly out of a $\\nu = -2/3$ fractional topological state below $T_c = 380\\text{ mK}$.",
+      "summary_technical_tr": "hBN ile hizalanmış beş katmanlı rombohedral grafen heteroyapılarında milikelvin sıcaklıkta elektrostatik kapılama ve taşınım spektroskopisi uygular.",
       "detail": {
         "problem_context": "Coexistence of fractional Chern insulator states and unconventional superconductivity at zero magnetic field has remained elusive in moiré heterostructures.",
         "method_architecture": "Transport spectroscopy in hBN-aligned rhombohedral pentalayer graphene reveals a dissipationless superconducting dome emerging directly out of a $\\nu = -2/3$ fractional topological state below $T_c = 380\\text{ mK}$.",
@@ -1225,7 +1307,7 @@
         "community_points": 142,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-26-attritional-cost-exchange-ratios-of",
@@ -1238,6 +1320,10 @@
       "summary": "Interceptor-to-target unit cost ratios exceeding $25:1$ create structural magazine-depth exhaustion under saturation salvos. Quantitative salvos modeling demonstrates that integrating directed-energy short-range defense with low-cost acoustic/RF sensor meshes restores positive cost-exchange equilibrium at engagement densities up to $180\\text{ tracks/min}$.",
       "headline_tr": "Çok katmanlı hava savunmasına karşı otonom dolanan mühimmat sürülerinin yıpratma ve maliyet-değişim oranları.",
       "summary_tr": "Önleyici füze ile hedef birim maliyet oranının $25:1$'i aşması doygunluk salvoları altında yapısal mühimmat derinliği tükenmesine yol açmaktadır; nicel salvo modellemesi, kısa menzilli yönlendirilmiş enerji sistemleri ile düşük maliyetli akustik/RF sensör ağlarının entegrasyonunun dakikada $180\\text{ iz}$ yoğunluğuna kadar maliyet-değişim dengesini savunma lehine çevirdiğini göstermektedir.",
+      "summary_simple": "Interceptor-to-target unit cost ratios exceeding $25:1$ create structural magazine-depth exhaustion under saturation salvos.",
+      "summary_simple_tr": "Önleyici füze ile hedef birim maliyet oranının $25:1$'i aşması doygunluk salvoları altında yapısal mühimmat derinliği tükenmesine yol açmaktadır; nicel salvo modellemesi, kısa menzilli yönlendirilmiş enerji sistemleri ile düşük maliyetli akustik/RF sensör ağlarının entegrasyonunun dakikada $180\\text{ iz}$ yoğunluğuna kadar maliyet-değişim dengesini savunma lehine çevirdiğini göstermektedir.",
+      "summary_technical": "Quantitative salvos modeling demonstrates that integrating directed-energy short-range defense with low-cost acoustic/RF sensor meshes restores positive cost-exchange equilibrium at engagement densities up to $180\\text{ tracks/min}$.",
+      "summary_technical_tr": "Stokastik salvo-kesişme simülasyonu ile kinetik önleyiciler, yönlendirilmiş enerji silahları ve dağıtık pasif RF/akustik sensör ağlarını birlikte modeller.",
       "detail": {
         "problem_context": "Interceptor-to-target unit cost ratios exceeding $25:1$ create structural magazine-depth exhaustion under saturation salvos.",
         "method_architecture": "Quantitative salvos modeling demonstrates that integrating directed-energy short-range defense with low-cost acoustic/RF sensor meshes restores positive cost-exchange equilibrium at engagement densities up to $180\\text{ tracks/min}$.",
@@ -1276,7 +1362,7 @@
         "community_points": 162,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-30-compositional-generalization-limits-in-connectionist",
@@ -1289,6 +1375,10 @@
       "summary": "Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls. Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \\ge 7$.",
       "headline_tr": "Bağlantıcı (connectionist) mimarilerde bileşimsel genelleme sınırları ve sembolik program tümevarımı karşılaştırması.",
       "summary_tr": "Bilişsel sistematiklik ve üretkenlik için gereken cebirsel rol-değer bağımsızlığının, standart otoregresif dizi modellerinde yalnızca eğitim dışbükey zarfı içinde yaklaşıklandığı; minimum açıklama uzunluğu (MDL) tabanlı Bayesçi program öğreniciler ile dönüştürücü (transformer) durum-izleme devreleri kıyaslandığında $d \\ge 7$ özyineleme derinliğinde keskin bir faz geçişi yaşandığı gösterildi.",
+      "summary_simple": "Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls.",
+      "summary_simple_tr": "Bilişsel sistematiklik ve üretkenlik için gereken cebirsel rol-değer bağımsızlığının, standart otoregresif dizi modellerinde yalnızca eğitim dışbükey zarfı içinde yaklaşıklandığı; minimum açıklama uzunluğu (MDL) tabanlı Bayesçi program öğreniciler ile dönüştürücü (transformer) durum-izleme devreleri kıyaslandığında $d \\ge 7$ özyineleme derinliğinde keskin bir faz geçişi yaşandığı gösterildi.",
+      "summary_technical": "Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \\ge 7$.",
+      "summary_technical_tr": "MDL tabanlı sembolik Bayesçi program tümevarımını dönüştürücü (transformer) dikkat devrelerinin durum izleme kapasitesiyle biçimsel olarak karşılaştırır.",
       "detail": {
         "problem_context": "Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls.",
         "method_architecture": "Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \\ge 7$.",
@@ -1329,11 +1419,9 @@
         "llm_rigor": 8.8,
         "final_score": 12.43,
         "community_points": 149,
-        "cross_source_count": 1,
-        "citation_count": 0,
-        "influential_citations": 0
+        "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-06-sharp-non-asymptotic-generalization-bounds",
@@ -1346,6 +1434,10 @@
       "summary": "Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\\text{sr}(BA) \\ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.",
       "headline_tr": "Ağır kuyruklu gradyanlar altında LoRA ince ayarı için keskin asimptotik-olmayan PAC-Bayes genelleme sınırları.",
       "summary_tr": "Düşük dereceli uyarlamanın (LoRA) küçük alan derlemlerinde ve yüksek gradyan varyansında aşırı uyuma (overfitting) neden direndiği, kararlı derece $\\text{sr}(BA) \\ll r$ ile ölçeklenen asimptotik-olmayan PAC-Bayes sınırlarıyla kanıtlandı.",
+      "summary_simple": "Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance.",
+      "summary_simple_tr": "Düşük dereceli uyarlamanın (LoRA) küçük alan derlemlerinde ve yüksek gradyan varyansında aşırı uyuma (overfitting) neden direndiği, kararlı derece $\\text{sr}(BA) \\ll r$ ile ölçeklenen asimptotik-olmayan PAC-Bayes sınırlarıyla kanıtlandı.",
+      "summary_technical": "We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\\text{sr}(BA) \\ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.",
+      "summary_technical_tr": "Ağır kuyruklu stokastik gradyan gürültüsü altında adaptör matrislerinin kararlı derecesine ($\text{sr}(BA)$) dayalı PAC-Bayes sınırları türetir.",
       "detail": {
         "problem_context": "Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance.",
         "method_architecture": "We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\\text{sr}(BA) \\ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.",
@@ -1388,7 +1480,7 @@
         "community_points": 118,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-27-subsea-hvdc-interconnectors-critical-mineral",
@@ -1401,6 +1493,10 @@
       "summary": "Cross-continental HVDC power cables and rare-earth refining corridors across the Black Sea, Caucasus, and Eastern Mediterranean are reshaping regional deterrence. Game-theoretic bargaining analysis shows that multi-nodal transit hubs reduce single-supplier coercion leverage by $54\\%$ under winter peak-load stress scenarios.",
       "headline_tr": "Denizaltı HVDC enterkonnektörleri, kritik mineral koridorları ve Orta Koridor şebeke egemenliği.",
       "summary_tr": "Karadeniz, Kafkasya ve Doğu Akdeniz üzerinden geçen kıtalararası yüksek gerilim doğru akım (HVDC) kabloları ve nadir toprak elementleri işleme koridorlarının bölgesel caydırıcılığı nasıl yeniden şekillendirdiği incelendi; oyun-kuramsal pazarlık analizi, çok-düğümlü transit merkezlerinin kış zirve yük senaryolarında tek-tedarikçi zorlama kaldıracını $54\\%$ azalttığını kanıtlar.",
+      "summary_simple": "Cross-continental HVDC power cables and rare-earth refining corridors across the Black Sea, Caucasus, and Eastern Mediterranean are reshaping regional deterrence.",
+      "summary_simple_tr": "Karadeniz, Kafkasya ve Doğu Akdeniz üzerinden geçen kıtalararası yüksek gerilim doğru akım (HVDC) kabloları ve nadir toprak elementleri işleme koridorlarının bölgesel caydırıcılığı nasıl yeniden şekillendirdiği incelendi; oyun-kuramsal pazarlık analizi, çok-düğümlü transit merkezlerinin kış zirve yük senaryolarında tek-tedarikçi zorlama kaldıracını $54\\%$ azalttığını kanıtlar.",
+      "summary_technical": "Game-theoretic bargaining analysis shows that multi-nodal transit hubs reduce single-supplier coercion leverage by $54\\%$ under winter peak-load stress scenarios.",
+      "summary_technical_tr": "Çok-düğümlü enerji ve lojistik şebekeleri üzerinde kış tepe yükü stres testleri ve Nash-Shapley pazarlık gücü endeksleri hesaplar.",
       "detail": {
         "problem_context": "Cross-continental HVDC power cables and rare-earth refining corridors across the Black Sea, Caucasus, and Eastern Mediterranean are reshaping regional deterrence.",
         "method_architecture": "Game-theoretic bargaining analysis shows that multi-nodal transit hubs reduce single-supplier coercion leverage by $54\\%$ under winter peak-load stress scenarios.",
@@ -1440,7 +1536,7 @@
         "community_points": 148,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-08-global-regularity-for-fractional-navier",
@@ -1453,6 +1549,10 @@
       "summary": "Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\\Delta)^\\alpha u$ remain regular below $\\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\\infty$ regularity for $\\alpha > 5/4 - \\varepsilon_0$.",
       "headline_tr": "Lions üssünün altında kesirli Navier-Stokes denklemleri için küresel $C^\\infty$ düzenlilik kanıtı.",
       "summary_tr": "3 boyutlu sıkıştırılamaz Navier-Stokes denklemlerinde kesirli sönümleme $(-\\Delta)^\\alpha u$ teriminin $\\alpha = 5/4$ sınırının altında tekillik üretip üretmediği sorunu, uzay-zaman girdap filamentleri boyunca nicel De Giorgi-Nash-Moser salınım sönümü kullanılarak $\\alpha > 5/4 - \\varepsilon_0$ bölgesi için küresel düzenlilikle çözüldü.",
+      "summary_simple": "Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\\Delta)^\\alpha u$ remain regular below $\\alpha = 5/4$ is a long-standing open problem.",
+      "summary_simple_tr": "3 boyutlu sıkıştırılamaz Navier-Stokes denklemlerinde kesirli sönümleme $(-\\Delta)^\\alpha u$ teriminin $\\alpha = 5/4$ sınırının altında tekillik üretip üretmediği sorunu, uzay-zaman girdap filamentleri boyunca nicel De Giorgi-Nash-Moser salınım sönümü kullanılarak $\\alpha > 5/4 - \\varepsilon_0$ bölgesi için küresel düzenlilikle çözüldü.",
+      "summary_technical": "Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\\infty$ regularity for $\\alpha > 5/4 - \\varepsilon_0$.",
+      "summary_technical_tr": "Girdap (vorticity) filamentleri boyunca nicel De Giorgi-Nash-Moser eşitsizlikleri ve çok ölçekli enerji sönümü uygular.",
       "detail": {
         "problem_context": "Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\\Delta)^\\alpha u$ remain regular below $\\alpha = 5/4$ is a long-standing open problem.",
         "method_architecture": "Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\\infty$ regularity for $\\alpha > 5/4 - \\varepsilon_0$.",
@@ -1494,7 +1594,7 @@
         "community_points": 115,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-18-neural-phonon-boltzmann-transport-solver",
@@ -1507,6 +1607,10 @@
       "summary": "First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\\%$ of DFT-BTE at $10^4\\times$ lower compute cost, uncovering three stable argyrodite phases.",
       "headline_tr": "Katı hal lityum elektrolitlerinde ultra-düşük ısıl iletkenlik fazlarını bulan eşdeğişkin nöral fonon Boltzmann çözücüsü.",
       "summary_tr": "İlk-ilkeler anharmonik örgü dinamiğinin $O(N_{\\text{atoms}}^4)$ hesaplama maliyetini aşan eşdeğişkin fonon nöral operatörü, tam ısıl iletkenlik tensörlerini DFT-BTE'ye göre $4\\%$ hata payı içinde ve $10^4\\times$ daha düşük maliyetle tahmin ederek üç yeni kararlı arjirodit katı elektrolit fazı keşfetti.",
+      "summary_simple": "First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes.",
+      "summary_simple_tr": "İlk-ilkeler anharmonik örgü dinamiğinin $O(N_{\\text{atoms}}^4)$ hesaplama maliyetini aşan eşdeğişkin fonon nöral operatörü, tam ısıl iletkenlik tensörlerini DFT-BTE'ye göre $4\\%$ hata payı içinde ve $10^4\\times$ daha düşük maliyetle tahmin ederek üç yeni kararlı arjirodit katı elektrolit fazı keşfetti.",
+      "summary_technical": "Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\\%$ of DFT-BTE at $10^4\\times$ lower compute cost, uncovering three stable argyrodite phases.",
+      "summary_technical_tr": "Kristal simetri grubuna saygılı eşdeğişkin sinirsel operatör ile doğrusallaştırılmış fonon Boltzmann taşınım denklemini (BTE) doğrudan çözer.",
       "detail": {
         "problem_context": "First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes.",
         "method_architecture": "Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\\%$ of DFT-BTE at $10^4\\times$ lower compute cost, uncovering three stable argyrodite phases.",
@@ -1546,11 +1650,9 @@
         "llm_rigor": 8.8,
         "final_score": 12.17,
         "community_points": 112,
-        "cross_source_count": 1,
-        "citation_count": 0,
-        "influential_citations": 0
+        "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-09-effective-chabauty-kim-method-for",
@@ -1563,6 +1665,10 @@
       "summary": "Determining rational points on curves of genus $g \\ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.",
       "headline_tr": "Sayı cisimleri üzerinde cinsiyeti $g \\ge 3$ olan hipereliptik eğriler için efektif Chabauty-Kim algoritması.",
       "summary_tr": "Mordell-Weil derecesinin eğri cinsiyetine ($g$) eşit olduğu durumlarda rasyonel noktaların belirlenmesi için değişmeli-olmayan $p$-adik tekrarlı integraller üzerinden Selmer çeşitlilikleri üzerinde Coleman-Gross yüksekliklerini hesaplayan açık bir algoritma sunuldu ve cinsiyeti $3$ olan hipereliptik eğri ailesinin tüm rasyonel noktaları sertifikalandırıldı.",
+      "summary_simple": "Determining rational points on curves of genus $g \\ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals.",
+      "summary_simple_tr": "Mordell-Weil derecesinin eğri cinsiyetine ($g$) eşit olduğu durumlarda rasyonel noktaların belirlenmesi için değişmeli-olmayan $p$-adik tekrarlı integraller üzerinden Selmer çeşitlilikleri üzerinde Coleman-Gross yüksekliklerini hesaplayan açık bir algoritma sunuldu ve cinsiyeti $3$ olan hipereliptik eğri ailesinin tüm rasyonel noktaları sertifikalandırıldı.",
+      "summary_technical": "We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.",
+      "summary_technical_tr": "Selmer çeşitlilikleri üzerinde $p$-adik Coleman-Gross yükseklikleri ve değişmeli-olmayan temel grup bölümlerini hesaplar.",
       "detail": {
         "problem_context": "Determining rational points on curves of genus $g \\ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals.",
         "method_architecture": "We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.",
@@ -1604,7 +1710,7 @@
         "community_points": 98,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-12-conformal-bootstrap-bounds-on-graviton",
@@ -1617,6 +1723,10 @@
       "summary": "Non-perturbative stringy corrections to supergravity amplitudes at finite 't Hooft coupling $\\lambda$ are constrained by dispersion relations and crossing symmetry. Combining numerical conformal bootstrap with localization inputs, we pin down the first three higher-derivative Wilson coefficients to within $0.04\\%$ across all couplings.",
       "headline_tr": "$\\text{AdS}_5 \\times S^5$ uzayında graviton saçılma genlikleri üzerinde konformal önyükleme (bootstrap) sınırları.",
       "summary_tr": "Sonlu 't Hooft kuplajı $\\lambda$ değerlerinde süperkütleçekim genliklerine gelen pertürbatif-olmayan sicim düzeltmeleri, dağılım bağıntıları ve çaprazlama simetrisiyle sınırlandırıldı; sayısal konformal önyükleme ve lokalizasyon girdileri birleştirilerek ilk üç yüksek-türevli Wilson katsayısı tüm kuplajlarda $0.04\\%$ hassasiyetle belirlendi.",
+      "summary_simple": "Non-perturbative stringy corrections to supergravity amplitudes at finite 't Hooft coupling $\\lambda$ are constrained by dispersion relations and crossing symmetry.",
+      "summary_simple_tr": "Sonlu 't Hooft kuplajı $\\lambda$ değerlerinde süperkütleçekim genliklerine gelen pertürbatif-olmayan sicim düzeltmeleri, dağılım bağıntıları ve çaprazlama simetrisiyle sınırlandırıldı; sayısal konformal önyükleme ve lokalizasyon girdileri birleştirilerek ilk üç yüksek-türevli Wilson katsayısı tüm kuplajlarda $0.04\\%$ hassasiyetle belirlendi.",
+      "summary_technical": "Combining numerical conformal bootstrap with localization inputs, we pin down the first three higher-derivative Wilson coefficients to within $0.04\\%$ across all couplings.",
+      "summary_technical_tr": "Süpersimetrik lokalizasyon kısıtlarını hiperbolik dağılım bağıntıları ve sayısal konformal önyükleme (bootstrap) optimizasyonuyla birleştirir.",
       "detail": {
         "problem_context": "Non-perturbative stringy corrections to supergravity amplitudes at finite 't Hooft coupling $\\lambda$ are constrained by dispersion relations and crossing symmetry.",
         "method_architecture": "Combining numerical conformal bootstrap with localization inputs, we pin down the first three higher-derivative Wilson coefficients to within $0.04\\%$ across all couplings.",
@@ -1658,7 +1768,7 @@
         "community_points": 104,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     },
     {
       "id": "2026-10-20-03-deterministic-b-tree-compaction-under",
@@ -1671,6 +1781,10 @@
       "summary": "Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \\log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.",
       "headline_tr": "Serileştirilebilir anlık görüntü yalıtımı (SSI) altında deterministik B-ağacı sıkıştırması ile en kötü durum G/Ç karmaşıklığı sınırlandırıldı.",
       "summary_tr": "Uzun süreli okuma anlık görüntülerinin eski sayfa sürümlerini tuttuğu MVCC depolama motorlarında yazma büyütmesini önlemek için ufuk-bölümlü B-epsilon ağaçları tanıtıldı; NVMe dizilerinde en kötü durum sıkıştırma G/Ç maliyeti $O((B \\log_B N)/M)$ ile sınırlandırıldı.",
+      "summary_simple": "Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.",
+      "summary_simple_tr": "Uzun süreli okuma anlık görüntülerinin eski sayfa sürümlerini tuttuğu MVCC depolama motorlarında yazma büyütmesini önlemek için ufuk-bölümlü B-epsilon ağaçları tanıtıldı; NVMe dizilerinde en kötü durum sıkıştırma G/Ç maliyeti $O((B \\log_B N)/M)$ ile sınırlandırıldı.",
+      "summary_technical": "We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \\log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.",
+      "summary_technical_tr": "Anahtar uzayını zaman damgası ufuklarına göre bölümleyen B-epsilon ağaç yapısı ile aktif ve geçmiş sürümleri deterministik olarak ayırır.",
       "detail": {
         "problem_context": "Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.",
         "method_architecture": "We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \\log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.",
@@ -1713,7 +1827,7 @@
         "community_points": 92,
         "cross_source_count": 1
       },
-      "published_at": "2026-10-20T12:08:58.790180500+00:00"
+      "published_at": "2026-10-20T16:21:05.112221900+00:00"
     }
   ]
 }

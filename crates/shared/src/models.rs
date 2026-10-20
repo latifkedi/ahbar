@@ -244,6 +244,18 @@ pub struct NewsItem {
     /// Single-paragraph concise technical summary in Turkish.
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub summary_tr: Option<String>,
+    /// Layer-1 concise layman summary: real-world impact, practical meaning for users and developers (English).
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub summary_simple: Option<String>,
+    /// Layer-1 concise layman summary in Turkish (halka ve sektöre yansıyan sade özet).
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub summary_simple_tr: Option<String>,
+    /// Layer-2 precise technical mechanism & architecture summary (English).
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub summary_technical: Option<String>,
+    /// Layer-2 precise technical mechanism & architecture summary in Turkish.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub summary_technical_tr: Option<String>,
     /// Layer-2 technical analysis shown on the item detail page (?item=<id>).
     pub detail: TechnicalDetail,
     pub original_title: String,
@@ -255,6 +267,44 @@ pub struct NewsItem {
     pub tags: Vec<String>,
     pub metrics: ItemMetrics,
     pub published_at: String,
+}
+
+impl NewsItem {
+    pub fn simple_summary(&self, lang: &str) -> &str {
+        if lang.eq_ignore_ascii_case("tr") {
+            if let Some(ref s) = self.summary_simple_tr {
+                return s;
+            }
+            if let Some(ref s) = self.summary_tr {
+                return s;
+            }
+        }
+        if let Some(ref s) = self.summary_simple {
+            return s;
+        }
+        &self.summary
+    }
+
+    pub fn technical_summary(&self, lang: &str) -> &str {
+        if lang.eq_ignore_ascii_case("tr") {
+            if let Some(ref s) = self.summary_technical_tr {
+                return s;
+            }
+            if let Some(ref s) = self.detail.method_architecture_tr {
+                return s;
+            }
+            if let Some(ref s) = self.summary_tr {
+                return s;
+            }
+        }
+        if let Some(ref s) = self.summary_technical {
+            return s;
+        }
+        if !self.detail.method_architecture.is_empty() {
+            return &self.detail.method_architecture;
+        }
+        &self.summary
+    }
 }
 
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]

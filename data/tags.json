@@ -51,6 +51,11 @@
   },
   {
     "area": "cs",
+    "label": "Trending Repos & Tools",
+    "slug": "trending-repo"
+  },
+  {
+    "area": "cs",
     "label": "Architecture",
     "slug": "software-architecture"
   },
@@ -103,6 +108,11 @@
     "area": "ai",
     "label": "Open Weights",
     "slug": "open-weights"
+  },
+  {
+    "area": "ai",
+    "label": "AI Models & Releases",
+    "slug": "ai-models"
   },
   {
     "area": "math",
@@ -213,6 +223,16 @@
     "area": "systems",
     "label": "Embedded & Firmware",
     "slug": "embedded"
+  },
+  {
+    "area": "systems",
+    "label": "Hardware & Devices",
+    "slug": "hardware"
+  },
+  {
+    "area": "systems",
+    "label": "Consumer & Applied Tech",
+    "slug": "consumer-tech"
   },
   {
     "area": "systems",

@@ -154,6 +154,20 @@ fn build_localized_issue(issue: &DailyIssue, is_tr: bool) -> DailyIssue {
             } else {
                 item.summary.clone()
             };
+            let summary_simple = if is_tr {
+                item.summary_simple_tr
+                    .clone()
+                    .or_else(|| item.summary_simple.clone())
+            } else {
+                item.summary_simple.clone()
+            };
+            let summary_technical = if is_tr {
+                item.summary_technical_tr
+                    .clone()
+                    .or_else(|| item.summary_technical.clone())
+            } else {
+                item.summary_technical.clone()
+            };
             let problem_context = if is_tr {
                 item.detail
                     .problem_context_tr
@@ -190,6 +204,10 @@ fn build_localized_issue(issue: &DailyIssue, is_tr: bool) -> DailyIssue {
                 summary,
                 headline_tr: None,
                 summary_tr: None,
+                summary_simple,
+                summary_simple_tr: None,
+                summary_technical,
+                summary_technical_tr: None,
                 detail: TechnicalDetail {
                     problem_context,
                     method_architecture,

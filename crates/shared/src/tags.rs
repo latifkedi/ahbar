@@ -23,6 +23,7 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "distributed-systems", label: "Distributed Systems", area_slug: "cs" },
     CanonicalTag { slug: "algorithms", label: "Algorithms", area_slug: "cs" },
     CanonicalTag { slug: "open-source", label: "Open Source", area_slug: "cs" },
+    CanonicalTag { slug: "trending-repo", label: "Trending Repos & Tools", area_slug: "cs" },
     CanonicalTag { slug: "software-architecture", label: "Architecture", area_slug: "cs" },
 
     // II. AI & Machine Learning
@@ -36,6 +37,7 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "multimodal", label: "Multimodal & Audio", area_slug: "ai" },
     CanonicalTag { slug: "reinforcement-learning", label: "Reinforcement Learning", area_slug: "ai" },
     CanonicalTag { slug: "open-weights", label: "Open Weights", area_slug: "ai" },
+    CanonicalTag { slug: "ai-models", label: "AI Models & Releases", area_slug: "ai" },
 
     // III. Mathematics & Formal Sciences
     CanonicalTag { slug: "number-theory", label: "Number Theory", area_slug: "math" },
@@ -64,6 +66,8 @@ pub const CANON_TAGS: &[CanonicalTag] = &[
     CanonicalTag { slug: "infosec", label: "Vulnerability & InfoSec", area_slug: "systems" },
     CanonicalTag { slug: "networking", label: "Networking & Protocols", area_slug: "systems" },
     CanonicalTag { slug: "embedded", label: "Embedded & Firmware", area_slug: "systems" },
+    CanonicalTag { slug: "hardware", label: "Hardware & Devices", area_slug: "systems" },
+    CanonicalTag { slug: "consumer-tech", label: "Consumer & Applied Tech", area_slug: "systems" },
     CanonicalTag { slug: "performance", label: "Performance & Profiling", area_slug: "systems" },
 
     // VI. Biotech, Medicine & Materials
@@ -138,6 +142,9 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
         }
         "algorithm" | "cs.ds" | "data-structures" | "complexity" | "cs.cc" => Some("algorithms"),
         "oss" | "github" | "mit" | "apache" | "foss" => Some("open-source"),
+        "trending" | "trending-repos" | "trending-repo" | "show-hn" | "showhn" | "developer-tools" | "devtools" => {
+            Some("trending-repo")
+        }
         "cs.se" | "software-engineering" | "system-design" => Some("software-architecture"),
 
         // AI & ML aliases
@@ -152,6 +159,7 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
         "audio" | "speech" | "tts" | "video" | "cs.sd" => Some("multimodal"),
         "rl" | "rlhf" | "ppo" | "grpo" => Some("reinforcement-learning"),
         "open-weight" | "huggingface" | "open-model" => Some("open-weights"),
+        "ai-model" | "ai-models" | "model-release" | "ollama" | "weights" => Some("ai-models"),
 
         // Math aliases
         "math.nt" | "primes" | "arithmetic-geometry" => Some("number-theory"),
@@ -187,7 +195,7 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
 
         // Systems, Hardware & Security aliases
         "linux" | "kernel" | "os" | "cs.os" | "ebpf" | "unix" => Some("kernel-os"),
-        "chips" | "gpu" | "asic" | "fpga" | "risc-v" | "tsmc" | "hardware" => {
+        "chips" | "gpu" | "asic" | "fpga" | "risc-v" | "tsmc" => {
             Some("semiconductors")
         }
         "cs.ar" | "cpu" | "microarchitecture" | "memory" => Some("computer-architecture"),
@@ -196,6 +204,8 @@ pub fn resolve_canonical_tag(raw: &str) -> Option<&'static str> {
         }
         "cs.ni" | "tcp" | "quic" | "bgp" | "dns" | "network" => Some("networking"),
         "iot" | "firmware" | "rtos" | "microcontroller" => Some("embedded"),
+        "gadget" | "gadgets" | "hardware" | "device" | "devices" | "raspberry-pi" => Some("hardware"),
+        "consumer-tech" | "consumer" | "tech-products" | "product" | "appliances" => Some("consumer-tech"),
         "benchmark" | "profiling" | "simd" | "latency" => Some("performance"),
 
         // Computational Science & Bio aliases

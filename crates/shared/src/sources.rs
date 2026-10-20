@@ -59,6 +59,26 @@ pub const SOURCES: &[SourceDescriptor] = &[
         default_tags: &["software-architecture", "open-source"],
     },
     SourceDescriptor {
+        id: "hn-show",
+        name: "Show HN (Trending Repos & Tools)",
+        area: Area::Cs,
+        kind: SourceKind::HackerNewsApi,
+        url: "https://hn.algolia.com/api/v1/search?tags=show_hn&hitsPerPage=25",
+        authority_weight: 8.5,
+        is_academic_paper: false,
+        default_tags: &["trending-repo", "open-source"],
+    },
+    SourceDescriptor {
+        id: "github-blog",
+        name: "GitHub Official Blog & Releases",
+        area: Area::Cs,
+        kind: SourceKind::RssAtom,
+        url: "https://github.blog/feed/",
+        authority_weight: 8.8,
+        is_academic_paper: false,
+        default_tags: &["open-source", "software-architecture"],
+    },
+    SourceDescriptor {
         id: "lobsters",
         name: "Lobste.rs",
         area: Area::Cs,
@@ -161,6 +181,26 @@ pub const SOURCES: &[SourceDescriptor] = &[
         authority_weight: 9.4,
         is_academic_paper: true,
         default_tags: &["llm", "open-weights"],
+    },
+    SourceDescriptor {
+        id: "hf-blog",
+        name: "Hugging Face Blog & Open Models",
+        area: Area::Ai,
+        kind: SourceKind::RssAtom,
+        url: "https://huggingface.co/blog/feed.xml",
+        authority_weight: 9.2,
+        is_academic_paper: false,
+        default_tags: &["open-weights", "ai-models", "llm"],
+    },
+    SourceDescriptor {
+        id: "ollama-blog",
+        name: "Ollama Blog & Local Models",
+        area: Area::Ai,
+        kind: SourceKind::RssAtom,
+        url: "https://ollama.com/blog/feed.xml",
+        authority_weight: 9.0,
+        is_academic_paper: false,
+        default_tags: &["open-weights", "ai-models", "inference"],
     },
     SourceDescriptor {
         id: "arxiv-ai-ml",
@@ -452,8 +492,28 @@ pub const SOURCES: &[SourceDescriptor] = &[
     },
 
     // =========================================================================
-    // V. Systems, Hardware & Security (10 sources)
+    // V. Systems, Hardware, Applied Tech & Security (12 sources)
     // =========================================================================
+    SourceDescriptor {
+        id: "arstechnica-tech",
+        name: "Ars Technica (Applied Tech & Hardware)",
+        area: Area::Systems,
+        kind: SourceKind::RssAtom,
+        url: "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        authority_weight: 8.7,
+        is_academic_paper: false,
+        default_tags: &["consumer-tech", "hardware", "semiconductors"],
+    },
+    SourceDescriptor {
+        id: "mit-tech-review",
+        name: "MIT Technology Review",
+        area: Area::Systems,
+        kind: SourceKind::RssAtom,
+        url: "https://www.technologyreview.com/feed/",
+        authority_weight: 8.9,
+        is_academic_paper: false,
+        default_tags: &["consumer-tech", "hardware"],
+    },
     SourceDescriptor {
         id: "arxiv-systems-arch",
         name: "arXiv Systems & Architecture (cs.OS, cs.AR, cs.NI, cs.PF)",

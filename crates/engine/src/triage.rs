@@ -385,6 +385,18 @@ pub async fn stage2_evaluate_and_summarize(
             summary_tr: llm_eval
                 .summary_tr
                 .map(|s| sanitize_and_validate_latex(&s)),
+            summary_simple: llm_eval
+                .summary_simple
+                .map(|s| sanitize_and_validate_latex(&s)),
+            summary_simple_tr: llm_eval
+                .summary_simple_tr
+                .map(|s| sanitize_and_validate_latex(&s)),
+            summary_technical: llm_eval
+                .summary_technical
+                .map(|s| sanitize_and_validate_latex(&s)),
+            summary_technical_tr: llm_eval
+                .summary_technical_tr
+                .map(|s| sanitize_and_validate_latex(&s)),
             detail: TechnicalDetail {
                 problem_context: sanitize_and_validate_latex(&llm_eval.problem_context),
                 method_architecture: sanitize_and_validate_latex(&llm_eval.method_architecture),
@@ -458,6 +470,14 @@ struct LlmEvalOutput {
     headline_tr: Option<String>,
     #[serde(default)]
     summary_tr: Option<String>,
+    #[serde(default)]
+    summary_simple: Option<String>,
+    #[serde(default)]
+    summary_simple_tr: Option<String>,
+    #[serde(default)]
+    summary_technical: Option<String>,
+    #[serde(default)]
+    summary_technical_tr: Option<String>,
     problem_context: String,
     method_architecture: String,
     findings_tradeoffs: String,
@@ -550,8 +570,12 @@ fn build_llm_prompt(cluster: &ClusteredCandidate) -> String {
         r#"Analyze this technical/scientific/strategic entry and return a JSON object with keys:
 - "headline": 1-2 sharp technical sentences in English stating what was proved, built, measured, or analyzed (zero hype).
 - "summary": 1 concise technical paragraph in English (3-4 sentences) explaining the mechanism, method, and result (use $...$ for math formulas).
+- "summary_simple": 1-2 plain, accessible, layman sentences in English explaining what this means in practice, its real-world impact, or why it matters to everyday users and developers (no heavy jargon).
+- "summary_technical": 2-3 precise sentences in English detailing the specific mechanism, mathematical model, architecture, or benchmark metric.
 - "headline_tr": 1-2 sharp technical sentences in natural Turkish stating what was proved, built, measured, or analyzed.
 - "summary_tr": 1 concise technical paragraph in natural Turkish explaining the mechanism, method, and result.
+- "summary_simple_tr": 1-2 plain, accessible, layman sentences in Turkish explaining the real-world impact (halka ve sektöre yansıyan sade özet, jargonsuz).
+- "summary_technical_tr": 2-3 precise sentences in Turkish on the technical mechanism, architecture, and metric.
 - "problem_context": 2-3 sentences in English on the bottleneck or open problem addressed.
 - "method_architecture": 2-3 sentences in English on the mathematical proof, algorithm, empirical model, or system architecture.
 - "findings_tradeoffs": 2-3 sentences in English on empirical benchmarks, complexity bounds, policy implications, and practical trade-offs.
@@ -651,6 +675,23 @@ async fn deterministic_technical_synthesis(
         )
         .await;
 
+    let summary_simple = if let Some(s0) = sentences.first() {
+        s0.clone()
+    } else {
+        summary.clone()
+    };
+    let summary_technical = if sentences.len() >= 2 {
+        sentences
+            .iter()
+            .skip(1)
+            .take(2)
+            .cloned()
+            .collect::<Vec<_>>()
+            .join(" ")
+    } else {
+        summary.clone()
+    };
+
     let novelty = (7.4 + (cluster.cross_source_count as f64 * 0.4)).min(9.8);
     let rigor = if cluster.primary.is_paper { 8.8 } else { 8.2 };
 
@@ -658,7 +699,11 @@ async fn deterministic_technical_synthesis(
         headline,
         summary,
         headline_tr: Some(headline_tr),
-        summary_tr: Some(summary_tr),
+        summary_tr: Some(summary_tr.clone()),
+        summary_simple: Some(summary_simple),
+        summary_simple_tr: Some(summary_tr),
+        summary_technical: Some(summary_technical),
+        summary_technical_tr: Some(method_tr.clone()),
         problem_context,
         method_architecture,
         findings_tradeoffs,

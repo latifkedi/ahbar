@@ -584,6 +584,25 @@
     return item.summary;
   }
 
+  function itemSummarySimple(item) {
+    if (state.lang === "tr") {
+      if (item.summary_simple_tr) return item.summary_simple_tr;
+      if (item.summary_tr) return item.summary_tr;
+    }
+    if (item.summary_simple) return item.summary_simple;
+    return item.summary || "";
+  }
+
+  function itemSummaryTechnical(item) {
+    if (state.lang === "tr") {
+      if (item.summary_technical_tr) return item.summary_technical_tr;
+      if (item.detail && item.detail.method_architecture_tr) return item.detail.method_architecture_tr;
+    }
+    if (item.summary_technical) return item.summary_technical;
+    if (item.detail && item.detail.method_architecture) return item.detail.method_architecture;
+    return "";
+  }
+
   function itemDetailField(item, fieldName) {
     if (!item.detail) return "";
     if (state.lang === "tr" && item.detail[fieldName + "_tr"]) {
@@ -1267,7 +1286,16 @@
               (isSaved ? "★" : "☆") +
             "</button>" +
           "</div>" +
-          '<p class="desc">' + formatMathHtml(itemSummary(item)) + "</p>" +
+          '<p class="desc desc-simple">' +
+            '<span class="desc-badge">💡 ' + (state.lang === "tr" ? "Özet" : "Summary") + ':</span> ' +
+            formatMathHtml(itemSummarySimple(item)) +
+          "</p>" +
+          (itemSummaryTechnical(item) && itemSummaryTechnical(item).trim() !== itemSummarySimple(item).trim()
+            ? '<details class="desc-tech">' +
+                '<summary>🔬 ' + (state.lang === "tr" ? "Teknik Detay &amp; Mimari" : "Technical Mechanism &amp; Architecture") + "</summary>" +
+                '<div class="desc-tech-body">' + formatMathHtml(itemSummaryTechnical(item)) + "</div>" +
+              "</details>"
+            : "") +
           '<div class="mt">' +
             '<span class="itags">' + tagsHtml + "</span>" +
             '<span class="meta">' + metaLinks.join("") + "</span>" +
@@ -1358,6 +1386,43 @@
 
     var canonCount = state.canonicalTags.length || 74;
 
+    // 2.5 Trending Repos & AI Models Showcase
+    var trendingItems = allItems.filter(function (i) {
+      return (i.tags || []).some(function (tg) {
+        return tg === "trending-repo" || tg === "ai-models" || tg === "open-weights" || tg === "open-source" || tg === "consumer-tech" || tg === "hardware";
+      }) || (i.links && i.links.code_url);
+    }).slice(0, 3);
+
+    var trendingSectionHtml = "";
+    if (trendingItems.length > 0) {
+      var trendHeading = state.lang === "tr"
+        ? "🔥 Haftanın Trend Repoları & Yeni AI Modelleri"
+        : "🔥 Trending Repositories & AI Model Releases";
+      var trendSub = state.lang === "tr"
+        ? "açık kaynak kod, popüler araçlar ve halka yansıyan yeni modeller"
+        : "open-source code, trending developer tools & open weights";
+
+      var trendCards = trendingItems.map(function (item) {
+        var aMeta = getArea(item.area);
+        var sSimple = itemSummarySimple(item);
+        return (
+          "<li>" +
+            '<a class="hp-title" href="?item=' + encodeURIComponent(item.id) + '" data-item="' + esc(item.id) + '">' +
+              formatMathHtml(itemHeadline(item)) +
+            "</a>" +
+            "<p>" + formatMathHtml(sSimple) + "</p>" +
+            '<div class="n" style="margin-top:6px;"><span class="rn">' + esc(aMeta.numeral) + "</span> · " + esc(areaTitle(aMeta)) + (item.links && item.links.code_url ? ' · <a href="' + esc(safeUrl(item.links.code_url)) + '" target="_blank" rel="noopener" style="color:var(--red);text-decoration:underline;">GitHub ↗</a>' : '') + "</div>" +
+          "</li>"
+        );
+      }).join("");
+
+      trendingSectionHtml =
+        '<section class="hsec" style="margin-top:34px;">' +
+          '<h2 class="k">' + esc(trendHeading) + " <span>" + esc(trendSub) + "</span></h2>" +
+          '<ol class="trending-grid">' + trendCards + "</ol>" +
+        "</section>";
+    }
+
     mainEl.innerHTML =
       '<div class="home">' +
         '<p class="proof">' + t.proof(allItems.length, state.issue.date, stats.sources_checked || 86, stats.raw_items_scanned || 240) + "</p>" +
@@ -1366,6 +1431,7 @@
           '<h2 class="k">' + esc(t.hStart) + "<span>" + esc(t.hStartNote) + "</span></h2>" +
           '<ol class="hpicks">' + hpicksHtml + "</ol>" +
         "</section>" +
+        trendingSectionHtml +
         '<section class="hsec">' +
           '<h2 class="k">' + esc(t.fxHead) + "<span>" + esc(t.fxNote(AREAS.length, canonCount)) + "</span></h2>" +
           '<ol class="fx">' + fxHtml + "</ol>" +
@@ -1688,7 +1754,18 @@
               (host ? ' · <span class="host">' + esc(host) + "</span>" : "") +
               (item.authors && item.authors.length ? "<br><b>" + esc(t.authorsLbl) + ":</b> " + esc(item.authors.join(", ")) : "") +
             "</p>" +
-            '<p class="desc">' + formatMathHtml(itemSummary(item)) + "</p>" +
+            '<div class="dual-summary-box" style="margin:16px 0 22px;padding:14px 18px;border-left:3px solid var(--red);background:var(--panel);border-radius:4px;">' +
+              '<p style="margin:0 0 10px;font-size:15.5px;line-height:1.6;color:var(--fg);">' +
+                '<strong style="color:var(--red);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:4px;">💡 ' + (state.lang === "tr" ? "Sade Özet (Ne Anlama Geliyor?)" : "Layman Summary (What It Means)") + '</strong>' +
+                formatMathHtml(itemSummarySimple(item)) +
+              '</p>' +
+              (itemSummaryTechnical(item) && itemSummaryTechnical(item).trim() !== itemSummarySimple(item).trim()
+                ? '<p style="margin:10px 0 0;padding-top:10px;border-top:1px dashed var(--rule2);font-size:14.5px;line-height:1.6;color:var(--dim);">' +
+                    '<strong style="color:var(--red);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;display:block;margin-bottom:4px;">🔬 ' + (state.lang === "tr" ? "Teknik Mekanizma & Mimari" : "Technical Mechanism & Architecture") + '</strong>' +
+                    formatMathHtml(itemSummaryTechnical(item)) +
+                  '</p>'
+                : '') +
+            '</div>' +
             '<div class="visit">' + visitBtns.join("") + "</div>" +
             '<div class="mt" style="margin-bottom:28px;">' +
               '<span class="itags">' + tagsHtml + "</span>" +
@@ -1969,7 +2046,8 @@
       "",
       "# " + itemHeadline(item),
       "",
-      "> **" + (state.lang === "tr" ? "Özet" : "Summary") + ":** " + itemSummary(item),
+      "> **" + (state.lang === "tr" ? "Sade Özet" : "Simple Summary") + ":** " + itemSummarySimple(item),
+      itemSummaryTechnical(item) && itemSummaryTechnical(item).trim() !== itemSummarySimple(item).trim() ? "> **" + (state.lang === "tr" ? "Teknik Detay" : "Technical Detail") + ":** " + itemSummaryTechnical(item) : null,
       "",
       "- **" + (state.lang === "tr" ? "Kaynak" : "Source") + ":** [" + item.source_name + "](" + item.url + ")",
       links.pdf_url ? "- **PDF:** [" + links.pdf_url + "](" + links.pdf_url + ")" : null,
