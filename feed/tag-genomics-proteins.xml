@@ -5,21 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-16-all-atom-equivariant-flow-matching"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05980"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-16-all-atom-equivariant-flow-matching</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\text{cat}}/K_M &amp;gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ in wet-lab assays without directed evolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05980&quot;&gt;arXiv Quantitative Biology (q-bio.BM)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
+    <title>Affective Valence as the Interoceptive Rate of Change of Jacobian Scale. Affect is widely held to depend on interoception.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-46-affective-valence-as-the-interoceptive"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26350v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-46-affective-valence-as-the-interoceptive</id>
+    <updated>2026-10-19T13:14:19+00:00</updated>
+    <summary type="html">&lt;p&gt;Affect is widely held to depend on interoception. This paper proposes that valence is the rate at which interoception moves a self-sustaining system&amp;apos;s responsiveness relative to its terminal set (roughly, death). Responsiveness is formalised as the scale of the system&amp;apos;s Jacobian and interoception as its internal inputs: receptors, signals and forecasts of its energy reserve.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26350v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Pangenome Graph Indexing in Sub-Linear Space via Wheeler Bureaucrat Wavelet Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-pangenome-graph-indexing-in-sub"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06112"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-pangenome-graph-indexing-in-sub</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\text{ GB}$ of memory at $3.4\times$ higher throughput than Minigraph-Cactus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06112&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #algorithms&lt;/p&gt;</summary>
+    <title>GOLDEN: Gene expression and allele-informed decomposition for genetic heterogeneity in spatial transcriptomic data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-47-golden-gene-expression-and-allele"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.18.759920v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-47-golden-gene-expression-and-allele</id>
+    <updated>2026-10-20T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation Spatial transcriptomics (ST) enables exploration of cellular interactions, including immune responses. However, current methods rely on pathologists, with limitations in addressing genetic heterogeneity, where niches harboring nonclonal cells, including placental or allograft tissues, are present. Deciphering these interindividual mixtures remains challenging.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.18.759920v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>RDEmbed: A Sentence-Embedding Framework for Rare Disease Phenotype Representation and Phenotypic Similarity Analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-48-rdembed-a-sentence-embedding-framework"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.16.759399v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-48-rdembed-a-sentence-embedding-framework</id>
+    <updated>2026-10-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Accurate phenotypic characterization of patients with rare diseases is essential for improving diagnosis, patient matchmaking, and gene discovery. Conventional ontology driven approaches based on the Human Phenotype Ontology (HPO) enable structured phenotype comparison but often limited by the incomplete annotations and reduced ability to capture the contextual information contained in free-text clinical narratives. We present RDEmbed, a sentence embedding framework that learns patient phenotype representations directly from rare disease case reports for similarity analysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.16.759399v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fibres and glasses are competing material states in protein condensation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-33-fibres-and-glasses-are-competing"/>
+    <link rel="related" href="https://www.nature.com/articles/s41567-026-03415-z"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-33-fibres-and-glasses-are-competing</id>
+    <updated>2026-10-20T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Physics, Published online: 20 October 2026; doi:10.1038/s41567-026-03415-z Fibres are thought to emerge from a dense protein condensate ageing into a glassy state. It is now shown that protein fibres and glassy condensates may result from two competing ageing pathways.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03415-z&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-49-hybrid-modeling-for-improved-structure"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-49-hybrid-modeling-for-improved-structure</id>
+    <updated>2026-10-15T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-50-hdock-multimer-improved-structure-prediction"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-50-hdock-multimer-improved-structure-prediction</id>
+    <updated>2026-10-14T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-cs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-cs.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Zero-Copy Region Inference for Asynchronous Rust State Machines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-01-zero-copy-region-inference-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-01-zero-copy-region-inference-for</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
+    <title>Discord Patch Notes: October 6, 2026. Check out the finer details of the more technical fixes implemented into Discord recently.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-01-discord-patch-notes-october-6"/>
+    <link rel="related" href="https://discord.com/blog/discord-patch-notes-october-6-2026"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-01-discord-patch-notes-october-6</id>
+    <updated>2026-10-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Check out the finer details of the more technical fixes implemented into Discord recently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discord.com/blog/discord-patch-notes-october-6-2026&quot;&gt;Discord Systems &amp;amp; Database Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-byzantine-fault-injection-and-split"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
+    <title>Wine ported to OpenBSD. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-wine-ported-to-openbsd"/>
+    <link rel="related" href="https://marc.info/?l=openbsd-ports&amp;m=179236125692175"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-wine-ported-to-openbsd</id>
+    <updated>2026-10-19T13:35:34Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://marc.info/?l=openbsd-ports&amp;amp;m=179236125692175&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-deterministic-b-tree-compaction-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
+    <title>Go will reject certificate chains containing eight distrusted SPKIs. I downloaded the CA cert data from https://www.ccadb.org/resources and it seems to be affecting 16 certs, all from eMudhra.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-03-go-will-reject-certificate-chains"/>
+    <link rel="related" href="https://github.com/golang/go/issues/82345"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-03-go-will-reject-certificate-chains</id>
+    <updated>2026-10-20T03:05:07Z</updated>
+    <summary type="html">&lt;p&gt;I downloaded the CA cert data from https://www.ccadb.org/resources and it seems to be affecting 16 certs, all from eMudhra. I complied the list here https://gist.github.com/mendymm/ff7a9fd00339260b4d2dbdcb0f489b57 Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/golang/go/issues/82345&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nordwand Mono – A monospace font for coders and adventurers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-04-nordwand-mono-a-monospace-font"/>
+    <link rel="related" href="https://github.com/tywr/Nordwand-Mono"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-04-nordwand-mono-a-monospace-font</id>
+    <updated>2026-10-18T14:48:01Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/tywr/Nordwand-Mono&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>One Hash Bloom Filters. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-one-hash-bloom-filters"/>
+    <link rel="related" href="https://calabro.io/ohbf"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-one-hash-bloom-filters</id>
+    <updated>2026-10-19T20:50:08Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://calabro.io/ohbf&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>It&apos;s still ok to enjoy programming</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-06-it-s-still-ok-to"/>
+    <link rel="related" href="https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-06-it-s-still-ok-to</id>
+    <updated>2026-10-17T19:53:20Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>I built a drone with only one motor [video]</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-i-built-a-drone-with"/>
+    <link rel="related" href="https://www.youtube.com/watch?v=Ndftcft6XhU"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-i-built-a-drone-with</id>
+    <updated>2026-10-19T09:05:07Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=Ndftcft6XhU&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MiniMax M3.1 Flash</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-08-minimax-m3-1-flash"/>
+    <link rel="related" href="https://www.minimax.io/blog/minimax-m31f"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-08-minimax-m3-1-flash</id>
+    <updated>2026-10-19T16:39:09Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.minimax.io/blog/minimax-m31f&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Starcraft: Ashfall</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-09-starcraft-ashfall"/>
+    <link rel="related" href="https://starcraft-shooter-2026.pages.dev/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-09-starcraft-ashfall</id>
+    <updated>2026-10-19T01:18:02Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://starcraft-shooter-2026.pages.dev/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

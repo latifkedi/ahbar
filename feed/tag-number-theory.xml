@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-improved-polymath-bounds-on-dense"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
+    <title>The moduli space of quasimorphisms on subshifts and its pressure geometry. We introduce a metric geometry on the space of positive, linearly growing quasimorphisms on a mixing subshift of finite type.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-20-the-moduli-space-of-quasimorphisms"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26778v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-20-the-moduli-space-of-quasimorphisms</id>
+    <updated>2026-10-19T17:30:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce a metric geometry on the space of positive, linearly growing quasimorphisms on a mixing subshift of finite type. Two such quasimorphisms are identified when their homogenizations agree up to multiplicative scaling. The resulting moduli space carries a natural symmetrised Thurston-type metric, defined from the extremal ratios of their periodic orbit lengths.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26778v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \ge 3$ over Number Fields</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-09-effective-chabauty-kim-method-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04118"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-09-effective-chabauty-kim-method-for</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Determining rational points on curves of genus $g \ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04118&quot;&gt;Lean Community / arXiv math.AG&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #number-theory&lt;/p&gt;</summary>
+    <title>Geodesics in the continuous Hecke monoid. A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-geodesics-in-the-continuous-hecke"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26700v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-geodesics-in-the-continuous-hecke</id>
+    <updated>2026-10-19T16:37:45+00:00</updated>
+    <summary type="html">&lt;p&gt;A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations. The sticky product of permutons is a continuous analogue of the Demazure product in the $0$-Hecke monoid; on copulas, the distribution functions of permutons, it is given by the tropical $(\min,+)$ product $\odot$. We show that every absolutely continuous rotation-invariant probability measure $ρ$ on the plane, which we call the profile, generates a one-parameter family of copulas $C^ρ=\{C^ρ_β\}_{β\in[0,π]}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26700v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A sketch of the proof of non-existence of Siegel zeroes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-24-a-sketch-of-the-proof"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-24-a-sketch-of-the-proof</id>
+    <updated>2026-10-19T18:27:19+00:00</updated>
+    <summary type="html">&lt;p&gt;For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Evidence for spin-fluctuation-mediated superconductivity in electron-doped cuprates</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-36-evidence-for-spin-fluctuation-mediated"/>
+    <link rel="related" href="https://www.nature.com/articles/s41567-026-03454-6"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-36-evidence-for-spin-fluctuation-mediated</id>
+    <updated>2026-10-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Physics, Published online: 19 October 2026; doi:10.1038/s41567-026-03454-6 The mechanism for superconductivity in cuprates is still not known. Now, the observation of a relationship between the critical temperature and strength of coupling between electrons and spin fluctuations suggests the latter as a prime candidate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03454-6&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #number-theory #condensed-matter&lt;/p&gt;</summary>
   </entry>
 </feed>

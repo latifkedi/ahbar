@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-optimization.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-optimization.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
+  <entry>
+    <title>Quantum algorithms for optimal control: large-scale finite-horizon linear-quadratic regulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-22-quantum-algorithms-for-optimal-control"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26843v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-22-quantum-algorithms-for-optimal-control</id>
+    <updated>2026-10-19T17:58:57+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop quantum algorithms for optimal control over a prescribed finite time interval (finite horizon), focusing on continuous-time linear-quadratic regulation (LQR). This foundational control problem often requires solving a nonlinear matrix Riccati equation, which can be costly for large systems and long control durations on conventional classical solvers. We instead work directly with the state-costate optimality equations, reformulating the LQR problem as a multiple-shooting linear system.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26843v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Constrained modularity maximization in complex networks via branch-and-price</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-87-constrained-modularity-maximization-in-complex"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26562v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-87-constrained-modularity-maximization-in-complex</id>
+    <updated>2026-10-19T15:20:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Modularity maximization is widely used to identify community structure in complex networks. In many applications, however, community detection must also incorporate prior knowledge and domain-specific requirements beyond network topology. We study constrained modularity maximization with restrictions on the number of communities, must-link and cannot-link relations, and general resource constraints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26562v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization #combinatorics&lt;/p&gt;</summary>
+  </entry>
 </feed>

@@ -5,13 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-improved-polymath-bounds-on-dense"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
+    <title>Doom GPU Flame Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-39-doom-gpu-flame-graphs"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-39-doom-gpu-flame-graphs</id>
+    <updated>2025-04-30T14:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The moduli space of quasimorphisms on subshifts and its pressure geometry. We introduce a metric geometry on the space of positive, linearly growing quasimorphisms on a mixing subshift of finite type.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-20-the-moduli-space-of-quasimorphisms"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26778v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-20-the-moduli-space-of-quasimorphisms</id>
+    <updated>2026-10-19T17:30:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce a metric geometry on the space of positive, linearly growing quasimorphisms on a mixing subshift of finite type. Two such quasimorphisms are identified when their homogenizations agree up to multiplicative scaling. The resulting moduli space carries a natural symmetrised Thurston-type metric, defined from the extremal ratios of their periodic orbit lengths.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26778v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Geodesics in the continuous Hecke monoid. A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-geodesics-in-the-continuous-hecke"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26700v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-geodesics-in-the-continuous-hecke</id>
+    <updated>2026-10-19T16:37:45+00:00</updated>
+    <summary type="html">&lt;p&gt;A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations. The sticky product of permutons is a continuous analogue of the Demazure product in the $0$-Hecke monoid; on copulas, the distribution functions of permutons, it is given by the tropical $(\min,+)$ product $\odot$. We show that every absolutely continuous rotation-invariant probability measure $ρ$ on the plane, which we call the profile, generates a one-parameter family of copulas $C^ρ=\{C^ρ_β\}_{β\in[0,π]}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26700v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Proximity Transient Absorption in van der Waals Heterostructures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-29-proximity-transient-absorption-in-van"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26715v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-29-proximity-transient-absorption-in-van</id>
+    <updated>2026-10-19T16:48:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Transient absorption spectroscopy is a widely used technique for investigating ultrafast electronic dynamics, where transient optical signals are generally interpreted as arising from excitations within the material hosting the probed optical transition. A distinct form of transient absorption spectroscopy, termed proximity transient absorption (PTA), is demonstrated, in which the probed optical transition and the monitored photoexcited carriers reside in different materials. Using graphene/hBN/WS$_2$ heterostructures, photoexcited carriers in graphene induce a strong transient optical response at the excitonic resonance of a WS$_2$ monolayer through Coulomb screening, even when the two layers remain electronically isolated by an atomically thin hBN spacer.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26715v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-58-optimal-threshold-implementations-of-all"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-58-optimal-threshold-implementations-of-all</id>
+    <updated>2026-10-12T12:53:16+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Constrained modularity maximization in complex networks via branch-and-price</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-87-constrained-modularity-maximization-in-complex"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26562v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-87-constrained-modularity-maximization-in-complex</id>
+    <updated>2026-10-19T15:20:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Modularity maximization is widely used to identify community structure in complex networks. In many applications, however, community detection must also incorporate prior knowledge and domain-specific requirements beyond network topology. We study constrained modularity maximization with restrictions on the number of communities, must-link and cannot-link relations, and general resource constraints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26562v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Leaving Intel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-45-leaving-intel"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-45-leaving-intel</id>
+    <updated>2025-12-04T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

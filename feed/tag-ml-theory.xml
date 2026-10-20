@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-04-sub-quadratic-sparse-attention-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-04-sub-quadratic-sparse-attention-via</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
+    <title>Game of Phones: Harnessing Game Theory and LLMs in &apos;Bot Wars&apos; to Counteract Phone Scams</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-56-game-of-phones-harnessing-game"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26781v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-56-game-of-phones-harnessing-game</id>
+    <updated>2026-10-19T17:35:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Phone scams impose substantial and growing costs on individuals and financial systems worldwide, yet existing countermeasures impose no resource cost on perpetrators. Strategic scam-baiting, in which automated agents engage scammers to deplete their operational capacity, offers a proactive alternative but requires dynamic strategy adaptation that static systems cannot provide. We introduce a game-theoretic framework enabling LLMs to learn effective counter-strategies through in-context experience without fine-tuning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26781v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #llm&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-sharp-non-asymptotic-generalization-bounds"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-sharp-non-asymptotic-generalization-bounds</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
+    <title>Probabilistic Limit Order Book Forecasting with Conditional Diffusion Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-64-probabilistic-limit-order-book-forecasting"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25495v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-64-probabilistic-limit-order-book-forecasting</id>
+    <updated>2026-10-18T19:34:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Modeling limit order book (LOB) dynamics is central to market forecasting and execution-strategy evaluation. While diffusion models achieve strong empirical performance, existing LOB snapshot models typically lack a learned recurrent encoder and formal statistical guarantees. We introduce LOBGrad, a conditional DDPM framework for probabilistic LOB forecasting that combines an autoregressive RNN encoder with a diffusion-based generator.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25495v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #ml-theory #quant-finance&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Auditor-Assisted Summary-Channel Verification for Hosted LLM Identity Substitution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-62-auditor-assisted-summary-channel-verification"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25982v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-62-auditor-assisted-summary-channel-verification</id>
+    <updated>2026-10-19T08:09:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Hosted LLM services increasingly expose model identity as a product claim, but external users and auditors often cannot inspect which model configuration served a request. We study an auditor-assisted regime in which a trusted auditor enrolls claimed identities and prepares verification material before deployment, while audit-time verification uses only the claimed identity and released output, without runtime access to model internals, inference logs, routing decisions, or provider metadata. We propose SUMMARK, a summary-channel watermarking framework that uses user-visible reasoning summaries as a keyed audit surface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25982v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

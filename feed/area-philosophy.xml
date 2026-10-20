@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-philosophy.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-philosophy.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Coarse-Graining and Causal Emergence in Multi-Scale Markov Blankets. When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-28-coarse-graining-and-causal-emergence"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-28-coarse-graining-and-causal-emergence</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics? Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) &amp;gt; EI(\mu)$ due to degenerate micro-noise cancellation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09812&quot;&gt;Santa Fe Institute / arXiv cs.GT&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #complex-systems #philosophy-of-science #cognitive-science&lt;/p&gt;</summary>
+    <title>Online Philosophy Resources Weekly Update</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-82-online-philosophy-resources-weekly-update"/>
+    <link rel="related" href="https://dailynous.com/2026/10/19/online-philosophy-resources-weekly-update-444/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-82-online-philosophy-resources-weekly-update</id>
+    <updated>2026-10-19T09:30:00+00:00</updated>
+    <summary type="html">&lt;p&gt;New and revised entries at online philosophy resources, new reviews of philosophy books, new podcast episodes, recently published open access philosophy books, and more… . […] The post Online Philosophy Resources Weekly Update appeared first on Daily Nous .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dailynous.com/2026/10/19/online-philosophy-resources-weekly-update-444/&quot;&gt;Daily Nous (Philosophy Research &amp;amp; Epistemology)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #epistemology #ai-ethics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Imprecise Probabilities, Dutch-Book Coherence, and Epistemic Humility Under Severe Model Misspecification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-29-imprecise-probabilities-dutch-book-coherence"/>
-    <link rel="related" href="https://philsci-archive.pitt.edu/archive/26101/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-29-imprecise-probabilities-dutch-book-coherence</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Bayesian conditioning collapses when an agent&amp;apos;s prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses. We prove a representation theorem for convex credal sets under $\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://philsci-archive.pitt.edu/archive/26101/&quot;&gt;PhilSci-Archive / Formal Epistemology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #epistemology #decision-theory #philosophy-of-science&lt;/p&gt;</summary>
+    <title>Tight Inapproximability for Generalized Circuits. Generalized circuits are a fundamental tool for establishing PPAD-hardness and membership of approximate equilibrium problems.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-83-tight-inapproximability-for-generalized-circuits"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26772v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-83-tight-inapproximability-for-generalized-circuits</id>
+    <updated>2026-10-19T17:28:45+00:00</updated>
+    <summary type="html">&lt;p&gt;Generalized circuits are a fundamental tool for establishing PPAD-hardness and membership of approximate equilibrium problems. Despite their importance, the complexity of finding approximate solutions has remained unresolved for a wide range of approximation parameters. We settle this question by establishing a tight threshold at $\varepsilon=1/6$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26772v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Compositional Generalization Limits in Connectionist Architectures Versus Symbolic Program Induction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-30-compositional-generalization-limits-in-connectionist"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09904"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-30-compositional-generalization-limits-in-connectionist</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls. Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \ge 7$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09904&quot;&gt;Bilim Akademisi Sarkaç / Cognitive Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cognitive-science #ai-ethics #logic&lt;/p&gt;</summary>
+    <title>EpiLens: Lightweight RAG for Epidemiological Knowledge Acquisition. To prepare for future outbreaks, researchers need to know what studies have been done and what data they use.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-84-epilens-lightweight-rag-for-epidemiological"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26730v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-84-epilens-lightweight-rag-for-epidemiological</id>
+    <updated>2026-10-19T16:58:53+00:00</updated>
+    <summary type="html">&lt;p&gt;To prepare for future outbreaks, researchers need to know what studies have been done and what data they use. Mapping a large literature by hand is slow, while large language models alone can misstate or conflate sources. We present EpiLens, a lightweight, open-source retrieval-augmented generation package that applies a fixed retrieval template and output schema to every paper in a corpus and links outputs to source passages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26730v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Commercial building decarbonization across countries: Future emission trajectories and mitigation priorities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-85-commercial-building-decarbonization-across-countries"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26696v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-85-commercial-building-decarbonization-across-countries</id>
+    <updated>2026-10-19T16:36:03+00:00</updated>
+    <summary type="html">&lt;p&gt;With energy-related carbon dioxide emissions remaining at high levels, decarbonizing commercial building operations across key economies is critical for achieving global climate targets. This study assesses future operational carbon trajectories, mitigation potential, and the driving factors of this potential in commercial building operations across 16 countries from 2024 to 2060 by combining a Kaya-based emission model and Monte Carlo uncertainty analysis. The key findings indicate that (1) under the business-as-usual scenario, China&amp;apos;s commercial building operational carbon emissions are projected to peak at 1150 (+-120) million tonnes of carbon dioxide (MtCO2) in 2033 (+-5 years), while the remaining countries exhibit differentiated carbon lock-in levels, with the highest level in the United States at 470 (+-89) MtCO2.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26696v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bayesian Analysis of Inclusion Transaction Fee Mechanisms with Multiple Concurrent Proposers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-86-bayesian-analysis-of-inclusion-transaction"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26570v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-86-bayesian-analysis-of-inclusion-transaction</id>
+    <updated>2026-10-19T15:24:50+00:00</updated>
+    <summary type="html">&lt;p&gt;The goal of this paper is to distill insight around the trade-offs present on Bayesian equilibria of transaction fee mechanism (TFM) design under $n$ multiple concurrent proposers (MCP). We conceptualize a technical toolkit that unlocks the analysis of hard-to-characterize equilibria of finite Bayesian MCP TFM games by examining sequences of joint user--proposer mixed equilibria as the number of users increases and keeping the relative congestion $ρ$ that they cause fixed in the sequence limit. We first consider the popular mechanisms of &amp;quot;pay-once&amp;quot; (which charges transactions its bid only once regardless of the duplicate copies that end up being included by proposers) and &amp;quot;pay-per-inclusion&amp;quot; (PPI in short, which charges a transaction for each copy that appears).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26570v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Constrained modularity maximization in complex networks via branch-and-price</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-87-constrained-modularity-maximization-in-complex"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26562v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-87-constrained-modularity-maximization-in-complex</id>
+    <updated>2026-10-19T15:20:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Modularity maximization is widely used to identify community structure in complex networks. In many applications, however, community detection must also incorporate prior knowledge and domain-specific requirements beyond network topology. We study constrained modularity maximization with restrictions on the number of communities, must-link and cannot-link relations, and general resource constraints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26562v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Regularizing the Veto Core. The metric distortion framework asks voting rules to elect a candidate close to the voters using only their rankings.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-88-regularizing-the-veto-core"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26535v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-88-regularizing-the-veto-core</id>
+    <updated>2026-10-19T14:58:48+00:00</updated>
+    <summary type="html">&lt;p&gt;The metric distortion framework asks voting rules to elect a candidate close to the voters using only their rankings. SimultaneousPluralityVeto elects from the plurality veto core and achieves the optimal worst-case distortion of 3, but it is not Pareto-efficient: it can declare a tie between two candidates even when every voter prefers one of them. Removing Pareto-dominated candidates afterward would break the convexity of tied winner sets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26535v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Systemic collapse emergence from climate-induced perturbations in transportation networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-89-systemic-collapse-emergence-from-climate"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26428v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-89-systemic-collapse-emergence-from-climate</id>
+    <updated>2026-10-19T13:54:12+00:00</updated>
+    <summary type="html">&lt;p&gt;The interaction between human infrastructures and external events results in loss of functionality or even complete system disruption through a snowball effect of cascading-failures. Their complex interplay challenges their prevention, affecting the human population that rely on their functionality. Understanding how these networks respond to external perturbations is crucial for predicting and mitigating the impacts of disruptive events.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26428v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Twitching fiberboids in the collective : A table-top, one-dimensional, active particle gas</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-90-twitching-fiberboids-in-the-collective"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26087v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-90-twitching-fiberboids-in-the-collective</id>
+    <updated>2026-10-19T09:50:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Fiberboids are filaments that self-propel by rolling along a surface due to a flux normal to that surface. In the last few years, fibers using several materials and driving mechanisms have been developed that are able to roll persistently. Here we show using thermally driven nylon fibers on a slightly curved glass surface, that fiberboids also come in another state, that we call ``twitching&amp;apos;&amp;apos;: the fiber rolls for a short time and then switches direction, implementing on large scales a diffusion-like motion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26087v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #post-quantum #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>

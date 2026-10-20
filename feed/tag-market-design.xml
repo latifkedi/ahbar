@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-  <entry>
-    <title>Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-24-optimal-execution-and-adverse-selection"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09522"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-24-optimal-execution-and-adverse-selection</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\text{ bps}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09522&quot;&gt;arXiv Quantitative Finance (q-fin.TR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
 </feed>

@@ -5,13 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-source.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-source.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-13-open-source-out-of-order"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-13-open-source-out-of-order</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
+    <title>Wine ported to OpenBSD. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-wine-ported-to-openbsd"/>
+    <link rel="related" href="https://marc.info/?l=openbsd-ports&amp;m=179236125692175"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-wine-ported-to-openbsd</id>
+    <updated>2026-10-19T13:35:34Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://marc.info/?l=openbsd-ports&amp;amp;m=179236125692175&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Go will reject certificate chains containing eight distrusted SPKIs. I downloaded the CA cert data from https://www.ccadb.org/resources and it seems to be affecting 16 certs, all from eMudhra.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-03-go-will-reject-certificate-chains"/>
+    <link rel="related" href="https://github.com/golang/go/issues/82345"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-03-go-will-reject-certificate-chains</id>
+    <updated>2026-10-20T03:05:07Z</updated>
+    <summary type="html">&lt;p&gt;I downloaded the CA cert data from https://www.ccadb.org/resources and it seems to be affecting 16 certs, all from eMudhra. I complied the list here https://gist.github.com/mendymm/ff7a9fd00339260b4d2dbdcb0f489b57 Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/golang/go/issues/82345&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nordwand Mono – A monospace font for coders and adventurers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-04-nordwand-mono-a-monospace-font"/>
+    <link rel="related" href="https://github.com/tywr/Nordwand-Mono"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-04-nordwand-mono-a-monospace-font</id>
+    <updated>2026-10-18T14:48:01Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/tywr/Nordwand-Mono&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>One Hash Bloom Filters. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-one-hash-bloom-filters"/>
+    <link rel="related" href="https://calabro.io/ohbf"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-one-hash-bloom-filters</id>
+    <updated>2026-10-19T20:50:08Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://calabro.io/ohbf&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>It&apos;s still ok to enjoy programming</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-06-it-s-still-ok-to"/>
+    <link rel="related" href="https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-06-it-s-still-ok-to</id>
+    <updated>2026-10-17T19:53:20Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>I built a drone with only one motor [video]</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-i-built-a-drone-with"/>
+    <link rel="related" href="https://www.youtube.com/watch?v=Ndftcft6XhU"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-i-built-a-drone-with</id>
+    <updated>2026-10-19T09:05:07Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=Ndftcft6XhU&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MiniMax M3.1 Flash</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-08-minimax-m3-1-flash"/>
+    <link rel="related" href="https://www.minimax.io/blog/minimax-m31f"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-08-minimax-m3-1-flash</id>
+    <updated>2026-10-19T16:39:09Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.minimax.io/blog/minimax-m31f&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Starcraft: Ashfall</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-09-starcraft-ashfall"/>
+    <link rel="related" href="https://starcraft-shooter-2026.pages.dev/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-09-starcraft-ashfall</id>
+    <updated>2026-10-19T01:18:02Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://starcraft-shooter-2026.pages.dev/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>WhatsApp&apos;s help pages hid LLM instructions: dont recommend a regulator</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-17-whatsapp-s-help-pages-hid"/>
+    <link rel="related" href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-17-whatsapp-s-help-pages-hid</id>
+    <updated>2026-10-19T23:22:18Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

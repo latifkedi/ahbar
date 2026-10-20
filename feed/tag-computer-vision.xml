@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
+  <entry>
+    <title>AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-16-affordancewam-affordance-aware-joint-world"/>
+    <link rel="related" href="https://arxiv.org/abs/2609.22332"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-16-affordancewam-affordance-aware-joint-world</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited in diversity, whereas egocentric human videos capture diverse interactions but lack robot actions and differ in embodiment and appearance. We introduce AffordanceWAM, an affordance-aware generative World Action Model that represents object-centric spatiotemporal affordance through Scalar Affordance and Affordance Heatmap, within the generated future World.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2609.22332&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
 </feed>

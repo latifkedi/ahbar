@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-02-byzantine-fault-injection-and-split"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
+    <title>Geodesics in the continuous Hecke monoid. A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-geodesics-in-the-continuous-hecke"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26700v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-geodesics-in-the-continuous-hecke</id>
+    <updated>2026-10-19T16:37:45+00:00</updated>
+    <summary type="html">&lt;p&gt;A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations. The sticky product of permutons is a continuous analogue of the Demazure product in the $0$-Hecke monoid; on copulas, the distribution functions of permutons, it is given by the tropical $(\min,+)$ product $\odot$. We show that every absolutely continuous rotation-invariant probability measure $ρ$ on the plane, which we call the profile, generates a one-parameter family of copulas $C^ρ=\{C^ρ_β\}_{β\in[0,π]}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26700v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-single-slot-finality-under-sub"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-single-slot-finality-under-sub</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
+    <title>A boundary integral method for computing electron repulsion integrals in heterogeneous dielectric environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-23-a-boundary-integral-method-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26745v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-23-a-boundary-integral-method-for</id>
+    <updated>2026-10-19T17:09:18+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a boundary integral method for evaluating electron repulsion integrals (ERIs) in dielectric environments of piecewise constant permittivity. This generalizes conventional bare-Coulomb ERIs by incorporating screening from structured dielectric surroundings, such as the substrates and/or encapsulating layers present in modern two-dimensional-material devices. We formulate the problem as a second-kind boundary integral equation for the induced surface charge on the dielectric interfaces, and discretize it with a Nyström method on adaptively refined panels.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26745v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #materials-science #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-deterministic-b-tree-compaction-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
+    <title>KrMM Recurrences: HPC-Enhanced Estimators for Nonlinear Classical Shadows. While quantum technologies are rapidly evolving, near-term applications heavily rely on hybrid quantum-classical paradigms.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-32-krmm-recurrences-hpc-enhanced-estimators"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26472v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-32-krmm-recurrences-hpc-enhanced-estimators</id>
+    <updated>2026-10-19T14:19:09+00:00</updated>
+    <summary type="html">&lt;p&gt;While quantum technologies are rapidly evolving, near-term applications heavily rely on hybrid quantum-classical paradigms. Among these, the classical shadows framework has gained a lot of traction, not only for quantum information science, but also for the development and verification of quantum hardware. It allows to efficiently classically estimate many properties of quantum states from randomized measurements alone, a task that is otherwise intractable due to the destructive nature of measurements in quantum systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26472v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

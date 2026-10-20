@@ -5,13 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-kernel-os.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-kernel-os.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-hardware-enforced-capability-tagging-eliminates"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06411"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-hardware-enforced-capability-tagging-eliminates</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\%$ of baseline at $400\text{ Gb/s}$ while deterministically trapping temporal aliasing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06411&quot;&gt;LWN.net / Systems Architecture&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #infosec #computer-architecture&lt;/p&gt;</summary>
+    <title>Security updates for Monday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-37-security-updates-for-monday"/>
+    <link rel="related" href="https://lwn.net/Articles/1101421/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-37-security-updates-for-monday</id>
+    <updated>2026-10-19T13:10:19+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (idm:DL1, kernel, libsoup, perl-URI, python3.14-urllib3, and webkit2gtk3), Debian (apache2, cifs-utils, haproxy, jq, kernel, and xen), Fedora (aom, chezmoi, chromium, docker-buildx, freeipa, freerdp, GitPython, httpd, jfrog-cli, kernel, knot, libheif, log4net, mongo-c-driver, nant, NetworkManager, openssl, plasma-nm, python-cairosvg, python-django5, python-django6,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101421/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Doom GPU Flame Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-39-doom-gpu-flame-graphs"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-39-doom-gpu-flame-graphs</id>
+    <updated>2025-04-30T14:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-40-connection-escrow-holding-ai-agent"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26501v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-40-connection-escrow-holding-ai-agent</id>
+    <updated>2026-10-19T14:36:05+00:00</updated>
+    <summary type="html">&lt;p&gt;AI agents in containers act by opening network connections, and the text that drives them can be hostile. Controls placed between the agent and its tools are bypassed by a child process or a direct socket, and their approval is not tied to the connection the kernel later opens. We present connection escrow: every outbound TCP connection from a supervised pod is parked inside the kernel&amp;apos;s connect() path, before any packet exists, by a 98-instruction eBPF program on the pod&amp;apos;s cgroup.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26501v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>K-AoI: A Spatio-Temporal Synchronization Metric for Digital Twin-based Teleoperation in Dynamic Network Environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-43-k-aoi-a-spatio-temporal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26201v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-43-k-aoi-a-spatio-temporal</id>
+    <updated>2026-10-19T11:29:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Synchronization between a digital twin (DT) and its physical robot is critical for effective teleoperation, as mismatches directly degrade operator awareness and task performance. Existing synchronization metrics are predominantly time-based and rarely capture the spatial consequences of delayed information during motion. In this paper, we introduce Kinematic Age of Information (K-AoI), a spatio-temporal metric that weights AoI by instantaneous Cartesian velocity, translating temporal staleness into physically meaningful spatial divergence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26201v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Why I joined OpenAI</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-44-why-i-joined-openai"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-44-why-i-joined-openai</id>
+    <updated>2026-02-06T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;The staggering and fast-growing cost of AI datacenters is a call for performance engineering like no other in history; it&amp;apos;s not just about saving costs – it&amp;apos;s about saving the planet. I have joined OpenAI to work on this challenge directly, with an initial focus on ChatGPT performance. The scale is extreme and the growth is mind-boggling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Leaving Intel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-45-leaving-intel"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-45-leaving-intel</id>
+    <updated>2025-12-04T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
+  <entry>
+    <title>K-AoI: A Spatio-Temporal Synchronization Metric for Digital Twin-based Teleoperation in Dynamic Network Environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-43-k-aoi-a-spatio-temporal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26201v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-43-k-aoi-a-spatio-temporal</id>
+    <updated>2026-10-19T11:29:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Synchronization between a digital twin (DT) and its physical robot is critical for effective teleoperation, as mismatches directly degrade operator awareness and task performance. Existing synchronization metrics are predominantly time-based and rarely capture the spatial consequences of delayed information during motion. In this paper, we introduce Kinematic Age of Information (K-AoI), a spatio-temporal metric that weights AoI by instantaneous Cartesian velocity, translating temporal staleness into physically meaningful spatial divergence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26201v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #networking&lt;/p&gt;</summary>
+  </entry>
 </feed>

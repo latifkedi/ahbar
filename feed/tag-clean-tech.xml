@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Neural Phonon Boltzmann Transport Solver Identifies Ultralow-Kappa Solid-State Electrolytes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-18-neural-phonon-boltzmann-transport-solver"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06255"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-18-neural-phonon-boltzmann-transport-solver</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\%$ of DFT-BTE at $10^4\times$ lower compute cost, uncovering three stable argyrodite phases.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06255&quot;&gt;arXiv Materials &amp;amp; CompSci (cond-mat.mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #materials-science #clean-tech&lt;/p&gt;</summary>
+    <title>AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-16-affordancewam-affordance-aware-joint-world"/>
+    <link rel="related" href="https://arxiv.org/abs/2609.22332"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-16-affordancewam-affordance-aware-joint-world</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited in diversity, whereas egocentric human videos capture diverse interactions but lack robot actions and differ in embodiment and appearance. We introduce AffordanceWAM, an affordance-aware generative World Action Model that represents object-centric spatiotemporal affordance through Scalar Affordance and Affordance Heatmap, within the generated future World.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2609.22332&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Twitching fiberboids in the collective : A table-top, one-dimensional, active particle gas</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-90-twitching-fiberboids-in-the-collective"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26087v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-90-twitching-fiberboids-in-the-collective</id>
+    <updated>2026-10-19T09:50:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Fiberboids are filaments that self-propel by rolling along a surface due to a flux normal to that surface. In the last few years, fibers using several materials and driving mechanisms have been developed that are able to roll persistently. Here we show using thermally driven nylon fibers on a slightly curved glass surface, that fiberboids also come in another state, that we call ``twitching&amp;apos;&amp;apos;: the fiber rolls for a short time and then switches direction, implementing on large scales a diffusion-like motion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26087v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #post-quantum #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>

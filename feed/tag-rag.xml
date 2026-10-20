@@ -5,5 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rag.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rag.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
+  <entry>
+    <title>MemT-1.0: Towards Memory-Native Evolution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-10-memt-1-0-towards-memory"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26825"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-10-memt-1-0-towards-memory</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26825&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>RDEmbed: A Sentence-Embedding Framework for Rare Disease Phenotype Representation and Phenotypic Similarity Analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-48-rdembed-a-sentence-embedding-framework"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.16.759399v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-48-rdembed-a-sentence-embedding-framework</id>
+    <updated>2026-10-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Accurate phenotypic characterization of patients with rare diseases is essential for improving diagnosis, patient matchmaking, and gene discovery. Conventional ontology driven approaches based on the Human Phenotype Ontology (HPO) enable structured phenotype comparison but often limited by the incomplete annotations and reduced ability to capture the contextual information contained in free-text clinical narratives. We present RDEmbed, a sentence embedding framework that learns patient phenotype representations directly from rare disease case reports for similarity analysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.16.759399v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>EpiLens: Lightweight RAG for Epidemiological Knowledge Acquisition. To prepare for future outbreaks, researchers need to know what studies have been done and what data they use.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-84-epilens-lightweight-rag-for-epidemiological"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26730v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-84-epilens-lightweight-rag-for-epidemiological</id>
+    <updated>2026-10-19T16:58:53+00:00</updated>
+    <summary type="html">&lt;p&gt;To prepare for future outbreaks, researchers need to know what studies have been done and what data they use. Mapping a large literature by hand is slow, while large language models alone can misstate or conflate sources. We present EpiLens, a lightweight, open-source retrieval-augmented generation package that applies a fixed retrieval template and output schema to every paper in a corpus and links outputs to source passages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26730v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #rag&lt;/p&gt;</summary>
+  </entry>
 </feed>

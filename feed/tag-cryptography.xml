@@ -5,13 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-hyperfold-prover-optimal-lattice-folding"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
+    <title>Game of Phones: Harnessing Game Theory and LLMs in &apos;Bot Wars&apos; to Counteract Phone Scams</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-56-game-of-phones-harnessing-game"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26781v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-56-game-of-phones-harnessing-game</id>
+    <updated>2026-10-19T17:35:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Phone scams impose substantial and growing costs on individuals and financial systems worldwide, yet existing countermeasures impose no resource cost on perpetrators. Strategic scam-baiting, in which automated agents engage scammers to deplete their operational capacity, offers a proactive alternative but requires dynamic strategy adaptation that static systems cannot provide. We introduce a game-theoretic framework enabling LLMs to learn effective counter-strategies through in-context experience without fine-tuning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26781v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #llm&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Covering Radius of $\text{RM}(1,9)$ is Precisely $242$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-57-the-covering-radius-of-text"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2529"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-57-the-covering-radius-of-text</id>
+    <updated>2026-10-18T14:48:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\rho(r,n)$ denote its covering radius, so that $\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\rho(1,n)$ was previously known only for $n\le 7$. It is known that $242\le\rho(1,9)\le 244$, but the exact determination of $\rho(1,9)$ has been a long-standing open question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2529&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-58-optimal-threshold-implementations-of-all"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-58-optimal-threshold-implementations-of-all</id>
+    <updated>2026-10-12T12:53:16+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Connection Escrow: Holding AI-Agent Pod Egress in the Kernel Until an Isolated Verifier Rules</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-40-connection-escrow-holding-ai-agent"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26501v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-40-connection-escrow-holding-ai-agent</id>
+    <updated>2026-10-19T14:36:05+00:00</updated>
+    <summary type="html">&lt;p&gt;AI agents in containers act by opening network connections, and the text that drives them can be hostile. Controls placed between the agent and its tools are bypassed by a child process or a direct socket, and their approval is not tied to the connection the kernel later opens. We present connection escrow: every outbound TCP connection from a supervised pod is parked inside the kernel&amp;apos;s connect() path, before any packet exists, by a 98-instruction eBPF program on the pod&amp;apos;s cgroup.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26501v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Beyond Attack Success Rate: Cost-Aware Metric for Evaluating Iterative LLM Jailbreaks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-61-beyond-attack-success-rate-cost"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26589v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-61-beyond-attack-success-rate-cost</id>
+    <updated>2026-10-19T15:36:41+00:00</updated>
+    <summary type="html">&lt;p&gt;Attack success rate (ASR) evaluates jailbreaks against large language models without accounting for repeated calls to the victim model. Yet each additional call gives the deployed system another opportunity to detect the attack and intervene. We introduce $\mathrm{ASR}_{\mathrm{STEP}}$, which penalizes additional victim-model calls while retaining binary success judgments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26589v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Auditor-Assisted Summary-Channel Verification for Hosted LLM Identity Substitution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-62-auditor-assisted-summary-channel-verification"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25982v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-62-auditor-assisted-summary-channel-verification</id>
+    <updated>2026-10-19T08:09:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Hosted LLM services increasingly expose model identity as a product claim, but external users and auditors often cannot inspect which model configuration served a request. We study an auditor-assisted regime in which a trusted auditor enrolls claimed identities and prepares verification material before deployment, while audit-time verification uses only the claimed identity and released output, without runtime access to model internals, inference logs, routing decisions, or provider metadata. We propose SUMMARK, a summary-channel watermarking framework that uses user-visible reasoning summaries as a keyed audit surface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25982v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Package managers have an integrity problem</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-42-package-managers-have-an-integrity"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-42-package-managers-have-an-integrity</id>
+    <updated>2026-10-14T11:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Binding Security of Combined KEMs: An Analysis of Real-World KEM Combiners. In this work we analyze the various binding properties of combiners for KEMs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-63-binding-security-of-combined-kems"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1416"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-63-binding-security-of-combined-kems</id>
+    <updated>2025-08-04T09:24:18+00:00</updated>
+    <summary type="html">&lt;p&gt;In this work we analyze the various binding properties of combiners for KEMs. We show that several binding properties follow easily for the most general combiner—assuming a collision-resistant hash function—while more performance-oriented combiners require the respective property from one or both of the underlying KEMs. Other binding properties are not obtained as directly and require either more properties of one underlying KEM or the respective property from both KEMs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1416&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

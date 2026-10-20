@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Pangenome Graph Indexing in Sub-Linear Space via Wheeler Bureaucrat Wavelet Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-17-pangenome-graph-indexing-in-sub"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06112"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-17-pangenome-graph-indexing-in-sub</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\text{ GB}$ of memory at $3.4\times$ higher throughput than Minigraph-Cactus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06112&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #algorithms&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-03-deterministic-b-tree-compaction-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
+    <title>Tight Inapproximability for Generalized Circuits. Generalized circuits are a fundamental tool for establishing PPAD-hardness and membership of approximate equilibrium problems.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-83-tight-inapproximability-for-generalized-circuits"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26772v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-83-tight-inapproximability-for-generalized-circuits</id>
+    <updated>2026-10-19T17:28:45+00:00</updated>
+    <summary type="html">&lt;p&gt;Generalized circuits are a fundamental tool for establishing PPAD-hardness and membership of approximate equilibrium problems. Despite their importance, the complexity of finding approximate solutions has remained unresolved for a wide range of approximation parameters. We settle this question by establishing a tight threshold at $\varepsilon=1/6$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26772v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
+  <entry>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-13-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-13-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-15-mempilot-orchestrating-on-demand-multimodal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06830"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-15-mempilot-orchestrating-on-demand-multimodal</id>
+    <updated>2026-10-04T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over performance, cost, and latency largely underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06830&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
 </feed>

@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-hyperfold-prover-optimal-lattice-folding"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
+    <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-55-possible-futures-of-the-ethereum"/>
+    <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-55-possible-futures-of-the-ethereum</id>
+    <updated>2024-10-29T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Symbolic &amp; SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-20-symbolic-smt-guided-equivalence-checking"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-20-symbolic-smt-guided-equivalence-checking</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08115&quot;&gt;arXiv Cryptography (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #smart-contracts #formal-proofs #zkp&lt;/p&gt;</summary>
+    <title>Game of Phones: Harnessing Game Theory and LLMs in &apos;Bot Wars&apos; to Counteract Phone Scams</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-56-game-of-phones-harnessing-game"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26781v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-56-game-of-phones-harnessing-game</id>
+    <updated>2026-10-19T17:35:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Phone scams impose substantial and growing costs on individuals and financial systems worldwide, yet existing countermeasures impose no resource cost on perpetrators. Strategic scam-baiting, in which automated agents engage scammers to deplete their operational capacity, offers a proactive alternative but requires dynamic strategy adaptation that static systems cannot provide. We introduce a game-theoretic framework enabling LLMs to learn effective counter-strategies through in-context experience without fine-tuning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26781v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #llm&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-21-single-slot-finality-under-sub"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-21-single-slot-finality-under-sub</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
+    <title>The Covering Radius of $\text{RM}(1,9)$ is Precisely $242$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-57-the-covering-radius-of-text"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2529"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-57-the-covering-radius-of-text</id>
+    <updated>2026-10-18T14:48:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\rho(r,n)$ denote its covering radius, so that $\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\rho(1,n)$ was previously known only for $n\le 7$. It is known that $242\le\rho(1,9)\le 244$, but the exact determination of $\rho(1,9)$ has been a long-standing open question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2529&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-58-optimal-threshold-implementations-of-all"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2449"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-58-optimal-threshold-implementations-of-all</id>
+    <updated>2026-10-12T12:53:16+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying idea is simple and compelling: under mild, practical assumptions, they provide protection against glitches and allow composability. Yet our understanding of one-stage TIs with a minimal number of shares remains limited, both for cryptographically relevant families—particularly power functions—and for concrete small functions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2449&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-59-pq-spending-for-stealth-address"/>
+    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-59-pq-spending-for-stealth-address</id>
+    <updated>2026-09-28T01:09:06+00:00</updated>
+    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-60-9-key-moments-from-marc"/>
+    <link rel="related" href="https://a16zcrypto.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-60-9-key-moments-from-marc</id>
+    <updated>2026-08-07T18:21:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zcrypto.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Beyond Attack Success Rate: Cost-Aware Metric for Evaluating Iterative LLM Jailbreaks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-61-beyond-attack-success-rate-cost"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26589v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-61-beyond-attack-success-rate-cost</id>
+    <updated>2026-10-19T15:36:41+00:00</updated>
+    <summary type="html">&lt;p&gt;Attack success rate (ASR) evaluates jailbreaks against large language models without accounting for repeated calls to the victim model. Yet each additional call gives the deployed system another opportunity to detect the attack and intervene. We introduce $\mathrm{ASR}_{\mathrm{STEP}}$, which penalizes additional victim-model calls while retaining binary success judgments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26589v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Auditor-Assisted Summary-Channel Verification for Hosted LLM Identity Substitution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-62-auditor-assisted-summary-channel-verification"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25982v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-62-auditor-assisted-summary-channel-verification</id>
+    <updated>2026-10-19T08:09:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Hosted LLM services increasingly expose model identity as a product claim, but external users and auditors often cannot inspect which model configuration served a request. We study an auditor-assisted regime in which a trusted auditor enrolls claimed identities and prepares verification material before deployment, while audit-time verification uses only the claimed identity and released output, without runtime access to model internals, inference logs, routing decisions, or provider metadata. We propose SUMMARK, a summary-channel watermarking framework that uses user-visible reasoning summaries as a keyed audit surface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25982v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Binding Security of Combined KEMs: An Analysis of Real-World KEM Combiners. In this work we analyze the various binding properties of combiners for KEMs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-63-binding-security-of-combined-kems"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1416"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-63-binding-security-of-combined-kems</id>
+    <updated>2025-08-04T09:24:18+00:00</updated>
+    <summary type="html">&lt;p&gt;In this work we analyze the various binding properties of combiners for KEMs. We show that several binding properties follow easily for the most general combiner—assuming a collision-resistant hash function—while more performance-oriented combiners require the respective property from one or both of the underlying KEMs. Other binding properties are not obtained as directly and require either more properties of one underlying KEM or the respective property from both KEMs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1416&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

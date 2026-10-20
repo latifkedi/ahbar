@@ -5,13 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-19-hyperfold-prover-optimal-lattice-folding"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
+    <title>Boundary-Sensitive Quantum Order on Non-Amenable Lattices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-28-boundary-sensitive-quantum-order-on"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26859v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-28-boundary-sensitive-quantum-order-on</id>
+    <updated>2026-10-19T17:59:58+00:00</updated>
+    <summary type="html">&lt;p&gt;We show that quantum systems on non-amenable lattices, whose boundaries constitute an extensive fraction of the system, host novel forms of bulk ordering with no Euclidean counterpart. Combining boundary-retaining iDMRG with an exact symmetry-fixing duality, we investigate $p&amp;lt;5$ state clock models on the coordination-3 infinite Cayley tree. We find that between the ordered and disordered phases lies an emergent intermediate phase with bulk order induced by an arbitrarily weak boundary field rather than by conventional spontaneous symmetry-breaking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26859v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Stabilization of Ferroelectric Domains via Interfacial Strain in HoFeO3- BaTiO3 Nanofiber Heterostructures for Enhanced Hybrid Energy Harvesting</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-30-stabilization-of-ferroelectric-domains-via"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26611v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-30-stabilization-of-ferroelectric-domains-via</id>
+    <updated>2026-10-19T15:47:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Piezoelectric nanogenerators (PENGs) are an attractive platform for self-powered mechanical-energy harvesting, but their output is often limited by depolarization fields, charge leakage, and inefficient stress transfer to the active dipoles, particularly in polymer-dominated composites. Here we report HoFeO3-BaTiO3 (HFO-BTO) nanofiber heterostructures prepared by alternating sol-gel electrospinning, in which orthorhombic HoFeO3 (Pbnm) and tetragonal BaTiO3 (P4mm) coexist in intimate contact. Rietveld-refined X-ray diffraction, high-resolution transmission electron microscopy, and Raman spectroscopy indicate interfacial lattice distortion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26611v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Strain-induced disorder from Schottky gates on high mobility 2DEGs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-31-strain-induced-disorder-from-schottky"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26607v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-31-strain-induced-disorder-from-schottky</id>
+    <updated>2026-10-19T15:46:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Electrostatic gates on two-dimensional electron gases (2DEGs) in GaAs/AlGaAs heterostructures are essential for numerous studies of correlation driven phenomena, many performed within the fractional quantum Hall effect. However, the most commonly used type of gates, the metallic Schottky gate, has the propensity to adversely impact the electron mobility and suppress the fractional quantum Hall states. Here we demonstrate through commensurability oscillations under specially designed nanostructured superlattice gates, that strain effects are responsible for the mobility reduction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26607v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>One year later: the power of 1.1.1.1 interns</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-41-one-year-later-the-power"/>
+    <link rel="related" href="https://blog.cloudflare.com/one-year-later-1111-interns/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-41-one-year-later-the-power</id>
+    <updated>2026-10-05T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cloudflare.com/one-year-later-1111-interns/&quot;&gt;Cloudflare Systems &amp;amp; Network Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #networking #performance #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-59-pq-spending-for-stealth-address"/>
+    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-59-pq-spending-for-stealth-address</id>
+    <updated>2026-09-28T01:09:06+00:00</updated>
+    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Twitching fiberboids in the collective : A table-top, one-dimensional, active particle gas</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-90-twitching-fiberboids-in-the-collective"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26087v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-90-twitching-fiberboids-in-the-collective</id>
+    <updated>2026-10-19T09:50:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Fiberboids are filaments that self-propel by rolling along a surface due to a flux normal to that surface. In the last few years, fibers using several materials and driving mechanisms have been developed that are able to roll persistently. Here we show using thermally driven nylon fibers on a slightly curved glass surface, that fiberboids also come in another state, that we call ``twitching&amp;apos;&amp;apos;: the fiber rolls for a short time and then switches direction, implementing on large scales a diffusion-like motion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26087v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #post-quantum #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>

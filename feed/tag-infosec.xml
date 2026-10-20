@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Hardware-Enforced Capability Tagging Eliminates Use-After-Free in Kernel Network Rings</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-14-hardware-enforced-capability-tagging-eliminates"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06411"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-14-hardware-enforced-capability-tagging-eliminates</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\%$ of baseline at $400\text{ Gb/s}$ while deterministically trapping temporal aliasing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06411&quot;&gt;LWN.net / Systems Architecture&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #infosec #computer-architecture&lt;/p&gt;</summary>
+    <title>KrMM Recurrences: HPC-Enhanced Estimators for Nonlinear Classical Shadows. While quantum technologies are rapidly evolving, near-term applications heavily rely on hybrid quantum-classical paradigms.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-32-krmm-recurrences-hpc-enhanced-estimators"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26472v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-32-krmm-recurrences-hpc-enhanced-estimators</id>
+    <updated>2026-10-19T14:19:09+00:00</updated>
+    <summary type="html">&lt;p&gt;While quantum technologies are rapidly evolving, near-term applications heavily rely on hybrid quantum-classical paradigms. Among these, the classical shadows framework has gained a lot of traction, not only for quantum information science, but also for the development and verification of quantum hardware. It allows to efficiently classically estimate many properties of quantum states from randomized measurements alone, a task that is otherwise intractable due to the destructive nature of measurements in quantum systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26472v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cross-Cache Speculative Type Confusion in Modern Browser JIT Tier-Up Pipelines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-15-cross-cache-speculative-type-confusion"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06890"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-15-cross-cache-speculative-type-confusion</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Optimizing JIT compilers elide bounds and map checks when profiling feedback indicates monomorphic object shapes. We demonstrate a speculative race condition during concurrent background compilation that leaks arbitrary WebAssembly linear memory across site isolation boundaries in under $90\text{ ms}$, along with a zero-overhead fence mitigation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06890&quot;&gt;Google Project Zero / InfoSec&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #compilers #performance&lt;/p&gt;</summary>
+    <title>Package managers have an integrity problem</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-42-package-managers-have-an-integrity"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-42-package-managers-have-an-integrity</id>
+    <updated>2026-10-14T11:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-70-from-politics-to-process-evidence"/>
+    <link rel="related" href="https://www.nber.org/papers/w35903#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-70-from-politics-to-process-evidence</id>
+    <updated>2026-10-20T09:43:51.063120453+00:00</updated>
+    <summary type="html">&lt;p&gt;States that delegate governance to local officials face a trade-off between the benefits of local knowledge and the costs of biased administrators. Can imposing federal standards discipline bias and improve uniformity? We study this question by examining the introduction of federal standards to apply for citizenship under the 1906 Naturalization Act.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35903#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

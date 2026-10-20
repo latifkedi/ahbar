@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-04-sub-quadratic-sparse-attention-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-04-sub-quadratic-sparse-attention-via</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
+    <title>MemT-1.0: Towards Memory-Native Evolution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-10-memt-1-0-towards-memory"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26825"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-10-memt-1-0-towards-memory</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26825&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-05-verified-tool-use-trajectories-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-05-verified-tool-use-trajectories-for</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
+    <title>SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-11-specmrl-redesign-matryoshka-representation-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26824"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-11-specmrl-redesign-matryoshka-representation-learning</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26824&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-06-sharp-non-asymptotic-generalization-bounds"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-06-sharp-non-asymptotic-generalization-bounds</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-13-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-13-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Kronecker Delta Rule for Long Context Linear Attention</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-12-kronecker-delta-rule-for-long"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26834"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-12-kronecker-delta-rule-for-long</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for long-context language modeling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26834&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-14-where-is-physical-rsi-capability"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26848"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-14-where-is-physical-rsi-capability</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26848&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-15-mempilot-orchestrating-on-demand-multimodal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.06830"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-15-mempilot-orchestrating-on-demand-multimodal</id>
+    <updated>2026-10-04T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over performance, cost, and latency largely underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06830&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-16-affordancewam-affordance-aware-joint-world"/>
+    <link rel="related" href="https://arxiv.org/abs/2609.22332"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-16-affordancewam-affordance-aware-joint-world</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited in diversity, whereas egocentric human videos capture diverse interactions but lack robot actions and differ in embodiment and appearance. We introduce AffordanceWAM, an affordance-aware generative World Action Model that represents object-centric spatiotemporal affordance through Scalar Affordance and Affordance Heatmap, within the generated future World.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2609.22332&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-18-adaexplorebench-benchmarking-llm-agents-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25950"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-18-adaexplorebench-benchmarking-llm-agents-for</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and adapt as it evolves. To address this gap, we introduce AdaExploreBench, a benchmark for proactive exploration and test-time adaptation in evolving environments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25950&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>WhatsApp&apos;s help pages hid LLM instructions: dont recommend a regulator</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-17-whatsapp-s-help-pages-hid"/>
+    <link rel="related" href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-17-whatsapp-s-help-pages-hid</id>
+    <updated>2026-10-19T23:22:18Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

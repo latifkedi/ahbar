@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-math.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-math.xml</id>
-  <updated>2026-10-19T16:28:26.779070900+00:00</updated>
+  <updated>2026-10-20T09:43:50.417821376+00:00</updated>
   <entry>
-    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-07-improved-polymath-bounds-on-dense"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
+    <title>Octonions and the Standard Model (Part 15)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-19-octonions-and-the-standard-model"/>
+    <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-19-octonions-and-the-standard-model</id>
+    <updated>2026-07-18T17:56:16+00:00</updated>
+    <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-08-global-regularity-for-fractional-navier"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03902"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-08-global-regularity-for-fractional-navier</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\Delta)^\alpha u$ remain regular below $\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\infty$ regularity for $\alpha &amp;gt; 5/4 - \varepsilon_0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03902&quot;&gt;arXiv Mathematics (math.AP)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
+    <title>The moduli space of quasimorphisms on subshifts and its pressure geometry. We introduce a metric geometry on the space of positive, linearly growing quasimorphisms on a mixing subshift of finite type.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-20-the-moduli-space-of-quasimorphisms"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26778v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-20-the-moduli-space-of-quasimorphisms</id>
+    <updated>2026-10-19T17:30:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce a metric geometry on the space of positive, linearly growing quasimorphisms on a mixing subshift of finite type. Two such quasimorphisms are identified when their homogenizations agree up to multiplicative scaling. The resulting moduli space carries a natural symmetrised Thurston-type metric, defined from the extremal ratios of their periodic orbit lengths.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26778v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \ge 3$ over Number Fields</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-19-09-effective-chabauty-kim-method-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04118"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-19-09-effective-chabauty-kim-method-for</id>
-    <updated>2026-10-19T16:28:26.779070900+00:00</updated>
-    <summary type="html">&lt;p&gt;Determining rational points on curves of genus $g \ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04118&quot;&gt;Lean Community / arXiv math.AG&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #number-theory&lt;/p&gt;</summary>
+    <title>Geodesics in the continuous Hecke monoid. A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-geodesics-in-the-continuous-hecke"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26700v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-geodesics-in-the-continuous-hecke</id>
+    <updated>2026-10-19T16:37:45+00:00</updated>
+    <summary type="html">&lt;p&gt;A permuton is a probability measure on the unit square with uniform marginals, the limit shape of a sequence of permutations. The sticky product of permutons is a continuous analogue of the Demazure product in the $0$-Hecke monoid; on copulas, the distribution functions of permutons, it is given by the tropical $(\min,+)$ product $\odot$. We show that every absolutely continuous rotation-invariant probability measure $ρ$ on the plane, which we call the profile, generates a one-parameter family of copulas $C^ρ=\{C^ρ_β\}_{β\in[0,π]}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26700v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Quantum algorithms for optimal control: large-scale finite-horizon linear-quadratic regulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-22-quantum-algorithms-for-optimal-control"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26843v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-22-quantum-algorithms-for-optimal-control</id>
+    <updated>2026-10-19T17:58:57+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop quantum algorithms for optimal control over a prescribed finite time interval (finite horizon), focusing on continuous-time linear-quadratic regulation (LQR). This foundational control problem often requires solving a nonlinear matrix Riccati equation, which can be costly for large systems and long control durations on conventional classical solvers. We instead work directly with the state-costate optimality equations, reformulating the LQR problem as a multiple-shooting linear system.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26843v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A boundary integral method for computing electron repulsion integrals in heterogeneous dielectric environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-23-a-boundary-integral-method-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26745v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-23-a-boundary-integral-method-for</id>
+    <updated>2026-10-19T17:09:18+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a boundary integral method for evaluating electron repulsion integrals (ERIs) in dielectric environments of piecewise constant permittivity. This generalizes conventional bare-Coulomb ERIs by incorporating screening from structured dielectric surroundings, such as the substrates and/or encapsulating layers present in modern two-dimensional-material devices. We formulate the problem as a second-kind boundary integral equation for the induced surface charge on the dielectric interfaces, and discretize it with a Nyström method on adaptively refined panels.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26745v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #materials-science #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A sketch of the proof of non-existence of Siegel zeroes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-24-a-sketch-of-the-proof"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-24-a-sketch-of-the-proof</id>
+    <updated>2026-10-19T18:27:19+00:00</updated>
+    <summary type="html">&lt;p&gt;For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Bourgain Project</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-25-the-bourgain-project"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-25-the-bourgain-project</id>
+    <updated>2026-10-19T17:07:10+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Lukas Liehr, João Pedro Ramos and Mitchell Taylor – T.] We are launching the Bourgain Project, a community-driven initiative to revisit, expand upon, and explore the body of work of Jean Bourgain, one of the most prolific mathematicians of his time. The goal of this initiative is to develop […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Will it be a golden age or a dark age for mathematics (and science)?. [This is a guest post by Francesco Maggi.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-26-will-it-be-a-golden"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-26-will-it-be-a-golden</id>
+    <updated>2026-10-18T14:59:49+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Francesco Maggi. This blog post was initially written in a different file format and converted using AI. — T.] Large language models (LLMs) and the research systems built around them (and commonly known as “artificial intelligence”) have demonstrated remarkable abilities in generating mathematical proofs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Starting a new journal. [This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-27-starting-a-new-journal"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-27-starting-a-new-journal</id>
+    <updated>2026-10-18T03:11:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>
