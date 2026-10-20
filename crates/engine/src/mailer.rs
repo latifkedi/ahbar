@@ -411,6 +411,10 @@ pub async fn dispatch_email_via_provider(
                 .map_err(|e| e.to_string())?;
             if resp.status().is_success() {
                 return Ok("resend".to_string());
+            } else {
+                let status = resp.status();
+                let err_text = resp.text().await.unwrap_or_default();
+                return Err(format!("Resend API error (HTTP {}): {}", status, err_text));
             }
         }
     }
@@ -434,6 +438,10 @@ pub async fn dispatch_email_via_provider(
                 .map_err(|e| e.to_string())?;
             if resp.status().is_success() {
                 return Ok("brevo".to_string());
+            } else {
+                let status = resp.status();
+                let err_text = resp.text().await.unwrap_or_default();
+                return Err(format!("Brevo API error (HTTP {}): {}", status, err_text));
             }
         }
     }

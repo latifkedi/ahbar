@@ -2313,8 +2313,17 @@
         var msgEl = document.getElementById("sub-msg");
         if (msgEl) {
           msgEl.textContent = state.lang === "tr"
-            ? "✓ Tercihler kaydedildi (" + state.subPrefs.density + " · " + state.subPrefs.areas.length + " alan)."
-            : "✓ Preferences saved (" + state.subPrefs.density + " · " + state.subPrefs.areas.length + " areas).";
+            ? "✓ Tercihler kaydedildi (" + state.subPrefs.email + "). Otomatik sabah bülteni için GitHub Secrets\x27a AHBAR_TO_EMAIL ve RESEND_API_KEY eklenmelidir."
+            : "✓ Preferences saved (" + state.subPrefs.email + "). Ensure AHBAR_TO_EMAIL and RESEND_API_KEY are configured in GitHub Secrets.";
+        }
+
+        var apiUrl = window.AHBAR_API_URL || "";
+        if (apiUrl && typeof fetch === "function") {
+          fetch(apiUrl + "/api/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(state.subPrefs)
+          }).catch(function () {});
         }
       });
     }

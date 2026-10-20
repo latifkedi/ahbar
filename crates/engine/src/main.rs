@@ -150,19 +150,30 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     fs::write(root_dir.join("data").join("sample-email-tr.html"), &preview_html_tr)?;
 
     if args.iter().any(|a| a == "--send-emails") {
-        if let Ok(target_email) = env::var("AHBAR_TO_EMAIL") {
+        if let Ok(target_emails) = env::var("AHBAR_TO_EMAIL") {
             let client = reqwest::Client::new();
-            let subject = format!("Ahbar Issue #{} — {}", issue.issue_number, issue.date);
-            if let Ok(provider) = mailer::dispatch_email_via_provider(
-                &client,
-                &target_email,
-                &subject,
-                &preview_html_en,
-            )
-            .await
-            {
-                println!("[Ahbar Engine] Dispatched email digest via {}", provider);
+            let subject = format!("Ahbar Sayı #{} — {}", issue.issue_number, issue.date);
+            let email_html = if env::var("AHBAR_EMAIL_LANG").unwrap_or_else(|_| "tr".to_string()) == "tr" {
+                &preview_html_tr
+            } else {
+                &preview_html_en
+            };
+            for target_email in target_emails.split(',').map(|s| s.trim()).filter(|s| !s.is_empty()) {
+                println!("[Ahbar Engine] Dispatching daily email digest to {}...", target_email);
+                match mailer::dispatch_email_via_provider(
+                    &client,
+                    target_email,
+                    &subject,
+                    email_html,
+                )
+                .await
+                {
+                    Ok(provider) => println!("[Ahbar Engine] Dispatched email digest to {} via {}", target_email, provider),
+                    Err(e) => eprintln!("[Ahbar Engine] Failed to dispatch email to {}: {}", target_email, e),
+                }
             }
+        } else {
+            println!("[Ahbar Engine] Notice: --send-emails specified but AHBAR_TO_EMAIL is not set in environment");
         }
     }
 
