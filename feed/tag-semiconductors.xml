@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-semiconductors.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-semiconductors.xml</id>
-  <updated>2026-10-20T11:35:48.922672800+00:00</updated>
+  <updated>2026-10-20T12:08:58.790180500+00:00</updated>
   <entry>
     <title>Open-Source Out-of-Order RISC-V Vector Core with Speculative Matrix Register Renaming</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-13-open-source-out-of-order"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-13-open-source-out-of-order</id>
-    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
+    <updated>2026-10-20T12:08:58.790180500+00:00</updated>
     <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -19,7 +19,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-25-chokepoint-geometries-in-sub-2nm"/>
     <link rel="related" href="https://www.csis.org/analysis/semiconductor-chokepoints-euv-hbm"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-25-chokepoint-geometries-in-sub-2nm</id>
-    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
+    <updated>2026-10-20T12:08:58.790180500+00:00</updated>
     <summary type="html">&lt;p&gt;Export control regimes targeting final AI accelerator FLOPS/mm² overlook upstream chemical precursor, photo-acid generator, and advanced packaging (CoWoS-L) single-point dependencies. Input-output network modeling across 140 fabrication tiers shows that wafer-level metrology and EUV pellicle bottlenecks constrain frontier cluster deployment $3.2\times$ more tightly than fab tool embargoes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.csis.org/analysis/semiconductor-chokepoints-euv-hbm&quot;&gt;CSIS / Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #tech-policy #geopolitics #semiconductors&lt;/p&gt;</summary>
   </entry>
 </feed>

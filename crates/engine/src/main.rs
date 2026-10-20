@@ -157,12 +157,27 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         if subscribers.is_empty() {
             println!("[Ahbar Engine] Notice: --send-emails specified but no active subscribers found (check AHBAR_SUBSCRIBERS_URL, RESEND_AUDIENCE_ID, data/subscribers.json, or AHBAR_TO_EMAIL)");
         } else {
+            let force_resend = args.iter().any(|a| a == "--force-send-emails" || a == "--force-resend");
+            let ledger_path = root_dir.join("data").join("dispatch-log.json");
+            let mut ledger = load_dispatch_ledger(&ledger_path);
+            let today_sent = ledger.entry(issue.date.clone()).or_default();
+            let mut dispatched_count = 0;
+
             println!(
-                "[Ahbar Engine] Starting automated daily dispatch to {} subscriber(s)...",
+                "[Ahbar Engine] Starting automated daily dispatch to {} unique subscriber(s)...",
                 subscribers.len()
             );
 
             for sub in &subscribers {
+                let norm_email = normalize_email(&sub.email);
+                if !force_resend && today_sent.contains(&norm_email) {
+                    println!(
+                        "[Ahbar Engine] Skipping '{}': already received today's issue ({}). Use --force-resend to override.",
+                        norm_email, issue.date
+                    );
+                    continue;
+                }
+
                 let selected = mailer::select_items_for_subscriber(&issue, sub);
                 if selected.is_empty() {
                     continue;
@@ -170,7 +185,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 let html = mailer::render_digest_email_html_with_lang(
                     &issue,
                     &selected,
-                    &sub.email,
+                    &norm_email,
                     &site_base_url,
                     &hmac_secret,
                     &sub.lang,
@@ -183,21 +198,29 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
                 match mailer::dispatch_email_via_provider(
                     &client,
-                    &sub.email,
+                    &norm_email,
                     &subject,
                     &html,
                 )
                 .await
                 {
-                    Ok(provider) => println!(
-                        "[Ahbar Engine] Successfully delivered issue to {} via {}",
-                        sub.email, provider
-                    ),
+                    Ok(provider) => {
+                        println!(
+                            "[Ahbar Engine] Successfully delivered issue to {} via {}",
+                            norm_email, provider
+                        );
+                        today_sent.insert(norm_email);
+                        dispatched_count += 1;
+                    }
                     Err(e) => eprintln!(
                         "[Ahbar Engine] Delivery failed for {}: {}",
-                        sub.email, e
+                        norm_email, e
                     ),
                 }
+            }
+
+            if dispatched_count > 0 {
+                save_dispatch_ledger(&ledger_path, &ledger);
             }
         }
     }
@@ -238,6 +261,29 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 
+#[inline]
+fn normalize_email(raw: &str) -> String {
+    raw.trim().to_lowercase()
+}
+
+fn load_dispatch_ledger(path: &Path) -> HashMap<String, HashSet<String>> {
+    if path.exists() {
+        if let Ok(raw) = fs::read_to_string(path) {
+            if let Ok(map) = serde_json::from_str::<HashMap<String, HashSet<String>>>(&raw) {
+                return map;
+            }
+        }
+    }
+    HashMap::new()
+}
+
+fn save_dispatch_ledger(path: &Path, ledger: &HashMap<String, HashSet<String>>) {
+    // Write atomically / safely
+    if let Ok(json) = serde_json::to_string_pretty(ledger) {
+        let _ = fs::write(path, json);
+    }
+}
+
 async fn collect_active_subscribers(
     client: &reqwest::Client,
     root_dir: &Path,
@@ -251,8 +297,10 @@ async fn collect_active_subscribers(
     if subs_file.exists() {
         if let Ok(raw) = fs::read_to_string(&subs_file) {
             if let Ok(list) = serde_json::from_str::<Vec<SubscriptionPreferences>>(&raw) {
-                for s in list {
-                    if s.verified && seen_emails.insert(s.email.to_lowercase()) {
+                for mut s in list {
+                    let norm = normalize_email(&s.email);
+                    if !norm.is_empty() && s.verified && seen_emails.insert(norm.clone()) {
+                        s.email = norm;
                         subscribers.push(s);
                     }
                 }
@@ -269,11 +317,11 @@ async fn collect_active_subscribers(
                     if let Some(list) = json.get("subscribers").and_then(|v| v.as_array()) {
                         for item in list {
                             if let Some(email) = item.get("email").and_then(|v| v.as_str()) {
-                                let email = email.trim().to_lowercase();
-                                if !email.is_empty() && seen_emails.insert(email.clone()) {
+                                let norm = normalize_email(email);
+                                if !norm.is_empty() && seen_emails.insert(norm.clone()) {
                                     let lang = item.get("lang").and_then(|v| v.as_str()).unwrap_or(default_lang).to_string();
                                     subscribers.push(SubscriptionPreferences {
-                                        email,
+                                        email: norm,
                                         mode: DigestMode::Standard,
                                         density: DigestDensity::ThreePerArea,
                                         frequency: DigestFrequency::Daily,
@@ -303,10 +351,10 @@ async fn collect_active_subscribers(
                             let unsub = c.get("unsubscribed").and_then(|v| v.as_bool()).unwrap_or(false);
                             if !unsub {
                                 if let Some(em) = c.get("email").and_then(|v| v.as_str()) {
-                                    let em = em.trim().to_lowercase();
-                                    if !em.is_empty() && seen_emails.insert(em.clone()) {
+                                    let norm = normalize_email(em);
+                                    if !norm.is_empty() && seen_emails.insert(norm.clone()) {
                                         subscribers.push(SubscriptionPreferences {
-                                            email: em,
+                                            email: norm,
                                             mode: DigestMode::Standard,
                                             density: DigestDensity::ThreePerArea,
                                             frequency: DigestFrequency::Daily,
@@ -328,7 +376,7 @@ async fn collect_active_subscribers(
 
     // 4. From AHBAR_TO_EMAIL environment fallback
     if let Ok(direct_emails) = env::var("AHBAR_TO_EMAIL") {
-        for em in direct_emails.split(',').map(|s| s.trim().to_lowercase()).filter(|s| !s.is_empty()) {
+        for em in direct_emails.split(',').map(normalize_email).filter(|s| !s.is_empty()) {
             if seen_emails.insert(em.clone()) {
                 subscribers.push(SubscriptionPreferences {
                     email: em,
@@ -359,4 +407,38 @@ fn compute_issue_number(root_dir: &Path, date_str: &str) -> u32 {
         }
     }
     1
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_normalize_email_trims_and_lowercases() {
+        assert_eq!(normalize_email("  User@Example.COM  "), "user@example.com");
+        assert_eq!(normalize_email("test.email+tag@gmail.com"), "test.email+tag@gmail.com");
+    }
+
+    #[test]
+    fn test_dispatch_ledger_prevents_duplicate_sends() {
+        let temp_dir = std::env::temp_dir().join(format!("ahbar-test-ledger-{}", std::process::id()));
+        let _ = fs::create_dir_all(&temp_dir);
+        let ledger_path = temp_dir.join("dispatch-log.json");
+
+        let mut ledger = load_dispatch_ledger(&ledger_path);
+        let today = "2026-10-20".to_string();
+        let email = "reader@example.org".to_string();
+
+        let today_sent = ledger.entry(today.clone()).or_default();
+        assert!(!today_sent.contains(&email));
+
+        today_sent.insert(email.clone());
+        save_dispatch_ledger(&ledger_path, &ledger);
+
+        // Reload and verify persistence
+        let reloaded = load_dispatch_ledger(&ledger_path);
+        assert!(reloaded.get(&today).unwrap().contains(&email));
+
+        let _ = fs::remove_dir_all(&temp_dir);
+    }
 }

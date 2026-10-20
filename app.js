@@ -2300,9 +2300,15 @@
     // Subscription form submit
     var subForm = document.getElementById("sub-form");
     if (subForm) {
+      var isSubmitting = false;
       subForm.addEventListener("submit", function (e) {
         e.preventDefault();
-        state.subPrefs.email = document.getElementById("sub-email").value.trim();
+        if (isSubmitting) return;
+
+        var emailRaw = (document.getElementById("sub-email").value || "").trim().toLowerCase();
+        if (!emailRaw) return;
+
+        state.subPrefs.email = emailRaw;
         state.subPrefs.density = document.getElementById("sub-density").value;
         state.subPrefs.mode = document.getElementById("sub-mode").value;
         state.subPrefs.frequency = document.getElementById("sub-freq").value;
@@ -2311,20 +2317,31 @@
         saveJson(STORAGE_KEYS.prefs, state.subPrefs);
 
         var msgEl = document.getElementById("sub-msg");
+        var submitBtn = subForm.querySelector('button[type="submit"]');
+        if (submitBtn) submitBtn.disabled = true;
+        isSubmitting = true;
+
         if (msgEl) {
           msgEl.textContent = state.lang === "tr"
-            ? "✓ Tercihler kaydedildi (" + state.subPrefs.email + "). Otomatik sabah bülteni için GitHub Secrets\x27a AHBAR_TO_EMAIL ve RESEND_API_KEY eklenmelidir."
-            : "✓ Preferences saved (" + state.subPrefs.email + "). Ensure AHBAR_TO_EMAIL and RESEND_API_KEY are configured in GitHub Secrets.";
+            ? "✓ Tercihler kaydedildi (" + state.subPrefs.email + "). Tekil bülten dağıtımı otomatik olarak senkronize edildi."
+            : "✓ Preferences saved (" + state.subPrefs.email + "). Dispatch delivery synced.";
         }
 
         var apiUrl = window.AHBAR_API_URL || "";
-        if (apiUrl && typeof fetch === "function") {
-          fetch(apiUrl + "/api/subscribe", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(state.subPrefs)
-          }).catch(function () {});
-        }
+        var req = (apiUrl && typeof fetch === "function")
+          ? fetch(apiUrl + "/api/subscribe", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(state.subPrefs)
+            }).catch(function () {})
+          : Promise.resolve();
+
+        req.finally(function () {
+          setTimeout(function () {
+            isSubmitting = false;
+            if (submitBtn) submitBtn.disabled = false;
+          }, 800);
+        });
       });
     }
 

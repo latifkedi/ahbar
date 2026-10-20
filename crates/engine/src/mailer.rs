@@ -3,6 +3,9 @@ use ahbar_shared::{
     latex_to_email_unicode, sanitize_http_url, sign_subscriber_token, Area, ContentFilter,
     DailyIssue, DigestFrequency, DigestMode, EditionType, NewsItem, SubscriptionPreferences,
 };
+use lettre::message::header::ContentType;
+use lettre::transport::smtp::authentication::Credentials;
+use lettre::{AsyncSmtpTransport, AsyncTransport, Message, Tokio1Executor};
 use reqwest::Client;
 use std::env;
 
@@ -446,7 +449,65 @@ pub async fn dispatch_email_via_provider(
         }
     }
 
-    Err("No email API key (RESEND_API_KEY or BREVO_API_KEY) configured".to_string())
+    // Direct SMTP fallback (e.g. Gmail SMTP with App Password, custom mailserver, or self-hosted)
+    if let (Ok(smtp_user), Ok(smtp_pass)) = (env::var("SMTP_USER"), env::var("SMTP_PASS")) {
+        if !smtp_user.is_empty() && !smtp_pass.is_empty() {
+            let smtp_host = env::var("SMTP_HOST").unwrap_or_else(|_| {
+                if smtp_user.ends_with("@gmail.com") {
+                    "smtp.gmail.com".to_string()
+                } else {
+                    "localhost".to_string()
+                }
+            });
+            let smtp_port: u16 = env::var("SMTP_PORT")
+                .ok()
+                .and_then(|p| p.parse().ok())
+                .unwrap_or(587);
+
+            let from_header = env::var("AHBAR_FROM_EMAIL").unwrap_or_else(|_| {
+                format!("Ahbar Bülten <{}>", smtp_user)
+            });
+
+            let email_res = Message::builder()
+                .from(match from_header.parse() {
+                    Ok(f) => f,
+                    Err(_) => match smtp_user.parse() {
+                        Ok(u) => u,
+                        Err(e) => return Err(format!("Invalid SMTP sender address: {}", e)),
+                    },
+                })
+                .to(to_email.parse().map_err(|e| format!("Invalid recipient email '{}': {}", to_email, e))?)
+                .subject(subject)
+                .header(ContentType::TEXT_HTML)
+                .body(html_body.to_string());
+
+            let email_msg = match email_res {
+                Ok(m) => m,
+                Err(e) => return Err(format!("Failed to build SMTP email message: {}", e)),
+            };
+
+            let creds = Credentials::new(smtp_user.clone(), smtp_pass.replace(' ', ""));
+            let transport_res: Result<AsyncSmtpTransport<Tokio1Executor>, _> = if smtp_port == 465 {
+                AsyncSmtpTransport::<Tokio1Executor>::relay(&smtp_host)
+                    .map(|b| b.credentials(creds).port(smtp_port).build())
+            } else {
+                AsyncSmtpTransport::<Tokio1Executor>::starttls_relay(&smtp_host)
+                    .map(|b| b.credentials(creds).port(smtp_port).build())
+            };
+
+            let transport = match transport_res {
+                Ok(t) => t,
+                Err(e) => return Err(format!("Failed to configure SMTP transport for {}: {}", smtp_host, e)),
+            };
+
+            match transport.send(email_msg).await {
+                Ok(_) => return Ok("smtp".to_string()),
+                Err(e) => return Err(format!("SMTP delivery error via {}: {}", smtp_host, e)),
+            }
+        }
+    }
+
+    Err("No email provider configured (set RESEND_API_KEY, BREVO_API_KEY, or SMTP_USER + SMTP_PASS)".to_string())
 }
 
 fn urlencoding_simple(s: &str) -> String {
