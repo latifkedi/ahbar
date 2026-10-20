@@ -501,7 +501,7 @@ fn parse_sender_info(raw: &str, default_name: &str) -> (String, String) {
     (default_name.to_string(), s.to_string())
 }
 
-/// Dispatches an email via Brevo Free Tier API, Resend Free Tier API, or direct SMTP.
+/// Dispatches an email via direct SMTP (Gmail with App Password), Brevo, or Resend.
 pub async fn dispatch_email_via_provider(
     client: &Client,
     to_email: &str,
@@ -509,11 +509,73 @@ pub async fn dispatch_email_via_provider(
     html_body: &str,
 ) -> Result<String, String> {
     let provider_pref = env::var("EMAIL_PROVIDER").unwrap_or_default().to_lowercase();
+    let has_smtp = env::var("SMTP_USER").map(|u| !u.is_empty()).unwrap_or(false)
+        && env::var("SMTP_PASS").map(|p| !p.is_empty()).unwrap_or(false);
     let has_brevo = env::var("BREVO_API_KEY").map(|k| !k.is_empty()).unwrap_or(false);
     let has_resend = env::var("RESEND_API_KEY").map(|k| !k.is_empty()).unwrap_or(false);
 
-    // 1. Brevo Free Tier API (Sends to any arbitrary address without requiring a custom domain)
-    if provider_pref == "brevo" || (has_brevo && provider_pref != "resend") {
+    // 1. Direct SMTP (Gmail SMTP with App Password, custom mailserver, or self-hosted)
+    if provider_pref == "smtp" || provider_pref == "gmail" || (has_smtp && provider_pref != "brevo" && provider_pref != "resend") {
+        if let (Ok(smtp_user), Ok(smtp_pass)) = (env::var("SMTP_USER"), env::var("SMTP_PASS")) {
+            if !smtp_user.is_empty() && !smtp_pass.is_empty() {
+                let smtp_host = env::var("SMTP_HOST").unwrap_or_else(|_| {
+                    if smtp_user.ends_with("@gmail.com") {
+                        "smtp.gmail.com".to_string()
+                    } else {
+                        "localhost".to_string()
+                    }
+                });
+                let smtp_port: u16 = env::var("SMTP_PORT")
+                    .ok()
+                    .and_then(|p| p.parse().ok())
+                    .unwrap_or(587);
+
+                let from_header = env::var("AHBAR_FROM_EMAIL").unwrap_or_else(|_| {
+                    format!("Ahbar Bülten <{}>", smtp_user)
+                });
+
+                let email_res = Message::builder()
+                    .from(match from_header.parse() {
+                        Ok(f) => f,
+                        Err(_) => match smtp_user.parse() {
+                            Ok(u) => u,
+                            Err(e) => return Err(format!("Invalid SMTP sender address: {}", e)),
+                        },
+                    })
+                    .to(to_email.parse().map_err(|e| format!("Invalid recipient email '{}': {}", to_email, e))?)
+                    .subject(subject)
+                    .header(ContentType::TEXT_HTML)
+                    .body(html_body.to_string());
+
+                let email_msg = match email_res {
+                    Ok(m) => m,
+                    Err(e) => return Err(format!("Failed to build SMTP email message: {}", e)),
+                };
+
+                let creds = Credentials::new(smtp_user.clone(), smtp_pass.replace(' ', ""));
+                let transport_res: Result<AsyncSmtpTransport<Tokio1Executor>, _> = if smtp_port == 465 {
+                    AsyncSmtpTransport::<Tokio1Executor>::relay(&smtp_host)
+                        .map(|b| b.credentials(creds).port(smtp_port).build())
+                } else {
+                    AsyncSmtpTransport::<Tokio1Executor>::starttls_relay(&smtp_host)
+                        .map(|b| b.credentials(creds).port(smtp_port).build())
+                };
+
+                let transport = match transport_res {
+                    Ok(t) => t,
+                    Err(e) => return Err(format!("Failed to configure SMTP transport for {}: {}", smtp_host, e)),
+                };
+
+                match transport.send(email_msg).await {
+                    Ok(_) => return Ok("smtp".to_string()),
+                    Err(e) => return Err(format!("SMTP delivery error via {}: {}", smtp_host, e)),
+                }
+            }
+        }
+    }
+
+    // 2. Brevo Free Tier API (Sends to any arbitrary address without requiring a custom domain)
+    if provider_pref == "brevo" || (has_brevo && provider_pref != "resend" && !has_smtp) {
         if let Ok(brevo_key) = env::var("BREVO_API_KEY") {
             if !brevo_key.is_empty() {
                 let raw_from = env::var("AHBAR_FROM_EMAIL")
@@ -544,8 +606,8 @@ pub async fn dispatch_email_via_provider(
         }
     }
 
-    // 2. Resend Free Tier API
-    if has_resend && provider_pref != "brevo" {
+    // 3. Resend Free Tier API
+    if has_resend && provider_pref != "brevo" && !has_smtp {
         if let Ok(resend_key) = env::var("RESEND_API_KEY") {
             if !resend_key.is_empty() {
                 let from_addr = env::var("AHBAR_FROM_EMAIL")
@@ -570,64 +632,6 @@ pub async fn dispatch_email_via_provider(
                     let err_text = resp.text().await.unwrap_or_default();
                     return Err(format!("Resend API error (HTTP {}): {}", status, err_text));
                 }
-            }
-        }
-    }
-
-    // Direct SMTP fallback (e.g. Gmail SMTP with App Password, custom mailserver, or self-hosted)
-    if let (Ok(smtp_user), Ok(smtp_pass)) = (env::var("SMTP_USER"), env::var("SMTP_PASS")) {
-        if !smtp_user.is_empty() && !smtp_pass.is_empty() {
-            let smtp_host = env::var("SMTP_HOST").unwrap_or_else(|_| {
-                if smtp_user.ends_with("@gmail.com") {
-                    "smtp.gmail.com".to_string()
-                } else {
-                    "localhost".to_string()
-                }
-            });
-            let smtp_port: u16 = env::var("SMTP_PORT")
-                .ok()
-                .and_then(|p| p.parse().ok())
-                .unwrap_or(587);
-
-            let from_header = env::var("AHBAR_FROM_EMAIL").unwrap_or_else(|_| {
-                format!("Ahbar Bülten <{}>", smtp_user)
-            });
-
-            let email_res = Message::builder()
-                .from(match from_header.parse() {
-                    Ok(f) => f,
-                    Err(_) => match smtp_user.parse() {
-                        Ok(u) => u,
-                        Err(e) => return Err(format!("Invalid SMTP sender address: {}", e)),
-                    },
-                })
-                .to(to_email.parse().map_err(|e| format!("Invalid recipient email '{}': {}", to_email, e))?)
-                .subject(subject)
-                .header(ContentType::TEXT_HTML)
-                .body(html_body.to_string());
-
-            let email_msg = match email_res {
-                Ok(m) => m,
-                Err(e) => return Err(format!("Failed to build SMTP email message: {}", e)),
-            };
-
-            let creds = Credentials::new(smtp_user.clone(), smtp_pass.replace(' ', ""));
-            let transport_res: Result<AsyncSmtpTransport<Tokio1Executor>, _> = if smtp_port == 465 {
-                AsyncSmtpTransport::<Tokio1Executor>::relay(&smtp_host)
-                    .map(|b| b.credentials(creds).port(smtp_port).build())
-            } else {
-                AsyncSmtpTransport::<Tokio1Executor>::starttls_relay(&smtp_host)
-                    .map(|b| b.credentials(creds).port(smtp_port).build())
-            };
-
-            let transport = match transport_res {
-                Ok(t) => t,
-                Err(e) => return Err(format!("Failed to configure SMTP transport for {}: {}", smtp_host, e)),
-            };
-
-            match transport.send(email_msg).await {
-                Ok(_) => return Ok("smtp".to_string()),
-                Err(e) => return Err(format!("SMTP delivery error via {}: {}", smtp_host, e)),
             }
         }
     }

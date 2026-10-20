@@ -308,7 +308,21 @@ async fn collect_active_subscribers(
         }
     }
 
-    // 2. From Cloudflare Worker API (AHBAR_SUBSCRIBERS_URL)
+    // 2. From Google Sheets published CSV (AHBAR_SHEET_CSV_URL)
+    if let Ok(sheet_url) = env::var("AHBAR_SHEET_CSV_URL") {
+        let trimmed = sheet_url.trim();
+        if !trimmed.is_empty() {
+            if let Ok(resp) = client.get(trimmed).send().await {
+                if resp.status().is_success() {
+                    if let Ok(csv_text) = resp.text().await {
+                        parse_subscribers_from_csv(&csv_text, default_lang, &mut seen_emails, &mut subscribers);
+                    }
+                }
+            }
+        }
+    }
+
+    // 3. From Cloudflare Worker API (AHBAR_SUBSCRIBERS_URL)
     if let Ok(worker_url) = env::var("AHBAR_SUBSCRIBERS_URL") {
         let secret = env::var("AHBAR_HMAC_SECRET").unwrap_or_else(|_| "ahbar-default-dev-hmac-secret-key".to_string());
         if let Ok(resp) = client.get(&worker_url).bearer_auth(&secret).send().await {
@@ -449,9 +463,65 @@ fn compute_issue_number(root_dir: &Path, date_str: &str) -> u32 {
     1
 }
 
+fn parse_subscribers_from_csv(
+    csv_text: &str,
+    default_lang: &str,
+    seen_emails: &mut HashSet<String>,
+    subscribers: &mut Vec<SubscriptionPreferences>,
+) {
+    for line in csv_text.lines().skip(1) {
+        let cols: Vec<&str> = line
+            .split(',')
+            .map(|s| s.trim().trim_matches('"').trim())
+            .collect();
+        let email_candidate = cols
+            .iter()
+            .find(|col| col.contains('@') && !col.starts_with("http"));
+        if let Some(em) = email_candidate {
+            let norm = normalize_email(em);
+            if !norm.is_empty() && seen_emails.insert(norm.clone()) {
+                let lang_col = cols
+                    .iter()
+                    .find(|col| col.eq_ignore_ascii_case("tr") || col.eq_ignore_ascii_case("en"));
+                let sub_lang = lang_col
+                    .map(|l| l.to_lowercase())
+                    .unwrap_or_else(|| default_lang.to_string());
+                subscribers.push(SubscriptionPreferences {
+                    email: norm,
+                    mode: DigestMode::Standard,
+                    density: DigestDensity::ThreePerArea,
+                    frequency: DigestFrequency::Daily,
+                    content_filter: ContentFilter::All,
+                    areas: Area::ALL.to_vec(),
+                    tags: Vec::new(),
+                    lang: sub_lang,
+                    verified: true,
+                });
+            }
+        }
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn test_parse_google_sheets_csv() {
+        let sample_csv = "Zaman damgası,E-posta,Bülten Dili\n\
+                          \"2026/10/20 18:30:00\",alice@example.com,tr\n\
+                          \"2026/10/20 18:35:00\",Bob@Example.Com,EN\n\
+                          \"2026/10/20 18:40:00\",ALICE@example.com,tr\n"; // duplicate
+        let mut seen = HashSet::new();
+        let mut subs = Vec::new();
+        parse_subscribers_from_csv(sample_csv, "tr", &mut seen, &mut subs);
+
+        assert_eq!(subs.len(), 2);
+        assert_eq!(subs[0].email, "alice@example.com");
+        assert_eq!(subs[0].lang, "tr");
+        assert_eq!(subs[1].email, "bob@example.com");
+        assert_eq!(subs[1].lang, "en");
+    }
 
     #[test]
     fn test_normalize_email_trims_and_lowercases() {

@@ -2406,6 +2406,47 @@
         }
 
         var apiUrl = window.AHBAR_API_URL || "";
+        var gFormUrl = window.AHBAR_GOOGLE_FORM_URL || "";
+        var gEmailField = window.AHBAR_GOOGLE_FORM_EMAIL_FIELD || "entry.email";
+        var gLangField = window.AHBAR_GOOGLE_FORM_LANG_FIELD || "entry.lang";
+
+        // Google Form background sink (submits cleanly without leaving the page or CORS errors)
+        if (gFormUrl) {
+          try {
+            var iframeName = "gform_hidden_sink";
+            var sink = document.getElementById(iframeName);
+            if (!sink) {
+              sink = document.createElement("iframe");
+              sink.name = iframeName;
+              sink.id = iframeName;
+              sink.style.display = "none";
+              sink.setAttribute("aria-hidden", "true");
+              document.body.appendChild(sink);
+            }
+            var tempForm = document.createElement("form");
+            tempForm.action = gFormUrl;
+            tempForm.method = "POST";
+            tempForm.target = iframeName;
+            tempForm.style.display = "none";
+
+            var emInput = document.createElement("input");
+            emInput.name = gEmailField;
+            emInput.value = emailRaw;
+            tempForm.appendChild(emInput);
+
+            if (gLangField && state.subPrefs.lang) {
+              var langInput = document.createElement("input");
+              langInput.name = gLangField;
+              langInput.value = state.subPrefs.lang;
+              tempForm.appendChild(langInput);
+            }
+
+            document.body.appendChild(tempForm);
+            tempForm.submit();
+            setTimeout(function () { tempForm.remove(); }, 1500);
+          } catch (err) {}
+        }
+
         var req = (apiUrl && typeof fetch === "function")
           ? fetch(apiUrl + "/api/subscribe", {
               method: "POST",

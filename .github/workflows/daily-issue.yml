@@ -54,6 +54,7 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          AHBAR_SHEET_CSV_URL: ${{ secrets.AHBAR_SHEET_CSV_URL }}
           AHBAR_SUBSCRIBERS_URL: ${{ secrets.AHBAR_SUBSCRIBERS_URL }}
           AHBAR_TO_EMAIL: ${{ secrets.AHBAR_TO_EMAIL }}
           AHBAR_EMAIL_LANG: "tr"
