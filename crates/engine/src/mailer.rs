@@ -486,63 +486,90 @@ pub fn render_digest_email_html_with_lang(
     html
 }
 
-/// Dispatches an email via Resend Free Tier API or Brevo Free Tier API.
+fn parse_sender_info(raw: &str, default_name: &str) -> (String, String) {
+    let s = raw.trim();
+    if let (Some(start), Some(end)) = (s.find('<'), s.rfind('>')) {
+        if start < end {
+            let name = s[..start].trim().trim_matches('"').trim();
+            let email = s[start + 1..end].trim();
+            return (
+                if name.is_empty() { default_name.to_string() } else { name.to_string() },
+                email.to_string(),
+            );
+        }
+    }
+    (default_name.to_string(), s.to_string())
+}
+
+/// Dispatches an email via Brevo Free Tier API, Resend Free Tier API, or direct SMTP.
 pub async fn dispatch_email_via_provider(
     client: &Client,
     to_email: &str,
     subject: &str,
     html_body: &str,
 ) -> Result<String, String> {
-    if let Ok(resend_key) = env::var("RESEND_API_KEY") {
-        if !resend_key.is_empty() {
-            let from_addr = env::var("AHBAR_FROM_EMAIL")
-                .unwrap_or_else(|_| "Ahbar Digest <onboarding@resend.dev>".to_string());
-            let payload = serde_json::json!({
-                "from": from_addr,
-                "to": [to_email],
-                "subject": subject,
-                "html": html_body
-            });
-            let resp = client
-                .post("https://api.resend.com/emails")
-                .bearer_auth(resend_key)
-                .json(&payload)
-                .send()
-                .await
-                .map_err(|e| e.to_string())?;
-            if resp.status().is_success() {
-                return Ok("resend".to_string());
-            } else {
-                let status = resp.status();
-                let err_text = resp.text().await.unwrap_or_default();
-                return Err(format!("Resend API error (HTTP {}): {}", status, err_text));
+    let provider_pref = env::var("EMAIL_PROVIDER").unwrap_or_default().to_lowercase();
+    let has_brevo = env::var("BREVO_API_KEY").map(|k| !k.is_empty()).unwrap_or(false);
+    let has_resend = env::var("RESEND_API_KEY").map(|k| !k.is_empty()).unwrap_or(false);
+
+    // 1. Brevo Free Tier API (Sends to any arbitrary address without requiring a custom domain)
+    if provider_pref == "brevo" || (has_brevo && provider_pref != "resend") {
+        if let Ok(brevo_key) = env::var("BREVO_API_KEY") {
+            if !brevo_key.is_empty() {
+                let raw_from = env::var("AHBAR_FROM_EMAIL")
+                    .or_else(|_| env::var("AHBAR_FROM_ADDRESS"))
+                    .unwrap_or_else(|_| "digest@ahbar.dev".to_string());
+                let (sender_name, sender_email) = parse_sender_info(&raw_from, "Ahbar Bülten");
+                let payload = serde_json::json!({
+                    "sender": { "name": sender_name, "email": sender_email },
+                    "to": [{ "email": to_email }],
+                    "subject": subject,
+                    "htmlContent": html_body
+                });
+                let resp = client
+                    .post("https://api.brevo.com/v3/smtp/email")
+                    .header("api-key", brevo_key)
+                    .json(&payload)
+                    .send()
+                    .await
+                    .map_err(|e| e.to_string())?;
+                if resp.status().is_success() {
+                    return Ok("brevo".to_string());
+                } else {
+                    let status = resp.status();
+                    let err_text = resp.text().await.unwrap_or_default();
+                    return Err(format!("Brevo API error (HTTP {}): {}", status, err_text));
+                }
             }
         }
     }
 
-    if let Ok(brevo_key) = env::var("BREVO_API_KEY") {
-        if !brevo_key.is_empty() {
-            let from_email = env::var("AHBAR_FROM_ADDRESS")
-                .unwrap_or_else(|_| "digest@ahbar.dev".to_string());
-            let payload = serde_json::json!({
-                "sender": { "name": "Ahbar Digest", "email": from_email },
-                "to": [{ "email": to_email }],
-                "subject": subject,
-                "htmlContent": html_body
-            });
-            let resp = client
-                .post("https://api.brevo.com/v3/smtp/email")
-                .header("api-key", brevo_key)
-                .json(&payload)
-                .send()
-                .await
-                .map_err(|e| e.to_string())?;
-            if resp.status().is_success() {
-                return Ok("brevo".to_string());
-            } else {
-                let status = resp.status();
-                let err_text = resp.text().await.unwrap_or_default();
-                return Err(format!("Brevo API error (HTTP {}): {}", status, err_text));
+    // 2. Resend Free Tier API
+    if has_resend && provider_pref != "brevo" {
+        if let Ok(resend_key) = env::var("RESEND_API_KEY") {
+            if !resend_key.is_empty() {
+                let from_addr = env::var("AHBAR_FROM_EMAIL")
+                    .unwrap_or_else(|_| "Ahbar Digest <onboarding@resend.dev>".to_string());
+                let payload = serde_json::json!({
+                    "from": from_addr,
+                    "to": [to_email],
+                    "subject": subject,
+                    "html": html_body
+                });
+                let resp = client
+                    .post("https://api.resend.com/emails")
+                    .bearer_auth(resend_key)
+                    .json(&payload)
+                    .send()
+                    .await
+                    .map_err(|e| e.to_string())?;
+                if resp.status().is_success() {
+                    return Ok("resend".to_string());
+                } else {
+                    let status = resp.status();
+                    let err_text = resp.text().await.unwrap_or_default();
+                    return Err(format!("Resend API error (HTTP {}): {}", status, err_text));
+                }
             }
         }
     }

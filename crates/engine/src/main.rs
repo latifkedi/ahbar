@@ -374,7 +374,47 @@ async fn collect_active_subscribers(
         }
     }
 
-    // 4. From AHBAR_TO_EMAIL environment fallback
+    // 4. From Brevo Contacts API (if BREVO_API_KEY is configured)
+    if let Ok(brevo_key) = env::var("BREVO_API_KEY") {
+        if !brevo_key.is_empty() {
+            let url = if let Ok(list_id) = env::var("BREVO_LIST_ID") {
+                format!("https://api.brevo.com/v3/contacts/lists/{}/contacts?limit=500", list_id)
+            } else {
+                "https://api.brevo.com/v3/contacts?limit=500".to_string()
+            };
+            if let Ok(resp) = client.get(&url).header("api-key", &brevo_key).send().await {
+                if resp.status().is_success() {
+                    if let Ok(json) = resp.json::<serde_json::Value>().await {
+                        if let Some(contacts) = json.get("contacts").and_then(|v| v.as_array()) {
+                            for c in contacts {
+                                let blacklisted = c.get("emailBlacklisted").and_then(|v| v.as_bool()).unwrap_or(false);
+                                if !blacklisted {
+                                    if let Some(em) = c.get("email").and_then(|v| v.as_str()) {
+                                        let norm = normalize_email(em);
+                                        if !norm.is_empty() && seen_emails.insert(norm.clone()) {
+                                            subscribers.push(SubscriptionPreferences {
+                                                email: norm,
+                                                mode: DigestMode::Standard,
+                                                density: DigestDensity::ThreePerArea,
+                                                frequency: DigestFrequency::Daily,
+                                                content_filter: ContentFilter::All,
+                                                areas: Area::ALL.to_vec(),
+                                                tags: Vec::new(),
+                                                lang: default_lang.to_string(),
+                                                verified: true,
+                                            });
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 5. From AHBAR_TO_EMAIL environment fallback
     if let Ok(direct_emails) = env::var("AHBAR_TO_EMAIL") {
         for em in direct_emails.split(',').map(normalize_email).filter(|s| !s.is_empty()) {
             if seen_emails.insert(em.clone()) {
