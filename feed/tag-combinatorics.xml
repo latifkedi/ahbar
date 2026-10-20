@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+  <updated>2026-10-20T11:35:48.922672800+00:00</updated>
   <entry>
     <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-improved-polymath-bounds-on-dense"/>
     <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

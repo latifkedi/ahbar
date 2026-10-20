@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-formal-proofs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-formal-proofs.xml</id>
-  <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+  <updated>2026-10-20T11:35:48.922672800+00:00</updated>
   <entry>
     <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-improved-polymath-bounds-on-dense"/>
     <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -19,7 +19,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-byzantine-fault-injection-and-split"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -27,7 +27,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-verified-tool-use-trajectories-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-verified-tool-use-trajectories-for</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -35,7 +35,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-20-symbolic-smt-guided-equivalence-checking"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08115"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-20-symbolic-smt-guided-equivalence-checking</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08115&quot;&gt;arXiv Cryptography (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #smart-contracts #formal-proofs #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

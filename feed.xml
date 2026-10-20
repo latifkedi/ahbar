@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/all.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/all.xml</id>
-  <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+  <updated>2026-10-20T11:35:48.922672800+00:00</updated>
   <entry>
     <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-04-sub-quadratic-sparse-attention-via"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-04-sub-quadratic-sparse-attention-via</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -19,7 +19,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-19-hyperfold-prover-optimal-lattice-folding"/>
     <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -27,7 +27,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-improved-polymath-bounds-on-dense"/>
     <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -35,7 +35,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-10-fault-tolerant-logical-magic-state"/>
     <link rel="related" href="https://arxiv.org/abs/2610.07105"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-10-fault-tolerant-logical-magic-state</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Surface codes require over $1{,}000$ physical qubits per logical qubit at realistic gate error rates $p \approx 10^{-3}$. We demonstrate a constant-depth magic-state factory directly on high-rate bivariate bicycle qLDPC codes ($[[144, 12, 12]]$), achieving logical $T$-gate infidelity below $10^{-9}$ with $6.8\times$ fewer physical qubits than planar lattice surgery.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.07105&quot;&gt;arXiv Quantum Physics (quant-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #quantum-physics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -43,7 +43,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-01-zero-copy-region-inference-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-01-zero-copy-region-inference-for</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -51,7 +51,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-16-all-atom-equivariant-flow-matching"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05980"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-16-all-atom-equivariant-flow-matching</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\text{cat}}/K_M &amp;gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ in wet-lab assays without directed evolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05980&quot;&gt;arXiv Quantitative Biology (q-bio.BM)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -59,7 +59,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-13-open-source-out-of-order"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06604"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-13-open-source-out-of-order</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Long-vector and tile matrix instructions stall superscalar pipelines when register file ports saturate during mixed FP8/BF16 kernels. We present an open-source SystemVerilog RISC-V (`RV64GCV`) core taped out in $5\text{ nm}$ that decouples matrix accumulator renaming from scalar ROB entries, achieving $3.1\text{ TFLOPS/W}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06604&quot;&gt;arXiv Hardware Architecture (cs.AR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -67,7 +67,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-byzantine-fault-injection-and-split"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -75,7 +75,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-verified-tool-use-trajectories-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-verified-tool-use-trajectories-for</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -83,7 +83,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-17-pangenome-graph-indexing-in-sub"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06112"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-17-pangenome-graph-indexing-in-sub</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\text{ GB}$ of memory at $3.4\times$ higher throughput than Minigraph-Cactus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06112&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -91,7 +91,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-20-symbolic-smt-guided-equivalence-checking"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08115"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-20-symbolic-smt-guided-equivalence-checking</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08115&quot;&gt;arXiv Cryptography (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #smart-contracts #formal-proofs #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -99,7 +99,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-14-hardware-enforced-capability-tagging-eliminates"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06411"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-14-hardware-enforced-capability-tagging-eliminates</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;High-speed `io_uring` and zero-copy DMA rings remain prime targets for page-level use-after-free exploitation in the Linux kernel. By binding descriptor rings to fine-grained CHERI/MTE memory capability tags verified at the IOMMU boundary, packet throughput stays within $1.8\%$ of baseline at $400\text{ Gb/s}$ while deterministically trapping temporal aliasing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06411&quot;&gt;LWN.net / Systems Architecture&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #infosec #computer-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -107,7 +107,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-22-heterogeneous-agent-monetary-transmission-under"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09410"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-22-heterogeneous-agent-monetary-transmission-under</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;We solve a continuous-time HANK model with endogenous term-premia and non-linear fiscal reaction functions across 38 OECD and emerging sovereign bond markets. When short-term refinancing exceeds $28\%$ of GDP, a $100\text{ bps}$ policy tightening induces fiscal dominance spillovers that attenuate disinflation by $42\%$ unless paired with liquidity-draining repo corridors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09410&quot;&gt;NBER Working Papers / arXiv econ.EM&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #monetary-policy #macroeconomics #econometrics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -115,7 +115,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-25-chokepoint-geometries-in-sub-2nm"/>
     <link rel="related" href="https://www.csis.org/analysis/semiconductor-chokepoints-euv-hbm"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-25-chokepoint-geometries-in-sub-2nm</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Export control regimes targeting final AI accelerator FLOPS/mm² overlook upstream chemical precursor, photo-acid generator, and advanced packaging (CoWoS-L) single-point dependencies. Input-output network modeling across 140 fabrication tiers shows that wafer-level metrology and EUV pellicle bottlenecks constrain frontier cluster deployment $3.2\times$ more tightly than fab tool embargoes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.csis.org/analysis/semiconductor-chokepoints-euv-hbm&quot;&gt;CSIS / Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #tech-policy #geopolitics #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -123,7 +123,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-15-cross-cache-speculative-type-confusion"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06890"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-15-cross-cache-speculative-type-confusion</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Optimizing JIT compilers elide bounds and map checks when profiling feedback indicates monomorphic object shapes. We demonstrate a speculative race condition during concurrent background compilation that leaks arbitrary WebAssembly linear memory across site isolation boundaries in under $90\text{ ms}$, along with a zero-overhead fence mitigation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06890&quot;&gt;Google Project Zero / InfoSec&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #compilers #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -131,7 +131,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-28-coarse-graining-and-causal-emergence"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09812"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-28-coarse-graining-and-causal-emergence</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics? Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) &amp;gt; EI(\mu)$ due to degenerate micro-noise cancellation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09812&quot;&gt;Santa Fe Institute / arXiv cs.GT&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #complex-systems #philosophy-of-science #cognitive-science&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -139,7 +139,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-23-supply-chain-network-topology-and"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09680"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-23-supply-chain-network-topology-and</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Using firm-to-firm VAT invoice graphs covering $1.4\times 10^6$ supplier links, we estimate non-parametric input-output price rigidities during monetary tightening. Upstream oligopolistic bottlenecks with high Katz centrality delay downstream consumer price stabilization by $2.6$ quarters compared to competitive peripheral sectors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09680&quot;&gt;TCMB Araştırma / BIS Working Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #trade-industry&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -147,7 +147,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-29-imprecise-probabilities-dutch-book-coherence"/>
     <link rel="related" href="https://philsci-archive.pitt.edu/archive/26101/"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-29-imprecise-probabilities-dutch-book-coherence</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Classical Bayesian conditioning collapses when an agent&amp;apos;s prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses. We prove a representation theorem for convex credal sets under $\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://philsci-archive.pitt.edu/archive/26101/&quot;&gt;PhilSci-Archive / Formal Epistemology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #epistemology #decision-theory #philosophy-of-science&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -155,7 +155,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-single-slot-finality-under-sub"/>
     <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-single-slot-finality-under-sub</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -163,7 +163,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-24-optimal-execution-and-adverse-selection"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09522"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-24-optimal-execution-and-adverse-selection</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\text{ bps}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09522&quot;&gt;arXiv Quantitative Finance (q-fin.TR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -171,7 +171,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-11-fractional-quantum-anomalous-hall-superconductivity"/>
     <link rel="related" href="https://arxiv.org/abs/2610.07388"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-11-fractional-quantum-anomalous-hall-superconductivity</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Coexistence of fractional Chern insulator states and unconventional superconductivity at zero magnetic field has remained elusive in moiré heterostructures. Transport spectroscopy in hBN-aligned rhombohedral pentalayer graphene reveals a dissipationless superconducting dome emerging directly out of a $\nu = -2/3$ fractional topological state below $T_c = 380\text{ mK}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.07388&quot;&gt;APS Physical Review Letters&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #condensed-matter #quantum-physics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -179,7 +179,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-26-attritional-cost-exchange-ratios-of"/>
     <link rel="related" href="https://warontherocks.com/attritional-cost-exchange-autonomous-defense/"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-26-attritional-cost-exchange-ratios-of</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Interceptor-to-target unit cost ratios exceeding $25:1$ create structural magazine-depth exhaustion under saturation salvos. Quantitative salvos modeling demonstrates that integrating directed-energy short-range defense with low-cost acoustic/RF sensor meshes restores positive cost-exchange equilibrium at engagement densities up to $180\text{ tracks/min}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://warontherocks.com/attritional-cost-exchange-autonomous-defense/&quot;&gt;War on the Rocks / SIPRI&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #defense-strategy #geopolitics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -187,7 +187,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-30-compositional-generalization-limits-in-connectionist"/>
     <link rel="related" href="https://arxiv.org/abs/2610.09904"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-30-compositional-generalization-limits-in-connectionist</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls. Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \ge 7$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09904&quot;&gt;Bilim Akademisi Sarkaç / Cognitive Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cognitive-science #ai-ethics #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -195,7 +195,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-06-sharp-non-asymptotic-generalization-bounds"/>
     <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-06-sharp-non-asymptotic-generalization-bounds</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -203,7 +203,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-27-subsea-hvdc-interconnectors-critical-mineral"/>
     <link rel="related" href="https://ecfr.eu/publication/connectivity-corridors-energy-sovereignty/"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-27-subsea-hvdc-interconnectors-critical-mineral</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Cross-continental HVDC power cables and rare-earth refining corridors across the Black Sea, Caucasus, and Eastern Mediterranean are reshaping regional deterrence. Game-theoretic bargaining analysis shows that multi-nodal transit hubs reduce single-supplier coercion leverage by $54\%$ under winter peak-load stress scenarios.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ecfr.eu/publication/connectivity-corridors-energy-sovereignty/&quot;&gt;ECFR / EDAM Strategic Assessment&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #energy-security #geopolitics #international-law&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -211,7 +211,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-08-global-regularity-for-fractional-navier"/>
     <link rel="related" href="https://arxiv.org/abs/2610.03902"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-08-global-regularity-for-fractional-navier</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\Delta)^\alpha u$ remain regular below $\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\infty$ regularity for $\alpha &amp;gt; 5/4 - \varepsilon_0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03902&quot;&gt;arXiv Mathematics (math.AP)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -219,7 +219,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-18-neural-phonon-boltzmann-transport-solver"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06255"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-18-neural-phonon-boltzmann-transport-solver</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\%$ of DFT-BTE at $10^4\times$ lower compute cost, uncovering three stable argyrodite phases.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06255&quot;&gt;arXiv Materials &amp;amp; CompSci (cond-mat.mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #materials-science #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -227,7 +227,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-09-effective-chabauty-kim-method-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.04118"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-09-effective-chabauty-kim-method-for</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Determining rational points on curves of genus $g \ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04118&quot;&gt;Lean Community / arXiv math.AG&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -235,7 +235,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-12-conformal-bootstrap-bounds-on-graviton"/>
     <link rel="related" href="https://arxiv.org/abs/2610.07512"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-12-conformal-bootstrap-bounds-on-graviton</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Non-perturbative stringy corrections to supergravity amplitudes at finite &amp;apos;t Hooft coupling $\lambda$ are constrained by dispersion relations and crossing symmetry. Combining numerical conformal bootstrap with localization inputs, we pin down the first three higher-derivative Wilson coefficients to within $0.04\%$ across all couplings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.07512&quot;&gt;arXiv High-Energy Theory (hep-th)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #high-energy #quantum-physics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -243,7 +243,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-03-deterministic-b-tree-compaction-under"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
   </entry>
 </feed>

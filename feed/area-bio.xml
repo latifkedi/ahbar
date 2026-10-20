@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+  <updated>2026-10-20T11:35:48.922672800+00:00</updated>
   <entry>
     <title>All-Atom Equivariant Flow Matching for De Novo Metalloenzyme Active-Site Design</title>
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-16-all-atom-equivariant-flow-matching"/>
     <link rel="related" href="https://arxiv.org/abs/2610.05980"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-16-all-atom-equivariant-flow-matching</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Existing protein structure diffusion models struggle with transition-metal coordination geometry where $3d$-orbital electronic effects govern catalytic turnover. We couple $SE(3)$-equivariant flow matching with a tight-binding quantum mechanical potential, designing zinc and iron hydrolases that achieve $k_{\text{cat}}/K_M &amp;gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ in wet-lab assays without directed evolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05980&quot;&gt;arXiv Quantitative Biology (q-bio.BM)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -19,7 +19,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-17-pangenome-graph-indexing-in-sub"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06112"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-17-pangenome-graph-indexing-in-sub</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;Population-scale human pangenome graphs containing thousands of haplotypes exceed $100\text{ GB}$ of RAM using conventional $k$-mer seed tables. We construct a compressed Wheeler graph index over bidirectional FM-indexes that aligns long Nanopore reads in $4.2\text{ GB}$ of memory at $3.4\times$ higher throughput than Minigraph-Cactus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06112&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
@@ -27,7 +27,7 @@
     <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-18-neural-phonon-boltzmann-transport-solver"/>
     <link rel="related" href="https://arxiv.org/abs/2610.06255"/>
     <id>https://latifkedi.github.io/ahbar/item/2026-10-20-18-neural-phonon-boltzmann-transport-solver</id>
-    <updated>2026-10-20T10:55:11.232149300+00:00</updated>
+    <updated>2026-10-20T11:35:48.922672800+00:00</updated>
     <summary type="html">&lt;p&gt;First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\%$ of DFT-BTE at $10^4\times$ lower compute cost, uncovering three stable argyrodite phases.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06255&quot;&gt;arXiv Materials &amp;amp; CompSci (cond-mat.mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #materials-science #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>
