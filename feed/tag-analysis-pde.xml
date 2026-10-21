@@ -5,13 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-08-global-regularity-for-fractional-navier"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03902"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-08-global-regularity-for-fractional-navier</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\Delta)^\alpha u$ remain regular below $\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\infty$ regularity for $\alpha &amp;gt; 5/4 - \varepsilon_0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03902&quot;&gt;arXiv Mathematics (math.AP)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
+    <title>Generic finiteness of solutions to parametrized systems of generalized polynomial inequalities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-20-generic-finiteness-of-solutions-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28588v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-20-generic-finiteness-of-solutions-to</id>
+    <updated>2026-10-20T17:41:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study parametrized systems of $\mathit{generalized}$ polynomial inequalities, $(c \circ x^B) \in C$, for a positive variable vector $x \in \mathbb{R}^n_&amp;gt;$, a $\mathit{real}$ exponent matrix $B \in \mathbb{R}^{n \times m}$, a positive parameter vector $c \in \mathbb{R}^m_&amp;gt;$, and a positive, blunt coefficient cone $C \subset \mathbb{R}^m_&amp;gt;$. This setting includes (i) generalized polynomial equations, $A \, (c \circ x^B) = 0$, arising e.g. from power-law dynamical systems with real exponents (and involving a real coefficient matrix $A \in \mathbb{R}^{n&amp;apos; \times m}$), and (ii) generalized semi-algebraic sets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28588v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #algebra-geometry&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nonlocal Equations on Domains and Manifolds Without Symmetries</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-22-nonlocal-equations-on-domains-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28572v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-22-nonlocal-equations-on-domains-and</id>
+    <updated>2026-10-20T17:31:44+00:00</updated>
+    <summary type="html">&lt;p&gt;In this work, we establishes results of existence and regularity for solutions to nonlocal equations of the form $f(Δ)u = U(x,u(x)) ~\text{and}~f(Δ_{g})u=U(x,u(x))$ in the Euclidean context and Riemannian context respectively. We extend the results of \cite{Gorka 6} for the Euclidean space $\mathbb{R}^{n}$ under cylindrically symmetry and compact Riemannian manifolds $(M,g)$ under action of a closed Lie subgroup $G \leq \text{Isom}_{g}(M)$. Our approach combines spectral theory, complex interpolation and fixed-point methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28572v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #topology&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-23-efficient-ground-state-manifold-amplification"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28528v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-23-efficient-ground-state-manifold-amplification</id>
+    <updated>2026-10-20T17:03:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We demonstrate a hybrid quantum-classical approach for exploring ground-state manifolds of maximum independent set problems, in which quantum hardware supplies the initial solutions and an entirely classical post-processing algorithm expands them, increasing the solution diversity of quantum hardware measurements by up to several orders of magnitude. Quantum optimization devices, while capable of generating high-quality solutions, can suffer from fundamental sampling limitations. This is particularly problematic for applications that strongly depend on a large variety of uncorrelated optimal solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28528v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Photonic band structure by direct second-kind free-space boundary integral equations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-24-photonic-band-structure-by-direct"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28494v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-24-photonic-band-structure-by-direct</id>
+    <updated>2026-10-20T16:39:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a direct boundary integral equation (BIE) formulation of the Bloch eigenvalue problem for two-dimensional photonic crystals that uses only the free-space Helmholtz Green function. The unknowns are the Cauchy data of the Bloch mode on the inclusion boundary and on two cell walls. On the inclusion boundary, the transmission conditions are imposed via Müller&amp;apos;s formulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28494v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optics-photonics #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Dynamics of Collapse and Recovery in Clustered Federated Learning. Clustered federated learning (CFL) can suffer from cluster collapse.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-25-the-dynamics-of-collapse-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28565v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-25-the-dynamics-of-collapse-and</id>
+    <updated>2026-10-20T17:24:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Clustered federated learning (CFL) can suffer from cluster collapse. In particular, under unfavorable initialization, early client assignments concentrate heterogeneous groups on one cluster model, which is then trained toward a pooled compromise, while another model receives no updates. Since the current models determine client routing and routing determines subsequent model updates, we formulate clustered federated learning as control of an unknown dynamical system, with cluster models as the evolving state, client routing patterns as the control input, and routing interventions as state dependent controllers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28565v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #ml-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-26-an-experimental-ai-math-challenge"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-26-an-experimental-ai-math-challenge</id>
+    <updated>2026-10-20T15:35:00+00:00</updated>
+    <summary type="html">&lt;p&gt;In the spirit of my recent “Math 2.0” talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau–Siegel zeroes, as discussed in this previous post. There is […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A sketch of the proof of non-existence of Siegel zeroes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-27-a-sketch-of-the-proof"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-27-a-sketch-of-the-proof</id>
+    <updated>2026-10-19T18:27:19+00:00</updated>
+    <summary type="html">&lt;p&gt;For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

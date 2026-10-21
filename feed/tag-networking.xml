@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-networking.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-networking.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <entry>
+    <title>Entanglement Distribution in Quantum Switch Networks: Memory Limits and Achievability</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-29-entanglement-distribution-in-quantum-switch"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28596v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-29-entanglement-distribution-in-quantum-switch</id>
+    <updated>2026-10-20T17:46:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the minimum persistent memory required to distribute a graph state through a quantum switch. Specifically, consider a central switch that assists $n$ remote users in distributing a graph state, using independently generated user-switch Bell pairs. Since Bell-pair generation is probabilistic, different links generally succeed at different times.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28596v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #networking #combinatorics&lt;/p&gt;</summary>
+  </entry>
 </feed>

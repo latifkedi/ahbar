@@ -5,13 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-materials-science.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-materials-science.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Neural Phonon Boltzmann Transport Solver Identifies Ultralow-Kappa Solid-State Electrolytes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-18-neural-phonon-boltzmann-transport-solver"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.06255"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-18-neural-phonon-boltzmann-transport-solver</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;First-principles anharmonic lattice dynamics ($3$- and $4$-phonon scattering) scales as $O(N_{\text{atoms}}^4)$, preventing high-throughput screening of solid-state lithium electrolytes. Our equivariant phonon neural operator predicts full thermal conductivity tensors within $4\%$ of DFT-BTE at $10^4\times$ lower compute cost, uncovering three stable argyrodite phases.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.06255&quot;&gt;arXiv Materials &amp;amp; CompSci (cond-mat.mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #materials-science #clean-tech&lt;/p&gt;</summary>
+    <title>Grain-Boundary Scattering between Chiral Domains in Chiral Topological Semimetal CoSi</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-30-grain-boundary-scattering-between-chiral"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28426v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-30-grain-boundary-scattering-between-chiral</id>
+    <updated>2026-10-20T15:55:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We evaluate the electron scattering properties in CoSi thin films having either twin (heterochiral) or non-twin (homochiral) grain boundaries using first-principles quantum transport calculations. We find that scattering across a twin grain boundary is more resistive than scattering across a non-twin grain boundary and that non-twin grain boundaries have a greater percentage of surface conduction than twin grain boundaries. This is corroborated by the transmission eigenstate profiles, which show that the surface Fermi-arc electrons can transmit past the non-twin grain boundaries between homochiral domains on the same surface without significant backscattering.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28426v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-48-hybrid-modeling-for-improved-structure"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-48-hybrid-modeling-for-improved-structure</id>
+    <updated>2026-10-15T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-49-hdock-multimer-improved-structure-prediction"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-49-hdock-multimer-improved-structure-prediction</id>
+    <updated>2026-10-14T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>LLMs predict material properties based on atom types and not atom positions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-50-llms-predict-material-properties-based"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01044-3"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-50-llms-predict-material-properties-based</id>
+    <updated>2026-10-13T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 October 2026; doi:10.1038/s43588-026-01044-3 Accurately predicting properties of materials is one of the main challenges in computational materials science. Systematic experiments now show that large language models (LLMs) struggle to use positional information for the prediction of those properties. This limitation does not reverse as model or dataset sizes grow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01044-3&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HIP: Hessian Interatomic Potentials without derivatives</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-51-hip-hessian-interatomic-potentials-without"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01066-x"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-51-hip-hessian-interatomic-potentials-without</id>
+    <updated>2026-10-13T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 October 2026; doi:10.1038/s43588-026-01066-x The authors introduce an extension of machine learning interatomic potentials that predicts molecular Hessians directly, improving accuracy and speed compared in transition-state searches, geometry optimization and vibrational analysis relative to Hessians from automatic differentiation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01066-x&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Less can be more for predicting properties with large language models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-52-less-can-be-more-for"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01045-2"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-52-less-can-be-more-for</id>
+    <updated>2026-10-12T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 October 2026; doi:10.1038/s43588-026-01045-2 Researchers show that large language models cannot learn from spatial coordinates regardless of model or data scale. Specialized geometric neural networks consistently outperform language models for material property prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01045-2&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Photonic circuits become trainable AI hardware</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-53-photonic-circuits-become-trainable-ai"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01071-0"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-53-photonic-circuits-become-trainable-ai</id>
+    <updated>2026-10-09T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 09 October 2026; doi:10.1038/s43588-026-01071-0 A physics-based in situ learning method is demonstrated that directly measures optical gradients with photonic integrated circuits, allowing diverse circuit topologies to be trained after fabrication. This hardware achieves matrix design, multiwavelength computation and rapid meta-learning without requiring a full digital…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01071-0&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #optics-photonics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Steering complex rhythms</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-54-steering-complex-rhythms"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01064-z"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-54-steering-complex-rhythms</id>
+    <updated>2026-10-09T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 09 October 2026; doi:10.1038/s43588-026-01064-z A recent study reports a property-first computational strategy, identifying coordinated parameter changes that can tune several features of a complex oscillator at the same time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01064-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,29 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-24-optimal-execution-and-adverse-selection"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09522"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-24-optimal-execution-and-adverse-selection</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\text{ bps}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09522&quot;&gt;arXiv Quantitative Finance (q-fin.TR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats&lt;/p&gt;</summary>
+    <title>Matrix divisors, Christoffel transformations and symmetric $d$-connections. The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-21-matrix-divisors-christoffel-transformations-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28497v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-21-matrix-divisors-christoffel-transformations-and</id>
+    <updated>2026-10-20T16:40:52+00:00</updated>
+    <summary type="html">&lt;p&gt;The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences. The moment matrix determines normalization and the splitting type. We define the source and target moduli problems by their local data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28497v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-06-sharp-non-asymptotic-generalization-bounds"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-06-sharp-non-asymptotic-generalization-bounds</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
+    <title>Nonlocal Equations on Domains and Manifolds Without Symmetries</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-22-nonlocal-equations-on-domains-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28572v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-22-nonlocal-equations-on-domains-and</id>
+    <updated>2026-10-20T17:31:44+00:00</updated>
+    <summary type="html">&lt;p&gt;In this work, we establishes results of existence and regularity for solutions to nonlocal equations of the form $f(Δ)u = U(x,u(x)) ~\text{and}~f(Δ_{g})u=U(x,u(x))$ in the Euclidean context and Riemannian context respectively. We extend the results of \cite{Gorka 6} for the Euclidean space $\mathbb{R}^{n}$ under cylindrically symmetry and compact Riemannian manifolds $(M,g)$ under action of a closed Lie subgroup $G \leq \text{Isom}_{g}(M)$. Our approach combines spectral theory, complex interpolation and fixed-point methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28572v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #topology&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Global Regularity for Fractional Navier-Stokes Equations Below the Lions Exponent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-08-global-regularity-for-fractional-navier"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03902"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-08-global-regularity-for-fractional-navier</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether smooth solutions to the 3D incompressible Navier-Stokes equations with fractional dissipation $(-\Delta)^\alpha u$ remain regular below $\alpha = 5/4$ is a long-standing open problem. Using quantitative De Giorgi-Nash-Moser oscillation decay along space-time vorticity filaments, we prove global $C^\infty$ regularity for $\alpha &amp;gt; 5/4 - \varepsilon_0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03902&quot;&gt;arXiv Mathematics (math.AP)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
+    <title>Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-23-efficient-ground-state-manifold-amplification"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28528v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-23-efficient-ground-state-manifold-amplification</id>
+    <updated>2026-10-20T17:03:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We demonstrate a hybrid quantum-classical approach for exploring ground-state manifolds of maximum independent set problems, in which quantum hardware supplies the initial solutions and an entirely classical post-processing algorithm expands them, increasing the solution diversity of quantum hardware measurements by up to several orders of magnitude. Quantum optimization devices, while capable of generating high-quality solutions, can suffer from fundamental sampling limitations. This is particularly problematic for applications that strongly depend on a large variety of uncorrelated optimal solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28528v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Photonic band structure by direct second-kind free-space boundary integral equations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-24-photonic-band-structure-by-direct"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28494v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-24-photonic-band-structure-by-direct</id>
+    <updated>2026-10-20T16:39:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a direct boundary integral equation (BIE) formulation of the Bloch eigenvalue problem for two-dimensional photonic crystals that uses only the free-space Helmholtz Green function. The unknowns are the Cauchy data of the Bloch mode on the inclusion boundary and on two cell walls. On the inclusion boundary, the transmission conditions are imposed via Müller&amp;apos;s formulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28494v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optics-photonics #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-58-birthday-estimators-are-uniformly-optimal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28581v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-58-birthday-estimators-are-uniformly-optimal</id>
+    <updated>2026-10-20T17:37:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie Rényi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator. We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28581v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Dynamics of Collapse and Recovery in Clustered Federated Learning. Clustered federated learning (CFL) can suffer from cluster collapse.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-25-the-dynamics-of-collapse-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28565v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-25-the-dynamics-of-collapse-and</id>
+    <updated>2026-10-20T17:24:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Clustered federated learning (CFL) can suffer from cluster collapse. In particular, under unfavorable initialization, early client assignments concentrate heterogeneous groups on one cluster model, which is then trained toward a pooled compromise, while another model receives no updates. Since the current models determine client routing and routing determines subsequent model updates, we formulate clustered federated learning as control of an unknown dynamical system, with cluster models as the evolving state, client routing patterns as the control input, and routing interventions as state dependent controllers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28565v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

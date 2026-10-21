@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-improved-polymath-bounds-on-dense"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
+    <title>Generic finiteness of solutions to parametrized systems of generalized polynomial inequalities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-20-generic-finiteness-of-solutions-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28588v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-20-generic-finiteness-of-solutions-to</id>
+    <updated>2026-10-20T17:41:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study parametrized systems of $\mathit{generalized}$ polynomial inequalities, $(c \circ x^B) \in C$, for a positive variable vector $x \in \mathbb{R}^n_&amp;gt;$, a $\mathit{real}$ exponent matrix $B \in \mathbb{R}^{n \times m}$, a positive parameter vector $c \in \mathbb{R}^m_&amp;gt;$, and a positive, blunt coefficient cone $C \subset \mathbb{R}^m_&amp;gt;$. This setting includes (i) generalized polynomial equations, $A \, (c \circ x^B) = 0$, arising e.g. from power-law dynamical systems with real exponents (and involving a real coefficient matrix $A \in \mathbb{R}^{n&amp;apos; \times m}$), and (ii) generalized semi-algebraic sets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28588v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Effective Chabauty-Kim Method for Hyperelliptic Curves of Genus $g \ge 3$ over Number Fields</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-09-effective-chabauty-kim-method-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04118"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-09-effective-chabauty-kim-method-for</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Determining rational points on curves of genus $g \ge 2$ when the Mordell-Weil rank equals $g$ requires non-abelian $p$-adic iterated integrals. We give an explicit algorithm computing Coleman-Gross heights on Selmer varieties, certifying the complete set of rational points on a family of genus-$3$ hyperelliptic curves.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04118&quot;&gt;Lean Community / arXiv math.AG&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #number-theory&lt;/p&gt;</summary>
+    <title>Matrix divisors, Christoffel transformations and symmetric $d$-connections. The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-21-matrix-divisors-christoffel-transformations-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28497v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-21-matrix-divisors-christoffel-transformations-and</id>
+    <updated>2026-10-20T16:40:52+00:00</updated>
+    <summary type="html">&lt;p&gt;The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences. The moment matrix determines normalization and the splitting type. We define the source and target moduli problems by their local data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28497v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-26-an-experimental-ai-math-challenge"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-26-an-experimental-ai-math-challenge</id>
+    <updated>2026-10-20T15:35:00+00:00</updated>
+    <summary type="html">&lt;p&gt;In the spirit of my recent “Math 2.0” talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau–Siegel zeroes, as discussed in this previous post. There is […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A sketch of the proof of non-existence of Siegel zeroes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-27-a-sketch-of-the-proof"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-27-a-sketch-of-the-proof</id>
+    <updated>2026-10-19T18:27:19+00:00</updated>
+    <summary type="html">&lt;p&gt;For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

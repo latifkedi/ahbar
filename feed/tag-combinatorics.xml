@@ -5,13 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Improved Polymath Bounds on Dense Progression-Free Sets in $\mathbb{F}_p^n$ and Formalization in Lean 4</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-07-improved-polymath-bounds-on-dense"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.03319"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-07-improved-polymath-bounds-on-dense</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;We establish a sharper upper bound of $(c p)^{n}$ with $c &amp;lt; 0.841$ for subsets of $\mathbb{F}_p^n$ lacking three-term arithmetic progressions via slice-rank polynomial spectral stability. The core combinatorial reduction and spectral lemma have been fully mechanized in Lean 4 against Mathlib, uncovering a tighter constant than the classical Ellenberg-Gijswijt bound in low characteristic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.03319&quot;&gt;arXiv Mathematics (math.NT)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #formal-proofs&lt;/p&gt;</summary>
+    <title>Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-17-epi-towards-a-persistent-self"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.24944"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-17-epi-towards-a-persistent-self</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Épi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. Épi combines persistent research history, hierarchical memory, branching and independent review to maintain research continuity, learn from experiments, and explore and revisit alternative approaches. Its experiments run across session boundaries, and a fixed verifier evaluates their outputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24944&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Doom GPU Flame Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-39-doom-gpu-flame-graphs"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-39-doom-gpu-flame-graphs</id>
+    <updated>2025-04-30T14:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Post-quantum commutative group actions from oriented superspecial abelian varieties</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-56-post-quantum-commutative-group-actions"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2555"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-56-post-quantum-commutative-group-actions</id>
+    <updated>2026-10-19T17:08:49+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the cryptographic use of Shimura class group actions on superspecial principally polarized abelian varieties equipped with a CM orientation, within the context of post-quantum cryptography. Besides giving an accessible introduction to the topic, illustrated with many examples, we provide tools for representing CM orientations through higher-dimensional isogenies and for computing the Shimura class group action in the restricted effective group action model. Here, key auxiliary results are a version of Kani&amp;apos;s lemma &amp;quot;with CM&amp;quot; and a trick that often allows to halve the ambient dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2555&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Generic finiteness of solutions to parametrized systems of generalized polynomial inequalities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-20-generic-finiteness-of-solutions-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28588v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-20-generic-finiteness-of-solutions-to</id>
+    <updated>2026-10-20T17:41:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study parametrized systems of $\mathit{generalized}$ polynomial inequalities, $(c \circ x^B) \in C$, for a positive variable vector $x \in \mathbb{R}^n_&amp;gt;$, a $\mathit{real}$ exponent matrix $B \in \mathbb{R}^{n \times m}$, a positive parameter vector $c \in \mathbb{R}^m_&amp;gt;$, and a positive, blunt coefficient cone $C \subset \mathbb{R}^m_&amp;gt;$. This setting includes (i) generalized polynomial equations, $A \, (c \circ x^B) = 0$, arising e.g. from power-law dynamical systems with real exponents (and involving a real coefficient matrix $A \in \mathbb{R}^{n&amp;apos; \times m}$), and (ii) generalized semi-algebraic sets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28588v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #algebra-geometry&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Matrix divisors, Christoffel transformations and symmetric $d$-connections. The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-21-matrix-divisors-christoffel-transformations-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28497v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-21-matrix-divisors-christoffel-transformations-and</id>
+    <updated>2026-10-20T16:40:52+00:00</updated>
+    <summary type="html">&lt;p&gt;The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences. The moment matrix determines normalization and the splitting type. We define the source and target moduli problems by their local data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28497v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Entanglement Distribution in Quantum Switch Networks: Memory Limits and Achievability</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-29-entanglement-distribution-in-quantum-switch"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28596v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-29-entanglement-distribution-in-quantum-switch</id>
+    <updated>2026-10-20T17:46:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the minimum persistent memory required to distribute a graph state through a quantum switch. Specifically, consider a central switch that assists $n$ remote users in distributing a graph state, using independently generated user-switch Bell pairs. Since Bell-pair generation is probabilistic, different links generally succeed at different times.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28596v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #networking #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Leaving Intel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-45-leaving-intel"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-45-leaving-intel</id>
+    <updated>2025-12-04T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

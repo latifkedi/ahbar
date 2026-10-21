@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-econ.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-econ.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Heterogeneous Agent Monetary Transmission Under Sovereign Debt Maturity Walls</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-22-heterogeneous-agent-monetary-transmission-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09410"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-22-heterogeneous-agent-monetary-transmission-under</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;We solve a continuous-time HANK model with endogenous term-premia and non-linear fiscal reaction functions across 38 OECD and emerging sovereign bond markets. When short-term refinancing exceeds $28\%$ of GDP, a $100\text{ bps}$ policy tightening induces fiscal dominance spillovers that attenuate disinflation by $42\%$ unless paired with liquidity-draining repo corridors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09410&quot;&gt;NBER Working Papers / arXiv econ.EM&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #monetary-policy #macroeconomics #econometrics&lt;/p&gt;</summary>
+    <title>Speculative Imbalance Positions by Non-Physical Traders: Impacts on Electricity System Balancing in Great Britain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-64-speculative-imbalance-positions-by-non"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28075v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-64-speculative-imbalance-positions-by-non</id>
+    <updated>2026-10-20T11:54:36+00:00</updated>
+    <summary type="html">&lt;p&gt;The electricity system in Great Britain (GB) allows participants to deliberately produce or consume a different volume to their traded position and has incentivised this practice with a single imbalance price since 2015. In particular, non-physical traders (NPTs) often take an open position to imbalance without any intention to produce or consume power. However, new government proposals could restrict this practice due to concerns over supply-demand balancing feasibility and costs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28075v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Supply-Chain Network Topology and Pass-Through Asymmetries in Disinflation Episodes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-23-supply-chain-network-topology-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09680"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-23-supply-chain-network-topology-and</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Using firm-to-firm VAT invoice graphs covering $1.4\times 10^6$ supplier links, we estimate non-parametric input-output price rigidities during monetary tightening. Upstream oligopolistic bottlenecks with high Katz centrality delay downstream consumer price stabilization by $2.6$ quarters compared to competitive peripheral sectors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09680&quot;&gt;TCMB Araştırma / BIS Working Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #trade-industry&lt;/p&gt;</summary>
+    <title>Arithmetic Models for Commodity Futures, Vanilla, and Calendar Spread Options</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-65-arithmetic-models-for-commodity-futures"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28071v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-65-arithmetic-models-for-commodity-futures</id>
+    <updated>2026-10-20T11:52:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop an arithmetic multi-factor stochastic volatility model for commodity futures and options. The arithmetic specification yields a low-dimensional Markovian representation of the futures curve and semi-closed-form pricing formulas for vanilla and basket options, including calendar spread options. These properties make the model suitable for large-scale empirical estimation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28071v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-24-optimal-execution-and-adverse-selection"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09522"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-24-optimal-execution-and-adverse-selection</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\text{ bps}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09522&quot;&gt;arXiv Quantitative Finance (q-fin.TR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats&lt;/p&gt;</summary>
+    <title>Extending Mechanisms</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-66-extending-mechanisms"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27839v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-66-extending-mechanisms</id>
+    <updated>2026-10-20T08:26:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Given an incentive-compatible mechanism for a single agent on a restricted domain of valuations, we consider its incentive-compatible extensions to the entire valuation space. We identify two extreme extensions: the &amp;quot;keep-the-menu&amp;quot; extension, which minimizes buyer payoffs and maximizes canonical prices pointwise, and the &amp;quot;keep-the-pricing&amp;quot; extension, which maximizes buyer payoffs and minimizes canonical prices…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27839v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Export Controls and the Economics of National Security -- by Jingting Fan, Kyle Handley, Nuno Limão</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-67-export-controls-and-the-economics"/>
+    <link rel="related" href="https://www.nber.org/papers/w35898#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-67-export-controls-and-the-economics</id>
+    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <summary type="html">&lt;p&gt;Export controls restrict trade to limit adversaries’ access to goods that contribute to military capability, but their effectiveness depends on how trade and production adjust across countries. We combine new data on U.S. export control classifications and licensing outcomes with a quantitative general equilibrium model featuring dual-use production, input-output linkages, and separate civilian and military final expenditure. We estimate large export and entry frictions from these controls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35898#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Net Present Value of the California Billionaire Tax Act -- by Benjamin Jaros, Joshua Rauh</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-68-the-net-present-value-of"/>
+    <link rel="related" href="https://www.nber.org/papers/w35899#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-68-the-net-present-value-of</id>
+    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper examines the revenue and migration impact of the 2026 California Billionaire Tax Act, a one-time 5 percent tax on the worldwide net worth of individuals exceeding $1 billion. Using data from the Forbes Billionaire List, news reports detailing the residential real estate holdings of California billionaires, and public announcements of billionaire departures from the state, we estimate the behavioral response and associated revenue loss to this new tax using several different methodologies. Even before accounting for reductions in other tax bases such as the income tax, we estimate that the Act will collect approximately $30 billion (range $28 to 36 billion), less than a third of the $100 billion projected by Galle et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35899#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Foreign Giants&apos; Broad Shoulders: The Causal Effect of Foreign Ideas on U.S. Innovation -- by Tarek Alexander Hassan, Aakash Kalyani, Juan Cruz Lopez Del Valle</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-69-foreign-giants-broad-shoulders-the"/>
+    <link rel="related" href="https://www.nber.org/papers/w35900#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-69-foreign-giants-broad-shoulders-the</id>
+    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the role of foreign ideas in U.S. innovation by constructing a directed “genealogy” of technologies from the full text of 13 million patents filed between 1887 and 2024. By tracing which earlier technologies appear in the founding patents of new ones, we recover a large-scale input–output network of technological recombination that identifies the foreign technologies that serve as inputs into innovation in the United States.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35900#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Modeling and Evaluating the Labor Market and Fiscal Effects of Immigration -- by Michele Battisti, Giovanni Peri, Eleonora Romano</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-70-modeling-and-evaluating-the-labor"/>
+    <link rel="related" href="https://www.nber.org/papers/w35901#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-70-modeling-and-evaluating-the-labor</id>
+    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <summary type="html">&lt;p&gt;Immigration affects natives through both labor markets and public budgets, yet these channels are usually studied separately. We combine them in a general-equilibrium model with search-and-matching frictions, skill-specific progressive labor taxes, capital taxation and public goods, calibrated to 17 OECD countries over 2015-2019. The welfare effect on natives of a one-percentage-point increase in immigrant inflows varies in sign and size across countries, hinging on immigrants&amp;apos; skill mix, immigrant-native wage gaps, resident unemployment, and tax progressivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35901#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A Model of U.S. Monetary Policy and the Global Financial Cycle -- by Rohan Kekre, Moritz Lenel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-71-a-model-of-u-s"/>
+    <link rel="related" href="https://www.nber.org/papers/w35902#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-71-a-model-of-u-s</id>
+    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose a general equilibrium model in which U.S. monetary policy affects global risk premia by revaluing the wealth of currency-mismatched arbitrageurs. Assuming their portfolios are mean-variance efficient, arbitrageurs must be short the dollar.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35902#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-72-from-politics-to-process-evidence"/>
+    <link rel="related" href="https://www.nber.org/papers/w35903#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-72-from-politics-to-process-evidence</id>
+    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <summary type="html">&lt;p&gt;States that delegate governance to local officials face a trade-off between the benefits of local knowledge and the costs of biased administrators. Can imposing federal standards discipline bias and improve uniformity? We study this question by examining the introduction of federal standards to apply for citizenship under the 1906 Naturalization Act.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35903#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-cs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-cs.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Zero-Copy Region Inference for Asynchronous Rust State Machines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-01-zero-copy-region-inference-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-01-zero-copy-region-inference-for</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
+    <title>eMudhra intermediate CA compromise</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-01-emudhra-intermediate-ca-compromise"/>
+    <link rel="related" href="https://emudhra.we-have-a-problem.com/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-01-emudhra-intermediate-ca-compromise</id>
+    <updated>2026-10-20T13:58:33Z</updated>
+    <summary type="html">&lt;p&gt;Mozilla has announced that it has received a report that private keys associated with eight eMudhra intermediate certificates have been compromised: These keys could allow attackers to issue fraudulent HTTPS certificates for websites they do not control. An attacker who could intercept a user&amp;apos;s connection could use those certificates to impersonate websites and potentially read or modify traffic. Mozilla has blocked the affected certificates using its OneCRL centralized list of revoked certificates, and has updated the trusted certificate list in Network Security Services (NSS) 3.131.1 .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://emudhra.we-have-a-problem.com/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-byzantine-fault-injection-and-split"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
+    <title>Discord Patch Notes: October 6, 2026. Check out the finer details of the more technical fixes implemented into Discord recently.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-03-discord-patch-notes-october-6"/>
+    <link rel="related" href="https://discord.com/blog/discord-patch-notes-october-6-2026"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-03-discord-patch-notes-october-6</id>
+    <updated>2026-10-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Check out the finer details of the more technical fixes implemented into Discord recently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discord.com/blog/discord-patch-notes-october-6-2026&quot;&gt;Discord Systems &amp;amp; Database Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-03-deterministic-b-tree-compaction-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
+    <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-02-show-hn-an-e-ink"/>
+    <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-02-show-hn-an-e-ink</id>
+    <updated>2026-09-15T12:31:10Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DeepInfer: High-performance inference framework for DeepSeek models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-04-deepinfer-high-performance-inference-framework"/>
+    <link rel="related" href="https://github.com/deepseek-ai/DeepInfer"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-04-deepinfer-high-performance-inference-framework</id>
+    <updated>2026-10-20T09:08:54Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/deepseek-ai/DeepInfer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-05-show-hn-can-t-afford"/>
+    <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-05-show-hn-can-t-afford</id>
+    <updated>2021-02-25T01:47:30Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: This up votes itself</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-06-show-hn-this-up-votes"/>
+    <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-06-show-hn-this-up-votes</id>
+    <updated>2012-03-23T00:40:39Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-07-show-hn-gemini-pro-3"/>
+    <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-07-show-hn-gemini-pro-3</id>
+    <updated>2025-12-09T15:00:38Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: I made an open-source laptop from scratch</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-08-show-hn-i-made-an"/>
+    <link rel="related" href="https://www.byran.ee/posts/creation/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-08-show-hn-i-made-an</id>
+    <updated>2025-01-22T20:41:52Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: If YouTube had actual channels</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-09-show-hn-if-youtube-had"/>
+    <link rel="related" href="https://ytch.xyz"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-09-show-hn-if-youtube-had</id>
+    <updated>2024-08-14T15:10:06Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,13 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Zero-Copy Region Inference for Asynchronous Rust State Machines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-01-zero-copy-region-inference-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-01-zero-copy-region-inference-for</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;We formalize a region-based borrow analysis for async/await state machines in Rust that eliminates redundant heap allocations across suspension points. By proving soundness over a core calculus with lifetime projections, our compiler pass reduces generator frame sizes by $38\%$ and improves tail latency by $1.42\times$ on high-concurrency Tokio workloads without unsafe code.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04812&quot;&gt;arXiv CS (cs.PL)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #performance&lt;/p&gt;</summary>
+    <title>Discord Patch Notes: October 6, 2026. Check out the finer details of the more technical fixes implemented into Discord recently.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-03-discord-patch-notes-october-6"/>
+    <link rel="related" href="https://discord.com/blog/discord-patch-notes-october-6-2026"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-03-discord-patch-notes-october-6</id>
+    <updated>2026-10-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Check out the finer details of the more technical fixes implemented into Discord recently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discord.com/blog/discord-patch-notes-october-6-2026&quot;&gt;Discord Systems &amp;amp; Database Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Security updates for Tuesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-40-security-updates-for-tuesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1101617/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-40-security-updates-for-tuesday</id>
+    <updated>2026-10-20T13:06:38+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (idm:DL1, kernel, libsoup, perl-URI, python3.14-urllib3, and webkit2gtk3), Debian (apache2, cifs-utils, haproxy, jq, kernel, and xen), Fedora (aom, chezmoi, chromium, docker-buildx, freeipa, freerdp, GitPython, httpd, jfrog-cli, kernel, knot, libheif, log4net, mongo-c-driver, nant, NetworkManager, openssl, plasma-nm, python-cairosvg, python-django5, python-django6,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1101617/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-59-pq-spending-for-stealth-address"/>
+    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-59-pq-spending-for-stealth-address</id>
+    <updated>2026-09-28T01:09:06+00:00</updated>
+    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Package managers have an integrity problem</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-43-package-managers-have-an-integrity"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-43-package-managers-have-an-integrity</id>
+    <updated>2026-10-14T11:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-62-reedweave-faster-reed-solomon-polynomial"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2147"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-62-reedweave-faster-reed-solomon-polynomial</id>
+    <updated>2026-09-22T04:13:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding&amp;apos;&amp;apos; Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operate on the largest codewords and dominate the prover work.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2147&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

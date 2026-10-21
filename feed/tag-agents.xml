@@ -5,13 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-verified-tool-use-trajectories-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-verified-tool-use-trajectories-for</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
+    <title>Evolving Agent Interfaces. Computer-use agents are limited by the interfaces humans give them.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-11-evolving-agent-interfaces"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28601"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-11-evolving-agent-interfaces</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, workflows, and models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28601&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-14-coevo-rsi-when-harnesses-evolve"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25078"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-14-coevo-rsi-when-harnesses-evolve</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesses. We introduce CoEvo-RSI, a RSI framework that advances model--harness co-evolution through agent-driven, bidirectional historical inheritance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25078&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-17-epi-towards-a-persistent-self"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.24944"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-17-epi-towards-a-persistent-self</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Épi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. Épi combines persistent research history, hierarchical memory, branching and independent review to maintain research continuity, learn from experiments, and explore and revisit alternative approaches. Its experiments run across session boundaries, and a fixed verifier evaluates their outputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24944&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Exact Envy-Free Cake Cutting with Polynomial Expected Queries. Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&apos;s share.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-83-exact-envy-free-cake-cutting"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28535v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-83-exact-envy-free-cake-cutting</id>
+    <updated>2026-10-20T17:07:47+00:00</updated>
+    <summary type="html">&lt;p&gt;Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&amp;apos;s share. Finding such a division with few queries about preferences has been a longstanding challenge. Aziz and Mackenzie gave the first query bound depending only on the number $n$ of agents: a tower of six $n$&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28535v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Splitting Planar Necklaces with Few Straight Cuts</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-85-splitting-planar-necklaces-with-few"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27956v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-85-splitting-planar-necklaces-with-few</id>
+    <updated>2026-10-20T10:01:52+00:00</updated>
+    <summary type="html">&lt;p&gt;In the classical necklace splitting problem, beads of different colors lie on a line, and the goal is to divide them among $k$ agents using as few cuts as possible so that every agent receives the same number of beads of each color. We study the planar analog in which a cut is a full straight line and the objective is minimizing the number of lines: $m$ points colored red and blue must be separated by straight-line cuts into regions that can be allocated to $k$ agents so that each agent receives the same number of points of each color. Projection to a line gives $2(k-1)$ cuts, and $k-1$ are sometimes necessary; we give algorithms, static and dynamic, that provably close part of this gap.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27956v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

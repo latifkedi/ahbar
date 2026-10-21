@@ -5,13 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-19-hyperfold-prover-optimal-lattice-folding"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
+    <title>Post-quantum commutative group actions from oriented superspecial abelian varieties</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-56-post-quantum-commutative-group-actions"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2555"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-56-post-quantum-commutative-group-actions</id>
+    <updated>2026-10-19T17:08:49+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the cryptographic use of Shimura class group actions on superspecial principally polarized abelian varieties equipped with a CM orientation, within the context of post-quantum cryptography. Besides giving an accessible introduction to the topic, illustrated with many examples, we provide tools for representing CM orientations through higher-dimensional isogenies and for computing the Shimura class group action in the restricted effective group action model. Here, key auxiliary results are a version of Kani&amp;apos;s lemma &amp;quot;with CM&amp;quot; and a trick that often allows to halve the ambient dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2555&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Photonic band structure by direct second-kind free-space boundary integral equations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-24-photonic-band-structure-by-direct"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28494v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-24-photonic-band-structure-by-direct</id>
+    <updated>2026-10-20T16:39:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a direct boundary integral equation (BIE) formulation of the Bloch eigenvalue problem for two-dimensional photonic crystals that uses only the free-space Helmholtz Green function. The unknowns are the Cauchy data of the Bloch mode on the inclusion boundary and on two cell walls. On the inclusion boundary, the transmission conditions are imposed via Müller&amp;apos;s formulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28494v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optics-photonics #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-59-pq-spending-for-stealth-address"/>
+    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-59-pq-spending-for-stealth-address</id>
+    <updated>2026-09-28T01:09:06+00:00</updated>
+    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-63-efficient-and-compact-high-order"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2540"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-63-efficient-and-compact-high-order</id>
+    <updated>2026-10-19T06:40:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Raccoon, presented at CRYPTO 2024, is a provably secure lattice-based signature scheme featuring an $O(d \log{d})$ masking overhead. Although it did not advance beyond the first-round of NIST&amp;apos;s additional call for post-quantum digital signatures, Raccoon remains a promising candidate due to its low masking overhead and strong provable side-channel resistance. This paper proposes the first efficient and compact implementation of high-order Raccoon on the ARM Cortex-M4, with a focus on optimizing its polynomial multiplication, sampling, and memory consumption.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2540&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

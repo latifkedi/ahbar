@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-philosophy.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-philosophy.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Coarse-Graining and Causal Emergence in Multi-Scale Markov Blankets. When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-28-coarse-graining-and-causal-emergence"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-28-coarse-graining-and-causal-emergence</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;When does a macroscopic state variable possess greater causal predictive power than the underlying micro-dynamics? Using interventional information theory and renormalization group flows over hierarchical Markov blankets, we derive an exact threshold where macro-scale effective information $EI(M) &amp;gt; EI(\mu)$ due to degenerate micro-noise cancellation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09812&quot;&gt;Santa Fe Institute / arXiv cs.GT&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #complex-systems #philosophy-of-science #cognitive-science&lt;/p&gt;</summary>
+    <title>Game of Phones: Harnessing Game Theory and LLMs in &apos;Bot Wars&apos; to Counteract Phone Scams</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-82-game-of-phones-harnessing-game"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26781v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-82-game-of-phones-harnessing-game</id>
+    <updated>2026-10-19T17:35:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Phone scams impose substantial and growing costs on individuals and financial systems worldwide, yet existing countermeasures impose no resource cost on perpetrators. Strategic scam-baiting, in which automated agents engage scammers to deplete their operational capacity, offers a proactive alternative but requires dynamic strategy adaptation that static systems cannot provide. We introduce a game-theoretic framework enabling LLMs to learn effective counter-strategies through in-context experience without fine-tuning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26781v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Imprecise Probabilities, Dutch-Book Coherence, and Epistemic Humility Under Severe Model Misspecification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-29-imprecise-probabilities-dutch-book-coherence"/>
-    <link rel="related" href="https://philsci-archive.pitt.edu/archive/26101/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-29-imprecise-probabilities-dutch-book-coherence</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Bayesian conditioning collapses when an agent&amp;apos;s prior support excludes the true data-generating process, leading to overconfident convergence on false boundary hypotheses. We prove a representation theorem for convex credal sets under $\alpha$-divergence updates that preserves dynamic coherence while guaranteeing asymptotic detection of structural misspecification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://philsci-archive.pitt.edu/archive/26101/&quot;&gt;PhilSci-Archive / Formal Epistemology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #epistemology #decision-theory #philosophy-of-science&lt;/p&gt;</summary>
+    <title>Exact Envy-Free Cake Cutting with Polynomial Expected Queries. Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&apos;s share.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-83-exact-envy-free-cake-cutting"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28535v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-83-exact-envy-free-cake-cutting</id>
+    <updated>2026-10-20T17:07:47+00:00</updated>
+    <summary type="html">&lt;p&gt;Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&amp;apos;s share. Finding such a division with few queries about preferences has been a longstanding challenge. Aziz and Mackenzie gave the first query bound depending only on the number $n$ of agents: a tower of six $n$&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28535v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Compositional Generalization Limits in Connectionist Architectures Versus Symbolic Program Induction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-30-compositional-generalization-limits-in-connectionist"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09904"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-30-compositional-generalization-limits-in-connectionist</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Systematicity and productivity require algebraic role-filler independence that standard autoregressive sequence models approximate only within training convex hulls. Comparing minimum-description-length (MDL) Bayesian program learners against transformer state-tracking circuits reveals a sharp phase transition in out-of-distribution recursive depth at $d \ge 7$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09904&quot;&gt;Bilim Akademisi Sarkaç / Cognitive Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cognitive-science #ai-ethics #logic&lt;/p&gt;</summary>
+    <title>Best-of-Both Worlds Proportionality in Structured Committee Elections. We study randomized committee elections with additive preferences, where we seek best-of-both-worlds proportionality.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-84-best-of-both-worlds-proportionality"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28151v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-84-best-of-both-worlds-proportionality</id>
+    <updated>2026-10-20T12:56:38+00:00</updated>
+    <summary type="html">&lt;p&gt;We study randomized committee elections with additive preferences, where we seek best-of-both-worlds proportionality. That is, we strive for strong guarantees for the selection probabilities ex ante and each realized committee ex post. We focus on structured preferences and introduce antichain single-peakedness, a restricted domain generalizing single-peaked additive preferences as well as several well-studied approval domains.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28151v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Splitting Planar Necklaces with Few Straight Cuts</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-85-splitting-planar-necklaces-with-few"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27956v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-85-splitting-planar-necklaces-with-few</id>
+    <updated>2026-10-20T10:01:52+00:00</updated>
+    <summary type="html">&lt;p&gt;In the classical necklace splitting problem, beads of different colors lie on a line, and the goal is to divide them among $k$ agents using as few cuts as possible so that every agent receives the same number of beads of each color. We study the planar analog in which a cut is a full straight line and the objective is minimizing the number of lines: $m$ points colored red and blue must be separated by straight-line cuts into regions that can be allocated to $k$ agents so that each agent receives the same number of points of each color. Projection to a line gives $2(k-1)$ cuts, and $k-1$ are sometimes necessary; we give algorithms, static and dynamic, that provably close part of this gap.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27956v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Multifractality of human upper-limb velocity tracks motor optimization via hand dominance experiment</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-86-multifractality-of-human-upper-limb"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27399v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-86-multifractality-of-human-upper-limb</id>
+    <updated>2026-10-19T23:47:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Theoretical goal-directed movements follow a unique, stereotyped velocity profile, but continuous movement has no unique optimal solution, so it is unclear whether motor optimization makes continuous movement more stereotyped or more diverse. Previous studies indicated higher information content in the dominant hand, suggesting greater diversity. Because continuous velocity is a composition of overlapping joints movement of varying form, timing and amplitude, comparable to the events that compose spike trains and heartbeat series, we asked whether this diversity appears as a wider multifractal spectrum of velocity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27399v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Simple Strategy-Iteration with Dantzig&apos;s Rule is not Strongly Polynomial on Turn-Based Deterministic Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-87-simple-strategy-iteration-with-dantzig"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27386v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-87-simple-strategy-iteration-with-dantzig</id>
+    <updated>2026-10-19T23:19:32+00:00</updated>
+    <summary type="html">&lt;p&gt;We study turn-based deterministic zero-sum games with discounted and long-run average costs. For discounted costs, we establish exponential and superpolynomial iteration lower bounds for the simple strategy-iteration method with Dantzig&amp;apos;s rule under unrestricted costs and unit weights, respectively. To the best of our knowledge, this shows for the first time that the method is not strongly polynomial even when all action costs belong to $\{-1,0,1\}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27386v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-88-fundamental-impossibility-results-in-ai"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27373v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-88-fundamental-impossibility-results-in-ai</id>
+    <updated>2026-10-19T22:57:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Is there a fundamental tradeoff between desiderata for safe AI systems, such as harmlessness and helpfulness? We answer by formalizing the interaction between AI systems and users as a game with three players: a defender and an attacker that are computationally or informationally bounded, and an AI that provides public advice and is less constrained. Our main result shows that there is a fundamental tradeoff in providing advice that helps the defender while advice remains public.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27373v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>District Size Matters: How Seats Per District Shapes Proportionality Under STV</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-89-district-size-matters-how-seats"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27297v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-89-district-size-matters-how-seats</id>
+    <updated>2026-10-19T21:12:31+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the impact of utilizing multimember districts and Single Transferable Vote (STV) as the winner selection method on partisan proportionality. We start with detailed case studies of the upper legislative houses of Illinois, New Hampshire, and New Mexico, building ensembles of redistricting maps with mostly 2-member, mostly 3-member, and mostly 4-member districts for each state. These ensembles are constructed using two methods: building from precincts, and merging currently existing single-member districts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27297v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Does a Flux-Defined Markov Blanket Screen Self-Replicating Gray--Scott Spots? A Computational Test of a Blanket Condition from the Free Energy Principle</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-90-does-a-flux-defined-markov"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27235v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-90-does-a-flux-defined-markov</id>
+    <updated>2026-10-19T20:02:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Friston&amp;apos;s free energy principle holds that a system separated from its environment by a Markov blanket---a boundary whose states statistically screen its interior from its exterior---can be treated as performing approximate Bayesian inference, and that such blankets arise wherever coupling is short-range. We test this blanket condition in a concrete nonlinear pattern-forming system: self-replicating spots in a reaction-diffusion model that persist, compete, and reproduce. Directed boundary exchange and timescale separation hold up reasonably well, with qualifications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27235v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <entry>
+    <title>Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-18-joints-camera-action-co-generating"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28632"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-18-joints-camera-action-co-generating</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28632&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
 </feed>

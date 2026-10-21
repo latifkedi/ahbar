@@ -5,5 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <entry>
+    <title>eMudhra intermediate CA compromise</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-01-emudhra-intermediate-ca-compromise"/>
+    <link rel="related" href="https://emudhra.we-have-a-problem.com/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-01-emudhra-intermediate-ca-compromise</id>
+    <updated>2026-10-20T13:58:33Z</updated>
+    <summary type="html">&lt;p&gt;Mozilla has announced that it has received a report that private keys associated with eight eMudhra intermediate certificates have been compromised: These keys could allow attackers to issue fraudulent HTTPS certificates for websites they do not control. An attacker who could intercept a user&amp;apos;s connection could use those certificates to impersonate websites and potentially read or modify traffic. Mozilla has blocked the affected certificates using its OneCRL centralized list of revoked certificates, and has updated the trusted certificate list in Network Security Services (NSS) 3.131.1 .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://emudhra.we-have-a-problem.com/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DeepInfer: High-performance inference framework for DeepSeek models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-04-deepinfer-high-performance-inference-framework"/>
+    <link rel="related" href="https://github.com/deepseek-ai/DeepInfer"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-04-deepinfer-high-performance-inference-framework</id>
+    <updated>2026-10-20T09:08:54Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/deepseek-ai/DeepInfer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Upcoming critical PHP security release (CVE-2026-109618 / -109619). Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-37-upcoming-critical-php-security-release"/>
+    <link rel="related" href="https://news-web.php.net/php.announce/509"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-37-upcoming-critical-php-security-release</id>
+    <updated>2026-10-20T20:15:50Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://news-web.php.net/php.announce/509&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>In Hilbert space, all things are quantumly possible</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-28-in-hilbert-space-all-things"/>
+    <link rel="related" href="https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-28-in-hilbert-space-all-things</id>
+    <updated>2026-10-21T02:04:15Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Physics, Quantum &amp;amp; Space. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Quantum Broker: QoS-Aware Distribution of Quantum Computations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-32-quantum-broker-qos-aware-distribution"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28342v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-32-quantum-broker-qos-aware-distribution</id>
+    <updated>2026-10-20T15:08:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Cloud-accessible quantum computing has made heterogeneous Quantum Processing Units (QPUs) available through provider platforms that differ in qubit technology, calibration state, queueing behavior, and pricing model. This heterogeneity makes execution management a quantum-engineering concern: a quantum circuit may be executable on several backends, but the resulting cost, latency, fidelity, and reproducibility depend on backend selection and on how measurement shots are allocated. This paper presents the Quantum Broker, an open-source and provider-agnostic framework for Quality-of-Service-aware quantum execution management.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28342v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
+  </entry>
 </feed>

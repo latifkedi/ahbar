@@ -4,919 +4,940 @@
     "name": "arXiv CS (PL, SE, DB, DC, DS)",
     "area": "cs",
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.PL+OR+cat:cs.SE+OR+cat:cs.DB+OR+cat:cs.DC+OR+cat:cs.DS&sortBy=submittedDate&sortOrder=descending&max_results=30",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 3725,
+    "last_checked": "2026-10-21T09:44:24.903477822+00:00"
   },
   {
     "id": "arxiv-cs-fl-lo",
     "name": "arXiv CS (Formal Languages, Logic & Verification)",
     "area": "cs",
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.FL+OR+cat:cs.LO+OR+cat:cs.SC&sortBy=submittedDate&sortOrder=descending&max_results=20",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 906,
+    "last_checked": "2026-10-21T09:44:24.903760821+00:00"
   },
   {
     "id": "hacker-news-top",
     "name": "Hacker News",
     "area": "cs",
     "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=35",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 29,
+    "latency_ms": 258,
+    "last_checked": "2026-10-21T09:44:24.905317231+00:00"
   },
   {
     "id": "hn-show",
     "name": "Show HN (Trending Repos & Tools)",
     "area": "cs",
     "url": "https://hn.algolia.com/api/v1/search?tags=show_hn&hitsPerPage=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 23,
+    "latency_ms": 279,
+    "last_checked": "2026-10-21T09:44:24.905414774+00:00"
   },
   {
     "id": "github-blog",
     "name": "GitHub Official Blog & Releases",
     "area": "cs",
     "url": "https://github.blog/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 48,
+    "last_checked": "2026-10-21T09:44:24.905705126+00:00"
   },
   {
     "id": "lobsters",
     "name": "Lobste.rs",
     "area": "cs",
     "url": "https://lobste.rs/rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 203,
+    "last_checked": "2026-10-21T09:44:24.906482612+00:00"
   },
   {
     "id": "acm-cacm",
     "name": "Communications of the ACM",
     "area": "cs",
     "url": "https://cacm.acm.org/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_403",
+    "items_fetched": 0,
+    "latency_ms": 61,
+    "last_checked": "2026-10-21T09:44:24.906834821+00:00",
+    "error": "HTTP 403 Forbidden"
   },
   {
     "id": "acm-queue",
     "name": "ACM Queue",
     "area": "cs",
     "url": "https://queue.acm.org/rss/feeds/queuecontent.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_410",
+    "items_fetched": 0,
+    "latency_ms": 253,
+    "last_checked": "2026-10-21T09:44:24.907478778+00:00",
+    "error": "HTTP 410 Gone"
   },
   {
     "id": "rust-blog",
     "name": "Rust Programming Language Blog",
     "area": "cs",
     "url": "https://blog.rust-lang.org/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 221,
+    "last_checked": "2026-10-21T09:44:24.907566872+00:00"
   },
   {
     "id": "go-blog",
     "name": "The Go Programming Language Blog",
     "area": "cs",
     "url": "https://go.dev/blog/feed.atom",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 248,
+    "last_checked": "2026-10-21T09:44:24.907644918+00:00"
   },
   {
     "id": "jepsen-io",
     "name": "Jepsen Distributed Systems Research",
     "area": "cs",
     "url": "https://jepsen.io/atom.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 154,
+    "last_checked": "2026-10-21T09:44:24.907747270+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "kleppmann-blog",
     "name": "Martin Kleppmann's Research Blog",
     "area": "cs",
     "url": "https://martin.kleppmann.com/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 176,
+    "last_checked": "2026-10-21T09:44:24.907898092+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "stripe-eng",
     "name": "Stripe Engineering Blog",
     "area": "cs",
     "url": "https://stripe.com/blog/feed.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 117,
+    "last_checked": "2026-10-21T09:44:24.908017615+00:00"
   },
   {
     "id": "discord-eng",
     "name": "Discord Systems & Database Engineering",
     "area": "cs",
     "url": "https://discord.com/blog/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 72,
+    "last_checked": "2026-10-21T09:44:24.908125026+00:00"
   },
   {
     "id": "hf-daily-papers",
     "name": "Hugging Face Daily Papers",
     "area": "ai",
     "url": "https://huggingface.co/api/daily_papers",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 97,
+    "last_checked": "2026-10-21T09:44:24.908669702+00:00"
   },
   {
     "id": "hf-blog",
     "name": "Hugging Face Blog & Open Models",
     "area": "ai",
     "url": "https://huggingface.co/blog/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 94,
+    "last_checked": "2026-10-21T09:44:24.911000078+00:00"
   },
   {
     "id": "ollama-blog",
     "name": "Ollama Blog & Local Models",
     "area": "ai",
     "url": "https://ollama.com/blog/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 93,
+    "last_checked": "2026-10-21T09:44:24.911123498+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "arxiv-ai-ml",
     "name": "arXiv AI & ML (cs.AI, cs.LG, cs.CL, cs.CV, cs.RO)",
     "area": "ai",
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.CV+OR+cat:cs.RO&sortBy=submittedDate&sortOrder=descending&max_results=35",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 1713,
+    "last_checked": "2026-10-21T09:44:24.911969200+00:00"
   },
   {
     "id": "arxiv-stat-ml",
     "name": "arXiv Statistical Machine Learning (stat.ML)",
     "area": "ai",
     "url": "https://export.arxiv.org/api/query?search_query=cat:stat.ML&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 76,
+    "last_checked": "2026-10-21T09:44:24.912064909+00:00"
   },
   {
     "id": "jmlr-papers",
     "name": "Journal of Machine Learning Research (JMLR)",
     "area": "ai",
     "url": "https://www.jmlr.org/jmlr.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 253,
+    "last_checked": "2026-10-21T09:44:24.912229487+00:00"
   },
   {
     "id": "bair-blog",
     "name": "Berkeley AI Research (BAIR)",
     "area": "ai",
     "url": "https://bair.berkeley.edu/blog/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 434,
+    "last_checked": "2026-10-21T09:44:24.911875244+00:00"
   },
   {
     "id": "lilian-weng",
     "name": "Lilian Weng (Lil'Log)",
     "area": "ai",
     "url": "https://lilianweng.github.io/index.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 50,
+    "last_checked": "2026-10-21T09:44:24.912457092+00:00"
   },
   {
     "id": "simon-willison",
     "name": "Simon Willison's Weblog",
     "area": "ai",
     "url": "https://simonwillison.net/atom/everything/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 119,
+    "last_checked": "2026-10-21T09:44:24.911891619+00:00"
   },
   {
     "id": "hf-blog",
     "name": "Hugging Face Engineering & Research Blog",
     "area": "ai",
     "url": "https://huggingface.co/blog/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 90,
+    "last_checked": "2026-10-21T09:44:24.912331367+00:00"
   },
   {
     "id": "nature-mach-intell",
     "name": "Nature Machine Intelligence",
     "area": "ai",
     "url": "https://www.nature.com/natmachintell.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 8,
+    "latency_ms": 36,
+    "last_checked": "2026-10-21T09:44:24.903491669+00:00"
   },
   {
     "id": "deepmind-blog",
     "name": "Google DeepMind Research Blog",
     "area": "ai",
     "url": "https://deepmind.google/blog/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 62,
+    "last_checked": "2026-10-21T09:44:24.903609459+00:00"
   },
   {
     "id": "openai-research",
     "name": "OpenAI Research & Systems",
     "area": "ai",
     "url": "https://openai.com/news/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 101,
+    "last_checked": "2026-10-21T09:44:24.903906515+00:00"
   },
   {
     "id": "arxiv-math-pure",
     "name": "arXiv Mathematics (NT, CO, AG, LO, AT, GR)",
     "area": "math",
     "url": "https://export.arxiv.org/api/query?search_query=cat:math.NT+OR+cat:math.CO+OR+cat:math.AG+OR+cat:math.LO+OR+cat:math.AT+OR+cat:math.GR&sortBy=submittedDate&sortOrder=descending&max_results=30",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 911,
+    "last_checked": "2026-10-21T09:44:24.904638436+00:00"
   },
   {
     "id": "arxiv-math-applied",
     "name": "arXiv Analysis, PDEs & Probability (AP, PR, NA, OC)",
     "area": "math",
     "url": "https://export.arxiv.org/api/query?search_query=cat:math.AP+OR+cat:math.PR+OR+cat:math.NA+OR+cat:math.OC+OR+cat:math.DS&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 3722,
+    "last_checked": "2026-10-21T09:44:24.904772778+00:00"
   },
   {
     "id": "quanta-math",
     "name": "Quanta Magazine (Mathematics)",
     "area": "math",
     "url": "https://api.quantamagazine.org/v1/izar/feed/?section=mathematics",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 0,
+    "latency_ms": 662,
+    "last_checked": "2026-10-21T09:44:24.904868497+00:00"
   },
   {
     "id": "terence-tao",
     "name": "What's New (Terence Tao)",
     "area": "math",
     "url": "https://terrytao.wordpress.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 50,
+    "last_checked": "2026-10-21T09:44:24.905799874+00:00"
   },
   {
     "id": "lean-community",
     "name": "Lean Prover Community & Mathlib Blog",
     "area": "math",
     "url": "https://leanprover-community.github.io/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 67,
+    "last_checked": "2026-10-21T09:44:24.905895863+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "tim-gowers",
     "name": "Gowers's Weblog (Timothy Gowers)",
     "area": "math",
     "url": "https://gowers.wordpress.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 58,
+    "last_checked": "2026-10-21T09:44:24.906067083+00:00"
   },
   {
     "id": "gil-kalai",
     "name": "Combinatorics and More (Gil Kalai)",
     "area": "math",
     "url": "https://gilkalai.wordpress.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 64,
+    "last_checked": "2026-10-21T09:44:24.907305299+00:00"
   },
   {
     "id": "n-category-cafe",
     "name": "The n-Category Café (Math, Physics & Philosophy)",
     "area": "math",
     "url": "https://golem.ph.utexas.edu/category/atom10.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 15,
+    "latency_ms": 292,
+    "last_checked": "2026-10-21T09:44:24.907415244+00:00"
   },
   {
     "id": "ams-math",
     "name": "American Mathematical Society (AMS News & Research)",
     "area": "math",
     "url": "https://www.ams.org/rss/mathnews.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_403",
+    "items_fetched": 0,
+    "latency_ms": 184,
+    "last_checked": "2026-10-21T09:44:24.907951768+00:00",
+    "error": "HTTP 403 Forbidden"
   },
   {
     "id": "arxiv-physics-quantum",
     "name": "arXiv Quantum & Condensed Matter (quant-ph, cond-mat)",
     "area": "physics",
     "url": "https://export.arxiv.org/api/query?search_query=cat:quant-ph+OR+cat:cond-mat.supr-con+OR+cat:cond-mat.mes-hall+OR+cat:cond-mat.str-el&sortBy=submittedDate&sortOrder=descending&max_results=30",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 437,
+    "last_checked": "2026-10-21T09:44:24.908624957+00:00"
   },
   {
     "id": "arxiv-physics-hep-astro",
     "name": "arXiv High-Energy, Astrophysics & Optics (hep-th, astro-ph, optics)",
     "area": "physics",
     "url": "https://export.arxiv.org/api/query?search_query=cat:hep-th+OR+cat:gr-qc+OR+cat:astro-ph.CO+OR+cat:astro-ph.HE+OR+cat:physics.optics&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 368,
+    "last_checked": "2026-10-21T09:44:24.908752044+00:00"
   },
   {
     "id": "quanta-physics",
     "name": "Quanta Magazine (Physics)",
     "area": "physics",
     "url": "https://api.quantamagazine.org/v1/izar/feed/?section=physics",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 0,
+    "latency_ms": 602,
+    "last_checked": "2026-10-21T09:44:24.909655604+00:00"
   },
   {
     "id": "aps-physics",
     "name": "APS Physics Magazine",
     "area": "physics",
     "url": "https://physics.aps.org/rss/recent.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_403",
+    "items_fetched": 0,
+    "latency_ms": 88,
+    "last_checked": "2026-10-21T09:44:24.909756252+00:00",
+    "error": "HTTP 403 Forbidden"
   },
   {
     "id": "nature-physics",
     "name": "Nature Physics",
     "area": "physics",
     "url": "https://www.nature.com/nphys.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 8,
+    "latency_ms": 30,
+    "last_checked": "2026-10-21T09:44:24.911251297+00:00"
   },
   {
     "id": "quantum-journal",
     "name": "Quantum — The Open Journal for Quantum Science",
     "area": "physics",
     "url": "https://quantum-journal.org/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 1356,
+    "last_checked": "2026-10-21T09:44:24.912401027+00:00"
   },
   {
     "id": "scott-aaronson",
     "name": "Shtetl-Optimized (Scott Aaronson)",
     "area": "physics",
     "url": "https://scottaaronson.blog/?feed=rss2",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 53,
+    "last_checked": "2026-10-21T09:44:24.903503735+00:00"
   },
   {
     "id": "cern-news",
     "name": "CERN Science & Accelerator Dispatches",
     "area": "physics",
     "url": "https://home.cern/api/news/news/feed.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 989,
+    "last_checked": "2026-10-21T09:44:24.903832907+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "phys-org-quantum",
     "name": "Phys.org (Quantum & Condensed Matter)",
     "area": "physics",
     "url": "https://phys.org/rss-feed/physics-news/quantum-physics/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 258,
+    "last_checked": "2026-10-21T09:44:24.904469718+00:00"
   },
   {
     "id": "arstechnica-tech",
     "name": "Ars Technica (Applied Tech & Hardware)",
     "area": "systems",
     "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 68,
+    "last_checked": "2026-10-21T09:44:24.904568914+00:00"
   },
   {
     "id": "mit-tech-review",
     "name": "MIT Technology Review",
     "area": "systems",
     "url": "https://www.technologyreview.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 63,
+    "last_checked": "2026-10-21T09:44:24.905058519+00:00"
   },
   {
     "id": "arxiv-systems-arch",
     "name": "arXiv Systems & Architecture (cs.OS, cs.AR, cs.NI, cs.PF)",
     "area": "systems",
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.OS+OR+cat:cs.AR+OR+cat:cs.NI+OR+cat:cs.PF&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 904,
+    "last_checked": "2026-10-21T09:44:24.905482632+00:00"
   },
   {
     "id": "lwn-net",
     "name": "LWN.net (Linux & Kernel Engineering)",
     "area": "systems",
     "url": "https://lwn.net/headlines/rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 15,
+    "latency_ms": 99,
+    "last_checked": "2026-10-21T09:44:24.905565056+00:00"
   },
   {
     "id": "project-zero",
     "name": "Google Project Zero",
     "area": "systems",
     "url": "https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "payload_too_large",
+    "items_fetched": 0,
+    "latency_ms": 298,
+    "last_checked": "2026-10-21T09:44:24.906334267+00:00",
+    "error": "Feed exceeded 5 MB limit"
   },
   {
     "id": "trail-of-bits",
     "name": "Trail of Bits Security Research",
     "area": "systems",
     "url": "https://blog.trailofbits.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 205,
+    "last_checked": "2026-10-21T09:44:24.906424356+00:00"
   },
   {
     "id": "chips-and-cheese",
     "name": "Chips and Cheese (Microarchitecture Deep-Dives)",
     "area": "systems",
     "url": "https://chipsandcheese.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 141,
+    "last_checked": "2026-10-21T09:44:24.907024047+00:00"
   },
   {
     "id": "phoronix",
     "name": "Phoronix (Linux Hardware & Compilers)",
     "area": "systems",
     "url": "https://www.phoronix.com/rss.php",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 32,
+    "latency_ms": 89,
+    "last_checked": "2026-10-21T09:44:24.907170651+00:00"
   },
   {
     "id": "cloudflare-blog",
     "name": "Cloudflare Systems & Network Engineering",
     "area": "systems",
     "url": "https://blog.cloudflare.com/rss/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 69,
+    "last_checked": "2026-10-21T09:44:24.908237817+00:00"
   },
   {
     "id": "brendan-gregg",
     "name": "Brendan Gregg (Systems Performance & eBPF)",
     "area": "systems",
     "url": "https://www.brendangregg.com/blog/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 442,
+    "last_checked": "2026-10-21T09:44:24.908582401+00:00"
   },
   {
     "id": "krebs-security",
     "name": "Krebs on Security",
     "area": "systems",
     "url": "https://krebsonsecurity.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 46,
+    "last_checked": "2026-10-21T09:44:24.903517748+00:00"
   },
   {
     "id": "ieee-spectrum",
     "name": "IEEE Spectrum (Semiconductors & Hardware)",
     "area": "systems",
     "url": "https://spectrum.ieee.org/feeds/feed.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 1080,
+    "last_checked": "2026-10-21T09:44:24.903678549+00:00"
   },
   {
     "id": "arxiv-qbio",
     "name": "arXiv Quantitative Biology & Materials (q-bio, mtrl-sci)",
     "area": "bio",
     "url": "https://export.arxiv.org/api/query?search_query=cat:q-bio.QM+OR+cat:q-bio.GN+OR+cat:q-bio.NC+OR+cat:q-bio.BM+OR+cat:cond-mat.mtrl-sci&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 457,
+    "last_checked": "2026-10-21T09:44:24.903993085+00:00"
   },
   {
     "id": "nature-bt-comp",
     "name": "Nature Computational Science",
     "area": "bio",
     "url": "https://www.nature.com/natcomputsci.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 8,
+    "latency_ms": 31,
+    "last_checked": "2026-10-21T09:44:24.904086239+00:00"
   },
   {
     "id": "nature-biotech",
     "name": "Nature Biotechnology",
     "area": "bio",
     "url": "https://www.nature.com/nbt.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 8,
+    "latency_ms": 29,
+    "last_checked": "2026-10-21T09:44:24.904194672+00:00"
   },
   {
     "id": "quanta-biology",
     "name": "Quanta Magazine (Biology & Neuroscience)",
     "area": "bio",
     "url": "https://api.quantamagazine.org/v1/izar/feed/?section=biology",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 0,
+    "latency_ms": 669,
+    "last_checked": "2026-10-21T09:44:24.905233519+00:00"
   },
   {
     "id": "in-the-pipeline",
     "name": "In the Pipeline (Derek Lowe — Drug Discovery & Chemistry)",
     "area": "bio",
     "url": "https://www.science.org/blogs/pipeline/feed",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 6428,
+    "last_checked": "2026-10-21T09:44:24.905631303+00:00"
   },
   {
     "id": "biorxiv-bioinfo",
     "name": "bioRxiv Bioinformatics Preprints",
     "area": "bio",
     "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 124,
+    "last_checked": "2026-10-21T09:44:24.906182443+00:00"
   },
   {
     "id": "iacr-eprint",
     "name": "IACR Cryptology ePrint Archive",
     "area": "crypto",
     "url": "https://eprint.iacr.org/rss/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 637,
+    "last_checked": "2026-10-21T09:44:24.906462126+00:00"
   },
   {
     "id": "arxiv-crypto",
     "name": "arXiv Cryptography & Security (cs.CR)",
     "area": "crypto",
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CR&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 85,
+    "last_checked": "2026-10-21T09:44:24.906564398+00:00"
   },
   {
     "id": "ethresearch",
     "name": "Ethereum Research (ethresear.ch)",
     "area": "crypto",
     "url": "https://ethresear.ch/latest.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 2138,
+    "last_checked": "2026-10-21T09:44:24.906655348+00:00"
   },
   {
     "id": "vitalik-blog",
     "name": "Vitalik Buterin's Blog",
     "area": "crypto",
     "url": "https://vitalik.eth.limo/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 164,
+    "last_checked": "2026-10-21T09:44:24.906743773+00:00"
   },
   {
     "id": "paradigm-research",
     "name": "Paradigm Cryptography & Systems Research",
     "area": "crypto",
     "url": "https://www.paradigm.xyz/feed.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 204,
+    "last_checked": "2026-10-21T09:44:24.907231793+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "a16z-crypto-research",
     "name": "a16z Crypto Research (SNARKs & Consensus)",
     "area": "crypto",
     "url": "https://a16zcrypto.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 30,
+    "latency_ms": 285,
+    "last_checked": "2026-10-21T09:44:24.908312444+00:00"
   },
   {
     "id": "arxiv-econ",
     "name": "arXiv Economics (econ.EM, econ.GN, econ.TH)",
     "area": "econ",
     "url": "https://export.arxiv.org/api/query?search_query=cat:econ.EM+OR+cat:econ.GN+OR+cat:econ.TH&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 1305,
+    "last_checked": "2026-10-21T09:44:24.908407512+00:00"
   },
   {
     "id": "arxiv-qfin",
     "name": "arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)",
     "area": "econ",
     "url": "https://export.arxiv.org/api/query?search_query=cat:q-fin.ST+OR+cat:q-fin.MF+OR+cat:q-fin.TR+OR+cat:q-fin.CP+OR+cat:q-fin.EC&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 305,
+    "last_checked": "2026-10-21T09:44:24.908826996+00:00"
   },
   {
     "id": "nber-working-papers",
     "name": "NBER Working Papers (National Bureau of Economic Research)",
     "area": "econ",
     "url": "https://back.nber.org/rss/new.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 29,
+    "latency_ms": 141,
+    "last_checked": "2026-10-21T09:44:24.909036568+00:00"
   },
   {
     "id": "voxeu-cepr",
     "name": "VoxEU / CEPR Economic Policy Research",
     "area": "econ",
     "url": "https://cepr.org/rss/voxeu",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 1103,
+    "last_checked": "2026-10-21T09:44:24.909153216+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "bis-research",
     "name": "Bank for International Settlements (BIS Research)",
     "area": "econ",
     "url": "https://www.bis.org/doclist/bis_fsi_publs.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 615,
+    "last_checked": "2026-10-21T09:44:24.909569467+00:00"
   },
   {
     "id": "fed-liberty-street",
     "name": "Federal Reserve Bank of New York — Liberty Street Economics",
     "area": "econ",
     "url": "https://libertystreeteconomics.newyorkfed.org/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 82,
+    "last_checked": "2026-10-21T09:44:24.909942592+00:00"
   },
   {
     "id": "piie-econ",
     "name": "Peterson Institute for International Economics (PIIE)",
     "area": "econ",
     "url": "https://www.piie.com/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 107,
+    "last_checked": "2026-10-21T09:44:24.910042469+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "tcmb-blog",
     "name": "TCMB Araştırma Blogu (Merkez Bankası)",
     "area": "econ",
     "url": "https://tcmblog.org/tr/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "error",
+    "items_fetched": 0,
+    "latency_ms": 213,
+    "last_checked": "2026-10-21T09:44:24.910165529+00:00",
+    "error": "error sending request for url (https://tcmblog.org/tr/feed/)"
   },
   {
     "id": "tepav-research",
     "name": "TEPAV (Türkiye Ekonomi Politikaları Araştırma Vakfı)",
     "area": "econ",
     "url": "https://www.tepav.org.tr/tr/rss/blog",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_404",
+    "items_fetched": 0,
+    "latency_ms": 287,
+    "last_checked": "2026-10-21T09:44:24.910252291+00:00",
+    "error": "HTTP 404 Not Found"
   },
   {
     "id": "foreign-affairs",
     "name": "Foreign Affairs",
     "area": "geopolitics",
     "url": "https://www.foreignaffairs.com/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 96,
+    "last_checked": "2026-10-21T09:44:24.909261892+00:00"
   },
   {
     "id": "carnegie-endowment",
     "name": "Carnegie Endowment for International Peace",
     "area": "geopolitics",
     "url": "https://carnegieendowment.org/rss/solr",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "parse_error",
+    "items_fetched": 0,
+    "latency_ms": 304,
+    "last_checked": "2026-10-21T09:44:24.909367740+00:00",
+    "error": "unable to parse feed: no root element"
   },
   {
     "id": "atlantic-council",
     "name": "Atlantic Council (Geopolitics, Statecraft & Tech Strategy)",
     "area": "geopolitics",
     "url": "https://www.atlanticcouncil.org/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 63,
+    "last_checked": "2026-10-21T09:44:24.909458970+00:00"
   },
   {
     "id": "war-on-the-rocks",
     "name": "War on the Rocks (Defense & Grand Strategy)",
     "area": "geopolitics",
     "url": "https://warontherocks.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 120,
+    "last_checked": "2026-10-21T09:44:24.910049966+00:00"
   },
   {
     "id": "lawfare-blog",
     "name": "Lawfare (National Security, Tech Policy & International Law)",
     "area": "geopolitics",
     "url": "https://www.lawfaremedia.org/rss.xml",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_403",
+    "items_fetched": 0,
+    "latency_ms": 229,
+    "last_checked": "2026-10-21T09:44:24.910356216+00:00",
+    "error": "HTTP 403 Forbidden"
   },
   {
     "id": "ecfr-eu",
     "name": "European Council on Foreign Relations (ECFR)",
     "area": "geopolitics",
     "url": "https://ecfr.eu/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_403",
+    "items_fetched": 0,
+    "latency_ms": 257,
+    "last_checked": "2026-10-21T09:44:24.910468746+00:00",
+    "error": "HTTP 403 Forbidden"
   },
   {
     "id": "edam-turkey",
     "name": "EDAM (Ekonomi ve Dış Politika Araştırmalar Merkezi)",
     "area": "geopolitics",
     "url": "https://edam.org.tr/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "http_500",
+    "items_fetched": 0,
+    "latency_ms": 890,
+    "last_checked": "2026-10-21T09:44:24.910585765+00:00",
+    "error": "HTTP 500 Internal Server Error"
   },
   {
     "id": "arxiv-gt-complex",
     "name": "arXiv Game Theory, Complex Systems & Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)",
     "area": "philosophy",
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.GT+OR+cat:nlin.AO+OR+cat:physics.soc-ph+OR+cat:physics.hist-ph&sortBy=submittedDate&sortOrder=descending&max_results=25",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 25,
+    "latency_ms": 315,
+    "last_checked": "2026-10-21T09:44:24.910420338+00:00"
   },
   {
     "id": "philsci-archive",
     "name": "PhilSci-Archive (Philosophy of Science Preprints)",
     "area": "philosophy",
     "url": "https://philsci-archive.pitt.edu/cgi/latest_tool?output=Atom",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "parse_error",
+    "items_fetched": 0,
+    "latency_ms": 114,
+    "last_checked": "2026-10-21T09:44:24.910748592+00:00",
+    "error": "unable to parse feed: no root element"
   },
   {
     "id": "aeon-essays",
     "name": "Aeon (Philosophy, Science & Cognitive Essays)",
     "area": "philosophy",
     "url": "https://aeon.co/feed.rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 193,
+    "last_checked": "2026-10-21T09:44:24.911362015+00:00"
   },
   {
     "id": "daily-nous",
     "name": "Daily Nous (Philosophy Research & Epistemology)",
     "area": "philosophy",
     "url": "https://dailynous.com/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 10,
+    "latency_ms": 136,
+    "last_checked": "2026-10-21T09:44:24.911480877+00:00"
   },
   {
     "id": "mit-press-reader",
     "name": "The MIT Press Reader (Science, Epistemology & Systems)",
     "area": "philosophy",
     "url": "https://thereader.mitpress.mit.edu/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 20,
+    "latency_ms": 272,
+    "last_checked": "2026-10-21T09:44:24.911585883+00:00"
   },
   {
     "id": "santa-fe-institute",
     "name": "Santa Fe Institute (Complexity & Adaptive Systems)",
     "area": "philosophy",
     "url": "https://www.santafe.edu/news-center/news/rss",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "parse_error",
+    "items_fetched": 0,
+    "latency_ms": 650,
+    "last_checked": "2026-10-21T09:44:24.911661735+00:00",
+    "error": "unable to parse feed: no root element"
   },
   {
     "id": "sarkac-bilim",
     "name": "Bilim Akademisi — Sarkaç",
     "area": "philosophy",
     "url": "https://sarkac.org/feed/",
-    "status": "offline_seed",
-    "items_fetched": 3,
-    "latency_ms": 0,
-    "last_checked": "2026-10-20T16:49:34.141753100+00:00"
+    "status": "ok",
+    "items_fetched": 35,
+    "latency_ms": 787,
+    "last_checked": "2026-10-21T09:44:24.911717910+00:00"
   }
 ]

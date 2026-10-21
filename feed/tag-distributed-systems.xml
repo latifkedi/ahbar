@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Byzantine Fault Injection and Split-Brain Recovery in Consensus-Backed Object Stores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-02-byzantine-fault-injection-and-split"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05440"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-02-byzantine-fault-injection-and-split</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Deterministic simulation testing across five Raft and Paxos storage engines reveals stale reads under asymmetric network partitions coupled with NVMe fsync stalls. We present a formal TLA+ invariant checker that reproduces linearizability violations in under $40\text{ seconds}$ of simulated cluster time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05440&quot;&gt;Jepsen / Distributed Systems&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #distributed-systems #databases #formal-proofs&lt;/p&gt;</summary>
+    <title>Quantum Broker: QoS-Aware Distribution of Quantum Computations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-32-quantum-broker-qos-aware-distribution"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28342v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-32-quantum-broker-qos-aware-distribution</id>
+    <updated>2026-10-20T15:08:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Cloud-accessible quantum computing has made heterogeneous Quantum Processing Units (QPUs) available through provider platforms that differ in qubit technology, calibration state, queueing behavior, and pricing model. This heterogeneity makes execution management a quantum-engineering concern: a quantum circuit may be executable on several backends, but the resulting cost, latency, fidelity, and reproducibility depend on backend selection and on how measurement shots are allocated. This paper presents the Quantum Broker, an open-source and provider-agnostic framework for Quality-of-Service-aware quantum execution management.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28342v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-single-slot-finality-under-sub"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-single-slot-finality-under-sub</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Deterministic B-Tree Compaction Under Serializable Snapshot Isolation. Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-03-deterministic-b-tree-compaction-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.05109"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-03-deterministic-b-tree-compaction-under</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern MVCC storage engines suffer from write amplification when long-running read snapshots pin obsolete page versions. We introduce horizon-partitioned B-epsilon trees that bound worst-case compaction I/O to $O((B \log_B N)/M)$ while preserving strict serializable snapshot isolation across NVMe arrays.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.05109&quot;&gt;arXiv CS (cs.DB)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #databases #distributed-systems #algorithms&lt;/p&gt;</summary>
+    <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-58-birthday-estimators-are-uniformly-optimal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28581v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-58-birthday-estimators-are-uniformly-optimal</id>
+    <updated>2026-10-20T17:37:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie Rényi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator. We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28581v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
   </entry>
 </feed>

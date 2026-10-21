@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #2 (2026-10-20)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-10-20</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-10-20:issue:2</guid>
-      <pubDate>2026-10-20T16:49:34.141753100+00:00</pubDate>
-      <description>Ahbar Sayı #2 (2026-10-20):
+      <title>Ahbar Günlük Bülten — Sayı #3 (2026-10-21)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-10-21</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-10-21:issue:3</guid>
+      <pubDate>2026-10-21T09:44:24.903260377+00:00</pubDate>
+      <description>Ahbar Sayı #3 (2026-10-21):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] Asenkron Rust durum makineleri için sıfır-kopya (zero-copy) bölge çıkarımı: askıya alma noktaları arasındaki gereksiz yığın (heap) tahsislerini ortadan kaldırır.
-Rust&apos;taki async/await durum makineleri için yaşam süresi (lifetime) projeksiyonlu çekirdek bir kalkülüs üzerinde sağlamlığı kanıtlanan bölge tabanlı ödünç alma analizi, üreteç çerçeve boyutlarını $38\%$ küçültür ve Tokio iş yüklerinde `unsafe` kod kullanmadan kuyruk gecikmesini $1.42\times$ iyileştirir.
+1. [Bilgisayar Bilimi &amp; Yazılım] eMudhra ara CA uzlaşması
+Mozilla, sekiz eMudhra ara sertifikasıyla ilişkili özel anahtarların ele geçirildiğine dair bir rapor aldığını duyurdu: Bu anahtarlar, saldırganların kontrol etmedikleri web siteleri için sahte HTTPS sertifikaları yayınlamasına olanak sağlayabilir. Bir kullanıcının bağlantısına müdahale edebilen bir saldırgan, bu sertifikaları web sitelerinin kimliğine bürünmek için kullanabilir…
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] 1 milyon token bağlamda Blok-Spektral Yönlendirme (BSR) ile $O(L \log L)$ karmaşıklığında alt-karesel seyrek dikkat mekanizması.
-Standart öz-dikkat mekanizmasının $O(L^2)$ darboğazını aşmak için anahtar-değer bloklarını düşük dereceli Chebyshev tabanına izdüşüren Blok-Spektral Yönlendirme (BSR), FlashAttention-3 doğruluğunu korurken KV-önbellek bant genişliğini $4.7\times$ azaltır.
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] Gemini 3.8 Flash ve 3.8 Flash Cyber ​​ile tanışın. Google, güvenlik açıklarını bulup düzeltmeye yönelik hafif bir siber güvenlik modeli olan Gemini 3.5 Flash Cyber&apos;ı tanıttı.
+Google, güvenlik açıklarını bulup düzeltmeye yönelik hafif bir siber güvenlik modeli olan Gemini 3.5 Flash Cyber&apos;ı tanıttı.
 
-3. [Matematik &amp; Biçimsel Bilimler] $\mathbb{F}_p^n$ içinde aritmetik dizi içermeyen yoğun kümeler için iyileştirilmiş $(cp)^n$ üst sınırı ve Lean 4 ile biçimsel doğrulama.
-Dilim-derecesi (slice-rank) polinom spektral kararlılığı kullanılarak $\mathbb{F}_p^n$ içindeki üç terimli aritmetik dizi içermeyen altkümeler için $c &lt; 0.841$ ile $(cp)^n$ üst sınırı kanıtlandı; temel kombinatorik indirgeme Lean 4 / Mathlib üzerinde bütünüyle mekanize edildi.
+3. [Matematik &amp; Biçimsel Bilimler] Oktonyonlar ve Standart Model (Bölüm 15)
+John Baez, Endre Bokor ve Latham Boyle&apos;un, Standart Model ölçü grubunu ele alan yeni bir makaleleri var ve bunun, biyoktonyon çiftlerinden oluşan Jordan üçlüsünden başlayarak fermiyonların bir nesline ilişkin temsili var.
 
-4. [Fizik, Kuantum &amp; Uzay] İki değişkenli bisiklet (bivariate bicycle) kuantum LDPC kodları üzerinde sabit derinlikli ve hata-toleranslı sihirli durum damıtımı.
-Yüzey kodlarının mantıksal kübit başına $1{,}000+$ fiziksel kübit gereksinimini aşmak için $[[144, 12, 12]]$ qLDPC kodları üzerinde doğrudan çalışan sabit derinlikli sihirli durum fabrikası kuruldu; düzlemsel örgü cerrahisine kıyasla $6.8\times$ daha az fiziksel kübitle $10^{-9}$ altı mantıksal $T$-kapısı hatasına ulaşıldı.
+4. [Fizik, Kuantum &amp; Uzay] Hilbert uzayında her şey kuantum olarak mümkündür
+Fizik, Kuantum ve Uzay alanında Hacker News aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Spekülatif matris yazmaç yeniden adlandırmalı açık kaynaklı sırasız (out-of-order) RISC-V vektör çekirdeği.
-Karma FP8/BF16 çekirdeklerinde yazmaç dosyası portlarının doygunluğa ulaşarak süperskaler boru hatlarını durdurmasını önlemek için matris akümülatör yeniden adlandırmasını skaler ROB girdilerinden ayıran açık kaynaklı SystemVerilog `RV64GCV` çekirdeği $5\text{ nm}$ sürecinde üretildi ve $3.1\text{ TFLOPS/W}$ verime ulaştı.
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Yaklaşan kritik PHP güvenlik sürümü (CVE-2026-109618 / -109619). Yorumlar
+Yorumlar
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] De novo metaloenzim aktif bölge tasarımı için tüm-atom $SE(3)$-eşdeğişkin akış eşleştirme (flow matching) ve kuantum mekaniksel potansiyel kuplajı.
-Geçiş metali koordinasyon geometrisinde $3d$-orbital elektronik etkilerini modellemek için $SE(3)$-eşdeğişkin akış eşleştirmeyi sıkı-bağlama (tight-binding) kuantum mekaniksel potansiyelle birleştiren model, yönlendirilmiş evrim olmadan ıslak laboratuvar deneylerinde $k_{\text{cat}}/K_M &gt; 10^5\text{ M}^{-1}\text{s}^{-1}$ katalitik verime sahip çinko ve demir hidrolazlar tasarlar.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] ALTIN: Uzaysal transkriptomik verilerde genetik heterojenite için gen ekspresyonu ve alel bilgili ayrışma
+Motivasyon Uzamsal transkriptomik (ST), bağışıklık tepkileri de dahil olmak üzere hücresel etkileşimlerin araştırılmasına olanak tanır. Bununla birlikte, mevcut yöntemler, plasental veya allograft dokular da dahil olmak üzere klonal olmayan hücreleri barındıran nişlerin mevcut olduğu genetik heterojeniteyi ele almadaki sınırlamalarla birlikte patologlara dayanmaktadır. Geriye bu bireyler arası karışımları deşifre etmek kalıyor…
 
-7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] HyperFold: Goldilocks asal halkaları üzerinde kuantum-sonrası güvenli ve $O(\log N)$ doğrulamalı kafes katlama (lattice folding) protokolü.
-Shor algoritmasına duyarlı eliptik eğri katlama şemalarının (Nova/HyperNova) yerine Goldilocks asalları ($p = 2^{64} - 2^{32} + 1$) üzerinde kurulan ring-SIS kafes katlama protokolü, $128$-bit kuantum-sonrası güvenlik, $14\text{ KB}$ kanıt boyutu ve tüketici GPU&apos;larında $3.9\times$ daha hızlı RISC-V zkVM kanıtlama performansı sunar.
+7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
+Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Kamu borcu vade duvarları altında heterojen ajanlı (HANK) parasal aktarım mekanizması ve mali baskınlık sınırları.
-38 OECD ve gelişmekte olan ülke tahvil piyasası üzerinde içsel vade primli sürekli-zamanlı bir HANK modeli çözüldü; kısa vadeli borç çevirme oranının GSYH&apos;nin $28\%$&apos;ini aştığı ekonomilerde $100\text{ baz puanlık}$ faiz artışının mali baskınlık yayılımları nedeniyle dezenflasyon etkisini $42\%$ zayıflattığı, ancak likidite çekici repo koridorlarıyla bu kaybın telafi edildiği gösterildi.
+8. [Ekonomi, Finans &amp; Makro Analiz] Fiziksel Olmayan Tüccarların Spekülatif Dengesizlik Pozisyonları: Büyük Britanya&apos;da Elektrik Sistemi Dengelemesi Üzerindeki Etkiler
+Büyük Britanya&apos;daki (Büyük Britanya) elektrik sistemi, katılımcıların kasıtlı olarak kendi işlem gören pozisyonlarından farklı bir hacim üretmesine veya tüketmesine olanak tanıyor ve bu uygulamayı 2015&apos;ten bu yana tek bir dengesizlik fiyatıyla teşvik ediyor. Özellikle, fiziksel olmayan tüccarlar (NPT&apos;ler) genellikle enerji üretme veya tüketme niyeti olmadan dengesizliğe açık pozisyon alırlar. Nasıl…
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] 2nm altı EUV litografi ve yüksek bant genişlikli bellek (HBM) tedarik zincirlerinde darboğaz geometrisi.
-Yalnızca nihai yapay zekâ hızlandırıcılarının FLOPS/mm² yoğunluğunu hedef alan ihracat kontrollerinin, yukarı-akım fotorezist kimyasalları, EUV pelikülleri ve gelişmiş paketleme (CoWoS-L) tek-nokta bağımlılıklarını gözden kaçırdığı; 140 üretim katmanlı ağ modelinde plaka-düzeyi metroloji kısıtlarının sınır küme kurulumunu fabrika ekipmanı ambargolarından $3.2\times$ daha sıkı sınırladığı gösterildi.
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Braw, New York Post&apos;ta yeni kitabı &quot;Denizaltı Savaşı&quot; hakkında
+11 Ekim&apos;de Elisabeth Braw, New York Post&apos;ta yeni çıkan kitabı &quot;Denizaltı Savaşı&quot;nı tartışan bir makalede yer aldı. Braw&apos;ın New York Post&apos;taki yeni kitabı &quot;Denizaltı Savaşı&quot; hakkındaki yazısı ilk olarak Atlantic Council&apos;de çıktı.
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Çok ölçekli Markov battaniyelerinde kaba-ölçekleme (coarse-graining) ve nedensel beliriş (causal emergence).
-Bir makro-durum değişkeninin altta yatan mikro-dinamiklerden ne zaman daha yüksek nedensel öngörü gücüne sahip olduğu sorusu, hiyerarşik Markov battaniyeleri üzerinde müdahaleci bilgi kuramı ve renormalizasyon grubu akışlarıyla çözüldü; dejenere mikro-gürültü sönümlenmesi sayesinde makro-ölçek efektif bilginin $EI(M) &gt; EI(\mu)$ olduğu tam eşik türetildi.
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Telefon Oyunu: Telefon Dolandırıcılıklarını Önlemek İçin &apos;Bot Savaşları&apos;nda Oyun Teorisi ve Yüksek Lisans&apos;tan Yararlanma
+Telefon dolandırıcılıkları, dünya çapında bireylere ve finansal sistemlere önemli ve giderek artan maliyetler yüklemektedir; ancak mevcut karşı önlemler, faillere herhangi bir kaynak maliyeti yüklememektedir. Otomatik ajanların operasyonel kapasitelerini tüketmek için dolandırıcılarla etkileşime geçtiği stratejik dolandırıcılık tuzağı, proaktif bir alternatif sunar ancak statik sistem için dinamik strateji adaptasyonu gerektirir.
 
 </description>
       <itunes:duration>300</itunes:duration>

@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Optimal Execution and Adverse Selection in Hawkes-Driven Limit Order Books with Rough Volatility</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-24-optimal-execution-and-adverse-selection"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09522"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-24-optimal-execution-and-adverse-selection</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Almgren-Chriss execution assumes Brownian price impact and Poisson order flow, underestimating tail slippage during liquidity droughts. Modeling mutually exciting order arrivals via a bivariate Hawkes process coupled with fractional Hurst exponent $H \approx 0.12$, we derive closed-form Riccati execution schedules that cut implementation shortfall by $19.4\text{ bps}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09522&quot;&gt;arXiv Quantitative Finance (q-fin.TR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats&lt;/p&gt;</summary>
+    <title>Extending Mechanisms</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-66-extending-mechanisms"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27839v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-66-extending-mechanisms</id>
+    <updated>2026-10-20T08:26:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Given an incentive-compatible mechanism for a single agent on a restricted domain of valuations, we consider its incentive-compatible extensions to the entire valuation space. We identify two extreme extensions: the &amp;quot;keep-the-menu&amp;quot; extension, which minimizes buyer payoffs and maximizes canonical prices pointwise, and the &amp;quot;keep-the-pricing&amp;quot; extension, which maximizes buyer payoffs and minimizes canonical prices…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27839v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
 </feed>

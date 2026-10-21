@@ -5,29 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-llm.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-llm.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Sub-Quadratic Sparse Attention via Block-Spectral Routing at 1M Context. Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-04-sub-quadratic-sparse-attention-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.09241"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-04-sub-quadratic-sparse-attention-via</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Exact self-attention scales as $O(L^2)$ in sequence length $L$, bottlenecking million-token inference. We propose Block-Spectral Routing (BSR), which projects key-value blocks onto a low-rank Chebyshev basis and routes queries to the top-$k$ spectral buckets in $O(L \log L)$ time, matching full FlashAttention-3 accuracy on needle-in-a-haystack and code reasoning benchmarks with $4.7\times$ lower KV-cache bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.09241&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #inference #ml-theory&lt;/p&gt;</summary>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-10-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-10-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Verified Tool-Use Trajectories for Multi-Step Coding Agents via Formal Preconditions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-05-verified-tool-use-trajectories-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08814"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-05-verified-tool-use-trajectories-for</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Autonomous coding agents frequently execute destructive shell or filesystem mutations when intermediate hypotheses fail. We attach lightweight Hoare-style state preconditions to MCP tool schemas, pruning invalid action branches before execution and raising SWE-bench Verified pass rates by $11.4\%$ with $32\%$ fewer token rollouts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08814&quot;&gt;arXiv AI (cs.LG)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #agents #llm #formal-proofs&lt;/p&gt;</summary>
+    <title>Evolving Agent Interfaces. Computer-use agents are limited by the interfaces humans give them.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-11-evolving-agent-interfaces"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28601"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-11-evolving-agent-interfaces</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Computer-use agents are limited by the interfaces humans give them. An agent may type a spreadsheet cell by cell when a single line of code would do, or print all two thousand lines of a file through a shell to find one function. Both the interfaces and the knowledge of when to use each are built by hand, which cannot keep pace with new applications, workflows, and models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28601&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp Non-Asymptotic Generalization Bounds for LoRA Fine-Tuning Under Heavy-Tailed Gradients</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-06-sharp-non-asymptotic-generalization-bounds"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-06-sharp-non-asymptotic-generalization-bounds</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Low-rank adaptation (LoRA) empirically resists overfitting even when fine-tuned on small domain corpora with high gradient variance. We derive non-asymptotic PAC-Bayes generalization bounds scaling with the stable rank $\text{sr}(BA) \ll r$, explaining why rank-$16$ adapters match full fine-tuning sample complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08901&quot;&gt;JMLR / stat.ML&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #ml-theory #llm #probability-stats&lt;/p&gt;</summary>
+    <title>Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-12-specter-fast-moe-inference-via"/>
+    <link rel="related" href="https://arxiv.org/abs/2511.14102"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-12-specter-fast-moe-inference-via</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Mixture-of-experts (MoE) models often exceed a single accelerator&amp;apos;s memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2511.14102&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Painting Change Map as guidance for generating painting processes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-13-painting-change-map-as-guidance"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25369"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-13-painting-change-map-as-guidance</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Digital art generation has undergone a massive paradigm shift, moving from static image synthesis to dynamic video generation that can mimic the human painting process. While existing models can synthesize visually stunning time-lapses of paintings being created or &amp;quot;unpainted,&amp;quot; they largely treat the creative process as a black box. Current conditioning mechanisms are either too rigid, relying on static geometric cues like Canny edges or depth maps, or too holistic, utilizing simple scalar progress variables that offer no localized control.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25369&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-14-coevo-rsi-when-harnesses-evolve"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.25078"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-14-coevo-rsi-when-harnesses-evolve</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesses. We introduce CoEvo-RSI, a RSI framework that advances model--harness co-evolution through agent-driven, bidirectional historical inheritance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.25078&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning. Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-15-event-stvg-spatio-temporal-video"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.22444"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-15-event-stvg-spatio-temporal-video</id>
+    <updated>2026-10-14T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query. Despite continued advances, existing STVG benchmarks remain largely centered on localizing targets through instance-specific descriptions, leaving them largely decoupled from long-form reasoning increasingly emphasized in multimodal large language models (MLLMs). In this paper, we introduce Event-STVG, a task that shifts STVG from locating what is described toward event-level reasoning by unifying long-form context, repeated-event reasoning, event localization, role inference, and multi-target grounding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22444&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems. Decision models support routing, guardrails, and output verification in LLM systems.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-16-decisionpivot-a-diagnostic-benchmark-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28522"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-16-decisionpivot-a-diagnostic-benchmark-for</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions. We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28522&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-18-joints-camera-action-co-generating"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28632"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-18-joints-camera-action-co-generating</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28632&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-17-epi-towards-a-persistent-self"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.24944"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-17-epi-towards-a-persistent-self</id>
+    <updated>2026-10-17T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Épi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. Épi combines persistent research history, hierarchical memory, branching and independent review to maintain research continuity, learn from experiments, and explore and revisit alternative approaches. Its experiments run across session boundaries, and a fixed verifier evaluates their outputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24944&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

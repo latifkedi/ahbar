@@ -5,29 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>HyperFold: Prover-Optimal Lattice Folding Schemes with Post-Quantum Soundness and $O(\log N)$ Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-19-hyperfold-prover-optimal-lattice-folding"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1412"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-19-hyperfold-prover-optimal-lattice-folding</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Elliptic-curve folding schemes like Nova and HyperNova rely on discrete-log assumptions vulnerable to Shor&amp;apos;s algorithm and incur heavy non-native field arithmetic when proving SHA-3 or Keccak circuits. We construct a ring-SIS lattice folding protocol over Goldilocks primes ($p = 2^{64} - 2^{32} + 1$) that achieves $128$-bit post-quantum security, $14\text{ KB}$ proof size, and $3.9\times$ faster RISC-V zkVM proving…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1412&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #post-quantum #cryptography&lt;/p&gt;</summary>
+    <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-55-possible-futures-of-the-ethereum"/>
+    <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-55-possible-futures-of-the-ethereum</id>
+    <updated>2024-10-29T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Symbolic &amp; SMT-Guided Equivalence Checking for EVM Bytecode and ZK-Circuit Compilers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-20-symbolic-smt-guided-equivalence-checking"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.08115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-20-symbolic-smt-guided-equivalence-checking</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Under-constrained arithmetic gates in zkSNARK circuits and storage-aliasing bugs in Solidity/Yul compilers account for the majority of critical protocol exploits. We present an SMT-backed relational verifier that proves bit-exact equivalence between optimized EVM bytecode and Plonkish constraint systems in polynomial time for loop-bounded contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.08115&quot;&gt;arXiv Cryptography (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #smart-contracts #formal-proofs #zkp&lt;/p&gt;</summary>
+    <title>Post-quantum commutative group actions from oriented superspecial abelian varieties</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-56-post-quantum-commutative-group-actions"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2555"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-56-post-quantum-commutative-group-actions</id>
+    <updated>2026-10-19T17:08:49+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the cryptographic use of Shimura class group actions on superspecial principally polarized abelian varieties equipped with a CM orientation, within the context of post-quantum cryptography. Besides giving an accessible introduction to the topic, illustrated with many examples, we provide tools for representing CM orientations through higher-dimensional isogenies and for computing the Shimura class group action in the restricted effective group action model. Here, key auxiliary results are a version of Kani&amp;apos;s lemma &amp;quot;with CM&amp;quot; and a trick that often allows to halve the ambient dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2555&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Single-Slot Finality under Sub-Sampling DAS via Threshold BLS Aggregation Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-21-single-slot-finality-under-sub"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1428"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-21-single-slot-finality-under-sub</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Scaling BFT consensus to over $10^6$ validators in a single $12$-second slot is bottlenecked by signature aggregation ingress and peer-to-peer gossip fanout. Combining erasure-coded data availability sampling (PeerDAS) with rateless algebraic signature aggregation bounds per-node bandwidth below $4.5\text{ MB/s}$ while guaranteeing two-round finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1428&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consensus #zkp #distributed-systems&lt;/p&gt;</summary>
+    <title>The Covering Radius of $\text{RM}(1,9)$ is Precisely $242$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-57-the-covering-radius-of-text"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2529"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-57-the-covering-radius-of-text</id>
+    <updated>2026-10-18T14:48:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\rho(r,n)$ denote its covering radius, so that $\rho(1,n)$ is the largest possible nonlinearity of a Boolean function in $n$ variables. For odd $n$, the value of $\rho(1,n)$ was previously known only for $n\le 7$. It is known that $242\le\rho(1,9)\le 244$, but the exact determination of $\rho(1,9)$ has been a long-standing open question.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2529&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-59-pq-spending-for-stealth-address"/>
+    <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-59-pq-spending-for-stealth-address</id>
+    <updated>2026-09-28T01:09:06+00:00</updated>
+    <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-60-9-key-moments-from-marc"/>
+    <link rel="related" href="https://a16zcrypto.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-60-9-key-moments-from-marc</id>
+    <updated>2026-08-07T18:21:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zcrypto.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fully Homomorphic Encryption for Small Batches of Complex Numbers. We propose a new approximate homomorphic encryption scheme to process small batches of complex numbers.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-61-fully-homomorphic-encryption-for-small"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2513"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-61-fully-homomorphic-encryption-for-small</id>
+    <updated>2026-10-16T15:11:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose a new approximate homomorphic encryption scheme to process small batches of complex numbers. Leveled operations are based on a new shaped rounding, whose error is a multiple of a fixed public ring element $g$, small on the data slots and larger on the others. The unused slots form a guard band that is computed on but never decoded, and the polynomial scaling factor $g^{-1}\Delta$ generalizes the CKKS scaling factor, with $g=1$ recovering CKKS.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2513&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-62-reedweave-faster-reed-solomon-polynomial"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2147"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-62-reedweave-faster-reed-solomon-polynomial</id>
+    <updated>2026-09-22T04:13:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding&amp;apos;&amp;apos; Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operate on the largest codewords and dominate the prover work.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2147&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-63-efficient-and-compact-high-order"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2540"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-63-efficient-and-compact-high-order</id>
+    <updated>2026-10-19T06:40:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Raccoon, presented at CRYPTO 2024, is a provably secure lattice-based signature scheme featuring an $O(d \log{d})$ masking overhead. Although it did not advance beyond the first-round of NIST&amp;apos;s additional call for post-quantum digital signatures, Raccoon remains a promising candidate due to its low masking overhead and strong provable side-channel resistance. This paper proposes the first efficient and compact implementation of high-order Raccoon on the ARM Cortex-M4, with a focus on optimizing its polynomial multiplication, sampling, and memory consumption.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2540&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

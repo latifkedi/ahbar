@@ -5,13 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml</id>
-  <updated>2026-10-20T16:49:34.141753100+00:00</updated>
+  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
   <entry>
-    <title>Fault-Tolerant Logical Magic-State Distillation on Bivariate Bicycle Quantum LDPC Codes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-20-10-fault-tolerant-logical-magic-state"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.07105"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-20-10-fault-tolerant-logical-magic-state</id>
-    <updated>2026-10-20T16:49:34.141753100+00:00</updated>
-    <summary type="html">&lt;p&gt;Surface codes require over $1{,}000$ physical qubits per logical qubit at realistic gate error rates $p \approx 10^{-3}$. We demonstrate a constant-depth magic-state factory directly on high-rate bivariate bicycle qLDPC codes ($[[144, 12, 12]]$), achieving logical $T$-gate infidelity below $10^{-9}$ with $6.8\times$ fewer physical qubits than planar lattice surgery.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.07105&quot;&gt;arXiv Quantum Physics (quant-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #quantum-physics&lt;/p&gt;</summary>
+    <title>Entanglement Distribution in Quantum Switch Networks: Memory Limits and Achievability</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-29-entanglement-distribution-in-quantum-switch"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28596v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-29-entanglement-distribution-in-quantum-switch</id>
+    <updated>2026-10-20T17:46:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the minimum persistent memory required to distribute a graph state through a quantum switch. Specifically, consider a central switch that assists $n$ remote users in distributing a graph state, using independently generated user-switch Bell pairs. Since Bell-pair generation is probabilistic, different links generally succeed at different times.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28596v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #networking #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Grain-Boundary Scattering between Chiral Domains in Chiral Topological Semimetal CoSi</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-30-grain-boundary-scattering-between-chiral"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28426v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-30-grain-boundary-scattering-between-chiral</id>
+    <updated>2026-10-20T15:55:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We evaluate the electron scattering properties in CoSi thin films having either twin (heterochiral) or non-twin (homochiral) grain boundaries using first-principles quantum transport calculations. We find that scattering across a twin grain boundary is more resistive than scattering across a non-twin grain boundary and that non-twin grain boundaries have a greater percentage of surface conduction than twin grain boundaries. This is corroborated by the transmission eigenstate profiles, which show that the surface Fermi-arc electrons can transmit past the non-twin grain boundaries between homochiral domains on the same surface without significant backscattering.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28426v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-23-efficient-ground-state-manifold-amplification"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28528v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-23-efficient-ground-state-manifold-amplification</id>
+    <updated>2026-10-20T17:03:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We demonstrate a hybrid quantum-classical approach for exploring ground-state manifolds of maximum independent set problems, in which quantum hardware supplies the initial solutions and an entirely classical post-processing algorithm expands them, increasing the solution diversity of quantum hardware measurements by up to several orders of magnitude. Quantum optimization devices, while capable of generating high-quality solutions, can suffer from fundamental sampling limitations. This is particularly problematic for applications that strongly depend on a large variety of uncorrelated optimal solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28528v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Black Holes are about Quantum Information</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-31-black-holes-are-about-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28185v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-31-black-holes-are-about-quantum</id>
+    <updated>2026-10-20T13:21:24+00:00</updated>
+    <summary type="html">&lt;p&gt;We review and analyse quantum information-theoretic approaches to black hole evaporation that purport to bring us closer to a resolution of the black hole information paradox. Our focus is on the Page-time paradox and on the contribution of the Hayden-Preskill model to understanding information release under the assumption of unitary evaporation. In this model, the black hole is taken to be a finite-dimensional quantum system whose dynamics can be represented by a quantum circuit, and its information-processing and communication abilities are studied.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28185v1&quot;&gt;arXiv High-Energy, Astrophysics &amp;amp; Optics (hep-th, astro-ph, optics)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #high-energy #astrophysics #quantum-computing&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Quantum Broker: QoS-Aware Distribution of Quantum Computations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-32-quantum-broker-qos-aware-distribution"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28342v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-32-quantum-broker-qos-aware-distribution</id>
+    <updated>2026-10-20T15:08:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Cloud-accessible quantum computing has made heterogeneous Quantum Processing Units (QPUs) available through provider platforms that differ in qubit technology, calibration state, queueing behavior, and pricing model. This heterogeneity makes execution management a quantum-engineering concern: a quantum circuit may be executable on several backends, but the resulting cost, latency, fidelity, and reproducibility depend on backend selection and on how measurement shots are allocated. This paper presents the Quantum Broker, an open-source and provider-agnostic framework for Quality-of-Service-aware quantum execution management.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28342v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CO$Φ$ - COmpiling PHotonics into dIgital quantum circuits. Photonic and qubit-based (digital) approaches to quantum computing are largely regarded as separate paradigms.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-33-co-compiling-photonics-into-digital"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.28349v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-33-co-compiling-photonics-into-digital</id>
+    <updated>2026-10-20T15:15:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Photonic and qubit-based (digital) approaches to quantum computing are largely regarded as separate paradigms. This article aims to bridge these paradigms by developing a method for mapping quantum-optical systems onto qubit-based quantum circuits. The key ingredient enabling this mapping is the introduction of a truncation of the Fock space describing single-mode optical states.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28349v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #compilers #optics-photonics&lt;/p&gt;</summary>
   </entry>
 </feed>
