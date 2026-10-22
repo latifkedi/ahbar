@@ -5,45 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>eMudhra intermediate CA compromise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-01-emudhra-intermediate-ca-compromise"/>
-    <link rel="related" href="https://emudhra.we-have-a-problem.com/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-01-emudhra-intermediate-ca-compromise</id>
-    <updated>2026-10-20T13:58:33Z</updated>
-    <summary type="html">&lt;p&gt;Mozilla has announced that it has received a report that private keys associated with eight eMudhra intermediate certificates have been compromised: These keys could allow attackers to issue fraudulent HTTPS certificates for websites they do not control. An attacker who could intercept a user&amp;apos;s connection could use those certificates to impersonate websites and potentially read or modify traffic. Mozilla has blocked the affected certificates using its OneCRL centralized list of revoked certificates, and has updated the trusted certificate list in Network Security Services (NSS) 3.131.1 .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://emudhra.we-have-a-problem.com/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Today&apos;s PHP security release, and how we&apos;re strengthening security</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-01-today-s-php-security-release"/>
+    <link rel="related" href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-01-today-s-php-security-release</id>
+    <updated>2026-10-21T15:48:56Z</updated>
+    <summary type="html">&lt;p&gt;Today&amp;apos;s PHP Security Release, and How We&amp;apos;re Strengthening PHP Security If you&amp;apos;re running anything on PHP it&amp;apos;s vital you upgrade - today&amp;apos;s updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DeepInfer: High-performance inference framework for DeepSeek models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-04-deepinfer-high-performance-inference-framework"/>
-    <link rel="related" href="https://github.com/deepseek-ai/DeepInfer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-04-deepinfer-high-performance-inference-framework</id>
-    <updated>2026-10-20T09:08:54Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/deepseek-ai/DeepInfer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-10-compromised-litellm-1-107-0"/>
+    <link rel="related" href="https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-10-compromised-litellm-1-107-0</id>
+    <updated>2026-10-21T14:00:26Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Upcoming critical PHP security release (CVE-2026-109618 / -109619). Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-37-upcoming-critical-php-security-release"/>
-    <link rel="related" href="https://news-web.php.net/php.announce/509"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-37-upcoming-critical-php-security-release</id>
-    <updated>2026-10-20T20:15:50Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://news-web.php.net/php.announce/509&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>In Hilbert space, all things are quantumly possible</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-28-in-hilbert-space-all-things"/>
-    <link rel="related" href="https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-28-in-hilbert-space-all-things</id>
-    <updated>2026-10-21T02:04:15Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Physics, Quantum &amp;amp; Space. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Quantum Broker: QoS-Aware Distribution of Quantum Computations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-32-quantum-broker-qos-aware-distribution"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28342v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-32-quantum-broker-qos-aware-distribution</id>
-    <updated>2026-10-20T15:08:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Cloud-accessible quantum computing has made heterogeneous Quantum Processing Units (QPUs) available through provider platforms that differ in qubit technology, calibration state, queueing behavior, and pricing model. This heterogeneity makes execution management a quantum-engineering concern: a quantum circuit may be executable on several backends, but the resulting cost, latency, fidelity, and reproducibility depend on backend selection and on how measurement shots are allocated. This paper presents the Quantum Broker, an open-source and provider-agnostic framework for Quality-of-Service-aware quantum execution management.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28342v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
+    <title>CVE-2026-111943: Compromised Intermediate Certificate Authority</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-39-cve-2026-111943-compromised-intermediate"/>
+    <link rel="related" href="https://nvd.nist.gov/vuln/detail/cve-2026-111943"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-39-cve-2026-111943-compromised-intermediate</id>
+    <updated>2026-10-22T08:51:31Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/cve-2026-111943&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

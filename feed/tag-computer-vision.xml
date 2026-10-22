@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <entry>
+    <title>A Unified Evaluation Framework of Physical Adversarial Robustness in the Edge VLM Era</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-59-a-unified-evaluation-framework-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29196v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-59-a-unified-evaluation-framework-of</id>
+    <updated>2026-10-21T04:38:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Recent advancements in Vision-Language Models (VLMs) enable end-to-end visual grounding via language prompts and generative decoding, demonstrating largely improved zero-shot and open-vocabulary detection capabilities. As a result, VLMs are rapidly being deployed at the edge in safety-critical real-world systems. However, the physical adversarial robustness of edge VLMs has not been systematically studied, and the fundamental differences in output with modern object detectors create methodological challenges for fair evaluation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29196v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #ml-theory&lt;/p&gt;</summary>
+  </entry>
 </feed>

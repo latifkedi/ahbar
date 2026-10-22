@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Quantum Broker: QoS-Aware Distribution of Quantum Computations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-32-quantum-broker-qos-aware-distribution"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28342v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-32-quantum-broker-qos-aware-distribution</id>
-    <updated>2026-10-20T15:08:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Cloud-accessible quantum computing has made heterogeneous Quantum Processing Units (QPUs) available through provider platforms that differ in qubit technology, calibration state, queueing behavior, and pricing model. This heterogeneity makes execution management a quantum-engineering concern: a quantum circuit may be executable on several backends, but the resulting cost, latency, fidelity, and reproducibility depend on backend selection and on how measurement shots are allocated. This paper presents the Quantum Broker, an open-source and provider-agnostic framework for Quality-of-Service-aware quantum execution management.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28342v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
+    <title>Painlevé representations for joint moments of characteristic polynomials from the orthogonal and unitary symplectic groups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-21-painlev-representations-for-joint-moments"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29947v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-21-painlev-representations-for-joint-moments</id>
+    <updated>2026-10-21T16:11:31+00:00</updated>
+    <summary type="html">&lt;p&gt;We study joint moments of characteristic polynomials and their second derivatives for Haar-distributed matrices from the unitary symplectic and orthogonal groups. We establish their large-$N$ asymptotics throughout the full admissible range of the moment parameters and identify the limiting coefficients probabilistically in terms of the first inverse power sum of the Bessel point process. This extends the corresponding results of Assiotis, Gunes, Keating, and Wei [Proc.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29947v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-58-birthday-estimators-are-uniformly-optimal"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28581v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-58-birthday-estimators-are-uniformly-optimal</id>
-    <updated>2026-10-20T17:37:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie Rényi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator. We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28581v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
+    <title>One-Step Schnorr Threshold Identification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-61-one-step-schnorr-threshold-identification"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/722"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-61-one-step-schnorr-threshold-identification</id>
+    <updated>2025-04-22T21:06:18+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold cryptographic primitives have not been widely adopted in real-world distributed systems (i.e., beyond the closed committee model) presumably due to state-synchronization overhead and complex certification processes for the shareholders. These are both aspects of their overreliance on infrastructure, an assumption that is usually glossed over in their design. In this work, we propose OSST, a real-time threshold identification protocol that achieves non-interactivity and non-reliance on public shares by means of direct proof interpolation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/722&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

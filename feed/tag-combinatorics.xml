@@ -5,61 +5,85 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Epi: Towards a Persistent, Self-Improving Agent for Autonomous Research</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-17-epi-towards-a-persistent-self"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.24944"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-17-epi-towards-a-persistent-self</id>
-    <updated>2026-10-17T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present Épi, an autonomous research agent that sustains investigations across model sessions and evolves its methods through accumulated experience. Épi combines persistent research history, hierarchical memory, branching and independent review to maintain research continuity, learn from experiments, and explore and revisit alternative approaches. Its experiments run across session boundaries, and a fixed verifier evaluates their outputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24944&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Agent World Model in the Wild: Computer-Use Agent Environment Synthesis. Agent learning is shifting from learning from human data toward learning through interaction with the world.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-14-agent-world-model-in-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26828"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-14-agent-world-model-in-the</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26828&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Post-quantum commutative group actions from oriented superspecial abelian varieties</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-56-post-quantum-commutative-group-actions"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2555"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-56-post-quantum-commutative-group-actions</id>
-    <updated>2026-10-19T17:08:49+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the cryptographic use of Shimura class group actions on superspecial principally polarized abelian varieties equipped with a CM orientation, within the context of post-quantum cryptography. Besides giving an accessible introduction to the topic, illustrated with many examples, we provide tools for representing CM orientations through higher-dimensional isogenies and for computing the Shimura class group action in the restricted effective group action model. Here, key auxiliary results are a version of Kani&amp;apos;s lemma &amp;quot;with CM&amp;quot; and a trick that often allows to halve the ambient dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2555&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Facets of the X-ray polytope of doubly stochastic matrices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-20-facets-of-the-x-ray"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30058v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-20-facets-of-the-x-ray</id>
+    <updated>2026-10-21T17:18:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the polytope of anti-diagonal X-rays of k x k doubly stochastic matrices, the image of the Birkhoff polytope under the map that sums the entries along each anti-diagonal. Its facets other than the coordinate facets are the minimal joint tail bounds for lattice laws of a sum of two dependent uniform random variables. We give an exact facet criterion in terms of the allowed edges of a tight graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30058v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #optimization #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Generic finiteness of solutions to parametrized systems of generalized polynomial inequalities</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-20-generic-finiteness-of-solutions-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28588v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-20-generic-finiteness-of-solutions-to</id>
-    <updated>2026-10-20T17:41:07+00:00</updated>
-    <summary type="html">&lt;p&gt;We study parametrized systems of $\mathit{generalized}$ polynomial inequalities, $(c \circ x^B) \in C$, for a positive variable vector $x \in \mathbb{R}^n_&amp;gt;$, a $\mathit{real}$ exponent matrix $B \in \mathbb{R}^{n \times m}$, a positive parameter vector $c \in \mathbb{R}^m_&amp;gt;$, and a positive, blunt coefficient cone $C \subset \mathbb{R}^m_&amp;gt;$. This setting includes (i) generalized polynomial equations, $A \, (c \circ x^B) = 0$, arising e.g. from power-law dynamical systems with real exponents (and involving a real coefficient matrix $A \in \mathbb{R}^{n&amp;apos; \times m}$), and (ii) generalized semi-algebraic sets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28588v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #algebra-geometry&lt;/p&gt;</summary>
+    <title>Painlevé representations for joint moments of characteristic polynomials from the orthogonal and unitary symplectic groups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-21-painlev-representations-for-joint-moments"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29947v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-21-painlev-representations-for-joint-moments</id>
+    <updated>2026-10-21T16:11:31+00:00</updated>
+    <summary type="html">&lt;p&gt;We study joint moments of characteristic polynomials and their second derivatives for Haar-distributed matrices from the unitary symplectic and orthogonal groups. We establish their large-$N$ asymptotics throughout the full admissible range of the moment parameters and identify the limiting coefficients probabilistically in terms of the first inverse power sum of the Bessel point process. This extends the corresponding results of Assiotis, Gunes, Keating, and Wei [Proc.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29947v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Matrix divisors, Christoffel transformations and symmetric $d$-connections. The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-21-matrix-divisors-christoffel-transformations-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28497v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-21-matrix-divisors-christoffel-transformations-and</id>
-    <updated>2026-10-20T16:40:52+00:00</updated>
-    <summary type="html">&lt;p&gt;The Christoffel transformation $w(x)\mapsto x^2w(x)$ relates elementary bundle modifications to gap probability recurrences. The moment matrix determines normalization and the splitting type. We define the source and target moduli problems by their local data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28497v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #probability-stats&lt;/p&gt;</summary>
+    <title>Nashtopes and their A-discriminants</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-22-nashtopes-and-their-a-discriminants"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29889v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-22-nashtopes-and-their-a-discriminants</id>
+    <updated>2026-10-21T15:31:51+00:00</updated>
+    <summary type="html">&lt;p&gt;An $n$-player game in normal form is said to be of format $\boldsymbol{d} = (d_1, \dots, d_n)$ if the $i$-th player has $d_i$ options for $1 \le i \le n$, and is said to be balanced if $d_n - 1 \le \sum_{i=1}^{n-1}(d_i - 1)$. The Nash equilibria of the game correspond to solutions of the system of indifference equations for the game, with payoff differences as coefficients and strategy probabilities as variables. As such, the mixed discriminant of this system gives some information about which games could have an unusual number of totally mixed Nash equilibria.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29889v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #decision-theory #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Entanglement Distribution in Quantum Switch Networks: Memory Limits and Achievability</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-29-entanglement-distribution-in-quantum-switch"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28596v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-29-entanglement-distribution-in-quantum-switch</id>
-    <updated>2026-10-20T17:46:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the minimum persistent memory required to distribute a graph state through a quantum switch. Specifically, consider a central switch that assists $n$ remote users in distributing a graph state, using independently generated user-switch Bell pairs. Since Bell-pair generation is probabilistic, different links generally succeed at different times.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28596v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #networking #combinatorics&lt;/p&gt;</summary>
+    <title>Graphs and cycles in curve-based collision walks. In this work, we look at collision-based attacks both for elliptic curve and isogeny problems.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-60-graphs-and-cycles-in-curve"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2560"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-60-graphs-and-cycles-in-curve</id>
+    <updated>2026-10-20T10:49:06+00:00</updated>
+    <summary type="html">&lt;p&gt;In this work, we look at collision-based attacks both for elliptic curve and isogeny problems. Our main focus is on attacks in the multi-user setting, i.e., where one tries to recover all secret keys of a large set of $L$ public keys simultaneously, in a faster way than the total time required to attack each key individually. We consider three different problems: (1) the discrete logarithm problem on elliptic curves, (2) the isogeny pathfinding problem on supersingular $\mathbb{F}_{p^2}$-curves, (3) the isogeny pathfinding problem on supersingular $\mathbb{F}_p$-curves.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2560&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Leaving Intel</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-45-leaving-intel"/>
-    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-45-leaving-intel</id>
-    <updated>2025-12-04T13:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
+    <title>A New Approach to Reducing Modulus Requirements in Homomorphic Computation: Precision Allocation in CKKS</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-62-a-new-approach-to-reducing"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2562"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-62-a-new-approach-to-reducing</id>
+    <updated>2026-10-20T12:56:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Fully homomorphic encryption (FHE) enables computation over encrypted data subject to the prescribed security and precision requirements (allowable deviations from ideal results). Among all FHE schemes, CKKS is a representative scheme for approximate arithmetic, allowing the same operation on multiple values packed into a single RLWE ciphertext. Reducing ciphertext modulus $Q$ for given output precision requirements under RLWE security constraints is a central challenge in homomorphic computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2562&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-34-superconductivity-and-ferroelectric-orbital-magnetism"/>
+    <link rel="related" href="https://www.nature.com/articles/s41567-026-03443-9"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-34-superconductivity-and-ferroelectric-orbital-magnetism</id>
+    <updated>2026-10-21T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Physics, Published online: 21 October 2026; doi:10.1038/s41567-026-03443-9 The semimetallic regime in rhombohedral graphene has not been extensively explored. Now, correlated insulators, superconductivity and multiferroic orbital magnetic order are demonstrated in semimetallic rhombohedral hexalayer graphene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03443-9&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #combinatorics #condensed-matter&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Computing the Nucleon of Matching Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-83-computing-the-nucleon-of-matching"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29731v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-83-computing-the-nucleon-of-matching</id>
+    <updated>2026-10-21T13:35:01+00:00</updated>
+    <summary type="html">&lt;p&gt;The nucleon is the multiplicative counterpart of the nucleolus: it lexicographically maximizes the fraction of its stand-alone value that each coalition receives. We study exact nucleon computation in matching games and in two extensions: $b$-matching games, in which players may have several partners, and partitioned matching games, in which one player may own several vertices. We resolve three open problems from a recent survey.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29731v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Urban climate regressions require representative monitoring networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-87-urban-climate-regressions-require-representative"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29423v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-87-urban-climate-regressions-require-representative</id>
+    <updated>2026-10-21T08:48:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Land use regression models relate intra-urban air temperature to spatial predictors such as building volume, tree canopy cover and topography, and are increasingly used to produce fine-scale temperature maps. However, the accuracy of these estimates can be compromised by unrepresentative monitoring networks. Here we show that reference weather station networks, designed for regional rather than intra-urban monitoring, sample only a narrow portion of a city&amp;apos;s spatial heterogeneity, missing both the densely built core and the cool, vegetated periphery that set the two ends of the urban temperature range.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29423v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #climate-earth #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

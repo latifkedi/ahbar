@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-optimization.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-optimization.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-23-efficient-ground-state-manifold-amplification"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28528v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-23-efficient-ground-state-manifold-amplification</id>
-    <updated>2026-10-20T17:03:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We demonstrate a hybrid quantum-classical approach for exploring ground-state manifolds of maximum independent set problems, in which quantum hardware supplies the initial solutions and an entirely classical post-processing algorithm expands them, increasing the solution diversity of quantum hardware measurements by up to several orders of magnitude. Quantum optimization devices, while capable of generating high-quality solutions, can suffer from fundamental sampling limitations. This is particularly problematic for applications that strongly depend on a large variety of uncorrelated optimal solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28528v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Simple Strategy-Iteration with Dantzig&apos;s Rule is not Strongly Polynomial on Turn-Based Deterministic Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-87-simple-strategy-iteration-with-dantzig"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27386v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-87-simple-strategy-iteration-with-dantzig</id>
-    <updated>2026-10-19T23:19:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We study turn-based deterministic zero-sum games with discounted and long-run average costs. For discounted costs, we establish exponential and superpolynomial iteration lower bounds for the simple strategy-iteration method with Dantzig&amp;apos;s rule under unrestricted costs and unit weights, respectively. To the best of our knowledge, this shows for the first time that the method is not strongly polynomial even when all action costs belong to $\{-1,0,1\}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27386v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #optimization&lt;/p&gt;</summary>
+    <title>Facets of the X-ray polytope of doubly stochastic matrices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-20-facets-of-the-x-ray"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30058v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-20-facets-of-the-x-ray</id>
+    <updated>2026-10-21T17:18:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the polytope of anti-diagonal X-rays of k x k doubly stochastic matrices, the image of the Birkhoff polytope under the map that sums the entries along each anti-diagonal. Its facets other than the coordinate facets are the minimal joint tail bounds for lattice laws of a sum of two dependent uniform random variables. We give an exact facet criterion in terms of the allowed edges of a tight graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30058v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #optimization #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

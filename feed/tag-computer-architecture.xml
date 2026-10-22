@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-37-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-37-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents. AI agents keep long-term memory, much of which comes from web pages and tool results.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-41-clawmmu-protection-coherent-virtual-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28093v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-41-clawmmu-protection-coherent-virtual-memory</id>
-    <updated>2026-10-20T12:09:53+00:00</updated>
-    <summary type="html">&lt;p&gt;AI agents keep long-term memory, much of which comes from web pages and tool results. Agent harnesses, the software that runs the model, do not record who may act on this memory, so an instruction hidden in a fetched page can be treated as the user&amp;apos;s own instruction. We propose ClawMMU, a protection layer that labels every piece of memory with its owner, scope, origins, and authority.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28093v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>Do Flow-Generation Tools Matter? Unsupervised Characterization of MQTT Traffic Across Public Datasets</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-44-do-flow-generation-tools-matter"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29774v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-44-do-flow-generation-tools-matter</id>
+    <updated>2026-10-21T14:05:22+00:00</updated>
+    <summary type="html">&lt;p&gt;Message Queue Telemetry Transport (MQTT) is widely used in IoT environments due to its lightweight publish-subscribe design and suitability for resource-constrained networks. While current MQTT security studies mainly focus on detecting attacks and optimizing classification performance, this work takes a different perspective by presenting a cross-dataset, tool-aware characterization of MQTT traffic at the flow level. This perspective is motivated by the fact that flow-generation is tool-dependent: flows are not directly observed in packet captures, but are constructed through tool-specific decisions about packet grouping, flow termination, and feature export.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29774v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CyberHull: Deterministic Malicious URL Isolation via Convex Hull</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-42-cyberhull-deterministic-malicious-url-isolation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27675v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-42-cyberhull-deterministic-malicious-url-isolation</id>
-    <updated>2026-10-20T05:43:17+00:00</updated>
-    <summary type="html">&lt;p&gt;The emergence of increasingly sophisticated and evasion-resistant phishing attack strategies represents a significant threat to modern cybersecurity, particularly in cyber-physical systems and internet-based networks. Traditional probabilistic methods and certain machine learning approaches often struggle to detect novel attacks and may lack interpretability or portability. To address these challenges, we introduce CyberHull, a resource-efficient and deterministic framework for identifying malicious URLs through mathematically defined convex hull boundaries across multiple orthogonal feature domains, including structural content entropy, hyperlink graph topology, and semantic token distribution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27675v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>MASAR: Multi-stage Attack Surface Analysis and Reasoning Framework for Telecom Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-45-masar-multi-stage-attack-surface"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29343v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-45-masar-multi-stage-attack-surface</id>
+    <updated>2026-10-21T07:37:51+00:00</updated>
+    <summary type="html">&lt;p&gt;The increasing complexity of modern telecommunications networks introduces security challenges that require systematic threat analysis. However, a gap remains between architectural threat modeling frameworks, such as Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege (STRIDE), and operational knowledge bases, such as the MITRE Five-G Hierarchy of Threats (FiGHT). This gap limits the ability to connect architectural weaknesses with specific protocol behaviors and attack sequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29343v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
   </entry>
 </feed>

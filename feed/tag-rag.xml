@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rag.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rag.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>RDEmbed: A Sentence-Embedding Framework for Rare Disease Phenotype Representation and Phenotypic Similarity Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-47-rdembed-a-sentence-embedding-framework"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.16.759399v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-47-rdembed-a-sentence-embedding-framework</id>
-    <updated>2026-10-19T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Accurate phenotypic characterization of patients with rare diseases is essential for improving diagnosis, patient matchmaking, and gene discovery. Conventional ontology driven approaches based on the Human Phenotype Ontology (HPO) enable structured phenotype comparison but often limited by the incomplete annotations and reduced ability to capture the contextual information contained in free-text clinical narratives. We present RDEmbed, a sentence embedding framework that learns patient phenotype representations directly from rare disease case reports for similarity analysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.16.759399v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rag&lt;/p&gt;</summary>
+    <title>GEO-BERT: A Retrieval augmented LLM Framework for Intelligent Dataset Retrieval from the Gene Expression Omnibus</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-49-geo-bert-a-retrieval-augmented"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.15.759430v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-49-geo-bert-a-retrieval-augmented</id>
+    <updated>2026-10-21T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;The Gene Expression Omnibus (GEO) is a commonly used data repository of high throughput gene expression and other functional genomics data. This platform is globally used by researchers for submitting experimental datasets, accessing these datasets for hypothesis validation, reusing them in data-driven research, generating ideas for new research directions. Despite global usage, searching and identifying relevant and usable datasets in GEO remains challenging with an underlying keyword based search system needing manual intervention for the retrieval of desired datasets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.15.759430v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rag&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,37 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Post-quantum commutative group actions from oriented superspecial abelian varieties</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-56-post-quantum-commutative-group-actions"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2555"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-56-post-quantum-commutative-group-actions</id>
-    <updated>2026-10-19T17:08:49+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the cryptographic use of Shimura class group actions on superspecial principally polarized abelian varieties equipped with a CM orientation, within the context of post-quantum cryptography. Besides giving an accessible introduction to the topic, illustrated with many examples, we provide tools for representing CM orientations through higher-dimensional isogenies and for computing the Shimura class group action in the restricted effective group action model. Here, key auxiliary results are a version of Kani&amp;apos;s lemma &amp;quot;with CM&amp;quot; and a trick that often allows to halve the ambient dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2555&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Facets of the X-ray polytope of doubly stochastic matrices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-20-facets-of-the-x-ray"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30058v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-20-facets-of-the-x-ray</id>
+    <updated>2026-10-21T17:18:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the polytope of anti-diagonal X-rays of k x k doubly stochastic matrices, the image of the Birkhoff polytope under the map that sums the entries along each anti-diagonal. Its facets other than the coordinate facets are the minimal joint tail bounds for lattice laws of a sum of two dependent uniform random variables. We give an exact facet criterion in terms of the allowed edges of a tight graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30058v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #optimization #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Photonic band structure by direct second-kind free-space boundary integral equations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-24-photonic-band-structure-by-direct"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28494v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-24-photonic-band-structure-by-direct</id>
-    <updated>2026-10-20T16:39:55+00:00</updated>
-    <summary type="html">&lt;p&gt;We present a direct boundary integral equation (BIE) formulation of the Bloch eigenvalue problem for two-dimensional photonic crystals that uses only the free-space Helmholtz Green function. The unknowns are the Cauchy data of the Bloch mode on the inclusion boundary and on two cell walls. On the inclusion boundary, the transmission conditions are imposed via Müller&amp;apos;s formulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28494v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optics-photonics #post-quantum&lt;/p&gt;</summary>
+    <title>Stabilizing and detecting electron fractionalization in the Hofstadter-Hubbard model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-32-stabilizing-and-detecting-electron-fractionalization"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29916v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-32-stabilizing-and-detecting-electron-fractionalization</id>
+    <updated>2026-10-21T15:55:01+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivated by the recent progress in correlated Chern insulator physics in moiré systems, we investigate the half-filled triangular-lattice Hofstadter--Hubbard model and its electron fractionalization. Among various competing non-magnetic states, increasing the orbital flux stabilizes and broadens the $\mathrm{U}(1)_2$ chiral spin liquid phase in the Mott regime. In this exotic regime, the electron is fractionalized into gapped spinons and gapped chargons, whose effective bands are linked to the orbital flux.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29916v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-59-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-56-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-59-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-56-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-63-efficient-and-compact-high-order"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2540"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-63-efficient-and-compact-high-order</id>
-    <updated>2026-10-19T06:40:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Raccoon, presented at CRYPTO 2024, is a provably secure lattice-based signature scheme featuring an $O(d \log{d})$ masking overhead. Although it did not advance beyond the first-round of NIST&amp;apos;s additional call for post-quantum digital signatures, Raccoon remains a promising candidate due to its low masking overhead and strong provable side-channel resistance. This paper proposes the first efficient and compact implementation of high-order Raccoon on the ARM Cortex-M4, with a focus on optimizing its polynomial multiplication, sampling, and memory consumption.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2540&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

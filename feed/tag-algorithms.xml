@@ -5,37 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
-  <entry>
-    <title>Birthday Estimators Are Uniformly Optimal for Renyi Entropy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-58-birthday-estimators-are-uniformly-optimal"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28581v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-58-birthday-estimators-are-uniformly-optimal</id>
-    <updated>2026-10-20T17:37:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Collisions are a basic probe of unknown distributions, used for testing and for counting substructures in graphs, and they underlie Rényi entropy, a fundamental measure of uncertainty with applications in cryptography, machine learning, physics, and biology. Motivated by this, we study the natural birthday estimator. We prove Bernstein-type concentration for it and show that it is minimax optimal, uniformly and jointly in alphabet size, order, accuracy, and confidence, with no sample splitting, clipping, or median aggregation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28581v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Exact Envy-Free Cake Cutting with Polynomial Expected Queries. Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&apos;s share.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-83-exact-envy-free-cake-cutting"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28535v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-83-exact-envy-free-cake-cutting</id>
-    <updated>2026-10-20T17:07:47+00:00</updated>
-    <summary type="html">&lt;p&gt;Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&amp;apos;s share. Finding such a division with few queries about preferences has been a longstanding challenge. Aziz and Mackenzie gave the first query bound depending only on the number $n$ of agents: a tower of six $n$&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28535v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Splitting Planar Necklaces with Few Straight Cuts</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-85-splitting-planar-necklaces-with-few"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27956v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-85-splitting-planar-necklaces-with-few</id>
-    <updated>2026-10-20T10:01:52+00:00</updated>
-    <summary type="html">&lt;p&gt;In the classical necklace splitting problem, beads of different colors lie on a line, and the goal is to divide them among $k$ agents using as few cuts as possible so that every agent receives the same number of beads of each color. We study the planar analog in which a cut is a full straight line and the objective is minimizing the number of lines: $m$ points colored red and blue must be separated by straight-line cuts into regions that can be allocated to $k$ agents so that each agent receives the same number of points of each color. Projection to a line gives $2(k-1)$ cuts, and $k-1$ are sometimes necessary; we give algorithms, static and dynamic, that provably close part of this gap.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27956v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Simple Strategy-Iteration with Dantzig&apos;s Rule is not Strongly Polynomial on Turn-Based Deterministic Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-87-simple-strategy-iteration-with-dantzig"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27386v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-87-simple-strategy-iteration-with-dantzig</id>
-    <updated>2026-10-19T23:19:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We study turn-based deterministic zero-sum games with discounted and long-run average costs. For discounted costs, we establish exponential and superpolynomial iteration lower bounds for the simple strategy-iteration method with Dantzig&amp;apos;s rule under unrestricted costs and unit weights, respectively. To the best of our knowledge, this shows for the first time that the method is not strongly polynomial even when all action costs belong to $\{-1,0,1\}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27386v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #optimization&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
 </feed>

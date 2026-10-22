@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-18-joints-camera-action-co-generating"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28632"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-18-joints-camera-action-co-generating</id>
-    <updated>2026-10-19T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28632&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+    <title>Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-11-multimodal-embodied-agents-a-unified"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30108"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-11-multimodal-embodied-agents-a-unified</id>
+    <updated>2026-10-20T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30108&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-18-donic-generalist-dexterous-bimanual-tracking"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29997"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-18-donic-generalist-dexterous-bimanual-tracking</id>
+    <updated>2026-10-20T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, together with 2) BiHOI, a multi-view dataset of 1,575 sequences spanning 229 objects and emphasizing sustained bimanual interaction, where reconstructed interactions are retargeted into robot references.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29997&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

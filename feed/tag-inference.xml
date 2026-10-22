@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-12-specter-fast-moe-inference-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2511.14102"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-12-specter-fast-moe-inference-via</id>
-    <updated>2026-10-19T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Mixture-of-experts (MoE) models often exceed a single accelerator&amp;apos;s memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2511.14102&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
+    <title>GhostFaceMPC: Privacy-Preserving Face Recognition with Multi-Party Computation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-58-ghostfacempc-privacy-preserving-face-recognition"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29987v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-58-ghostfacempc-privacy-preserving-face-recognition</id>
+    <updated>2026-10-21T16:28:18+00:00</updated>
+    <summary type="html">&lt;p&gt;Facial recognition has become central to modern authentication systems, security frameworks, and personalized services. However, its widespread adoption is hindered by severe privacy risks, particularly surrounding unauthorized access to sensitive biometric data. To address these challenges, this paper presents GhostFaceMPC, the first end-to-end, privacy-preserving face recognition system to evaluate a deep convolutional neural network extractor and matching under secure multi-party computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29987v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #neuroscience #inference&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-43-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-43-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+    <title>CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-40-cve-2026-107891-musl-libc"/>
+    <link rel="related" href="https://www.openwall.com/lists/oss-security/2026/10/21/18"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-40-cve-2026-107891-musl-libc</id>
+    <updated>2026-10-21T17:40:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.openwall.com/lists/oss-security/2026/10/21/18&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #c-cpp&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-72-from-politics-to-process-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-72-from-politics-to-process-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35903#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-72-from-politics-to-process-evidence</id>
-    <updated>2026-10-21T09:44:25.048693453+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-72-from-politics-to-process-evidence</id>
+    <updated>2026-10-22T09:43:17.628650799+00:00</updated>
     <summary type="html">&lt;p&gt;States that delegate governance to local officials face a trade-off between the benefits of local knowledge and the costs of biased administrators. Can imposing federal standards discipline bias and improve uniformity? We study this question by examining the introduction of federal standards to apply for citizenship under the 1906 Naturalization Act.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35903#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>District Size Matters: How Seats Per District Shapes Proportionality Under STV</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-89-district-size-matters-how-seats"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27297v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-89-district-size-matters-how-seats</id>
-    <updated>2026-10-19T21:12:31+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the impact of utilizing multimember districts and Single Transferable Vote (STV) as the winner selection method on partisan proportionality. We start with detailed case studies of the upper legislative houses of Illinois, New Hampshire, and New Mexico, building ensembles of redistricting maps with mostly 2-member, mostly 3-member, and mostly 4-member districts for each state. These ensembles are constructed using two methods: building from precincts, and merging currently existing single-member districts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27297v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,45 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents. AI agents keep long-term memory, much of which comes from web pages and tool results.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-41-clawmmu-protection-coherent-virtual-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28093v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-41-clawmmu-protection-coherent-virtual-memory</id>
-    <updated>2026-10-20T12:09:53+00:00</updated>
-    <summary type="html">&lt;p&gt;AI agents keep long-term memory, much of which comes from web pages and tool results. Agent harnesses, the software that runs the model, do not record who may act on this memory, so an instruction hidden in a fetched page can be treated as the user&amp;apos;s own instruction. We propose ClawMMU, a protection layer that labels every piece of memory with its owner, scope, origins, and authority.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28093v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>When Are We Near Nash? Certifying Solutions in General-Sum Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-82-when-are-we-near-nash"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29300v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-82-when-are-we-near-nash</id>
+    <updated>2026-10-21T06:53:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Heuristic solvers for general-sum extensive-form games produce a stream of iterates, and practice reports the NashGap of the returned profile. We ask what a solver can know about its own iterates from the regret accumulators and the terminal-distribution accumulators its updates already maintain. In two-player games the NashGap of a weighted average strategy equals, at the maximizing player, the weighted external regret plus a signed value correction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29300v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CyberHull: Deterministic Malicious URL Isolation via Convex Hull</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-42-cyberhull-deterministic-malicious-url-isolation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27675v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-42-cyberhull-deterministic-malicious-url-isolation</id>
-    <updated>2026-10-20T05:43:17+00:00</updated>
-    <summary type="html">&lt;p&gt;The emergence of increasingly sophisticated and evasion-resistant phishing attack strategies represents a significant threat to modern cybersecurity, particularly in cyber-physical systems and internet-based networks. Traditional probabilistic methods and certain machine learning approaches often struggle to detect novel attacks and may lack interpretability or portability. To address these challenges, we introduce CyberHull, a resource-efficient and deterministic framework for identifying malicious URLs through mathematically defined convex hull boundaries across multiple orthogonal feature domains, including structural content entropy, hyperlink graph topology, and semantic token distribution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27675v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>A Unified Evaluation Framework of Physical Adversarial Robustness in the Edge VLM Era</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-59-a-unified-evaluation-framework-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29196v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-59-a-unified-evaluation-framework-of</id>
+    <updated>2026-10-21T04:38:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Recent advancements in Vision-Language Models (VLMs) enable end-to-end visual grounding via language prompts and generative decoding, demonstrating largely improved zero-shot and open-vocabulary detection capabilities. As a result, VLMs are rapidly being deployed at the edge in safety-critical real-world systems. However, the physical adversarial robustness of edge VLMs has not been systematically studied, and the fundamental differences in output with modern object detectors create methodological challenges for fair evaluation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29196v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Game of Phones: Harnessing Game Theory and LLMs in &apos;Bot Wars&apos; to Counteract Phone Scams</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-82-game-of-phones-harnessing-game"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26781v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-82-game-of-phones-harnessing-game</id>
-    <updated>2026-10-19T17:35:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Phone scams impose substantial and growing costs on individuals and financial systems worldwide, yet existing countermeasures impose no resource cost on perpetrators. Strategic scam-baiting, in which automated agents engage scammers to deplete their operational capacity, offers a proactive alternative but requires dynamic strategy adaptation that static systems cannot provide. We introduce a game-theoretic framework enabling LLMs to learn effective counter-strategies through in-context experience without fine-tuning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26781v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #cryptography #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Dynamics of Collapse and Recovery in Clustered Federated Learning. Clustered federated learning (CFL) can suffer from cluster collapse.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-25-the-dynamics-of-collapse-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28565v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-25-the-dynamics-of-collapse-and</id>
-    <updated>2026-10-20T17:24:12+00:00</updated>
-    <summary type="html">&lt;p&gt;Clustered federated learning (CFL) can suffer from cluster collapse. In particular, under unfavorable initialization, early client assignments concentrate heterogeneous groups on one cluster model, which is then trained toward a pooled compromise, while another model receives no updates. Since the current models determine client routing and routing determines subsequent model updates, we formulate clustered federated learning as control of an unknown dynamical system, with cluster models as the evolving state, client routing patterns as the control input, and routing interventions as state dependent controllers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28565v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-88-fundamental-impossibility-results-in-ai"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27373v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-88-fundamental-impossibility-results-in-ai</id>
-    <updated>2026-10-19T22:57:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Is there a fundamental tradeoff between desiderata for safe AI systems, such as harmlessness and helpfulness? We answer by formalizing the interaction between AI systems and users as a game with three players: a defender and an attacker that are computationally or informationally bounded, and an AI that provides public advice and is less constrained. Our main result shows that there is a fundamental tradeoff in providing advice that helps the defender while advice remains public.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27373v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
+    <title>Formalizing Cooperation and Competition: An AI-Assisted Mathematical Addendum to a 2018 Planning Thesis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-86-formalizing-cooperation-and-competition-an"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29637v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-86-formalizing-cooperation-and-competition-an</id>
+    <updated>2026-10-21T12:17:57+00:00</updated>
+    <summary type="html">&lt;p&gt;We present an AI-assisted mathematical addendum to Strategic Trip Planning: Striking a Balance Between Competition and Cooperation (Amar, 2018). We reconstruct selected relationships between strategic choice, cooperative stability, participant approval and enforcement. The thesis&amp;apos;s Nash-to-core proposition is under-specified until outsider opportunities are stated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29637v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

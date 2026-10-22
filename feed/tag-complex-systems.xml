@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
   <entry>
-    <title>Game of Phones: Harnessing Game Theory and LLMs in &apos;Bot Wars&apos; to Counteract Phone Scams</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-82-game-of-phones-harnessing-game"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26781v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-82-game-of-phones-harnessing-game</id>
-    <updated>2026-10-19T17:35:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Phone scams impose substantial and growing costs on individuals and financial systems worldwide, yet existing countermeasures impose no resource cost on perpetrators. Strategic scam-baiting, in which automated agents engage scammers to deplete their operational capacity, offers a proactive alternative but requires dynamic strategy adaptation that static systems cannot provide. We introduce a game-theoretic framework enabling LLMs to learn effective counter-strategies through in-context experience without fine-tuning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26781v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>When Are We Near Nash? Certifying Solutions in General-Sum Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-82-when-are-we-near-nash"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29300v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-82-when-are-we-near-nash</id>
+    <updated>2026-10-21T06:53:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Heuristic solvers for general-sum extensive-form games produce a stream of iterates, and practice reports the NashGap of the returned profile. We ask what a solver can know about its own iterates from the regret accumulators and the terminal-distribution accumulators its updates already maintain. In two-player games the NashGap of a weighted average strategy equals, at the maximizing player, the weighted external regret plus a signed value correction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29300v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Exact Envy-Free Cake Cutting with Polynomial Expected Queries. Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&apos;s share.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-83-exact-envy-free-cake-cutting"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28535v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-83-exact-envy-free-cake-cutting</id>
-    <updated>2026-10-20T17:07:47+00:00</updated>
-    <summary type="html">&lt;p&gt;Envy-free cake cutting asks how to divide a resource so that no agent prefers another agent&amp;apos;s share. Finding such a division with few queries about preferences has been a longstanding challenge. Aziz and Mackenzie gave the first query bound depending only on the number $n$ of agents: a tower of six $n$&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28535v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+    <title>Computing the Nucleon of Matching Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-83-computing-the-nucleon-of-matching"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29731v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-83-computing-the-nucleon-of-matching</id>
+    <updated>2026-10-21T13:35:01+00:00</updated>
+    <summary type="html">&lt;p&gt;The nucleon is the multiplicative counterpart of the nucleolus: it lexicographically maximizes the fraction of its stand-alone value that each coalition receives. We study exact nucleon computation in matching games and in two extensions: $b$-matching games, in which players may have several partners, and partitioned matching games, in which one player may own several vertices. We resolve three open problems from a recent survey.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29731v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Best-of-Both Worlds Proportionality in Structured Committee Elections. We study randomized committee elections with additive preferences, where we seek best-of-both-worlds proportionality.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-84-best-of-both-worlds-proportionality"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28151v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-84-best-of-both-worlds-proportionality</id>
-    <updated>2026-10-20T12:56:38+00:00</updated>
-    <summary type="html">&lt;p&gt;We study randomized committee elections with additive preferences, where we seek best-of-both-worlds proportionality. That is, we strive for strong guarantees for the selection probabilities ex ante and each realized committee ex post. We focus on structured preferences and introduce antichain single-peakedness, a restricted domain generalizing single-peaked additive preferences as well as several well-studied approval domains.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28151v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Condensation and optimal targeting of repeated forcing in heterogeneous networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-84-condensation-and-optimal-targeting-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29714v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-84-condensation-and-optimal-targeting-of</id>
+    <updated>2026-10-21T13:26:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Many networks receive repeated external forcing through a subset of entry nodes, for example infections imported from another population, information seeded by a campaign, or invasive species arriving through ports. We study how concentrating such forcing on important entry nodes, with seeding probability $π_i\propto w_i^γ$, changes the size of the resulting cascades in a stochastic SIR model on bipartite networks. The response to one seeding event is linear in the degree of the seeded node, so the relative gain from targeting does not depend on transmissibility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29714v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Splitting Planar Necklaces with Few Straight Cuts</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-85-splitting-planar-necklaces-with-few"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27956v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-85-splitting-planar-necklaces-with-few</id>
-    <updated>2026-10-20T10:01:52+00:00</updated>
-    <summary type="html">&lt;p&gt;In the classical necklace splitting problem, beads of different colors lie on a line, and the goal is to divide them among $k$ agents using as few cuts as possible so that every agent receives the same number of beads of each color. We study the planar analog in which a cut is a full straight line and the objective is minimizing the number of lines: $m$ points colored red and blue must be separated by straight-line cuts into regions that can be allocated to $k$ agents so that each agent receives the same number of points of each color. Projection to a line gives $2(k-1)$ cuts, and $k-1$ are sometimes necessary; we give algorithms, static and dynamic, that provably close part of this gap.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27956v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+    <title>Energy-fed commitment: a minimal model of random selection followed by reinforcement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-85-energy-fed-commitment-a-minimal"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29670v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-85-energy-fed-commitment-a-minimal</id>
+    <updated>2026-10-21T12:44:41+00:00</updated>
+    <summary type="html">&lt;p&gt;When a symmetric instability is crossed, fluctuations choose one of several equivalent branches. We study a minimal stochastic model of what can then make that choice progressively harder to undo. After selection, the stiffness of the selected state grows in proportion to the energy released each time the structure recovers from a perturbation; in this conservative model that energy equals, up to small and explicitly computed terms, the work absorbed from the perturbing agent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29670v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Multifractality of human upper-limb velocity tracks motor optimization via hand dominance experiment</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-86-multifractality-of-human-upper-limb"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27399v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-86-multifractality-of-human-upper-limb</id>
-    <updated>2026-10-19T23:47:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Theoretical goal-directed movements follow a unique, stereotyped velocity profile, but continuous movement has no unique optimal solution, so it is unclear whether motor optimization makes continuous movement more stereotyped or more diverse. Previous studies indicated higher information content in the dominant hand, suggesting greater diversity. Because continuous velocity is a composition of overlapping joints movement of varying form, timing and amplitude, comparable to the events that compose spike trains and heartbeat series, we asked whether this diversity appears as a wider multifractal spectrum of velocity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27399v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Formalizing Cooperation and Competition: An AI-Assisted Mathematical Addendum to a 2018 Planning Thesis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-86-formalizing-cooperation-and-competition-an"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29637v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-86-formalizing-cooperation-and-competition-an</id>
+    <updated>2026-10-21T12:17:57+00:00</updated>
+    <summary type="html">&lt;p&gt;We present an AI-assisted mathematical addendum to Strategic Trip Planning: Striking a Balance Between Competition and Cooperation (Amar, 2018). We reconstruct selected relationships between strategic choice, cooperative stability, participant approval and enforcement. The thesis&amp;apos;s Nash-to-core proposition is under-specified until outsider opportunities are stated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29637v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Simple Strategy-Iteration with Dantzig&apos;s Rule is not Strongly Polynomial on Turn-Based Deterministic Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-87-simple-strategy-iteration-with-dantzig"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27386v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-87-simple-strategy-iteration-with-dantzig</id>
-    <updated>2026-10-19T23:19:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We study turn-based deterministic zero-sum games with discounted and long-run average costs. For discounted costs, we establish exponential and superpolynomial iteration lower bounds for the simple strategy-iteration method with Dantzig&amp;apos;s rule under unrestricted costs and unit weights, respectively. To the best of our knowledge, this shows for the first time that the method is not strongly polynomial even when all action costs belong to $\{-1,0,1\}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27386v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #optimization&lt;/p&gt;</summary>
+    <title>Urban climate regressions require representative monitoring networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-87-urban-climate-regressions-require-representative"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29423v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-87-urban-climate-regressions-require-representative</id>
+    <updated>2026-10-21T08:48:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Land use regression models relate intra-urban air temperature to spatial predictors such as building volume, tree canopy cover and topography, and are increasingly used to produce fine-scale temperature maps. However, the accuracy of these estimates can be compromised by unrepresentative monitoring networks. Here we show that reference weather station networks, designed for regional rather than intra-urban monitoring, sample only a narrow portion of a city&amp;apos;s spatial heterogeneity, missing both the densely built core and the cool, vegetated periphery that set the two ends of the urban temperature range.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29423v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #climate-earth #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fundamental Impossibility Results in AI Safety: Trading Off between Desiderata</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-88-fundamental-impossibility-results-in-ai"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27373v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-88-fundamental-impossibility-results-in-ai</id>
-    <updated>2026-10-19T22:57:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Is there a fundamental tradeoff between desiderata for safe AI systems, such as harmlessness and helpfulness? We answer by formalizing the interaction between AI systems and users as a game with three players: a defender and an attacker that are computationally or informationally bounded, and an AI that provides public advice and is less constrained. Our main result shows that there is a fundamental tradeoff in providing advice that helps the defender while advice remains public.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27373v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
+    <title>GSP Autobidding Equilibria with Few Advertisers or Slots</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-88-gsp-autobidding-equilibria-with-few"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29310v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-88-gsp-autobidding-equilibria-with-few</id>
+    <updated>2026-10-21T07:05:35+00:00</updated>
+    <summary type="html">&lt;p&gt;In sponsored-shopping auctions, one advertiser may win several positions, and a product that is never displayed may determine the prices of several winners. Under generalized second-price (GSP) pricing without self-pricing, these interactions couple allocation and payment through a single global ranking. We prove that exact autobidding equilibria under budget and return-on-investment (ROI) constraints can be computed in polynomial time whenever either the number $n$ of advertisers or the number $K$ of display slots is fixed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29310v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>District Size Matters: How Seats Per District Shapes Proportionality Under STV</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-89-district-size-matters-how-seats"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27297v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-89-district-size-matters-how-seats</id>
-    <updated>2026-10-19T21:12:31+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the impact of utilizing multimember districts and Single Transferable Vote (STV) as the winner selection method on partisan proportionality. We start with detailed case studies of the upper legislative houses of Illinois, New Hampshire, and New Mexico, building ensembles of redistricting maps with mostly 2-member, mostly 3-member, and mostly 4-member districts for each state. These ensembles are constructed using two methods: building from precincts, and merging currently existing single-member districts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27297v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec&lt;/p&gt;</summary>
+    <title>Noise-driven loss of chimera states and bifurcations in a nonlocal oscillator ring</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-89-noise-driven-loss-of-chimera"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29269v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-89-noise-driven-loss-of-chimera</id>
+    <updated>2026-10-21T06:17:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Independent phase noise can remove the spatial contrast of a chimera while leaving substantial collective coherence. We study this transition in a nonlocally coupled Kuramoto--Sakaguchi ring with a cosine kernel using the nonlinear Fokker--Planck equation. Stationary self-consistency and spatial spectra identify two bifurcations of the uniform ordered state at a reference phase lag.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29269v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Does a Flux-Defined Markov Blanket Screen Self-Replicating Gray--Scott Spots? A Computational Test of a Blanket Condition from the Free Energy Principle</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-90-does-a-flux-defined-markov"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27235v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-90-does-a-flux-defined-markov</id>
-    <updated>2026-10-19T20:02:33+00:00</updated>
-    <summary type="html">&lt;p&gt;Friston&amp;apos;s free energy principle holds that a system separated from its environment by a Markov blanket---a boundary whose states statistically screen its interior from its exterior---can be treated as performing approximate Bayesian inference, and that such blankets arise wherever coupling is short-range. We test this blanket condition in a concrete nonlinear pattern-forming system: self-replicating spots in a reaction-diffusion model that persist, compete, and reproduce. Directed boundary exchange and timescale separation hold up reasonably well, with qualifications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27235v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience #clean-tech&lt;/p&gt;</summary>
+    <title>Pareto Inefficiency of EFX</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-90-pareto-inefficiency-of-efx"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29201v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-90-pareto-inefficiency-of-efx</id>
+    <updated>2026-10-21T04:45:32+00:00</updated>
+    <summary type="html">&lt;p&gt;We consider the problem of allocating indivisible goods to agents with additive valuations, under two classic notions of fairness and efficiency: envy-freeness up to any good (EFX) and Pareto optimality. While some of the earliest work on EFX showed that Pareto optimal EFX allocations may not exist if agents can have zero value for some goods, it has remained open whether the same is true when all values are positive. We present a simple instance in which every good has positive value to every agent, but no Pareto optimal EFX allocation exists.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29201v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

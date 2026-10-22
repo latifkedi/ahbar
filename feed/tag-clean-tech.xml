@@ -5,21 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-10-21T09:44:24.903260377+00:00</updated>
-  <entry>
-    <title>Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning. Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-15-event-stvg-spatio-temporal-video"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.22444"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-15-event-stvg-spatio-temporal-video</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in space and time given a natural-language query. Despite continued advances, existing STVG benchmarks remain largely centered on localizing targets through instance-specific descriptions, leaving them largely decoupled from long-form reasoning increasingly emphasized in multimodal large language models (MLLMs). In this paper, we introduce Event-STVG, a task that shifts STVG from locating what is described toward event-level reasoning by unifying long-form context, repeated-event reasoning, event localization, role inference, and multi-target grounding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.22444&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Does a Flux-Defined Markov Blanket Screen Self-Replicating Gray--Scott Spots? A Computational Test of a Blanket Condition from the Free Energy Principle</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-21-90-does-a-flux-defined-markov"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27235v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-21-90-does-a-flux-defined-markov</id>
-    <updated>2026-10-19T20:02:33+00:00</updated>
-    <summary type="html">&lt;p&gt;Friston&amp;apos;s free energy principle holds that a system separated from its environment by a Markov blanket---a boundary whose states statistically screen its interior from its exterior---can be treated as performing approximate Bayesian inference, and that such blankets arise wherever coupling is short-range. We test this blanket condition in a concrete nonlinear pattern-forming system: self-replicating spots in a reaction-diffusion model that persist, compete, and reproduce. Directed boundary exchange and timescale separation hold up reasonably well, with qualifications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27235v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience #clean-tech&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
 </feed>
