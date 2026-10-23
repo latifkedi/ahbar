@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <entry>
+    <title>Deep Search in Real-World Web Environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-10-deep-search-in-real-world"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30181"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-10-deep-search-in-real-world</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and integrate relevant evidence during execution. To address this gap, we introduce the OpenDS task, designed to evaluate agents&amp;apos; ability to perform multi-step deep search in the live, open Web.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30181&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Toward Recursive Self-Improvement in Physical AI. Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-11-toward-recursive-self-improvement-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29677"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-11-toward-recursive-self-improvement-in</id>
+    <updated>2026-10-20T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and potentially irreversible consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29677&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-12-f2g-pose-geometry-aware-foundation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31623"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-12-f2g-pose-geometry-aware-foundation</id>
+    <updated>2026-10-21T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;This paper studies category-level RGB-D object pose estimation, which recovers an object&amp;apos;s 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: methods based on intermediate structures are prone to error propagation, while diffusion models suffer from high inference latency and complex post-hoc candidate extraction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31623&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>WeVisOne-VL: Unified Visual Perception from Objects to Pixels. Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-13-wevisone-vl-unified-visual-perception"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31329"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-13-wevisone-vl-unified-visual-perception</id>
+    <updated>2026-10-21T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha mattes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31329&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-14-what-generation-knows-unlocking-fine"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23987"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-14-what-generation-knows-unlocking-fine</id>
+    <updated>2026-10-13T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on generative supervision or explicit generation and have not systematically explored direct use of native generation-side representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23987&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-12-introducing-gemini-3-8-flash"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-15-introducing-gemini-3-8-flash"/>
     <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-12-introducing-gemini-3-8-flash</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-15-introducing-gemini-3-8-flash</id>
     <updated>2026-09-02T16:18:31+00:00</updated>
     <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-11-multimodal-embodied-agents-a-unified"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30108"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-11-multimodal-embodied-agents-a-unified</id>
-    <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30108&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-10-compromised-litellm-1-107-0"/>
-    <link rel="related" href="https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-10-compromised-litellm-1-107-0</id>
-    <updated>2026-10-21T14:00:26Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-13-spatialscout-can-vlm-agents-actively"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26659"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-13-spatialscout-can-vlm-agents-actively</id>
+    <title>RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing. LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-16-routeweaver-weaving-mode-selection-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.19705"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-16-routeweaver-weaving-mode-selection-and</id>
     <updated>2026-10-18T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26659&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks. However, existing approaches are largely built around a predefined execution paradigm, such as single-round, multi-round, or agentic routing, which fixes how model calls are organized and limits adaptation to different query needs. We propose RouteWeaver, a unified routing framework that integrates these routing modes within a single LLM policy, jointly learning which mode to use and how to select models within that mode.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.19705&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Agent World Model in the Wild: Computer-Use Agent Environment Synthesis. Agent learning is shifting from learning from human data toward learning through interaction with the world.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-14-agent-world-model-in-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26828"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-14-agent-world-model-in-the</id>
-    <updated>2026-10-18T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26828&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-17-rlsplat-resource-linear-budget-control"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.27712"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-17-rlsplat-resource-linear-budget-control</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its practicality, recent budget-controllable FF3DGS methods allow the number of Gaussians to be adjusted at inference, so that the output meets a given storage limit or rendering-latency constraint. However, these methods overlook the cost of inference itself: to produce a representation with the target number of Gaussians, they first predict a dense set of Gaussians and then prune or select from it, requiring nearly constant latency and peak memory regardless of the budget.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27712&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-15-prismacoder-pushing-the-boundaries-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.20538"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-15-prismacoder-pushing-the-boundaries-of</id>
-    <updated>2026-10-13T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.20538&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Spectral-Spatial Interpretation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-16-spectral-spatial-interpretation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21114"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-16-spectral-spatial-interpretation</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21114&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-17-think-harder-where-it-matters"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30128"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-17-think-harder-where-it-matters</id>
-    <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Existing sequential recommenders usually allocate a fixed computational budget to every item in a user&amp;apos;s interaction history, regardless of the item&amp;apos;s contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30128&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-18-donic-generalist-dexterous-bimanual-tracking"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29997"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-18-donic-generalist-dexterous-bimanual-tracking</id>
-    <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, together with 2) BiHOI, a multi-view dataset of 1,575 sequences spanning 229 objects and emphasizing sustained bimanual interaction, where reconstructed interactions are retargeted into robot references.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29997&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+    <title>Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-18-verus-insight-towards-explainable-artifact"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30866"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-18-verus-insight-towards-explainable-artifact</id>
+    <updated>2026-10-21T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may either fail to recognize subtle artifacts or reach the correct source decision without faithfully identifying the evidence underlying it. In this work, we systematically investigate how to design and train effective artifact detectors and formulate artifact detection as a structured process comprising three complementary capabilities: Inspection Planning, which determines what should be examined; Evidence Verification, which verifies whether the inspected content exhibits genuine generation artifacts; and Evidence Aggregation, which integrates the verified evidence into the final source decision.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30866&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
 </feed>

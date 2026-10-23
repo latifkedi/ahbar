@@ -5,69 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <entry>
+    <title>Towards a Unified Framework for Protein Interaction Site Prediction Using Hierarchical Protein Representations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-46-towards-a-unified-framework-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.18.759950v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-46-towards-a-unified-framework-for</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Proteins interact with a wide range of biomolecular partners, yet identifying the interaction sites that mediate these events remains a major challenge for understanding cellular function and guiding drug discovery. Existing computational methods are typically designed for specific interaction classes and often rely on task-specific features. Here, we introduce PRIME-ISP, a structure-based framework for predicting interaction sites across diverse biomolecular interaction types using a unified architecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.18.759950v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MutaStruct: Revisiting Benchmarks for Single-Site Mutation-Induced Structural Change Prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-47-mutastruct-revisiting-benchmarks-for-single"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760837v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-47-mutastruct-revisiting-benchmarks-for-single</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Predicting the structural consequences of single-site mutations is fundamental to understanding protein function, disease mechanisms, and protein engineering. However, existing benchmarks for mutation-induced structural change prediction are often affected by duplicate mutation events, highly similar structural pairs, and experimental-state confounders, which can inflate reported performance. We introduce MutaStruct, a curated benchmark of experimentally observed single-mutation protein structure pairs designed for rigorous evaluation of mutation-induced structural changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760837v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>NuFold RNA Structure Database: Large-Scale RNA Tertiary Structure Prediction with Confidence Metrics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-48-nufold-rna-structure-database-large"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-48-nufold-rna-structure-database-large</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Summary: To bridge the gap between rapid RNA sequence discovery and slow experimental characterization, we present the NuFold RNA Structure Database (https://nufold.kiharalab.org/), a resource providing large-scale, precomputed full-atom RNA tertiary structures. By removing the computational barriers associated with running the method locally, this database makes high-accuracy RNA structure models readily accessible to the biological research community for a wide range of applications. Availability and implementation: All predicted structures and corresponding data are available at https://nufold.kiharalab.org/.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #databases&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Pose: a pure-NumPy, chirality-aware, structural engine for building and manipulating the molecular structures of proteins, nucleic acids, and small organic molecules</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-46-pose-a-pure-numpy-chirality"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-49-pose-a-pure-numpy-chirality"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.19.760100v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-46-pose-a-pure-numpy-chirality</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-49-pose-a-pure-numpy-chirality</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Molecular modelling protocols often cross several programs, each with its own formats, conventions, and installation, and few treat D-amino acids and other non-canonical residues consistently. This work presents Pose, a Python library whose only run-time dependency is NumPy. Pose builds polypeptides, including six non-canonical amino acids, and nucleic-acid duplexes from sequence, with letter case setting each residue&amp;apos;s handedness, and reimplements three force fields (OpenFF Sage 2.3.0, AMBER ff19SB, and CHARMM36) and two score functions (Rosetta REF15 and AutoDock Vina) as readable array operations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.19.760100v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>T2G: fast and accurate transcriptome to genome BAM liftover for short and long read RNA sequencing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-47-t2g-fast-and-accurate-transcriptome"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-50-t2g-fast-and-accurate-transcriptome"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.20.760397v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-47-t2g-fast-and-accurate-transcriptome</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-50-t2g-fast-and-accurate-transcriptome</id>
     <updated>2026-10-21T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Aligning RNA sequencing reads to the transcriptome rather than the genome recovers short and junction-spanning reads that genome alignment loses or misplaces, but it leaves the alignments in transcript coordinates, which genome browsers, variant callers and most annotation tools cannot use. Existing liftover tools translate between genome assemblies, and the few that reach transcript coordinates are tied to a single quantification model or assay type. Here we describe T2G, which converts complete BAM files from transcriptome to genome coordinates while keeping CIGAR strings, alignment tags and per-base RNA modification calls intact.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.20.760397v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>G-ALN: a GPU-accelerated BWA-aln algorithm for palaeogenomics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-48-g-aln-a-gpu-accelerated"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.18.759956v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-48-g-aln-a-gpu-accelerated</id>
-    <updated>2026-10-21T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Abstract Summary: The most commonly used method to achieve optimal mapping for short and damaged ancient DNA (aDNA) reads is the BWA-aln algorithm with seeding disabled. However, this CPU-based algorithm is computationally demanding, as the aligner must tolerate mismatches and indels across the entire read. To improve alignment speed, we present G-ALN: a GPU implementation of the BWA-aln and indexing algorithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.18.759956v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GEO-BERT: A Retrieval augmented LLM Framework for Intelligent Dataset Retrieval from the Gene Expression Omnibus</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-49-geo-bert-a-retrieval-augmented"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.15.759430v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-49-geo-bert-a-retrieval-augmented</id>
-    <updated>2026-10-21T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The Gene Expression Omnibus (GEO) is a commonly used data repository of high throughput gene expression and other functional genomics data. This platform is globally used by researchers for submitting experimental datasets, accessing these datasets for hypothesis validation, reusing them in data-driven research, generating ideas for new research directions. Despite global usage, searching and identifying relevant and usable datasets in GEO remains challenging with an underlying keyword based search system needing manual intervention for the retrieval of desired datasets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.15.759430v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rag&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Combining RNA-seq and proteomics boosts sensitivity to detect differentially expressed genes by rpMeta</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-50-combining-rna-seq-and-proteomics"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.15.758995v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-50-combining-rna-seq-and-proteomics</id>
-    <updated>2026-10-21T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Differential gene expression analysis is a powerful technique to characterize biological systems. Differentially expressed genes (DEGs) are commonly identified by analysis of RNA sequencing datasets or mass spectrometry proteomics datasets. Increasingly, multi-omic studies include both RNA sequencing and proteomics from the same biospecimens.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.15.758995v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fibres and glasses are competing material states in protein condensation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-36-fibres-and-glasses-are-competing"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03415-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-36-fibres-and-glasses-are-competing</id>
-    <updated>2026-10-20T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 20 October 2026; doi:10.1038/s41567-026-03415-z Fibres are thought to emerge from a dense protein condensate ageing into a glassy state. It is now shown that protein fibres and glassy condensates may result from two competing ageing pathways.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03415-z&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-51-hybrid-modeling-for-improved-structure"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-54-hybrid-modeling-for-improved-structure"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-51-hybrid-modeling-for-improved-structure</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-54-hybrid-modeling-for-improved-structure</id>
     <updated>2026-10-15T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-52-hdock-multimer-improved-structure-prediction"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-52-hdock-multimer-improved-structure-prediction</id>
-    <updated>2026-10-14T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

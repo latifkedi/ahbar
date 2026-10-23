@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-math.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-math.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
     <title>Octonions and the Standard Model (Part 15)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-19-octonions-and-the-standard-model"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-19-octonions-and-the-standard-model"/>
     <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-19-octonions-and-the-standard-model</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-19-octonions-and-the-standard-model</id>
     <updated>2026-07-18T17:56:16+00:00</updated>
     <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Facets of the X-ray polytope of doubly stochastic matrices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-20-facets-of-the-x-ray"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30058v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-20-facets-of-the-x-ray</id>
-    <updated>2026-10-21T17:18:07+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the polytope of anti-diagonal X-rays of k x k doubly stochastic matrices, the image of the Birkhoff polytope under the map that sums the entries along each anti-diagonal. Its facets other than the coordinate facets are the minimal joint tail bounds for lattice laws of a sum of two dependent uniform random variables. We give an exact facet criterion in terms of the allowed edges of a tight graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30058v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #optimization #post-quantum&lt;/p&gt;</summary>
+    <title>Upper tail large deviations of regular subgraph counts in sparse random regular graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-20-upper-tail-large-deviations-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31590v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-20-upper-tail-large-deviations-of</id>
+    <updated>2026-10-22T17:24:21+00:00</updated>
+    <summary type="html">&lt;p&gt;For a $Δ$-regular connected graph $H$ we obtain the upper tail large deviations speed and rate function for the number of copies of $H$ in $\mathbb{G}_n^d$, a random $d$-regular graph on $n$ vertices, in the regime $np^{Δ/2} \gg (\log n)^{1/(v_H-2)}$ and $p \ll 1$, where $p:=d/n$ and $v_H$ is the number of vertices, and also identify the typical structure of $\mathbb{G}_n^d$ conditioned on this upper tail event. For $Δ\geq 3$, the speed and the rate function are same with those in the Erdős-Rényi setting. In contrast, for $Δ=2$ (i.e.~in case of cycles), due to the degree constraint in $\mathbb{G}_n^d$, although speed remains the same the rate function turns out to be different.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31590v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Painlevé representations for joint moments of characteristic polynomials from the orthogonal and unitary symplectic groups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-21-painlev-representations-for-joint-moments"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29947v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-21-painlev-representations-for-joint-moments</id>
-    <updated>2026-10-21T16:11:31+00:00</updated>
-    <summary type="html">&lt;p&gt;We study joint moments of characteristic polynomials and their second derivatives for Haar-distributed matrices from the unitary symplectic and orthogonal groups. We establish their large-$N$ asymptotics throughout the full admissible range of the moment parameters and identify the limiting coefficients probabilistically in terms of the first inverse power sum of the Bessel point process. This extends the corresponding results of Assiotis, Gunes, Keating, and Wei [Proc.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29947v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nashtopes and their A-discriminants</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-22-nashtopes-and-their-a-discriminants"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29889v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-22-nashtopes-and-their-a-discriminants</id>
-    <updated>2026-10-21T15:31:51+00:00</updated>
-    <summary type="html">&lt;p&gt;An $n$-player game in normal form is said to be of format $\boldsymbol{d} = (d_1, \dots, d_n)$ if the $i$-th player has $d_i$ options for $1 \le i \le n$, and is said to be balanced if $d_n - 1 \le \sum_{i=1}^{n-1}(d_i - 1)$. The Nash equilibria of the game correspond to solutions of the system of indifference equations for the game, with payoff differences as coefficients and strategy probabilities as variables. As such, the mixed discriminant of this system gives some information about which games could have an unusual number of totally mixed Nash equilibria.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29889v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #decision-theory #algebra-geometry&lt;/p&gt;</summary>
+    <title>Simple and critical zeros of the Riemann zeta-function. [This is a guest post by Caroline Turnage-Butterbaugh.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-21-simple-and-critical-zeros-of"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-21-simple-and-critical-zeros-of</id>
+    <updated>2026-10-22T19:17:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Caroline Turnage-Butterbaugh. This blog post was initially written in a different file format and converted using AI. — T.] Evidence in favor of the Riemann Hypothesis comes in many flavors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Mathematics is a subject for the young. [This is a guest post by Tristan Buckmaster.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-23-mathematics-is-a-subject-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-22-mathematics-is-a-subject-for"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-23-mathematics-is-a-subject-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-22-mathematics-is-a-subject-for</id>
     <updated>2026-10-21T18:19:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Tristan Buckmaster. This blog post was initially written in a different file format and converted using AI. — T.] This blog post expands on a theme mentioned at the end of my recent talk at the Institute for Advanced Study on October 19.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-24-an-experimental-ai-math-challenge"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-23-an-experimental-ai-math-challenge"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-24-an-experimental-ai-math-challenge</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-23-an-experimental-ai-math-challenge</id>
     <updated>2026-10-20T15:35:00+00:00</updated>
     <summary type="html">&lt;p&gt;In the spirit of my recent “Math 2.0” talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau–Siegel zeroes, as discussed in this previous post. There is […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>A sketch of the proof of non-existence of Siegel zeroes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-25-a-sketch-of-the-proof"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-24-a-sketch-of-the-proof"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-25-a-sketch-of-the-proof</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-24-a-sketch-of-the-proof</id>
     <updated>2026-10-19T18:27:19+00:00</updated>
     <summary type="html">&lt;p&gt;For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The Bourgain Project</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-26-the-bourgain-project"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-25-the-bourgain-project"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-26-the-bourgain-project</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-25-the-bourgain-project</id>
     <updated>2026-10-19T17:07:10+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Lukas Liehr, João Pedro Ramos and Mitchell Taylor – T.] We are launching the Bourgain Project, a community-driven initiative to revisit, expand upon, and explore the body of work of Jean Bourgain, one of the most prolific mathematicians of his time. The goal of this initiative is to develop […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Will it be a golden age or a dark age for mathematics (and science)?. [This is a guest post by Francesco Maggi.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-27-will-it-be-a-golden"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-26-will-it-be-a-golden"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-27-will-it-be-a-golden</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-26-will-it-be-a-golden</id>
     <updated>2026-10-18T14:59:49+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Francesco Maggi. This blog post was initially written in a different file format and converted using AI. — T.] Large language models (LLMs) and the research systems built around them (and commonly known as “artificial intelligence”) have demonstrated remarkable abilities in generating mathematical proofs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Starting a new journal. [This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-27-starting-a-new-journal"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-27-starting-a-new-journal</id>
+    <updated>2026-10-18T03:11:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Shaoming Guo – T.] Several math colleagues and I are preparing to launch a new journal. As we considered which values we wanted the journal to uphold, we realized that there may be many other values worth exploring as a community, potentially through the creation of additional journals. We […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

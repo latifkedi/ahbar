@@ -5,36 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-38-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-38-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Extending concurrent separation logic to the hardware level to verify the xv6 OS kernel on RISC-V with AI agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-41-extending-concurrent-separation-logic-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2609.04043"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-41-extending-concurrent-separation-logic-to</id>
-    <updated>2026-10-22T04:47:01+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2609.04043&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #kernel-os #semiconductors&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-40-cve-2026-107891-musl-libc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-39-cve-2026-107891-musl-libc"/>
     <link rel="related" href="https://www.openwall.com/lists/oss-security/2026/10/21/18"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-40-cve-2026-107891-musl-libc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-39-cve-2026-107891-musl-libc</id>
     <updated>2026-10-21T17:40:17+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.openwall.com/lists/oss-security/2026/10/21/18&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #c-cpp&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-33-conqec-concolic-testing-for-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31443v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-33-conqec-concolic-testing-for-quantum</id>
+    <updated>2026-10-22T15:40:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31443v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>FVQKD: A Formal Verification of Quantum Key Distribution Security in Rocq</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-56-fvqkd-a-formal-verification-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30645v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-56-fvqkd-a-formal-verification-of</id>
+    <updated>2026-10-22T03:06:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum key distribution (QKD), whose security is derived from quantum mechanics rather than computational assumptions, is moving into standardization and commercial deployment. Yet its security guarantees rest on technically delicate proofs checked by hand. Formal verification closes this gap, establishing a two-factor assurance: unconditional security from physical principles, and machine-checked proofs against reasoning errors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30645v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #quantum-computing #cryptography&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Announcing rustup 1.29.2. The rustup team is happy to announce the release of rustup version 1.29.1.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-43-announcing-rustup-1-29-2"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-41-announcing-rustup-1-29-2"/>
     <link rel="related" href="https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-43-announcing-rustup-1-29-2</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-41-announcing-rustup-1-29-2</id>
     <updated>2026-10-20T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What&amp;apos;s new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/&quot;&gt;Rust Programming Language Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers&lt;/p&gt;</summary>
   </entry>

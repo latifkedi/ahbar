@@ -5,61 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
-  <entry>
-    <title>Discord Patch Notes: October 6, 2026. Check out the finer details of the more technical fixes implemented into Discord recently.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-03-discord-patch-notes-october-6"/>
-    <link rel="related" href="https://discord.com/blog/discord-patch-notes-october-6-2026"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-03-discord-patch-notes-october-6</id>
-    <updated>2026-10-06T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Check out the finer details of the more technical fixes implemented into Discord recently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discord.com/blog/discord-patch-notes-october-6-2026&quot;&gt;Discord Systems &amp;amp; Database Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Extending concurrent separation logic to the hardware level to verify the xv6 OS kernel on RISC-V with AI agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-41-extending-concurrent-separation-logic-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2609.04043"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-41-extending-concurrent-separation-logic-to</id>
-    <updated>2026-10-22T04:47:01+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2609.04043&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #kernel-os #semiconductors&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
     <title>CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-40-cve-2026-107891-musl-libc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-39-cve-2026-107891-musl-libc"/>
     <link rel="related" href="https://www.openwall.com/lists/oss-security/2026/10/21/18"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-40-cve-2026-107891-musl-libc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-39-cve-2026-107891-musl-libc</id>
     <updated>2026-10-21T17:40:17+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.openwall.com/lists/oss-security/2026/10/21/18&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #c-cpp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Wednesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-42-security-updates-for-wednesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1102005/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-42-security-updates-for-wednesday</id>
-    <updated>2026-10-21T13:13:58+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bubblewrap, emacs, gimp:2.8, glibc, jackson-databind, kernel, kernel-rt, librabbitmq, openexr, openssh, postgresql:16, postgresql:18, python3, resteasy, wireshark, xorg-x11-server, and xorg-x11-server-Xwayland), Debian (ca-certificates, firefox-esr, git-lfs, and libssh), Fedora (aom, assimp, bind, bind-dyndb-ldap, freerdp, ghostscript, gopass, gopass-jsonapi,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102005/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
+    <title>Security updates for Thursday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-40-security-updates-for-thursday"/>
+    <link rel="related" href="https://lwn.net/Articles/1102265/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-40-security-updates-for-thursday</id>
+    <updated>2026-10-22T13:09:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bubblewrap, emacs, gimp:2.8, glibc, jackson-databind, kernel, kernel-rt, librabbitmq, openexr, openssh, postgresql:16, postgresql:18, python3, resteasy, wireshark, xorg-x11-server, and xorg-x11-server-Xwayland), Debian (ca-certificates, firefox-esr, git-lfs, and libssh), Fedora (aom, assimp, bind, bind-dyndb-ldap, freerdp, ghostscript, gopass, gopass-jsonapi,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102265/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Announcing rustup 1.29.2. The rustup team is happy to announce the release of rustup version 1.29.1.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-43-announcing-rustup-1-29-2"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-41-announcing-rustup-1-29-2"/>
     <link rel="related" href="https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-43-announcing-rustup-1-29-2</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-41-announcing-rustup-1-29-2</id>
     <updated>2026-10-20T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What&amp;apos;s new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/&quot;&gt;Rust Programming Language Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-56-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-57-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-56-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-57-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>One-Step Schnorr Threshold Identification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-61-one-step-schnorr-threshold-identification"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/722"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-61-one-step-schnorr-threshold-identification</id>
-    <updated>2025-04-22T21:06:18+00:00</updated>
-    <summary type="html">&lt;p&gt;Threshold cryptographic primitives have not been widely adopted in real-world distributed systems (i.e., beyond the closed committee model) presumably due to state-synchronization overhead and complex certification processes for the shareholders. These are both aspects of their overreliance on infrastructure, an assumption that is usually glossed over in their design. In this work, we propose OSST, a real-time threshold identification protocol that achieves non-interactivity and non-reliance on public shares by means of direct proof interpolation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/722&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #distributed-systems&lt;/p&gt;</summary>
+    <title>Package managers have an integrity problem</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-43-package-managers-have-an-integrity"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-43-package-managers-have-an-integrity</id>
+    <updated>2026-10-14T11:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Dynamic networks can promote pro-sociality</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-52-dynamic-networks-can-promote-pro"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-52-dynamic-networks-can-promote-pro</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-53-structure-coefficient-theorem-for-evolutionary"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-53-structure-coefficient-theorem-for-evolutionary</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

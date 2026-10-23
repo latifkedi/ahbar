@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
-    <title>Speculative Imbalance Positions by Non-Physical Traders: Impacts on Electricity System Balancing in Great Britain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-64-speculative-imbalance-positions-by-non"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28075v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-64-speculative-imbalance-positions-by-non</id>
-    <updated>2026-10-20T11:54:36+00:00</updated>
-    <summary type="html">&lt;p&gt;The electricity system in Great Britain (GB) allows participants to deliberately produce or consume a different volume to their traded position and has incentivised this practice with a single imbalance price since 2015. In particular, non-physical traders (NPTs) often take an open position to imbalance without any intention to produce or consume power. However, new government proposals could restrict this practice due to concerns over supply-demand balancing feasibility and costs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28075v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Arithmetic Models for Commodity Futures, Vanilla, and Calendar Spread Options</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-65-arithmetic-models-for-commodity-futures"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.28071v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-65-arithmetic-models-for-commodity-futures</id>
-    <updated>2026-10-20T11:52:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We develop an arithmetic multi-factor stochastic volatility model for commodity futures and options. The arithmetic specification yields a low-dimensional Markovian representation of the futures curve and semi-closed-form pricing formulas for vanilla and basket options, including calendar spread options. These properties make the model suitable for large-scale empirical estimation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.28071v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
+    <title>Equilibria and Learning in Competitive Market Making. We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-68-equilibria-and-learning-in-competitive"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30891v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-68-equilibria-and-learning-in-competitive</id>
+    <updated>2026-10-22T08:09:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader. In a continuous quote space, standard finite-game arguments do not apply, while non-convex and discontinuous payoffs rule out classical continuous existence results and complicate learning. Nonetheless, we characterize pure-strategy Nash equilibria (PSNEs) and show that at least one PSNE always exists under minimal assumptions on the underlying asset value distribution, and that the equilibrium bid-ask spread widens strictly with asset value volatility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30891v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #decision-theory #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

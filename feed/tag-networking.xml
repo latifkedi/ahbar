@@ -5,21 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-networking.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-networking.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
-  <entry>
-    <title>Do Flow-Generation Tools Matter? Unsupervised Characterization of MQTT Traffic Across Public Datasets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-44-do-flow-generation-tools-matter"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29774v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-44-do-flow-generation-tools-matter</id>
-    <updated>2026-10-21T14:05:22+00:00</updated>
-    <summary type="html">&lt;p&gt;Message Queue Telemetry Transport (MQTT) is widely used in IoT environments due to its lightweight publish-subscribe design and suitability for resource-constrained networks. While current MQTT security studies mainly focus on detecting attacks and optimizing classification performance, this work takes a different perspective by presenting a cross-dataset, tool-aware characterization of MQTT traffic at the flow level. This perspective is motivated by the fact that flow-generation is tool-dependent: flows are not directly observed in packet captures, but are constructed through tool-specific decisions about packet grouping, flow termination, and feature export.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29774v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #cryptography&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MASAR: Multi-stage Attack Surface Analysis and Reasoning Framework for Telecom Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-45-masar-multi-stage-attack-surface"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29343v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-45-masar-multi-stage-attack-surface</id>
-    <updated>2026-10-21T07:37:51+00:00</updated>
-    <summary type="html">&lt;p&gt;The increasing complexity of modern telecommunications networks introduces security challenges that require systematic threat analysis. However, a gap remains between architectural threat modeling frameworks, such as Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege (STRIDE), and operational knowledge bases, such as the MITRE Five-G Hierarchy of Threats (FiGHT). This gap limits the ability to connect architectural weaknesses with specific protocol behaviors and attack sequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29343v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
 </feed>

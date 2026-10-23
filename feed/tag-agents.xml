@@ -5,53 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
-    <title>Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-11-multimodal-embodied-agents-a-unified"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30108"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-11-multimodal-embodied-agents-a-unified</id>
+    <title>Deep Search in Real-World Web Environments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-10-deep-search-in-real-world"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30181"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-10-deep-search-in-real-world</id>
+    <updated>2026-10-18T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and integrate relevant evidence during execution. To address this gap, we introduce the OpenDS task, designed to evaluate agents&amp;apos; ability to perform multi-step deep search in the live, open Web.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30181&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Toward Recursive Self-Improvement in Physical AI. Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-11-toward-recursive-self-improvement-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29677"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-11-toward-recursive-self-improvement-in</id>
     <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30108&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and potentially irreversible consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29677&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-13-spatialscout-can-vlm-agents-actively"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26659"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-13-spatialscout-can-vlm-agents-actively</id>
+    <title>RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing. LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-16-routeweaver-weaving-mode-selection-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.19705"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-16-routeweaver-weaving-mode-selection-and</id>
     <updated>2026-10-18T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26659&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks. However, existing approaches are largely built around a predefined execution paradigm, such as single-round, multi-round, or agentic routing, which fixes how model calls are organized and limits adaptation to different query needs. We propose RouteWeaver, a unified routing framework that integrates these routing modes within a single LLM policy, jointly learning which mode to use and how to select models within that mode.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.19705&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Agent World Model in the Wild: Computer-Use Agent Environment Synthesis. Agent learning is shifting from learning from human data toward learning through interaction with the world.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-14-agent-world-model-in-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26828"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-14-agent-world-model-in-the</id>
-    <updated>2026-10-18T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26828&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>When Are We Near Nash? Certifying Solutions in General-Sum Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-82-when-are-we-near-nash"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29300v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-82-when-are-we-near-nash</id>
-    <updated>2026-10-21T06:53:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Heuristic solvers for general-sum extensive-form games produce a stream of iterates, and practice reports the NashGap of the returned profile. We ask what a solver can know about its own iterates from the regret accumulators and the terminal-distribution accumulators its updates already maintain. In two-player games the NashGap of a weighted average strategy equals, at the maximizing player, the weighted external regret plus a signed value correction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29300v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Energy-fed commitment: a minimal model of random selection followed by reinforcement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-85-energy-fed-commitment-a-minimal"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29670v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-85-energy-fed-commitment-a-minimal</id>
-    <updated>2026-10-21T12:44:41+00:00</updated>
-    <summary type="html">&lt;p&gt;When a symmetric instability is crossed, fluctuations choose one of several equivalent branches. We study a minimal stochastic model of what can then make that choice progressively harder to undo. After selection, the stiffness of the selected state grows in proportion to the energy released each time the structure recovers from a perturbation; in this conservative model that energy equals, up to small and explicitly computed terms, the work absorbed from the perturbing agent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29670v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Pareto Inefficiency of EFX</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-90-pareto-inefficiency-of-efx"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29201v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-90-pareto-inefficiency-of-efx</id>
-    <updated>2026-10-21T04:45:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We consider the problem of allocating indivisible goods to agents with additive valuations, under two classic notions of fairness and efficiency: envy-freeness up to any good (EFX) and Pareto optimality. While some of the earliest work on EFX showed that Pareto optimal EFX allocations may not exist if agents can have zero value for some goods, it has remained open whether the same is true when all values are positive. We present a simple instance in which every good has positive value to every agent, but no Pareto optimal EFX allocation exists.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29201v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Matching Tasks to Agents: Mechanism Design for Multi-Agent Contracts. We study task assignment under adverse selection and moral hazard.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-86-matching-tasks-to-agents-mechanism"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31002v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-86-matching-tasks-to-agents-mechanism</id>
+    <updated>2026-10-22T09:42:54+00:00</updated>
+    <summary type="html">&lt;p&gt;We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs. Based on the agents&amp;apos; reported types, the principal selects an agent to perform the task and offers a success-contingent payment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31002v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

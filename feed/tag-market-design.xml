@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
-    <title>Extending Mechanisms</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-66-extending-mechanisms"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27839v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-66-extending-mechanisms</id>
-    <updated>2026-10-20T08:26:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Given an incentive-compatible mechanism for a single agent on a restricted domain of valuations, we consider its incentive-compatible extensions to the entire valuation space. We identify two extreme extensions: the &amp;quot;keep-the-menu&amp;quot; extension, which minimizes buyer payoffs and maximizes canonical prices pointwise, and the &amp;quot;keep-the-pricing&amp;quot; extension, which maximizes buyer payoffs and minimizes canonical prices…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27839v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>A Weakly Group Strategy-Proof and Pareto-Stable Matching Mechanism with Two-Sided Indifferences under Gross Substitutes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-66-a-weakly-group-strategy-proof"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30807v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-66-a-weakly-group-strategy-proof</id>
+    <updated>2026-10-22T06:32:15+00:00</updated>
+    <summary type="html">&lt;p&gt;We study finite many-to-one matching markets with indifferences on both sides and publicly known firm preferences over sets of workers. A standard approach breaks ties uniformly at random and runs deferred acceptance, which is strategy-proof for workers but may select a weakly stable matching that is Pareto dominated under the agents&amp;apos; original preferences. For the broad class of markets in which each firm&amp;apos;s preferences admit a gross substitutes (GS) representation, we construct a deterministic generalized deferred acceptance mechanism that is weakly stable, Pareto efficient with respect to both sides, worker weakly group strategy-proof, and implementable in strongly polynomial time given value oracles for the GS representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30807v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Limits of Price Discrimination When the Market Is Unknown</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-67-the-limits-of-price-discrimination"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30408v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-67-the-limits-of-price-discrimination</id>
+    <updated>2026-10-21T20:13:22+00:00</updated>
+    <summary type="html">&lt;p&gt;Bergemann, Brooks, and Morris (2015) characterize the consumer and producer surplus pairs that segmentation can produce when the distribution of values is known. I fix only the set of possible values and characterize the pairs that some market and some segmentation can produce. They form a convex polygon. Its outer edge is the largest efficient surplus a market can have when its uniform-price profit is capped, net of that profit, and truncated equal-revenue markets attain it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30408v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Equilibria and Learning in Competitive Market Making. We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-68-equilibria-and-learning-in-competitive"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30891v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-68-equilibria-and-learning-in-competitive</id>
+    <updated>2026-10-22T08:09:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader. In a continuous quote space, standard finite-game arguments do not apply, while non-convex and discontinuous payoffs rule out classical continuous existence results and complicate learning. Nonetheless, we characterize pure-strategy Nash equilibria (PSNEs) and show that at least one PSNE always exists under minimal assumptions on the underlying asset value distribution, and that the equilibrium bid-ask spread widens strictly with asset value volatility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30891v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #decision-theory #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

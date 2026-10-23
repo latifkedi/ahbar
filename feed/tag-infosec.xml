@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
     <title>CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-40-cve-2026-107891-musl-libc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-39-cve-2026-107891-musl-libc"/>
     <link rel="related" href="https://www.openwall.com/lists/oss-security/2026/10/21/18"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-40-cve-2026-107891-musl-libc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-39-cve-2026-107891-musl-libc</id>
     <updated>2026-10-21T17:40:17+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.openwall.com/lists/oss-security/2026/10/21/18&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #c-cpp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-72-from-politics-to-process-evidence"/>
-    <link rel="related" href="https://www.nber.org/papers/w35903#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-72-from-politics-to-process-evidence</id>
-    <updated>2026-10-22T09:43:17.628650799+00:00</updated>
-    <summary type="html">&lt;p&gt;States that delegate governance to local officials face a trade-off between the benefits of local knowledge and the costs of biased administrators. Can imposing federal standards discipline bias and improve uniformity? We study this question by examining the introduction of federal standards to apply for citizenship under the 1906 Naturalization Act.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35903#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
+    <title>Weaponizing the Exit: Input Privacy Leakage via Exit Routing Manipulation in Multi-Exit Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-59-weaponizing-the-exit-input-privacy"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31246v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-59-weaponizing-the-exit-input-privacy</id>
+    <updated>2026-10-22T13:26:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Multi-exit networks improve inference efficiency by allowing inputs to terminate early at intermediate exits. We identify a privacy vulnerability in cloud deployments of these networks: a malicious Cloud Service Provider (CSP) can infer sensitive properties of individual user inputs solely from inference latency, without accessing inputs, intermediate states, or model outputs. The attack exploits the CSP&amp;apos;s control over the model supply chain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31246v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Package managers have an integrity problem</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-43-package-managers-have-an-integrity"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-43-package-managers-have-an-integrity</id>
+    <updated>2026-10-14T11:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
 </feed>

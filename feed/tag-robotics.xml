@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
-    <title>Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-11-multimodal-embodied-agents-a-unified"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30108"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-11-multimodal-embodied-agents-a-unified</id>
+    <title>Toward Recursive Self-Improvement in Physical AI. Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-11-toward-recursive-self-improvement-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29677"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-11-toward-recursive-self-improvement-in</id>
     <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30108&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-18-donic-generalist-dexterous-bimanual-tracking"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29997"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-18-donic-generalist-dexterous-bimanual-tracking</id>
-    <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging. Therefore, we present 1) DONIC, the first generalist bimanual tracker jointly trained across operation categories and human-motion sources, together with 2) BiHOI, a multi-view dataset of 1,575 sequences spanning 229 objects and emphasizing sustained bimanual interaction, where reconstructed interactions are retargeted into robot references.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29997&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and potentially irreversible consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29677&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rag.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rag.xml</id>
-  <updated>2026-10-22T09:43:17.432026420+00:00</updated>
+  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
   <entry>
-    <title>GEO-BERT: A Retrieval augmented LLM Framework for Intelligent Dataset Retrieval from the Gene Expression Omnibus</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-22-49-geo-bert-a-retrieval-augmented"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.15.759430v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-22-49-geo-bert-a-retrieval-augmented</id>
-    <updated>2026-10-21T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The Gene Expression Omnibus (GEO) is a commonly used data repository of high throughput gene expression and other functional genomics data. This platform is globally used by researchers for submitting experimental datasets, accessing these datasets for hypothesis validation, reusing them in data-driven research, generating ideas for new research directions. Despite global usage, searching and identifying relevant and usable datasets in GEO remains challenging with an underlying keyword based search system needing manual intervention for the retrieval of desired datasets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.15.759430v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rag&lt;/p&gt;</summary>
+    <title>What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-14-what-generation-knows-unlocking-fine"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.23987"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-14-what-generation-knows-unlocking-fine</id>
+    <updated>2026-10-13T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on generative supervision or explicit generation and have not systematically explored direct use of native generation-side representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23987&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag&lt;/p&gt;</summary>
   </entry>
 </feed>
