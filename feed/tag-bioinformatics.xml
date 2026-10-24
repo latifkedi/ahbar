@@ -5,77 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
   <entry>
     <title>Towards a Unified Framework for Protein Interaction Site Prediction Using Hierarchical Protein Representations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-46-towards-a-unified-framework-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-47-towards-a-unified-framework-for"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.18.759950v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-46-towards-a-unified-framework-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-47-towards-a-unified-framework-for</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Proteins interact with a wide range of biomolecular partners, yet identifying the interaction sites that mediate these events remains a major challenge for understanding cellular function and guiding drug discovery. Existing computational methods are typically designed for specific interaction classes and often rely on task-specific features. Here, we introduce PRIME-ISP, a structure-based framework for predicting interaction sites across diverse biomolecular interaction types using a unified architecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.18.759950v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>MutaStruct: Revisiting Benchmarks for Single-Site Mutation-Induced Structural Change Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-47-mutastruct-revisiting-benchmarks-for-single"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-48-mutastruct-revisiting-benchmarks-for-single"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760837v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-47-mutastruct-revisiting-benchmarks-for-single</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-48-mutastruct-revisiting-benchmarks-for-single</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Predicting the structural consequences of single-site mutations is fundamental to understanding protein function, disease mechanisms, and protein engineering. However, existing benchmarks for mutation-induced structural change prediction are often affected by duplicate mutation events, highly similar structural pairs, and experimental-state confounders, which can inflate reported performance. We introduce MutaStruct, a curated benchmark of experimentally observed single-mutation protein structure pairs designed for rigorous evaluation of mutation-induced structural changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760837v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>NuFold RNA Structure Database: Large-Scale RNA Tertiary Structure Prediction with Confidence Metrics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-48-nufold-rna-structure-database-large"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-49-nufold-rna-structure-database-large"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-48-nufold-rna-structure-database-large</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-49-nufold-rna-structure-database-large</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary: To bridge the gap between rapid RNA sequence discovery and slow experimental characterization, we present the NuFold RNA Structure Database (https://nufold.kiharalab.org/), a resource providing large-scale, precomputed full-atom RNA tertiary structures. By removing the computational barriers associated with running the method locally, this database makes high-accuracy RNA structure models readily accessible to the biological research community for a wide range of applications. Availability and implementation: All predicted structures and corresponding data are available at https://nufold.kiharalab.org/.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Pose: a pure-NumPy, chirality-aware, structural engine for building and manipulating the molecular structures of proteins, nucleic acids, and small organic molecules</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-49-pose-a-pure-numpy-chirality"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.19.760100v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-49-pose-a-pure-numpy-chirality</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Molecular modelling protocols often cross several programs, each with its own formats, conventions, and installation, and few treat D-amino acids and other non-canonical residues consistently. This work presents Pose, a Python library whose only run-time dependency is NumPy. Pose builds polypeptides, including six non-canonical amino acids, and nucleic-acid duplexes from sequence, with letter case setting each residue&amp;apos;s handedness, and reimplements three force fields (OpenFF Sage 2.3.0, AMBER ff19SB, and CHARMM36) and two score functions (Rosetta REF15 and AutoDock Vina) as readable array operations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.19.760100v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>T2G: fast and accurate transcriptome to genome BAM liftover for short and long read RNA sequencing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-50-t2g-fast-and-accurate-transcriptome"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.20.760397v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-50-t2g-fast-and-accurate-transcriptome</id>
-    <updated>2026-10-21T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Aligning RNA sequencing reads to the transcriptome rather than the genome recovers short and junction-spanning reads that genome alignment loses or misplaces, but it leaves the alignments in transcript coordinates, which genome browsers, variant callers and most annotation tools cannot use. Existing liftover tools translate between genome assemblies, and the few that reach transcript coordinates are tied to a single quantification model or assay type. Here we describe T2G, which converts complete BAM files from transcriptome to genome coordinates while keeping CIGAR strings, alignment tags and per-base RNA modification calls intact.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.20.760397v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Making the case for a non-primary article</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-51-making-the-case-for-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-50-making-the-case-for-a"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-51-making-the-case-for-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-50-making-the-case-for-a</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-52-dynamic-networks-can-promote-pro"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-51-dynamic-networks-can-promote-pro"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-52-dynamic-networks-can-promote-pro</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-51-dynamic-networks-can-promote-pro</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-53-structure-coefficient-theorem-for-evolutionary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-52-structure-coefficient-theorem-for-evolutionary"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-53-structure-coefficient-theorem-for-evolutionary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-52-structure-coefficient-theorem-for-evolutionary</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-54-hybrid-modeling-for-improved-structure"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-53-hybrid-modeling-for-improved-structure"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-54-hybrid-modeling-for-improved-structure</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-53-hybrid-modeling-for-improved-structure</id>
     <updated>2026-10-15T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-54-hdock-multimer-improved-structure-prediction"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-54-hdock-multimer-improved-structure-prediction</id>
+    <updated>2026-10-14T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

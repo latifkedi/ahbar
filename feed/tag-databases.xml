@@ -5,28 +5,36 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-databases.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-databases.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
+  <entry>
+    <title>Security updates for Friday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-39-security-updates-for-friday"/>
+    <link rel="related" href="https://lwn.net/Articles/1102546/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-39-security-updates-for-friday</id>
+    <updated>2026-10-23T13:02:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), Arch Linux (php and php-legacy), Debian…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102546/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>NuFold RNA Structure Database: Large-Scale RNA Tertiary Structure Prediction with Confidence Metrics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-48-nufold-rna-structure-database-large"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-49-nufold-rna-structure-database-large"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-48-nufold-rna-structure-database-large</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-49-nufold-rna-structure-database-large</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary: To bridge the gap between rapid RNA sequence discovery and slow experimental characterization, we present the NuFold RNA Structure Database (https://nufold.kiharalab.org/), a resource providing large-scale, precomputed full-atom RNA tertiary structures. By removing the computational barriers associated with running the method locally, this database makes high-accuracy RNA structure models readily accessible to the biological research community for a wide range of applications. Availability and implementation: All predicted structures and corresponding data are available at https://nufold.kiharalab.org/.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-42-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-42-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Why I joined OpenAI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-45-why-i-joined-openai"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-44-why-i-joined-openai"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-45-why-i-joined-openai</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-44-why-i-joined-openai</id>
     <updated>2026-02-06T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The staggering and fast-growing cost of AI datacenters is a call for performance engineering like no other in history; it&amp;apos;s not just about saving costs – it&amp;apos;s about saving the planet. I have joined OpenAI to work on this challenge directly, with an initial focus on ChatGPT performance. The scale is extreme and the growth is mind-boggling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases&lt;/p&gt;</summary>
   </entry>

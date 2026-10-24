@@ -5,45 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
   <entry>
     <title>Onsager Algebras and Lattice Fermions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-29-onsager-algebras-and-lattice-fermions"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-29-onsager-algebras-and-lattice-fermions"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31653v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-29-onsager-algebras-and-lattice-fermions</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-29-onsager-algebras-and-lattice-fermions</id>
     <updated>2026-10-22T17:58:12+00:00</updated>
     <summary type="html">&lt;p&gt;We study the exact Onsager algebra of free lattice fermions in staggered, Wilson, and overlap incarnations, working in both Hamiltonian and Euclidean formulations in four spacetime dimensions. In each case, we show that the exact lattice algebra emanates the full chiral symmetry of the low-energy theory: if there are $N$ massless Dirac fermions in the continuum, the Onsager algebra reduces to a $U(2N)$ chiral symmetry. The details of which generators are quantised or ultra-local differ between formulations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31653v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-57-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-57-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-57-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-57-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AH-BKZ: A Lattice Reduction Algorithm with Asynchronous Hybrid Processing. Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-61-ah-bkz-a-lattice-reduction"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1876"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-61-ah-bkz-a-lattice-reduction</id>
-    <updated>2026-09-03T03:49:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography. The fastest current SVP solvers are based on variants of G6K, but their large memory consumption remains a major bottleneck, making high-dimensional executions difficult. A common strategy for alleviating this memory bottleneck is strong basis reduction preprocessing before a sieve-based algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1876&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>TP-NTT: Batch NTT Hardware with Application to Relinearization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-63-tp-ntt-batch-ntt-hardware"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/556"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-63-tp-ntt-batch-ntt-hardware</id>
-    <updated>2026-03-20T11:06:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Fully Homomorphic Encryption (FHE) enables arbitrary computation on encrypted data without decryption, providing strong privacy guarantees for secure cloud computing, encrypted analytics, and privacy-preserving machine learning. However, practical deployment of FHE remains limited by the high computational cost of polynomial arithmetic over large modular rings. In particular, Number Theoretic Transform (NTT)–based polynomial multiplication dominates the execution time of modern lattice-based FHE schemes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/556&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Wigner crystals get dressed</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-34-wigner-crystals-get-dressed"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03516-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-34-wigner-crystals-get-dressed</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 22 October 2026; doi:10.1038/s41567-026-03516-9 When repulsion overcomes their tendency to move freely, electrons can arrange into a crystal. Two experiments have now identified Wigner polarons, quasiparticles whose optical signatures reveal the collective response of the electron lattice.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03516-9&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
-  <entry>
-    <title>F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-12-f2g-pose-geometry-aware-foundation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31623"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-12-f2g-pose-geometry-aware-foundation</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;This paper studies category-level RGB-D object pose estimation, which recovers an object&amp;apos;s 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions struggle to balance reliability and efficiency: methods based on intermediate structures are prone to error propagation, while diffusion models suffer from high inference latency and complex post-hoc candidate extraction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31623&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
 </feed>

@@ -5,69 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-57-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-57-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-57-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-57-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-58-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-58-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-58-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-58-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Weaponizing the Exit: Input Privacy Leakage via Exit Routing Manipulation in Multi-Exit Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-59-weaponizing-the-exit-input-privacy"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-59-weaponizing-the-exit-input-privacy"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31246v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-59-weaponizing-the-exit-input-privacy</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-59-weaponizing-the-exit-input-privacy</id>
     <updated>2026-10-22T13:26:03+00:00</updated>
     <summary type="html">&lt;p&gt;Multi-exit networks improve inference efficiency by allowing inputs to terminate early at intermediate exits. We identify a privacy vulnerability in cloud deployments of these networks: a malicious Cloud Service Provider (CSP) can infer sensitive properties of individual user inputs solely from inference latency, without accessing inputs, intermediate states, or model outputs. The attack exploits the CSP&amp;apos;s control over the model supply chain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31246v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>AgentTriage: Replayable Security Diagnosis Across Heterogeneous Agent Runtimes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-60-agenttriage-replayable-security-diagnosis-across"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-60-agenttriage-replayable-security-diagnosis-across"/>
     <link rel="related" href="https://arxiv.org/abs/2610.30738v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-60-agenttriage-replayable-security-diagnosis-across</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-60-agenttriage-replayable-security-diagnosis-across</id>
     <updated>2026-10-22T05:09:44+00:00</updated>
     <summary type="html">&lt;p&gt;When tool-use agents write files, execute code, or send data, their final responses do not explain the resulting security events, and heterogeneous runtimes expose the relevant evidence through incompatible interfaces. We present AgentTriage, an executable contract for replayable security diagnosis across heterogeneous runtimes. The contract admits conclusions whose claims cite canonical runtime events and requires abstention when mandatory evidence is missing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30738v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AH-BKZ: A Lattice Reduction Algorithm with Asynchronous Hybrid Processing. Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-61-ah-bkz-a-lattice-reduction"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1876"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-61-ah-bkz-a-lattice-reduction</id>
-    <updated>2026-09-03T03:49:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography. The fastest current SVP solvers are based on variants of G6K, but their large memory consumption remains a major bottleneck, making high-dimensional executions difficult. A common strategy for alleviating this memory bottleneck is strong basis reduction preprocessing before a sieve-based algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1876&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Vector Commitment Design, Analysis, and Applications: A Survey</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-61-vector-commitment-design-analysis-and"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/667"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-61-vector-commitment-design-analysis-and</id>
+    <updated>2025-04-13T02:11:13+00:00</updated>
+    <summary type="html">&lt;p&gt;Due to their widespread applications in decentralized and privacy preserving technologies, commitment schemes have become increasingly important cryptographic primitives. With a wide variety of applications, many new constructions have been proposed, each enjoying different features and security guarantees. In this paper, we systematize the designs, features, properties, and applications of vector commitments (VCs).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/667&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CMoSS: Composable Modular Security Specifications Framework. CMoSS facilitates modular specifications, design and analysis of cryptographic protocols.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-62-cmoss-composable-modular-security-specifications"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1190"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-62-cmoss-composable-modular-security-specifications</id>
-    <updated>2026-06-07T00:27:43+00:00</updated>
-    <summary type="html">&lt;p&gt;CMoSS facilitates modular specifications, design and analysis of cryptographic protocols. Modular design and analysis is achieved by supporting provably-secure compositions of protocols; typically, a protocol uses a blackbox subprotocol, and is proven secure when composed with any subprotocol meeting the blackbox specifications. For modularity of specifications, CMoSS extends the approach of the MoSS framework: protocol specifications are defined modularly, by a set of independent predicates (games) for each model (assumption) and requirement (goal).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1190&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>BitVM3: Efficient Bitcoin Bridges via Garbled Circuits</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-62-bitvm3-efficient-bitcoin-bridges-via"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/933"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-62-bitvm3-efficient-bitcoin-bridges-via</id>
+    <updated>2026-05-11T17:30:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Bitcoin bridges, protocols that lock BTC on Bitcoin and represent it on a secondary system, underpin much of Bitcoin&amp;apos;s application layer, yet remain poorly secured. Deployed bridges rely on federated custody with honest-majority assumptions, while BitVM2, the state of the art in trust-minimized bridging, incurs worst-case dispute costs of approximately $16,000, requiring large operator bonds and deposits that restrict participation to well-capitalized parties. We present BitVM3-BRIDGE, a trust-minimized bridge architecture from Bitcoin to (i) chains with finality certificates, such as Ethereum, and (ii) Bitcoin rollups.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/933&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TP-NTT: Batch NTT Hardware with Application to Relinearization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-63-tp-ntt-batch-ntt-hardware"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/556"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-63-tp-ntt-batch-ntt-hardware</id>
-    <updated>2026-03-20T11:06:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Fully Homomorphic Encryption (FHE) enables arbitrary computation on encrypted data without decryption, providing strong privacy guarantees for secure cloud computing, encrypted analytics, and privacy-preserving machine learning. However, practical deployment of FHE remains limited by the high computational cost of polynomial arithmetic over large modular rings. In particular, Number Theoretic Transform (NTT)–based polynomial multiplication dominates the execution time of modern lattice-based FHE schemes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/556&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
+    <title>SoK: Private LLM Inference using Approximate Homomorphic Encryption</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-63-sok-private-llm-inference-using"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/935"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-63-sok-private-llm-inference-using</id>
+    <updated>2026-05-12T01:14:45+00:00</updated>
+    <summary type="html">&lt;p&gt;Although recent surveys on privacy-enhancing technologies concluded that FHE cannot feasibly evaluate non-linear activation functions in modern ML architectures, 21 CKKS-based frameworks have since demonstrated end-to-end private inference of LLMs with up to 8B parameters. However, as the field grows rapidly, the literature has become fragmented. Frameworks differ in ciphertext packing layouts, model fidelity, software and hardware stacks, and reported metrics, that hinder direct comparison and reproducibility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/935&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers&lt;/p&gt;</summary>
   </entry>
 </feed>

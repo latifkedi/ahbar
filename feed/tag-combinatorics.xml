@@ -5,69 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
+  <entry>
+    <title>RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-17-rtaformer-relation-transition-aware-transformer"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.20091"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-17-rtaformer-relation-transition-aware-transformer</id>
+    <updated>2026-10-13T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context, but an emphasis on consistency can obscure these changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.20091&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #infosec&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-38-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-38-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Upper tail large deviations of regular subgraph counts in sparse random regular graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-20-upper-tail-large-deviations-of"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-20-upper-tail-large-deviations-of"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31590v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-20-upper-tail-large-deviations-of</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-20-upper-tail-large-deviations-of</id>
     <updated>2026-10-22T17:24:21+00:00</updated>
     <summary type="html">&lt;p&gt;For a $Δ$-regular connected graph $H$ we obtain the upper tail large deviations speed and rate function for the number of copies of $H$ in $\mathbb{G}_n^d$, a random $d$-regular graph on $n$ vertices, in the regime $np^{Δ/2} \gg (\log n)^{1/(v_H-2)}$ and $p \ll 1$, where $p:=d/n$ and $v_H$ is the number of vertices, and also identify the typical structure of $\mathbb{G}_n^d$ conditioned on this upper tail event. For $Δ\geq 3$, the speed and the rate function are same with those in the Erdős-Rényi setting. In contrast, for $Δ=2$ (i.e.~in case of cycles), due to the degree constraint in $\mathbb{G}_n^d$, although speed remains the same the rate function turns out to be different.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31590v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Beyond city pairs: Higher-order information in urban growth across borders. We apply higher-order information measures to urban growth across borders and spatial units.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-65-beyond-city-pairs-higher-order"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-65-beyond-city-pairs-higher-order"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31159v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-65-beyond-city-pairs-higher-order</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-65-beyond-city-pairs-higher-order</id>
     <updated>2026-10-22T12:16:36+00:00</updated>
     <summary type="html">&lt;p&gt;We apply higher-order information measures to urban growth across borders and spatial units. We analyse 8,808 functional urban areas using gridded GDP estimates allocated from national accounts. Negative estimated O-information occurs in 29.93% of cross-border triplets and 2.00% of domestic triplets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31159v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Thursday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-40-security-updates-for-thursday"/>
-    <link rel="related" href="https://lwn.net/Articles/1102265/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-40-security-updates-for-thursday</id>
-    <updated>2026-10-22T13:09:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bubblewrap, emacs, gimp:2.8, glibc, jackson-databind, kernel, kernel-rt, librabbitmq, openexr, openssh, postgresql:16, postgresql:18, python3, resteasy, wireshark, xorg-x11-server, and xorg-x11-server-Xwayland), Debian (ca-certificates, firefox-esr, git-lfs, and libssh), Fedora (aom, assimp, bind, bind-dyndb-ldap, freerdp, ghostscript, gopass, gopass-jsonapi,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102265/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>AgentTriage: Replayable Security Diagnosis Across Heterogeneous Agent Runtimes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-60-agenttriage-replayable-security-diagnosis-across"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-60-agenttriage-replayable-security-diagnosis-across"/>
     <link rel="related" href="https://arxiv.org/abs/2610.30738v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-60-agenttriage-replayable-security-diagnosis-across</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-60-agenttriage-replayable-security-diagnosis-across</id>
     <updated>2026-10-22T05:09:44+00:00</updated>
     <summary type="html">&lt;p&gt;When tool-use agents write files, execute code, or send data, their final responses do not explain the resulting security events, and heterogeneous runtimes expose the relevant evidence through incompatible interfaces. We present AgentTriage, an executable contract for replayable security diagnosis across heterogeneous runtimes. The contract admits conclusions whose claims cite canonical runtime events and requires abstention when mandatory evidence is missing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30738v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AH-BKZ: A Lattice Reduction Algorithm with Asynchronous Hybrid Processing. Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-61-ah-bkz-a-lattice-reduction"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1876"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-61-ah-bkz-a-lattice-reduction</id>
-    <updated>2026-09-03T03:49:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Evaluating the hardness of the Shortest Vector Problem (SVP) is essential for selecting secure parameters in lattice-based cryptography. The fastest current SVP solvers are based on variants of G6K, but their large memory consumption remains a major bottleneck, making high-dimensional executions difficult. A common strategy for alleviating this memory bottleneck is strong basis reduction preprocessing before a sieve-based algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1876&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Vector Commitment Design, Analysis, and Applications: A Survey</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-61-vector-commitment-design-analysis-and"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/667"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-61-vector-commitment-design-analysis-and</id>
+    <updated>2025-04-13T02:11:13+00:00</updated>
+    <summary type="html">&lt;p&gt;Due to their widespread applications in decentralized and privacy preserving technologies, commitment schemes have become increasingly important cryptographic primitives. With a wide variety of applications, many new constructions have been proposed, each enjoying different features and security guarantees. In this paper, we systematize the designs, features, properties, and applications of vector commitments (VCs).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/667&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CMoSS: Composable Modular Security Specifications Framework. CMoSS facilitates modular specifications, design and analysis of cryptographic protocols.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-62-cmoss-composable-modular-security-specifications"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1190"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-62-cmoss-composable-modular-security-specifications</id>
-    <updated>2026-06-07T00:27:43+00:00</updated>
-    <summary type="html">&lt;p&gt;CMoSS facilitates modular specifications, design and analysis of cryptographic protocols. Modular design and analysis is achieved by supporting provably-secure compositions of protocols; typically, a protocol uses a blackbox subprotocol, and is proven secure when composed with any subprotocol meeting the blackbox specifications. For modularity of specifications, CMoSS extends the approach of the MoSS framework: protocol specifications are defined modularly, by a set of independent predicates (games) for each model (assumption) and requirement (goal).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1190&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Superconductivity and ferroelectric orbital magnetism in semimetallic rhombohedral hexalayer graphene</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-36-superconductivity-and-ferroelectric-orbital-magnetism"/>
-    <link rel="related" href="https://www.nature.com/articles/s41567-026-03443-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-36-superconductivity-and-ferroelectric-orbital-magnetism</id>
-    <updated>2026-10-21T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Physics, Published online: 21 October 2026; doi:10.1038/s41567-026-03443-9 The semimetallic regime in rhombohedral graphene has not been extensively explored. Now, correlated insulators, superconductivity and multiferroic orbital magnetic order are demonstrated in semimetallic rhombohedral hexalayer graphene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03443-9&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics #combinatorics #condensed-matter&lt;/p&gt;</summary>
+    <title>Leaving Intel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-45-leaving-intel"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-45-leaving-intel</id>
+    <updated>2025-12-04T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

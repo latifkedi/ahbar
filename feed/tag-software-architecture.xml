@@ -5,36 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
   <entry>
-    <title>Quad9 to exit France. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-03-quad9-to-exit-france"/>
-    <link rel="related" href="https://quad9.net/news/blog/au-revoir-france/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-03-quad9-to-exit-france</id>
-    <updated>2026-10-22T14:32:38Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://quad9.net/news/blog/au-revoir-france/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Docker is weird. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-09-docker-is-weird"/>
-    <link rel="related" href="https://codeandcake.dev/posts/2026-10-22-docker-is-weird"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-09-docker-is-weird</id>
-    <updated>2026-10-22T23:45:56Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://codeandcake.dev/posts/2026-10-22-docker-is-weird&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A lost Schrödinger manuscript reveals a twist in quantum physics. Unlike classical physics, quantum mechanics generally cannot tell us exactly what will happen in an individual event.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-28-a-lost-schr-dinger-manuscript"/>
-    <link rel="related" href="https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-28-a-lost-schr-dinger-manuscript</id>
-    <updated>2026-10-22T07:41:29Z</updated>
-    <summary type="html">&lt;p&gt;Unlike classical physics, quantum mechanics generally cannot tell us exactly what will happen in an individual event. Instead, it predicts the probabilities of different outcomes. As one of the theory&amp;apos;s early pioneers, Erwin Schrödinger played a key role in debates about what this randomness really means.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Kimi K3.1 Pro and K3.1 Pro Highspeed</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-03-kimi-k3-1-pro-and"/>
+    <link rel="related" href="https://www.kimi.ai/blog/kimi-k3-1-pro"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-03-kimi-k3-1-pro-and</id>
+    <updated>2026-10-23T16:59:08Z</updated>
+    <summary type="html">&lt;p&gt;Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it&amp;apos;s not yet open weights, but Moonshot promise &amp;quot;Full model weights will be released by Nov 4, 2026&amp;quot;. They&amp;apos;re also offering a &amp;quot;Highspeed&amp;quot; version that&amp;apos;s 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.kimi.ai/blog/kimi-k3-1-pro&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-33-conqec-concolic-testing-for-quantum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-33-conqec-concolic-testing-for-quantum"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31443v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-33-conqec-concolic-testing-for-quantum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-33-conqec-concolic-testing-for-quantum</id>
     <updated>2026-10-22T15:40:04+00:00</updated>
     <summary type="html">&lt;p&gt;Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31443v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
   </entry>

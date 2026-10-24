@@ -5,28 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-23T09:39:34.732786908+00:00</updated>
-  <entry>
-    <title>Deep Search in Real-World Web Environments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-10-deep-search-in-real-world"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30181"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-10-deep-search-in-real-world</id>
-    <updated>2026-10-18T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and integrate relevant evidence during execution. To address this gap, we introduce the OpenDS task, designed to evaluate agents&amp;apos; ability to perform multi-step deep search in the live, open Web.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30181&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
   <entry>
     <title>ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-33-conqec-concolic-testing-for-quantum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-33-conqec-concolic-testing-for-quantum"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31443v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-33-conqec-concolic-testing-for-quantum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-33-conqec-concolic-testing-for-quantum</id>
     <updated>2026-10-22T15:40:04+00:00</updated>
     <summary type="html">&lt;p&gt;Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31443v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>uGDS: A User-Space Development Kit for High-Performance GPU Direct Storage. Data-intensive GPU applications increasingly rely on NVMe SSDs to extend GPU memory.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-23-44-ugds-a-user-space-development"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-43-ugds-a-user-space-development"/>
     <link rel="related" href="https://arxiv.org/abs/2610.30868v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-23-44-ugds-a-user-space-development</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-43-ugds-a-user-space-development</id>
     <updated>2026-10-22T07:45:58+00:00</updated>
     <summary type="html">&lt;p&gt;Data-intensive GPU applications increasingly rely on NVMe SSDs to extend GPU memory. NVIDIA GPU Direct Storage (GDS) enables direct SSD-GPU transfers via PCIe peer-to-peer DMA, eliminating host staging. However, GDS retains three key limitations: (1) its control path traverses the kernel for every I/O request, introducing software overhead; (2) its stream-ordered path imposes strict total ordering even when workloads only require batch-level ordering; and (3) its closed-source user-space engine hinders diagnosis and custom scheduling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30868v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #distributed-systems&lt;/p&gt;</summary>
   </entry>
