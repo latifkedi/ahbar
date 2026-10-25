@@ -5,44 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
+  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
   <entry>
     <title>BrickWright: Agentic Creation of Physically Feasible Brick Builds. Frontier coding agents are becoming increasingly adept at 3D modeling.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-12-brickwright-agentic-creation-of-physically"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-11-brickwright-agentic-creation-of-physically"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31651"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-12-brickwright-agentic-creation-of-physically</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-11-brickwright-agentic-creation-of-physically</id>
     <updated>2026-10-21T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31651&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing. LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-13-routeweaver-weaving-mode-selection-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-14-routeweaver-weaving-mode-selection-and"/>
     <link rel="related" href="https://arxiv.org/abs/2610.19705"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-13-routeweaver-weaving-mode-selection-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-14-routeweaver-weaving-mode-selection-and</id>
     <updated>2026-10-18T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks. However, existing approaches are largely built around a predefined execution paradigm, such as single-round, multi-round, or agentic routing, which fixes how model calls are organized and limits adaptation to different query needs. We propose RouteWeaver, a unified routing framework that integrates these routing modes within a single LLM policy, jointly learning which mode to use and how to select models within that mode.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.19705&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems. We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-15-iquest-q1-advancing-foundation-capabilities"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-16-iquest-q1-advancing-foundation-capabilities"/>
     <link rel="related" href="https://arxiv.org/abs/2610.30949"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-15-iquest-q1-advancing-foundation-capabilities</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-16-iquest-q1-advancing-foundation-capabilities</id>
     <updated>2026-10-21T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and formats and progressively extending the context; and (3) multi-scaffold with multi-version post-training, combining SFT, domain-specialized RL, and MOPD across various scaffolds to integrate complementary training signals and strengthen agentic coding capabilities. Furthermore, model merging combines different experts and checkpoints from different stages while mitigating conflicts among their parameter updates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30949&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-18-ridar-safeguarding-research-integrity-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31372"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-18-ridar-safeguarding-research-integrity-in</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31372&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-17-evalresearchbench-can-ai-agents-build"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.04184"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-17-evalresearchbench-can-ai-agents-build</id>
+    <updated>2026-10-15T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04184&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Matching Tasks to Agents: Mechanism Design for Multi-Agent Contracts. We study task assignment under adverse selection and moral hazard.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-86-matching-tasks-to-agents-mechanism"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-86-matching-tasks-to-agents-mechanism"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31002v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-86-matching-tasks-to-agents-mechanism</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-86-matching-tasks-to-agents-mechanism</id>
     <updated>2026-10-22T09:42:54+00:00</updated>
     <summary type="html">&lt;p&gt;We study task assignment under adverse selection and moral hazard. In the single-task setting, agents privately know their types, which determine their success probabilities and effort costs. Based on the agents&amp;apos; reported types, the principal selects an agent to perform the task and offers a success-contingent payment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31002v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>

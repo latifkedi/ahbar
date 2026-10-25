@@ -5,20 +5,36 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
+  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
   <entry>
-    <title>Kimi K3.1 Pro and K3.1 Pro Highspeed</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-03-kimi-k3-1-pro-and"/>
-    <link rel="related" href="https://www.kimi.ai/blog/kimi-k3-1-pro"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-03-kimi-k3-1-pro-and</id>
-    <updated>2026-10-23T16:59:08Z</updated>
-    <summary type="html">&lt;p&gt;Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it&amp;apos;s not yet open weights, but Moonshot promise &amp;quot;Full model weights will be released by Nov 4, 2026&amp;quot;. They&amp;apos;re also offering a &amp;quot;Highspeed&amp;quot; version that&amp;apos;s 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.kimi.ai/blog/kimi-k3-1-pro&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>We should be more ambitious with the software we build. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-08-we-should-be-more-ambitious"/>
+    <link rel="related" href="https://danluu.com/ambitious/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-08-we-should-be-more-ambitious</id>
+    <updated>2026-10-24T21:47:31Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://danluu.com/ambitious/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-37-node2shell-evolves-to-http2shell-blast"/>
+    <link rel="related" href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-37-node2shell-evolves-to-http2shell-blast</id>
+    <updated>2026-10-24T08:06:39Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>I don&apos;t understand quantum physics (2018)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-28-i-don-t-understand-quantum"/>
+    <link rel="related" href="https://www.southampton.ac.uk/~doug/quantum_physics/index.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-28-i-don-t-understand-quantum</id>
+    <updated>2026-10-24T09:53:26Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Physics, Quantum &amp;amp; Space. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.southampton.ac.uk/~doug/quantum_physics/index.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-33-conqec-concolic-testing-for-quantum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-33-conqec-concolic-testing-for-quantum"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31443v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-33-conqec-concolic-testing-for-quantum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-33-conqec-concolic-testing-for-quantum</id>
     <updated>2026-10-22T15:40:04+00:00</updated>
     <summary type="html">&lt;p&gt;Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31443v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
   </entry>

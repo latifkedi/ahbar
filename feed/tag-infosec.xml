@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-24T09:11:43.592671112+00:00</updated>
+  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
   <entry>
     <title>RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-17-rtaformer-relation-transition-aware-transformer"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-18-rtaformer-relation-transition-aware-transformer"/>
     <link rel="related" href="https://arxiv.org/abs/2610.20091"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-17-rtaformer-relation-transition-aware-transformer</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-18-rtaformer-relation-transition-aware-transformer</id>
     <updated>2026-10-13T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context, but an emphasis on consistency can obscure these changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.20091&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Weaponizing the Exit: Input Privacy Leakage via Exit Routing Manipulation in Multi-Exit Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-59-weaponizing-the-exit-input-privacy"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-59-weaponizing-the-exit-input-privacy"/>
     <link rel="related" href="https://arxiv.org/abs/2610.31246v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-59-weaponizing-the-exit-input-privacy</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-59-weaponizing-the-exit-input-privacy</id>
     <updated>2026-10-22T13:26:03+00:00</updated>
     <summary type="html">&lt;p&gt;Multi-exit networks improve inference efficiency by allowing inputs to terminate early at intermediate exits. We identify a privacy vulnerability in cloud deployments of these networks: a malicious Cloud Service Provider (CSP) can infer sensitive properties of individual user inputs solely from inference latency, without accessing inputs, intermediate states, or model outputs. The attack exploits the CSP&amp;apos;s control over the model supply chain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31246v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-24-42-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-43-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-24-42-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-43-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
