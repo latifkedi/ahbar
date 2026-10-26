@@ -5,61 +5,93 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-materials-science.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-materials-science.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
-    <title>Screening strongly correlated materials in solid oxide cells with quantum simulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-30-screening-strongly-correlated-materials-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31591v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-30-screening-strongly-correlated-materials-in</id>
-    <updated>2026-10-22T17:26:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We develop an end-to-end framework for assessing a quantum-computing application in industrial materials science: the screening of strongly correlated oxygen-electrode materials for SOFCs and SOECs. We formulate the materials problem in terms of interface observables including oxygen-vacancy formation energies, vacancy migration barriers, and electronic conductivity. We describe how these observables can be obtained using a diagrammatic GW-based embedding, either GW+DMFT or self-energy embedding theory (SEET), applied to a DFT-screened shortlist.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31591v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+    <title>Unconventional charge density wave order in ErTe$_{3}$: symmetry breakings and fluctuations probed by Raman scattering</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-31-unconventional-charge-density-wave-order"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32797v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-31-unconventional-charge-density-wave-order</id>
+    <updated>2026-10-23T15:39:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Recent experiments have revealed unexpected mirror-symmetry breakings in the charge density-wave (CDW) state of rare-earth tritellurides, suggesting a putative ferro-axial CDW state. Here we report polarization-resolved Raman scattering measurements tracking the point-group symmetry breakings across the CDW phase transition in the rare-earth tritelluride ErTe$_3$. We show that the mirror-symmetry breakings follow closely the emergence of the CDW order, suggesting a single component CDW order parameter.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32797v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spin-Dependent Transport in One-Dimensional Mercury- and Silver-Mediated DNA Nanowires</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-31-spin-dependent-transport-in-one"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31508v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-31-spin-dependent-transport-in-one</id>
-    <updated>2026-10-22T16:24:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Metallo-DNA nanowires serve as a versatile, programmable scaffold for molecular-scale electronics. In this work, we demonstrate that periodic heavy-metal coordination fundamentally reshapes the electronic landscape of DNA, generating dispersive, metal-centered conduction bands rather than isolated localized states. Driven by enhanced inter-layer coupling, where second nearest-neighbor hopping plays a crucial role: the conduction bandwidth can approach 1 eV, more than double that of canonical DNA.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31508v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #topology&lt;/p&gt;</summary>
+    <title>Ginzburg-Landau Theory with Elastic Incompatibility Describes the Liquid-G-phase-Crystal State Diagram</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-32-ginzburg-landau-theory-with-elastic"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32791v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-32-ginzburg-landau-theory-with-elastic</id>
+    <updated>2026-10-23T15:36:52+00:00</updated>
+    <summary type="html">&lt;p&gt;We derive a mechanically consistent Ginzburg-Landau theory for the metastable heterogeneous G state reported in deeply undercooled metallic liquids. The central result is that type-II-like mixed-state physics can emerge structurally with the random internal stress field playing the role of the magnetic field. Frozen eigenstrain due to elastic incompatibility between ordered cores and the amorphous matrix generates incompatible stress, while the non-affine internal strain in the liquid-like matrix in between the ordered cores relaxes that stress over a finite screening length $λ_σ$ (analogous to the London length in the superconducting problem).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32791v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Majorana Edge-to-bound State Transition in Interferometric Superconductor Rings</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-33-majorana-edge-to-bound-state"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32767v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-33-majorana-edge-to-bound-state</id>
+    <updated>2026-10-23T15:08:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Manipulating flux quanta in topological superconductors is central to vortex braiding in quantum computing. Their interferometric superconducting rings can host either topologically protected edge states with fluxes confined inside the central hollow area or vortex bound states in flux cores at the annulus walls. Here we demonstrate a strategy to drive topological edge states into vortex bound states by tuning the relative scale of vortex size and annulus width in nano-ring interferometric device on 2M-WS$_2$ topological superconductor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32767v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Tensor Networks for Materials Simulation and Quantum Chemistry</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-34-tensor-networks-for-materials-simulation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32754v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-34-tensor-networks-for-materials-simulation</id>
+    <updated>2026-10-23T15:00:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Predicting the properties of correlated materials and molecules often requires a many-body description that goes beyond single-particle and mean-field approximations. Tensor networks address this challenge by exploiting the entanglement structure of quantum states to construct compact, systematically improvable representations. Although developed largely for idealized model Hamiltonians, these methods are increasingly being integrated into material-specific calculations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32754v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>First- and Second-Order Electron Position Correlators Reveal Topological Phase Transitions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-35-first-and-second-order-electron"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32743v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-35-first-and-second-order-electron</id>
+    <updated>2026-10-23T14:55:16+00:00</updated>
+    <summary type="html">&lt;p&gt;The theory of conventional critical phenomena is built around the concepts of fluctuations and correlators of local observables. Here, we show that topological phase transitions can also be characterized through spatial and temporal two-point correlation functions associated with fluctuations of the electronic position operator. The key object is the antisymmetric part of the position-position correlation function, which yields the Chern number in the equal-time and equal-space limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32743v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The Merck/Moderna Results</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-46-the-merck-moderna-results"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-46-the-merck-moderna-results"/>
     <link rel="related" href="https://www.science.org/content/blog-post/merck-moderna-results"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-46-the-merck-moderna-results</id>
-    <updated>2026-10-25T09:28:56.132034773+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-46-the-merck-moderna-results</id>
+    <updated>2026-10-26T10:36:52.917078131+00:00</updated>
     <summary type="html">&lt;p&gt;This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data leaked in advance of a meeting presentation, and the companies were more or less forced to press-release on the numbers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.science.org/content/blog-post/merck-moderna-results&quot;&gt;In the Pipeline (Derek Lowe — Drug Discovery &amp;amp; Chemistry)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Making the case for a non-primary article</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-51-making-the-case-for-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-50-making-the-case-for-a"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-51-making-the-case-for-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-50-making-the-case-for-a</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-52-dynamic-networks-can-promote-pro"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-51-dynamic-networks-can-promote-pro"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-52-dynamic-networks-can-promote-pro</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-51-dynamic-networks-can-promote-pro</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-53-structure-coefficient-theorem-for-evolutionary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-52-structure-coefficient-theorem-for-evolutionary"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-53-structure-coefficient-theorem-for-evolutionary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-52-structure-coefficient-theorem-for-evolutionary</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-54-hybrid-modeling-for-improved-structure"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-53-hybrid-modeling-for-improved-structure"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-54-hybrid-modeling-for-improved-structure</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-53-hybrid-modeling-for-improved-structure</id>
     <updated>2026-10-15T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-54-hdock-multimer-improved-structure-prediction"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-54-hdock-multimer-improved-structure-prediction</id>
+    <updated>2026-10-14T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <entry>
+    <title>Every Weight Is a Path of Shared Discrete Decisions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-17-every-weight-is-a-path"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31931"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-17-every-weight-is-a-path</id>
+    <updated>2026-10-21T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, and each decision is inherited by every weight below it, so it is stored once and applied once. This simple change has three consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31931&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #inference&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>From Heterogeneity to Function: Enhanced Modular Dynamic Range in Hierarchical Brain Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-90-from-heterogeneity-to-function-enhanced"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32328v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-90-from-heterogeneity-to-function-enhanced</id>
+    <updated>2026-10-23T08:25:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Hierarchical and modular organization defines brain architecture, yet how it supports flexible computation and functional specialization remains unclear. Although dynamic range is a hallmark of efficient information processing, its distribution across modules and hierarchical levels remains largely unexplored. Here, we show that hierarchical-modular networks naturally generate heterogeneous modular dynamics and firing rates, extending regimes of critical-like dynamics with enhanced intrinsic timescales, reflecting critical slowing down, and diverse scaling exponents without fine-tuning near criticality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32328v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience #distributed-systems&lt;/p&gt;</summary>
+  </entry>
 </feed>

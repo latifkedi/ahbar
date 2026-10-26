@@ -5,85 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-formal-proofs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-formal-proofs.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
     <title>oai-math-revised: a community hub for revising OpenAI’s math write-ups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-20-oai-math-revised-a-community"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-22-oai-math-revised-a-community"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-20-oai-math-revised-a-community</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-22-oai-math-revised-a-community</id>
     <updated>2026-10-24T15:08:02+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Abhinav Nellore, Johannes Schmitt, Soledad Villar, and Rachel Ward – T.] OpenAI’s math write-ups at https://github.com/openai/math can be difficult to understand and can have incomplete citations. https://github.com/mathcommunity/oai-math-revised/ seeks to be an inclusive effort to improve these write-ups, and the broader math community–students, postdocs, professors, and enthusiasts–is invited to participate. […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>FVQKD: A Formal Verification of Quantum Key Distribution Security in Rocq</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-56-fvqkd-a-formal-verification-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30645v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-56-fvqkd-a-formal-verification-of</id>
-    <updated>2026-10-22T03:06:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum key distribution (QKD), whose security is derived from quantum mechanics rather than computational assumptions, is moving into standardization and commercial deployment. Yet its security guarantees rest on technically delicate proofs checked by hand. Formal verification closes this gap, establishing a two-factor assurance: unconditional security from physical principles, and machine-checked proofs against reasoning errors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30645v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #quantum-computing #cryptography&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Octonions and the Standard Model (Part 15)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-21-octonions-and-the-standard-model"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-25-octonions-and-the-standard-model"/>
     <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-21-octonions-and-the-standard-model</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-25-octonions-and-the-standard-model</id>
     <updated>2026-07-18T17:56:16+00:00</updated>
     <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Rank Ceiling for Twiddle-Perturbation Faults on the Forward NTT. NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-63-rank-ceiling-for-twiddle-perturbation"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1188"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-63-rank-ceiling-for-twiddle-perturbation</id>
-    <updated>2026-06-06T19:43:13+00:00</updated>
-    <summary type="html">&lt;p&gt;NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures. Both compute forward number-theoretic transforms on secret polynomials. Their fixed multipliers, called twiddles, are a documented fault-attack target.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1188&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #formal-proofs&lt;/p&gt;</summary>
+    <title>Disadvantages of Designating Mathematicians for AI Output Releases. [This is a guest post by the Advisory Group on Mathematics and Artificial Intelligence, crossposted from their site.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-26-disadvantages-of-designating-mathematicians-for"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-26-disadvantages-of-designating-mathematicians-for</id>
+    <updated>2026-10-25T22:17:58+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by the Advisory Group on Mathematics and Artificial Intelligence, crossposted from their site. This blog post was initially written in a different file format and converted using AI. — T.] In our September 29 recommendations, we outlined an approach to the release of AI-generated mathematical output by AI labs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/25/disadvantages-of-designating-mathematicians-for-ai-output-releases/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>IAS applications for membership in the school of mathematics. The IAS has opened its application page for its membership program for the upcoming year.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-22-ias-applications-for-membership-in"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-27-ias-applications-for-membership-in"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-22-ias-applications-for-membership-in</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-27-ias-applications-for-membership-in</id>
     <updated>2026-10-23T15:20:19+00:00</updated>
     <summary type="html">&lt;p&gt;The IAS has opened its application page for its membership program for the upcoming year. This by itself would be unremarkable — the program does this every year — but there is an additional statement included in the announcement: We realize that applying to positions in the current environment is stressful. To help alleviate this, […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/23/ias-applications-for-membership-in-the-school-of-mathematics/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Simple and critical zeros of the Riemann zeta-function. [This is a guest post by Caroline Turnage-Butterbaugh.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-23-simple-and-critical-zeros-of"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-23-simple-and-critical-zeros-of</id>
-    <updated>2026-10-22T19:17:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Caroline Turnage-Butterbaugh. This blog post was initially written in a different file format and converted using AI. — T.] Evidence in favor of the Riemann Hypothesis comes in many flavors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mathematics is a subject for the young. [This is a guest post by Tristan Buckmaster.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-24-mathematics-is-a-subject-for"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-24-mathematics-is-a-subject-for</id>
-    <updated>2026-10-21T18:19:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Tristan Buckmaster. This blog post was initially written in a different file format and converted using AI. — T.] This blog post expands on a theme mentioned at the end of my recent talk at the Institute for Advanced Study on October 19.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/21/mathematics-is-a-subject-for-the-young/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-25-an-experimental-ai-math-challenge"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-25-an-experimental-ai-math-challenge</id>
-    <updated>2026-10-20T15:35:00+00:00</updated>
-    <summary type="html">&lt;p&gt;In the spirit of my recent “Math 2.0” talk on new ways to use AI assistance to enhance the human understanding of mathematics, rather than substitute for it, I am using this post to propose an experimental challenge, inspired by the recent activity around excluding Landau–Siegel zeroes, as discussed in this previous post. There is […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A sketch of the proof of non-existence of Siegel zeroes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-26-a-sketch-of-the-proof"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-26-a-sketch-of-the-proof</id>
-    <updated>2026-10-19T18:27:19+00:00</updated>
-    <summary type="html">&lt;p&gt;For a given prime , the Legendre symbol is defined as follows: if is a quadratic residue modulo , then ; if is a quadratic non-residue modulo , then ; and if divides , then . Let be an integer that is not a perfect square. (One could require to be a fundamental discriminant if […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/a-sketch-of-the-proof-of-non-existence-of-siegel-zeroes/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Bourgain Project</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-27-the-bourgain-project"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-27-the-bourgain-project</id>
-    <updated>2026-10-19T17:07:10+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Lukas Liehr, João Pedro Ramos and Mitchell Taylor – T.] We are launching the Bourgain Project, a community-driven initiative to revisit, expand upon, and explore the body of work of Jean Bourgain, one of the most prolific mathematicians of his time. The goal of this initiative is to develop […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/19/the-bourgain-project/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

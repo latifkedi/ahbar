@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
-  <entry>
-    <title>Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-37-node2shell-evolves-to-http2shell-blast"/>
-    <link rel="related" href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-37-node2shell-evolves-to-http2shell-blast</id>
-    <updated>2026-10-24T08:06:39Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-37-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-37-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-40-security-updates-for-friday"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-39-security-updates-for-friday"/>
     <link rel="related" href="https://lwn.net/Articles/1102546/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-40-security-updates-for-friday</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-39-security-updates-for-friday</id>
     <updated>2026-10-23T13:02:03+00:00</updated>
     <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), Arch Linux (php and php-legacy), Debian…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102546/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-42-airo-a-streaming-based-machine"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30713v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-42-airo-a-streaming-based-machine</id>
-    <updated>2026-10-22T04:30:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern Industrial Internet of Things (IIoT) im- plementations now connect edge gateways, cloud dashboards and business applications. This improves visibility and remote monitoring. However it simultaneously exposes industrial traffic to various cyber threats including scanning, web attacks and Structured Query Language (SQL) injection (SQLi), phishing- driven credential theft, and command-and-control (C2) activity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30713v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Announcing rustup 1.29.2. The rustup team is happy to announce the release of rustup version 1.29.1.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-41-announcing-rustup-1-29-2"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-40-announcing-rustup-1-29-2"/>
     <link rel="related" href="https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-41-announcing-rustup-1-29-2</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-40-announcing-rustup-1-29-2</id>
     <updated>2026-10-20T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What&amp;apos;s new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/&quot;&gt;Rust Programming Language Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>uGDS: A User-Space Development Kit for High-Performance GPU Direct Storage. Data-intensive GPU applications increasingly rely on NVMe SSDs to extend GPU memory.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-44-ugds-a-user-space-development"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30868v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-44-ugds-a-user-space-development</id>
-    <updated>2026-10-22T07:45:58+00:00</updated>
-    <summary type="html">&lt;p&gt;Data-intensive GPU applications increasingly rely on NVMe SSDs to extend GPU memory. NVIDIA GPU Direct Storage (GDS) enables direct SSD-GPU transfers via PCIe peer-to-peer DMA, eliminating host staging. However, GDS retains three key limitations: (1) its control path traverses the kernel for every I/O request, introducing software overhead; (2) its stream-ordered path imposes strict total ordering even when workloads only require batch-level ordering; and (3) its closed-source user-space engine hinders diagnosis and custom scheduling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30868v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #distributed-systems&lt;/p&gt;</summary>
+    <title>TranSAGE: Automating Spatial Accelerator Generation for Large-Scale Transformer Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-42-transage-automating-spatial-accelerator-generation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32279v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-42-transage-automating-spatial-accelerator-generation</id>
+    <updated>2026-10-23T07:36:37+00:00</updated>
+    <summary type="html">&lt;p&gt;Large-scale Transformers have achieved remarkable success across NLP, computer vision, and robotics, but their growing computational and memory demands challenge efficient inference. Spatial accelerators offer advantages in on-chip bandwidth and energy efficiency, yet designing them for large models remains costly and time-consuming. Existing accelerator generators typically focus on single-operation support, overlooking the benefits of multi-operation pipelining, which limits throughput and energy efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32279v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-41-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-41-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Why I joined OpenAI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-45-why-i-joined-openai"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-43-why-i-joined-openai"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-45-why-i-joined-openai</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-43-why-i-joined-openai</id>
     <updated>2026-02-06T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The staggering and fast-growing cost of AI datacenters is a call for performance engineering like no other in history; it&amp;apos;s not just about saving costs – it&amp;apos;s about saving the planet. I have joined OpenAI to work on this challenge directly, with an initial focus on ChatGPT performance. The scale is extreme and the growth is mind-boggling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Leaving Intel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-44-leaving-intel"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-44-leaving-intel</id>
+    <updated>2025-12-04T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>On &quot;AI Brendans&quot; or &quot;Virtual Brendans&quot;. There are now multiple AI performance engineering agents that use or are trained on my work.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-45-on-ai-brendans-or-virtual"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-45-on-ai-brendans-or-virtual</id>
+    <updated>2025-11-27T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;There are now multiple AI performance engineering agents that use or are trained on my work. Some are helper agents that interpret flame graphs or eBPF metrics, sometimes privately called AI Brendan ; others have trained on my work to create a virtual Brendan that claims it can tune everything just like the real thing. These virtual Brendans sound like my brain has been uploaded to the cloud by someone who is now selling it (yikes!).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-logic.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-logic.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <entry>
+    <title>On the continuity of conditional distributions and stratification for derivative pricing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-23-on-the-continuity-of-conditional"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32970v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-23-on-the-continuity-of-conditional</id>
+    <updated>2026-10-23T17:57:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Stratification can reduce the estimator variance in Monte Carlo simulations by partitioning the sample space according to a low-dimensional factor and sampling separately within the resulting strata, making it well suited to the valuation of path-dependent claims in high-dimensional financial models. Its performance, however, depends critically on the choice of the stratification factor, and effective low-dimensional factors are generally difficult to identify in complex continuous-time models. Neural networks provide a flexible approximation class for this purpose and have proved useful in related variance-reduction problems in quantitative finance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32970v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>When Elliptic-Curve Semiprimality Certificates Reveal Factors</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-60-when-elliptic-curve-semiprimality-certificates"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2620"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-60-when-elliptic-curve-semiprimality-certificates</id>
+    <updated>2026-10-24T01:04:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Public certificates of semiprimality could support cryptographic modulus generation by proving that an integer has exactly two prime factors without revealing them. Their usefulness in this setting depends on whether the certificate preserves the difficulty of factoring. Motivated by the examples of Reble and Broadhurst, we formalize semiprimality certificates by adapting the Goldwasser-Kilian primality criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2620&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #logic&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-53-structure-coefficient-theorem-for-evolutionary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-52-structure-coefficient-theorem-for-evolutionary"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-53-structure-coefficient-theorem-for-evolutionary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-52-structure-coefficient-theorem-for-evolutionary</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>FairFRESH: A Neuro-Symbolic Framework for Fair and Explainable Household Food Recommendation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-82-fairfresh-a-neuro-symbolic-framework"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31506v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-82-fairfresh-a-neuro-symbolic-framework</id>
-    <updated>2026-10-22T16:23:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Recommender systems typically serve one user at a time. However, in households, members share a finite pantry and follow different dietary rules, making independent recommendations prone to resource conflicts and dietary violations. We formulate household food recommendation as constrained fair division and present FairFRESH, a neuro-symbolic framework that learns per-member utilities, allocates foods under explicit welfare objectives, enforces dietary rules through a deterministic filter, and explains recommendations using Shapley and Banzhaf attributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31506v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
+    <title>Cartographing Gravity: Operational Maps, the Conatus of Proper Time, and the Potentia of Matter</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-86-cartographing-gravity-operational-maps-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32569v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-86-cartographing-gravity-operational-maps-the</id>
+    <updated>2026-10-23T12:53:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical natural philosophy sought the natural law governing the motion of free bodies long before daring to construct the appropriate mathematical formalism. Following this longstanding methodological perspective, in the present work General Relativity is reconstructed from operational and dynamical principles, rather than taking spacetime geometry as its starting point. The \textit{conatus} of a massive free particle is identified with its natural tendency to follow a worldline of stationary proper time, which, under the appropriate local conditions, corresponds to a maximum of its proper time, whereas gravitation is interpreted as the \textit{potentia} of matter to modify the local rate of proper time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32569v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #astrophysics #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

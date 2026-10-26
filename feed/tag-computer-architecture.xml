@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-37-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-37-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-42-airo-a-streaming-based-machine"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30713v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-42-airo-a-streaming-based-machine</id>
-    <updated>2026-10-22T04:30:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern Industrial Internet of Things (IIoT) im- plementations now connect edge gateways, cloud dashboards and business applications. This improves visibility and remote monitoring. However it simultaneously exposes industrial traffic to various cyber threats including scanning, web attacks and Structured Query Language (SQL) injection (SQLi), phishing- driven credential theft, and command-and-control (C2) activity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30713v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>uGDS: A User-Space Development Kit for High-Performance GPU Direct Storage. Data-intensive GPU applications increasingly rely on NVMe SSDs to extend GPU memory.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-44-ugds-a-user-space-development"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30868v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-44-ugds-a-user-space-development</id>
-    <updated>2026-10-22T07:45:58+00:00</updated>
-    <summary type="html">&lt;p&gt;Data-intensive GPU applications increasingly rely on NVMe SSDs to extend GPU memory. NVIDIA GPU Direct Storage (GDS) enables direct SSD-GPU transfers via PCIe peer-to-peer DMA, eliminating host staging. However, GDS retains three key limitations: (1) its control path traverses the kernel for every I/O request, introducing software overhead; (2) its stream-ordered path imposes strict total ordering even when workloads only require batch-level ordering; and (3) its closed-source user-space engine hinders diagnosis and custom scheduling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30868v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #distributed-systems&lt;/p&gt;</summary>
+    <title>TranSAGE: Automating Spatial Accelerator Generation for Large-Scale Transformer Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-42-transage-automating-spatial-accelerator-generation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32279v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-42-transage-automating-spatial-accelerator-generation</id>
+    <updated>2026-10-23T07:36:37+00:00</updated>
+    <summary type="html">&lt;p&gt;Large-scale Transformers have achieved remarkable success across NLP, computer vision, and robotics, but their growing computational and memory demands challenge efficient inference. Spatial accelerators offer advantages in on-chip bandwidth and energy efficiency, yet designing them for large models remains costly and time-consuming. Existing accelerator generators typically focus on single-operation support, overlooking the benefits of multi-operation pipelining, which limits throughput and energy efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32279v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
-    <title>WeVisOne-VL: Unified Visual Perception from Objects to Pixels. Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-10-wevisone-vl-unified-visual-perception"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31329"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-10-wevisone-vl-unified-visual-perception</id>
+    <title>RynnUnify: Towards Unified Embodied Brain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-10-rynnunify-towards-unified-embodied-brain"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32965"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-10-rynnunify-towards-unified-embodied-brain</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32965&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-11-userarena-benchmarking-interactive-user-simulation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.30932"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-11-userarena-benchmarking-interactive-user-simulation</id>
     <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha mattes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31329&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users&amp;apos; behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30932&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>BrickWright: Agentic Creation of Physically Feasible Brick Builds. Frontier coding agents are becoming increasingly adept at 3D modeling.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-11-brickwright-agentic-creation-of-physically"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31651"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-11-brickwright-agentic-creation-of-physically</id>
+    <title>RSIHub: A Composable Framework for Agent-Evolution Methods</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-12-rsihub-a-composable-framework-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32253"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-12-rsihub-a-composable-framework-for</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32253&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>LoCA: Enabling Multi-Modality in Geospatial Location Encoders</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-13-loca-enabling-multi-modality-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32894"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-13-loca-enabling-multi-modality-in</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz location encoder produces an output of intrinsic dimension at most 2, regardless of architecture or bandwidth, which forces the contrastive loss to strictly exceed its asymptotic optimum. Empirically, joint training also collapses the encoder&amp;apos;s embedding covariance to low rank.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32894&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-16-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-16-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Reading, Writing, Sharing, and Interacting with the World through Video</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-15-reading-writing-sharing-and-interacting"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31668"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-15-reading-writing-sharing-and-interacting</id>
     <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31651&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31668&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-12-what-generation-knows-unlocking-fine"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.23987"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-12-what-generation-knows-unlocking-fine</id>
-    <updated>2026-10-13T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on generative supervision or explicit generation and have not systematically explored direct use of native generation-side representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.23987&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag&lt;/p&gt;</summary>
+    <title>A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-14-a-10-year-old-cnn"/>
+    <link rel="related" href="https://lynchlab.net/llm-skin-cancer"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-14-a-10-year-old-cnn</id>
+    <updated>2026-10-25T17:15:38Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lynchlab.net/llm-skin-cancer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-13-different-tasks-different-timesteps-temporal"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31198"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-13-different-tasks-different-timesteps-temporal</id>
+    <title>Every Weight Is a Path of Shared Discrete Decisions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-17-every-weight-is-a-path"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31931"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-17-every-weight-is-a-path</id>
     <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31198&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #inference&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, and each decision is inherited by every weight below it, so it is stored once and applied once. This simple change has three consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31931&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing. LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-14-routeweaver-weaving-mode-selection-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.19705"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-14-routeweaver-weaving-mode-selection-and</id>
-    <updated>2026-10-18T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks. However, existing approaches are largely built around a predefined execution paradigm, such as single-round, multi-round, or agentic routing, which fixes how model calls are organized and limits adaptation to different query needs. We propose RouteWeaver, a unified routing framework that integrates these routing modes within a single LLM policy, jointly learning which mode to use and how to select models within that mode.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.19705&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-15-rlsplat-resource-linear-budget-control"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.27712"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-15-rlsplat-resource-linear-budget-control</id>
-    <updated>2026-10-19T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its practicality, recent budget-controllable FF3DGS methods allow the number of Gaussians to be adjusted at inference, so that the output meets a given storage limit or rendering-latency constraint. However, these methods overlook the cost of inference itself: to produce a representation with the target number of Gaussians, they first predict a dense set of Gaussians and then prune or select from it, requiring nearly constant latency and peak memory regardless of the budget.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.27712&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems. We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-16-iquest-q1-advancing-foundation-capabilities"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30949"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-16-iquest-q1-advancing-foundation-capabilities</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and formats and progressively extending the context; and (3) multi-scaffold with multi-version post-training, combining SFT, domain-specialized RL, and MOPD across various scaffolds to integrate complementary training signals and strengthen agentic coding capabilities. Furthermore, model merging combines different experts and checkpoints from different stages while mitigating conflicts among their parameter updates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30949&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-17-evalresearchbench-can-ai-agents-build"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.04184"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-17-evalresearchbench-can-ai-agents-build</id>
-    <updated>2026-10-15T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.04184&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-18-rtaformer-relation-transition-aware-transformer"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.20091"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-18-rtaformer-relation-transition-aware-transformer</id>
-    <updated>2026-10-13T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context, but an emphasis on consistency can obscure these changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.20091&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #infosec&lt;/p&gt;</summary>
+    <title>OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-18-openai-and-anthropic-cut-their"/>
+    <link rel="related" href="https://minimaxir.com/2026/10/cheap-llms/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-18-openai-and-anthropic-cut-their</id>
+    <updated>2026-10-25T21:11:31Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://minimaxir.com/2026/10/cheap-llms/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

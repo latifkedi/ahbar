@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
-    <title>Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-13-different-tasks-different-timesteps-temporal"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31198"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-13-different-tasks-different-timesteps-temporal</id>
+    <title>Every Weight Is a Path of Shared Discrete Decisions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-17-every-weight-is-a-path"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31931"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-17-every-weight-is-a-path</id>
     <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31198&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #inference&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, and each decision is inherited by every weight below it, so it is stored once and applied once. This simple change has three consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31931&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #inference&lt;/p&gt;</summary>
   </entry>
 </feed>

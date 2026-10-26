@@ -5,37 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
-    <title>We should be more ambitious with the software we build. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-08-we-should-be-more-ambitious"/>
-    <link rel="related" href="https://danluu.com/ambitious/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-08-we-should-be-more-ambitious</id>
-    <updated>2026-10-24T21:47:31Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://danluu.com/ambitious/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-14-a-10-year-old-cnn"/>
+    <link rel="related" href="https://lynchlab.net/llm-skin-cancer"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-14-a-10-year-old-cnn</id>
+    <updated>2026-10-25T17:15:38Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lynchlab.net/llm-skin-cancer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-37-node2shell-evolves-to-http2shell-blast"/>
-    <link rel="related" href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-37-node2shell-evolves-to-http2shell-blast</id>
-    <updated>2026-10-24T08:06:39Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>I don&apos;t understand quantum physics (2018)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-28-i-don-t-understand-quantum"/>
-    <link rel="related" href="https://www.southampton.ac.uk/~doug/quantum_physics/index.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-28-i-don-t-understand-quantum</id>
-    <updated>2026-10-24T09:53:26Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Physics, Quantum &amp;amp; Space. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.southampton.ac.uk/~doug/quantum_physics/index.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-33-conqec-concolic-testing-for-quantum"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31443v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-33-conqec-concolic-testing-for-quantum</id>
-    <updated>2026-10-22T15:40:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31443v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
+    <title>OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-18-openai-and-anthropic-cut-their"/>
+    <link rel="related" href="https://minimaxir.com/2026/10/cheap-llms/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-18-openai-and-anthropic-cut-their</id>
+    <updated>2026-10-25T21:11:31Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://minimaxir.com/2026/10/cheap-llms/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

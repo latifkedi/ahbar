@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <entry>
+    <title>RynnUnify: Towards Unified Embodied Brain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-10-rynnunify-towards-unified-embodied-brain"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32965"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-10-rynnunify-towards-unified-embodied-brain</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32965&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
 </feed>

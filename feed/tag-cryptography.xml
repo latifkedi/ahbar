@@ -5,69 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-10-25T09:28:50.569923601+00:00</updated>
-  <entry>
-    <title>AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-42-airo-a-streaming-based-machine"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30713v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-42-airo-a-streaming-based-machine</id>
-    <updated>2026-10-22T04:30:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern Industrial Internet of Things (IIoT) im- plementations now connect edge gateways, cloud dashboards and business applications. This improves visibility and remote monitoring. However it simultaneously exposes industrial traffic to various cyber threats including scanning, web attacks and Structured Query Language (SQL) injection (SQLi), phishing- driven credential theft, and command-and-control (C2) activity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30713v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FVQKD: A Formal Verification of Quantum Key Distribution Security in Rocq</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-56-fvqkd-a-formal-verification-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30645v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-56-fvqkd-a-formal-verification-of</id>
-    <updated>2026-10-22T03:06:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum key distribution (QKD), whose security is derived from quantum mechanics rather than computational assumptions, is moving into standardization and commercial deployment. Yet its security guarantees rest on technically delicate proofs checked by hand. Formal verification closes this gap, establishing a two-factor assurance: unconditional security from physical principles, and machine-checked proofs against reasoning errors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30645v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #quantum-computing #cryptography&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Weaponizing the Exit: Input Privacy Leakage via Exit Routing Manipulation in Multi-Exit Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-59-weaponizing-the-exit-input-privacy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31246v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-59-weaponizing-the-exit-input-privacy</id>
-    <updated>2026-10-22T13:26:03+00:00</updated>
-    <summary type="html">&lt;p&gt;Multi-exit networks improve inference efficiency by allowing inputs to terminate early at intermediate exits. We identify a privacy vulnerability in cloud deployments of these networks: a malicious Cloud Service Provider (CSP) can infer sensitive properties of individual user inputs solely from inference latency, without accessing inputs, intermediate states, or model outputs. The attack exploits the CSP&amp;apos;s control over the model supply chain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31246v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AgentTriage: Replayable Security Diagnosis Across Heterogeneous Agent Runtimes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-60-agenttriage-replayable-security-diagnosis-across"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30738v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-60-agenttriage-replayable-security-diagnosis-across</id>
-    <updated>2026-10-22T05:09:44+00:00</updated>
-    <summary type="html">&lt;p&gt;When tool-use agents write files, execute code, or send data, their final responses do not explain the resulting security events, and heterogeneous runtimes expose the relevant evidence through incompatible interfaces. We present AgentTriage, an executable contract for replayable security diagnosis across heterogeneous runtimes. The contract admits conclusions whose claims cite canonical runtime events and requires abstention when mandatory evidence is missing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30738v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #combinatorics&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-41-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-41-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On Extending Integral Distinguishers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-61-on-extending-integral-distinguishers"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1402"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-61-on-extending-integral-distinguishers</id>
-    <updated>2026-07-09T14:37:46+00:00</updated>
-    <summary type="html">&lt;p&gt;Integral cryptanalysis analyzes block ciphers using input structures for which the sum of a chosen function of the output bits becomes key-independent. However, most methods still test one output expression at a time, so they can miss distinguishers that emerge when several outputs are combined, either linearly or nonlinearly. They are also not designed to capture key-dependent integral combinations, which may hold deterministically on part of the key space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1402&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Strongly Adaptive Asynchronous Byzantine Agreement with Linear Communication and Almost-Everywhere Termination</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-59-strongly-adaptive-asynchronous-byzantine-agreement"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2627"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-59-strongly-adaptive-asynchronous-byzantine-agreement</id>
+    <updated>2026-10-24T13:18:22+00:00</updated>
+    <summary type="html">&lt;p&gt;It is well known that Byzantine agreement requires $\Omega(t^2)$ messages against a strongly adaptive adversary that may corrupt $t=\Theta(n)$ parties and suppress a party&amp;apos;s undelivered messages upon corruption. We circumvent this lower bound by relaxing termination: for any constant $0&amp;lt;\nu&amp;lt;1$, at least a $(1-\nu)$ fraction of the honest parties terminate, while agreement and validity hold for every honest decision. For every constant corruption gap $\delta&amp;gt;0$ and every $t\leq(1-\delta)n/3$, we construct binary agreement with this guarantee in authenticated asynchronous networks against strongly adaptive corruptions with message takebacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2627&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>HAETAE on a Diet: Less Stack, Less Time on Low-End Microcontrollers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-62-haetae-on-a-diet-less"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2578"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-62-haetae-on-a-diet-less</id>
-    <updated>2026-10-21T03:19:34+00:00</updated>
-    <summary type="html">&lt;p&gt;HAETAE has shorter public keys and signatures than ML-DSA, but the signing stack of its reference implementation reaches $158\, \mathrm{KiB}$ on Cortex-M4. The Low-Stack HAETAE implementation presented at CHES&amp;apos;26 brings the signing stack down to $5.7$-$5.9\,\mathrm{KiB}$; yet even HAETAE-2 still needs $8,718\,\mathrm{B}$ in a realistic IoT scenario, where the secret key and the signature buffer share the same SRAM. Gaussian regeneration further increases signing time by up to a factor 2.6 relative to the C reference.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2578&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>When Elliptic-Curve Semiprimality Certificates Reveal Factors</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-60-when-elliptic-curve-semiprimality-certificates"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2620"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-60-when-elliptic-curve-semiprimality-certificates</id>
+    <updated>2026-10-24T01:04:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Public certificates of semiprimality could support cryptographic modulus generation by proving that an integer has exactly two prime factors without revealing them. Their usefulness in this setting depends on whether the certificate preserves the difficulty of factoring. Motivated by the examples of Reble and Broadhurst, we formalize semiprimality certificates by adapting the Goldwasser-Kilian primality criterion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2620&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Rank Ceiling for Twiddle-Perturbation Faults on the Forward NTT. NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-25-63-rank-ceiling-for-twiddle-perturbation"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1188"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-25-63-rank-ceiling-for-twiddle-perturbation</id>
-    <updated>2026-06-06T19:43:13+00:00</updated>
-    <summary type="html">&lt;p&gt;NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures. Both compute forward number-theoretic transforms on secret polynomials. Their fixed multipliers, called twiddles, are a documented fault-attack target.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1188&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #formal-proofs&lt;/p&gt;</summary>
+    <title>Amortized Multi-Verifier Proofs from Reductions of Knowledge</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-61-amortized-multi-verifier-proofs-from"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1553"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-61-amortized-multi-verifier-proofs-from</id>
+    <updated>2026-07-29T17:13:44+00:00</updated>
+    <summary type="html">&lt;p&gt;We study amortization of prover work in the multi-verifier setting, motivated by proof-as-a-service deployments in which a shared prover serves $K$ independent clients holding distinct statements. Each verifier checks only its own statement and proof, with no inter-verifier communication. The challenge is therefore to amortize prover work across many proofs while preserving local verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1553&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Smaller Share Size for Evolving Secret Sharing: General Thresholds and Threshold Three</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-62-smaller-share-size-for-evolving"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2619"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-62-smaller-share-size-for-evolving</id>
+    <updated>2026-10-23T20:32:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Evolving secret sharing allows participants to join indefinitely without modifying previously distributed shares. We study the share size of perfectly secure evolving threshold secret sharing schemes and obtain two improvements. For general thresholds, we introduce a polynomial sharing method that shares two secrets with adjacent reconstruction thresholds using one polynomial.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2619&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Proofs of Quantum Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-63-proofs-of-quantum-memory"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1837"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-63-proofs-of-quantum-memory</id>
+    <updated>2025-10-05T11:34:36+00:00</updated>
+    <summary type="html">&lt;p&gt;With the rapid advances in quantum computer architectures and the emerging prospect of large-scale quantum memory, it is becoming essential to classically verify that remote devices genuinely allocate the promised quantum memory with a specified number of qubits. In this paper, we introduce a new concept, proofs of quantum memory (PoQM). A PoQM is an interactive protocol between a classical probabilistic polynomial-time (PPT) verifier and a quantum polynomial-time (QPT) prover over a classical channel where the verifier can verify that the prover has possessed a quantum memory with a specified number of qubits for a specified period of time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1837&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #quantum-computing&lt;/p&gt;</summary>
   </entry>
 </feed>
