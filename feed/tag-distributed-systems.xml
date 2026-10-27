@@ -5,60 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
-  <entry>
-    <title>Structure and Exact Certification of Nonnegative Tensor Decompositions. We study the structure and exact certification of nonnegative tensor decompositions supplied through rational factor matrices.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-20-structure-and-exact-certification-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32787v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-20-structure-and-exact-certification-of</id>
-    <updated>2026-10-23T15:35:01+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the structure and exact certification of nonnegative tensor decompositions supplied through rational factor matrices. Every failure of minimality or essential uniqueness contains an irreducible positive exchange between $p$ supplied terms and $q$ competing terms. A dimension count based on the Lovitz--Petrov splitting theorem bounds the effective order of such an exchange, the sum over the modes of the joint factor-span dimension minus one, by $p+q-2$, and this bound is attained at every supplied length $R\ge2$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32787v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #algebra-geometry&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Majorana Edge-to-bound State Transition in Interferometric Superconductor Rings</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-33-majorana-edge-to-bound-state"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32767v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-33-majorana-edge-to-bound-state</id>
-    <updated>2026-10-23T15:08:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Manipulating flux quanta in topological superconductors is central to vortex braiding in quantum computing. Their interferometric superconducting rings can host either topologically protected edge states with fluxes confined inside the central hollow area or vortex bound states in flux cores at the annulus walls. Here we demonstrate a strategy to drive topological edge states into vortex bound states by tuning the relative scale of vortex size and annulus width in nano-ring interferometric device on 2M-WS$_2$ topological superconductor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32767v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Proximity Theorem and FPT Algorithm for Minimum Group-labeled Matroid Bases</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-24-proximity-theorem-and-fpt-algorithm"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32798v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-24-proximity-theorem-and-fpt-algorithm</id>
-    <updated>2026-10-23T15:39:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $M$ be a matroid, let $\ell:E(M)\to G$ be a labeling of its elements by an abelian group, and let $F\subseteq G$ be finite. A base is $F$-avoiding if the label sum of its elements is not in $F$. We prove that, for arbitrary costs, a min-cost $F$-avoiding base can be obtained from any min-cost base using at most $|F|$ exchanges.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32798v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #combinatorics #algorithms&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GLP Networking API Specification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-56-glp-networking-api-specification"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32583v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-56-glp-networking-api-specification</id>
-    <updated>2026-10-23T13:10:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Multiagent deterministic GLP (madGLP) runs Grassroots Logic Programs (GLP) as agents that communicate solely by asynchronous message passing, and assumes fair delivery: every message sent is eventually delivered. Each agent runs on a person&amp;apos;s smartphone, named by the person&amp;apos;s public key. A grassroots platform depends on no global resource but the network, so agents must reach one another over Bluetooth Low Energy, on a local network, and across the Internet from behind NAT, via rendezvous servers anyone can run.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32583v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #networking #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Smaller Share Size for Evolving Secret Sharing: General Thresholds and Threshold Three</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-62-smaller-share-size-for-evolving"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2619"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-62-smaller-share-size-for-evolving</id>
-    <updated>2026-10-23T20:32:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Evolving secret sharing allows participants to join indefinitely without modifying previously distributed shares. We study the share size of perfectly secure evolving threshold secret sharing schemes and obtain two improvements. For general thresholds, we introduce a polynomial sharing method that shares two secrets with adjacent reconstruction thresholds using one polynomial.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2619&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>From Heterogeneity to Function: Enhanced Modular Dynamic Range in Hierarchical Brain Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-90-from-heterogeneity-to-function-enhanced"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32328v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-90-from-heterogeneity-to-function-enhanced</id>
-    <updated>2026-10-23T08:25:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Hierarchical and modular organization defines brain architecture, yet how it supports flexible computation and functional specialization remains unclear. Although dynamic range is a hallmark of efficient information processing, its distribution across modules and hierarchical levels remains largely unexplored. Here, we show that hierarchical-modular networks naturally generate heterogeneous modular dynamics and firing rates, extending regimes of critical-like dynamics with enhanced intrinsic timescales, reflecting critical slowing down, and diverse scaling exponents without fine-tuning near criticality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32328v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience #distributed-systems&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
     <title>On &quot;AI Brendans&quot; or &quot;Virtual Brendans&quot;. There are now multiple AI performance engineering agents that use or are trained on my work.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-45-on-ai-brendans-or-virtual"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-44-on-ai-brendans-or-virtual"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-45-on-ai-brendans-or-virtual</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-44-on-ai-brendans-or-virtual</id>
     <updated>2025-11-27T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;There are now multiple AI performance engineering agents that use or are trained on my work. Some are helper agents that interpret flame graphs or eBPF metrics, sometimes privately called AI Brendan ; others have trained on my work to create a virtual Brendan that claims it can tune everything just like the real thing. These virtual Brendans sound like my brain has been uploaded to the cloud by someone who is now selling it (yikes!).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #distributed-systems&lt;/p&gt;</summary>
   </entry>

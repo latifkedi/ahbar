@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>Every Weight Is a Path of Shared Discrete Decisions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-17-every-weight-is-a-path"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31931"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-17-every-weight-is-a-path</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, and each decision is inherited by every weight below it, so it is stored once and applied once. This simple change has three consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31931&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #inference&lt;/p&gt;</summary>
+    <title>Security updates for Monday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-37-security-updates-for-monday"/>
+    <link rel="related" href="https://lwn.net/Articles/1102946/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-37-security-updates-for-monday</id>
+    <updated>2026-10-26T13:12:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102946/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases #inference&lt;/p&gt;</summary>
   </entry>
 </feed>

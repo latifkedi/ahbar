@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-optimization.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-optimization.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>Non-singlets and the phase diagram of Matrix Quantum Mechanics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-19-non-singlets-and-the-phase"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32856v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-19-non-singlets-and-the-phase</id>
-    <updated>2026-10-23T16:29:59+00:00</updated>
-    <summary type="html">&lt;p&gt;The quantum mechanics of one $N\times N$ Hermitian matrix in the infinite $N$ limit is well known to define a two-dimensional string theory when the quartic coupling constant $g$ is tuned to a special negative value $g_*$. We study the thermodynamics of this Matrix Quantum Mechanics (MQM), treating the SU$(N)$ symmetry as a global symmetry. Crucially, the non-singlets, i.e.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32856v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #high-energy #optimization&lt;/p&gt;</summary>
+    <title>A Unified Framework for Assortment Optimization and Matching under MNL Choice</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-85-a-unified-framework-for-assortment"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35389v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-85-a-unified-framework-for-assortment</id>
+    <updated>2026-10-26T13:09:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop a unified framework for assortment optimization and matching under multinomial logit (MNL) choice, yielding simple algorithms and analyses across a broad class of problems. The framework centers on a single-customer assortment problem in which the firm commits to eligible products before their independent availabilities are revealed. A simple threshold policy achieves a tight $1/2$ guarantee against a benchmark that selects its assortment after observing availability and may control dependence subject to the same marginal probability bounds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35389v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Resource Allocation Tournament</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-64-a-resource-allocation-tournament"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31418v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-64-a-resource-allocation-tournament</id>
-    <updated>2026-10-22T15:19:56+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce and analyze a round-robin simultaneous resource allocation contest, motivated by sports leagues and other competitive environments where agents must distribute limited resources across multiple encounters. Players allocate resources in advance to matches against all opponents, and match outcomes are determined by relative allocations. We study two payoff schemes: total points, where players accumulate rewards for each win, and winner-takes-all, where only the tournament winner is rewarded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31418v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #optimization #decision-theory&lt;/p&gt;</summary>
+    <title>Follow the Regularized Leader Does Not Converge in Constrained Optimization</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-89-follow-the-regularized-leader-does"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35004v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-89-follow-the-regularized-leader-does</id>
+    <updated>2026-10-26T08:16:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Follow the regularized leader (FTRL) is a foundational algorithm in online learning whose regret properties have been extensively studied for decades. However, in stark contrast to mirror descent---and gradient descent in particular---the convergence of FTRL to first-order stationary points in constrained nonconvex optimization was not well understood. In this paper, we show that continuous-time FTRL can fail to converge even asymptotically in infinitely smooth constrained optimization problems: its Karush-Kuhn-Tucker (KKT) gap can remain bounded away from zero indefinitely.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35004v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
   </entry>
 </feed>

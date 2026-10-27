@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-14-a-10-year-old-cnn"/>
-    <link rel="related" href="https://lynchlab.net/llm-skin-cancer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-14-a-10-year-old-cnn</id>
-    <updated>2026-10-25T17:15:38Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lynchlab.net/llm-skin-cancer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>GPT-6.1 Terra. GPT-6.1 Terra It&apos;s always interesting to note which aspects of a new model are emphasized in the release announcement.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-01-gpt-6-1-terra"/>
+    <link rel="related" href="https://openai.com/index/introducing-gpt-6-1-terra/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-01-gpt-6-1-terra</id>
+    <updated>2026-10-26T18:01:17Z</updated>
+    <summary type="html">&lt;p&gt;GPT-6.1 Terra It&amp;apos;s always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://openai.com/index/introducing-gpt-6-1-terra/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-18-openai-and-anthropic-cut-their"/>
-    <link rel="related" href="https://minimaxir.com/2026/10/cheap-llms/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-18-openai-and-anthropic-cut-their</id>
-    <updated>2026-10-25T21:11:31Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://minimaxir.com/2026/10/cheap-llms/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>The Exponential Time Hypothesis Is False [pdf]. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-02-the-exponential-time-hypothesis-is"/>
+    <link rel="related" href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-02-the-exponential-time-hypothesis-is</id>
+    <updated>2026-10-26T21:59:15Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Three new discoveries in mathematics, computer science, and physics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-05-three-new-discoveries-in-mathematics"/>
+    <link rel="related" href="https://openai.com/index/building-scientific-understanding-with-academic-communities/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-05-three-new-discoveries-in-mathematics</id>
+    <updated>2026-10-26T21:35:28Z</updated>
+    <summary type="html">&lt;p&gt;OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://openai.com/index/building-scientific-understanding-with-academic-communities/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

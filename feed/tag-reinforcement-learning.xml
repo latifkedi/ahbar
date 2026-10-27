@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <entry>
+    <title>Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-12-eat-your-precision-precision-objective"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.33512"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-12-eat-your-precision-precision-objective</id>
+    <updated>2026-10-23T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but also more verbose and contain more unnecessary or factually incorrect content, leading them to be less preferred than responses from the base model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33512&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-16-introducing-gemini-3-8-flash"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-15-introducing-gemini-3-8-flash"/>
     <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-16-introducing-gemini-3-8-flash</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-15-introducing-gemini-3-8-flash</id>
     <updated>2026-09-02T16:18:31+00:00</updated>
     <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-16-s3ac-stabilized-selective-and-scalable"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35518"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-16-s3ac-stabilized-selective-and-scalable</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate prompt-specific baselines. A critic can address both limitations, but long-CoT critic training is hindered by insufficient coverage of trajectories with diverse lengths and early gradients dominated by the newly initialized value head.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35518&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,20 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
-  <entry>
-    <title>Tensor Networks for Materials Simulation and Quantum Chemistry</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-34-tensor-networks-for-materials-simulation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32754v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-34-tensor-networks-for-materials-simulation</id>
-    <updated>2026-10-23T15:00:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Predicting the properties of correlated materials and molecules often requires a many-body description that goes beyond single-particle and mean-field approximations. Tensor networks address this challenge by exploiting the entanglement structure of quantum states to construct compact, systematically improvable representations. Although developed largely for idealized model Hamiltonians, these methods are increasingly being integrated into material-specific calculations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32754v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #infosec&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-41-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-41-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-41-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-41-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>

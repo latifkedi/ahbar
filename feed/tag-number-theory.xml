@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>The lower tail of triangle counts in sparse random graphs. Let $T_n$ be the number of triangles in the Erdős-Rényi random graph $G(n,p)$ with $n^{-1/2}\ll p\ll1$ and fix $η\in(0,1)$.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-21-the-lower-tail-of-triangle"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32879v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-21-the-lower-tail-of-triangle</id>
-    <updated>2026-10-23T16:46:20+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $T_n$ be the number of triangles in the Erdős-Rényi random graph $G(n,p)$ with $n^{-1/2}\ll p\ll1$ and fix $η\in(0,1)$. We study the large deviation rate of the lower tail event $T_n\leη\mathbb{E}[T_n]$, and the typical structure of $G(n,p)$ conditioned on this event. By earlier work [16,19,21,49], both the rate and the structure are governed by a variational problem over graphons.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32879v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>How to get an attractive model. We give a fourth-order Calabi-Yau differential operator, which seems to have been missed by earlier tabulations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-19-how-to-get-an-attractive"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35798v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-19-how-to-get-an-attractive</id>
+    <updated>2026-10-26T17:33:45+00:00</updated>
+    <summary type="html">&lt;p&gt;We give a fourth-order Calabi-Yau differential operator, which seems to have been missed by earlier tabulations. We draw attention to this operator because of its clear geometric interpretation and evidence that it possesses a rank-two attractor, conjecturally giving a new example of a Calabi-Yau threefold with modularity properties analogous to those of an elliptic curve over $\mathbb{Q}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35798v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Isochronous Fixed-Weight Sampling in Hardware</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-61-isochronous-fixed-weight-sampling-in"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/218"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-61-isochronous-fixed-weight-sampling-in</id>
+    <updated>2026-02-10T09:21:44+00:00</updated>
+    <summary type="html">&lt;p&gt;We present hardware implementations of the recently proposed isochronous fixed-weight sampling algorithm by Décio Luiz Gazzoni Filho, Tomás S. R. Silva, Julio López (CiC vol. 1, 2024) and apply them to the post-quantum cryptographic algorithms NTRU-HPS, Streamlined NTRU Prime and Classic McEliece.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/218&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Simple and critical zeros of the Riemann zeta-function. [This is a guest post by Caroline Turnage-Butterbaugh.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-26-simple-and-critical-zeros-of"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-26-simple-and-critical-zeros-of</id>
+    <updated>2026-10-22T19:17:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Caroline Turnage-Butterbaugh. This blog post was initially written in a different file format and converted using AI. — T.] Evidence in favor of the Riemann Hypothesis comes in many flavors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/22/simple-and-critical-zeros-of-the-riemann-zeta-function/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

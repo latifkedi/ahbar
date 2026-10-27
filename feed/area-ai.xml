@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>RynnUnify: Towards Unified Embodied Brain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-10-rynnunify-towards-unified-embodied-brain"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32965"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-10-rynnunify-towards-unified-embodied-brain</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32965&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>DynaFlow: Learning Free-Form Multi-Agent Orchestration. Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-10-dynaflow-learning-free-form-multi"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34467"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-10-dynaflow-learning-free-form-multi</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34467&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-11-userarena-benchmarking-interactive-user-simulation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30932"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-11-userarena-benchmarking-interactive-user-simulation</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users&amp;apos; behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30932&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-11-spatial-audio-generation-and-editing"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34415"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-11-spatial-audio-generation-and-editing</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34415&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RSIHub: A Composable Framework for Agent-Evolution Methods</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-12-rsihub-a-composable-framework-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32253"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-12-rsihub-a-composable-framework-for</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32253&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-13-trustworthy-recursive-self-improvement-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35193"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-13-trustworthy-recursive-self-improvement-in</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35193&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LoCA: Enabling Multi-Modality in Geospatial Location Encoders</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-13-loca-enabling-multi-modality-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32894"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-13-loca-enabling-multi-modality-in</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Location encoders map geographic coordinates to high-dimensional descriptors through contrastive alignment with paired Earth Observation imagery. We prove that this construction is structurally limited: any Lipschitz location encoder produces an output of intrinsic dimension at most 2, regardless of architecture or bandwidth, which forces the contrastive loss to strictly exceed its asymptotic optimum. Empirically, joint training also collapses the encoder&amp;apos;s embedding covariance to low rank.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32894&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+    <title>Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-12-eat-your-precision-precision-objective"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.33512"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-12-eat-your-precision-precision-objective</id>
+    <updated>2026-10-23T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but also more verbose and contain more unnecessary or factually incorrect content, leading them to be less preferred than responses from the base model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33512&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-16-introducing-gemini-3-8-flash"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-15-introducing-gemini-3-8-flash"/>
     <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-16-introducing-gemini-3-8-flash</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-15-introducing-gemini-3-8-flash</id>
     <updated>2026-09-02T16:18:31+00:00</updated>
     <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Reading, Writing, Sharing, and Interacting with the World through Video</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-15-reading-writing-sharing-and-interacting"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31668"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-15-reading-writing-sharing-and-interacting</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31668&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>Δτ-Bench: Pushing Agents Toward a Moving Capability. In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-14-bench-pushing-agents-toward-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34238"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-14-bench-pushing-agents-toward-a</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In Δτ-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient alternatives emerge amid overlapping functionality and noisy documentation. Against this moving capability frontier, we evaluate whether agents can proactively discover efficient tool-use paths and promptly revise their accumulated procedural knowledge, bringing together demands that existing benchmarks fail to examine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34238&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-14-a-10-year-old-cnn"/>
-    <link rel="related" href="https://lynchlab.net/llm-skin-cancer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-14-a-10-year-old-cnn</id>
-    <updated>2026-10-25T17:15:38Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lynchlab.net/llm-skin-cancer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-16-s3ac-stabilized-selective-and-scalable"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35518"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-16-s3ac-stabilized-selective-and-scalable</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate prompt-specific baselines. A critic can address both limitations, but long-CoT critic training is hindered by insufficient coverage of trajectories with diverse lengths and early gradients dominated by the newly initialized value head.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35518&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Every Weight Is a Path of Shared Discrete Decisions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-17-every-weight-is-a-path"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31931"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-17-every-weight-is-a-path</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, and each decision is inherited by every weight below it, so it is stored once and applied once. This simple change has three consequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31931&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #inference&lt;/p&gt;</summary>
+    <title>EmbodiedLab: Benchmarking Embodied Agents That Act to Know. Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35385"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to change, with the target state given; scientific discovery benchmarks evaluate knowing but replace physical experimentation with symbolic actions or numerical queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35385&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-18-openai-and-anthropic-cut-their"/>
-    <link rel="related" href="https://minimaxir.com/2026/10/cheap-llms/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-18-openai-and-anthropic-cut-their</id>
-    <updated>2026-10-25T21:11:31Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://minimaxir.com/2026/10/cheap-llms/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-18-rynnvla-latent-scaling-robotic-manipulation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34356"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-18-rynnvla-latent-scaling-robotic-manipulation</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At its core, RynnLAM learns continuous, 3D-grounded latent actions from visual transitions without requiring native robot controls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34356&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,45 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>RynnUnify: Towards Unified Embodied Brain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-10-rynnunify-towards-unified-embodied-brain"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32965"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-10-rynnunify-towards-unified-embodied-brain</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these capabilities, we further develop an agentic extension through reinforcement learning to selectively use video predictions for reasoning about unobserved states and interaction outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32965&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>DynaFlow: Learning Free-Form Multi-Agent Orchestration. Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-10-dynaflow-learning-free-form-multi"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34467"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-10-dynaflow-learning-free-form-multi</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34467&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-11-userarena-benchmarking-interactive-user-simulation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30932"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-11-userarena-benchmarking-interactive-user-simulation</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users&amp;apos; behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and offline validation against production A/B results.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30932&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Δτ-Bench: Pushing Agents Toward a Moving Capability. In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-14-bench-pushing-agents-toward-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34238"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-14-bench-pushing-agents-toward-a</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In Δτ-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient alternatives emerge amid overlapping functionality and noisy documentation. Against this moving capability frontier, we evaluate whether agents can proactively discover efficient tool-use paths and promptly revise their accumulated procedural knowledge, bringing together demands that existing benchmarks fail to examine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34238&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RSIHub: A Composable Framework for Agent-Evolution Methods</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-12-rsihub-a-composable-framework-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32253"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-12-rsihub-a-composable-framework-for</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and lineage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32253&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>EmbodiedLab: Benchmarking Embodied Agents That Act to Know. Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35385"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to change, with the target state given; scientific discovery benchmarks evaluate knowing but replace physical experimentation with symbolic actions or numerical queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35385&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Beliefs Over Contracts -- by Francis Annan, Collin B. Raymond. We study how firms choose among incentive contracts and how accurately managers predict their effects.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-69-beliefs-over-contracts-by-francis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-66-beliefs-over-contracts-by-francis"/>
     <link rel="related" href="https://www.nber.org/papers/w35788#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-69-beliefs-over-contracts-by-francis</id>
-    <updated>2026-10-26T10:36:47.673575702+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-66-beliefs-over-contracts-by-francis</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
     <summary type="html">&lt;p&gt;We study how firms choose among incentive contracts and how accurately managers predict their effects. Using a survey of managerial beliefs and a large-scale field experiment, we randomly assign agents at the market level to several widely used, expenditure-equivalent incentive schemes. In the field, the best-performing contract raises weekly firm profit by over 55% relative to the status quo, despite being ranked lower by managers, whereas the worst-performing contract performs as predicted.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35788#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Butterfly Defects: Tracing Cooperation in LLM Agent Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-85-the-butterfly-defects-tracing-cooperation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32726v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-85-the-butterfly-defects-tracing-cooperation</id>
-    <updated>2026-10-23T14:46:57+00:00</updated>
-    <summary type="html">&lt;p&gt;As large language models (LLMs) increasingly operate as interconnected agents, a fundamental question emerges: does individual cooperation translate into collective cooperation? We investigate this question through the Iterated Prisoner&amp;apos;s Dilemma (IPD), moving from dyadic interactions to homogeneous and heterogeneous networks of open-weight LLMs. Our findings reveal that cooperation is highly sensitive to model composition and seemingly minor linguistic changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32726v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #agents&lt;/p&gt;</summary>
+    <title>BROCADE: Broker-based Contract Design for the Multi-Agency Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-87-brocade-broker-based-contract-design"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35291v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-87-brocade-broker-based-contract-design</id>
+    <updated>2026-10-26T12:00:51+00:00</updated>
+    <summary type="html">&lt;p&gt;We study welfare maximization in a contract model with $m$ principals who privately value a public project&amp;apos;s success and $n$ agents whose costly effort is unobservable. Contracts induce truthful dominant strategies for principals and equilibrium effort by agents, maximizing the expected total value of eligible principals. We develop three tools: a broker that separates payments from principals and payments to agents, an extension of Myerson&amp;apos;s Lemma characterizing dominant-strategy incentive compatibility (DSIC), and a black-box reduction to budget-constrained single-principal contract design.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35291v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fair Division of Lotteries</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-90-fair-division-of-lotteries"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34906v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-90-fair-division-of-lotteries</id>
+    <updated>2026-10-26T06:27:47+00:00</updated>
+    <summary type="html">&lt;p&gt;We study fair division of uncertain items, where the utility of each item is a random variable whose realization is observed only after the allocation is determined. This uncertainty creates a distinction between ex-ante fairness, evaluated before utilities are realized, and ex-post fairness, evaluated after realization. We examine to what extent these two notions are compatible.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34906v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

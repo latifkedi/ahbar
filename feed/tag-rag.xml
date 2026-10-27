@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rag.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rag.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <entry>
+    <title>DynaFlow: Learning Free-Form Multi-Agent Orchestration. Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-10-dynaflow-learning-free-form-multi"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34467"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-10-dynaflow-learning-free-form-multi</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34467&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+  </entry>
 </feed>

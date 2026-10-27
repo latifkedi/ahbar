@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-philosophy.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-philosophy.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>Online Philosophy Resources Weekly Update</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-82-online-philosophy-resources-weekly-update"/>
-    <link rel="related" href="https://dailynous.com/2026/10/26/online-philosophy-resources-weekly-update-445/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-82-online-philosophy-resources-weekly-update</id>
-    <updated>2026-10-26T09:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;New and revised entries at online philosophy resources, new reviews of philosophy books, new podcast episodes, recently published open access philosophy books, and more… . […] The post Online Philosophy Resources Weekly Update appeared first on Daily Nous .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dailynous.com/2026/10/26/online-philosophy-resources-weekly-update-445/&quot;&gt;Daily Nous (Philosophy Research &amp;amp; Epistemology)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #epistemology #ai-ethics&lt;/p&gt;</summary>
+    <title>Exploring the Tractability Frontier of Hylland-Zeckhauser Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-82-exploring-the-tractability-frontier-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35848v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-82-exploring-the-tractability-frontier-of</id>
+    <updated>2026-10-26T17:56:53+00:00</updated>
+    <summary type="html">&lt;p&gt;The Hylland-Zeckhauser (HZ) mechanism provides a market-based approach to one-sided matching, making efficient equilibrium computation central to its implementation. Bi-valued utilities admit a strongly polynomial-time algorithm [VY], whereas with four values per buyer, the problem is PPAD-hard under inverse polynomial approximation [CCPY]. To understand the tractability boundary, we study two extensions of the bi-valued case: a third linear utility value and separable concave utilities with two common marginal slopes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35848v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Quantum Index Report 2026. The MIT Quantum Index Report 2026 provides a comprehensive, data-driven assessment of the evolving quantum-technology landscape.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-83-quantum-index-report-2026"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32828v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-83-quantum-index-report-2026</id>
-    <updated>2026-10-23T16:02:24+00:00</updated>
-    <summary type="html">&lt;p&gt;The MIT Quantum Index Report 2026 provides a comprehensive, data-driven assessment of the evolving quantum-technology landscape. As quantum technologies progress from scientific promise toward practical deployment, decision-makers need clear, accessible measures of technical capability, investment, workforce development, policy and public engagement. This second edition expands and updates the Quantum Index Report&amp;apos;s analysis of quantum computing and networking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32828v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Information-thermodynamic principles unveil the response of complex networks to perturbations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-83-information-thermodynamic-principles-unveil-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35667v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-83-information-thermodynamic-principles-unveil-the</id>
+    <updated>2026-10-26T16:10:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Understanding how complex networks respond to perturbations is key to uncovering their functional organization. We show that, for a maximum-entropy perturbation prior, standard diffusion cannot increase response entropy, a measure of the diversity of the system&amp;apos;s response. To overcome this limitation, we develop a density-matrix-based information thermodynamics of perturbation responses along arbitrary dynamical trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35667v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Capacity Modification for Matching with Couples: An Integer Programming and Computational Study</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-84-capacity-modification-for-matching-with"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32793v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-84-capacity-modification-for-matching-with</id>
-    <updated>2026-10-23T15:37:23+00:00</updated>
-    <summary type="html">&lt;p&gt;We study capacity modification in the Hospitals/Residents problem with Couples, in which hospital capacities and a stable matching are jointly determined. Exact and Cutoff integer programming formulations are developed for the resulting problem. We assume that, for each couple, either both members are matched or neither is.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32793v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Formation of international environmental agreements and payoff allocation. Dealing with climate change requires that all countries engage in costly efforts to reduce their emissions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-84-formation-of-international-environmental-agreements"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35443v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-84-formation-of-international-environmental-agreements</id>
+    <updated>2026-10-26T13:41:46+00:00</updated>
+    <summary type="html">&lt;p&gt;Dealing with climate change requires that all countries engage in costly efforts to reduce their emissions. Reaching this objective has so far been elusive because it is in the best interest of each country to let the others do the effort and benefit itself from a better environment. The presence of negative externalities and strategic behavior have made game theory a natural paradigm to design an international environmental agreement (IEA) that codifies what countries should do.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35443v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Butterfly Defects: Tracing Cooperation in LLM Agent Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-85-the-butterfly-defects-tracing-cooperation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32726v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-85-the-butterfly-defects-tracing-cooperation</id>
-    <updated>2026-10-23T14:46:57+00:00</updated>
-    <summary type="html">&lt;p&gt;As large language models (LLMs) increasingly operate as interconnected agents, a fundamental question emerges: does individual cooperation translate into collective cooperation? We investigate this question through the Iterated Prisoner&amp;apos;s Dilemma (IPD), moving from dyadic interactions to homogeneous and heterogeneous networks of open-weight LLMs. Our findings reveal that cooperation is highly sensitive to model composition and seemingly minor linguistic changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32726v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #agents&lt;/p&gt;</summary>
+    <title>A Unified Framework for Assortment Optimization and Matching under MNL Choice</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-85-a-unified-framework-for-assortment"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35389v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-85-a-unified-framework-for-assortment</id>
+    <updated>2026-10-26T13:09:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop a unified framework for assortment optimization and matching under multinomial logit (MNL) choice, yielding simple algorithms and analyses across a broad class of problems. The framework centers on a single-customer assortment problem in which the firm commits to eligible products before their independent availabilities are revealed. A simple threshold policy achieves a tight $1/2$ guarantee against a benchmark that selects its assortment after observing availability and may control dependence subject to the same marginal probability bounds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35389v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cartographing Gravity: Operational Maps, the Conatus of Proper Time, and the Potentia of Matter</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-86-cartographing-gravity-operational-maps-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32569v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-86-cartographing-gravity-operational-maps-the</id>
-    <updated>2026-10-23T12:53:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical natural philosophy sought the natural law governing the motion of free bodies long before daring to construct the appropriate mathematical formalism. Following this longstanding methodological perspective, in the present work General Relativity is reconstructed from operational and dynamical principles, rather than taking spacetime geometry as its starting point. The \textit{conatus} of a massive free particle is identified with its natural tendency to follow a worldline of stationary proper time, which, under the appropriate local conditions, corresponds to a maximum of its proper time, whereas gravitation is interpreted as the \textit{potentia} of matter to modify the local rate of proper time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32569v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #astrophysics #logic&lt;/p&gt;</summary>
+    <title>Who Pays for Thinking? Billing Hidden Reasoning Tokens in Model Cloud Contracts</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-86-who-pays-for-thinking-billing"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35338v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-86-who-pays-for-thinking-billing</id>
+    <updated>2026-10-26T12:33:40+00:00</updated>
+    <summary type="html">&lt;p&gt;In token-priced language model services, users can see the prompts they submit and the answers they receive, but may also pay for internal reasoning and candidate answers that are not shown in the final response. This paper develops a three-party service model to study how charging for this intermediate computation shapes providers&amp;apos; decisions and social welfare. Users purchase answers from a model firm that pays an execution cloud, with either supplier controlling the computation budget.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35338v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Pareto-optimal Scheduling with Predictions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-87-pareto-optimal-scheduling-with-predictions"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32503v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-87-pareto-optimal-scheduling-with-predictions</id>
-    <updated>2026-10-23T11:26:31+00:00</updated>
-    <summary type="html">&lt;p&gt;We study preemptive single-machine scheduling with predictions, where a prediction of the order of the jobs (or of their sizes) is available, and the objective is to minimize the total completion time. An algorithm is $c$-consistent if it is $c$-competitive when the prediction is correct, and $R$-robust if it is $R$-competitive whatever the prediction. Since the introduction of this problem as one of the first examples of learning-augmented algorithms, the best possible trade-off between consistency and robustness has remained open.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32503v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
+    <title>BROCADE: Broker-based Contract Design for the Multi-Agency Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-87-brocade-broker-based-contract-design"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35291v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-87-brocade-broker-based-contract-design</id>
+    <updated>2026-10-26T12:00:51+00:00</updated>
+    <summary type="html">&lt;p&gt;We study welfare maximization in a contract model with $m$ principals who privately value a public project&amp;apos;s success and $n$ agents whose costly effort is unobservable. Contracts induce truthful dominant strategies for principals and equilibrium effort by agents, maximizing the expected total value of eligible principals. We develop three tools: a broker that separates payments from principals and payments to agents, an extension of Myerson&amp;apos;s Lemma characterizing dominant-strategy incentive compatibility (DSIC), and a black-box reduction to budget-constrained single-principal contract design.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35291v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-88-the-effects-of-generative-ai"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32461v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-88-the-effects-of-generative-ai</id>
-    <updated>2026-10-23T10:27:08+00:00</updated>
-    <summary type="html">&lt;p&gt;The rapid diffusion of generative artificial intelligence has raised concerns that knowledge work may become less dependent on human-to-human interaction. Yet because AI-generated outputs require interpretation, verification, and social legitimation, generative AI may instead increase collaboration among workers. We test these competing predictions using passively collected behavioral data from more than 12,000 knowledge workers observed over 13 months during the staged organizational rollout of an AI-powered assistant (Microsoft Copilot).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32461v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #rust #clean-tech&lt;/p&gt;</summary>
+    <title>Multiplex relational event models of self-reported and perceived gossip. Gossiping is a complex social phenomenon that unfolds through multiple types of relations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-88-multiplex-relational-event-models-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35162v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-88-multiplex-relational-event-models-of</id>
+    <updated>2026-10-26T10:26:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Gossiping is a complex social phenomenon that unfolds through multiple types of relations. Among other things, individuals may initiate gossiping about others as a result of believing themselves to be the target of gossip. These two processes, i.e., gossiping and gossip perception, form a dynamic multiplex network, where self-reported and perceived gossip ties coexist and can influence each other over time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35162v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Intermittency in firm bankruptcies from register data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-89-intermittency-in-firm-bankruptcies-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32376v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-89-intermittency-in-firm-bankruptcies-from</id>
-    <updated>2026-10-23T09:05:05+00:00</updated>
-    <summary type="html">&lt;p&gt;By analysing the clustering of bankruptcy activity from administrative register data in the Netherlands over time, the intermittency of this process is investigated. Using methodology from survival analysis a statistical characterization of bursts is obtained: short active periods alternating with quieter periods. Using Statistics Netherlands microdata on Dutch business bankruptcies declared on court hearing-days from 2009 to 2024, combined with input-output tables from the Dutch national accounts, it is studied whether this clustering can be explained by differences between sectors, years, and inter-sectoral exposure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32376v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Follow the Regularized Leader Does Not Converge in Constrained Optimization</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-89-follow-the-regularized-leader-does"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35004v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-89-follow-the-regularized-leader-does</id>
+    <updated>2026-10-26T08:16:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Follow the regularized leader (FTRL) is a foundational algorithm in online learning whose regret properties have been extensively studied for decades. However, in stark contrast to mirror descent---and gradient descent in particular---the convergence of FTRL to first-order stationary points in constrained nonconvex optimization was not well understood. In this paper, we show that continuous-time FTRL can fail to converge even asymptotically in infinitely smooth constrained optimization problems: its Karush-Kuhn-Tucker (KKT) gap can remain bounded away from zero indefinitely.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35004v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>From Heterogeneity to Function: Enhanced Modular Dynamic Range in Hierarchical Brain Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-90-from-heterogeneity-to-function-enhanced"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32328v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-90-from-heterogeneity-to-function-enhanced</id>
-    <updated>2026-10-23T08:25:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Hierarchical and modular organization defines brain architecture, yet how it supports flexible computation and functional specialization remains unclear. Although dynamic range is a hallmark of efficient information processing, its distribution across modules and hierarchical levels remains largely unexplored. Here, we show that hierarchical-modular networks naturally generate heterogeneous modular dynamics and firing rates, extending regimes of critical-like dynamics with enhanced intrinsic timescales, reflecting critical slowing down, and diverse scaling exponents without fine-tuning near criticality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32328v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience #distributed-systems&lt;/p&gt;</summary>
+    <title>Fair Division of Lotteries</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-90-fair-division-of-lotteries"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34906v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-90-fair-division-of-lotteries</id>
+    <updated>2026-10-26T06:27:47+00:00</updated>
+    <summary type="html">&lt;p&gt;We study fair division of uncertain items, where the utility of each item is a random variable whose realization is observed only after the allocation is determined. This uncertainty creates a distinction between ex-ante fairness, evaluated before utilities are realized, and ex-post fairness, evaluated after realization. We examine to what extent these two notions are compatible.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34906v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

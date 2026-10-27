@@ -6,8 +6,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.PL+OR+cat:cs.SE+OR+cat:cs.DB+OR+cat:cs.DC+OR+cat:cs.DS&sortBy=submittedDate&sortOrder=descending&max_results=30",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 325,
-    "last_checked": "2026-10-26T10:36:47.492331436+00:00"
+    "latency_ms": 400,
+    "last_checked": "2026-10-27T10:06:21.686137918+00:00"
   },
   {
     "id": "arxiv-cs-fl-lo",
@@ -16,8 +16,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.FL+OR+cat:cs.LO+OR+cat:cs.SC&sortBy=submittedDate&sortOrder=descending&max_results=20",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 290,
-    "last_checked": "2026-10-26T10:36:47.492454240+00:00"
+    "latency_ms": 323,
+    "last_checked": "2026-10-27T10:06:21.686272159+00:00"
   },
   {
     "id": "hacker-news-top",
@@ -25,9 +25,9 @@
     "area": "cs",
     "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=35",
     "status": "ok",
-    "items_fetched": 29,
-    "latency_ms": 275,
-    "last_checked": "2026-10-26T10:36:47.492609823+00:00"
+    "items_fetched": 28,
+    "latency_ms": 301,
+    "last_checked": "2026-10-27T10:06:21.686656415+00:00"
   },
   {
     "id": "hn-show",
@@ -36,8 +36,8 @@
     "url": "https://hn.algolia.com/api/v1/search?tags=show_hn&hitsPerPage=25",
     "status": "ok",
     "items_fetched": 23,
-    "latency_ms": 320,
-    "last_checked": "2026-10-26T10:36:47.493111835+00:00"
+    "latency_ms": 559,
+    "last_checked": "2026-10-27T10:06:21.686148288+00:00"
   },
   {
     "id": "github-blog",
@@ -46,8 +46,8 @@
     "url": "https://github.blog/feed/",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 187,
-    "last_checked": "2026-10-26T10:36:47.492335537+00:00"
+    "latency_ms": 87,
+    "last_checked": "2026-10-27T10:06:21.686355389+00:00"
   },
   {
     "id": "lobsters",
@@ -56,8 +56,8 @@
     "url": "https://lobste.rs/rss",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 202,
-    "last_checked": "2026-10-26T10:36:47.492571701+00:00"
+    "latency_ms": 128,
+    "last_checked": "2026-10-27T10:06:21.686559394+00:00"
   },
   {
     "id": "acm-cacm",
@@ -66,8 +66,8 @@
     "url": "https://cacm.acm.org/feed/",
     "status": "http_403",
     "items_fetched": 0,
-    "latency_ms": 64,
-    "last_checked": "2026-10-26T10:36:47.493771864+00:00",
+    "latency_ms": 43,
+    "last_checked": "2026-10-27T10:06:21.686866940+00:00",
     "error": "HTTP 403 Forbidden"
   },
   {
@@ -75,11 +75,11 @@
     "name": "ACM Queue",
     "area": "cs",
     "url": "https://queue.acm.org/rss/feeds/queuecontent.xml",
-    "status": "http_403",
+    "status": "http_410",
     "items_fetched": 0,
-    "latency_ms": 62,
-    "last_checked": "2026-10-26T10:36:47.494303140+00:00",
-    "error": "HTTP 403 Forbidden"
+    "latency_ms": 128,
+    "last_checked": "2026-10-27T10:06:21.686944126+00:00",
+    "error": "HTTP 410 Gone"
   },
   {
     "id": "rust-blog",
@@ -88,8 +88,8 @@
     "url": "https://blog.rust-lang.org/feed.xml",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 124,
-    "last_checked": "2026-10-26T10:36:47.494359735+00:00"
+    "latency_ms": 73,
+    "last_checked": "2026-10-27T10:06:21.687129839+00:00"
   },
   {
     "id": "go-blog",
@@ -98,8 +98,8 @@
     "url": "https://go.dev/blog/feed.atom",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 166,
-    "last_checked": "2026-10-26T10:36:47.492388596+00:00"
+    "latency_ms": 179,
+    "last_checked": "2026-10-27T10:06:21.688066238+00:00"
   },
   {
     "id": "jepsen-io",
@@ -108,8 +108,8 @@
     "url": "https://jepsen.io/atom.xml",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 291,
-    "last_checked": "2026-10-26T10:36:47.492545882+00:00",
+    "latency_ms": 105,
+    "last_checked": "2026-10-27T10:06:21.686194688+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -119,8 +119,8 @@
     "url": "https://martin.kleppmann.com/feed.xml",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 167,
-    "last_checked": "2026-10-26T10:36:47.492748576+00:00",
+    "latency_ms": 177,
+    "last_checked": "2026-10-27T10:06:21.686521883+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -130,8 +130,8 @@
     "url": "https://stripe.com/blog/feed.rss",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 153,
-    "last_checked": "2026-10-26T10:36:47.492811540+00:00"
+    "latency_ms": 110,
+    "last_checked": "2026-10-27T10:06:21.687221592+00:00"
   },
   {
     "id": "discord-eng",
@@ -140,8 +140,8 @@
     "url": "https://discord.com/blog/rss.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 98,
-    "last_checked": "2026-10-26T10:36:47.492859762+00:00"
+    "latency_ms": 75,
+    "last_checked": "2026-10-27T10:06:21.687651306+00:00"
   },
   {
     "id": "hf-daily-papers",
@@ -150,8 +150,8 @@
     "url": "https://huggingface.co/api/daily_papers",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 133,
-    "last_checked": "2026-10-26T10:36:47.492903037+00:00"
+    "latency_ms": 92,
+    "last_checked": "2026-10-27T10:06:21.687731727+00:00"
   },
   {
     "id": "hf-blog",
@@ -160,8 +160,8 @@
     "url": "https://huggingface.co/blog/feed.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 143,
-    "last_checked": "2026-10-26T10:36:47.492953312+00:00"
+    "latency_ms": 103,
+    "last_checked": "2026-10-27T10:06:21.687824346+00:00"
   },
   {
     "id": "ollama-blog",
@@ -170,8 +170,8 @@
     "url": "https://ollama.com/blog/feed.xml",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 103,
-    "last_checked": "2026-10-26T10:36:47.493006562+00:00",
+    "latency_ms": 140,
+    "last_checked": "2026-10-27T10:06:21.687905778+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -181,8 +181,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.CV+OR+cat:cs.RO&sortBy=submittedDate&sortOrder=descending&max_results=35",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 418,
-    "last_checked": "2026-10-26T10:36:47.493077328+00:00"
+    "latency_ms": 520,
+    "last_checked": "2026-10-27T10:06:21.688845166+00:00"
   },
   {
     "id": "arxiv-stat-ml",
@@ -191,8 +191,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:stat.ML&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 140,
-    "last_checked": "2026-10-26T10:36:47.493369191+00:00"
+    "latency_ms": 80,
+    "last_checked": "2026-10-27T10:06:21.688924285+00:00"
   },
   {
     "id": "jmlr-papers",
@@ -201,8 +201,8 @@
     "url": "https://www.jmlr.org/jmlr.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 253,
-    "last_checked": "2026-10-26T10:36:47.493884312+00:00"
+    "latency_ms": 125,
+    "last_checked": "2026-10-27T10:06:21.688985426+00:00"
   },
   {
     "id": "bair-blog",
@@ -211,8 +211,8 @@
     "url": "https://bair.berkeley.edu/blog/feed.xml",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 365,
-    "last_checked": "2026-10-26T10:36:47.494414882+00:00"
+    "latency_ms": 379,
+    "last_checked": "2026-10-27T10:06:21.689254079+00:00"
   },
   {
     "id": "lilian-weng",
@@ -221,8 +221,8 @@
     "url": "https://lilianweng.github.io/index.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 88,
-    "last_checked": "2026-10-26T10:36:47.494602423+00:00"
+    "latency_ms": 52,
+    "last_checked": "2026-10-27T10:06:21.689507499+00:00"
   },
   {
     "id": "simon-willison",
@@ -231,8 +231,8 @@
     "url": "https://simonwillison.net/atom/everything/",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 102,
-    "last_checked": "2026-10-26T10:36:47.495653998+00:00"
+    "latency_ms": 92,
+    "last_checked": "2026-10-27T10:06:21.689613979+00:00"
   },
   {
     "id": "hf-blog",
@@ -241,8 +241,8 @@
     "url": "https://huggingface.co/blog/feed.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 138,
-    "last_checked": "2026-10-26T10:36:47.496150261+00:00"
+    "latency_ms": 89,
+    "last_checked": "2026-10-27T10:06:21.689724064+00:00"
   },
   {
     "id": "nature-mach-intell",
@@ -251,8 +251,8 @@
     "url": "https://www.nature.com/natmachintell.rss",
     "status": "ok",
     "items_fetched": 8,
-    "latency_ms": 114,
-    "last_checked": "2026-10-26T10:36:47.496219255+00:00"
+    "latency_ms": 86,
+    "last_checked": "2026-10-27T10:06:21.689853618+00:00"
   },
   {
     "id": "deepmind-blog",
@@ -261,8 +261,8 @@
     "url": "https://deepmind.google/blog/rss.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 195,
-    "last_checked": "2026-10-26T10:36:47.496637091+00:00"
+    "latency_ms": 251,
+    "last_checked": "2026-10-27T10:06:21.690311594+00:00"
   },
   {
     "id": "openai-research",
@@ -271,8 +271,8 @@
     "url": "https://openai.com/news/rss.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 157,
-    "last_checked": "2026-10-26T10:36:47.496814036+00:00"
+    "latency_ms": 113,
+    "last_checked": "2026-10-27T10:06:21.691109761+00:00"
   },
   {
     "id": "arxiv-math-pure",
@@ -281,8 +281,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:math.NT+OR+cat:math.CO+OR+cat:math.AG+OR+cat:math.LO+OR+cat:math.AT+OR+cat:math.GR&sortBy=submittedDate&sortOrder=descending&max_results=30",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 432,
-    "last_checked": "2026-10-26T10:36:47.496879844+00:00"
+    "latency_ms": 455,
+    "last_checked": "2026-10-27T10:06:21.691626676+00:00"
   },
   {
     "id": "arxiv-math-applied",
@@ -291,8 +291,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:math.AP+OR+cat:math.PR+OR+cat:math.NA+OR+cat:math.OC+OR+cat:math.DS&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 427,
-    "last_checked": "2026-10-26T10:36:47.497072203+00:00"
+    "latency_ms": 250,
+    "last_checked": "2026-10-27T10:06:21.691737993+00:00"
   },
   {
     "id": "quanta-math",
@@ -301,8 +301,8 @@
     "url": "https://api.quantamagazine.org/v1/izar/feed/?section=mathematics",
     "status": "ok",
     "items_fetched": 0,
-    "latency_ms": 588,
-    "last_checked": "2026-10-26T10:36:47.497295347+00:00"
+    "latency_ms": 622,
+    "last_checked": "2026-10-27T10:06:21.691984923+00:00"
   },
   {
     "id": "terence-tao",
@@ -311,8 +311,8 @@
     "url": "https://terrytao.wordpress.com/feed/",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 115,
-    "last_checked": "2026-10-26T10:36:47.492481511+00:00"
+    "latency_ms": 163,
+    "last_checked": "2026-10-27T10:06:21.692678313+00:00"
   },
   {
     "id": "lean-community",
@@ -321,8 +321,8 @@
     "url": "https://leanprover-community.github.io/feed.xml",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 133,
-    "last_checked": "2026-10-26T10:36:47.492682286+00:00",
+    "latency_ms": 86,
+    "last_checked": "2026-10-27T10:06:21.686240667+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -332,8 +332,8 @@
     "url": "https://gowers.wordpress.com/feed/",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 165,
-    "last_checked": "2026-10-26T10:36:47.493422725+00:00"
+    "latency_ms": 261,
+    "last_checked": "2026-10-27T10:06:21.686437883+00:00"
   },
   {
     "id": "gil-kalai",
@@ -342,8 +342,8 @@
     "url": "https://gilkalai.wordpress.com/feed/",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 139,
-    "last_checked": "2026-10-26T10:36:47.494048082+00:00"
+    "latency_ms": 161,
+    "last_checked": "2026-10-27T10:06:21.686701848+00:00"
   },
   {
     "id": "n-category-cafe",
@@ -352,8 +352,8 @@
     "url": "https://golem.ph.utexas.edu/category/atom10.xml",
     "status": "ok",
     "items_fetched": 15,
-    "latency_ms": 180,
-    "last_checked": "2026-10-26T10:36:47.494123155+00:00"
+    "latency_ms": 408,
+    "last_checked": "2026-10-27T10:06:21.686792815+00:00"
   },
   {
     "id": "ams-math",
@@ -362,8 +362,8 @@
     "url": "https://www.ams.org/rss/mathnews.rss",
     "status": "http_403",
     "items_fetched": 0,
-    "latency_ms": 764,
-    "last_checked": "2026-10-26T10:36:47.494177626+00:00",
+    "latency_ms": 792,
+    "last_checked": "2026-10-27T10:06:21.687271202+00:00",
     "error": "HTTP 403 Forbidden"
   },
   {
@@ -373,8 +373,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:quant-ph+OR+cat:cond-mat.supr-con+OR+cat:cond-mat.mes-hall+OR+cat:cond-mat.str-el&sortBy=submittedDate&sortOrder=descending&max_results=30",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 384,
-    "last_checked": "2026-10-26T10:36:47.494245097+00:00"
+    "latency_ms": 299,
+    "last_checked": "2026-10-27T10:06:21.688305342+00:00"
   },
   {
     "id": "arxiv-physics-hep-astro",
@@ -383,8 +383,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:hep-th+OR+cat:gr-qc+OR+cat:astro-ph.CO+OR+cat:astro-ph.HE+OR+cat:physics.optics&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 358,
-    "last_checked": "2026-10-26T10:36:47.494494341+00:00"
+    "latency_ms": 360,
+    "last_checked": "2026-10-27T10:06:21.688388176+00:00"
   },
   {
     "id": "quanta-physics",
@@ -393,8 +393,8 @@
     "url": "https://api.quantamagazine.org/v1/izar/feed/?section=physics",
     "status": "ok",
     "items_fetched": 0,
-    "latency_ms": 589,
-    "last_checked": "2026-10-26T10:36:47.494668517+00:00"
+    "latency_ms": 623,
+    "last_checked": "2026-10-27T10:06:21.688466594+00:00"
   },
   {
     "id": "aps-physics",
@@ -403,8 +403,8 @@
     "url": "https://physics.aps.org/rss/recent.xml",
     "status": "http_403",
     "items_fetched": 0,
-    "latency_ms": 278,
-    "last_checked": "2026-10-26T10:36:47.494731361+00:00",
+    "latency_ms": 170,
+    "last_checked": "2026-10-27T10:06:21.688536679+00:00",
     "error": "HTTP 403 Forbidden"
   },
   {
@@ -414,18 +414,19 @@
     "url": "https://www.nature.com/nphys.rss",
     "status": "ok",
     "items_fetched": 8,
-    "latency_ms": 1138,
-    "last_checked": "2026-10-26T10:36:47.494798191+00:00"
+    "latency_ms": 88,
+    "last_checked": "2026-10-27T10:06:21.688606283+00:00"
   },
   {
     "id": "quantum-journal",
     "name": "Quantum — The Open Journal for Quantum Science",
     "area": "physics",
     "url": "https://quantum-journal.org/feed/",
-    "status": "ok",
-    "items_fetched": 30,
-    "latency_ms": 2025,
-    "last_checked": "2026-10-26T10:36:47.494853214+00:00"
+    "status": "error",
+    "items_fetched": 0,
+    "latency_ms": 18001,
+    "last_checked": "2026-10-27T10:06:21.688687034+00:00",
+    "error": "error sending request for url (https://quantum-journal.org/feed/)"
   },
   {
     "id": "scott-aaronson",
@@ -434,8 +435,8 @@
     "url": "https://scottaaronson.blog/?feed=rss2",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 127,
-    "last_checked": "2026-10-26T10:36:47.495049092+00:00"
+    "latency_ms": 58,
+    "last_checked": "2026-10-27T10:06:21.688770009+00:00"
   },
   {
     "id": "cern-news",
@@ -444,8 +445,8 @@
     "url": "https://home.cern/api/news/news/feed.rss",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 1151,
-    "last_checked": "2026-10-26T10:36:47.495120359+00:00",
+    "latency_ms": 1218,
+    "last_checked": "2026-10-27T10:06:21.689333358+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -455,8 +456,8 @@
     "url": "https://phys.org/rss-feed/physics-news/quantum-physics/",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 270,
-    "last_checked": "2026-10-26T10:36:47.495226838+00:00"
+    "latency_ms": 259,
+    "last_checked": "2026-10-27T10:06:21.690636227+00:00"
   },
   {
     "id": "arstechnica-tech",
@@ -465,8 +466,8 @@
     "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 110,
-    "last_checked": "2026-10-26T10:36:47.495515981+00:00"
+    "latency_ms": 75,
+    "last_checked": "2026-10-27T10:06:21.690721735+00:00"
   },
   {
     "id": "mit-tech-review",
@@ -475,8 +476,8 @@
     "url": "https://www.technologyreview.com/feed/",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 64,
-    "last_checked": "2026-10-26T10:36:47.493167989+00:00"
+    "latency_ms": 59,
+    "last_checked": "2026-10-27T10:06:21.691184208+00:00"
   },
   {
     "id": "arxiv-systems-arch",
@@ -485,8 +486,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.OS+OR+cat:cs.AR+OR+cat:cs.NI+OR+cat:cs.PF&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 510,
-    "last_checked": "2026-10-26T10:36:47.493667532+00:00"
+    "latency_ms": 567,
+    "last_checked": "2026-10-27T10:06:21.687344662+00:00"
   },
   {
     "id": "lwn-net",
@@ -495,8 +496,8 @@
     "url": "https://lwn.net/headlines/rss",
     "status": "ok",
     "items_fetched": 15,
-    "latency_ms": 210,
-    "last_checked": "2026-10-26T10:36:47.493755023+00:00"
+    "latency_ms": 149,
+    "last_checked": "2026-10-27T10:06:21.687425683+00:00"
   },
   {
     "id": "project-zero",
@@ -505,8 +506,8 @@
     "url": "https://googleprojectzero.blogspot.com/feeds/posts/default?alt=rss",
     "status": "payload_too_large",
     "items_fetched": 0,
-    "latency_ms": 573,
-    "last_checked": "2026-10-26T10:36:47.494072925+00:00",
+    "latency_ms": 409,
+    "last_checked": "2026-10-27T10:06:21.687500205+00:00",
     "error": "Feed exceeded 5 MB limit"
   },
   {
@@ -516,8 +517,8 @@
     "url": "https://blog.trailofbits.com/feed/",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 441,
-    "last_checked": "2026-10-26T10:36:47.495338411+00:00"
+    "latency_ms": 353,
+    "last_checked": "2026-10-27T10:06:21.687573555+00:00"
   },
   {
     "id": "chips-and-cheese",
@@ -526,8 +527,8 @@
     "url": "https://chipsandcheese.com/feed/",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 154,
-    "last_checked": "2026-10-26T10:36:47.495722+00:00"
+    "latency_ms": 103,
+    "last_checked": "2026-10-27T10:06:21.687963820+00:00"
   },
   {
     "id": "phoronix",
@@ -536,8 +537,8 @@
     "url": "https://www.phoronix.com/rss.php",
     "status": "ok",
     "items_fetched": 32,
-    "latency_ms": 63,
-    "last_checked": "2026-10-26T10:36:47.495806607+00:00"
+    "latency_ms": 59,
+    "last_checked": "2026-10-27T10:06:21.690023553+00:00"
   },
   {
     "id": "cloudflare-blog",
@@ -546,8 +547,8 @@
     "url": "https://blog.cloudflare.com/rss/",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 97,
-    "last_checked": "2026-10-26T10:36:47.496306676+00:00"
+    "latency_ms": 67,
+    "last_checked": "2026-10-27T10:06:21.690372461+00:00"
   },
   {
     "id": "brendan-gregg",
@@ -556,8 +557,8 @@
     "url": "https://www.brendangregg.com/blog/rss.xml",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 310,
-    "last_checked": "2026-10-26T10:36:47.496383731+00:00"
+    "latency_ms": 303,
+    "last_checked": "2026-10-27T10:06:21.690461604+00:00"
   },
   {
     "id": "krebs-security",
@@ -566,8 +567,8 @@
     "url": "https://krebsonsecurity.com/feed/",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 171,
-    "last_checked": "2026-10-26T10:36:47.496535278+00:00"
+    "latency_ms": 199,
+    "last_checked": "2026-10-27T10:06:21.690777894+00:00"
   },
   {
     "id": "ieee-spectrum",
@@ -576,8 +577,8 @@
     "url": "https://spectrum.ieee.org/feeds/feed.rss",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 310,
-    "last_checked": "2026-10-26T10:36:47.496756259+00:00"
+    "latency_ms": 254,
+    "last_checked": "2026-10-27T10:06:21.690893512+00:00"
   },
   {
     "id": "arxiv-qbio",
@@ -586,8 +587,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:q-bio.QM+OR+cat:q-bio.GN+OR+cat:q-bio.NC+OR+cat:q-bio.BM+OR+cat:cond-mat.mtrl-sci&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 392,
-    "last_checked": "2026-10-26T10:36:47.496845954+00:00"
+    "latency_ms": 276,
+    "last_checked": "2026-10-27T10:06:21.691346987+00:00"
   },
   {
     "id": "nature-bt-comp",
@@ -596,8 +597,8 @@
     "url": "https://www.nature.com/natcomputsci.rss",
     "status": "ok",
     "items_fetched": 8,
-    "latency_ms": 1141,
-    "last_checked": "2026-10-26T10:36:47.494565828+00:00"
+    "latency_ms": 87,
+    "last_checked": "2026-10-27T10:06:21.691462780+00:00"
   },
   {
     "id": "nature-biotech",
@@ -606,8 +607,8 @@
     "url": "https://www.nature.com/nbt.rss",
     "status": "ok",
     "items_fetched": 8,
-    "latency_ms": 116,
-    "last_checked": "2026-10-26T10:36:47.494924655+00:00"
+    "latency_ms": 88,
+    "last_checked": "2026-10-27T10:06:21.688813915+00:00"
   },
   {
     "id": "quanta-biology",
@@ -616,8 +617,8 @@
     "url": "https://api.quantamagazine.org/v1/izar/feed/?section=biology",
     "status": "ok",
     "items_fetched": 0,
-    "latency_ms": 622,
-    "last_checked": "2026-10-26T10:36:47.494985166+00:00"
+    "latency_ms": 634,
+    "last_checked": "2026-10-27T10:06:21.689066043+00:00"
   },
   {
     "id": "in-the-pipeline",
@@ -626,8 +627,8 @@
     "url": "https://www.science.org/blogs/pipeline/feed",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 5424,
-    "last_checked": "2026-10-26T10:36:47.495310333+00:00"
+    "latency_ms": 6889,
+    "last_checked": "2026-10-27T10:06:21.689397570+00:00"
   },
   {
     "id": "biorxiv-bioinfo",
@@ -636,8 +637,8 @@
     "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=bioinformatics",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 466,
-    "last_checked": "2026-10-26T10:36:47.495392566+00:00"
+    "latency_ms": 193,
+    "last_checked": "2026-10-27T10:06:21.690130463+00:00"
   },
   {
     "id": "iacr-eprint",
@@ -646,8 +647,8 @@
     "url": "https://eprint.iacr.org/rss/rss.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 581,
-    "last_checked": "2026-10-26T10:36:47.495454599+00:00"
+    "latency_ms": 327,
+    "last_checked": "2026-10-27T10:06:21.690228610+00:00"
   },
   {
     "id": "arxiv-crypto",
@@ -656,8 +657,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CR&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 119,
-    "last_checked": "2026-10-26T10:36:47.495856461+00:00"
+    "latency_ms": 58,
+    "last_checked": "2026-10-27T10:06:21.690992+00:00"
   },
   {
     "id": "ethresearch",
@@ -666,8 +667,8 @@
     "url": "https://ethresear.ch/latest.rss",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 1331,
-    "last_checked": "2026-10-26T10:36:47.495923622+00:00"
+    "latency_ms": 1981,
+    "last_checked": "2026-10-27T10:06:21.691409966+00:00"
   },
   {
     "id": "vitalik-blog",
@@ -676,8 +677,8 @@
     "url": "https://vitalik.eth.limo/feed.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 457,
-    "last_checked": "2026-10-26T10:36:47.496008098+00:00"
+    "latency_ms": 365,
+    "last_checked": "2026-10-27T10:06:21.692153250+00:00"
   },
   {
     "id": "paradigm-research",
@@ -686,8 +687,8 @@
     "url": "https://www.paradigm.xyz/feed.xml",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 237,
-    "last_checked": "2026-10-26T10:36:47.495595280+00:00",
+    "latency_ms": 188,
+    "last_checked": "2026-10-27T10:06:21.692243225+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -697,8 +698,8 @@
     "url": "https://a16zcrypto.com/feed/",
     "status": "ok",
     "items_fetched": 30,
-    "latency_ms": 329,
-    "last_checked": "2026-10-26T10:36:47.496089540+00:00"
+    "latency_ms": 246,
+    "last_checked": "2026-10-27T10:06:21.691547217+00:00"
   },
   {
     "id": "arxiv-econ",
@@ -707,8 +708,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:econ.EM+OR+cat:econ.GN+OR+cat:econ.TH&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 344,
-    "last_checked": "2026-10-26T10:36:47.496690931+00:00"
+    "latency_ms": 207,
+    "last_checked": "2026-10-27T10:06:21.692747892+00:00"
   },
   {
     "id": "arxiv-qfin",
@@ -717,8 +718,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:q-fin.ST+OR+cat:q-fin.MF+OR+cat:q-fin.TR+OR+cat:q-fin.CP+OR+cat:q-fin.EC&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 360,
-    "last_checked": "2026-10-26T10:36:47.497127666+00:00"
+    "latency_ms": 213,
+    "last_checked": "2026-10-27T10:06:21.692824326+00:00"
   },
   {
     "id": "nber-working-papers",
@@ -727,8 +728,8 @@
     "url": "https://back.nber.org/rss/new.xml",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 177,
-    "last_checked": "2026-10-26T10:36:47.497748110+00:00"
+    "latency_ms": 129,
+    "last_checked": "2026-10-27T10:06:21.693284947+00:00"
   },
   {
     "id": "voxeu-cepr",
@@ -737,8 +738,8 @@
     "url": "https://cepr.org/rss/voxeu",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 915,
-    "last_checked": "2026-10-26T10:36:47.498070879+00:00",
+    "latency_ms": 3648,
+    "last_checked": "2026-10-27T10:06:21.693381361+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -748,8 +749,8 @@
     "url": "https://www.bis.org/doclist/bis_fsi_publs.rss",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 441,
-    "last_checked": "2026-10-26T10:36:47.498652225+00:00"
+    "latency_ms": 505,
+    "last_checked": "2026-10-27T10:06:21.693621321+00:00"
   },
   {
     "id": "fed-liberty-street",
@@ -758,8 +759,8 @@
     "url": "https://libertystreeteconomics.newyorkfed.org/feed/",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 329,
-    "last_checked": "2026-10-26T10:36:47.496933154+00:00"
+    "latency_ms": 284,
+    "last_checked": "2026-10-27T10:06:21.693835152+00:00"
   },
   {
     "id": "piie-econ",
@@ -768,8 +769,8 @@
     "url": "https://www.piie.com/rss.xml",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 133,
-    "last_checked": "2026-10-26T10:36:47.497015708+00:00",
+    "latency_ms": 101,
+    "last_checked": "2026-10-27T10:06:21.691828809+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -779,8 +780,8 @@
     "url": "https://tcmblog.org/tr/feed/",
     "status": "error",
     "items_fetched": 0,
-    "latency_ms": 204,
-    "last_checked": "2026-10-26T10:36:47.497234165+00:00",
+    "latency_ms": 145,
+    "last_checked": "2026-10-27T10:06:21.692583736+00:00",
     "error": "error sending request for url (https://tcmblog.org/tr/feed/)"
   },
   {
@@ -790,8 +791,8 @@
     "url": "https://www.tepav.org.tr/tr/rss/blog",
     "status": "http_404",
     "items_fetched": 0,
-    "latency_ms": 279,
-    "last_checked": "2026-10-26T10:36:47.497558727+00:00",
+    "latency_ms": 571,
+    "last_checked": "2026-10-27T10:06:21.692976660+00:00",
     "error": "HTTP 404 Not Found"
   },
   {
@@ -801,8 +802,8 @@
     "url": "https://www.foreignaffairs.com/rss.xml",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 116,
-    "last_checked": "2026-10-26T10:36:47.497629282+00:00"
+    "latency_ms": 96,
+    "last_checked": "2026-10-27T10:06:21.693100035+00:00"
   },
   {
     "id": "carnegie-endowment",
@@ -811,8 +812,8 @@
     "url": "https://carnegieendowment.org/rss/solr",
     "status": "parse_error",
     "items_fetched": 0,
-    "latency_ms": 108,
-    "last_checked": "2026-10-26T10:36:47.497192168+00:00",
+    "latency_ms": 112,
+    "last_checked": "2026-10-27T10:06:21.693175157+00:00",
     "error": "unable to parse feed: no root element"
   },
   {
@@ -822,8 +823,8 @@
     "url": "https://www.atlanticcouncil.org/feed/",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 196,
-    "last_checked": "2026-10-26T10:36:47.497363789+00:00"
+    "latency_ms": 188,
+    "last_checked": "2026-10-27T10:06:21.692320381+00:00"
   },
   {
     "id": "war-on-the-rocks",
@@ -832,8 +833,8 @@
     "url": "https://warontherocks.com/feed/",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 243,
-    "last_checked": "2026-10-26T10:36:47.497430910+00:00"
+    "latency_ms": 161,
+    "last_checked": "2026-10-27T10:06:21.693321817+00:00"
   },
   {
     "id": "lawfare-blog",
@@ -842,8 +843,8 @@
     "url": "https://www.lawfaremedia.org/rss.xml",
     "status": "http_403",
     "items_fetched": 0,
-    "latency_ms": 243,
-    "last_checked": "2026-10-26T10:36:47.497505582+00:00",
+    "latency_ms": 174,
+    "last_checked": "2026-10-27T10:06:21.693694616+00:00",
     "error": "HTTP 403 Forbidden"
   },
   {
@@ -853,8 +854,8 @@
     "url": "https://ecfr.eu/feed/",
     "status": "http_403",
     "items_fetched": 0,
-    "latency_ms": 116,
-    "last_checked": "2026-10-26T10:36:47.497776217+00:00",
+    "latency_ms": 241,
+    "last_checked": "2026-10-27T10:06:21.693894571+00:00",
     "error": "HTTP 403 Forbidden"
   },
   {
@@ -864,8 +865,8 @@
     "url": "https://edam.org.tr/feed/",
     "status": "http_500",
     "items_fetched": 0,
-    "latency_ms": 992,
-    "last_checked": "2026-10-26T10:36:47.498147864+00:00",
+    "latency_ms": 1309,
+    "last_checked": "2026-10-27T10:06:21.693251287+00:00",
     "error": "HTTP 500 Internal Server Error"
   },
   {
@@ -875,8 +876,8 @@
     "url": "https://export.arxiv.org/api/query?search_query=cat:cs.GT+OR+cat:nlin.AO+OR+cat:physics.soc-ph+OR+cat:physics.hist-ph&sortBy=submittedDate&sortOrder=descending&max_results=25",
     "status": "ok",
     "items_fetched": 25,
-    "latency_ms": 305,
-    "last_checked": "2026-10-26T10:36:47.498433822+00:00"
+    "latency_ms": 231,
+    "last_checked": "2026-10-27T10:06:21.693329965+00:00"
   },
   {
     "id": "philsci-archive",
@@ -885,8 +886,8 @@
     "url": "https://philsci-archive.pitt.edu/cgi/latest_tool?output=Atom",
     "status": "parse_error",
     "items_fetched": 0,
-    "latency_ms": 283,
-    "last_checked": "2026-10-26T10:36:47.497949632+00:00",
+    "latency_ms": 231,
+    "last_checked": "2026-10-27T10:06:21.693751161+00:00",
     "error": "unable to parse feed: no root element"
   },
   {
@@ -896,8 +897,8 @@
     "url": "https://aeon.co/feed.rss",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 161,
-    "last_checked": "2026-10-26T10:36:47.498260753+00:00"
+    "latency_ms": 128,
+    "last_checked": "2026-10-27T10:06:21.693443550+00:00"
   },
   {
     "id": "daily-nous",
@@ -906,8 +907,8 @@
     "url": "https://dailynous.com/feed/",
     "status": "ok",
     "items_fetched": 10,
-    "latency_ms": 201,
-    "last_checked": "2026-10-26T10:36:47.498208740+00:00"
+    "latency_ms": 166,
+    "last_checked": "2026-10-27T10:06:21.693560926+00:00"
   },
   {
     "id": "mit-press-reader",
@@ -916,8 +917,8 @@
     "url": "https://thereader.mitpress.mit.edu/feed/",
     "status": "ok",
     "items_fetched": 20,
-    "latency_ms": 469,
-    "last_checked": "2026-10-26T10:36:47.498727948+00:00"
+    "latency_ms": 411,
+    "last_checked": "2026-10-27T10:06:21.693940074+00:00"
   },
   {
     "id": "santa-fe-institute",
@@ -926,8 +927,8 @@
     "url": "https://www.santafe.edu/news-center/news/rss",
     "status": "parse_error",
     "items_fetched": 0,
-    "latency_ms": 380,
-    "last_checked": "2026-10-26T10:36:47.498374764+00:00",
+    "latency_ms": 456,
+    "last_checked": "2026-10-27T10:06:21.694024556+00:00",
     "error": "unable to parse feed: no root element"
   },
   {
@@ -937,7 +938,7 @@
     "url": "https://sarkac.org/feed/",
     "status": "ok",
     "items_fetched": 35,
-    "latency_ms": 853,
-    "last_checked": "2026-10-26T10:36:47.498585750+00:00"
+    "latency_ms": 381,
+    "last_checked": "2026-10-27T10:06:21.694088226+00:00"
   }
 ]

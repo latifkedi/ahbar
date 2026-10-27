@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>A Weakly Group Strategy-Proof and Pareto-Stable Matching Mechanism with Two-Sided Indifferences under Gross Substitutes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-66-a-weakly-group-strategy-proof"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30807v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-66-a-weakly-group-strategy-proof</id>
-    <updated>2026-10-22T06:32:15+00:00</updated>
-    <summary type="html">&lt;p&gt;We study finite many-to-one matching markets with indifferences on both sides and publicly known firm preferences over sets of workers. A standard approach breaks ties uniformly at random and runs deferred acceptance, which is strategy-proof for workers but may select a weakly stable matching that is Pareto dominated under the agents&amp;apos; original preferences. For the broad class of markets in which each firm&amp;apos;s preferences admit a gross substitutes (GS) representation, we construct a deterministic generalized deferred acceptance mechanism that is weakly stable, Pareto efficient with respect to both sides, worker weakly group strategy-proof, and implementable in strongly polynomial time given value oracles for the GS representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30807v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Equilibria and Learning in Competitive Market Making. We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-67-equilibria-and-learning-in-competitive"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30891v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-67-equilibria-and-learning-in-competitive</id>
-    <updated>2026-10-22T08:09:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader. In a continuous quote space, standard finite-game arguments do not apply, while non-convex and discontinuous payoffs rule out classical continuous existence results and complicate learning. Nonetheless, we characterize pure-strategy Nash equilibria (PSNEs) and show that at least one PSNE always exists under minimal assumptions on the underlying asset value distribution, and that the equilibrium bid-ask spread widens strictly with asset value volatility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30891v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #decision-theory #ml-theory&lt;/p&gt;</summary>
+    <title>Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-65-tokenised-sukuk-a-verifiable-architecture"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.33538v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-65-tokenised-sukuk-a-verifiable-architecture</id>
+    <updated>2026-10-24T08:33:46+00:00</updated>
+    <summary type="html">&lt;p&gt;Security-token standards such as ERC-3643 decide who may hold a token, not what stands behind it. For a sukuk this gap matters: whether a certificate may trade at a negotiated price depends on what its portfolio contains, and a token that checks only investor identity keeps trading after every non-debt asset has been sold. We ask whether this tradability condition can be enforced on-chain, and at what cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33538v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design&lt;/p&gt;</summary>
   </entry>
 </feed>

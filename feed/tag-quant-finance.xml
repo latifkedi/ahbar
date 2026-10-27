@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>Equilibria and Learning in Competitive Market Making. We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-67-equilibria-and-learning-in-competitive"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30891v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-67-equilibria-and-learning-in-competitive</id>
-    <updated>2026-10-22T08:09:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader. In a continuous quote space, standard finite-game arguments do not apply, while non-convex and discontinuous payoffs rule out classical continuous existence results and complicate learning. Nonetheless, we characterize pure-strategy Nash equilibria (PSNEs) and show that at least one PSNE always exists under minimal assumptions on the underlying asset value distribution, and that the equilibrium bid-ask spread widens strictly with asset value volatility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30891v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #decision-theory #ml-theory&lt;/p&gt;</summary>
+    <title>Fuji: The Shape, Composition, and Spread of Demand Bursts on Robinhood Chain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-64-fuji-the-shape-composition-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35738v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-64-fuji-the-shape-composition-and</id>
+    <updated>2026-10-26T16:55:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Demand on blockchain-based marketplaces arrives in bursts and at a high rate. On these platforms the data are completely visible, which makes it feasible to compare the bursty demand against the usual load. The congestion manifests as an increased demand for gas, the primary resource a blockchain sells.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35738v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On the continuity of conditional distributions and stratification for derivative pricing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-23-on-the-continuity-of-conditional"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32970v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-23-on-the-continuity-of-conditional</id>
-    <updated>2026-10-23T17:57:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Stratification can reduce the estimator variance in Monte Carlo simulations by partitioning the sample space according to a low-dimensional factor and sampling separately within the resulting strata, making it well suited to the valuation of path-dependent claims in high-dimensional financial models. Its performance, however, depends critically on the choice of the stratification factor, and effective low-dimensional factors are generally difficult to identify in complex continuous-time models. Neural networks provide a flexible approximation class for this purpose and have proved useful in related variance-reduction problems in quantitative finance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32970v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #logic&lt;/p&gt;</summary>
+    <title>Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-65-tokenised-sukuk-a-verifiable-architecture"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.33538v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-65-tokenised-sukuk-a-verifiable-architecture</id>
+    <updated>2026-10-24T08:33:46+00:00</updated>
+    <summary type="html">&lt;p&gt;Security-token standards such as ERC-3643 decide who may hold a token, not what stands behind it. For a sukuk this gap matters: whether a certificate may trade at a negotiated price depends on what its portfolio contains, and a token that checks only investor identity keeps trading after every non-debt asset has been sold. We ask whether this tradability condition can be enforced on-chain, and at what cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33538v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design&lt;/p&gt;</summary>
   </entry>
 </feed>

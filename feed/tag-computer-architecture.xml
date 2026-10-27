@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-37-hot-chips-2026-intel-s"/>
-    <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-37-hot-chips-2026-intel-s</id>
-    <updated>2026-08-27T05:12:31+00:00</updated>
-    <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
+    <title>Trim: Fee Level Matters More Than Skew in Lightning Routing. Lightning routing nodes lend their channel balance for a posted fee.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-39-trim-fee-level-matters-more"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35296v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-39-trim-fee-level-matters-more</id>
+    <updated>2026-10-26T12:03:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Lightning routing nodes lend their channel balance for a posted fee. Operators&amp;apos; tools move that fee with the balance around a hand-set level, and which part of the fee drives revenue is unclear. We present Trim, which models a channel as a two-sided inventory with costly refills.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35296v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TranSAGE: Automating Spatial Accelerator Generation for Large-Scale Transformer Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-42-transage-automating-spatial-accelerator-generation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32279v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-42-transage-automating-spatial-accelerator-generation</id>
-    <updated>2026-10-23T07:36:37+00:00</updated>
-    <summary type="html">&lt;p&gt;Large-scale Transformers have achieved remarkable success across NLP, computer vision, and robotics, but their growing computational and memory demands challenge efficient inference. Spatial accelerators offer advantages in on-chip bandwidth and energy efficiency, yet designing them for large models remains costly and time-consuming. Existing accelerator generators typically focus on single-operation support, overlooking the benefits of multi-operation pipelining, which limits throughput and energy efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32279v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-38-hot-chips-2026-intel-s"/>
+    <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-38-hot-chips-2026-intel-s</id>
+    <updated>2026-08-27T05:12:31+00:00</updated>
+    <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
 </feed>

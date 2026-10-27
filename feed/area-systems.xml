@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <entry>
+    <title>Security updates for Monday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-37-security-updates-for-monday"/>
+    <link rel="related" href="https://lwn.net/Articles/1102946/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-37-security-updates-for-monday</id>
+    <updated>2026-10-26T13:12:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102946/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases #inference&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Trim: Fee Level Matters More Than Skew in Lightning Routing. Lightning routing nodes lend their channel balance for a posted fee.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-39-trim-fee-level-matters-more"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35296v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-39-trim-fee-level-matters-more</id>
+    <updated>2026-10-26T12:03:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Lightning routing nodes lend their channel balance for a posted fee. Operators&amp;apos; tools move that fee with the balance around a hand-set level, and which part of the fee drives revenue is unclear. We present Trim, which models a channel as a two-sided inventory with costly refills.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35296v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #cryptography&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-37-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-37-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-38-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-38-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-39-security-updates-for-friday"/>
-    <link rel="related" href="https://lwn.net/Articles/1102546/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-39-security-updates-for-friday</id>
-    <updated>2026-10-23T13:02:03+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), Arch Linux (php and php-legacy), Debian…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1102546/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Announcing rustup 1.29.2. The rustup team is happy to announce the release of rustup version 1.29.1.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-40-announcing-rustup-1-29-2"/>
-    <link rel="related" href="https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-40-announcing-rustup-1-29-2</id>
-    <updated>2026-10-20T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What&amp;apos;s new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/&quot;&gt;Rust Programming Language Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>TranSAGE: Automating Spatial Accelerator Generation for Large-Scale Transformer Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-42-transage-automating-spatial-accelerator-generation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32279v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-42-transage-automating-spatial-accelerator-generation</id>
-    <updated>2026-10-23T07:36:37+00:00</updated>
-    <summary type="html">&lt;p&gt;Large-scale Transformers have achieved remarkable success across NLP, computer vision, and robotics, but their growing computational and memory demands challenge efficient inference. Spatial accelerators offer advantages in on-chip bandwidth and energy efficiency, yet designing them for large models remains costly and time-consuming. Existing accelerator generators typically focus on single-operation support, overlooking the benefits of multi-operation pipelining, which limits throughput and energy efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32279v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #compilers #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-41-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-41-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-41-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-41-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Why I joined OpenAI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-43-why-i-joined-openai"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-42-why-i-joined-openai"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-43-why-i-joined-openai</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-42-why-i-joined-openai</id>
     <updated>2026-02-06T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The staggering and fast-growing cost of AI datacenters is a call for performance engineering like no other in history; it&amp;apos;s not just about saving costs – it&amp;apos;s about saving the planet. I have joined OpenAI to work on this challenge directly, with an initial focus on ChatGPT performance. The scale is extreme and the growth is mind-boggling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Leaving Intel</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-44-leaving-intel"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-43-leaving-intel"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-44-leaving-intel</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-43-leaving-intel</id>
     <updated>2025-12-04T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>On &quot;AI Brendans&quot; or &quot;Virtual Brendans&quot;. There are now multiple AI performance engineering agents that use or are trained on my work.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-45-on-ai-brendans-or-virtual"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-44-on-ai-brendans-or-virtual"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-45-on-ai-brendans-or-virtual</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-44-on-ai-brendans-or-virtual</id>
     <updated>2025-11-27T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;There are now multiple AI performance engineering agents that use or are trained on my work. Some are helper agents that interpret flame graphs or eBPF metrics, sometimes privately called AI Brendan ; others have trained on my work to create a virtual Brendan that claims it can tune everything just like the real thing. These virtual Brendans sound like my brain has been uploaded to the cloud by someone who is now selling it (yikes!).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Intel is listening, don&apos;t waste your shot</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-45-intel-is-listening-don-t"/>
+    <link rel="related" href="http://www.brendangregg.com/blog//2025-11-22/intel-is-listening.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-45-intel-is-listening-don-t</id>
+    <updated>2025-11-21T13:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Intel&amp;apos;s new CEO, Lip-Bu Tan, has made listening to customers a top priority, saying at Intel Vision earlier this year: &amp;quot;Please be brutally honest with us. This is what I expect of you this week, and I believe harsh feedback is most valuable.&amp;quot; I&amp;apos;d been in regular meetings with Intel for several years before I joined, and I had been giving them technical direction on various projects, including at times some brutal feedback. When I finally interviewed for a role at Intel I was told something unexpected: that I had already accomplished so much within Intel that I qualified to be an Intel Fellow candidate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-11-22/intel-is-listening.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
   </entry>
 </feed>

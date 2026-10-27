@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-econ.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-econ.xml</id>
-  <updated>2026-10-26T10:36:47.492203825+00:00</updated>
+  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
   <entry>
-    <title>A Resource Allocation Tournament</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-64-a-resource-allocation-tournament"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31418v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-64-a-resource-allocation-tournament</id>
-    <updated>2026-10-22T15:19:56+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce and analyze a round-robin simultaneous resource allocation contest, motivated by sports leagues and other competitive environments where agents must distribute limited resources across multiple encounters. Players allocate resources in advance to matches against all opponents, and match outcomes are determined by relative allocations. We study two payoff schemes: total points, where players accumulate rewards for each win, and winner-takes-all, where only the tournament winner is rewarded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31418v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #optimization #decision-theory&lt;/p&gt;</summary>
+    <title>Fuji: The Shape, Composition, and Spread of Demand Bursts on Robinhood Chain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-64-fuji-the-shape-composition-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35738v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-64-fuji-the-shape-composition-and</id>
+    <updated>2026-10-26T16:55:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Demand on blockchain-based marketplaces arrives in bursts and at a high rate. On these platforms the data are completely visible, which makes it feasible to compare the bursty demand against the usual load. The congestion manifests as an increased demand for gas, the primary resource a blockchain sells.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35738v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Beyond city pairs: Higher-order information in urban growth across borders. We apply higher-order information measures to urban growth across borders and spatial units.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-65-beyond-city-pairs-higher-order"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31159v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-65-beyond-city-pairs-higher-order</id>
-    <updated>2026-10-22T12:16:36+00:00</updated>
-    <summary type="html">&lt;p&gt;We apply higher-order information measures to urban growth across borders and spatial units. We analyse 8,808 functional urban areas using gridded GDP estimates allocated from national accounts. Negative estimated O-information occurs in 29.93% of cross-border triplets and 2.00% of domestic triplets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31159v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #complex-systems #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A Weakly Group Strategy-Proof and Pareto-Stable Matching Mechanism with Two-Sided Indifferences under Gross Substitutes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-66-a-weakly-group-strategy-proof"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30807v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-66-a-weakly-group-strategy-proof</id>
-    <updated>2026-10-22T06:32:15+00:00</updated>
-    <summary type="html">&lt;p&gt;We study finite many-to-one matching markets with indifferences on both sides and publicly known firm preferences over sets of workers. A standard approach breaks ties uniformly at random and runs deferred acceptance, which is strategy-proof for workers but may select a weakly stable matching that is Pareto dominated under the agents&amp;apos; original preferences. For the broad class of markets in which each firm&amp;apos;s preferences admit a gross substitutes (GS) representation, we construct a deterministic generalized deferred acceptance mechanism that is weakly stable, Pareto efficient with respect to both sides, worker weakly group strategy-proof, and implementable in strongly polynomial time given value oracles for the GS representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30807v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Equilibria and Learning in Competitive Market Making. We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-67-equilibria-and-learning-in-competitive"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30891v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-67-equilibria-and-learning-in-competitive</id>
-    <updated>2026-10-22T08:09:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a market-making game played among $N \ge 2$ strategic market makers and a single non-strategic representative trader. In a continuous quote space, standard finite-game arguments do not apply, while non-convex and discontinuous payoffs rule out classical continuous existence results and complicate learning. Nonetheless, we characterize pure-strategy Nash equilibria (PSNEs) and show that at least one PSNE always exists under minimal assumptions on the underlying asset value distribution, and that the equilibrium bid-ask spread widens strictly with asset value volatility.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30891v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #decision-theory #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-68-the-delegation-divide-an-open"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.30752v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-68-the-delegation-divide-an-open</id>
-    <updated>2026-10-22T05:22:09+00:00</updated>
-    <summary type="html">&lt;p&gt;35.2% of task time in world employment is at least partly delegable to AI agents in 2026, and only 2.5% can be handed over in full. Existing measures score exposure to generative AI, mostly for the United States. We build the Agent Delegability Index (ADI): two language models rate all 18,796 O*NET 30.2 task statements on a frozen, preregistered rubric of delegation levels and barriers; tasks are mapped to 433 ISCO-08 unit groups and weighted by ILOSTAT employment in 146 countries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.30752v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #ml-theory #consensus&lt;/p&gt;</summary>
+    <title>Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-65-tokenised-sukuk-a-verifiable-architecture"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.33538v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-65-tokenised-sukuk-a-verifiable-architecture</id>
+    <updated>2026-10-24T08:33:46+00:00</updated>
+    <summary type="html">&lt;p&gt;Security-token standards such as ERC-3643 decide who may hold a token, not what stands behind it. For a sukuk this gap matters: whether a certificate may trade at a negotiated price depends on what its portfolio contains, and a token that checks only investor identity keeps trading after every non-debt asset has been sold. We ask whether this tradability condition can be enforced on-chain, and at what cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33538v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Beliefs Over Contracts -- by Francis Annan, Collin B. Raymond. We study how firms choose among incentive contracts and how accurately managers predict their effects.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-69-beliefs-over-contracts-by-francis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-66-beliefs-over-contracts-by-francis"/>
     <link rel="related" href="https://www.nber.org/papers/w35788#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-69-beliefs-over-contracts-by-francis</id>
-    <updated>2026-10-26T10:36:47.673575702+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-66-beliefs-over-contracts-by-francis</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
     <summary type="html">&lt;p&gt;We study how firms choose among incentive contracts and how accurately managers predict their effects. Using a survey of managerial beliefs and a large-scale field experiment, we randomly assign agents at the market level to several widely used, expenditure-equivalent incentive schemes. In the field, the best-performing contract raises weekly firm profit by over 55% relative to the status quo, despite being ranked lower by managers, whereas the worst-performing contract performs as predicted.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35788#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior -- by Jin Huang, Diego Ferreras Garrucho, Yutong Xie, Walter M. Yuan, Qiaozhu Mei, Chen Lian, Jonathon Hazell</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-70-householdbench-evaluating-large-language-models"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-67-householdbench-evaluating-large-language-models"/>
     <link rel="related" href="https://www.nber.org/papers/w35927#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-70-householdbench-evaluating-large-language-models</id>
-    <updated>2026-10-26T10:36:47.673575702+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-67-householdbench-evaluating-large-language-models</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) have the potential to meet a key goal in economics: a quantitative model of household decision making, across a variety of settings. Yet existing evaluations cover few surveys and outcomes, and do not study how households adjust to changing economic conditions. We introduce a new evaluation, HouseholdBench, which unites 6 U.S.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35927#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Strategic Monetary Policy in Open Economies -- by Louphou Coulibaly, Charles Engel</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-71-strategic-monetary-policy-in-open"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-68-strategic-monetary-policy-in-open"/>
     <link rel="related" href="https://www.nber.org/papers/w35928#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-71-strategic-monetary-policy-in-open</id>
-    <updated>2026-10-26T10:36:47.673575702+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-68-strategic-monetary-policy-in-open</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
     <summary type="html">&lt;p&gt;We examine optimal non-cooperative monetary policy in a two-country New Keynesian setting with complete financial markets and pricing to market for goods. In contrast to the case in which the law of one price holds for goods, currency misalignments are an important consideration even for self-oriented policymakers. Financial markets are critical in the analysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35928#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The Occupational Ladder: Implications for Life-Cycle Wage Dynamics -- by Henry E. Siu, Kelly Foley, Matias Cortes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-26-72-the-occupational-ladder-implications-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-69-the-occupational-ladder-implications-for"/>
     <link rel="related" href="https://www.nber.org/papers/w35929#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-26-72-the-occupational-ladder-implications-for</id>
-    <updated>2026-10-26T10:36:47.673575702+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-69-the-occupational-ladder-implications-for</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
     <summary type="html">&lt;p&gt;Some occupations pay higher wages than others, even conditional on worker characteristics, implying that occupations can be ranked on a ladder. We develop a simple decomposition to study the role this occupational ladder plays in average wage growth and in the fanning out of wages over the life cycle. We present three main findings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35929#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>College Success: Understanding the Roles of Financial Aid, Loans, Preparation, and Incentives -- by Douglas N. Harris, Christopher R. Taber, Alan Yang</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-70-college-success-understanding-the-roles"/>
+    <link rel="related" href="https://www.nber.org/papers/w35930#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-70-college-success-understanding-the-roles</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
+    <summary type="html">&lt;p&gt;Over the past four decades, the earnings gap between college graduates and non-graduates has widened substantially, prompting interest in policies aimed at promoting higher education among low-income students. A key challenge for these policies is the high college dropout rate. This paper develops a dynamic model of college enrollment and completion with rich individual heterogeneity to assess how various factors influence college attendance, dropout, and graduation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35930#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>We Just Created More Than 1,000 Synthetic Controls To Study California&apos;s $20 Fast Food Minimum Wage -- by Jeffrey Clemens, Olivia Edwards, Jonathan Meer, Joshua D. Nguyen</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-71-we-just-created-more-than"/>
+    <link rel="related" href="https://www.nber.org/papers/w35931#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-71-we-just-created-more-than</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
+    <summary type="html">&lt;p&gt;Synthetic control methods hold the promise of identifying a credible counterfactual by closely reproducing pretreatment outcome paths. Their reliability, however, depends in part on how effectively they constrain researchers’ less-visible degrees of freedom. We explore these methods’ sensitivity by constructing 1440 plausibly defensible specifications to estimate the employment effect of California’s $20 fast-food minimum wage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35931#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Insuring Landlords -- by Thomas Bézy, Antoine B. Levy, Timothy McQuade</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-72-insuring-landlords-by-thomas-b"/>
+    <link rel="related" href="https://www.nber.org/papers/w35932#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-72-insuring-landlords-by-thomas-b</id>
+    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper shows that insuring landlords against non-payment risk can improve housing access and upward geographic mobility for fragile tenants. We study Visale, a large-scale publicly funded rent guarantee insurance policy in France, free for eligible tenants and landlords. Using administrative household and claim payout data and quasi-experimental eligibility variation by exact age, we show the guarantee increased access to private-sector rental housing, especially for immigrants, newly formed households, and low-income renters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35932#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>
