@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-crypto.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-crypto.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-56-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-56-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-56-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-56-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-57-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-57-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-57-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-57-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Practical, Round-Optimal Lattice-Based Blind Signatures. Blind signatures are a fundamental cryptographic primitive with numerous practical applications.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-58-practical-round-optimal-lattice-based"/>
-    <link rel="related" href="https://eprint.iacr.org/2021/1565"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-58-practical-round-optimal-lattice-based</id>
-    <updated>2021-12-02T02:40:34+00:00</updated>
-    <summary type="html">&lt;p&gt;Blind signatures are a fundamental cryptographic primitive with numerous practical applications. While there exist many practical blind signatures from number-theoretic assumptions, the situation is far less satisfactory from post-quantum assumptions. In this work, we provide the first overall practical, lattice-based blind signature, supporting an unbounded number of signature queries and additionally enjoying optimal round complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2021/1565&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Revisiting Privacy Risks in Quantized Deep Neural Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-58-revisiting-privacy-risks-in-quantized"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37488v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-58-revisiting-privacy-risks-in-quantized</id>
+    <updated>2026-10-27T16:14:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37488v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TLShare: Private Authenticated MPC and FHE Inputs Over TLS. Transport Layer Security (TLS) is the backbone of the web, allowing clients to establish secure and private channels with servers.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-59-tlshare-private-authenticated-mpc-and"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1434"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-59-tlshare-private-authenticated-mpc-and</id>
-    <updated>2025-08-06T21:05:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Transport Layer Security (TLS) is the backbone of the web, allowing clients to establish secure and private channels with servers. DECO (CCS&amp;apos;20) and follow-up works proposed protocols that enable proving the provenance of a TLS response, i.e., that a payload came from a particular server, without needing server-side modifications. Unfortunately, these works are limited to proving Boolean statements over the payload (e.g., age $\ge$ 18) and cannot combine payloads from multiple clients.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1434&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Capacity-Approaching Pseudorandom Code for Stochastic Edit Channels</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-59-capacity-approaching-pseudorandom-code-for"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2179"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-59-capacity-approaching-pseudorandom-code-for</id>
+    <updated>2026-09-23T13:11:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Pseudorandom codes (PRCs) are error-correcting codes whose codewords are computationally indistinguishable from uniformly random strings to any efficient adversary. We study public-key multi-bit PRCs over the stochastic memoryless binary substitution-insertion-deletion channel and its $q$-ary generalization. Here $P_i,P_d$ are the insertion and deletion probabilities, and $P_s$ is the substitution probability conditional on transmission.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2179&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Efficient (Functional) Bootstrapping for CKKS over the Conjugate-Invariant Ring</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-60-efficient-functional-bootstrapping-for-ckks"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2618"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-60-efficient-functional-bootstrapping-for-ckks</id>
-    <updated>2026-10-23T16:51:36+00:00</updated>
-    <summary type="html">&lt;p&gt;The CKKS fully homomorphic encryption scheme enables efficient encrypted computation over complex-valued data. In many real-world cases, however, the computation only involves real data, and storing them inside complex slots wastes the encoding ability. This motivated the design of conjugate-invariant CKKS (CI-CKKS) instantiated over the conjugate-invariant ring (CIR), which provides the same number of real slots while halving the RLWE dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2618&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Hamming Ideals and Grobner Bases for ISD-like Syndrome Decoding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-60-hamming-ideals-and-grobner-bases"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2062"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-60-hamming-ideals-and-grobner-bases</id>
+    <updated>2026-09-16T15:30:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate an algebraic approach to the Syndrome Decoding Problem, based on a reformulation of the Hamming weight constraint and its integration with the Information Set Decoding paradigm. We begin with a systematic analysis of the Hamming variety, deriving its defining equations in terms of elementary symmetric functions. Since these equations may have high degree, we exploit convolution identities for elementary symmetric functions, together with factorizations based on Lucas&amp;apos; identity, to derive an equivalent formulation with auxiliary variables and equations of bounded degree.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2062&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Isochronous Fixed-Weight Sampling in Hardware</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-61-isochronous-fixed-weight-sampling-in"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/218"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-61-isochronous-fixed-weight-sampling-in</id>
-    <updated>2026-02-10T09:21:44+00:00</updated>
-    <summary type="html">&lt;p&gt;We present hardware implementations of the recently proposed isochronous fixed-weight sampling algorithm by Décio Luiz Gazzoni Filho, Tomás S. R. Silva, Julio López (CiC vol. 1, 2024) and apply them to the post-quantum cryptographic algorithms NTRU-HPS, Streamlined NTRU Prime and Classic McEliece.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/218&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #number-theory&lt;/p&gt;</summary>
+    <title>Principles for pRHL Proofs of Cryptographic Protocols: How to Convince EasyCrypt that your Protocol is Secure</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-61-principles-for-prhl-proofs-of"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1334"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-61-principles-for-prhl-proofs-of</id>
+    <updated>2026-06-29T08:03:15+00:00</updated>
+    <summary type="html">&lt;p&gt;The EasyCrypt proof assistant has been used to successfully formalize security proofs for a wide variety of cryptographic primitives. However, attempts at formalizing objects with interactivity, such as protocols, have fared much worse. In this paper, we investigate (some of) the reasons for this difficulty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1334&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On Lifting AGM Security to the AGM with Oblivious Sampling. The Algebraic Group Model (AGM) is widely used to prove the security of cryptographic schemes involving groups and pairings.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-62-on-lifting-agm-security-to"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/201"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-62-on-lifting-agm-security-to</id>
-    <updated>2026-02-08T13:44:26+00:00</updated>
-    <summary type="html">&lt;p&gt;The Algebraic Group Model (AGM) is widely used to prove the security of cryptographic schemes involving groups and pairings. It requires adversaries to explain how their output group elements are obtained from the elements they have received. The AGM with Oblivious Sampling (AGMOS), introduced by Lipmaa, Parisella, and Siim (TCC 2023), additionally allows adversaries to sample group elements without learning their discrete logarithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/201&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #logic #combinatorics&lt;/p&gt;</summary>
+    <title>A gentle introduction to lattice-based cryptography</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-62-a-gentle-introduction-to-lattice"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-62-a-gentle-introduction-to-lattice</id>
+    <updated>2026-05-29T13:08:16+00:00</updated>
+    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Towards Formal Security Proofs of MQOM</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-63-towards-formal-security-proofs-of"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/629"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-63-towards-formal-security-proofs-of</id>
-    <updated>2026-03-31T12:45:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Recent MPC-in-the-Head (MPCitH) signatures increasingly rely on aggressive GGM-tree optimizations to reduce signature size and computational cost, culminating in __secret-key-root correlated GGM trees__ as used in SBC (Huth and Joux, CRYPTO 2024), MQOM (NIST PQC Standardization for Additional Signature Round-2, 2024), and rBN++ (Kim, Lee, and Son, EUROCRYPT 2025). While this technique yields substantial compression, it introduces a dependency loop in the proof (Kosuge and Xagawa, CiC 2026(3)). We analyze MQOM and resolve this circularity by providing EUF-CMA security proofs for a slightly modified variant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/629&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>A New Approach to Reducing Modulus Requirements in Homomorphic Computation: Precision Allocation in CKKS</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-63-a-new-approach-to-reducing"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2562"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-63-a-new-approach-to-reducing</id>
+    <updated>2026-10-20T12:56:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Fully homomorphic encryption (FHE) enables computation over encrypted data subject to the prescribed security and precision requirements (allowable deviations from ideal results). Among all FHE schemes, CKKS is a representative scheme for approximate arithmetic, allowing the same operation on multiple values packed into a single RLWE ciphertext. Reducing ciphertext modulus $Q$ for given output precision requirements under RLWE security constraints is a central challenge in homomorphic computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2562&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

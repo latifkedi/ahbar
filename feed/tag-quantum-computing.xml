@@ -5,52 +5,76 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
-    <title>Information-theoretic entropy imaging of quantum matter</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-29-information-theoretic-entropy-imaging-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35790v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-29-information-theoretic-entropy-imaging-of</id>
-    <updated>2026-10-26T17:28:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Phase transitions can generate intricate spatial organization invisible to spatially averaged probes, yet quantitative measures of this organization remain limited. Here we develop &amp;quot;entropy imaging,&amp;quot; an information-theoretic technique that harnesses lossless compression to quantify spatial complexity, predictability, and order in quantum materials. Using this approach, emergent spatial textures can be imaged and converted into an experimentally-accessible observable: the computable information density (CID), a compression-based measure of information complexity that approaches the Shannon entropy rate in the large-system limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35790v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #combinatorics&lt;/p&gt;</summary>
+    <title>Optimal quantum discrimination at Liouvillian exceptional points. Central to non-Hermitian sensing is the question of whether exceptional points (EPs) can make weak perturbations easier to detect.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-29-optimal-quantum-discrimination-at-liouvillian"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37660v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-29-optimal-quantum-discrimination-at-liouvillian</id>
+    <updated>2026-10-27T17:59:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Central to non-Hermitian sensing is the question of whether exceptional points (EPs) can make weak perturbations easier to detect. We show that despite enhanced spectral response, in finite-dimensional Lindblad systems with a unique stationary state and a nonzero relaxation gap, EPs offer no fundamental advantage in how the observation time required for reliable detection of a weak perturbation scales with the perturbation strength. We nevertheless demonstrate that by selectively choosing perturbations that enhance the quantum Fisher information rate, EPs can shorten the observation time needed to reach a predefined detection accuracy relative to a comparable non-EP reference at the same decay rate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37660v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Growth Phase Map of α and \b{eta} Tantalum as a Function of Growth Temperature and Oxygen Partial Pressure</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-30-growth-phase-map-of-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35768v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-30-growth-phase-map-of-and</id>
-    <updated>2026-10-26T17:12:52+00:00</updated>
-    <summary type="html">&lt;p&gt;Tantalum thin films are used in low-loss superconducting quantum circuits, yet the growth conditions governing selection of $α$-Ta(110), $α$-Ta(111), and metastable $β$-Ta on c-plane sapphire remain uncertain. We deposited 100 nm Ta films by dc magnetron sputtering on Al$_2$O$_3$(0001) at 300-900 $^\circ$C while varying the O$_2$ partial pressure from a $5.5\times10^{-11}$ Torr ultrahigh-vacuum baseline to $2.23\times10^{-4}$ Torr. Absorption-corrected X-ray diffraction texture coefficients were used to construct a ternary phase-orientation growth map in terms of temperature and the oxygen-to-Ta impingement flux ratio ($2Φ_{O_2}/Φ_{Ta}\leq4.8\times10^{-6}$ to 19).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35768v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #clean-tech&lt;/p&gt;</summary>
+    <title>Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-30-classical-verification-of-quantum-computation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37635v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-30-classical-verification-of-quantum-computation</id>
+    <updated>2026-10-27T17:54:01+00:00</updated>
+    <summary type="html">&lt;p&gt;It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to a classical oracle, such verification is possible for a language beyond the polynomial hierarchy that is decided exactly in quantum polynomial time. The protocol is public-coin, with perfect completeness and soundness error at most 1/4.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37635v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Compositional Operational Rank, Smooth Realizability, and Dimensional Reduction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-31-compositional-operational-rank-smooth-realizability"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35764v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-31-compositional-operational-rank-smooth-realizability</id>
-    <updated>2026-10-26T17:09:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Higher-dimensional theories distinguish the dimensionality of a microscopic description from the number of directions accessible to a physical observer. Relating these notions requires not only dimensional reduction, but also a consistent preservation of operational independence across different levels of description. We establish sufficient conditions under which a compositional operational rank is preserved first as the dimension of a smooth integral leaf and then as an observable Fisher-information rank.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35764v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy&lt;/p&gt;</summary>
+    <title>Dynamical quantum simulations as laboratories for quantum information. Dynamical quantum simulations are commonly designed to access a particular response function or correlation function.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-31-dynamical-quantum-simulations-as-laboratories"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37589v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-31-dynamical-quantum-simulations-as-laboratories</id>
+    <updated>2026-10-27T17:26:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Dynamical quantum simulations are commonly designed to access a particular response function or correlation function. Yet the underlying protocol prepares a family of many-body states that contains information well beyond the observable for which the simulation was originally designed. In this work, we explore the idea of using these states as laboratories for quantum information.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37589v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Parametrically Enhanced Ergotropy and Charging Power in a Three-Mode Bosonic Quantum Battery</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-32-parametrically-enhanced-ergotropy-and-charging"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35734v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-32-parametrically-enhanced-ergotropy-and-charging</id>
-    <updated>2026-10-26T16:53:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum batteries are quantum systems that potentially serve as fuel for other quantum devices by receiving and supplying energy. In this work, we propose a theoretical scheme to enhance ergotropy and charging power of quantum Battery in the system under consideration through squeezed light. Moreover, The system comprises a coherently driven charger cavity, a strongly dissipative auxiliary cavity acting as a mediator, and an energy--storage battery cavity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35734v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #materials-science&lt;/p&gt;</summary>
+    <title>Meet-in-the-Middle Compilation of the $[\mathrm{CNOT}]$ Class with Fibonacci Anyons</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-32-meet-in-the-middle-compilation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37552v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-32-meet-in-the-middle-compilation</id>
+    <updated>2026-10-27T17:01:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Compilation of two-qubit Fibonacci anyon gates is complicated by leakage ($\ell$) from the four-dimensional computational sector to the fifth state of the fusion space. We construct a GPU pipeline to find low-leakage representatives of the $[\text{CNOT}]$ class on different subsets of the braid group. We exhaustively explore the full positive five-generator alphabet up to $L=21$ with minimal leakage $\ell\sim10^{-3}$ and error $d_{[\text{CNOT}]}\sim 10^{-8}$ on it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37552v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Phonon-assisted shift-current from first-principles: application to AlN monolayer</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-33-phonon-assisted-shift-current-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35662v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-33-phonon-assisted-shift-current-from</id>
-    <updated>2026-10-26T16:08:46+00:00</updated>
-    <summary type="html">&lt;p&gt;In this work, we present a first-principles approach to investigate phonon-assisted shift current in extended systems. Our method combines the special displacement technique with real-time simulations based on the dynamical Berry phase. Merging these two frameworks enables direct access to non-linear optical responses at finite temperatures, while naturally incorporating phonon scattering and phonon-assisted electronic transitions into the time-dependent dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35662v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+    <title>Recovering classical gauge geometry from quantum master constraints</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-33-recovering-classical-gauge-geometry-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37493v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-33-recovering-classical-gauge-geometry-from</id>
+    <updated>2026-10-27T16:18:38+00:00</updated>
+    <summary type="html">&lt;p&gt;Exact normalizable solutions of quantum constraints form a symplectic submanifold of the space of rays, whereas classical first-class constraints define a surface on which the symplectic form is degenerate. We ask how the degenerate directions can be recovered when quantum theory is regarded as fundamental and the constraints are imposed through a single positive master operator. For a nonnegative master function whose zero set is a Morse--Bott critical manifold, the image of the linearized Hamiltonian vector field is the symplectic orthogonal of the zero set, and coisotropy is equivalent to this linearization having square zero.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37493v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Adaptive Information Mining: Approaching the Quantum Limit of Super-Resolution Imaging</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-34-adaptive-information-mining-approaching-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37491v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-34-adaptive-information-mining-approaching-the</id>
+    <updated>2026-10-27T16:17:55+00:00</updated>
+    <summary type="html">&lt;p&gt;The &amp;quot;Rayleigh limit&amp;quot; is not an intrinsic property of light, but a consequence of sub-optimal measurement of collected photons by the imaging instrument. To overcome this limitation, we present Adaptive Information Mining, a framework that achieves super-resolution by using sequentially refined measurements for incoming photons. Our approach employs a reconfigurable imaging system that dynamically reshapes the instrument measurement responses to maximize the Fisher information and guide scene estimation toward the fundamental quantum limit, even in deep sub-Rayleigh regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37491v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Electric Field-Induced Hole- and Electron-Type Flat Bands in Twisted Double Bilayer Graphene</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-35-electric-field-induced-hole-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37402v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-35-electric-field-induced-hole-and</id>
+    <updated>2026-10-27T15:18:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Application of a finite electric field and small twist angle between two graphene bilayers leads to widely tunable electronic structures that support emergent phenomena. Here, we measure the electronic structure of twisted double bilayer graphene with twist angles of 3.1$^{\circ}$ and 6.0$^{\circ}$ using micro-focused angle-resolved photoemission spectroscopy (microARPES) on \textit{in situ} gated samples. At a twist angle of 6.0$^{\circ}$, we find that the dispersion around the valence and conduction band extrema is unchanged compared to separate graphene bilayers, whereas electric field tunable hybridisation gaps and band flattening effects occur at higher binding energies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37402v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Cu intercalation and field-driven filament formation in vertically aligned MoS$_2$ memristors</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-36-cu-intercalation-and-field-driven"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37152v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-36-cu-intercalation-and-field-driven</id>
+    <updated>2026-10-27T12:51:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Vertically-aligned MoS$_2$ films paired with a Cu top electrode have been used as electrochemical metallization cell memristor devices. The memristive switching has been attributed to the formation of conductive filaments, yet their exact structure has remained elusive. Here we carry out a multi-scale computational study of Cu intercalation, clustering, and field-driven dynamics to eventually model the filament formation under operating conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37152v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part II</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-28-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-28-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10239"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-28-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-28-podcasts-about-the-topic-part</id>
     <updated>2026-10-26T22:03:37+00:00</updated>
     <summary type="html">&lt;p&gt;“The Topic” being, of course, the Mathocalypse, except sometimes with AI alignment and even quantum computing and complexity theory and other stuff thrown in. With Ryan Peterman: Notably, near the end of the above podcast, you can watch my live reaction to the news that an Anthropic model found algorithms for the 3SUM and the […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10239&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms #quantum-physics&lt;/p&gt;</summary>
   </entry>

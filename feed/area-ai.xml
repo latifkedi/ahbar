@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
-    <title>DynaFlow: Learning Free-Form Multi-Agent Orchestration. Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-10-dynaflow-learning-free-form-multi"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34467"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-10-dynaflow-learning-free-form-multi</id>
-    <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34467&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+    <title>Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-10-can-discrete-tokens-serve-as"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37662"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-10-can-discrete-tokens-serve-as</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37662&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-11-spatial-audio-generation-and-editing"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34415"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-11-spatial-audio-generation-and-editing</id>
-    <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34415&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
+    <title>HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-11-habit-bench-evaluating-habit-induction"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.24520"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-11-habit-bench-evaluating-habit-induction</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24520&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-13-trustworthy-recursive-self-improvement-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35193"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-13-trustworthy-recursive-self-improvement-in</id>
+    <title>ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-13-thinkworld-world-imagination-reinforces-chain"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37666"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-13-thinkworld-world-imagination-reinforces-chain</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37666&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Memory Tax: Dissecting the Net Value of Agent Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-12-memory-tax-dissecting-the-net"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34073"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-12-memory-tax-dissecting-the-net</id>
+    <updated>2026-10-24T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains and losses over direct retrieval, termed memory benefit and memory tax.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34073&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-14-pdrvla-a-vision-language-action"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37381"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-14-pdrvla-a-vision-language-action</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features to condition action generation without online video generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37381&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-15-truncate-or-not-a-scaling"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.26030"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-15-truncate-or-not-a-scaling</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of trainable parameters. They are trained with backpropagation through time (BPTT). To save training compute, BPTT is often truncated to the last few loops, but truncation yields biased gradients that may weaken the benefit of looping.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26030&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-16-the-trinity-capability-driven-recursive"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36077"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-16-the-trinity-capability-driven-recursive</id>
     <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35193&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36077&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-12-eat-your-precision-precision-objective"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.33512"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-12-eat-your-precision-precision-objective</id>
-    <updated>2026-10-23T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but also more verbose and contain more unnecessary or factually incorrect content, leading them to be less preferred than responses from the base model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33512&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-17-zooming-without-zooming-v2-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37037"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-17-zooming-without-zooming-v2-from</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37037&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-15-introducing-gemini-3-8-flash"/>
-    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-15-introducing-gemini-3-8-flash</id>
-    <updated>2026-09-02T16:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Δτ-Bench: Pushing Agents Toward a Moving Capability. In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-14-bench-pushing-agents-toward-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34238"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-14-bench-pushing-agents-toward-a</id>
-    <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In Δτ-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient alternatives emerge amid overlapping functionality and noisy documentation. Against this moving capability frontier, we evaluate whether agents can proactively discover efficient tool-use paths and promptly revise their accumulated procedural knowledge, bringing together demands that existing benchmarks fail to examine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34238&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-16-s3ac-stabilized-selective-and-scalable"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35518"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-16-s3ac-stabilized-selective-and-scalable</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate prompt-specific baselines. A critic can address both limitations, but long-CoT critic training is hindered by insufficient coverage of trajectories with diverse lengths and early gradients dominated by the newly initialized value head.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35518&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>EmbodiedLab: Benchmarking Embodied Agents That Act to Know. Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35385"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to change, with the target state given; scientific discovery benchmarks evaluate knowing but replace physical experimentation with symbolic actions or numerical queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35385&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-18-rynnvla-latent-scaling-robotic-manipulation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34356"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-18-rynnvla-latent-scaling-robotic-manipulation</id>
-    <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At its core, RynnLAM learns continuous, 3D-grounded latent actions from visual transitions without requiring native robot controls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34356&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+    <title>Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-18-channel-selection-for-mixture-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37386"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-18-channel-selection-for-mixture-of</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typically keeping channels above a threshold calibrated on offline data. We show that channel selection needs no calibration data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37386&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,12 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <entry>
+    <title>Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-30-classical-verification-of-quantum-computation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37635v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-30-classical-verification-of-quantum-computation</id>
+    <updated>2026-10-27T17:54:01+00:00</updated>
+    <summary type="html">&lt;p&gt;It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to a classical oracle, such verification is possible for a language beyond the polynomial hierarchy that is decided exactly in quantum polynomial time. The protocol is public-coin, with perfect completeness and soundness error at most 1/4.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37635v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #cryptography&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Podcasts about the Topic: Part II</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-28-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-28-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10239"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-28-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-28-podcasts-about-the-topic-part</id>
     <updated>2026-10-26T22:03:37+00:00</updated>
     <summary type="html">&lt;p&gt;“The Topic” being, of course, the Mathocalypse, except sometimes with AI alignment and even quantum computing and complexity theory and other stuff thrown in. With Ryan Peterman: Notably, near the end of the above podcast, you can watch my live reaction to the news that an Anthropic model found algorithms for the 3SUM and the […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10239&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms #quantum-physics&lt;/p&gt;</summary>
   </entry>

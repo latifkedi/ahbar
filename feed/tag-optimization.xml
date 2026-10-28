@@ -5,21 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-optimization.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-optimization.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
-  <entry>
-    <title>A Unified Framework for Assortment Optimization and Matching under MNL Choice</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-85-a-unified-framework-for-assortment"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35389v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-85-a-unified-framework-for-assortment</id>
-    <updated>2026-10-26T13:09:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We develop a unified framework for assortment optimization and matching under multinomial logit (MNL) choice, yielding simple algorithms and analyses across a broad class of problems. The framework centers on a single-customer assortment problem in which the firm commits to eligible products before their independent availabilities are revealed. A simple threshold policy achieves a tight $1/2$ guarantee against a benchmark that selects its assortment after observing availability and may control dependence subject to the same marginal probability bounds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35389v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Follow the Regularized Leader Does Not Converge in Constrained Optimization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-89-follow-the-regularized-leader-does"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35004v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-89-follow-the-regularized-leader-does</id>
-    <updated>2026-10-26T08:16:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Follow the regularized leader (FTRL) is a foundational algorithm in online learning whose regret properties have been extensively studied for decades. However, in stark contrast to mirror descent---and gradient descent in particular---the convergence of FTRL to first-order stationary points in constrained nonconvex optimization was not well understood. In this paper, we show that continuous-time FTRL can fail to converge even asymptotically in infinitely smooth constrained optimization problems: its Karush-Kuhn-Tucker (KKT) gap can remain bounded away from zero indefinitely.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35004v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
 </feed>

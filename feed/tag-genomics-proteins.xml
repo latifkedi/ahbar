@@ -5,45 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
     <title>The Merck/Moderna Results</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-46-the-merck-moderna-results"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-46-the-merck-moderna-results"/>
     <link rel="related" href="https://www.science.org/content/blog-post/merck-moderna-results"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-46-the-merck-moderna-results</id>
-    <updated>2026-10-27T10:06:28.575126253+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-46-the-merck-moderna-results</id>
+    <updated>2026-10-28T10:53:00.960113857+00:00</updated>
     <summary type="html">&lt;p&gt;This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data leaked in advance of a meeting presentation, and the companies were more or less forced to press-release on the numbers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.science.org/content/blog-post/merck-moderna-results&quot;&gt;In the Pipeline (Derek Lowe — Drug Discovery &amp;amp; Chemistry)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-47-flodl-bio-first-rust-data"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-47-flodl-bio-first-rust-data</id>
-    <updated>2026-10-26T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Python ecosystem dominates the deep learning framework. flodl-bio is a Rust crate that extends flodl, a libtorch-backed deep-learning framework, with deep learning on biological sequences. To our knowledge, flodl-bio is the first Rust crate that provides a comprehensive and practical deep learning for the biological applications, which includes the alphabet-aware sequence encoding, including one-hot and k-mer representations, padded sequences, and channels-first batches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust #combinatorics&lt;/p&gt;</summary>
+    <title>pyTransRate: 1 reference-free quality assessment of de novo transcriptome assemblies with current aligners and quantifiers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-47-pytransrate-1-reference-free-quality"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37031v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-47-pytransrate-1-reference-free-quality</id>
+    <updated>2026-10-27T11:08:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Summary: The original software TransRate scores a de novo transcriptome assembly by mapping the reads it was built from back to it, with no reference required. Its last release (1.0.3) depends on Ruby 2.2 and on aligner and quantifier versions that can no longer be installed on most systems. pyTransRate is a Python reimplementation of the TransRate method built on snap-aligner 2.0.5 and salmon 2.7.0.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37031v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>BenchMHC: a reproducible framework for peptide-MHC presentation prediction. Predicting which peptides an MHC molecule presents is the first step in neoantigen and epitope discovery pipelines.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-48-benchmhc-a-reproducible-framework-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.22.760998v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-48-benchmhc-a-reproducible-framework-for</id>
+    <updated>2026-10-27T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Predicting which peptides an MHC molecule presents is the first step in neoantigen and epitope discovery pipelines. Most published predictors are released for inference only, and each is trained on a different dataset, so the effect of a new method cannot be separated from the effect of its training data. We present BenchMHC, an open framework that reproduces, retrains and evaluates pMHC presentation models on public data only, and that records every implementation decision made in a reproduction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.22.760998v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?. Predicting how individual cells respond to perturbations is a central task in artificial intelligence virtual cell (AIVC) modeling.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-49-how-much-can-ai-virtual"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-49-how-much-can-ai-virtual</id>
+    <updated>2026-10-27T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Predicting how individual cells respond to perturbations is a central task in artificial intelligence virtual cell (AIVC) modeling. However, integrating perturbation datasets is challenging because they differ in measured gene sets, perturbation types and cellular contexts. Existing AIVC predictors are typically developed for specific settings, limiting their applicability across heterogeneous datasets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Evaluation design shapes estimates of cross-donor generalization in single-cell classification of cell-type</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-50-evaluation-design-shapes-estimates-of"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-50-evaluation-design-shapes-estimates-of</id>
+    <updated>2026-10-27T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Single-cell cell-type classifiers are often evaluated using random cell-level splits, although cells from the same donor are not independent. We asked how evaluation design affects estimates of cross-donor generalization. Results: Across PBMC and lung datasets, random cell-level splitting consistently yielded higher macro F1 than donor-held-out evaluation across multiple expression representations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.26.761949v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-51-identification-of-gene-kinetics-patterns"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-51-identification-of-gene-kinetics-patterns</id>
+    <updated>2026-10-27T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Single-cell RNA velocity has transformed our capacity to predict future cell states from sequencing snapshots, but existing methods rely on constant or binary kinetic assumptions that fail to capture the heterogeneous splicing dynamics of cellular differentiation. Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to initialize neural network training dramatically improves RNA velocity model performance. By pre-determining whether each gene follows a Circle, Complete induction, or Complete repression pattern across cellular differentiation, JuloVelo initializes training with pattern-matched, pre-trained network weights, effectively guiding the cell-specific kinetics optimization away from biologically implausible parameter regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-48-machine-learning-dataset-and-benchmark"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-52-machine-learning-dataset-and-benchmark"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-48-machine-learning-dataset-and-benchmark</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-52-machine-learning-dataset-and-benchmark</id>
     <updated>2026-10-26T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-52-hybrid-modeling-for-improved-structure"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-52-hybrid-modeling-for-improved-structure</id>
-    <updated>2026-10-15T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-53-hdock-multimer-improved-structure-prediction"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-53-hdock-multimer-improved-structure-prediction</id>
-    <updated>2026-10-14T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

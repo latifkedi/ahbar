@@ -5,53 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
-    <title>DynaFlow: Learning Free-Form Multi-Agent Orchestration. Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-10-dynaflow-learning-free-form-multi"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34467"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-10-dynaflow-learning-free-form-multi</id>
-    <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution, structured information exchange, and verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34467&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+    <title>HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-11-habit-bench-evaluating-habit-induction"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.24520"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-11-habit-bench-evaluating-habit-induction</id>
+    <updated>2026-10-19T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24520&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Δτ-Bench: Pushing Agents Toward a Moving Capability. In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-14-bench-pushing-agents-toward-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34238"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-14-bench-pushing-agents-toward-a</id>
+    <title>Memory Tax: Dissecting the Net Value of Agent Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-12-memory-tax-dissecting-the-net"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34073"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-12-memory-tax-dissecting-the-net</id>
     <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In Δτ-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient alternatives emerge amid overlapping functionality and noisy documentation. Against this moving capability frontier, we evaluate whether agents can proactively discover efficient tool-use paths and promptly revise their accumulated procedural knowledge, bringing together demands that existing benchmarks fail to examine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34238&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains and losses over direct retrieval, termed memory benefit and memory tax.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34073&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>EmbodiedLab: Benchmarking Embodied Agents That Act to Know. Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35385"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-17-embodiedlab-benchmarking-embodied-agents-that</id>
+    <title>The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-16-the-trinity-capability-driven-recursive"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36077"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-16-the-trinity-capability-driven-recursive</id>
     <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction, observes the feedback, and explores until it either achieves the goal itself (e.g., discovering physical laws) or learns what the goal requires; it acts to know. Manipulation benchmarks stop at acting to change, with the target state given; scientific discovery benchmarks evaluate knowing but replace physical experimentation with symbolic actions or numerical queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35385&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36077&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-17-zooming-without-zooming-v2-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37037"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-17-zooming-without-zooming-v2-from</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37037&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Beliefs Over Contracts -- by Francis Annan, Collin B. Raymond. We study how firms choose among incentive contracts and how accurately managers predict their effects.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-66-beliefs-over-contracts-by-francis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-69-beliefs-over-contracts-by-francis"/>
     <link rel="related" href="https://www.nber.org/papers/w35788#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-66-beliefs-over-contracts-by-francis</id>
-    <updated>2026-10-27T10:06:21.820168735+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-69-beliefs-over-contracts-by-francis</id>
+    <updated>2026-10-28T10:52:52.756229085+00:00</updated>
     <summary type="html">&lt;p&gt;We study how firms choose among incentive contracts and how accurately managers predict their effects. Using a survey of managerial beliefs and a large-scale field experiment, we randomly assign agents at the market level to several widely used, expenditure-equivalent incentive schemes. In the field, the best-performing contract raises weekly firm profit by over 55% relative to the status quo, despite being ranked lower by managers, whereas the worst-performing contract performs as predicted.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35788#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>BROCADE: Broker-based Contract Design for the Multi-Agency Model</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-87-brocade-broker-based-contract-design"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35291v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-87-brocade-broker-based-contract-design</id>
-    <updated>2026-10-26T12:00:51+00:00</updated>
-    <summary type="html">&lt;p&gt;We study welfare maximization in a contract model with $m$ principals who privately value a public project&amp;apos;s success and $n$ agents whose costly effort is unobservable. Contracts induce truthful dominant strategies for principals and equilibrium effort by agents, maximizing the expected total value of eligible principals. We develop three tools: a broker that separates payments from principals and payments to agents, an extension of Myerson&amp;apos;s Lemma characterizing dominant-strategy incentive compatibility (DSIC), and a black-box reduction to budget-constrained single-principal contract design.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35291v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Strategyproof Deep Reinforcement Learning for Online Resource Allocation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-82-strategyproof-deep-reinforcement-learning-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37504v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-82-strategyproof-deep-reinforcement-learning-for</id>
+    <updated>2026-10-27T16:25:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Online resource allocation faces two coupled challenges: (1) allocating scarce resources efficiently under uncertain future demand, and (2) ensuring that agents report task valuations and requirements truthfully (strategyproofness). Reinforcement Learning (RL) adapts allocation decisions through experience but does not necessarily ensure strategyproofness. Existing strategyproof RL uses a linear allocation rule, which limits the resource interactions it can represent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fair Division of Lotteries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-90-fair-division-of-lotteries"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34906v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-90-fair-division-of-lotteries</id>
-    <updated>2026-10-26T06:27:47+00:00</updated>
-    <summary type="html">&lt;p&gt;We study fair division of uncertain items, where the utility of each item is a random variable whose realization is observed only after the allocation is determined. This uncertainty creates a distinction between ex-ante fairness, evaluated before utilities are realized, and ex-post fairness, evaluated after realization. We examine to what extent these two notions are compatible.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34906v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Game-Theoretic Solvers with Bayesian Opponent Modeling and Moral Rhetoric Framing for GLEE</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-84-game-theoretic-solvers-with-bayesian"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37397v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-84-game-theoretic-solvers-with-bayesian</id>
+    <updated>2026-10-27T15:17:04+00:00</updated>
+    <summary type="html">&lt;p&gt;We describe the agent we submitted to the GLEE Competition, which plays bargaining, negotiation, and persuasion games against a shared pool of human and AI opponents. The agent is built around three central components: a classical game-theoretic solver to compute numeric moves, an online Bayesian layer to estimate opponent archetypes, and a language model to write accompanying messages. We utilize Rubinstein bargaining for bargaining, Faratin concession for negotiation, and Kamenica--Gentzkow disclosure for persuasion, and adapt those models to live opponents using two separate layers: a Bayesian estimate of the opponent&amp;apos;s hidden discount factor, reservation value, or signaling reliability, and a Thompson sampling bandit over five moral-foundation framings coupled with an evidence-intuition spectrum to establish message register.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37397v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>When do token systems stabilize? Compatibility constraints and community structure</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-89-when-do-token-systems-stabilize"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36744v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-89-when-do-token-systems-stabilize</id>
+    <updated>2026-10-27T06:59:51+00:00</updated>
+    <summary type="html">&lt;p&gt;Token systems support repeated service exchange without monetary transfers, but their viability depends on the stability of token balances. We study token systems with compatibility constraints among agents. A requester is randomly sampled in each period, and only a few randomly sampled agents are available to provide service.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36744v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Feedback autocratic strategies in stochastic games. A stochastic game is an optimal control problem for multiple agents in a stochastic environment.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-90-feedback-autocratic-strategies-in-stochastic"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36683v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-90-feedback-autocratic-strategies-in-stochastic</id>
+    <updated>2026-10-27T05:52:44+00:00</updated>
+    <summary type="html">&lt;p&gt;A stochastic game is an optimal control problem for multiple agents in a stochastic environment. Stochastic games contain important practical problems, related to environmental issues or traffic flows. If the number of environmental states is one, such stochastic games are called repeated games.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36683v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

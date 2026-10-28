@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-cs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-cs.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
-    <title>GPT-6.1 Terra. GPT-6.1 Terra It&apos;s always interesting to note which aspects of a new model are emphasized in the release announcement.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-01-gpt-6-1-terra"/>
-    <link rel="related" href="https://openai.com/index/introducing-gpt-6-1-terra/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-01-gpt-6-1-terra</id>
-    <updated>2026-10-26T18:01:17Z</updated>
-    <summary type="html">&lt;p&gt;GPT-6.1 Terra It&amp;apos;s always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://openai.com/index/introducing-gpt-6-1-terra/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Exponential Time Hypothesis Is False [pdf]. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-02-the-exponential-time-hypothesis-is"/>
-    <link rel="related" href="https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-02-the-exponential-time-hypothesis-is</id>
-    <updated>2026-10-26T21:59:15Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Python&apos;s experimental JIT to be removed. Python&apos;s experimental just-in-time (JIT) compiler , which was added to CPython in 2024 for the 3.13 release , is on its way out.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-01-python-s-experimental-jit-to"/>
+    <link rel="related" href="https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-01-python-s-experimental-jit-to</id>
+    <updated>2026-10-27T11:17:57Z</updated>
+    <summary type="html">&lt;p&gt;Python&amp;apos;s experimental just-in-time (JIT) compiler , which was added to CPython in 2024 for the 3.13 release , is on its way out. In June, the Python steering council announced that it was pausing work on the JIT in CPython&amp;apos;s main branch until there was an accepted Python Enhancement Proposal (PEP) that addressed concerns about maintenance, compatibility, and set clear success metrics as well as a timeline for completion. After creating PEP 836 (&amp;quot;JIT Go Brrr: The Path to a Supported JIT Compiler for CPython&amp;quot;) to try to meet the council&amp;apos;s request, and after months of discussion, the JIT maintainers have withdrawn the PEP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-03-show-hn-an-e-ink"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-02-show-hn-an-e-ink"/>
     <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-03-show-hn-an-e-ink</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-02-show-hn-an-e-ink</id>
     <updated>2026-09-15T12:31:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Code-execution flaw in UEFI firmware threatens most servers on planet Earth</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-04-code-execution-flaw-in-uefi"/>
+    <link rel="related" href="https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-04-code-execution-flaw-in-uefi</id>
+    <updated>2026-10-27T20:35:09Z</updated>
+    <summary type="html">&lt;p&gt;Critical flaw in EDK2 allows attackers to execute code early in the boot process.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-04-show-hn-can-t-afford"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-03-show-hn-can-t-afford"/>
     <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-04-show-hn-can-t-afford</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-03-show-hn-can-t-afford</id>
     <updated>2021-02-25T01:47:30Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Three new discoveries in mathematics, computer science, and physics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-05-three-new-discoveries-in-mathematics"/>
-    <link rel="related" href="https://openai.com/index/building-scientific-understanding-with-academic-communities/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-05-three-new-discoveries-in-mathematics</id>
-    <updated>2026-10-26T21:35:28Z</updated>
-    <summary type="html">&lt;p&gt;OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://openai.com/index/building-scientific-understanding-with-academic-communities/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: This up votes itself</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-06-show-hn-this-up-votes"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-05-show-hn-this-up-votes"/>
     <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-06-show-hn-this-up-votes</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-05-show-hn-this-up-votes</id>
     <updated>2012-03-23T00:40:39Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-07-show-hn-gemini-pro-3"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-06-show-hn-gemini-pro-3"/>
     <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-07-show-hn-gemini-pro-3</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-06-show-hn-gemini-pro-3</id>
     <updated>2025-12-09T15:00:38Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: I made an open-source laptop from scratch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-08-show-hn-i-made-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-07-show-hn-i-made-an"/>
     <link rel="related" href="https://www.byran.ee/posts/creation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-08-show-hn-i-made-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-07-show-hn-i-made-an</id>
     <updated>2025-01-22T20:41:52Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: If YouTube had actual channels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-09-show-hn-if-youtube-had"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-08-show-hn-if-youtube-had"/>
     <link rel="related" href="https://ytch.xyz"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-09-show-hn-if-youtube-had</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-08-show-hn-if-youtube-had</id>
     <updated>2024-08-14T15:10:06Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: A retro video game console I&apos;ve been working on in my free time</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-09-show-hn-a-retro-video"/>
+    <link rel="related" href="https://internalregister.github.io/2019/03/14/Homebrew-Console.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-09-show-hn-a-retro-video</id>
+    <updated>2019-03-14T20:25:03Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://internalregister.github.io/2019/03/14/Homebrew-Console.html&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

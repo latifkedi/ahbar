@@ -5,13 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <entry>
+    <title>Contemporaneous Transmission Networks and Systemic Risk in European Banking</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-64-contemporaneous-transmission-networks-and-systemic"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37487v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-64-contemporaneous-transmission-networks-and-systemic</id>
+    <updated>2026-10-27T16:14:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We study how contemporaneous equity-return transmission shapes systemic exposure among 51 listed European banks. Using a recursive non-Gaussian network model on volatility-standardized returns, we construct two market-capitalization-weighted measures based on direct and indirect transmission effects: the Systemic Impact Score (SIS), capturing a bank&amp;apos;s potential influence on other institutions, and the Systemic Vulnerability Score (SVS), capturing its exposure to disturbances originating elsewhere. The fitted network reveals distinct transmitting and receiving roles, highlighting differences between institutions with substantial outward influence and those with high incoming sensitivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37487v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Revisiting Privacy Risks in Quantized Deep Neural Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-58-revisiting-privacy-risks-in-quantized"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37488v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-58-revisiting-privacy-risks-in-quantized</id>
+    <updated>2026-10-27T16:14:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37488v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec #neuroscience&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-41-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-40-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-41-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-40-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Hamming Ideals and Grobner Bases for ISD-like Syndrome Decoding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-60-hamming-ideals-and-grobner-bases"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2062"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-60-hamming-ideals-and-grobner-bases</id>
+    <updated>2026-09-16T15:30:55+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate an algebraic approach to the Syndrome Decoding Problem, based on a reformulation of the Hamming weight constraint and its integration with the Information Set Decoding paradigm. We begin with a systematic analysis of the Hamming variety, deriving its defining equations in terms of elementary symmetric functions. Since these equations may have high degree, we exploit convolution identities for elementary symmetric functions, together with factorizations based on Lucas&amp;apos; identity, to derive an equivalent formulation with auxiliary variables and equations of bounded degree.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2062&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Conservative Policy Iteration For Zero-Sum POSGs. Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-88-conservative-policy-iteration-for-zero"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36847v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-88-conservative-policy-iteration-for-zero</id>
+    <updated>2026-10-27T08:45:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs). Existing point-based solvers usually optimise a central value function. This restores Bellman recursion, but it requires point-based updates over high-dimensional occupancy spaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36847v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

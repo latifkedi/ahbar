@@ -5,60 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-10-27T10:06:21.685971338+00:00</updated>
+  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
   <entry>
-    <title>Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-13-trustworthy-recursive-self-improvement-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35193"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-13-trustworthy-recursive-self-improvement-in</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35193&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust&lt;/p&gt;</summary>
+    <title>Security updates for Tuesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-37-security-updates-for-tuesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1103188/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-37-security-updates-for-tuesday</id>
+    <updated>2026-10-27T13:37:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1103188/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-56-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-56-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-56-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-56-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>flodl-bio: First Rust data, transformers and model layer for entire deep learning on biological sequences</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-47-flodl-bio-first-rust-data"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-47-flodl-bio-first-rust-data</id>
-    <updated>2026-10-26T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Python ecosystem dominates the deep learning framework. flodl-bio is a Rust crate that extends flodl, a libtorch-backed deep-learning framework, with deep learning on biological sequences. To our knowledge, flodl-bio is the first Rust crate that provides a comprehensive and practical deep learning for the biological applications, which includes the alphabet-aware sequence encoding, including one-hot and k-mer representations, padded sequences, and channels-first batches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.21.760383v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-41-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-40-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-41-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-40-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-50-dynamic-networks-can-promote-pro"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-54-dynamic-networks-can-promote-pro"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-50-dynamic-networks-can-promote-pro</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-54-dynamic-networks-can-promote-pro</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-51-structure-coefficient-theorem-for-evolutionary"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-51-structure-coefficient-theorem-for-evolutionary</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>On &quot;AI Brendans&quot; or &quot;Virtual Brendans&quot;. There are now multiple AI performance engineering agents that use or are trained on my work.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-27-44-on-ai-brendans-or-virtual"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-43-on-ai-brendans-or-virtual"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-27-44-on-ai-brendans-or-virtual</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-43-on-ai-brendans-or-virtual</id>
     <updated>2025-11-27T13:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;There are now multiple AI performance engineering agents that use or are trained on my work. Some are helper agents that interpret flame graphs or eBPF metrics, sometimes privately called AI Brendan ; others have trained on my work to create a virtual Brendan that claims it can tune everything just like the real thing. These virtual Brendans sound like my brain has been uploaded to the cloud by someone who is now selling it (yikes!).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #distributed-systems&lt;/p&gt;</summary>
   </entry>
