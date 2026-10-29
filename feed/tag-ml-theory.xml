@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-25-constraining-the-commit-boundary-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-25-constraining-the-commit-boundary-a"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37407v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-25-constraining-the-commit-boundary-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-25-constraining-the-commit-boundary-a</id>
     <updated>2026-10-27T15:22:00+00:00</updated>
     <summary type="html">&lt;p&gt;Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI)-informed authorization boundary between evidence available for agent reasoning and evidence eligible to authorize persistent identity-changing mutations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37407v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Strategyproof Deep Reinforcement Learning for Online Resource Allocation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-82-strategyproof-deep-reinforcement-learning-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-82-strategyproof-deep-reinforcement-learning-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37504v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-82-strategyproof-deep-reinforcement-learning-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-82-strategyproof-deep-reinforcement-learning-for</id>
     <updated>2026-10-27T16:25:28+00:00</updated>
     <summary type="html">&lt;p&gt;Online resource allocation faces two coupled challenges: (1) allocating scarce resources efficiently under uncertain future demand, and (2) ensuring that agents report task valuations and requirements truthfully (strategyproofness). Reinforcement Learning (RL) adapts allocation decisions through experience but does not necessarily ensure strategyproofness. Existing strategyproof RL uses a linear allocation rule, which limits the resource interactions it can represent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Conservative Policy Iteration For Zero-Sum POSGs. Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-88-conservative-policy-iteration-for-zero"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-88-conservative-policy-iteration-for-zero"/>
     <link rel="related" href="https://arxiv.org/abs/2610.36847v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-88-conservative-policy-iteration-for-zero</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-88-conservative-policy-iteration-for-zero</id>
     <updated>2026-10-27T08:45:33+00:00</updated>
     <summary type="html">&lt;p&gt;Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs). Existing point-based solvers usually optimise a central value function. This restores Bellman recursion, but it requires point-based updates over high-dimensional occupancy spaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36847v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #infosec&lt;/p&gt;</summary>
   </entry>

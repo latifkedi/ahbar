@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
-    <title>ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-13-thinkworld-world-imagination-reinforces-chain"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37666"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-13-thinkworld-world-imagination-reinforces-chain</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37666&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-14-pdrvla-a-vision-language-action"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37381"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-14-pdrvla-a-vision-language-action</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features to condition action generation without online video generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37381&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+    <title>Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-14-sensorimotor-alignment-a-platonic-proxy"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31670"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-14-sensorimotor-alignment-a-platonic-proxy</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31670&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

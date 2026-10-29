@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
-    <title>Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-25-constraining-the-commit-boundary-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37407v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-25-constraining-the-commit-boundary-a</id>
-    <updated>2026-10-27T15:22:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI)-informed authorization boundary between evidence available for agent reasoning and evidence eligible to authorize persistent identity-changing mutations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37407v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #cryptography&lt;/p&gt;</summary>
+    <title>TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving. Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-18-tao-tool-aware-joint-scheduling"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37230v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-18-tao-tool-aware-joint-scheduling</id>
+    <updated>2026-10-27T13:38:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling framework for LLM-based agentic serving.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37230v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On &quot;AI Brendans&quot; or &quot;Virtual Brendans&quot;. There are now multiple AI performance engineering agents that use or are trained on my work.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-43-on-ai-brendans-or-virtual"/>
-    <link rel="related" href="http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-43-on-ai-brendans-or-virtual</id>
-    <updated>2025-11-27T13:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;There are now multiple AI performance engineering agents that use or are trained on my work. Some are helper agents that interpret flame graphs or eBPF metrics, sometimes privately called AI Brendan ; others have trained on my work to create a virtual Brendan that claims it can tune everything just like the real thing. These virtual Brendans sound like my brain has been uploaded to the cloud by someone who is now selling it (yikes!).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #distributed-systems&lt;/p&gt;</summary>
+    <title>Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-25-constraining-the-commit-boundary-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37407v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-25-constraining-the-commit-boundary-a</id>
+    <updated>2026-10-27T15:22:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI)-informed authorization boundary between evidence available for agent reasoning and evidence eligible to authorize persistent identity-changing mutations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37407v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #cryptography&lt;/p&gt;</summary>
   </entry>
 </feed>

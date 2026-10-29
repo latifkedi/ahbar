@@ -5,69 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
-  <entry>
-    <title>HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-11-habit-bench-evaluating-habit-induction"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.24520"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-11-habit-bench-evaluating-habit-induction</id>
-    <updated>2026-10-19T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24520&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-41-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-41-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The packing and covering number of trees are local</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-21-the-packing-and-covering-number"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-21-the-packing-and-covering-number"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37539v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-21-the-packing-and-covering-number</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-21-the-packing-and-covering-number</id>
     <updated>2026-10-27T16:54:55+00:00</updated>
     <summary type="html">&lt;p&gt;For a graph, its $r$-packing number is the size of the largest $r$-separated set and its $r$-covering number is the size of the smallest $r$-net. We show that the $r$-covering number and $r$-packing number are continuous in the fringe topology on locally finite trees. This recovers convergence results by Meir and Moon for e.g.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Principles for pRHL Proofs of Cryptographic Protocols: How to Convince EasyCrypt that your Protocol is Secure</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-61-principles-for-prhl-proofs-of"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1334"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-61-principles-for-prhl-proofs-of</id>
-    <updated>2026-06-29T08:03:15+00:00</updated>
-    <summary type="html">&lt;p&gt;The EasyCrypt proof assistant has been used to successfully formalize security proofs for a wide variety of cryptographic primitives. However, attempts at formalizing objects with interactivity, such as protocols, have fared much worse. In this paper, we investigate (some of) the reasons for this difficulty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1334&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A gentle introduction to lattice-based cryptography</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-62-a-gentle-introduction-to-lattice"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-62-a-gentle-introduction-to-lattice</id>
-    <updated>2026-05-29T13:08:16+00:00</updated>
-    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A New Approach to Reducing Modulus Requirements in Homomorphic Computation: Precision Allocation in CKKS</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-63-a-new-approach-to-reducing"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2562"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-63-a-new-approach-to-reducing</id>
-    <updated>2026-10-20T12:56:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Fully homomorphic encryption (FHE) enables computation over encrypted data subject to the prescribed security and precision requirements (allowable deviations from ideal results). Among all FHE schemes, CKKS is a representative scheme for approximate arithmetic, allowing the same operation on multiple values packed into a single RLWE ciphertext. Reducing ciphertext modulus $Q$ for given output precision requirements under RLWE security constraints is a central challenge in homomorphic computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2562&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Analyzing Compiler-induced Constant-time Violations with Compiler at Scale. The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-59-analyzing-compiler-induced-constant-time"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2653"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-59-analyzing-compiler-induced-constant-time</id>
+    <updated>2026-10-26T21:06:42+00:00</updated>
+    <summary type="html">&lt;p&gt;The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks. However, compiler optimizations may break constant-time source code during compilation. Systematically preventing this requires understanding where a violation arises, how it is introduced, and which compiler configurations are problematic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2653&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior -- by Jin Huang, Diego Ferreras Garrucho, Yutong Xie, Walter M. Yuan, Qiaozhu Mei, Chen Lian, Jonathon Hazell</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-70-householdbench-evaluating-large-language-models"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-70-householdbench-evaluating-large-language-models"/>
     <link rel="related" href="https://www.nber.org/papers/w35927#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-70-householdbench-evaluating-large-language-models</id>
-    <updated>2026-10-28T10:52:52.756229085+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-70-householdbench-evaluating-large-language-models</id>
+    <updated>2026-10-29T11:09:54.495679868+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) have the potential to meet a key goal in economics: a quantitative model of household decision making, across a variety of settings. Yet existing evaluations cover few surveys and outcomes, and do not study how households adjust to changing economic conditions. We introduce a new evaluation, HouseholdBench, which unites 6 U.S.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35927#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Leaving Intel</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-42-leaving-intel"/>
-    <link rel="related" href="http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-42-leaving-intel</id>
-    <updated>2025-12-04T13:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;InnovatiON 2022 AI Flame Graphs GPU Flame Scope Harshad Sane SREcon APAC Cloud strategy Last day I&amp;apos;ve resigned from Intel and accepted a new opportunity. If you are an Intel employee, you might have seen my fairly long email that summarized what I did in my 3.5 years. Much of this is public: AI flame graphs and released them as open source GPU subsecond-offset heatmap Worked with Linux distros to enable stack walking Was interviewed by the WSJ about eBPF for security monitoring Provided leadership on the eBPF Technical Steering Committee ( BSC ) Co-chaired USENIX SREcon APAC 2023 Gave 6 conference keynotes It&amp;apos;s still early days for AI flame graphs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
+    <title>On the diameter and distribution of Sidon sets. Daniel Carter, Kevin O’Bryant, and I have uploaded to the arXiv our paper On the diameter and distribution of Sidon sets.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-27-on-the-diameter-and-distribution"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-27-on-the-diameter-and-distribution</id>
+    <updated>2026-10-29T04:05:18+00:00</updated>
+    <summary type="html">&lt;p&gt;Daniel Carter, Kevin O’Bryant, and I have uploaded to the arXiv our paper On the diameter and distribution of Sidon sets. This is a paper stemming from an interaction on my blog last year, regarding the use of AlphaEvolve to improve the then state of the art on the size of Sidon sets. We obtained […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/28/on-the-diameter-and-distribution-of-sidon-sets/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

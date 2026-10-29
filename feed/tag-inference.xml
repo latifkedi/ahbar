@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-10-can-discrete-tokens-serve-as"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-10-can-discrete-tokens-serve-as"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37662"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-10-can-discrete-tokens-serve-as</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-10-can-discrete-tokens-serve-as</id>
     <updated>2026-10-26T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37662&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-18-channel-selection-for-mixture-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37386"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-18-channel-selection-for-mixture-of</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typically keeping channels above a threshold calibrated on offline data. We show that channel selection needs no calibration data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37386&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
   </entry>
 </feed>

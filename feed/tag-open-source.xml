@@ -5,77 +5,93 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-source.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-source.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
-  <entry>
-    <title>Python&apos;s experimental JIT to be removed. Python&apos;s experimental just-in-time (JIT) compiler , which was added to CPython in 2024 for the 3.13 release , is on its way out.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-01-python-s-experimental-jit-to"/>
-    <link rel="related" href="https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-01-python-s-experimental-jit-to</id>
-    <updated>2026-10-27T11:17:57Z</updated>
-    <summary type="html">&lt;p&gt;Python&amp;apos;s experimental just-in-time (JIT) compiler , which was added to CPython in 2024 for the 3.13 release , is on its way out. In June, the Python steering council announced that it was pausing work on the JIT in CPython&amp;apos;s main branch until there was an accepted Python Enhancement Proposal (PEP) that addressed concerns about maintenance, compatibility, and set clear success metrics as well as a timeline for completion. After creating PEP 836 (&amp;quot;JIT Go Brrr: The Path to a Supported JIT Compiler for CPython&amp;quot;) to try to meet the council&amp;apos;s request, and after months of discussion, the JIT maintainers have withdrawn the PEP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-02-show-hn-an-e-ink"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-01-show-hn-an-e-ink"/>
     <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-02-show-hn-an-e-ink</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-01-show-hn-an-e-ink</id>
     <updated>2026-09-15T12:31:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Code-execution flaw in UEFI firmware threatens most servers on planet Earth</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-04-code-execution-flaw-in-uefi"/>
-    <link rel="related" href="https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-04-code-execution-flaw-in-uefi</id>
-    <updated>2026-10-27T20:35:09Z</updated>
-    <summary type="html">&lt;p&gt;Critical flaw in EDK2 allows attackers to execute code early in the boot process.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Why is this fingerprinting script creating bioweapons?. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-03-why-is-this-fingerprinting-script"/>
+    <link rel="related" href="https://nullpt.rs/fingerprinting-bioweapons"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-03-why-is-this-fingerprinting-script</id>
+    <updated>2026-10-28T17:13:29Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://nullpt.rs/fingerprinting-bioweapons&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-03-show-hn-can-t-afford"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-02-show-hn-can-t-afford"/>
     <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-03-show-hn-can-t-afford</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-02-show-hn-can-t-afford</id>
     <updated>2021-02-25T01:47:30Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Apple&apos;s git still trusts the compromised eMudhra certificates. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-04-apple-s-git-still-trusts"/>
+    <link rel="related" href="https://emudhra.we-have-a-problem.com/apple.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-04-apple-s-git-still-trusts</id>
+    <updated>2026-10-28T11:03:40Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://emudhra.we-have-a-problem.com/apple.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Show HN: This up votes itself</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-05-show-hn-this-up-votes"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-05-show-hn-this-up-votes"/>
     <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-05-show-hn-this-up-votes</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-05-show-hn-this-up-votes</id>
     <updated>2012-03-23T00:40:39Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-06-show-hn-gemini-pro-3"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-06-show-hn-gemini-pro-3"/>
     <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-06-show-hn-gemini-pro-3</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-06-show-hn-gemini-pro-3</id>
     <updated>2025-12-09T15:00:38Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: I made an open-source laptop from scratch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-07-show-hn-i-made-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-07-show-hn-i-made-an"/>
     <link rel="related" href="https://www.byran.ee/posts/creation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-07-show-hn-i-made-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-07-show-hn-i-made-an</id>
     <updated>2025-01-22T20:41:52Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-37-qwenputer-a-functioning-deterministic-risc"/>
+    <link rel="related" href="https://divagr.com/blog/qwenputer"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-37-qwenputer-a-functioning-deterministic-risc</id>
+    <updated>2026-10-29T00:25:45Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://divagr.com/blog/qwenputer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #semiconductors&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Show HN: If YouTube had actual channels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-08-show-hn-if-youtube-had"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-08-show-hn-if-youtube-had"/>
     <link rel="related" href="https://ytch.xyz"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-08-show-hn-if-youtube-had</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-08-show-hn-if-youtube-had</id>
     <updated>2024-08-14T15:10:06Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: A retro video game console I&apos;ve been working on in my free time</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-09-show-hn-a-retro-video"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-09-show-hn-a-retro-video"/>
     <link rel="related" href="https://internalregister.github.io/2019/03/14/Homebrew-Console.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-09-show-hn-a-retro-video</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-09-show-hn-a-retro-video</id>
     <updated>2019-03-14T20:25:03Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://internalregister.github.io/2019/03/14/Homebrew-Console.html&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>GitLab Security Incident: Attempted Exploitation of CVE-2026-97229. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-38-gitlab-security-incident-attempted-exploitation"/>
+    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-38-gitlab-security-incident-attempted-exploitation</id>
+    <updated>2026-10-28T23:45:46Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,20 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
-  <entry>
-    <title>Identification of gene kinetics patterns improves RNA velocity and cell fate prediction using JuloVelo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-51-identification-of-gene-kinetics-patterns"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-51-identification-of-gene-kinetics-patterns</id>
-    <updated>2026-10-27T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Single-cell RNA velocity has transformed our capacity to predict future cell states from sequencing snapshots, but existing methods rely on constant or binary kinetic assumptions that fail to capture the heterogeneous splicing dynamics of cellular differentiation. Here we present JuloVelo, a deep learning framework that demonstrates that identifying gene kinetics patterns to initialize neural network training dramatically improves RNA velocity model performance. By pre-determining whether each gene follows a Circle, Complete induction, or Complete repression pattern across cellular differentiation, JuloVelo initializes training with pattern-matched, pre-trained network weights, effectively guiding the cell-specific kinetics optimization away from biologically implausible parameter regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.24.761531v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Revisiting Privacy Risks in Quantized Deep Neural Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-58-revisiting-privacy-risks-in-quantized"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-58-revisiting-privacy-risks-in-quantized"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37488v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-58-revisiting-privacy-risks-in-quantized</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-58-revisiting-privacy-risks-in-quantized</id>
     <updated>2026-10-27T16:14:21+00:00</updated>
     <summary type="html">&lt;p&gt;Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37488v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec #neuroscience&lt;/p&gt;</summary>
   </entry>

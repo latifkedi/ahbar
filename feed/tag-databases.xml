@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-databases.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-databases.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
-  <entry>
-    <title>Security updates for Tuesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-37-security-updates-for-tuesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1103188/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-37-security-updates-for-tuesday</id>
-    <updated>2026-10-27T13:37:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1103188/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-40-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-43-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-40-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-43-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Why I joined OpenAI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-41-why-i-joined-openai"/>
-    <link rel="related" href="http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-41-why-i-joined-openai</id>
-    <updated>2026-02-06T13:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The staggering and fast-growing cost of AI datacenters is a call for performance engineering like no other in history; it&amp;apos;s not just about saving costs – it&amp;apos;s about saving the planet. I have joined OpenAI to work on this challenge directly, with an initial focus on ChatGPT performance. The scale is extreme and the growth is mind-boggling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases&lt;/p&gt;</summary>
+    <title>More Efficient Secret-Shared Joins with Multiplicity via Oblivious Sort Expansion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-63-more-efficient-secret-shared-joins"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1957"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-63-more-efficient-secret-shared-joins</id>
+    <updated>2026-09-10T03:28:23+00:00</updated>
+    <summary type="html">&lt;p&gt;Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice, join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM) and many-to-many (Join-MM) relationships. Supporting such joins requires obliviously materializing all matching row pairs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1957&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #databases&lt;/p&gt;</summary>
   </entry>
 </feed>

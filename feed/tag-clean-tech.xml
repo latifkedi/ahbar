@@ -5,12 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <entry>
+    <title>DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-11-dtca-denoising-token-credit-assignment"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35201"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-11-dtca-denoising-token-credit-assignment</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35201&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Meet-in-the-Middle Compilation of the $[\mathrm{CNOT}]$ Class with Fibonacci Anyons</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-32-meet-in-the-middle-compilation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-32-meet-in-the-middle-compilation"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37552v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-32-meet-in-the-middle-compilation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-32-meet-in-the-middle-compilation</id>
     <updated>2026-10-27T17:01:43+00:00</updated>
     <summary type="html">&lt;p&gt;Compilation of two-qubit Fibonacci anyon gates is complicated by leakage ($\ell$) from the four-dimensional computational sector to the fifth state of the fusion space. We construct a GPU pipeline to find low-leakage representatives of the $[\text{CNOT}]$ class on different subsets of the braid group. We exhaustively explore the full positive five-generator alphabet up to $L=21$ with minimal leakage $\ell\sim10^{-3}$ and error $d_{[\text{CNOT}]}\sim 10^{-8}$ on it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37552v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #clean-tech&lt;/p&gt;</summary>
   </entry>

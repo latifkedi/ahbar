@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Characterizing Maximum Nash Welfare: Envy-Freeness and Proportionality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-65-characterizing-maximum-nash-welfare-envy"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-65-characterizing-maximum-nash-welfare-envy"/>
     <link rel="related" href="https://arxiv.org/abs/2610.36712v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-65-characterizing-maximum-nash-welfare-envy</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-65-characterizing-maximum-nash-welfare-envy</id>
     <updated>2026-10-27T06:27:17+00:00</updated>
     <summary type="html">&lt;p&gt;When allocating indivisible goods, the maximum Nash welfare rule is known to be the unique welfarist rule satisfying envy-freeness up to one good. We strengthen this characterization by showing that envy-freeness up to one good can be replaced by substantially weaker fairness requirements: envy-freeness up to $k$ goods or proportionality up to $k$ goods, for any fixed $k$. Our characterization holds even for profiles with identical goods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36712v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Sybil-Proofness of Generalized Adaptive Clinching and Implications for Blockchain Mechanism Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-66-sybil-proofness-of-generalized-adaptive"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-66-sybil-proofness-of-generalized-adaptive"/>
     <link rel="related" href="https://arxiv.org/abs/2610.36629v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-66-sybil-proofness-of-generalized-adaptive</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-66-sybil-proofness-of-generalized-adaptive</id>
     <updated>2026-10-27T04:33:07+00:00</updated>
     <summary type="html">&lt;p&gt;The adaptive clinching auction of Dobzinski, Lavi, and Nisan (FOCS&amp;apos;08) is a cornerstone of mechanism design with budget-constrained bidders, and it has since inspired a broad range of extensions to substantially richer market settings. Adaptive clinching enjoys compelling guarantees: it is Pareto optimal, and truthful bidding is a dominant strategy whenever budgets cannot be overreported. In many real-world environments, however, identities are cheap to create, making resilience to Sybil attacks an additional requirement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36629v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-68-tokenised-sukuk-a-verifiable-architecture"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-68-tokenised-sukuk-a-verifiable-architecture"/>
     <link rel="related" href="https://arxiv.org/abs/2610.33538v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-68-tokenised-sukuk-a-verifiable-architecture</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-68-tokenised-sukuk-a-verifiable-architecture</id>
     <updated>2026-10-24T08:33:46+00:00</updated>
     <summary type="html">&lt;p&gt;Security-token standards such as ERC-3643 decide who may hold a token, not what stands behind it. For a sukuk this gap matters: whether a certificate may trade at a negotiated price depends on what its portfolio contains, and a token that checks only investor identity keeps trading after every non-debt asset has been sold. We ask whether this tradability condition can be enforced on-chain, and at what cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33538v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design&lt;/p&gt;</summary>
   </entry>

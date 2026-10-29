@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-10-can-discrete-tokens-serve-as"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-10-can-discrete-tokens-serve-as"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37662"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-10-can-discrete-tokens-serve-as</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-10-can-discrete-tokens-serve-as</id>
     <updated>2026-10-26T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37662&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-11-habit-bench-evaluating-habit-induction"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.24520"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-11-habit-bench-evaluating-habit-induction</id>
-    <updated>2026-10-19T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.24520&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-13-thinkworld-world-imagination-reinforces-chain"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37666"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-13-thinkworld-world-imagination-reinforces-chain</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37666&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Memory Tax: Dissecting the Net Value of Agent Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-12-memory-tax-dissecting-the-net"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34073"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-12-memory-tax-dissecting-the-net</id>
-    <updated>2026-10-24T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains and losses over direct retrieval, termed memory benefit and memory tax.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34073&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-14-pdrvla-a-vision-language-action"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37381"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-14-pdrvla-a-vision-language-action</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language features to condition action generation without online video generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37381&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-15-truncate-or-not-a-scaling"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.26030"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-15-truncate-or-not-a-scaling</id>
-    <updated>2026-10-19T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Looped transformers reuse a shared block of layers to increase computational depth without increasing the number of trainable parameters. They are trained with backpropagation through time (BPTT). To save training compute, BPTT is often truncated to the last few loops, but truncation yields biased gradients that may weaken the benefit of looping.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.26030&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-16-the-trinity-capability-driven-recursive"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36077"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-16-the-trinity-capability-driven-recursive</id>
+    <title>DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-11-dtca-denoising-token-credit-assignment"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35201"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-11-dtca-denoising-token-credit-assignment</id>
     <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36077&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35201&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-12-efficient-streaming-audio-visual-target"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.32749"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-12-efficient-streaming-audio-visual-target</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32749&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Multiscale Policy Optimization for Long-Horizon LLM Agents. Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-13-multiscale-policy-optimization-for-long"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35013"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-13-multiscale-policy-optimization-for-long</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35013&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-14-sensorimotor-alignment-a-platonic-proxy"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.31670"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-14-sensorimotor-alignment-a-platonic-proxy</id>
+    <updated>2026-10-22T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31670&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-15-omnishowcase-omnidirectional-subject-consistent-video"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35684"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-15-omnishowcase-omnidirectional-subject-consistent-video</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject&amp;apos;s unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35684&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-17-zooming-without-zooming-v2-from"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-16-zooming-without-zooming-v2-from"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37037"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-17-zooming-without-zooming-v2-from</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-16-zooming-without-zooming-v2-from</id>
     <updated>2026-10-26T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37037&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-18-channel-selection-for-mixture-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37386"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-18-channel-selection-for-mixture-of</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Mixture-of-Experts (MoE) models are bottlenecked by loading routed-expert weights from memory during interactive decoding at small batch sizes. Because most intermediate channels in a routed expert contribute little to any single token, channel selectors predict which channels matter and read only their weights, typically keeping channels above a threshold calibrated on offline data. We show that channel selection needs no calibration data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37386&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-17-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-17-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving. Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-18-tao-tool-aware-joint-scheduling"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.37230v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-18-tao-tool-aware-joint-scheduling</id>
+    <updated>2026-10-27T13:38:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling framework for LLM-based agentic serving.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37230v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

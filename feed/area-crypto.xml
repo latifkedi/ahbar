@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-crypto.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-crypto.xml</id>
-  <updated>2026-10-28T10:52:52.412612922+00:00</updated>
+  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>PQ spending for Stealth Address Protocol. PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-56-pq-spending-for-stealth-address"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-56-pq-spending-for-stealth-address"/>
     <link rel="related" href="https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-56-pq-spending-for-stealth-address</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-56-pq-spending-for-stealth-address</id>
     <updated>2026-09-28T01:09:06+00:00</updated>
     <summary type="html">&lt;p&gt;PQ SAP - PQ Anonymity Thanks Hy, @mmjahanara , @Pierre , @winderica , and kassandra for useful discussion and feedback. TLDR; This post is the 2nd post of a series of posts on Stealth Address Protocol and its Post-quantum upgrade. See Post Quantum Stealth Address Protocol for the 1st post.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/pq-spending-for-stealth-address-protocol/26095&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-57-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-57-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-57-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-57-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Revisiting Privacy Risks in Quantized Deep Neural Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-58-revisiting-privacy-risks-in-quantized"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-58-revisiting-privacy-risks-in-quantized"/>
     <link rel="related" href="https://arxiv.org/abs/2610.37488v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-58-revisiting-privacy-risks-in-quantized</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-58-revisiting-privacy-risks-in-quantized</id>
     <updated>2026-10-27T16:14:21+00:00</updated>
     <summary type="html">&lt;p&gt;Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37488v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Capacity-Approaching Pseudorandom Code for Stochastic Edit Channels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-59-capacity-approaching-pseudorandom-code-for"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2179"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-59-capacity-approaching-pseudorandom-code-for</id>
-    <updated>2026-09-23T13:11:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Pseudorandom codes (PRCs) are error-correcting codes whose codewords are computationally indistinguishable from uniformly random strings to any efficient adversary. We study public-key multi-bit PRCs over the stochastic memoryless binary substitution-insertion-deletion channel and its $q$-ary generalization. Here $P_i,P_d$ are the insertion and deletion probabilities, and $P_s$ is the substitution probability conditional on transmission.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2179&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Analyzing Compiler-induced Constant-time Violations with Compiler at Scale. The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-59-analyzing-compiler-induced-constant-time"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2653"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-59-analyzing-compiler-induced-constant-time</id>
+    <updated>2026-10-26T21:06:42+00:00</updated>
+    <summary type="html">&lt;p&gt;The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks. However, compiler optimizations may break constant-time source code during compilation. Systematically preventing this requires understanding where a violation arises, how it is introduced, and which compiler configurations are problematic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2653&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Hamming Ideals and Grobner Bases for ISD-like Syndrome Decoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-60-hamming-ideals-and-grobner-bases"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2062"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-60-hamming-ideals-and-grobner-bases</id>
-    <updated>2026-09-16T15:30:55+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate an algebraic approach to the Syndrome Decoding Problem, based on a reformulation of the Hamming weight constraint and its integration with the Information Set Decoding paradigm. We begin with a systematic analysis of the Hamming variety, deriving its defining equations in terms of elementary symmetric functions. Since these equations may have high degree, we exploit convolution identities for elementary symmetric functions, together with factorizations based on Lucas&amp;apos; identity, to derive an equivalent formulation with auxiliary variables and equations of bounded degree.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2062&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+    <title>ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-60-reedweave-faster-reed-solomon-polynomial"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2147"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-60-reedweave-faster-reed-solomon-polynomial</id>
+    <updated>2026-09-22T04:13:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding&amp;apos;&amp;apos; Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operate on the largest codewords and dominate the prover work.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2147&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Principles for pRHL Proofs of Cryptographic Protocols: How to Convince EasyCrypt that your Protocol is Secure</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-61-principles-for-prhl-proofs-of"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1334"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-61-principles-for-prhl-proofs-of</id>
-    <updated>2026-06-29T08:03:15+00:00</updated>
-    <summary type="html">&lt;p&gt;The EasyCrypt proof assistant has been used to successfully formalize security proofs for a wide variety of cryptographic primitives. However, attempts at formalizing objects with interactivity, such as protocols, have fared much worse. In this paper, we investigate (some of) the reasons for this difficulty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1334&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>RDK-CKKS: A Framework for Rigorous Error Analysis of CKKS Computation. The CKKS scheme allows approximate arithmetic on encrypted data, and has found widespread use in privacy-preserving computation.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-61-rdk-ckks-a-framework-for"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2575"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-61-rdk-ckks-a-framework-for</id>
+    <updated>2026-10-21T02:14:58+00:00</updated>
+    <summary type="html">&lt;p&gt;The CKKS scheme allows approximate arithmetic on encrypted data, and has found widespread use in privacy-preserving computation. A rigorous control of its homomorphic error is critical for both precision and security guarantees. In particular, in some settings such as IND-CPA^D or threshold settings, the latter computation error should be hidden at the time of decryption.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2575&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A gentle introduction to lattice-based cryptography</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-62-a-gentle-introduction-to-lattice"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-62-a-gentle-introduction-to-lattice</id>
-    <updated>2026-05-29T13:08:16+00:00</updated>
-    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Knowledge Soundness of Polynomial Commitments in the Algebraic Group Model Does Not Guarantee Extractability</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-62-knowledge-soundness-of-polynomial-commitments"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/284"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-62-knowledge-soundness-of-polynomial-commitments</id>
+    <updated>2026-02-17T06:38:28+00:00</updated>
+    <summary type="html">&lt;p&gt;The Algebraic Group Model (AGM) has become a standard framework for analyzing the knowledge soundness of group-based polynomial commitment schemes. In this work, we formally establish inherent limitations of this methodology. For many PCSs analyzed in the AGM, the algebraic explanation directly determines a polynomial and any required randomness that together reproduce the commitment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/284&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A New Approach to Reducing Modulus Requirements in Homomorphic Computation: Precision Allocation in CKKS</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-28-63-a-new-approach-to-reducing"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2562"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-28-63-a-new-approach-to-reducing</id>
-    <updated>2026-10-20T12:56:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Fully homomorphic encryption (FHE) enables computation over encrypted data subject to the prescribed security and precision requirements (allowable deviations from ideal results). Among all FHE schemes, CKKS is a representative scheme for approximate arithmetic, allowing the same operation on multiple values packed into a single RLWE ciphertext. Reducing ciphertext modulus $Q$ for given output precision requirements under RLWE security constraints is a central challenge in homomorphic computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2562&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>More Efficient Secret-Shared Joins with Multiplicity via Oblivious Sort Expansion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-63-more-efficient-secret-shared-joins"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1957"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-63-more-efficient-secret-shared-joins</id>
+    <updated>2026-09-10T03:28:23+00:00</updated>
+    <summary type="html">&lt;p&gt;Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice, join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM) and many-to-many (Join-MM) relationships. Supporting such joins requires obliviously materializing all matching row pairs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1957&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #databases&lt;/p&gt;</summary>
   </entry>
 </feed>
