@@ -5,20 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-high-energy.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-high-energy.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
-  <entry>
-    <title>Meet-in-the-Middle Compilation of the $[\mathrm{CNOT}]$ Class with Fibonacci Anyons</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-32-meet-in-the-middle-compilation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37552v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-32-meet-in-the-middle-compilation</id>
-    <updated>2026-10-27T17:01:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Compilation of two-qubit Fibonacci anyon gates is complicated by leakage ($\ell$) from the four-dimensional computational sector to the fifth state of the fusion space. We construct a GPU pipeline to find low-leakage representatives of the $[\text{CNOT}]$ class on different subsets of the braid group. We exhaustively explore the full positive five-generator alphabet up to $L=21$ with minimal leakage $\ell\sim10^{-3}$ and error $d_{[\text{CNOT}]}\sim 10^{-8}$ on it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37552v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #clean-tech&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
     <title>Octonions and the Standard Model (Part 15)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-26-octonions-and-the-standard-model"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-26-octonions-and-the-standard-model"/>
     <link rel="related" href="https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-26-octonions-and-the-standard-model</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-26-octonions-and-the-standard-model</id>
     <updated>2026-07-18T17:56:16+00:00</updated>
     <summary type="html">&lt;p&gt;John Baez, Endre Bokor and Latham Boyle have a new paper which gets at the Standard Model gauge group and its representation on one generation of fermions starting from a Jordan triple that consists of pairs of bioctonions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://golem.ph.utexas.edu/category/2026/07/octonions_and_the_standard_mod_14.html&quot;&gt;The n-Category Café (Math, Physics &amp;amp; Philosophy)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #algebra-geometry #formal-proofs #high-energy&lt;/p&gt;</summary>
   </entry>

@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-11-dtca-denoising-token-credit-assignment"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35201"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-11-dtca-denoising-token-credit-assignment</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35201&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-11-l3g-world-real-time-infinite"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40614"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-11-l3g-world-real-time-infinite</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40614&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HairDeck: Animation-Ready Stylized Hair Cards from a Single Image</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-13-hairdeck-animation-ready-stylized-hair"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40599"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-13-hairdeck-animation-ready-stylized-hair</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: each card is a single token, and a set diffusion transformer denoises all cards together.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40599&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-14-look-only-when-needed-certificate"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36671"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-14-look-only-when-needed-certificate</id>
+    <updated>2026-10-26T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36671&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

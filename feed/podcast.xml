@@ -11,26 +11,26 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #11 (2026-10-29)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-10-29</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-10-29:issue:11</guid>
-      <pubDate>2026-10-29T11:09:54.095856658+00:00</pubDate>
-      <description>Ahbar Sayı #11 (2026-10-29):
+      <title>Ahbar Günlük Bülten — Sayı #12 (2026-10-30)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-10-30</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-10-30:issue:12</guid>
+      <pubDate>2026-10-30T11:04:22.310321740+00:00</pubDate>
+      <description>Ahbar Sayı #12 (2026-10-30):
 
 1. [Bilgisayar Bilimi &amp; Yazılım] Show HN: Kuşların sesini duyan ve onları 1800&apos;lerden kalma resimler gibi çizen bir e-mürekkep çerçevesi
 Bilgisayar Bilimi ve Yazılımında Show HN (Trend Repoları ve Araçları) aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] Ayrık Jetonlar Görsel Sinyallerin Anlamsal Olarak Kayıpsız Temsilleri Olarak Hizmet Verebilir mi?
-Ayrık görsel belirteçler, vizyonu dile benzer ayrı bir biçimde temsil eder ve paylaşılan bir sonraki belirteç tahmin hedefi altında çok modlu modelleme için yerel bir arayüz sunar. Bununla birlikte, niceleme hatasının, kaçınılmaz anlamsal kayba neden olduğu, ayrık görsel belirteçlerin anlamsal doğruluğunu temel olarak sınırladığı ve sürekli konumlandırmaya neden olduğu yaygın olarak kabul edilmektedir.
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] İçsel Dağıtım Eşleştirme
+Tek adımlı ve birkaç adımlı metinden görüntüye oluşturma, sınırlı iyileştirme fırsatlarına rağmen istemde belirtilen ayrıntıları doğru bir şekilde oluşturmalıdır. Dağıtım eşleştirme damıtma (DMD), oluşturulan dağıtımı bir referans dağıtıma yaklaştırmak için puan farklarını kullanır. Önceki çalışmayı takiben, bu farkı iç hız ile tahmin ediyoruz…
 
-3. [Matematik &amp; Biçimsel Bilimler] Açık ASEP I&apos;in durağan ölçümleri için keskin yaklaşımlar: Şok bölgesi
-Fan bölgesindeki açık asimetrik basit dışlama sürecinin (ASEP) durağan ölçüsünü genel sınır oranlarıyla inceliyoruz. Maksimum akım fazındaki ve yelpaze bölgesi içindeki sınırlarındaki sabit yükseklik dalgalanmalarının, Brownian gezinimleri veya menderesleri içeren sınırlara sahip olduğu bilinmektedir. Bu sınırların ayrık karşılıklarını oluşturuyoruz…
+3. [Matematik &amp; Biçimsel Bilimler] Yarı-Riemann hipotezi. Maksym Radzi&apos;nin yarın Courant&apos;ta yarı-Riemann hipotezi üzerine hibrit bir konuşma yapacağına dair kısa bir not.
+Maksym Radzi&apos;nin yarın Courant&apos;ta yarı-Riemann hipotezi üzerine hibrit bir konuşma yapacağına dair kısa bir not.
 
-4. [Fizik, Kuantum &amp; Uzay] Liouvillian&apos;ın istisnai noktalarında optimum kuantum ayrımcılığı. Hermitsel olmayan algılamanın merkezinde, istisnai noktaların (EP&apos;ler) zayıf pertürbasyonların tespit edilmesini kolaylaştırıp kolaylaştıramayacağı sorusu vardır.
-Hermitsel olmayan algılamanın merkezinde, istisnai noktaların (EP&apos;ler) zayıf pertürbasyonların tespit edilmesini kolaylaştırıp kolaylaştıramayacağı sorusu vardır. Gelişmiş spektral tepkiye rağmen, benzersiz bir durağan duruma ve sıfırdan farklı bir gevşeme aralığına sahip sonlu boyutlu Lindblad sistemlerinde EP&apos;lerin, güven için gereken gözlem süresinin nasıl olduğu konusunda temel bir avantaj sunmadığını gösteriyoruz.
+4. [Fizik, Kuantum &amp; Uzay] Kuantum Kromatik Boşluk II Üzerine
+İlk yazarın [SODA&apos;26], Khot&apos;un $d$-to-$1$ oyunları için güçlü bir sözde telepati biçimi hakkındaki varsayımını doğruluyoruz: her $d\geq 4$, her $ε&gt;0$ ve her $k\in\mathbb N$ için, klasik değeri $ε$&apos;den düşük olan ve mükemmel bir kuantum stratejisini kabul eden bir $d$-to-$1$ etiket kapağı oyunu vardır. Ölçüm bağlamıyla sonlu boyutlu paylaşılan dolaşıklık…
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Qwenputer: Qwen3.5&apos;in içindeki işleyen, deterministik bir RISC-V CPU. Yorumlar
-Yorumlar
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Perşembe günü güvenlik güncellemeleri
+Güvenlik güncellemeleri AlmaLinux (ca-sertifikalar, kokpit makineleri, konteyner araçları: 4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine ve sac) tarafından yayınlandı. golang-github-openprinting-ipp-usb, grafana-pcp, hplip, çekirdek, nodejs:14, nodejs:18, açık…
 
 6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] Merck/Moderna Sonuçları
 Bu, bir biyofarma haberini borsaya değil bilime dayalı olarak değerlendirmeniz gereken zamanlardan biridir ve çoktur. Merck ve Moderna&apos;nın melanom hastalarında ameliyat sonrası aşı (intismeran otojen)/Keytruda kombinasyonu için dün yayınladığı klinik araştırma verilerine atıfta bulunuyorum. Bu muhtemelen &quot;serbest bırakma&quot; şeklinde olmalıdır.
@@ -38,14 +38,14 @@ Bu, bir biyofarma haberini borsaya değil bilime dayalı olarak değerlendirmeni
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Avrupa Bankacılığında Eşzamanlı İletim Ağları ve Sistemik Risk
-Eş zamanlı özsermaye getirisi aktarımının, listelenen 51 Avrupa bankası arasında sistemik riskleri nasıl şekillendirdiğini inceliyoruz. Volatiliteye göre standartlaştırılmış getirilere ilişkin yinelemeli Gaussian olmayan bir ağ modeli kullanarak, doğrudan ve dolaylı aktarım etkilerine dayalı iki piyasa değeri ağırlıklı ölçü oluşturuyoruz: Sistemik Etki Skoru (SIS), bir bankanın potansiyel getirilerini yakalıyor…
+8. [Ekonomi, Finans &amp; Makro Analiz] Platform Ücretleri, Vergiler ve Sübvansiyonlarla Çevrimiçi Pazaryerlerinde Rekabetçi Dengeleri Bulma
+Çok birimli ticaret ağlarında denge hesaplamasını, genelleştirilmiş tam ikameleri ve acenteye ve işleme özgü parçalı doğrusal transfer fonksiyonlarını tatmin eden değerlemelerle inceliyoruz. Bu transferler platform ücretlerini, vergileri, sübvansiyonları ve çevrimiçi pazar yerlerindeki üyelik indirimlerini model alır. Artan prosedürümüz fiyatları farklı oranlarda yükseltir ve…
 
 9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Pakistan&apos;ın değişen kalkınma yardımı ortamı: Belirtiler, sonuçlar ve fırsatlar
 Pakistan&apos;ın kalkınma yardımı manzarası büyük bir yapısal değişimden geçiyor. Batının ikili yardımı azalıyor, çok taraflı kalkınma bankası (MDB) finansmanı bunu telafi etmek için artıyor ve Batılı olmayan ikili ve hayırseverlik akışları istikrarlı bir şekilde artıyor. Pakistan&apos;ın değişen kalkınma yardımı manzarası sonrası: Tezahürler, çıkarımlar,…
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Çevrimiçi Kaynak Tahsisi için Stratejiye Uygun Derin Takviyeli Öğrenme
-Çevrimiçi kaynak tahsisi birbiriyle bağlantılı iki zorlukla karşı karşıyadır: (1) gelecekteki belirsiz talep altında kıt kaynakların verimli bir şekilde tahsis edilmesi ve (2) temsilcilerin görev değerlemelerini ve gereksinimleri doğru bir şekilde raporlamasını sağlamak (stratejiye dayanıklılık). Takviyeli Öğrenme (RL), tahsis kararlarını deneyim yoluyla uyarlar ancak mutlaka stratejiye uygunluğu garanti etmez. E…
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] NADİR: Fiyatlandırma Oyunlarında Tepki Farkına Sahip Rasyonel Denge
+Bütçe kısıtlı alıcıların olduğu pazarlarda, her satıcının kendi belirlediği fiyata tek bir mal sunduğu ve her alıcının bütçesine bağlı olarak faydayı maksimize eden bir paket seçtiği bir fiyatlandırma oyunu üzerinde çalışıyoruz. Hem fiziksel mallara yönelik pazarlar gibi rekabetçi ortamları, hem de veri kümeleri pazarları gibi rakip olmayan ortamları göz önünde bulunduruyoruz. Saf Nash dengeleri…
 
 </description>
       <itunes:duration>300</itunes:duration>

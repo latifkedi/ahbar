@@ -5,93 +5,109 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>Characterizing Maximum Nash Welfare: Envy-Freeness and Proportionality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-65-characterizing-maximum-nash-welfare-envy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36712v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-65-characterizing-maximum-nash-welfare-envy</id>
-    <updated>2026-10-27T06:27:17+00:00</updated>
-    <summary type="html">&lt;p&gt;When allocating indivisible goods, the maximum Nash welfare rule is known to be the unique welfarist rule satisfying envy-freeness up to one good. We strengthen this characterization by showing that envy-freeness up to one good can be replaced by substantially weaker fairness requirements: envy-freeness up to $k$ goods or proportionality up to $k$ goods, for any fixed $k$. Our characterization holds even for profiles with identical goods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36712v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+    <title>Finding Competitive Equilibria in Online Marketplaces with Platform Fees, Taxes, and Subsidies</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-64-finding-competitive-equilibria-in-online"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40626v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-64-finding-competitive-equilibria-in-online</id>
+    <updated>2026-10-29T17:56:24+00:00</updated>
+    <summary type="html">&lt;p&gt;We study equilibrium computation in multi-unit trading networks with valuations satisfying generalized full substitutes and agent- and transaction-specific piecewise-linear transfer functions. These transfers model platform fees, taxes, subsidies, and membership discounts in online marketplaces. Our ascending procedure raises prices at different rates and reaches the minimum equilibrium price vector in finitely many iterations, each implementable in strongly polynomial time under our oracle and arithmetic models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40626v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sybil-Proofness of Generalized Adaptive Clinching and Implications for Blockchain Mechanism Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-66-sybil-proofness-of-generalized-adaptive"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36629v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-66-sybil-proofness-of-generalized-adaptive</id>
-    <updated>2026-10-27T04:33:07+00:00</updated>
-    <summary type="html">&lt;p&gt;The adaptive clinching auction of Dobzinski, Lavi, and Nisan (FOCS&amp;apos;08) is a cornerstone of mechanism design with budget-constrained bidders, and it has since inspired a broad range of extensions to substantially richer market settings. Adaptive clinching enjoys compelling guarantees: it is Pareto optimal, and truthful bidding is a dominant strategy whenever budgets cannot be overreported. In many real-world environments, however, identities are cheap to create, making resilience to Sybil attacks an additional requirement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36629v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Persistence of Bounded Rationality in Financial Markets: An Evolutionary Game-Theoretic Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-65-persistence-of-bounded-rationality-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39198v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-65-persistence-of-bounded-rationality-in</id>
+    <updated>2026-10-29T02:21:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical theory predicts that irrational traders lose money to rational traders and are eventually driven out of the market. Yet noise trading, herding, and heuristic trading persist even in highly developed markets. We model a financial market as an ecology of two trading-behavior types, relatively rational (R) and boundedly rational (N), whose composition evolves under replicator dynamics according to relative performance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39198v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Strategyproof Deep Reinforcement Learning for Online Resource Allocation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-82-strategyproof-deep-reinforcement-learning-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37504v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-82-strategyproof-deep-reinforcement-learning-for</id>
-    <updated>2026-10-27T16:25:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Online resource allocation faces two coupled challenges: (1) allocating scarce resources efficiently under uncertain future demand, and (2) ensuring that agents report task valuations and requirements truthfully (strategyproofness). Reinforcement Learning (RL) adapts allocation decisions through experience but does not necessarily ensure strategyproofness. Existing strategyproof RL uses a linear allocation rule, which limits the resource interactions it can represent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #ml-theory&lt;/p&gt;</summary>
+    <title>The Welfare Limits of Market Segmentation with Captive Consumers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-66-the-welfare-limits-of-market"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39139v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-66-the-welfare-limits-of-market</id>
+    <updated>2026-10-29T01:32:08+00:00</updated>
+    <summary type="html">&lt;p&gt;In a duopoly with captive and contested consumers, I characterize every pair of consumer and producer surplus that can arise under some market composition and some public segmentation, and construct a market that produces each pair. The set is lens-shaped. At any level of industry profit, consumers do worst when captive and contested consumers are perfectly separated and best in an unsegmented market in which the two firms have equally many captives. A market with unequal captive bases and some contested consumers cannot reach this upper frontier under any segmentation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39139v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Neighborhood Deprivation Shapes Post-Flood Population Losses in Pune and Bandung</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-83-neighborhood-deprivation-shapes-post-flood"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37418v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-83-neighborhood-deprivation-shapes-post-flood</id>
-    <updated>2026-10-27T15:32:57+00:00</updated>
-    <summary type="html">&lt;p&gt;Disaster research in high-income settings shows that better-resourced communities see population inflows and faster recovery, while disadvantaged communities suffer prolonged population loss. Whether this pattern holds in rapidly urbanizing cities of the Global South remains unclear. Here we show, using mobile phone data from Pune, India, and Bandung, Indonesia, how neighborhood-level changes in phone presence, a proxy for short-term population movement, relate to flooding and neighborhood deprivation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37418v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Simultaneous Gradient Learning in First-Price Auctions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-67-simultaneous-gradient-learning-in-first"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38487v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-67-simultaneous-gradient-learning-in-first</id>
+    <updated>2026-10-28T08:58:23+00:00</updated>
+    <summary type="html">&lt;p&gt;We study equilibrium learning in discretized Bayesian games, focusing on first-price auctions as a testbed for gradient-based learning dynamics under private information. While the symmetric independent private values model admits a unique Bayesian correlated equilibrium (BCE) in the continuous limit, standard convergence guarantees for gradient-based learners do not apply: classical no-regret theory predicts convergence only to Bayesian coarse correlated equilibria (BCCE), which can remain large and far from the competitive equilibrium even under fine discretizations. To bridge this gap, we introduce the notion of Bayesian semicoarse correlated equilibrium (BSCCE), an equilibrium concept that refines BCCE by restricting deviations to probability-preserving transformations consistent with projected gradient dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38487v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Game-Theoretic Solvers with Bayesian Opponent Modeling and Moral Rhetoric Framing for GLEE</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-84-game-theoretic-solvers-with-bayesian"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37397v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-84-game-theoretic-solvers-with-bayesian</id>
-    <updated>2026-10-27T15:17:04+00:00</updated>
-    <summary type="html">&lt;p&gt;We describe the agent we submitted to the GLEE Competition, which plays bargaining, negotiation, and persuasion games against a shared pool of human and AI opponents. The agent is built around three central components: a classical game-theoretic solver to compute numeric moves, an online Bayesian layer to estimate opponent archetypes, and a language model to write accompanying messages. We utilize Rubinstein bargaining for bargaining, Faratin concession for negotiation, and Kamenica--Gentzkow disclosure for persuasion, and adapt those models to live opponents using two separate layers: a Bayesian estimate of the opponent&amp;apos;s hidden discount factor, reservation value, or signaling reliability, and a Thompson sampling bandit over five moral-foundation framings coupled with an evidence-intuition spectrum to establish message register.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37397v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #agents&lt;/p&gt;</summary>
+    <title>RARE: Response-Aware Rational Equilibrium in Pricing Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-82-rare-response-aware-rational-equilibrium"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38897v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-82-rare-response-aware-rational-equilibrium</id>
+    <updated>2026-10-28T20:54:03+00:00</updated>
+    <summary type="html">&lt;p&gt;We study a pricing game in markets with budget-constrained buyers, where each seller offers a single good at a price she sets, and each buyer chooses a utility-maximizing bundle subject to her budget. We consider both the rivalrous setting, such as markets for physical goods, and the non-rivalrous setting, such as markets for datasets. Pure Nash equilibria often fail to exist in this game.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38897v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Beyond urban boundaries: Percolation reveals land-consumptive growth in India</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-85-beyond-urban-boundaries-percolation-reveals"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37073v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-85-beyond-urban-boundaries-percolation-reveals</id>
-    <updated>2026-10-27T11:35:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Cities often extend beyond their administrative boundaries, complicating assessments of urban sustainability. Using Global Human Settlement Layer data for India&amp;apos;s 50 largest urban agglomerations (1975--2025), we develop a percolation-based framework for urban delineation. Within district-based regions, we apply unrestricted DBSCAN to spatial coordinates of 100-m cells with positive population and built-up surface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37073v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors in Buyer-Vendor Negotiation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-83-vendster-an-evaluation-arena-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38292v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-83-vendster-an-evaluation-arena-to</id>
+    <updated>2026-10-28T05:23:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Time-series forecasters are ranked almost entirely by accuracy metrics, but a forecast&amp;apos;s decision value, its effect on the downstream decision, need not track accuracy and is rarely measured. This problem compounds as large language model (LLM) agents increasingly consume forecasters as tools, mediating them through stochastic, opaque policies. We present Vendster, an evaluation arena measuring how a forecaster&amp;apos;s bias and prediction-interval width change the outcome of a buyer--vendor discount negotiation between two LLM agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38292v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mapping Artistic Engagement with Quantum Technologies</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-86-mapping-artistic-engagement-with-quantum"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37054v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-86-mapping-artistic-engagement-with-quantum</id>
-    <updated>2026-10-27T11:24:12+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum technologies (QT) are increasingly being taken up in artistic practices, for example in the form of visual artworks or quantum computer music. However, more comprehensive empirical studies on the temporal development and the different forms of QT-related art are still lacking. Therefore, this study conducted a systematic mapping and classification of QT-related artworks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37054v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>First-Order Bilevel Optimization for Non-truthful Auction Design. Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-84-first-order-bilevel-optimization-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40403v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-84-first-order-bilevel-optimization-for</id>
+    <updated>2026-10-29T16:36:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks. However, designing non-truthful auctions remains challenging because bidders&amp;apos; equilibrium strategies depend on the auction mechanism and thus evolve as the mechanism is optimized. In this work, we formulate auction design as a Stackelberg game with multiple strategic followers and develop a fully first-order algorithm for revenue optimization in non-truthful auctions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40403v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Superlinear cities, finite limits: Three characteristic scales of urban agglomeration</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-87-superlinear-cities-finite-limits-three"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37029v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-87-superlinear-cities-finite-limits-three</id>
-    <updated>2026-10-27T11:05:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Urban scaling research has established that many socioeconomic outputs increase superlinearly with city population, implying rising per-capita output. Although urban scaling models have incorporated infrastructural and dissipative costs, they have generally not identified the finite population scales implied by independently scaling benefits and diseconomies. We connect the classical urban-economic trade-off between agglomeration benefits and costs to a generalized scaling framework in which these quantities follow distinct power laws.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37029v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Symmetric Structure and Motivic Transformation in Melodies, Phrases, and Themes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-85-symmetric-structure-and-motivic-transformation"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40303v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-85-symmetric-structure-and-motivic-transformation</id>
+    <updated>2026-10-29T15:46:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Transposition, inversion, and retrograde are fundamental operations in music theory, from Schoenberg&amp;apos;s twelve-tone technique to Forte&amp;apos;s set classes and Lewin&amp;apos;s transformational theory, yet their use in melodies has rarely been quantified. We read a melodic line through the orbits and stabilizers of its windows of $m = 3-6$ notes under the group generated by these operations and cyclic shift. The window entropy splits into an orbit entropy (motivic vocabulary) and a within-orbit entropy normalized by orbit size (deployment), and the group elements relating windows of one orbit give the motivic transformations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40303v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #multimodal&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Conservative Policy Iteration For Zero-Sum POSGs. Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-88-conservative-policy-iteration-for-zero"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36847v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-88-conservative-policy-iteration-for-zero</id>
-    <updated>2026-10-27T08:45:33+00:00</updated>
-    <summary type="html">&lt;p&gt;Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs). Existing point-based solvers usually optimise a central value function. This restores Bellman recursion, but it requires point-based updates over high-dimensional occupancy spaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36847v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #infosec&lt;/p&gt;</summary>
+    <title>The coupled spread of information and potential-driven motion in evacuating agent populations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-86-the-coupled-spread-of-information"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40081v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-86-the-coupled-spread-of-information</id>
+    <updated>2026-10-29T13:54:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Whether a population evacuates safely depends on two coupled processes: how a warning spreads through it, and how that information moves people. We model this coupling with an agent-based framework, in which each agent&amp;apos;s information state--susceptible, exposed, informed or reverted--gates its motion. Only informed agents respond to a global background potential encoding hazards and safe zones, while all agents interact locally through a Lennard-Jones potential.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40081v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>When do token systems stabilize? Compatibility constraints and community structure</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-89-when-do-token-systems-stabilize"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36744v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-89-when-do-token-systems-stabilize</id>
-    <updated>2026-10-27T06:59:51+00:00</updated>
-    <summary type="html">&lt;p&gt;Token systems support repeated service exchange without monetary transfers, but their viability depends on the stability of token balances. We study token systems with compatibility constraints among agents. A requester is randomly sampled in each period, and only a few randomly sampled agents are available to provide service.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36744v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats #agents&lt;/p&gt;</summary>
+    <title>Structural Change in the Multilayer World Trade Web: An Economic Dominance Theory Approach</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-87-structural-change-in-the-multilayer"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39906v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-87-structural-change-in-the-multilayer</id>
+    <updated>2026-10-29T12:17:29+00:00</updated>
+    <summary type="html">&lt;p&gt;Most studies of the World Trade Web (WTW) describe its topology: degrees, strengths, centralities, communities, or the similarity between product networks and years. This paper presents Economic Dominance Theory (EDT), initiated by Lantner (1974), and positions it as an alternative theory of structural dependence in directed flow networks rather than an additional toolbox. EDT normalizes bilateral flows into a Ghosh matrix of directed propagation and measures circular interdependence through its determinant, which aggregates the feedback circuits by which influence returns to its origin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39906v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Feedback autocratic strategies in stochastic games. A stochastic game is an optimal control problem for multiple agents in a stochastic environment.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-90-feedback-autocratic-strategies-in-stochastic"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36683v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-90-feedback-autocratic-strategies-in-stochastic</id>
-    <updated>2026-10-27T05:52:44+00:00</updated>
-    <summary type="html">&lt;p&gt;A stochastic game is an optimal control problem for multiple agents in a stochastic environment. Stochastic games contain important practical problems, related to environmental issues or traffic flows. If the number of environmental states is one, such stochastic games are called repeated games.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36683v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Computing with Coupled Oscillator Networks: Optimization, Memory, and Modern AI Primitives</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-88-computing-with-coupled-oscillator-networks"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39703v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-88-computing-with-coupled-oscillator-networks</id>
+    <updated>2026-10-29T09:37:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We explore how synchronization in coupled oscillator networks may be employed to perform a variety of computing tasks. These systems are becoming more attractive as an alternative to conventional digital computers due to the increasing energy demands of the latter, particularly for large-scale problems in machine learning and artificial intelligence. The ubiquity of coupled oscillator networks means that oscillator-based computing can be thought of as a universal computing paradigm encompassing systems with a diversity of physical realizations, e.g.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39703v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>From Airspace Degradation to Deconfliction: Predicting Safety-Critical Traffic States through the Evolution of Multiscale Complexity Metrics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-89-from-airspace-degradation-to-deconfliction"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39675v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-89-from-airspace-degradation-to-deconfliction</id>
+    <updated>2026-10-29T09:22:37+00:00</updated>
+    <summary type="html">&lt;p&gt;Growing air traffic demand is pushing airspace management towards the limits of its operational capacity, with steadily increasing workload for air traffic control officers, with direct consequences for safety. Understanding which traffic conditions give rise to safety-critical situations is therefore an essential open problem. Here we compare a large number of deconfliction events with equivalent conflict-free scenarios, extracted from thirteen weeks of air traffic control data over the Swedish Flight Information Region.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39675v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fragmented Obedient Equilibria in Routing Games. We study routing games in which competing mediators recommend routes to fixed nonatomic populations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-90-fragmented-obedient-equilibria-in-routing"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39225v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-90-fragmented-obedient-equilibria-in-routing</id>
+    <updated>2026-10-29T02:44:52+00:00</updated>
+    <summary type="html">&lt;p&gt;We study routing games in which competing mediators recommend routes to fixed nonatomic populations. Each mediator chooses a randomized flow allocation to minimize its population&amp;apos;s expected travel cost, subject to users having no conditional expected gain above a tolerance $ε$ from disregarding their recommendations. We define a fragmented obedient equilibrium (FOE) by combining user obedience with mediator optimality, and establish existence under a lower-hemicontinuity assumption on the obedient policy correspondences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39225v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

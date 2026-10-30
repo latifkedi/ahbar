@@ -5,325 +5,325 @@
   <link href="https://latifkedi.github.io/ahbar/feed/all.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/all.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
-  <entry>
-    <title>Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-10-can-discrete-tokens-serve-as"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37662"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-10-can-discrete-tokens-serve-as</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37662&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
     <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-01-show-hn-an-e-ink"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-01-show-hn-an-e-ink"/>
     <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-01-show-hn-an-e-ink</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-01-show-hn-an-e-ink</id>
     <updated>2026-09-15T12:31:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-11-dtca-denoising-token-credit-assignment"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35201"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-11-dtca-denoising-token-credit-assignment</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35201&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Why is this fingerprinting script creating bioweapons?. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-03-why-is-this-fingerprinting-script"/>
-    <link rel="related" href="https://nullpt.rs/fingerprinting-bioweapons"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-03-why-is-this-fingerprinting-script</id>
-    <updated>2026-10-28T17:13:29Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://nullpt.rs/fingerprinting-bioweapons&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Intrinsic Distribution Matching</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-10-intrinsic-distribution-matching"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39633"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-10-intrinsic-distribution-matching</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39633&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-02-show-hn-can-t-afford"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-02-show-hn-can-t-afford"/>
     <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-02-show-hn-can-t-afford</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-02-show-hn-can-t-afford</id>
     <updated>2021-02-25T01:47:30Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Apple&apos;s git still trusts the compromised eMudhra certificates. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-04-apple-s-git-still-trusts"/>
-    <link rel="related" href="https://emudhra.we-have-a-problem.com/apple.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-04-apple-s-git-still-trusts</id>
-    <updated>2026-10-28T11:03:40Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://emudhra.we-have-a-problem.com/apple.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #rust&lt;/p&gt;</summary>
+    <title>L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-11-l3g-world-real-time-infinite"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40614"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-11-l3g-world-real-time-infinite</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40614&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-12-efficient-streaming-audio-visual-target"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.32749"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-12-efficient-streaming-audio-visual-target</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.32749&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>Your Benchmark Is an Empirical Measure Over Difficulty. A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-12-your-benchmark-is-an-empirical"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.29927"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-12-your-benchmark-is-an-empirical</id>
+    <updated>2026-10-20T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful localized training progress.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29927&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: This up votes itself</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-05-show-hn-this-up-votes"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-03-show-hn-this-up-votes"/>
     <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-05-show-hn-this-up-votes</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-03-show-hn-this-up-votes</id>
     <updated>2012-03-23T00:40:39Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-06-show-hn-gemini-pro-3"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-04-show-hn-gemini-pro-3"/>
     <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-06-show-hn-gemini-pro-3</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-04-show-hn-gemini-pro-3</id>
     <updated>2025-12-09T15:00:38Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: I made an open-source laptop from scratch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-07-show-hn-i-made-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-05-show-hn-i-made-an"/>
     <link rel="related" href="https://www.byran.ee/posts/creation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-07-show-hn-i-made-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-05-show-hn-i-made-an</id>
     <updated>2025-01-22T20:41:52Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-37-qwenputer-a-functioning-deterministic-risc"/>
-    <link rel="related" href="https://divagr.com/blog/qwenputer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-37-qwenputer-a-functioning-deterministic-risc</id>
-    <updated>2026-10-29T00:25:45Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://divagr.com/blog/qwenputer&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #semiconductors&lt;/p&gt;</summary>
+    <title>HairDeck: Animation-Ready Stylized Hair Cards from a Single Image</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-13-hairdeck-animation-ready-stylized-hair"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40599"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-13-hairdeck-animation-ready-stylized-hair</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: each card is a single token, and a set diffusion transformer denoises all cards together.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40599&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: If YouTube had actual channels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-08-show-hn-if-youtube-had"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-06-show-hn-if-youtube-had"/>
     <link rel="related" href="https://ytch.xyz"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-08-show-hn-if-youtube-had</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-06-show-hn-if-youtube-had</id>
     <updated>2024-08-14T15:10:06Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: A retro video game console I&apos;ve been working on in my free time</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-09-show-hn-a-retro-video"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-07-show-hn-a-retro-video"/>
     <link rel="related" href="https://internalregister.github.io/2019/03/14/Homebrew-Console.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-09-show-hn-a-retro-video</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-07-show-hn-a-retro-video</id>
     <updated>2019-03-14T20:25:03Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://internalregister.github.io/2019/03/14/Homebrew-Console.html&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Multiscale Policy Optimization for Long-Horizon LLM Agents. Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-13-multiscale-policy-optimization-for-long"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35013"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-13-multiscale-policy-optimization-for-long</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35013&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Patrick Stewart has died</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-08-patrick-stewart-has-died"/>
+    <link rel="related" href="https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-08-patrick-stewart-has-died</id>
+    <updated>2026-10-29T19:41:39Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>GitLab Security Incident: Attempted Exploitation of CVE-2026-97229. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-38-gitlab-security-incident-attempted-exploitation"/>
-    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-38-gitlab-security-incident-attempted-exploitation</id>
-    <updated>2026-10-28T23:45:46Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
+    <title>Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-15-read-allocate-route-role-coupled"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40647"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-15-read-allocate-route-role-coupled</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40647&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-14-sensorimotor-alignment-a-platonic-proxy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.31670"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-14-sensorimotor-alignment-a-platonic-proxy</id>
-    <updated>2026-10-22T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.31670&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-15-omnishowcase-omnidirectional-subject-consistent-video"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35684"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-15-omnishowcase-omnidirectional-subject-consistent-video</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject&amp;apos;s unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35684&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-16-zooming-without-zooming-v2-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37037"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-16-zooming-without-zooming-v2-from</id>
+    <title>Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-14-look-only-when-needed-certificate"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36671"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-14-look-only-when-needed-certificate</id>
     <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37037&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36671&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-17-introducing-gemini-3-8-flash"/>
-    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-17-introducing-gemini-3-8-flash</id>
-    <updated>2026-09-02T16:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Show HN: Redbean – Single-file distributable web server</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-09-show-hn-redbean-single-file"/>
+    <link rel="related" href="https://justine.lol/redbean/index.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-09-show-hn-redbean-single-file</id>
+    <updated>2021-02-26T03:33:56Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://justine.lol/redbean/index.html&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Wednesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-39-security-updates-for-wednesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1103357/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-39-security-updates-for-wednesday</id>
-    <updated>2026-10-28T13:10:19+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1103357/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust&lt;/p&gt;</summary>
+    <title>Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-16-co-design-bench-multimodal-collaborative"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.35138"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-16-co-design-bench-multimodal-collaborative</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Evaluating human-AI co-design requires testing whether coding agents can translate real users&amp;apos; multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, Multimodal Editing (ME) and Repository Editing (RE), cover localized edits with optional image, audio, video, or document inputs and coordinated repository revisions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35138&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving. Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-18-tao-tool-aware-joint-scheduling"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37230v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-18-tao-tool-aware-joint-scheduling</id>
-    <updated>2026-10-27T13:38:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling framework for LLM-based agentic serving.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37230v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>Security updates for Thursday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-37-security-updates-for-thursday"/>
+    <link rel="related" href="https://lwn.net/Articles/1103666/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-37-security-updates-for-thursday</id>
+    <updated>2026-10-29T13:18:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1103666/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp approximations for the stationary measures of the open ASEP I: The shock region</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-19-sharp-approximations-for-the-stationary"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37639v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-19-sharp-approximations-for-the-stationary</id>
-    <updated>2026-10-27T17:54:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the stationary measure of the open asymmetric simple exclusion process (ASEP) in the fan region with general boundary rates. The stationary height fluctuations in the maximal current phase and on its boundaries within the fan region are known to have limits involving Brownian excursions or meanders. We establish discrete counterparts of these limits: on intervals away from the boundaries, the joint law of the occupation variables is approximated in total variation distance by particle configurations constructed from lazy simple random walk excursions and meanders.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37639v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
+    <title>WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-17-weviscut-the-whole-editing-room"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38352"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-17-weviscut-the-whole-editing-room</id>
+    <updated>2026-10-27T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38352&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-18-vibegame-prompt-to-game-development"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.33106"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-18-vibegame-prompt-to-game-development</id>
+    <updated>2026-10-21T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language model agents have enabled software development through natural-language interaction, but extending this paradigm to end-to-end game development remains challenging. Building a playable game requires coordinating code, scenes, assets, animations, physics, and configurations, while allowing developers to validate their integrated behavior through interactive testing. We introduce VibeGame, a framework for creating complete 2D game projects from natural-language prompts and optional reference images.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33106&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-40-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-40-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>On the Quantum Chromatic Gap II</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-28-on-the-quantum-chromatic-gap"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40571v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-28-on-the-quantum-chromatic-gap</id>
+    <updated>2026-10-29T17:44:20+00:00</updated>
+    <summary type="html">&lt;p&gt;We confirm a conjecture of the first author [SODA&amp;apos;26] on a strong form of pseudo-telepathy for Khot&amp;apos;s $d$-to-$1$ games: for every $d\geq 4$, every $ε&amp;gt;0$, and every $k\in\mathbb N$, there is a $d$-to-$1$ label-cover game of classical value less than $ε$ that admits a perfect quantum strategy using finite-dimensional shared entanglement with measurement contexts of radius at least $k$. As a consequence, there exist graphs whose quantum chromatic number $χ_q$ is $3$ and whose classical chromatic number $χ$ is arbitrarily large. This is the first improvement on the quantum chromatic gap since the work of Brassard, Cleve, and Tapp [Phys.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40571v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-41-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-41-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-40-qwenputer-a-fully-functioning-deterministic"/>
+    <link rel="related" href="https://divagr.com/blog/qwenputer"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-40-qwenputer-a-fully-functioning-deterministic</id>
+    <updated>2026-10-29T10:00:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://divagr.com/blog/qwenputer&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #semiconductors&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>GitLab security incident: attempted exploitation of CVE-2026-97229. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-41-gitlab-security-incident-attempted-exploitation"/>
+    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-41-gitlab-security-incident-attempted-exploitation</id>
+    <updated>2026-10-28T23:01:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #kernel-os&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>The quasi-Riemann hypothesis. Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-20-the-quasi-riemann-hypothesis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-19-the-quasi-riemann-hypothesis"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-20-the-quasi-riemann-hypothesis</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-19-the-quasi-riemann-hypothesis</id>
     <updated>2026-10-27T22:12:50+00:00</updated>
     <summary type="html">&lt;p&gt;Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The packing and covering number of trees are local</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-21-the-packing-and-covering-number"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37539v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-21-the-packing-and-covering-number</id>
-    <updated>2026-10-27T16:54:55+00:00</updated>
-    <summary type="html">&lt;p&gt;For a graph, its $r$-packing number is the size of the largest $r$-separated set and its $r$-covering number is the size of the smallest $r$-net. We show that the $r$-covering number and $r$-packing number are continuous in the fringe topology on locally finite trees. This recovers convergence results by Meir and Moon for e.g.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>The Number of Tropical Order Types and Coherent Matching Fields</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-20-the-number-of-tropical-order"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40622v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-20-the-number-of-tropical-order</id>
+    <updated>2026-10-29T17:56:09+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate counting problems for discrete (geometric) structures in tropical settings, motivated by the comparison of the expressivity of linear programs and mean-payoff games. First, we give an upper bound on the number of coherent matching fields of type $(n,r)$ and a lower bound on the number of combinatorial types of $n$-hyperplane sequences in the max-plus tropical space of dimension $r-1$. These structures are closely related, and our bounds establish that as $n \to \infty$, for every fixed $r$ their number equals $n^{(r-1)^2n+o(n)}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40622v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Contemporaneous Transmission Networks and Systemic Risk in European Banking</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-64-contemporaneous-transmission-networks-and-systemic"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37487v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-64-contemporaneous-transmission-networks-and-systemic</id>
-    <updated>2026-10-27T16:14:07+00:00</updated>
-    <summary type="html">&lt;p&gt;We study how contemporaneous equity-return transmission shapes systemic exposure among 51 listed European banks. Using a recursive non-Gaussian network model on volatility-standardized returns, we construct two market-capitalization-weighted measures based on direct and indirect transmission effects: the Systemic Impact Score (SIS), capturing a bank&amp;apos;s potential influence on other institutions, and the Systemic Vulnerability Score (SVS), capturing its exposure to disturbances originating elsewhere. The fitted network reveals distinct transmitting and receiving roles, highlighting differences between institutions with substantial outward influence and those with high incoming sensitivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37487v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #infosec&lt;/p&gt;</summary>
+    <title>A self-normalized law of the iterated logarithm for Rademacher random multiplicative functions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-21-a-self-normalized-law-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40605v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-21-a-self-normalized-law-of</id>
+    <updated>2026-10-29T17:52:57+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $f$ be a Rademacher random multiplicative function supported on the squarefree integers, and let $M(x)=\sum_{n\le x}f(n)$. We prove a two-sided law of the iterated logarithm normalized by the full predictable quadratic variation $$ Q(x)=\sum_{p\le x}\bigg(\sum_{\substack{m\le x/p\\ P(m)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40605v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Characterizing Maximum Nash Welfare: Envy-Freeness and Proportionality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-65-characterizing-maximum-nash-welfare-envy"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36712v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-65-characterizing-maximum-nash-welfare-envy</id>
-    <updated>2026-10-27T06:27:17+00:00</updated>
-    <summary type="html">&lt;p&gt;When allocating indivisible goods, the maximum Nash welfare rule is known to be the unique welfarist rule satisfying envy-freeness up to one good. We strengthen this characterization by showing that envy-freeness up to one good can be replaced by substantially weaker fairness requirements: envy-freeness up to $k$ goods or proportionality up to $k$ goods, for any fixed $k$. Our characterization holds even for profiles with identical goods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36712v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+    <title>Quantitative sub-ballisticity of self-avoiding walk on $\mathbb{Z}^d$. We prove quantitative sub-ballisticity for the self-avoiding walk on the lattice $\mathbb{Z}^d$, $d\geq 2$.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-22-quantitative-sub-ballisticity-of-self"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40520v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-22-quantitative-sub-ballisticity-of-self</id>
+    <updated>2026-10-29T17:28:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove quantitative sub-ballisticity for the self-avoiding walk on the lattice $\mathbb{Z}^d$, $d\geq 2$. Namely, we obtain an explicit exponential rate of decay for the probability that a self-avoiding walk of length $n$ reaches distance at least $vn$, in terms of $v&amp;gt;0$. As a consequence, we show that the displacement of an $n$-step self-avoiding walk is at most $n/\exp(c\log^* n)$ with very high probability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40520v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sybil-Proofness of Generalized Adaptive Clinching and Implications for Blockchain Mechanism Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-66-sybil-proofness-of-generalized-adaptive"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36629v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-66-sybil-proofness-of-generalized-adaptive</id>
-    <updated>2026-10-27T04:33:07+00:00</updated>
-    <summary type="html">&lt;p&gt;The adaptive clinching auction of Dobzinski, Lavi, and Nisan (FOCS&amp;apos;08) is a cornerstone of mechanism design with budget-constrained bidders, and it has since inspired a broad range of extensions to substantially richer market settings. Adaptive clinching enjoys compelling guarantees: it is Pareto optimal, and truthful bidding is a dominant strategy whenever budgets cannot be overreported. In many real-world environments, however, identities are cheap to create, making resilience to Sybil attacks an additional requirement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36629v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Lattice moments and quantum designs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-23-lattice-moments-and-quantum-designs"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40481v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-23-lattice-moments-and-quantum-designs</id>
+    <updated>2026-10-29T17:13:41+00:00</updated>
+    <summary type="html">&lt;p&gt;We show that the ensemble of unimodular Gottesman$-$Kitaev$-$Preskill distributions fails to form a rigged quantum $3$-design and quantify the replica defect that determines this failure. This is established by rederiving a second moment formula for symplectic lattices in a self-contained manner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40481v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fuji: The Shape, Composition, and Spread of Demand Bursts on Robinhood Chain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-67-fuji-the-shape-composition-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35738v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-67-fuji-the-shape-composition-and</id>
-    <updated>2026-10-26T16:55:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Demand on blockchain-based marketplaces arrives in bursts and at a high rate. On these platforms the data are completely visible, which makes it feasible to compare the bursty demand against the usual load. The congestion manifests as an increased demand for gas, the primary resource a blockchain sells.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35738v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
+    <title>Finding Competitive Equilibria in Online Marketplaces with Platform Fees, Taxes, and Subsidies</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-64-finding-competitive-equilibria-in-online"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40626v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-64-finding-competitive-equilibria-in-online</id>
+    <updated>2026-10-29T17:56:24+00:00</updated>
+    <summary type="html">&lt;p&gt;We study equilibrium computation in multi-unit trading networks with valuations satisfying generalized full substitutes and agent- and transaction-specific piecewise-linear transfer functions. These transfers model platform fees, taxes, subsidies, and membership discounts in online marketplaces. Our ascending procedure raises prices at different rates and reaches the minimum equilibrium price vector in finitely many iterations, each implementable in strongly polynomial time under our oracle and arithmetic models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40626v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Persistence of Bounded Rationality in Financial Markets: An Evolutionary Game-Theoretic Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-65-persistence-of-bounded-rationality-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39198v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-65-persistence-of-bounded-rationality-in</id>
+    <updated>2026-10-29T02:21:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Classical theory predicts that irrational traders lose money to rational traders and are eventually driven out of the market. Yet noise trading, herding, and heuristic trading persist even in highly developed markets. We model a financial market as an ecology of two trading-behavior types, relatively rational (R) and boundedly rational (N), whose composition evolves under replicator dynamics according to relative performance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39198v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Welfare Limits of Market Segmentation with Captive Consumers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-66-the-welfare-limits-of-market"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39139v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-66-the-welfare-limits-of-market</id>
+    <updated>2026-10-29T01:32:08+00:00</updated>
+    <summary type="html">&lt;p&gt;In a duopoly with captive and contested consumers, I characterize every pair of consumer and producer surplus that can arise under some market composition and some public segmentation, and construct a market that produces each pair. The set is lens-shaped. At any level of industry profit, consumers do worst when captive and contested consumers are perfectly separated and best in an unsegmented market in which the two firms have equally many captives. A market with unequal captive bases and some contested consumers cannot reach this upper frontier under any segmentation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39139v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Simultaneous Gradient Learning in First-Price Auctions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-67-simultaneous-gradient-learning-in-first"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38487v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-67-simultaneous-gradient-learning-in-first</id>
+    <updated>2026-10-28T08:58:23+00:00</updated>
+    <summary type="html">&lt;p&gt;We study equilibrium learning in discretized Bayesian games, focusing on first-price auctions as a testbed for gradient-based learning dynamics under private information. While the symmetric independent private values model admits a unique Bayesian correlated equilibrium (BCE) in the continuous limit, standard convergence guarantees for gradient-based learners do not apply: classical no-regret theory predicts convergence only to Bayesian coarse correlated equilibria (BCCE), which can remain large and far from the competitive equilibrium even under fine discretizations. To bridge this gap, we introduce the notion of Bayesian semicoarse correlated equilibrium (BSCCE), an equilibrium concept that refines BCCE by restricting deviations to probability-preserving transformations consistent with projected gradient dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38487v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-42-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-42-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-42-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-42-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Optimal quantum discrimination at Liouvillian exceptional points. Central to non-Hermitian sensing is the question of whether exceptional points (EPs) can make weak perturbations easier to detect.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-29-optimal-quantum-discrimination-at-liouvillian"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37660v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-29-optimal-quantum-discrimination-at-liouvillian</id>
-    <updated>2026-10-27T17:59:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Central to non-Hermitian sensing is the question of whether exceptional points (EPs) can make weak perturbations easier to detect. We show that despite enhanced spectral response, in finite-dimensional Lindblad systems with a unique stationary state and a nonzero relaxation gap, EPs offer no fundamental advantage in how the observation time required for reliable detection of a weak perturbation scales with the perturbation strength. We nevertheless demonstrate that by selectively choosing perturbations that enhance the quantum Fisher information rate, EPs can shorten the observation time needed to reach a predefined detection accuracy relative to a comparable non-EP reference at the same decay rate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37660v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+    <title>Odd Elasticity in Strain-Gradient Continua: Anisotropy Classification and Non-Hermitian Elastodynamics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-30-odd-elasticity-in-strain-gradient"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40581v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-30-odd-elasticity-in-strain-gradient</id>
+    <updated>2026-10-29T17:45:38+00:00</updated>
+    <summary type="html">&lt;p&gt;Odd elasticity extends continuum mechanics to active nonconservative systems containing internal energy sources, such as robotic active metamaterials with nonreciprocal feedback. Modeling these systems as effective continua requires relaxing Maxwell-Betti reciprocity, which results in stiffness tensors lacking major symmetry. In this contribution, we extend this framework to 3D strain-gradient odd elasticity to incorporate the length scales inherent in these heterogeneous systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40581v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-30-classical-verification-of-quantum-computation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37635v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-30-classical-verification-of-quantum-computation</id>
-    <updated>2026-10-27T17:54:01+00:00</updated>
-    <summary type="html">&lt;p&gt;It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to a classical oracle, such verification is possible for a language beyond the polynomial hierarchy that is decided exactly in quantum polynomial time. The protocol is public-coin, with perfect completeness and soundness error at most 1/4.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37635v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #cryptography&lt;/p&gt;</summary>
+    <title>On the gauge-invariant orbital angular momentum of vector optical vortices in the paraxial approximation and beyond</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-31-on-the-gauge-invariant-orbital"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40523v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-31-on-the-gauge-invariant-orbital</id>
+    <updated>2026-10-29T17:31:25+00:00</updated>
+    <summary type="html">&lt;p&gt;In this paper we present a gauge-invariant formalism for describing the spin and orbital angular momenta of scalar and vector optical vortices. The correction term, arising from consistent incorporation of the transverse vector potential&amp;apos;s nonlocality, restores gauge invariance and makes it possible to separate the total angular momentum into spin and orbital components. We propose a method for calculating the orbital and spin angular momenta of multimode vector vortex fields and show that the orbital angular momentum of such beams contains two qualitatively different components.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40523v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Dynamical quantum simulations as laboratories for quantum information. Dynamical quantum simulations are commonly designed to access a particular response function or correlation function.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-31-dynamical-quantum-simulations-as-laboratories"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37589v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-31-dynamical-quantum-simulations-as-laboratories</id>
-    <updated>2026-10-27T17:26:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Dynamical quantum simulations are commonly designed to access a particular response function or correlation function. Yet the underlying protocol prepares a family of many-body states that contains information well beyond the observable for which the simulation was originally designed. In this work, we explore the idea of using these states as laboratories for quantum information.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37589v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+    <title>Early-Buyer Groups and Fast-Wallet Teams on a Bonding-Curve Launchpad: A Prospective Measurement Study of pump.fun on Solana</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-68-early-buyer-groups-and-fast"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39458v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-68-early-buyer-groups-and-fast</id>
+    <updated>2026-10-29T06:29:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We study coordinated groups of wallets on a bonding-curve launchpad (pump.fun on Solana), using a complete record of 200\,443 token launches, 15\,854\,121 curve trades and 51\,025\,958 SOL transfers over 88.3 hours. A prospective, multi-channel discovery procedure (co-buying, shared funding, joint signing, transfers, consolidation) yields 23\,710 wallet groups. Without ground-truth labels we validate them by out-of-sample link prediction, independent non-trading links and a comparison with naive co-buy clustering at equal numbers of flagged tokens: raw clustering collapses into one giant component, yet it ranks tokens at least as well as the groups, so the value of the structure is descriptive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39458v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Meet-in-the-Middle Compilation of the $[\mathrm{CNOT}]$ Class with Fibonacci Anyons</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-32-meet-in-the-middle-compilation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37552v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-32-meet-in-the-middle-compilation</id>
-    <updated>2026-10-27T17:01:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Compilation of two-qubit Fibonacci anyon gates is complicated by leakage ($\ell$) from the four-dimensional computational sector to the fifth state of the fusion space. We construct a GPU pipeline to find low-leakage representatives of the $[\text{CNOT}]$ class on different subsets of the braid group. We exhaustively explore the full positive five-generator alphabet up to $L=21$ with minimal leakage $\ell\sim10^{-3}$ and error $d_{[\text{CNOT}]}\sim 10^{-8}$ on it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37552v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #clean-tech&lt;/p&gt;</summary>
+    <title>Podcasts about the Topic: Part II. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-29-podcasts-about-the-topic-part"/>
+    <link rel="related" href="https://scottaaronson.blog/?p=10239"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-29-podcasts-about-the-topic-part</id>
+    <updated>2026-10-26T22:03:37+00:00</updated>
+    <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10239&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms #quantum-physics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Recovering classical gauge geometry from quantum master constraints</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-33-recovering-classical-gauge-geometry-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37493v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-33-recovering-classical-gauge-geometry-from</id>
-    <updated>2026-10-27T16:18:38+00:00</updated>
-    <summary type="html">&lt;p&gt;Exact normalizable solutions of quantum constraints form a symplectic submanifold of the space of rays, whereas classical first-class constraints define a surface on which the symplectic form is degenerate. We ask how the degenerate directions can be recovered when quantum theory is regarded as fundamental and the constraints are imposed through a single positive master operator. For a nonnegative master function whose zero set is a Morse--Bott critical manifold, the image of the linearized Hamiltonian vector field is the symplectic orthogonal of the zero set, and coisotropy is equivalent to this linearization having square zero.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37493v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Adaptive Information Mining: Approaching the Quantum Limit of Super-Resolution Imaging</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-34-adaptive-information-mining-approaching-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37491v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-34-adaptive-information-mining-approaching-the</id>
-    <updated>2026-10-27T16:17:55+00:00</updated>
-    <summary type="html">&lt;p&gt;The &amp;quot;Rayleigh limit&amp;quot; is not an intrinsic property of light, but a consequence of sub-optimal measurement of collected photons by the imaging instrument. To overcome this limitation, we present Adaptive Information Mining, a framework that achieves super-resolution by using sequentially refined measurements for incoming photons. Our approach employs a reconfigurable imaging system that dynamically reshapes the instrument measurement responses to maximize the Fisher information and guide scene estimation toward the fundamental quantum limit, even in deep sub-Rayleigh regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37491v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Electric Field-Induced Hole- and Electron-Type Flat Bands in Twisted Double Bilayer Graphene</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-35-electric-field-induced-hole-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37402v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-35-electric-field-induced-hole-and</id>
-    <updated>2026-10-27T15:18:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Application of a finite electric field and small twist angle between two graphene bilayers leads to widely tunable electronic structures that support emergent phenomena. Here, we measure the electronic structure of twisted double bilayer graphene with twist angles of 3.1$^{\circ}$ and 6.0$^{\circ}$ using micro-focused angle-resolved photoemission spectroscopy (microARPES) on \textit{in situ} gated samples. At a twist angle of 6.0$^{\circ}$, we find that the dispersion around the valence and conduction band extrema is unchanged compared to separate graphene bilayers, whereas electric field tunable hybridisation gaps and band flattening effects occur at higher binding energies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37402v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cu intercalation and field-driven filament formation in vertically aligned MoS$_2$ memristors</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-36-cu-intercalation-and-field-driven"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37152v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-36-cu-intercalation-and-field-driven</id>
-    <updated>2026-10-27T12:51:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Vertically-aligned MoS$_2$ films paired with a Cu top electrode have been used as electrochemical metallization cell memristor devices. The memristive switching has been attributed to the formation of conductive filaments, yet their exact structure has remained elusive. Here we carry out a multi-scale computational study of Cu intercalation, clustering, and field-driven dynamics to eventually model the filament formation under operating conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37152v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+    <title>The Merck/Moderna Results</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-46-the-merck-moderna-results"/>
+    <link rel="related" href="https://www.science.org/content/blog-post/merck-moderna-results"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-46-the-merck-moderna-results</id>
+    <updated>2026-10-30T11:04:28.989437813+00:00</updated>
+    <summary type="html">&lt;p&gt;This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data leaked in advance of a meeting presentation, and the companies were more or less forced to press-release on the numbers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.science.org/content/blog-post/merck-moderna-results&quot;&gt;In the Pipeline (Derek Lowe — Drug Discovery &amp;amp; Chemistry)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #materials-science&lt;/p&gt;</summary>
   </entry>
 </feed>

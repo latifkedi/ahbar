@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-10-can-discrete-tokens-serve-as"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37662"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-10-can-discrete-tokens-serve-as</id>
-    <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic upper bound. Using multimodal understanding as a proxy for semantic fidelity, we revisit this assumption and find quantization error unreliable, as discrete representations with substantially larger errors can achieve better understanding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37662&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
+    <title>On the gauge-invariant orbital angular momentum of vector optical vortices in the paraxial approximation and beyond</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-31-on-the-gauge-invariant-orbital"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40523v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-31-on-the-gauge-invariant-orbital</id>
+    <updated>2026-10-29T17:31:25+00:00</updated>
+    <summary type="html">&lt;p&gt;In this paper we present a gauge-invariant formalism for describing the spin and orbital angular momenta of scalar and vector optical vortices. The correction term, arising from consistent incorporation of the transverse vector potential&amp;apos;s nonlocality, restores gauge invariance and makes it possible to separate the total angular momentum into spin and orbital components. We propose a method for calculating the orbital and spin angular momenta of multimode vector vortex fields and show that the orbital angular momentum of such beams contains two qualitatively different components.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40523v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #inference&lt;/p&gt;</summary>
   </entry>
 </feed>

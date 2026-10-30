@@ -5,29 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>Contemporaneous Transmission Networks and Systemic Risk in European Banking</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-64-contemporaneous-transmission-networks-and-systemic"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37487v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-64-contemporaneous-transmission-networks-and-systemic</id>
-    <updated>2026-10-27T16:14:07+00:00</updated>
-    <summary type="html">&lt;p&gt;We study how contemporaneous equity-return transmission shapes systemic exposure among 51 listed European banks. Using a recursive non-Gaussian network model on volatility-standardized returns, we construct two market-capitalization-weighted measures based on direct and indirect transmission effects: the Systemic Impact Score (SIS), capturing a bank&amp;apos;s potential influence on other institutions, and the Systemic Vulnerability Score (SVS), capturing its exposure to disturbances originating elsewhere. The fitted network reveals distinct transmitting and receiving roles, highlighting differences between institutions with substantial outward influence and those with high incoming sensitivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37487v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fuji: The Shape, Composition, and Spread of Demand Bursts on Robinhood Chain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-67-fuji-the-shape-composition-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35738v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-67-fuji-the-shape-composition-and</id>
-    <updated>2026-10-26T16:55:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Demand on blockchain-based marketplaces arrives in bursts and at a high rate. On these platforms the data are completely visible, which makes it feasible to compare the bursty demand against the usual load. The congestion manifests as an increased demand for gas, the primary resource a blockchain sells.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35738v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-68-tokenised-sukuk-a-verifiable-architecture"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.33538v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-68-tokenised-sukuk-a-verifiable-architecture</id>
-    <updated>2026-10-24T08:33:46+00:00</updated>
-    <summary type="html">&lt;p&gt;Security-token standards such as ERC-3643 decide who may hold a token, not what stands behind it. For a sukuk this gap matters: whether a certificate may trade at a negotiated price depends on what its portfolio contains, and a token that checks only investor identity keeps trading after every non-debt asset has been sold. We ask whether this tradability condition can be enforced on-chain, and at what cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33538v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design&lt;/p&gt;</summary>
+    <title>Early-Buyer Groups and Fast-Wallet Teams on a Bonding-Curve Launchpad: A Prospective Measurement Study of pump.fun on Solana</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-68-early-buyer-groups-and-fast"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39458v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-68-early-buyer-groups-and-fast</id>
+    <updated>2026-10-29T06:29:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We study coordinated groups of wallets on a bonding-curve launchpad (pump.fun on Solana), using a complete record of 200\,443 token launches, 15\,854\,121 curve trades and 51\,025\,958 SOL transfers over 88.3 hours. A prospective, multi-channel discovery procedure (co-buying, shared funding, joint signing, transfers, consolidation) yields 23\,710 wallet groups. Without ground-truth labels we validate them by out-of-sample link prediction, independent non-trading links and a comparison with naive co-buy clustering at equal numbers of flagged tokens: raw clustering collapses into one giant component, yet it ranks tokens at least as well as the groups, so the value of the structure is descriptive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39458v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

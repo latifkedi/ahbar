@@ -5,77 +5,85 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-30-classical-verification-of-quantum-computation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37635v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-30-classical-verification-of-quantum-computation</id>
-    <updated>2026-10-27T17:54:01+00:00</updated>
-    <summary type="html">&lt;p&gt;It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to a classical oracle, such verification is possible for a language beyond the polynomial hierarchy that is decided exactly in quantum polynomial time. The protocol is public-coin, with perfect completeness and soundness error at most 1/4.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37635v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #cryptography&lt;/p&gt;</summary>
+    <title>DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-43-dynas-a-dynamic-network-penetration"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40214v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-43-dynas-a-dynamic-network-penetration</id>
+    <updated>2026-10-29T14:58:32+00:00</updated>
+    <summary type="html">&lt;p&gt;As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS (Dynamic Network Attack Simulator), which combines parameterized large-scale scenario generation with stateful intrusion detection responses, explicit scan false-positive and false-negative noise, temporary service unavailability, and duration-based action timeouts. We further introduce Pen-DHRL, a recurrent manager--worker policy that selects persistent subgoals using IDS-conditioned global context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40214v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-25-constraining-the-commit-boundary-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37407v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-25-constraining-the-commit-boundary-a</id>
-    <updated>2026-10-27T15:22:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI)-informed authorization boundary between evidence available for agent reasoning and evidence eligible to authorize persistent identity-changing mutations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37407v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #cryptography&lt;/p&gt;</summary>
+    <title>RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-44-rv2gc-reconstructing-the-garbling-boundary"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39572v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-44-rv2gc-reconstructing-the-garbling-boundary</id>
+    <updated>2026-10-29T08:14:55+00:00</updated>
+    <summary type="html">&lt;p&gt;Programmable garbled-circuit execution must balance the benefits of cross-program reuse against the cost of repeated work during secure execution. A complete garbled processor provides a fixed circuit for many programs, but its evaluator repeatedly visits processor-wide structures even when only a small part performs the current protected computation. We present RV2GC, which reconstructs the garbling boundary around a fixed library of RISC-V instruction circuits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39572v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Revisiting Privacy Risks in Quantized Deep Neural Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-58-revisiting-privacy-risks-in-quantized"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37488v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-58-revisiting-privacy-risks-in-quantized</id>
-    <updated>2026-10-27T16:14:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Model quantization has become a fundamental technique for enabling the efficient deployment of large-scale deep neural networks (DNNs) in data-intensive applications by reducing model size. Despite its widespread adoption, the impact of quantization on training data privacy --- particularly vulnerability to membership inference attacks (MIAs) --- remains largely unexplored. In this paper, we present the first comprehensive empirical study of privacy risks in quantized DNNs, evaluating eight state-of-the-art MIA attacks across six representative quantization methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37488v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec #neuroscience&lt;/p&gt;</summary>
+    <title>Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-57-systematic-evaluation-of-adversarial-jailbreaking"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39509v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-57-systematic-evaluation-of-adversarial-jailbreaking</id>
+    <updated>2026-10-29T07:07:58+00:00</updated>
+    <summary type="html">&lt;p&gt;Large language models (LLMs) deployed in safety-critical settings must resist adversarial inputs designed to elicit harmful outputs. We present a systematic empirical evaluation of five adversarial jailbreaking attack families---direct requests, roleplay-based jailbreaking, hypothetical framing, instruction override, and obfuscation---across seven open-weight and API-accessible LLMs: Llama-3-8B, Llama-3.1-8B, Llama-3.2-3B, Mistral-7B, Qwen2.5-7B, Gemma2-9B, and Phi-4-14B. We further evaluate four defense mechanisms: keyword blacklisting, self-reminder prompting, paraphrase-based sanitization, and perplexity-based filtering against the two most vulnerable models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39509v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-45-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-45-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Analyzing Compiler-induced Constant-time Violations with Compiler at Scale. The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-59-analyzing-compiler-induced-constant-time"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2653"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-59-analyzing-compiler-induced-constant-time</id>
-    <updated>2026-10-26T21:06:42+00:00</updated>
-    <summary type="html">&lt;p&gt;The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks. However, compiler optimizations may break constant-time source code during compilation. Systematically preventing this requires understanding where a violation arises, how it is introduced, and which compiler configurations are problematic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2653&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-58-acorn-qre-specification-and-analysis"/>
+    <link rel="related" href="https://eprint.iacr.org/2023/1080"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-58-acorn-qre-specification-and-analysis</id>
+    <updated>2023-07-11T13:47:52+00:00</updated>
+    <summary type="html">&lt;p&gt;REAMC Report-007(2023) [Reissued October 2026 with modified licence CC BY-NC-ND; no other changes] ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption Roy S Wikramaratna (email: rwikramaratna@gmail.com) Abstract The Additive Congruential Random Number (ACORN) generator is straightforward to implement; it has been demonstrated in previous papers to give rise to sequences with long period which can be proven from theoretical considerations to approximate to being uniform in up to k dimensions (for any given k). The ACORN-QRE algorithm is a straightforward modification of ACORN which effectively avoids the linearity of the original algorithm, while preserving the uniformity of the modified sequence. It provides a new method for generating one-time pads that are resistant to attack either by current computers or by future computing developments, including quantum computers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1080&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-60-reedweave-faster-reed-solomon-polynomial"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2147"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-60-reedweave-faster-reed-solomon-polynomial</id>
-    <updated>2026-09-22T04:13:03+00:00</updated>
-    <summary type="html">&lt;p&gt;Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly. Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its follow-up works achieve polylogarithmic proofs by recursively ``folding&amp;apos;&amp;apos; Reed-Solomon (RS) codes. However, their concrete evaluation costs remain relatively high, as the first few folding rounds operate on the largest codewords and dominate the prover work.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2147&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
+    <title>Leakage-Diagrams, Importance Sampling, and Composition in the Random Probing Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-59-leakage-diagrams-importance-sampling-and"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/444"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-59-leakage-diagrams-importance-sampling-and</id>
+    <updated>2026-03-04T11:10:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Security evaluation of masking in low-noise regimes remains poorly understood: increasing the masking order does not automatically translate into higher concrete resistance once many correlated intermediates are processed by a full implementation. A common approach is to reduce noisy side-channel leakage to the random probing model (RPM), but existing reductions can be too loose to yield meaningful leakage rates in practice, and current RPM analyses often rely on costly simulations or numerically propagated bounds. This work develops analytic and algorithmic tools for estimating and upper-bounding RPM security of masked gadgets and their compositions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/444&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RDK-CKKS: A Framework for Rigorous Error Analysis of CKKS Computation. The CKKS scheme allows approximate arithmetic on encrypted data, and has found widespread use in privacy-preserving computation.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-61-rdk-ckks-a-framework-for"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2575"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-61-rdk-ckks-a-framework-for</id>
-    <updated>2026-10-21T02:14:58+00:00</updated>
-    <summary type="html">&lt;p&gt;The CKKS scheme allows approximate arithmetic on encrypted data, and has found widespread use in privacy-preserving computation. A rigorous control of its homomorphic error is critical for both precision and security guarantees. In particular, in some settings such as IND-CPA^D or threshold settings, the latter computation error should be hidden at the time of decryption.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2575&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-60-morphic-accumulators-and-applications-optimal"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1202"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-60-morphic-accumulators-and-applications-optimal</id>
+    <updated>2026-06-08T11:54:51+00:00</updated>
+    <summary type="html">&lt;p&gt;Cryptographic accumulators based on groups of unknown order (GUO) provide constant-size set membership proofs. For security purposes, existing works require first encoding set elements via division-intractable (DI) hash functions, typically instantiated as random oracles that destroy any algebraic structure. This confines GUO-based accumulators to a purely set-membership role, making them &amp;quot;incompatible&amp;quot; with various existing cryptographic proof techniques over committed integers in the same groups as the GUO, such as constant-size proofs of exponentiation and modular exponent relations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1202&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Knowledge Soundness of Polynomial Commitments in the Algebraic Group Model Does Not Guarantee Extractability</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-62-knowledge-soundness-of-polynomial-commitments"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/284"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-62-knowledge-soundness-of-polynomial-commitments</id>
-    <updated>2026-02-17T06:38:28+00:00</updated>
-    <summary type="html">&lt;p&gt;The Algebraic Group Model (AGM) has become a standard framework for analyzing the knowledge soundness of group-based polynomial commitment schemes. In this work, we formally establish inherent limitations of this methodology. For many PCSs analyzed in the AGM, the algebraic explanation directly determines a polynomial and any required randomness that together reproduce the commitment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/284&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>A Spectral Theory of Local-to-Global Leakage</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-61-a-spectral-theory-of-local"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2571"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-61-a-spectral-theory-of-local</id>
+    <updated>2026-10-20T17:27:24+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper studies how local leakages characterize the global leakage in additive secret sharing over a finite abelian group, which is a special case of linear secret sharing and side-channel masking. Our main finding is structural: local-to-global leakage is governed by two disjoint components---the magnitude of local leakage and its spectral alignment across shares, while existing literature attempted to characterize the global leakage only by local mutual information (MI). We first give an exact decomposition of leakage in additive secret sharing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2571&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>More Efficient Secret-Shared Joins with Multiplicity via Oblivious Sort Expansion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-63-more-efficient-secret-shared-joins"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1957"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-63-more-efficient-secret-shared-joins</id>
-    <updated>2026-09-10T03:28:23+00:00</updated>
-    <summary type="html">&lt;p&gt;Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice, join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM) and many-to-many (Join-MM) relationships. Supporting such joins requires obliviously materializing all matching row pairs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1957&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #databases&lt;/p&gt;</summary>
+    <title>Indistinguishability Obfuscation via Mathematical Proofs of Equivalence. Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in cryptography.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-62-indistinguishability-obfuscation-via-mathematical-proofs"/>
+    <link rel="related" href="https://eprint.iacr.org/2022/1430"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-62-indistinguishability-obfuscation-via-mathematical-proofs</id>
+    <updated>2022-10-20T21:35:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in cryptography. Moreover, recent breakthrough work has demonstrated that iO can be realized from well-founded assumptions. A thorn to all this remarkable progress is a limitation of all known constructions of general-purpose iO: the security reduction incurs a loss that is exponential in the input length of the function.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2022/1430&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-63-how-to-think-about-end"/>
+    <link rel="related" href="https://eprint.iacr.org/2024/2086"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-63-how-to-think-about-end</id>
+    <updated>2024-12-27T20:08:40+00:00</updated>
+    <summary type="html">&lt;p&gt;End-to-end encryption (E2EE) has become the gold standard for securing communications, bringing strong confidentiality and privacy guarantees to billions of users worldwide. However, the current push towards widespread integration of artificial intelligence (AI) models, including in E2EE systems, raises some serious security concerns. This work performs a critical examination of the (in)compatibility of AI models and E2EE applications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/2086&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

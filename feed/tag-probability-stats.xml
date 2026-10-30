@@ -5,45 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>Sharp approximations for the stationary measures of the open ASEP I: The shock region</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-19-sharp-approximations-for-the-stationary"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37639v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-19-sharp-approximations-for-the-stationary</id>
-    <updated>2026-10-27T17:54:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the stationary measure of the open asymmetric simple exclusion process (ASEP) in the fan region with general boundary rates. The stationary height fluctuations in the maximal current phase and on its boundaries within the fan region are known to have limits involving Brownian excursions or meanders. We establish discrete counterparts of these limits: on intervals away from the boundaries, the joint law of the occupation variables is approximated in total variation distance by particle configurations constructed from lazy simple random walk excursions and meanders.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37639v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
+    <title>A self-normalized law of the iterated logarithm for Rademacher random multiplicative functions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-21-a-self-normalized-law-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40605v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-21-a-self-normalized-law-of</id>
+    <updated>2026-10-29T17:52:57+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $f$ be a Rademacher random multiplicative function supported on the squarefree integers, and let $M(x)=\sum_{n\le x}f(n)$. We prove a two-sided law of the iterated logarithm normalized by the full predictable quadratic variation $$ Q(x)=\sum_{p\le x}\bigg(\sum_{\substack{m\le x/p\\ P(m)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40605v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The packing and covering number of trees are local</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-21-the-packing-and-covering-number"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37539v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-21-the-packing-and-covering-number</id>
-    <updated>2026-10-27T16:54:55+00:00</updated>
-    <summary type="html">&lt;p&gt;For a graph, its $r$-packing number is the size of the largest $r$-separated set and its $r$-covering number is the size of the smallest $r$-net. We show that the $r$-covering number and $r$-packing number are continuous in the fringe topology on locally finite trees. This recovers convergence results by Meir and Moon for e.g.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>Quantitative sub-ballisticity of self-avoiding walk on $\mathbb{Z}^d$. We prove quantitative sub-ballisticity for the self-avoiding walk on the lattice $\mathbb{Z}^d$, $d\geq 2$.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-22-quantitative-sub-ballisticity-of-self"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40520v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-22-quantitative-sub-ballisticity-of-self</id>
+    <updated>2026-10-29T17:28:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove quantitative sub-ballisticity for the self-avoiding walk on the lattice $\mathbb{Z}^d$, $d\geq 2$. Namely, we obtain an explicit exponential rate of decay for the probability that a self-avoiding walk of length $n$ reaches distance at least $vn$, in terms of $v&amp;gt;0$. As a consequence, we show that the displacement of an $n$-step self-avoiding walk is at most $n/\exp(c\log^* n)$ with very high probability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40520v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Boundary Plateau Laws II</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-23-boundary-plateau-laws-ii"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37560v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-23-boundary-plateau-laws-ii</id>
-    <updated>2026-10-27T17:08:05+00:00</updated>
-    <summary type="html">&lt;p&gt;Given a straight line $\ell \subset \mathbb R^3$, we classify $2$-dimensional cones in $\mathbb R^3$ which contain $\ell$ and are Almgren minimizing with respect to $\ell$. The main idea of this paper is due to an LLM, and the paper was written by an LLM, under the guidance of the authors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37560v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #algebra-geometry&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Approaching Optimal Scaling of Queue Size for an Input-Queued Switch. We study the scaling of the expected total queue length in an $n\times n$ input-queued switch.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-24-approaching-optimal-scaling-of-queue"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37521v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-24-approaching-optimal-scaling-of-queue</id>
-    <updated>2026-10-27T16:42:58+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the scaling of the expected total queue length in an $n\times n$ input-queued switch. It has been conjectured that the optimal scaling is $O(n/(1-ρ))$, up to logarithmic factors, where $ρ$ is the system load. This conjecture has been established in the traditional heavy-traffic regime and in certain sub-regimes of the large-system regime.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37521v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>When do token systems stabilize? Compatibility constraints and community structure</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-89-when-do-token-systems-stabilize"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36744v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-89-when-do-token-systems-stabilize</id>
-    <updated>2026-10-27T06:59:51+00:00</updated>
-    <summary type="html">&lt;p&gt;Token systems support repeated service exchange without monetary transfers, but their viability depends on the stability of token balances. We study token systems with compatibility constraints among agents. A requester is randomly sampled in each period, and only a few randomly sampled agents are available to provide service.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36744v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats #agents&lt;/p&gt;</summary>
+    <title>On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-25-on-zeros-and-algorithms-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40598v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-25-on-zeros-and-algorithms-for</id>
+    <updated>2026-10-29T17:50:26+00:00</updated>
+    <summary type="html">&lt;p&gt;We give the first polynomial-time algorithm to estimate the partition function of the antiferromagnetic Ising model on the uniformly random $d$-regular graph to arbitrarily high accuracy for all inverse temperatures up to the Kesten-Stigum threshold. This is the entire regime in which the model is &amp;quot;replica symmetric,&amp;quot; and is conjectured to be optimal for polynomial-time counting and sampling. To achieve our algorithmic result, we establish the absence of Fisher zeros for the partition function in a constant-width strip around the interval from $0$ up to the Kesten-Stigum threshold, with high probability over the randomness of the input graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40598v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
   </entry>
 </feed>

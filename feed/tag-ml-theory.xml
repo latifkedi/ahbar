@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-10-29T11:09:54.095856658+00:00</updated>
+  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
   <entry>
-    <title>Constraining the Commit Boundary: A DIO/ODI-Informed Authorization Guardrail for Agentic Entity Resolution</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-25-constraining-the-commit-boundary-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37407v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-25-constraining-the-commit-boundary-a</id>
-    <updated>2026-10-27T15:22:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Agentic Entity Resolution (ER) systems iteratively plan actions, retrieve evidence, revise hypotheses, and propose graph mutations. An erroneous identity hypothesis may condition later retrieval and produce apparent confirmation. This paper proposes a Digital Identity Optimization (DIO) and Ontology of Digital Identity (ODI)-informed authorization boundary between evidence available for agent reasoning and evidence eligible to authorize persistent identity-changing mutations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37407v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #cryptography&lt;/p&gt;</summary>
+    <title>DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-43-dynas-a-dynamic-network-penetration"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40214v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-43-dynas-a-dynamic-network-penetration</id>
+    <updated>2026-10-29T14:58:32+00:00</updated>
+    <summary type="html">&lt;p&gt;As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS (Dynamic Network Attack Simulator), which combines parameterized large-scale scenario generation with stateful intrusion detection responses, explicit scan false-positive and false-negative noise, temporary service unavailability, and duration-based action timeouts. We further introduce Pen-DHRL, a recurrent manager--worker policy that selects persistent subgoals using IDS-conditioned global context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40214v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Strategyproof Deep Reinforcement Learning for Online Resource Allocation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-82-strategyproof-deep-reinforcement-learning-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.37504v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-82-strategyproof-deep-reinforcement-learning-for</id>
-    <updated>2026-10-27T16:25:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Online resource allocation faces two coupled challenges: (1) allocating scarce resources efficiently under uncertain future demand, and (2) ensuring that agents report task valuations and requirements truthfully (strategyproofness). Reinforcement Learning (RL) adapts allocation decisions through experience but does not necessarily ensure strategyproofness. Existing strategyproof RL uses a linear allocation rule, which limits the resource interactions it can represent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.37504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #ml-theory&lt;/p&gt;</summary>
+    <title>Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-27-ramanujan-challenge-results-ai-assisted"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40551v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-27-ramanujan-challenge-results-ai-assisted</id>
+    <updated>2026-10-29T17:39:04+00:00</updated>
+    <summary type="html">&lt;p&gt;As AI&amp;apos;s mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It presented concrete formulas for mathematical constants whose correctness can be checked numerically, while their proofs may require non-obvious mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40551v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #ml-theory #llm&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Conservative Policy Iteration For Zero-Sum POSGs. Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-29-88-conservative-policy-iteration-for-zero"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36847v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-29-88-conservative-policy-iteration-for-zero</id>
-    <updated>2026-10-27T08:45:33+00:00</updated>
-    <summary type="html">&lt;p&gt;Occupancy-state reductions make dynamic programming possible for zero-sum partially observable stochastic games (zs-POSGs). Existing point-based solvers usually optimise a central value function. This restores Bellman recursion, but it requires point-based updates over high-dimensional occupancy spaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36847v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #infosec&lt;/p&gt;</summary>
+    <title>Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors in Buyer-Vendor Negotiation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-83-vendster-an-evaluation-arena-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38292v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-83-vendster-an-evaluation-arena-to</id>
+    <updated>2026-10-28T05:23:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Time-series forecasters are ranked almost entirely by accuracy metrics, but a forecast&amp;apos;s decision value, its effect on the downstream decision, need not track accuracy and is rarely measured. This problem compounds as large language model (LLM) agents increasingly consume forecasters as tools, mediating them through stochastic, opaque policies. We present Vendster, an evaluation arena measuring how a forecaster&amp;apos;s bias and prediction-interval width change the outcome of a buyer--vendor discount negotiation between two LLM agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38292v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
 </feed>
