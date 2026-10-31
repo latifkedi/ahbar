@@ -5,69 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-47-a-low-rank-space-captures"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-47-a-low-rank-space-captures"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40511v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-47-a-low-rank-space-captures</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-47-a-low-rank-space-captures</id>
     <updated>2026-10-29T17:23:44+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM representations: the representational directions that support linear prediction of neural responses. Across three naturalistic language-listening datasets spanning intracranial electrophysiology and fMRI, and six model conditions spanning autoregressive, bidirectional masked, and randomly initialized language models, we find that full linear encoding performance can be recovered using only 1-3% of the original embedding dimensionality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40511v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #llm #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>flashscenic: Accelerated GRN Analysis with RegDiffusion for Large-Scale Single-Cell Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-48-flashscenic-accelerated-grn-analysis-with"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.26.761795v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-48-flashscenic-accelerated-grn-analysis-with</id>
+    <updated>2026-10-30T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Single-cell gene regulatory network (GRN) analysis via the SCENIC framework provides biologically interpretable cell-state representations through motif-validated transcription factor (TF) regulon activities. However, sequential, CPU-bound implementations (pySCENIC) constrain scalability to highly variable genes and make the repeated executions needed to resolve network stochasticity computationally prohibitive. Furthermore, while regulon activity is hypothesized to mitigate technical batch effects, its integration performance has never been quantitatively assessed against modern data integration benchmarks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.26.761795v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus #clean-tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-48-machine-learning-dataset-and-benchmark"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-49-machine-learning-dataset-and-benchmark"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-48-machine-learning-dataset-and-benchmark</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-49-machine-learning-dataset-and-benchmark</id>
     <updated>2026-10-26T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Making the case for a non-primary article</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-49-making-the-case-for-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-50-making-the-case-for-a"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-49-making-the-case-for-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-50-making-the-case-for-a</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-50-dynamic-networks-can-promote-pro"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-51-dynamic-networks-can-promote-pro"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-50-dynamic-networks-can-promote-pro</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-51-dynamic-networks-can-promote-pro</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-51-structure-coefficient-theorem-for-evolutionary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-52-structure-coefficient-theorem-for-evolutionary"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-51-structure-coefficient-theorem-for-evolutionary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-52-structure-coefficient-theorem-for-evolutionary</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-52-hybrid-modeling-for-improved-structure"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-53-hybrid-modeling-for-improved-structure"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-52-hybrid-modeling-for-improved-structure</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-53-hybrid-modeling-for-improved-structure</id>
     <updated>2026-10-15T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-53-hdock-multimer-improved-structure-prediction"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-54-hdock-multimer-improved-structure-prediction"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01062-1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-53-hdock-multimer-improved-structure-prediction</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-54-hdock-multimer-improved-structure-prediction</id>
     <updated>2026-10-14T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 14 October 2026; doi:10.1038/s43588-026-01062-1 This study presents HDOCK-Multimer, a general framework for structure prediction of large protein complexes by integrating ab initio docking and combinatorial assembly, substantially outperforming state-of-the-art methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01062-1&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LLMs predict material properties based on atom types and not atom positions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-54-llms-predict-material-properties-based"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01044-3"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-54-llms-predict-material-properties-based</id>
-    <updated>2026-10-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 October 2026; doi:10.1038/s43588-026-01044-3 Accurately predicting properties of materials is one of the main challenges in computational materials science. Systematic experiments now show that large language models (LLMs) struggle to use positional information for the prediction of those properties. This limitation does not reverse as model or dataset sizes grow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01044-3&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
 </feed>

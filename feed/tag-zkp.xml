@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-56-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-56-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-56-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-56-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-57-systematic-evaluation-of-adversarial-jailbreaking"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-57-systematic-evaluation-of-adversarial-jailbreaking"/>
     <link rel="related" href="https://arxiv.org/abs/2610.39509v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-57-systematic-evaluation-of-adversarial-jailbreaking</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-57-systematic-evaluation-of-adversarial-jailbreaking</id>
     <updated>2026-10-29T07:07:58+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) deployed in safety-critical settings must resist adversarial inputs designed to elicit harmful outputs. We present a systematic empirical evaluation of five adversarial jailbreaking attack families---direct requests, roleplay-based jailbreaking, hypothetical framing, instruction override, and obfuscation---across seven open-weight and API-accessible LLMs: Llama-3-8B, Llama-3.1-8B, Llama-3.2-3B, Mistral-7B, Qwen2.5-7B, Gemma2-9B, and Phi-4-14B. We further evaluate four defense mechanisms: keyword blacklisting, self-reminder prompting, paraphrase-based sanitization, and perplexity-based filtering against the two most vulnerable models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39509v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Exact Error Bootstrapping and Comb Bootstrapping in FHEW/TFHE. In FHEW and TFHE, bootstrapping evaluates the decryption function via a blind rotation, whose resolution limits the message space.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-58-exact-error-bootstrapping-and-comb"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2630"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-58-exact-error-bootstrapping-and-comb</id>
+    <updated>2026-10-24T18:05:42+00:00</updated>
+    <summary type="html">&lt;p&gt;In FHEW and TFHE, bootstrapping evaluates the decryption function via a blind rotation, whose resolution limits the message space. We propose instead to bootstrap the \emph{error}. By rounding the ciphertext at a resolution that is a multiple of the message modulus, we preserve the message exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2630&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Complexity Analysis and Security Implications of the New Isogeny-Path Algorithm</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-59-complexity-analysis-and-security-implications"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1821"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-59-complexity-analysis-and-security-implications</id>
+    <updated>2026-08-27T15:45:18+00:00</updated>
+    <summary type="html">&lt;p&gt;Very recently, Wesolowski (ePrint 2026/1486) proposed a novel heuristic algorithm for solving the supersingular isogeny-path problem in time and memory $p^{1/3+o(1)}$, where $p$ is the characteristic of the underlying field. Although this improves asymptotically on the previous $p^{1/2}\log^{O(1)}(p)$ complexity, its concrete impact on isogeny-based schemes, particularly SQIsign, remains unclear because of the superpolynomial overhead hidden in $p^{o(1)}$ and the exponential memory requirement. In this work, we assess the cost of Wesolowski&amp;apos;s attack, study its time--memory tradeoffs, and investigate optimizations based on the van Oorschot -- Wiener (vOW) technique.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1821&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>New IND-CPA-D Attacks on BFV and BGV. IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption (FHE).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-60-new-ind-cpa-d-attacks"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2546"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-60-new-ind-cpa-d-attacks</id>
+    <updated>2026-10-19T10:55:17+00:00</updated>
+    <summary type="html">&lt;p&gt;IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption (FHE). It captures the situation where the computation result is known to the adversary; it is in particular necessary for FHE with threshold decryption. This work presents three new attacks in this situation on the BFV and BGV FHE schemes, when their parameters are instantiated with heuristic assumptions commonly used to enable correctness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2546&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-58-acorn-qre-specification-and-analysis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-61-acorn-qre-specification-and-analysis"/>
     <link rel="related" href="https://eprint.iacr.org/2023/1080"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-58-acorn-qre-specification-and-analysis</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-61-acorn-qre-specification-and-analysis</id>
     <updated>2023-07-11T13:47:52+00:00</updated>
     <summary type="html">&lt;p&gt;REAMC Report-007(2023) [Reissued October 2026 with modified licence CC BY-NC-ND; no other changes] ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption Roy S Wikramaratna (email: rwikramaratna@gmail.com) Abstract The Additive Congruential Random Number (ACORN) generator is straightforward to implement; it has been demonstrated in previous papers to give rise to sequences with long period which can be proven from theoretical considerations to approximate to being uniform in up to k dimensions (for any given k). The ACORN-QRE algorithm is a straightforward modification of ACORN which effectively avoids the linearity of the original algorithm, while preserving the uniformity of the modified sequence. It provides a new method for generating one-time pads that are resistant to attack either by current computers or by future computing developments, including quantum computers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1080&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Leakage-Diagrams, Importance Sampling, and Composition in the Random Probing Model</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-59-leakage-diagrams-importance-sampling-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-62-leakage-diagrams-importance-sampling-and"/>
     <link rel="related" href="https://eprint.iacr.org/2026/444"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-59-leakage-diagrams-importance-sampling-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-62-leakage-diagrams-importance-sampling-and</id>
     <updated>2026-03-04T11:10:11+00:00</updated>
     <summary type="html">&lt;p&gt;Security evaluation of masking in low-noise regimes remains poorly understood: increasing the masking order does not automatically translate into higher concrete resistance once many correlated intermediates are processed by a full implementation. A common approach is to reduce noisy side-channel leakage to the random probing model (RPM), but existing reductions can be too loose to yield meaningful leakage rates in practice, and current RPM analyses often rely on costly simulations or numerically propagated bounds. This work develops analytic and algorithmic tools for estimating and upper-bounding RPM security of masked gadgets and their compositions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/444&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-60-morphic-accumulators-and-applications-optimal"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-63-morphic-accumulators-and-applications-optimal"/>
     <link rel="related" href="https://eprint.iacr.org/2026/1202"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-60-morphic-accumulators-and-applications-optimal</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-63-morphic-accumulators-and-applications-optimal</id>
     <updated>2026-06-08T11:54:51+00:00</updated>
     <summary type="html">&lt;p&gt;Cryptographic accumulators based on groups of unknown order (GUO) provide constant-size set membership proofs. For security purposes, existing works require first encoding set elements via division-intractable (DI) hash functions, typically instantiated as random oracles that destroy any algebraic structure. This confines GUO-based accumulators to a purely set-membership role, making them &amp;quot;incompatible&amp;quot; with various existing cryptographic proof techniques over committed integers in the same groups as the GUO, such as constant-size proofs of exponentiation and modular exponent relations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1202&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A Spectral Theory of Local-to-Global Leakage</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-61-a-spectral-theory-of-local"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2571"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-61-a-spectral-theory-of-local</id>
-    <updated>2026-10-20T17:27:24+00:00</updated>
-    <summary type="html">&lt;p&gt;This paper studies how local leakages characterize the global leakage in additive secret sharing over a finite abelian group, which is a special case of linear secret sharing and side-channel masking. Our main finding is structural: local-to-global leakage is governed by two disjoint components---the magnitude of local leakage and its spectral alignment across shares, while existing literature attempted to characterize the global leakage only by local mutual information (MI). We first give an exact decomposition of leakage in additive secret sharing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2571&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Indistinguishability Obfuscation via Mathematical Proofs of Equivalence. Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in cryptography.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-62-indistinguishability-obfuscation-via-mathematical-proofs"/>
-    <link rel="related" href="https://eprint.iacr.org/2022/1430"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-62-indistinguishability-obfuscation-via-mathematical-proofs</id>
-    <updated>2022-10-20T21:35:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in cryptography. Moreover, recent breakthrough work has demonstrated that iO can be realized from well-founded assumptions. A thorn to all this remarkable progress is a limitation of all known constructions of general-purpose iO: the security reduction incurs a loss that is exponential in the input length of the function.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2022/1430&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-63-how-to-think-about-end"/>
-    <link rel="related" href="https://eprint.iacr.org/2024/2086"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-63-how-to-think-about-end</id>
-    <updated>2024-12-27T20:08:40+00:00</updated>
-    <summary type="html">&lt;p&gt;End-to-end encryption (E2EE) has become the gold standard for securing communications, bringing strong confidentiality and privacy guarantees to billions of users worldwide. However, the current push towards widespread integration of artificial intelligence (AI) models, including in E2EE systems, raises some serious security concerns. This work performs a critical examination of the (in)compatibility of AI models and E2EE applications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/2086&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

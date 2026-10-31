@@ -5,36 +5,36 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
-    <title>GitLab security incident: attempted exploitation of CVE-2026-97229. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-41-gitlab-security-incident-attempted-exploitation"/>
-    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-41-gitlab-security-incident-attempted-exploitation</id>
-    <updated>2026-10-28T23:01:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #kernel-os&lt;/p&gt;</summary>
+    <title>Protecting against CVE-2026-98432. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-40-protecting-against-cve-2026-98432"/>
+    <link rel="related" href="https://groups.google.com/g/golang-announce/c/PCoQcdxoScw"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-40-protecting-against-cve-2026-98432</id>
+    <updated>2026-10-30T17:54:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://groups.google.com/g/golang-announce/c/PCoQcdxoScw&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #go&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-42-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-41-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-42-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-41-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-57-systematic-evaluation-of-adversarial-jailbreaking"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-57-systematic-evaluation-of-adversarial-jailbreaking"/>
     <link rel="related" href="https://arxiv.org/abs/2610.39509v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-57-systematic-evaluation-of-adversarial-jailbreaking</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-57-systematic-evaluation-of-adversarial-jailbreaking</id>
     <updated>2026-10-29T07:07:58+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) deployed in safety-critical settings must resist adversarial inputs designed to elicit harmful outputs. We present a systematic empirical evaluation of five adversarial jailbreaking attack families---direct requests, roleplay-based jailbreaking, hypothetical framing, instruction override, and obfuscation---across seven open-weight and API-accessible LLMs: Llama-3-8B, Llama-3.1-8B, Llama-3.2-3B, Mistral-7B, Qwen2.5-7B, Gemma2-9B, and Phi-4-14B. We further evaluate four defense mechanisms: keyword blacklisting, self-reminder prompting, paraphrase-based sanitization, and perplexity-based filtering against the two most vulnerable models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39509v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-45-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-44-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-45-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-44-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>

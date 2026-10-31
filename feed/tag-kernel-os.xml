@@ -5,53 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-kernel-os.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-kernel-os.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
-    <title>Security updates for Thursday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-37-security-updates-for-thursday"/>
-    <link rel="related" href="https://lwn.net/Articles/1103666/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-37-security-updates-for-thursday</id>
-    <updated>2026-10-29T13:18:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1103666/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
+    <title>Security updates for Friday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-37-security-updates-for-friday"/>
+    <link rel="related" href="https://lwn.net/Articles/1104174/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-37-security-updates-for-friday</id>
+    <updated>2026-10-30T13:37:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (aspell, cjose, curl, gcc-toolset-15-gcc, httpd:2.4, ignition, java-21-openjdk, libX11, libXi, libXrender, libXtst, mariadb:10.11, nodejs:24, python-pillow, python3.12-urllib3, and webkit2gtk3), Debian (imagemagick, libdatetime-timezone-perl, python-git, tor, tzdata, vlc, and wordpress), Fedora (accessibility-inspector, akonadi-calendar, akonadi-calendar-tools,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1104174/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>GitLab security incident: attempted exploitation of CVE-2026-97229. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-41-gitlab-security-incident-attempted-exploitation"/>
-    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-41-gitlab-security-incident-attempted-exploitation</id>
-    <updated>2026-10-28T23:01:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-42-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-41-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-42-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-41-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-43-dynas-a-dynamic-network-penetration"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-42-dynas-a-dynamic-network-penetration"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40214v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-43-dynas-a-dynamic-network-penetration</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-42-dynas-a-dynamic-network-penetration</id>
     <updated>2026-10-29T14:58:32+00:00</updated>
     <summary type="html">&lt;p&gt;As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS (Dynamic Network Attack Simulator), which combines parameterized large-scale scenario generation with stateful intrusion detection responses, explicit scan false-positive and false-negative noise, temporary service unavailability, and duration-based action timeouts. We further introduce Pen-DHRL, a recurrent manager--worker policy that selects persistent subgoals using IDS-conditioned global context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40214v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-44-rv2gc-reconstructing-the-garbling-boundary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-43-rv2gc-reconstructing-the-garbling-boundary"/>
     <link rel="related" href="https://arxiv.org/abs/2610.39572v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-44-rv2gc-reconstructing-the-garbling-boundary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-43-rv2gc-reconstructing-the-garbling-boundary</id>
     <updated>2026-10-29T08:14:55+00:00</updated>
     <summary type="html">&lt;p&gt;Programmable garbled-circuit execution must balance the benefits of cross-program reuse against the cost of repeated work during secure execution. A complete garbled processor provides a fixed circuit for many programs, but its evaluator repeatedly visits processor-wide structures even when only a small part performs the current protected computation. We present RV2GC, which reconstructs the garbling boundary around a fixed library of RISC-V instruction circuits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39572v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #semiconductors&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>OPERA: OPamp Design by an Expert-Taught Reasoning Agent, from Specifications to Layout</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-45-opera-opamp-design-by-an"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39395v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-45-opera-opamp-design-by-an</id>
+    <updated>2026-10-29T05:29:47+00:00</updated>
+    <summary type="html">&lt;p&gt;Analog flows from specifications to a signed-off layout rarely run without manual iteration. Recent large language model (LLM) agents size circuits with optimizer loops over the device dimensions and stop at the schematic. We present OPERA (OPamp design by an Expert-taught Reasoning Agent), in which a general-purpose LLM agent designs CMOS opamps from specifications to post-layout sign-off with open-source tools.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39395v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

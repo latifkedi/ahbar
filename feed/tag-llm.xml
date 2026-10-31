@@ -5,92 +5,92 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-llm.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-llm.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
-    <title>Intrinsic Distribution Matching</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-10-intrinsic-distribution-matching"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39633"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-10-intrinsic-distribution-matching</id>
+    <title>Proving and Improving the Platonic Representation Hypothesis with JEPAs. Whether models trained on different modalities converge to the same representation of the world is central to AI.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-10-proving-and-improving-the-platonic"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39302"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-10-proving-and-improving-the-platonic</id>
     <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39633&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39302&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-11-l3g-world-real-time-infinite"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-11-l3g-world-real-time-infinite"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40614"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-11-l3g-world-real-time-infinite</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-11-l3g-world-real-time-infinite</id>
     <updated>2026-10-28T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40614&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Your Benchmark Is an Empirical Measure Over Difficulty. A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-12-your-benchmark-is-an-empirical"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.29927"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-12-your-benchmark-is-an-empirical</id>
-    <updated>2026-10-20T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful localized training progress.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.29927&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>HairDeck: Animation-Ready Stylized Hair Cards from a Single Image</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-13-hairdeck-animation-ready-stylized-hair"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40599"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-13-hairdeck-animation-ready-stylized-hair</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered set of artist-defined primitives, we propose HairDeck, which generates it as one: each card is a single token, and a set diffusion transformer denoises all cards together.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40599&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-15-read-allocate-route-role-coupled"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-12-read-allocate-route-role-coupled"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40647"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-15-read-allocate-route-role-coupled</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-12-read-allocate-route-role-coupled</id>
     <updated>2026-10-28T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40647&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-14-look-only-when-needed-certificate"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-13-look-only-when-needed-certificate"/>
     <link rel="related" href="https://arxiv.org/abs/2610.36671"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-14-look-only-when-needed-certificate</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-13-look-only-when-needed-certificate</id>
     <updated>2026-10-26T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36671&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-16-co-design-bench-multimodal-collaborative"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.35138"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-16-co-design-bench-multimodal-collaborative</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Evaluating human-AI co-design requires testing whether coding agents can translate real users&amp;apos; multimodal requests into working application revisions. We introduce Co-Design Bench, a reference-free benchmark of 273 tasks curated from 37,463 deduplicated queries across 26,314 real user coding sessions. Its two tracks, Multimodal Editing (ME) and Repository Editing (RE), cover localized edits with optional image, audio, video, or document inputs and coordinated repository revisions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.35138&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-17-weviscut-the-whole-editing-room"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.38352"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-17-weviscut-the-whole-editing-room</id>
+    <title>A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-14-a-rsi-adaptive-task-refresh"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38568"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-14-a-rsi-adaptive-task-refresh</id>
     <updated>2026-10-27T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38352&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model&amp;apos;s own uncertain predictions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38568&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-18-vibegame-prompt-to-game-development"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.33106"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-18-vibegame-prompt-to-game-development</id>
-    <updated>2026-10-21T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language model agents have enabled software development through natural-language interaction, but extending this paradigm to end-to-end game development remains challenging. Building a playable game requires coordinating code, scenes, assets, animations, physics, and configurations, while allowing developers to validate their integrated behavior through interactive testing. We introduce VibeGame, a framework for creating complete 2D game projects from natural-language prompts and optional reference images.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.33106&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Training Foundation Models with a Single Algorithm</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-15-training-foundation-models-with-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40564"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-15-training-foundation-models-with-a</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, we place all of these stages under a single likelihood-based training algorithm, unified training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40564&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-16-youtu-parsing-omni-one-encoder"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39301"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-16-youtu-parsing-omni-one-encoder</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordinate system, and a few fusion layers let video frames attend to concurrent audio, bringing cross-modal fusion and temporal alignment into perception itself.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39301&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-17-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-17-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Multi-Token Prediction Done Right</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-18-multi-token-prediction-done-right"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.38331"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-18-multi-token-prediction-done-right</id>
+    <updated>2026-10-27T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both next-token and multi-token learning, increasingly so with scale. Specifically, the MTP cross-entropy gradient can be decomposed exactly into a KL self-distillation term that pulls each MTP head toward the model&amp;apos;s own next-token prediction (NTP) distribution and improves speculative decoding, and a residual that has a low signal-to-noise ratio and buries the useful KL signal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38331&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-27-ramanujan-challenge-results-ai-assisted"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-27-ramanujan-challenge-results-ai-assisted"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-27-ramanujan-challenge-results-ai-assisted</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-27-ramanujan-challenge-results-ai-assisted</id>
     <updated>2026-10-29T17:39:04+00:00</updated>
     <summary type="html">&lt;p&gt;As AI&amp;apos;s mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It presented concrete formulas for mathematical constants whose correctness can be checked numerically, while their proofs may require non-obvious mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40551v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #ml-theory #llm&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-47-a-low-rank-space-captures"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-47-a-low-rank-space-captures"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40511v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-47-a-low-rank-space-captures</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-47-a-low-rank-space-captures</id>
     <updated>2026-10-29T17:23:44+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM representations: the representational directions that support linear prediction of neural responses. Across three naturalistic language-listening datasets spanning intracranial electrophysiology and fMRI, and six model conditions spanning autoregressive, bidirectional masked, and randomly initialized language models, we find that full linear encoding performance can be recovered using only 1-3% of the original embedding dimensionality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40511v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #llm #neuroscience&lt;/p&gt;</summary>
   </entry>

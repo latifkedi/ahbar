@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-47-a-low-rank-space-captures"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-47-a-low-rank-space-captures"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40511v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-47-a-low-rank-space-captures</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-47-a-low-rank-space-captures</id>
     <updated>2026-10-29T17:23:44+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) are increasingly used as computational models of human language processing, yet it remains unclear which components of their representations drive alignment with neural activity. Here, we use ridge reduced-rank regression to identify the brain-predictive subspace of LLM representations: the representational directions that support linear prediction of neural responses. Across three naturalistic language-listening datasets spanning intracranial electrophysiology and fMRI, and six model conditions spanning autoregressive, bidirectional masked, and randomly initialized language models, we find that full linear encoding performance can be recovered using only 1-3% of the original embedding dimensionality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40511v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #llm #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>First-Order Bilevel Optimization for Non-truthful Auction Design. Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-84-first-order-bilevel-optimization-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-84-first-order-bilevel-optimization-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40403v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-84-first-order-bilevel-optimization-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-84-first-order-bilevel-optimization-for</id>
     <updated>2026-10-29T16:36:12+00:00</updated>
     <summary type="html">&lt;p&gt;Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks. However, designing non-truthful auctions remains challenging because bidders&amp;apos; equilibrium strategies depend on the auction mechanism and thus evolve as the mechanism is optimized. In this work, we formulate auction design as a Stackelberg game with multiple strategic followers and develop a fully first-order algorithm for revenue optimization in non-truthful auctions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40403v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization #neuroscience&lt;/p&gt;</summary>
   </entry>

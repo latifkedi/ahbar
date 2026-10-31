@@ -5,44 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
-    <title>Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-40-qwenputer-a-fully-functioning-deterministic"/>
-    <link rel="related" href="https://divagr.com/blog/qwenputer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-40-qwenputer-a-fully-functioning-deterministic</id>
-    <updated>2026-10-29T10:00:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://divagr.com/blog/qwenputer&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #semiconductors&lt;/p&gt;</summary>
+    <title>Security updates for Friday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-37-security-updates-for-friday"/>
+    <link rel="related" href="https://lwn.net/Articles/1104174/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-37-security-updates-for-friday</id>
+    <updated>2026-10-30T13:37:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (aspell, cjose, curl, gcc-toolset-15-gcc, httpd:2.4, ignition, java-21-openjdk, libX11, libXi, libXrender, libXtst, mariadb:10.11, nodejs:24, python-pillow, python3.12-urllib3, and webkit2gtk3), Debian (imagemagick, libdatetime-timezone-perl, python-git, tor, tzdata, vlc, and wordpress), Fedora (accessibility-inspector, akonadi-calendar, akonadi-calendar-tools,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1104174/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>GitLab security incident: attempted exploitation of CVE-2026-97229. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-41-gitlab-security-incident-attempted-exploitation"/>
-    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-41-gitlab-security-incident-attempted-exploitation</id>
-    <updated>2026-10-28T23:01:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #kernel-os&lt;/p&gt;</summary>
+    <title>Protecting against CVE-2026-98432. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-40-protecting-against-cve-2026-98432"/>
+    <link rel="related" href="https://groups.google.com/g/golang-announce/c/PCoQcdxoScw"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-40-protecting-against-cve-2026-98432</id>
+    <updated>2026-10-30T17:54:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://groups.google.com/g/golang-announce/c/PCoQcdxoScw&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #go&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-45-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-44-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-45-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-44-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-50-dynamic-networks-can-promote-pro"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-51-dynamic-networks-can-promote-pro"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-50-dynamic-networks-can-promote-pro</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-51-dynamic-networks-can-promote-pro</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-51-structure-coefficient-theorem-for-evolutionary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-52-structure-coefficient-theorem-for-evolutionary"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-51-structure-coefficient-theorem-for-evolutionary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-52-structure-coefficient-theorem-for-evolutionary</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
   </entry>

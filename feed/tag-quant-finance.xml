@@ -5,12 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>Early-Buyer Groups and Fast-Wallet Teams on a Bonding-Curve Launchpad: A Prospective Measurement Study of pump.fun on Solana</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-68-early-buyer-groups-and-fast"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-68-early-buyer-groups-and-fast"/>
     <link rel="related" href="https://arxiv.org/abs/2610.39458v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-68-early-buyer-groups-and-fast</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-68-early-buyer-groups-and-fast</id>
     <updated>2026-10-29T06:29:11+00:00</updated>
     <summary type="html">&lt;p&gt;We study coordinated groups of wallets on a bonding-curve launchpad (pump.fun on Solana), using a complete record of 200\,443 token launches, 15\,854\,121 curve trades and 51\,025\,958 SOL transfers over 88.3 hours. A prospective, multi-channel discovery procedure (co-buying, shared funding, joint signing, transfers, consolidation) yields 23\,710 wallet groups. Without ground-truth labels we validate them by out-of-sample link prediction, independent non-trading links and a comparison with naive co-buy clustering at equal numbers of flagged tokens: raw clustering collapses into one giant component, yet it ranks tokens at least as well as the groups, so the value of the structure is descriptive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39458v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems&lt;/p&gt;</summary>
   </entry>

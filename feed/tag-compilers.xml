@@ -5,52 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>On the Quantum Chromatic Gap II</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-28-on-the-quantum-chromatic-gap"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-28-on-the-quantum-chromatic-gap"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40571v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-28-on-the-quantum-chromatic-gap</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-28-on-the-quantum-chromatic-gap</id>
     <updated>2026-10-29T17:44:20+00:00</updated>
     <summary type="html">&lt;p&gt;We confirm a conjecture of the first author [SODA&amp;apos;26] on a strong form of pseudo-telepathy for Khot&amp;apos;s $d$-to-$1$ games: for every $d\geq 4$, every $ε&amp;gt;0$, and every $k\in\mathbb N$, there is a $d$-to-$1$ label-cover game of classical value less than $ε$ that admits a perfect quantum strategy using finite-dimensional shared entanglement with measurement contexts of radius at least $k$. As a consequence, there exist graphs whose quantum chromatic number $χ_q$ is $3$ and whose classical chromatic number $χ$ is arbitrarily large. This is the first improvement on the quantum chromatic gap since the work of Brassard, Cleve, and Tapp [Phys.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40571v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-40-qwenputer-a-fully-functioning-deterministic"/>
-    <link rel="related" href="https://divagr.com/blog/qwenputer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-40-qwenputer-a-fully-functioning-deterministic</id>
-    <updated>2026-10-29T10:00:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://divagr.com/blog/qwenputer&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #semiconductors&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GitLab security incident: attempted exploitation of CVE-2026-97229. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-41-gitlab-security-incident-attempted-exploitation"/>
-    <link rel="related" href="https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-41-gitlab-security-incident-attempted-exploitation</id>
-    <updated>2026-10-28T23:01:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #kernel-os&lt;/p&gt;</summary>
+    <title>Protecting against CVE-2026-98432. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-40-protecting-against-cve-2026-98432"/>
+    <link rel="related" href="https://groups.google.com/g/golang-announce/c/PCoQcdxoScw"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-40-protecting-against-cve-2026-98432</id>
+    <updated>2026-10-30T17:54:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://groups.google.com/g/golang-announce/c/PCoQcdxoScw&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec #go&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-25-on-zeros-and-algorithms-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-25-on-zeros-and-algorithms-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40598v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-25-on-zeros-and-algorithms-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-25-on-zeros-and-algorithms-for</id>
     <updated>2026-10-29T17:50:26+00:00</updated>
     <summary type="html">&lt;p&gt;We give the first polynomial-time algorithm to estimate the partition function of the antiferromagnetic Ising model on the uniformly random $d$-regular graph to arbitrarily high accuracy for all inverse temperatures up to the Kesten-Stigum threshold. This is the entire regime in which the model is &amp;quot;replica symmetric,&amp;quot; and is conjectured to be optimal for polynomial-time counting and sampling. To achieve our algorithmic result, we establish the absence of Fisher zeros for the partition function in a constant-width strip around the interval from $0$ up to the Kesten-Stigum threshold, with high probability over the randomness of the input graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40598v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-27-ramanujan-challenge-results-ai-assisted"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-27-ramanujan-challenge-results-ai-assisted"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-27-ramanujan-challenge-results-ai-assisted</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-27-ramanujan-challenge-results-ai-assisted</id>
     <updated>2026-10-29T17:39:04+00:00</updated>
     <summary type="html">&lt;p&gt;As AI&amp;apos;s mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It presented concrete formulas for mathematical constants whose correctness can be checked numerically, while their proofs may require non-obvious mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40551v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #ml-theory #llm&lt;/p&gt;</summary>
   </entry>

@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-optimization.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-optimization.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>The Number of Tropical Order Types and Coherent Matching Fields</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-20-the-number-of-tropical-order"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-20-the-number-of-tropical-order"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40622v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-20-the-number-of-tropical-order</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-20-the-number-of-tropical-order</id>
     <updated>2026-10-29T17:56:09+00:00</updated>
     <summary type="html">&lt;p&gt;We investigate counting problems for discrete (geometric) structures in tropical settings, motivated by the comparison of the expressivity of linear programs and mean-payoff games. First, we give an upper bound on the number of coherent matching fields of type $(n,r)$ and a lower bound on the number of combinatorial types of $n$-hyperplane sequences in the max-plus tropical space of dimension $r-1$. These structures are closely related, and our bounds establish that as $n \to \infty$, for every fixed $r$ their number equals $n^{(r-1)^2n+o(n)}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40622v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>First-Order Bilevel Optimization for Non-truthful Auction Design. Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-84-first-order-bilevel-optimization-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-84-first-order-bilevel-optimization-for"/>
     <link rel="related" href="https://arxiv.org/abs/2610.40403v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-84-first-order-bilevel-optimization-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-84-first-order-bilevel-optimization-for</id>
     <updated>2026-10-29T16:36:12+00:00</updated>
     <summary type="html">&lt;p&gt;Automated mechanism design has enabled the learning of complex auction mechanisms using neural networks. However, designing non-truthful auctions remains challenging because bidders&amp;apos; equilibrium strategies depend on the auction mechanism and thus evolve as the mechanism is optimized. In this work, we formulate auction design as a Stackelberg game with multiple strategic followers and develop a fully first-order algorithm for revenue optimization in non-truthful auctions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40403v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization #neuroscience&lt;/p&gt;</summary>
   </entry>

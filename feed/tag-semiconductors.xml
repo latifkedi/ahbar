@@ -5,28 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-semiconductors.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-semiconductors.xml</id>
-  <updated>2026-10-30T11:04:22.310321740+00:00</updated>
+  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-40-qwenputer-a-fully-functioning-deterministic"/>
-    <link rel="related" href="https://divagr.com/blog/qwenputer"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-40-qwenputer-a-fully-functioning-deterministic</id>
-    <updated>2026-10-29T10:00:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://divagr.com/blog/qwenputer&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #semiconductors&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-30-44-rv2gc-reconstructing-the-garbling-boundary"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-43-rv2gc-reconstructing-the-garbling-boundary"/>
     <link rel="related" href="https://arxiv.org/abs/2610.39572v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-30-44-rv2gc-reconstructing-the-garbling-boundary</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-43-rv2gc-reconstructing-the-garbling-boundary</id>
     <updated>2026-10-29T08:14:55+00:00</updated>
     <summary type="html">&lt;p&gt;Programmable garbled-circuit execution must balance the benefits of cross-program reuse against the cost of repeated work during secure execution. A complete garbled processor provides a fixed circuit for many programs, but its evaluator repeatedly visits processor-wide structures even when only a small part performs the current protected computation. We present RV2GC, which reconstructs the garbling boundary around a fixed library of RISC-V instruction circuits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39572v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #semiconductors&lt;/p&gt;</summary>
   </entry>
