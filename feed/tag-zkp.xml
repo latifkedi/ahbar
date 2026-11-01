@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-10-31T10:38:51.823923026+00:00</updated>
+  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-56-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-56-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-56-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-56-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-57-systematic-evaluation-of-adversarial-jailbreaking"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-57-systematic-evaluation-of-adversarial-jailbreaking"/>
     <link rel="related" href="https://arxiv.org/abs/2610.39509v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-57-systematic-evaluation-of-adversarial-jailbreaking</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-57-systematic-evaluation-of-adversarial-jailbreaking</id>
     <updated>2026-10-29T07:07:58+00:00</updated>
     <summary type="html">&lt;p&gt;Large language models (LLMs) deployed in safety-critical settings must resist adversarial inputs designed to elicit harmful outputs. We present a systematic empirical evaluation of five adversarial jailbreaking attack families---direct requests, roleplay-based jailbreaking, hypothetical framing, instruction override, and obfuscation---across seven open-weight and API-accessible LLMs: Llama-3-8B, Llama-3.1-8B, Llama-3.2-3B, Mistral-7B, Qwen2.5-7B, Gemma2-9B, and Phi-4-14B. We further evaluate four defense mechanisms: keyword blacklisting, self-reminder prompting, paraphrase-based sanitization, and perplexity-based filtering against the two most vulnerable models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39509v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>SoK: Multiple Concurrent Proposer Blockchains. Multiple concurrent proposer (MCP) protocols let several parties contribute transactions to the same ledger update.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-58-sok-multiple-concurrent-proposer-blockchains"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2684"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-58-sok-multiple-concurrent-proposer-blockchains</id>
+    <updated>2026-10-29T12:55:01+00:00</updated>
+    <summary type="html">&lt;p&gt;Multiple concurrent proposer (MCP) protocols let several parties contribute transactions to the same ledger update. They can distribute communication and reduce one proposer&amp;apos;s control over inclusion and order, but these benefits depend on how the contributions are combined. We describe a common architecture from transaction receipt through proposal formation, agreement, data recovery, ordering, execution, and state finality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2684&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Just How Secure is SRP, Really?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-59-just-how-secure-is-srp"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1869"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-59-just-how-secure-is-srp</id>
+    <updated>2025-10-08T06:58:29+00:00</updated>
+    <summary type="html">&lt;p&gt;An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client and a server to agree upon a cryptographic key, with the only information shared in advance being a low-entropy password (memorized by the client) and a corresponding password file (stored in the server). The standard security definition for aPAKE is in the Universally Composable (UC) framework. Since aPAKE does not rely on a PKI, such protocols have received much attention in recent years due to their potential of replacing the traditional “password-over-TLS” approach for client-server authentication on the Internet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1869&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Highly Efficient and Round-Optimal Asymmetric PAKE</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-60-highly-efficient-and-round-optimal"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/246"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-60-highly-efficient-and-round-optimal</id>
+    <updated>2026-02-13T08:44:18+00:00</updated>
+    <summary type="html">&lt;p&gt;An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client, who holds a raw password, and a server, who holds a one-way mapping of the password, to jointly establish a cryptographically strong session key, without an authenticated channel. The standard security definition for aPAKE is in the Universal Composability (UC) framework. Despite its great potential of being used in practice, existing aPAKE protocols are either not round-optimal, computationally inefficient, or not proven secure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/246&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MinMandate: Task-Hiding Payment Authorization for Web Agents. AI agents increasingly pay for Web services on behalf of their users to complete complex tasks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-61-minmandate-task-hiding-payment-authorization"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1674"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-61-minmandate-task-hiding-payment-authorization</id>
+    <updated>2026-08-13T08:30:10+00:00</updated>
+    <summary type="html">&lt;p&gt;AI agents increasingly pay for Web services on behalf of their users to complete complex tasks. Such a task needs many payments, and the user usually must approve each one, forcing the agent to stop at every payment. Mechanisms such as the Agent Payments Protocol (AP2) therefore enable the user to sign one payment mandate in advance that bounds the agent&amp;apos;s payments for the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1674&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Exact Error Bootstrapping and Comb Bootstrapping in FHEW/TFHE. In FHEW and TFHE, bootstrapping evaluates the decryption function via a blind rotation, whose resolution limits the message space.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-58-exact-error-bootstrapping-and-comb"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-62-exact-error-bootstrapping-and-comb"/>
     <link rel="related" href="https://eprint.iacr.org/2026/2630"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-58-exact-error-bootstrapping-and-comb</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-62-exact-error-bootstrapping-and-comb</id>
     <updated>2026-10-24T18:05:42+00:00</updated>
     <summary type="html">&lt;p&gt;In FHEW and TFHE, bootstrapping evaluates the decryption function via a blind rotation, whose resolution limits the message space. We propose instead to bootstrap the \emph{error}. By rounding the ciphertext at a resolution that is a multiple of the message modulus, we preserve the message exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2630&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Complexity Analysis and Security Implications of the New Isogeny-Path Algorithm</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-59-complexity-analysis-and-security-implications"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-63-complexity-analysis-and-security-implications"/>
     <link rel="related" href="https://eprint.iacr.org/2026/1821"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-59-complexity-analysis-and-security-implications</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-63-complexity-analysis-and-security-implications</id>
     <updated>2026-08-27T15:45:18+00:00</updated>
     <summary type="html">&lt;p&gt;Very recently, Wesolowski (ePrint 2026/1486) proposed a novel heuristic algorithm for solving the supersingular isogeny-path problem in time and memory $p^{1/3+o(1)}$, where $p$ is the characteristic of the underlying field. Although this improves asymptotically on the previous $p^{1/2}\log^{O(1)}(p)$ complexity, its concrete impact on isogeny-based schemes, particularly SQIsign, remains unclear because of the superpolynomial overhead hidden in $p^{o(1)}$ and the exponential memory requirement. In this work, we assess the cost of Wesolowski&amp;apos;s attack, study its time--memory tradeoffs, and investigate optimizations based on the van Oorschot -- Wiener (vOW) technique.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1821&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>New IND-CPA-D Attacks on BFV and BGV. IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption (FHE).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-60-new-ind-cpa-d-attacks"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2546"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-60-new-ind-cpa-d-attacks</id>
-    <updated>2026-10-19T10:55:17+00:00</updated>
-    <summary type="html">&lt;p&gt;IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption (FHE). It captures the situation where the computation result is known to the adversary; it is in particular necessary for FHE with threshold decryption. This work presents three new attacks in this situation on the BFV and BGV FHE schemes, when their parameters are instantiated with heuristic assumptions commonly used to enable correctness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2546&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-61-acorn-qre-specification-and-analysis"/>
-    <link rel="related" href="https://eprint.iacr.org/2023/1080"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-61-acorn-qre-specification-and-analysis</id>
-    <updated>2023-07-11T13:47:52+00:00</updated>
-    <summary type="html">&lt;p&gt;REAMC Report-007(2023) [Reissued October 2026 with modified licence CC BY-NC-ND; no other changes] ACORN-QRE: Specification and Analysis of a Method of Generating Secure One-time Pads for Use in Encryption Roy S Wikramaratna (email: rwikramaratna@gmail.com) Abstract The Additive Congruential Random Number (ACORN) generator is straightforward to implement; it has been demonstrated in previous papers to give rise to sequences with long period which can be proven from theoretical considerations to approximate to being uniform in up to k dimensions (for any given k). The ACORN-QRE algorithm is a straightforward modification of ACORN which effectively avoids the linearity of the original algorithm, while preserving the uniformity of the modified sequence. It provides a new method for generating one-time pads that are resistant to attack either by current computers or by future computing developments, including quantum computers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1080&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Leakage-Diagrams, Importance Sampling, and Composition in the Random Probing Model</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-62-leakage-diagrams-importance-sampling-and"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/444"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-62-leakage-diagrams-importance-sampling-and</id>
-    <updated>2026-03-04T11:10:11+00:00</updated>
-    <summary type="html">&lt;p&gt;Security evaluation of masking in low-noise regimes remains poorly understood: increasing the masking order does not automatically translate into higher concrete resistance once many correlated intermediates are processed by a full implementation. A common approach is to reduce noisy side-channel leakage to the random probing model (RPM), but existing reductions can be too loose to yield meaningful leakage rates in practice, and current RPM analyses often rely on costly simulations or numerically propagated bounds. This work develops analytic and algorithmic tools for estimating and upper-bounding RPM security of masked gadgets and their compositions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/444&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-10-31-63-morphic-accumulators-and-applications-optimal"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1202"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-10-31-63-morphic-accumulators-and-applications-optimal</id>
-    <updated>2026-06-08T11:54:51+00:00</updated>
-    <summary type="html">&lt;p&gt;Cryptographic accumulators based on groups of unknown order (GUO) provide constant-size set membership proofs. For security purposes, existing works require first encoding set elements via division-intractable (DI) hash functions, typically instantiated as random oracles that destroy any algebraic structure. This confines GUO-based accumulators to a purely set-membership role, making them &amp;quot;incompatible&amp;quot; with various existing cryptographic proof techniques over committed integers in the same groups as the GUO, such as constant-size proofs of exponentiation and modular exponent relations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1202&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>
