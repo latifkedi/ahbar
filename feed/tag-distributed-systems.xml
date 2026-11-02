@@ -5,13 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
-    <title>On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-25-on-zeros-and-algorithms-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40598v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-25-on-zeros-and-algorithms-for</id>
-    <updated>2026-10-29T17:50:26+00:00</updated>
-    <summary type="html">&lt;p&gt;We give the first polynomial-time algorithm to estimate the partition function of the antiferromagnetic Ising model on the uniformly random $d$-regular graph to arbitrarily high accuracy for all inverse temperatures up to the Kesten-Stigum threshold. This is the entire regime in which the model is &amp;quot;replica symmetric,&amp;quot; and is conjectured to be optimal for polynomial-time counting and sampling. To achieve our algorithmic result, we establish the absence of Fisher zeros for the partition function in a constant-width strip around the interval from $0$ up to the Kesten-Stigum threshold, with high probability over the randomness of the input graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40598v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
+    <title>The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-28-the-quartic-gap-between-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42069v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-28-the-quartic-gap-between-quantum</id>
+    <updated>2026-10-30T17:27:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum algorithms for linear algebra that access a matrix $A$ through quantum random access memory (QRAM) prepare quantum states proportional to the solutions of linear systems and related problems. Dequantized classical algorithms, when given sampling and query access to $A$, return sampling and query access to an approximate solution. Both kinds of algorithms use a number of queries that is polynomial in the normalized Frobenius norm $ρ=\|A\|_F/\|A\|$ and does not directly depend on the dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42069v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Two choices suffice: $k$-out sampling leaves $O(n/k)$ intercomponent edges for $k\geq 2$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-25-two-choices-suffice-k-out"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42067v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-25-two-choices-suffice-k-out</id>
+    <updated>2026-10-30T17:26:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Given a simple undirected graph on $n$ vertices, random $k$-out sampling forms a spanning subgraph by having each vertex independently choose $k$ incident edges uniformly with replacement. We prove that, for every integer $k\geq2$, the expected number of original edges joining distinct sampled components is $O(n/k)$. This resolves the conjecture of Holm, King, Thorup, Zamir, and Zwick in its full range, improving their logarithmic sampling requirement to the optimal threshold of two choices per vertex.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42067v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-36-matching-workloads-to-blackwell-power"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41919v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-36-matching-workloads-to-blackwell-power</id>
+    <updated>2026-10-30T15:51:19+00:00</updated>
+    <summary type="html">&lt;p&gt;We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\cite{llama3}, and six production HPC codes. The B300 is not a uniform successor to the B200: it trails by up to 5.6$\times$ on convolutional inference, 8$\times$ on 3D vision transformer training, 24--27\% on 70B LLM throughput, and 16$\times$ on double-precision Quantum ESPRESSO. We resolve the convolutional deficit using per-GPU board power rather than throughput alone: on the affected workloads the B300 draws only 36--53\% of its 1100\,W envelope, whereas on ViT-Large, which it wins, both parts saturate at 95--97\% of TDP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41919v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #inference&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Recommendation Feedback Loops Shape Urban Income Segregation and Venue Visitation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-86-recommendation-feedback-loops-shape-urban"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41911v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-86-recommendation-feedback-loops-shape-urban</id>
+    <updated>2026-10-30T15:47:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Location-based recommender systems shape where people go in cities and learn from the visits they steer, forming a human-AI feedback loop. This feedback loop shapes whom people share places with across income groups and which venues keep attracting customers. Yet platforms judge these systems by their offline accuracy on past visits, a test in which the suggestions never change where people go and which therefore cannot capture long-term effects.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41911v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #rag #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,37 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-39-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-37-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-39-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-37-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-42-dynas-a-dynamic-network-penetration"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40214v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-42-dynas-a-dynamic-network-penetration</id>
-    <updated>2026-10-29T14:58:32+00:00</updated>
-    <summary type="html">&lt;p&gt;As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS (Dynamic Network Attack Simulator), which combines parameterized large-scale scenario generation with stateful intrusion detection responses, explicit scan false-positive and false-negative noise, temporary service unavailability, and duration-based action timeouts. We further introduce Pen-DHRL, a recurrent manager--worker policy that selects persistent subgoals using IDS-conditioned global context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40214v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-36-matching-workloads-to-blackwell-power"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41919v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-36-matching-workloads-to-blackwell-power</id>
+    <updated>2026-10-30T15:51:19+00:00</updated>
+    <summary type="html">&lt;p&gt;We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\cite{llama3}, and six production HPC codes. The B300 is not a uniform successor to the B200: it trails by up to 5.6$\times$ on convolutional inference, 8$\times$ on 3D vision transformer training, 24--27\% on 70B LLM throughput, and 16$\times$ on double-precision Quantum ESPRESSO. We resolve the convolutional deficit using per-GPU board power rather than throughput alone: on the affected workloads the B300 draws only 36--53\% of its 1100\,W envelope, whereas on ViT-Large, which it wins, both parts saturate at 95--97\% of TDP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41919v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RV2GC: Reconstructing the Garbling Boundary in a RISC-V Garbled Processor</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-43-rv2gc-reconstructing-the-garbling-boundary"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39572v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-43-rv2gc-reconstructing-the-garbling-boundary</id>
-    <updated>2026-10-29T08:14:55+00:00</updated>
-    <summary type="html">&lt;p&gt;Programmable garbled-circuit execution must balance the benefits of cross-program reuse against the cost of repeated work during secure execution. A complete garbled processor provides a fixed circuit for many programs, but its evaluator repeatedly visits processor-wide structures even when only a small part performs the current protected computation. We present RV2GC, which reconstructs the garbling boundary around a fixed library of RISC-V instruction circuits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39572v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #semiconductors&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OPERA: OPamp Design by an Expert-Taught Reasoning Agent, from Specifications to Layout</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-45-opera-opamp-design-by-an"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39395v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-45-opera-opamp-design-by-an</id>
-    <updated>2026-10-29T05:29:47+00:00</updated>
-    <summary type="html">&lt;p&gt;Analog flows from specifications to a signed-off layout rarely run without manual iteration. Recent large language model (LLM) agents size circuits with optimizer loops over the device dimensions and stop at the schematic. We present OPERA (OPamp design by an Expert-taught Reasoning Agent), in which a general-purpose LLM agent designs CMOS opamps from specifications to post-layout sign-off with open-source tools.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39395v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #agents&lt;/p&gt;</summary>
+    <title>DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-41-deepweave-weaving-neural-and-symbolic"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41541v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-41-deepweave-weaving-neural-and-symbolic</id>
+    <updated>2026-10-30T10:38:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Machine learning-based network intrusion detection systems can recognize complex traffic patterns, but often require substantial labelled attack data, degrade under deployment shift, and provide limited evidence for analysts. We present DeepWeave, a probabilistic neuro-symbolic Network Intrusion Detection System (NIDS) that makes logic an integral part of detection. DeepWeave automatically constructs and validates interpretable rules, represents neural predictions as probabilistic predicates, and reconciles both evidence sources through explicit coupling policies over packet-, flow-, and hybrid-views.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41541v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

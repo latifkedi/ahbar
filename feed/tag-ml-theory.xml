@@ -5,37 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
-    <title>DYNAS: A Dynamic Network Penetration Testing Framework Using Deep Hierarchical Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-42-dynas-a-dynamic-network-penetration"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40214v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-42-dynas-a-dynamic-network-penetration</id>
-    <updated>2026-10-29T14:58:32+00:00</updated>
-    <summary type="html">&lt;p&gt;As network scale and uncertainty complicate automated penetration testing, reinforcement learning (RL) environments must support controlled evaluation under defensive and non-stationary conditions. We present DYNAS (Dynamic Network Attack Simulator), which combines parameterized large-scale scenario generation with stateful intrusion detection responses, explicit scan false-positive and false-negative noise, temporary service unavailability, and duration-based action timeouts. We further introduce Pen-DHRL, a recurrent manager--worker policy that selects persistent subgoals using IDS-conditioned global context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40214v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-41-deepweave-weaving-neural-and-symbolic"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41541v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-41-deepweave-weaving-neural-and-symbolic</id>
+    <updated>2026-10-30T10:38:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Machine learning-based network intrusion detection systems can recognize complex traffic patterns, but often require substantial labelled attack data, degrade under deployment shift, and provide limited evidence for analysts. We present DeepWeave, a probabilistic neuro-symbolic Network Intrusion Detection System (NIDS) that makes logic an integral part of detection. DeepWeave automatically constructs and validates interpretable rules, represents neural predictions as probabilistic predicates, and reconciles both evidence sources through explicit coupling policies over packet-, flow-, and hybrid-views.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41541v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-27-ramanujan-challenge-results-ai-assisted"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-27-ramanujan-challenge-results-ai-assisted</id>
-    <updated>2026-10-29T17:39:04+00:00</updated>
-    <summary type="html">&lt;p&gt;As AI&amp;apos;s mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It presented concrete formulas for mathematical constants whose correctness can be checked numerically, while their proofs may require non-obvious mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40551v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #ml-theory #llm&lt;/p&gt;</summary>
+    <title>Locality-Controlled Out-of-Distribution Guidance for Robust Regulatory DNA Sequence Design</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-48-locality-controlled-out-of-distribution"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41736v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-48-locality-controlled-out-of-distribution</id>
+    <updated>2026-10-30T13:44:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Designing regulatory DNA sequences for targeted gene-expression control is an important challenge. Recent approaches frame this task as property-conditioned generation, where diffusion models trained on natural sequences are guided toward high predicted activity through reward-based fine-tuning or sampling-time guidance. We show that single-reward evaluation can obscure reward-hacking behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41736v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors in Buyer-Vendor Negotiation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-83-vendster-an-evaluation-arena-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.38292v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-83-vendster-an-evaluation-arena-to</id>
-    <updated>2026-10-28T05:23:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Time-series forecasters are ranked almost entirely by accuracy metrics, but a forecast&amp;apos;s decision value, its effect on the downstream decision, need not track accuracy and is rarely measured. This problem compounds as large language model (LLM) agents increasingly consume forecasters as tools, mediating them through stochastic, opaque policies. We present Vendster, an evaluation arena measuring how a forecaster&amp;apos;s bias and prediction-interval width change the outcome of a buyer--vendor discount negotiation between two LLM agents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38292v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+    <title>From Training Exposure to Membership Evidence: A Controlled Study of OLMo 2</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-58-from-training-exposure-to-membership"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41732v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-58-from-training-exposure-to-membership</id>
+    <updated>2026-10-30T13:41:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Whether a language model was trained on a document matters for copyright, privacy, and benchmark contamination. Yet most membership-inference (MI) evaluations on language models collect members and non-members after the fact, so success may reflect distribution shift and failure is inconclusive. We re-ran OLMo 2 1B&amp;apos;s official 50-billion-token mid-training stage, replacing selected training chunks with documents from 7,814 pairs matched on domain and difficulty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41732v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>OPERA: OPamp Design by an Expert-Taught Reasoning Agent, from Specifications to Layout</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-45-opera-opamp-design-by-an"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39395v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-45-opera-opamp-design-by-an</id>
-    <updated>2026-10-29T05:29:47+00:00</updated>
-    <summary type="html">&lt;p&gt;Analog flows from specifications to a signed-off layout rarely run without manual iteration. Recent large language model (LLM) agents size circuits with optimizer loops over the device dimensions and stop at the schematic. We present OPERA (OPamp design by an Expert-taught Reasoning Agent), in which a general-purpose LLM agent designs CMOS opamps from specifications to post-layout sign-off with open-source tools.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39395v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #agents&lt;/p&gt;</summary>
+    <title>When Is a Game a Markov Decision Process? Correspondences Between Game Theory and Reinforcement Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-85-when-is-a-game-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41962v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-85-when-is-a-game-a</id>
+    <updated>2026-10-30T16:12:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Reinforcement learning and game theory describe the same object from two sides. Game theory says what a rational outcome of a strategic interaction is; reinforcement learning says how an agent could reach one through experience. The two literatures nevertheless keep separate vocabularies for identical structures, and the treatments that bridge them present the correspondence as analogy rather than theorem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41962v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

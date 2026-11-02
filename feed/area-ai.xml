@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
-    <title>Proving and Improving the Platonic Representation Hypothesis with JEPAs. Whether models trained on different modalities converge to the same representation of the world is central to AI.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-10-proving-and-improving-the-platonic"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39302"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-10-proving-and-improving-the-platonic</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39302&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #logic&lt;/p&gt;</summary>
+    <title>Latent Reasoning in Continuous Space for Unified Multimodal Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-10-latent-reasoning-in-continuous-space"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42149"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-10-latent-reasoning-in-continuous-space</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space, whereas image generation operates in a continuous space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42149&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-11-l3g-world-real-time-infinite"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40614"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-11-l3g-world-real-time-infinite</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40614&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>ReLift: Dense 3D Tracking as Lifted Trajectory Repair</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-11-relift-dense-3d-tracking-as"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42136"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-11-relift-dense-3d-tracking-as</id>
+    <updated>2026-10-30T13:58:33.000Z</updated>
+    <summary type="html">&lt;p&gt;Dense 3D tracking from monocular video requires establishing point correspondences over time, estimating their depth, and inferring their trajectories during occlusion. Existing methods typically learn these tasks jointly, a demanding objective given the scarcity of 4D supervision. We show that strong pretrained 2D trackers and 3D geometry models provide an effective foundation: lifted trajectories, with occluded segments simply interpolated, already rival dedicated 3D trackers using the same geometry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42136&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-12-read-allocate-route-role-coupled"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40647"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-12-read-allocate-route-role-coupled</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40647&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-12-roboarchitect-automating-the-design-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42141"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-12-roboarchitect-automating-the-design-of</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42141&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-13-look-only-when-needed-certificate"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.36671"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-13-look-only-when-needed-certificate</id>
+    <title>CausalWAM: Learning the Causes of Actions in World Action Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-13-causalwam-learning-the-causes-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42096"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-13-causalwam-learning-the-causes-of</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (the action-relevant latent variables), as the model could just as well learn to imitate in this way whilst entangling the action-relevant latent variables with the nuisance variables.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42096&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-14-frameforge-harnessing-priors-of-video"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.36545"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-14-frameforge-harnessing-priors-of-video</id>
     <updated>2026-10-26T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36671&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships vary substantially across generation tasks, while video models naturally encode visual transformations at different temporal scales.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.36545&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Training Foundation Models with a Single Algorithm</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-14-training-foundation-models-with-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40564"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-14-training-foundation-models-with-a</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, we place all of these stages under a single likelihood-based training algorithm, unified training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40564&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+    <title>CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-15-cepo-a-general-framework-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.34722"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-15-cepo-a-general-framework-for</id>
+    <updated>2026-10-25T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multi-agent systems (MAS) require both effective coordination and specialized task execution. Existing prompt optimization approaches typically couple these functions within agent-specific prompts. We introduce Coordinator-Executor Prompt Optimization (CEPO), a general framework for improving prompt optimization in MAS.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34722&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-16-introducing-gemini-3-8-flash"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-18-introducing-gemini-3-8-flash"/>
     <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-16-introducing-gemini-3-8-flash</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-18-introducing-gemini-3-8-flash</id>
     <updated>2026-09-02T16:18:31+00:00</updated>
     <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-15-a-rsi-adaptive-task-refresh"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.38568"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-15-a-rsi-adaptive-task-refresh</id>
-    <updated>2026-10-27T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model&amp;apos;s own uncertain predictions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38568&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-17-rea-a-routed-embodied-agent"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42053"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-17-rea-a-routed-embodied-agent</id>
+    <updated>2026-10-30T13:18:13.000Z</updated>
+    <summary type="html">&lt;p&gt;Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42053&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Multi-Token Prediction Done Right</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-17-multi-token-prediction-done-right"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.38331"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-17-multi-token-prediction-done-right</id>
-    <updated>2026-10-27T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both next-token and multi-token learning, increasingly so with scale. Specifically, the MTP cross-entropy gradient can be decomposed exactly into a KL self-distillation term that pulls each MTP head toward the model&amp;apos;s own next-token prediction (NTP) distribution and improves speculative decoding, and a residual that has a low signal-to-noise ratio and buries the useful KL signal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.38331&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CoSTA: Compressed Speech Token Adaptation for Efficient Spoken Dialogue Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-18-costa-compressed-speech-token-adaptation"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.21143"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-18-costa-compressed-speech-token-adaptation</id>
-    <updated>2026-10-14T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Spoken Dialogue Models (SDMs) typically share a speech-token space for generation and synthesis, leading to long autoregressive sequences and costly inference. Lower-rate speech tokenizers shorten sequences but may introduce compression-quality trade-offs and costly replacement without breaking this coupling. To address this limitation, we propose CoSTA, a compatibility-preserving post-hoc framework that decouples generation and synthesis token spaces while retaining the original speech tokenizer and decoder.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.21143&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-16-captain-a-pipeline-for-post"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40799"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-16-captain-a-pipeline-for-post</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40799&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

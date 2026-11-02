@@ -5,13 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
-    <title>Odd Elasticity in Strain-Gradient Continua: Anisotropy Classification and Non-Hermitian Elastodynamics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-31-odd-elasticity-in-strain-gradient"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40581v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-31-odd-elasticity-in-strain-gradient</id>
-    <updated>2026-10-29T17:45:38+00:00</updated>
-    <summary type="html">&lt;p&gt;Odd elasticity extends continuum mechanics to active nonconservative systems containing internal energy sources, such as robotic active metamaterials with nonreciprocal feedback. Modeling these systems as effective continua requires relaxing Maxwell-Betti reciprocity, which results in stiffness tensors lacking major symmetry. In this contribution, we extend this framework to 3D strain-gradient odd elasticity to incorporate the length scales inherent in these heterogeneous systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40581v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #robotics&lt;/p&gt;</summary>
+    <title>RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-12-roboarchitect-automating-the-design-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42141"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-12-roboarchitect-automating-the-design-of</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42141&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CausalWAM: Learning the Causes of Actions in World Action Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-13-causalwam-learning-the-causes-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42096"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-13-causalwam-learning-the-causes-of</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (the action-relevant latent variables), as the model could just as well learn to imitate in this way whilst entangling the action-relevant latent variables with the nuisance variables.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42096&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-17-rea-a-routed-embodied-agent"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42053"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-17-rea-a-routed-embodied-agent</id>
+    <updated>2026-10-30T13:18:13.000Z</updated>
+    <summary type="html">&lt;p&gt;Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42053&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-16-captain-a-pipeline-for-post"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.40799"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-16-captain-a-pipeline-for-post</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40799&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

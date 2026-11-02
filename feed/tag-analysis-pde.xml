@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <entry>
+    <title>Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-20-functional-tensor-trains-for-high"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42119v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-20-functional-tensor-trains-for-high</id>
+    <updated>2026-10-30T17:52:14+00:00</updated>
+    <summary type="html">&lt;p&gt;Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note&amp;apos;s future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42119v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #quantum-computing&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>The quasi-Riemann hypothesis. Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-19-the-quasi-riemann-hypothesis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-21-the-quasi-riemann-hypothesis"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-19-the-quasi-riemann-hypothesis</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-21-the-quasi-riemann-hypothesis</id>
     <updated>2026-10-27T22:12:50+00:00</updated>
     <summary type="html">&lt;p&gt;Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>oai-math-revised: a community hub for revising OpenAI’s math write-ups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-24-oai-math-revised-a-community"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-24-oai-math-revised-a-community</id>
-    <updated>2026-10-24T15:08:02+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Abhinav Nellore, Johannes Schmitt, Soledad Villar, and Rachel Ward – T.] OpenAI’s math write-ups at https://github.com/openai/math can be difficult to understand and can have incomplete citations. https://github.com/mathcommunity/oai-math-revised/ seeks to be an inclusive effort to improve these write-ups, and the broader math community–students, postdocs, professors, and enthusiasts–is invited to participate. […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+    <title>Limit theorems for cuspidal orbits on Fuchsian groups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-24-limit-theorems-for-cuspidal-orbits"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41973v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-24-limit-theorems-for-cuspidal-orbits</id>
+    <updated>2026-10-30T16:24:16+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $Γ\subset \operatorname{SL}(2, \mathbb{R})$ be discrete, co-finite with cusps, and let ${\frak b}\in \mathbb{R}\cup\{\infty\}$ be a cusp of $Γ$. Let $f: Γ{\frak b} \to \mathbb{R}$ be a quantum modular form in the sense that the maps $$ φ_γ(x) = f(x) - f(γx) \qquad (x\in Γ{\frak b}, γ\in Γ) $$ extend to Hölder-regular functions. Under bounded moments assumptions of the shape $\sum_n n^{-2} \int |φ_{γ^n}(x)|^αd x &amp;lt; \infty$ for some $α&amp;gt;0$ and every fixed parabolic element $γ\in Γ$, we prove asymptotic formulas for the characteristic functions of the values $f(x)$ for $x\in Γ{\frak b}$, ordered by growing denominators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41973v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The mathematical sciences in an AI-enabled world</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-27-the-mathematical-sciences-in-an"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-27-the-mathematical-sciences-in-an</id>
+    <updated>2026-10-31T15:17:00+00:00</updated>
+    <summary type="html">&lt;p&gt;The Academy for the Mathematical Sciences, which is based in the UK, has released a report “The mathematical sciences in an AI-enabled world“. To quote from the release: The paper examines how recent advances in artificial intelligence are changing mathematical research and its applications, bringing new opportunities for discovery, verification and the use of mathematics […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

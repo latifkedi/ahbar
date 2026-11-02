@@ -5,37 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
-    <title>On the Quantum Chromatic Gap II</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-28-on-the-quantum-chromatic-gap"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40571v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-28-on-the-quantum-chromatic-gap</id>
-    <updated>2026-10-29T17:44:20+00:00</updated>
-    <summary type="html">&lt;p&gt;We confirm a conjecture of the first author [SODA&amp;apos;26] on a strong form of pseudo-telepathy for Khot&amp;apos;s $d$-to-$1$ games: for every $d\geq 4$, every $ε&amp;gt;0$, and every $k\in\mathbb N$, there is a $d$-to-$1$ label-cover game of classical value less than $ε$ that admits a perfect quantum strategy using finite-dimensional shared entanglement with measurement contexts of radius at least $k$. As a consequence, there exist graphs whose quantum chromatic number $χ_q$ is $3$ and whose classical chromatic number $χ$ is arbitrarily large. This is the first improvement on the quantum chromatic gap since the work of Brassard, Cleve, and Tapp [Phys.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40571v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #quantum-computing #algorithms&lt;/p&gt;</summary>
+    <title>The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-28-the-quartic-gap-between-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42069v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-28-the-quartic-gap-between-quantum</id>
+    <updated>2026-10-30T17:27:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum algorithms for linear algebra that access a matrix $A$ through quantum random access memory (QRAM) prepare quantum states proportional to the solutions of linear systems and related problems. Dequantized classical algorithms, when given sampling and query access to $A$, return sampling and query access to an approximate solution. Both kinds of algorithms use a number of queries that is polynomial in the normalized Frobenius norm $ρ=\|A\|_F/\|A\|$ and does not directly depend on the dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42069v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-40-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-40-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-25-on-zeros-and-algorithms-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40598v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-25-on-zeros-and-algorithms-for</id>
-    <updated>2026-10-29T17:50:26+00:00</updated>
-    <summary type="html">&lt;p&gt;We give the first polynomial-time algorithm to estimate the partition function of the antiferromagnetic Ising model on the uniformly random $d$-regular graph to arbitrarily high accuracy for all inverse temperatures up to the Kesten-Stigum threshold. This is the entire regime in which the model is &amp;quot;replica symmetric,&amp;quot; and is conjectured to be optimal for polynomial-time counting and sampling. To achieve our algorithmic result, we establish the absence of Fisher zeros for the partition function in a constant-width strip around the interval from $0$ up to the Kesten-Stigum threshold, with high probability over the randomness of the input graph.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40598v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #probability-stats&lt;/p&gt;</summary>
+    <title>Two choices suffice: $k$-out sampling leaves $O(n/k)$ intercomponent edges for $k\geq 2$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-25-two-choices-suffice-k-out"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42067v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-25-two-choices-suffice-k-out</id>
+    <updated>2026-10-30T17:26:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Given a simple undirected graph on $n$ vertices, random $k$-out sampling forms a spanning subgraph by having each vertex independently choose $k$ incident edges uniformly with replacement. We prove that, for every integer $k\geq2$, the expected number of original edges joining distinct sampled components is $O(n/k)$. This resolves the conjecture of Holm, King, Thorup, Zamir, and Zwick in its full range, improving their logarithmic sampling requirement to the optimal threshold of two choices per vertex.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42067v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ramanujan Challenge Results: AI-Assisted Evaluation Pipeline for Multi-Format Proofs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-27-ramanujan-challenge-results-ai-assisted"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-27-ramanujan-challenge-results-ai-assisted</id>
-    <updated>2026-10-29T17:39:04+00:00</updated>
-    <summary type="html">&lt;p&gt;As AI&amp;apos;s mathematical capabilities rapidly improve, meaningful benchmarks are shifting from university-level problems and math olympiads to research-level mathematics. The Ramanujan Challenge is a benchmark comprised of research-level problems in number theory, including unpublished results and open conjectures. It presented concrete formulas for mathematical constants whose correctness can be checked numerically, while their proofs may require non-obvious mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40551v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #ml-theory #llm&lt;/p&gt;</summary>
+    <title>Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-36-matching-workloads-to-blackwell-power"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41919v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-36-matching-workloads-to-blackwell-power</id>
+    <updated>2026-10-30T15:51:19+00:00</updated>
+    <summary type="html">&lt;p&gt;We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\cite{llama3}, and six production HPC codes. The B300 is not a uniform successor to the B200: it trails by up to 5.6$\times$ on convolutional inference, 8$\times$ on 3D vision transformer training, 24--27\% on 70B LLM throughput, and 16$\times$ on double-precision Quantum ESPRESSO. We resolve the convolutional deficit using per-GPU board power rather than throughput alone: on the affected workloads the B300 draws only 36--53\% of its 1100\,W envelope, whereas on ViT-Large, which it wins, both parts saturate at 95--97\% of TDP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41919v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #inference&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Ideal Pseudorandom Code, Revisited</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-60-ideal-pseudorandom-code-revisited"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-60-ideal-pseudorandom-code-revisited</id>
+    <updated>2026-08-11T12:03:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

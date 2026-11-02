@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-11-01T11:32:46.610946645+00:00</updated>
+  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
   <entry>
-    <title>On the gauge-invariant orbital angular momentum of vector optical vortices in the paraxial approximation and beyond</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-01-32-on-the-gauge-invariant-orbital"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40523v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-01-32-on-the-gauge-invariant-orbital</id>
-    <updated>2026-10-29T17:31:25+00:00</updated>
-    <summary type="html">&lt;p&gt;In this paper we present a gauge-invariant formalism for describing the spin and orbital angular momenta of scalar and vector optical vortices. The correction term, arising from consistent incorporation of the transverse vector potential&amp;apos;s nonlocality, restores gauge invariance and makes it possible to separate the total angular momentum into spin and orbital components. We propose a method for calculating the orbital and spin angular momenta of multimode vector vortex fields and show that the orbital angular momentum of such beams contains two qualitatively different components.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40523v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #inference&lt;/p&gt;</summary>
+    <title>Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-36-matching-workloads-to-blackwell-power"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.41919v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-36-matching-workloads-to-blackwell-power</id>
+    <updated>2026-10-30T15:51:19+00:00</updated>
+    <summary type="html">&lt;p&gt;We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\cite{llama3}, and six production HPC codes. The B300 is not a uniform successor to the B200: it trails by up to 5.6$\times$ on convolutional inference, 8$\times$ on 3D vision transformer training, 24--27\% on 70B LLM throughput, and 16$\times$ on double-precision Quantum ESPRESSO. We resolve the convolutional deficit using per-GPU board power rather than throughput alone: on the affected workloads the B300 draws only 36--53\% of its 1100\,W envelope, whereas on ViT-Large, which it wins, both parts saturate at 95--97\% of TDP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41919v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #inference&lt;/p&gt;</summary>
   </entry>
 </feed>
