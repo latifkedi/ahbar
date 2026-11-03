@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-optimization.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-optimization.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <entry>
+    <title>PDFP: GPU-Accelerated Feasibility Pump via PDHG. The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03629v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump</id>
+    <updated>2026-11-02T18:54:16+00:00</updated>
+    <summary type="html">&lt;p&gt;The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming. It alternates between rounding an LP-feasible point and projecting the rounded point back onto the feasible region of the LP relaxation. Recent pump-based heuristics compute the projection with the primal--dual hybrid gradient method (PDHG), which is scalable on modern GPUs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03629v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optimization #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A Cooperative Game-Theoretic Framework for Real-Time Deviation Settlement in Local Energy Communities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-89-a-cooperative-game-theoretic-framework"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03030v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-89-a-cooperative-game-theoretic-framework</id>
+    <updated>2026-11-02T12:26:40+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper proposes a cooperative game-theoretical framework for the financial settlement of real-time deviations in Community-Based Local Energy Markets (CB-LEMs). The real-time settlement process is modeled as a transferable-utility cooperative game, and the resulting Real-Time Local Energy Market (RTLEM) game is shown to be superadditive and balanced. We analyze two game-theoretical allocation mechanisms, the Shapley value and the nucleolus, and evaluate their efficiency, individual rationality, coalitional rationality, and temporal-aggregation properties.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03030v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
+  </entry>
 </feed>

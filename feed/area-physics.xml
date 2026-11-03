@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-physics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-physics.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-28-the-quartic-gap-between-quantum"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42069v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-28-the-quartic-gap-between-quantum</id>
-    <updated>2026-10-30T17:27:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum algorithms for linear algebra that access a matrix $A$ through quantum random access memory (QRAM) prepare quantum states proportional to the solutions of linear systems and related problems. Dequantized classical algorithms, when given sampling and query access to $A$, return sampling and query access to an approximate solution. Both kinds of algorithms use a number of queries that is polynomial in the normalized Frobenius norm $ρ=\|A\|_F/\|A\|$ and does not directly depend on the dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42069v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+    <title>Quantum Private Information Retrieval on Forests. We consider the problem of graph private information retrieval (PIR) in the quantum setting.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-28-quantum-private-information-retrieval-on"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03558v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-28-quantum-private-information-retrieval-on</id>
+    <updated>2026-11-02T18:19:25+00:00</updated>
+    <summary type="html">&lt;p&gt;We consider the problem of graph private information retrieval (PIR) in the quantum setting. We focus on a specific type of graphs, namely the forest graphs. A forest graph is a union of disjoint trees.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03558v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #cryptography #networking&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Current-driven transient dynamics of magnetic-octupole domain walls in noncollinear antiferromagnets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-30-current-driven-transient-dynamics-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42065v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-30-current-driven-transient-dynamics-of</id>
-    <updated>2026-10-30T17:26:03+00:00</updated>
-    <summary type="html">&lt;p&gt;Current-driven magnetic-octupole domain walls in noncollinear antiferromagnets are promising for fast spintronic devices, yet their transient dynamics are not yet fully understood. Here, we investigate spin-orbit-torque-driven domain-wall motion in Mn$_\text{3}$Sn using a multipole micromagnetic framework. The three symmetry-related 60° walls exhibit equivalent current-driven dynamics, unlike their field-driven motion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42065v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+    <title>Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-29-optical-circuit-switch-technology-built"/>
+    <link rel="related" href="https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-29-optical-circuit-switch-technology-built</id>
+    <updated>2026-11-02T01:34:16Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Physics, Quantum &amp;amp; Space. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #optics-photonics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Anomalies of TQFTs coupled to parameter spaces and constraints on ground-state degeneracies</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-31-anomalies-of-tqfts-coupled-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42007v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-31-anomalies-of-tqfts-coupled-to</id>
-    <updated>2026-10-30T16:46:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Anomalies of global symmetries can arise in long-range entangled quantum many-body systems and provide useful constraints on their dynamics. In this paper, we study anomalies of $d$-dimensional topological quantum field theories (TQFTs) coupled to parameter spaces and their implications for ground-state degeneracies. Specifically, we formulate anomalies as obstructions to constructing parametrized families of TQFTs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42007v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #topology&lt;/p&gt;</summary>
+    <title>Mutual information to all orders from modular flow: a replica-free approach</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-31-mutual-information-to-all-orders"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03630v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-31-mutual-information-to-all-orders</id>
+    <updated>2026-11-02T18:55:02+00:00</updated>
+    <summary type="html">&lt;p&gt;We derive an all-orders long-distance expansion of vacuum mutual information between two disjoint balls in generic $d$-dimensional CFTs. The derivation uses a novel radial sewing expansion of the joint vacuum density matrix, together with a modular response formula for relative entropy and the geometric modular flow of a single ball, without analytic continuation in replica number. The expansion coefficients are modular integrals of modular-flowed vacuum correlators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03630v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>No generalised contextuality from the vacuum</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-32-no-generalised-contextuality-from-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41964v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-32-no-generalised-contextuality-from-the</id>
-    <updated>2026-10-30T16:13:56+00:00</updated>
-    <summary type="html">&lt;p&gt;We show that, under certain conditions, generalised contextuality, in the sense introduced by Spekkens, cannot be created from the vacuum of a quantum field. Initial noncontextual qudit states do not become contextual just by interacting with a quantum field. This is verified in two scenarios.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41964v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics&lt;/p&gt;</summary>
+    <title>Single-pass stochastic cooling for electron microscopy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-32-single-pass-stochastic-cooling-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03581v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-32-single-pass-stochastic-cooling-for</id>
+    <updated>2026-11-02T18:31:55+00:00</updated>
+    <summary type="html">&lt;p&gt;Scientific applications of free electrons, such as in electron microscopes and particle accelerators, are limited by the brightness of available electron sources. Accelerators can use phase space cooling to surpass these source limitations, whereas electron microscopes can only rely on particle filtering to increase beam coherence at the cost of reduced brightness. We show that strong electron-light coupling in nanophotonic structures makes it possible to achieve single-pass stochastic cooling inside an electron microscope for a lossless improvement of longitudinal emittance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03581v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Locality, Probability and the Relevance of History. Relativistic theory and experiments teach us that causal influences are constrained by the speed of light.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-33-locality-probability-and-the-relevance"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41944v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-33-locality-probability-and-the-relevance</id>
-    <updated>2026-10-30T16:03:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Relativistic theory and experiments teach us that causal influences are constrained by the speed of light. Deterministic theories incorporate this lesson in $\textit{functional}$ terms: whether an event occurs or not is functionally determined by events that occur in its immediate causal past. In this paper we suggest a natural generalization of this constraint that applies to probabilistic theories: the $\textit{probability}$ that an event occurs is to be functionally determined by the $\textit{probability}$ of the event-occurrences in its immediate causal past.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41944v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter&lt;/p&gt;</summary>
+    <title>The Virasoro Bootstrap: from the $c\sim1$ desert to coupled Potts</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-33-the-virasoro-bootstrap-from-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03565v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-33-the-virasoro-bootstrap-from-the</id>
+    <updated>2026-11-02T18:22:31+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop a numerical conformal bootstrap for two-dimensional CFTs with $c&amp;gt;1$ based on Virasoro conformal blocks, computed with Zamolodchikov&amp;apos;s recursion and optimal polynomial interpolation. As a first test we isolate an island around three decoupled Ising models. We then consider three 3-state Potts models coupled through their energy operators, a candidate irrational CFT.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03565v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Focusing through coupled multimode fibers for miniaturized single-atom tweezer arrays</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-34-focusing-through-coupled-multimode-fibers"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41917v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-34-focusing-through-coupled-multimode-fibers</id>
-    <updated>2026-10-30T15:50:40+00:00</updated>
-    <summary type="html">&lt;p&gt;Real-world deployment of quantum technologies requires systems in low SWaP-C packages. Quantum platforms based on ultracold atoms typically trap and control atoms with optical tweezers using light focused through bulky objective lenses, which are costly and sensitive to misalignment. Multimode fibers (MMFs) offer a compact route to focusing light, but their use in forming optical tweezers for cold atoms has been limited to a single fiber.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41917v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Field-resolved observation and quantification of the instantaneous Kerr response in semiconductors</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-35-field-resolved-observation-and-quantification"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42098v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-35-field-resolved-observation-and-quantification</id>
-    <updated>2026-10-30T17:42:49+00:00</updated>
-    <summary type="html">&lt;p&gt;The optical Kerr effect, whereby the refractive index of a material changes with light intensity, underpins nonlinear photonics and emerging mid-infrared technologies. Accurate determination of the nonlinear refractive index is therefore essential, yet conventional intensity-based techniques infer the nonlinear phase shift indirectly from changes in beam propagation or optical spectra. Moreover, methods such as the $z$-scan cannot resolve the temporal evolution of the nonlinear response, making it difficult to distinguish instantaneous Kerr nonlinearities from delayed contributions, including free-carrier effects.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42098v1&quot;&gt;arXiv High-Energy, Astrophysics &amp;amp; Optics (hep-th, astro-ph, optics)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #high-energy #astrophysics #optics-photonics #materials-science&lt;/p&gt;</summary>
+    <title>Symmetry breaking from conformality loss on holographic Rényi defects. The Rényi entropies of a ball are computed by a conformal defect, the Rényi defect, dual in holography to a hyperbolic black hole.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-34-symmetry-breaking-from-conformality-loss"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03413v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-34-symmetry-breaking-from-conformality-loss</id>
+    <updated>2026-11-02T16:38:20+00:00</updated>
+    <summary type="html">&lt;p&gt;The Rényi entropies of a ball are computed by a conformal defect, the Rényi defect, dual in holography to a hyperbolic black hole. At an index $n_*$ its charged operator merges with its alternate-quantization partner, and the defect loses conformality. Beyond $n_*$ it flows with no source to a conformal defect that breaks the U(1) symmetry; below $n_*$ that defect needs a symmetry-breaking source, so at large $N$, conformality loss makes the breaking spontaneous.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03413v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #astrophysics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part II. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-29-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-30-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10239"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-29-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-30-podcasts-about-the-topic-part</id>
     <updated>2026-10-26T22:03:37+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10239&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms #quantum-physics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-36-matching-workloads-to-blackwell-power"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41919v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-36-matching-workloads-to-blackwell-power</id>
-    <updated>2026-10-30T15:51:19+00:00</updated>
-    <summary type="html">&lt;p&gt;We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\cite{llama3}, and six production HPC codes. The B300 is not a uniform successor to the B200: it trails by up to 5.6$\times$ on convolutional inference, 8$\times$ on 3D vision transformer training, 24--27\% on 70B LLM throughput, and 16$\times$ on double-precision Quantum ESPRESSO. We resolve the convolutional deficit using per-GPU board power rather than throughput alone: on the affected workloads the B300 draws only 36--53\% of its 1100\,W envelope, whereas on ViT-Large, which it wins, both parts saturate at 95--97\% of TDP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41919v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #inference&lt;/p&gt;</summary>
+    <title>The Optimizer&apos;s Windfall: Bounding Hindsight Gain under Random Restrictions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-35-the-optimizer-s-windfall-bounding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03468v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-35-the-optimizer-s-windfall-bounding</id>
+    <updated>2026-11-02T17:11:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03468v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Recent progress in the computational study of supercooled and glassy water</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-36-recent-progress-in-the-computational"/>
+    <link rel="related" href="https://www.nature.com/articles/s41567-026-03479-x"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-36-recent-progress-in-the-computational</id>
+    <updated>2026-11-02T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Physics, Published online: 02 November 2026; doi:10.1038/s41567-026-03479-x This Review discusses recent advances in the computational exploration of the properties of supercooled and glassy water.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41567-026-03479-x&quot;&gt;Nature Physics&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-physics #optics-photonics&lt;/p&gt;</summary>
   </entry>
 </feed>

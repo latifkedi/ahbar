@@ -5,37 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-12-roboarchitect-automating-the-design-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42141"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-12-roboarchitect-automating-the-design-of</id>
-    <updated>2026-10-29T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42141&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Democratizing Robot-Use Agents: A Unified Harness with Open Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-13-democratizing-robot-use-agents-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01560"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-13-democratizing-robot-use-agents-a</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01560&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CausalWAM: Learning the Causes of Actions in World Action Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-13-causalwam-learning-the-causes-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42096"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-13-causalwam-learning-the-causes-of</id>
-    <updated>2026-10-29T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (the action-relevant latent variables), as the model could just as well learn to imitate in this way whilst entangling the action-relevant latent variables with the nuisance variables.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42096&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-17-rea-a-routed-embodied-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42053"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-17-rea-a-routed-embodied-agent</id>
-    <updated>2026-10-30T13:18:13.000Z</updated>
-    <summary type="html">&lt;p&gt;Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42053&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-16-captain-a-pipeline-for-post"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40799"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-16-captain-a-pipeline-for-post</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40799&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-40-klasktron-an-open-source-platform"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03138v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-40-klasktron-an-open-source-platform</id>
+    <updated>2026-11-02T13:49:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Understanding mobility dynamics and the effects of urban transportation management policies requires examining how individual travel decisions, traffic conditions, and policy interventions influence one another over time. We present AgenticMobility, an open-source experimental platform for studying how mobility AI agents and other AI agents interact, adapt through repeated experience, and collectively shape mobility outcomes. Persistent agents retain identities and relevant states across rounds, with explicit interfaces defining information access, admissible actions, and decision schedules; linked records trace decisions, execution, and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03138v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

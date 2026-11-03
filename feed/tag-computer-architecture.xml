@@ -5,29 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-37-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-37-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Matching Workloads to Blackwell: Power-Resolved Benchmarking of NVIDIA B200 and B300 across HPC and AI Workloads</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-36-matching-workloads-to-blackwell-power"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41919v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-36-matching-workloads-to-blackwell-power</id>
-    <updated>2026-10-30T15:51:19+00:00</updated>
-    <summary type="html">&lt;p&gt;We evaluate NVIDIA B200 and B300 (Blackwell Ultra) GPUs on two independent eight-GPU clusters, spanning computer-vision inference and training, LLM inference with Llama-3-8B and 70B~\cite{llama3}, and six production HPC codes. The B300 is not a uniform successor to the B200: it trails by up to 5.6$\times$ on convolutional inference, 8$\times$ on 3D vision transformer training, 24--27\% on 70B LLM throughput, and 16$\times$ on double-precision Quantum ESPRESSO. We resolve the convolutional deficit using per-GPU board power rather than throughput alone: on the affected workloads the B300 draws only 36--53\% of its 1100\,W envelope, whereas on ViT-Large, which it wins, both parts saturate at 95--97\% of TDP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41919v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #inference&lt;/p&gt;</summary>
+    <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-40-klasktron-an-open-source-platform"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03138v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-40-klasktron-an-open-source-platform</id>
+    <updated>2026-11-02T13:49:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Understanding mobility dynamics and the effects of urban transportation management policies requires examining how individual travel decisions, traffic conditions, and policy interventions influence one another over time. We present AgenticMobility, an open-source experimental platform for studying how mobility AI agents and other AI agents interact, adapt through repeated experience, and collectively shape mobility outcomes. Persistent agents retain identities and relevant states across rounds, with explicit interfaces defining information access, admissible actions, and decision schedules; linked records trace decisions, execution, and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03138v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-41-deepweave-weaving-neural-and-symbolic"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41541v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-41-deepweave-weaving-neural-and-symbolic</id>
-    <updated>2026-10-30T10:38:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Machine learning-based network intrusion detection systems can recognize complex traffic patterns, but often require substantial labelled attack data, degrade under deployment shift, and provide limited evidence for analysts. We present DeepWeave, a probabilistic neuro-symbolic Network Intrusion Detection System (NIDS) that makes logic an integral part of detection. DeepWeave automatically constructs and validates interpretable rules, represents neural predictions as probabilistic predicates, and reconciles both evidence sources through explicit coupling policies over packet-, flow-, and hybrid-views.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41541v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>An Empirical Evaluation of Signing and Verification Performance of Verifiable Credential Formats: A Cross-Language Benchmark of SD-JWT VC, W3C VCDM, and mdoc</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-43-an-empirical-evaluation-of-signing"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03493v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-43-an-empirical-evaluation-of-signing</id>
+    <updated>2026-11-02T17:35:04+00:00</updated>
+    <summary type="html">&lt;p&gt;We compare the signing and verification performance of three Verifiable Credential (VC) formats--SD-JWT VC; the W3C Verifiable Credentials Data Model 2.0 with a Data Integrity cryptosuite (W3C VCDM); and mdoc (ISO/IEC 18013-5)--over one scope: issue, present with selective disclosure, verify. Node.js, Go and Python implementations ran in four environments, one a cloud VM (N=2,000 across five runs; medians of each statistic and the spread). For an end-to-end exchange disclosing 5 of 20 attributes, the total (issue, present, verify) on Node.js in the cloud VM is 0.265 ms for mdoc, 0.298 ms for SD-JWT VC and 0.534 ms for W3C VCDM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03493v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>In-depth data movement characterization of DNA read mapping algorithms</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-44-in-depth-data-movement-characterization"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03400v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-44-in-depth-data-movement-characterization</id>
+    <updated>2026-11-02T16:31:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Read mapping algorithms represent a critical bottleneck in genomic analysis pipelines due to the resources required; a problem that is becoming more pronounced as sequencing technologies advance and datasets expand. We present an extensive workload characterization of leading read mapping algorithms across diverse sequencing technologies to identify hardware acceleration and optimization opportunities. We analyzed the following implementations: MashMap, wfmash, and Minimap2 for whole-genome alignment (WGA); NGMLR, Minimap2, and LRA for long reads; and Bowtie2, BWA-MEM, StrobeAlign, and minibwa for short reads.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03400v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>End-to-End NTT on FPGA for FHE Acceleration. Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-45-end-to-end-ntt-on"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03325v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-45-end-to-end-ntt-on</id>
+    <updated>2026-11-02T15:49:14+00:00</updated>
+    <summary type="html">&lt;p&gt;Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption. Despite its strong security guarantees, FHE incurs substantial computational and memory overhead. In FHE-based deep learning inference, on average 63% of the CPU time is spent on the number theoretic transform (NTT) and its inverse (INTT), which reduce the complexity of polynomial multiplication from $O(N^2)$ to $O(N \log N)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03325v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #neuroscience&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,37 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-20-functional-tensor-trains-for-high"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42119v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-20-functional-tensor-trains-for-high</id>
-    <updated>2026-10-30T17:52:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note&amp;apos;s future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42119v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #quantum-computing&lt;/p&gt;</summary>
+    <title>Lee-Yang theorems for $q$-deformed oscillators and doubly-scaled SYK</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-22-lee-yang-theorems-for-q"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03624v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-22-lee-yang-theorems-for-q</id>
+    <updated>2026-11-02T18:52:39+00:00</updated>
+    <summary type="html">&lt;p&gt;We show that the vacuum partition function of the $q$-deformed oscillator $$ L_q(z):= \langle0|e^{zT_q}|0\rangle, \qquad T_q := \mathsf{a}_q + \mathsf{a}_q^* $$ satisfies the Lee-Yang property, i.e., all zeros of $L_q$ lie on the imaginary line for all $q\in[-1, 1)$, proving the conjectures of Okuyama&amp;apos;23. Using the connection between $q$-deformed oscillators and the Sachdev-Ye-Kitaev (SYK) Hamiltonian in the doubly-scaled regime, we show that the annealed SYK partition function satisfies the Lee-Yang property in the thermodynamic limit, that is, all of its Fisher zeros are on the imaginary axis. As a result, we show that the quenched SYK partition function admits a zero-free strip of constant width with high probability, rigorously complementing the large$-k$ replica calculations of Zlokapa and Kiani&amp;apos;26.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03624v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Band Random Graphs: Connectivity, Geometry, and Transport. Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-22-band-random-graphs-connectivity-geometry"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42107v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-22-band-random-graphs-connectivity-geometry</id>
-    <updated>2026-10-30T17:47:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$. We study connectivity, component geometry, and random walks throughout the regime $\log n\ll m 1$, uniformly over $p\geq c\log n/(2m)$, the lazy-walk spectral gap is asymptotic in probability to that of $C_n^m$. In the same range, the mean hitting time of simple random walk satisfies, uniformly over distinct $x,y$, $$ H_G(x,y)=\frac{2|E(G)|}{d_G(y)} +\frac{r_{xy}(n-r_{xy})}{κ_m} +o_{\mathrm{Prob}}\left(n+\frac{n^2}{m^2}\right), $$ where $r_{xy}$ is cyclic distance between vertices $x$ and $y$, $d_G(z)$ is the degree of vertex $z$ and $κ_m=(m+1)(2m+1)/6$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42107v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>An Introduction to Financial Derivatives: Open Lecture Notes. These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-67-an-introduction-to-financial-derivatives"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01355v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-67-an-introduction-to-financial-derivatives</id>
+    <updated>2026-10-31T23:54:51+00:00</updated>
+    <summary type="html">&lt;p&gt;These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance. Topics include forward and futures contracts, no-arbitrage bounds and put-call parity, the binomial model, the fundamental theorems of asset pricing, Brownian motion and Itô calculus, the Black-Scholes model, the Greeks, variance swaps, local and stochastic volatility models including Heston, and static hedging of barrier options. Each chapter ends with exercises, and complete solutions, including Python code for the computational exercises, are provided in an appendix.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01355v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Delocalized region of bipartite Erdős-Rényi graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-23-delocalized-region-of-bipartite-erd"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42088v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-23-delocalized-region-of-bipartite-erd</id>
-    <updated>2026-10-30T17:38:00+00:00</updated>
-    <summary type="html">&lt;p&gt;We consider bipartite Erdős-Rényi graphs $\mathbb{G}(n, p, d/\sqrt{np})$ with two parts of sizes $n$ and $p$, respectively, and edge probability $d/\sqrt{pn}$. We show that for $d &amp;gt; b_* \log (n+p)$ all eigenvectors of its adjacency matrix, with eigenvalues away from zero, are delocalized with high probability. The threshold $b_*$ is an explicit function of the size ratio $n/p$ and optimal for eigenvector delocalization near the spectral edges.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42088v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Truthful and Admissible Principal--Agent Testing with Nuisance Parameters</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-89-truthful-and-admissible-principal-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41283v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-89-truthful-and-admissible-principal-agent</id>
-    <updated>2026-10-30T05:39:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Statistical contracts reward experimenters according to the evidence produced by a costly study, so the reward rule influences both who participates and what they report. Principal--agent testing theory explains how to prevent ineffective proposals from being profitable. We ask when such contracts can also elicit honest parameter reports if the decision concerns a mean effect but the variance or distributional shape is unknown.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41283v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats #agents&lt;/p&gt;</summary>
+    <title>PDFP: GPU-Accelerated Feasibility Pump via PDHG. The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03629v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump</id>
+    <updated>2026-11-02T18:54:16+00:00</updated>
+    <summary type="html">&lt;p&gt;The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming. It alternates between rounding an LP-feasible point and projecting the rounded point back onto the feasible region of the LP relaxation. Recent pump-based heuristics compute the projection with the primal--dual hybrid gradient method (PDHG), which is scalable on modern GPUs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03629v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optimization #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,52 +5,68 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
-  <entry>
-    <title>Universal model of the growth of III-V tetrahedral semiconductors on polar surfaces: pyramids and glue atoms. II. Adsorption of nonmetal atoms (N, P, As, and Sb) on Ga-terminated surfaces</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-47-universal-model-of-the-growth"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41571v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-47-universal-model-of-the-growth</id>
-    <updated>2026-10-30T11:02:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Ab initio calculations were used to simulate the adsorption processes on Ga-terminated surfaces of tetrahedral semiconductors: GaN, GaP, GaAs and GaSb. The considered adsorbates are nonmetal species, i.e., nitrogen, phosphorus, arsenic, and antimony on wurtzite gallium nitride, i.e., GaN(0001) surfaces, zinc blende gallium phosphide, i.e., GaP(111), gallium arsenide, GaAs(111), and gallium antimonide, GaSb (111) surfaces. The cases investigated include single adsorbed nonmetal atoms and full coverage, i.e.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41571v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #materials-science #semiconductors&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>The Merck/Moderna Results</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-46-the-merck-moderna-results"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-46-the-merck-moderna-results"/>
     <link rel="related" href="https://www.science.org/content/blog-post/merck-moderna-results"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-46-the-merck-moderna-results</id>
-    <updated>2026-11-02T12:55:22.968077015+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-46-the-merck-moderna-results</id>
+    <updated>2026-11-03T12:27:29.577995518+00:00</updated>
     <summary type="html">&lt;p&gt;This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data leaked in advance of a meeting presentation, and the companies were more or less forced to press-release on the numbers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.science.org/content/blog-post/merck-moderna-results&quot;&gt;In the Pipeline (Derek Lowe — Drug Discovery &amp;amp; Chemistry)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Locality-Controlled Out-of-Distribution Guidance for Robust Regulatory DNA Sequence Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-48-locality-controlled-out-of-distribution"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41736v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-48-locality-controlled-out-of-distribution</id>
-    <updated>2026-10-30T13:44:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Designing regulatory DNA sequences for targeted gene-expression control is an important challenge. Recent approaches frame this task as property-conditioned generation, where diffusion models trained on natural sequences are guided toward high predicted activity through reward-based fine-tuning or sampling-time guidance. We show that single-reward evaluation can obscure reward-hacking behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41736v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #clean-tech&lt;/p&gt;</summary>
+    <title>In-depth data movement characterization of DNA read mapping algorithms</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-44-in-depth-data-movement-characterization"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03400v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-44-in-depth-data-movement-characterization</id>
+    <updated>2026-11-02T16:31:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Read mapping algorithms represent a critical bottleneck in genomic analysis pipelines due to the resources required; a problem that is becoming more pronounced as sequencing technologies advance and datasets expand. We present an extensive workload characterization of leading read mapping algorithms across diverse sequencing technologies to identify hardware acceleration and optimization opportunities. We analyzed the following implementations: MashMap, wfmash, and Minimap2 for whole-genome alignment (WGA); NGMLR, Minimap2, and LRA for long reads; and Bowtie2, BWA-MEM, StrobeAlign, and minibwa for short reads.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03400v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Pycea: a scverse toolkit for single-cell lineage tracing analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-49-pycea-a-scverse-toolkit-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763227v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-49-pycea-a-scverse-toolkit-for</id>
-    <updated>2026-11-01T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Lineage tracing enables reconstruction of cellular histories in development, regeneration, and disease, but integrating lineage data into single-cell analysis workflows remains challenging. We introduce Pycea, a Python toolkit for lineage analysis and visualization, and TreeData, an extension of AnnData that stores lineage trees alongside cellular measurements. TreeData is compatible with Scanpy and other scverse tools, enabling integrated analysis without converting between formats.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763227v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>RangeFinder: Predicting Ligand Property Ranges from Protein Pockets. Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-47-rangefinder-predicting-ligand-property-ranges"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03379v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-47-rangefinder-predicting-ligand-property-ranges</id>
+    <updated>2026-11-02T16:21:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules. Existing machine learning approaches primarily address this problem by generating candidate ligands or scoring individual protein-ligand pairs, but provide limited information about the broader chemical space compatible with a binding pocket. We introduce RangeFinder, an SE(3)-equivariant transformer pocket-level model, trained and evaluated on BioLiP2 data, that predicts ranges over nine physicochemical ligand properties directly from pocket structure, chemistry, and evolutionary context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03379v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Transcript quantification using context-aware MAPQ modeling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-50-transcript-quantification-using-context-aware"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.26.761703v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-50-transcript-quantification-using-context-aware</id>
-    <updated>2026-10-31T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Long-read RNA-sequencing enables accurate transcript-level quantification, but prior static filtering of MAPping Quality (MAPQ) can ignore transcriptome-intrinsic ambiguity, and discarding reads on this basis distorts abundance estimates. We present CALMeR (Context-Aware Long-read MAPQ-based Rescuer), which conditions MAPQ filtering on transcript properties rather than a fixed cutoff. CALMeR fits a zero-one inflated beta regression on various transcript and read-level features to model the expected MAPQ distribution for each alignment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.26.761703v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Res ipSAE adhuc loquuntur: What the directionality of predicted aligned error in cofolding models can tell us about scoring diverse molecular complexes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-48-res-ipsae-adhuc-loquuntur-what"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.02.763449v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-48-res-ipsae-adhuc-loquuntur-what</id>
+    <updated>2026-11-03T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;AlphaFold 3 (AF3) and Boltz-2 estimate confidence in predicted biomolecular complexes using the interface predicted template modeling (ipTM) score, which is derived from probability distributions of predicted aligned errors (PAEs) between molecular tokens. These errors are directional: the predicted position of tokens in one molecule is evaluated relative to coordinate frames defined by tokens in another. The PAE matrix is therefore asymmetric, but AF3 reports the maximum of the two directional pairwise ipTM scores, whereas Boltz-2 reports them separately.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.02.763449v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CMVAE: Contrastive Supervision Improves Single-Omic Latent Manifold for Breast Cancer Survival Prognosis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-49-cmvae-contrastive-supervision-improves-single"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763085v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-49-cmvae-contrastive-supervision-improves-single</id>
+    <updated>2026-11-02T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;High-dimensional omics data are vital for fore- casting patient prognosis in oncology. While deep multi-omics learning methods are increasingly popular, they suffer from data missingness and low patient overlap across modalities. Consequently, advancing single-omic representation learning re- mains a critical yet challenging research problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763085v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #topology&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>scRM: A single-cell foundation model trained on scRNA-seq reads</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-50-scrm-a-single-cell-foundation"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.24.761590v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-50-scrm-a-single-cell-foundation</id>
+    <updated>2026-11-02T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;To our knowledge, scRM is the first single-cell foundation model trained on sequencing reads, demonstrating that raw data pretraining is not only feasible but competitive at a fraction of the computational cost. We anticipate that scaling this framework and exploring alternative architectures will unlock biological information inaccessible to count models and extend the dataset-specific pretraining it already makes possible. The source code is available at https://github.com/altos-labs/scRM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.24.761590v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Leakage-Controlled Benchmarking of Variant Effect Predictors and Development of Gradient-Boosting Consensus Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-51-leakage-controlled-benchmarking-of-variant"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763022v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-51-leakage-controlled-benchmarking-of-variant</id>
+    <updated>2026-11-02T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Single amino acid mutations are among the most common forms of genetic variation, with effects ranging from negligible to severe disruption of protein function. Accurate quantitative evaluation of protein variants therefore represents a key challenge in medicine and protein engineering. Computational variant effect predictors (VEPs) are widely used to prioritize missense variants, yet their fair comparison is hindered by data circularity, benchmarks restricted to human clinical annotations, and limited availability of code and training data, all of which can inflate apparent performance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763022v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-51-machine-learning-dataset-and-benchmark"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-52-machine-learning-dataset-and-benchmark"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-51-machine-learning-dataset-and-benchmark</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-52-machine-learning-dataset-and-benchmark</id>
     <updated>2026-10-26T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>

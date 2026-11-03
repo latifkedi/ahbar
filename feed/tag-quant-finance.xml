@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-20-functional-tensor-trains-for-high"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42119v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-20-functional-tensor-trains-for-high</id>
-    <updated>2026-10-30T17:52:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note&amp;apos;s future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42119v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #quantum-computing&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Early-Buyer Groups and Fast-Wallet Teams on a Bonding-Curve Launchpad: A Prospective Measurement Study of pump.fun on Solana</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-67-early-buyer-groups-and-fast"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39458v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-67-early-buyer-groups-and-fast</id>
-    <updated>2026-10-29T06:29:11+00:00</updated>
-    <summary type="html">&lt;p&gt;We study coordinated groups of wallets on a bonding-curve launchpad (pump.fun on Solana), using a complete record of 200\,443 token launches, 15\,854\,121 curve trades and 51\,025\,958 SOL transfers over 88.3 hours. A prospective, multi-channel discovery procedure (co-buying, shared funding, joint signing, transfers, consolidation) yields 23\,710 wallet groups. Without ground-truth labels we validate them by out-of-sample link prediction, independent non-trading links and a comparison with naive co-buy clustering at equal numbers of flagged tokens: raw clustering collapses into one giant component, yet it ranks tokens at least as well as the groups, so the value of the structure is descriptive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39458v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems&lt;/p&gt;</summary>
+    <title>An Introduction to Financial Derivatives: Open Lecture Notes. These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-67-an-introduction-to-financial-derivatives"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01355v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-67-an-introduction-to-financial-derivatives</id>
+    <updated>2026-10-31T23:54:51+00:00</updated>
+    <summary type="html">&lt;p&gt;These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance. Topics include forward and futures contracts, no-arbitrage bounds and put-call parity, the binomial model, the fundamental theorems of asset pricing, Brownian motion and Itô calculus, the Black-Scholes model, the Greeks, variance swaps, local and stochastic volatility models including Heston, and static hedging of barrier options. Each chapter ends with exercises, and complete solutions, including Python code for the computational exercises, are provided in an appendix.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01355v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

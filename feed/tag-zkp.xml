@@ -5,77 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-56-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-57-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-56-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-57-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-57-how-much-can-tool-calls"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41885v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-57-how-much-can-tool-calls</id>
-    <updated>2026-10-30T15:30:23+00:00</updated>
-    <summary type="html">&lt;p&gt;Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations. We introduce PrivacyTrace, a benchmark containing 1,000 synthetic user profiles and 4,000 agent trajectories across four domains, generated with real MCP tools from 25 servers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41885v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #agents&lt;/p&gt;</summary>
+    <title>The Generalised Tate Pairing over any field</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-58-the-generalised-tate-pairing-over"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1325"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-58-the-generalised-tate-pairing-over</id>
+    <updated>2026-06-26T12:01:47+00:00</updated>
+    <summary type="html">&lt;p&gt;We generalise a pairing on elliptic curves over finite fields, called the generalised Tate pairing, which is defined in terms of an arbitrary endomorphism of the curve, with certain trace requirements. We rederive this pairing from group cohomology, which allows us to generalise the pairing to principally polarized abelian varieties over any field, endomorphisms of any trace, and prove perfectness using a general…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1325&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>From Training Exposure to Membership Evidence: A Controlled Study of OLMo 2</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-58-from-training-exposure-to-membership"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41732v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-58-from-training-exposure-to-membership</id>
-    <updated>2026-10-30T13:41:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether a language model was trained on a document matters for copyright, privacy, and benchmark contamination. Yet most membership-inference (MI) evaluations on language models collect members and non-members after the fact, so success may reflect distribution shift and failure is inconclusive. We re-ran OLMo 2 1B&amp;apos;s official 50-billion-token mid-training stage, replacing selected training chunks with documents from 7,814 pairs matched on domain and difficulty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41732v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #ml-theory&lt;/p&gt;</summary>
+    <title>Optimizing Two-Step Primal LWE Attacks with PnJBKZ Simulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-59-optimizing-two-step-primal-lwe"/>
+    <link rel="related" href="https://eprint.iacr.org/2022/1343"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-59-optimizing-two-step-primal-lwe</id>
+    <updated>2022-10-08T03:38:05+00:00</updated>
+    <summary type="html">&lt;p&gt;Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete attack-cost estimates important for parameter selection. Practical primal attacks combine lattice-basis reduction with a final shortest-vector search, and their performance depends strongly on how these components are scheduled. We formalize the two-step strategy space considered in this work and propose PSSearch, a pruning-based method that selects a minimum estimated cost strategy under a specified reduction simulator and cost model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2022/1343&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-59-pp-mark-provable-and-publicly"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41170v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-59-pp-mark-provable-and-publicly</id>
-    <updated>2026-10-30T02:47:24+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI models now produce images indistinguishable from real data, making publicly verifiable provenance essential; however, existing watermarking methods become vulnerable to forgeries and adversarial optimization attacks once their detectors are made public. We propose PP-Mark, a provenance framework that anchors lightweight statistical detection to a zero-knowledge proof of the embedding process, ensuring that forged content cannot pass full verification by construction. We establish formal unforgeability under standard cryptographic assumptions and validate PP-Mark against representative baselines across two latent-diffusion models (SD2.1 and SDXL), demonstrating resistance to black-box imprint forgery, white-box optimization, and regeneration attacks while remaining practical for decentralized verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41170v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #clean-tech&lt;/p&gt;</summary>
+    <title>Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-60-exploring-fault-injection-attacks-on"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2492"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-60-exploring-fault-injection-attacks-on</id>
+    <updated>2026-10-15T03:39:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto transform. This work presents new fault injection attacks against BIKE and HQC that operate beyond this commonly protected component and target less obvious instructions within the decapsulation process. The proposed attacks achieve full key recovery using only valid ciphertexts under NIST Level 1 parameters, requiring 17392 and approximately 3 million decapsulation queries for HQC and BIKE, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2492&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ideal Pseudorandom Code, Revisited</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-60-ideal-pseudorandom-code-revisited"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-60-ideal-pseudorandom-code-revisited</id>
-    <updated>2026-08-11T12:03:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>On the Inapplicability of Residue-Confined Error Attacks to CRT-FHE with Non-Degenerate Error Distributions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-61-on-the-inapplicability-of-residue"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2633"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-61-on-the-inapplicability-of-residue</id>
+    <updated>2026-10-24T23:16:33+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper responds to the cryptanalysis presented in “Key Recovery from Residue- Confined Errors in the Pradhan CRT-RLWE Construction” (Olejnik and Naskrecki, 2026), which claims key recovery and plaintext recovery against the CRT-FHE scheme introduced in “A New CRT-based Fully Homomorphic Encryption” (Pradhan et al., 2026). We demonstrate that the reported recovery attacks rely entirely on a deliberately con- structed error distribution whose support lies in the kernel of the CRT encoding function. Consequently, the effective encryption error is identically zero, reducing the attacked con- struction to a noiseless RLWE instance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2633&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Low-Space Quantum Discrete Logarithms on Genus-Two Jacobians. Quantum discrete logarithms on genus-two Jacobians require reversible arithmetic with controlled workspace.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-61-low-space-quantum-discrete-logarithms"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2057"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-61-low-space-quantum-discrete-logarithms</id>
-    <updated>2026-09-16T02:08:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum discrete logarithms on genus-two Jacobians require reversible arithmetic with controlled workspace. Generic divisor-addition formulas apply only outside an exceptional set, which must be accounted for in quantum phase computation. We give a randomized reduction using two fresh independent uniform public seeds in a finite abelian group of odd order to randomize a complete balanced addition tree.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2057&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory #quantum-computing&lt;/p&gt;</summary>
+    <title>Exact SVP and CVP in Structured Lattices: Polynomial-Space Algorithms and Reductions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-62-exact-svp-and-cvp-in"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/480"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-62-exact-svp-and-cvp-in</id>
+    <updated>2025-03-13T15:00:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Although module lattices possess richer algebraic structure than general lattices, their algorithmic benefits for exact shortest and closest vector problems (SVP and CVP) remain relatively unexplored. For general $N$-dimensional lattices, the fastest known polynomial-space algorithms take $N^{\Theta(N)}$ time, whereas known $2^{O(N)}$-time algorithms require exponential space. We investigate how the algebraic structure of modules over number fields can be exploited to obtain faster exact algorithms in polynomial space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/480&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Threshold Post-Quantum E-Voting from Lattice Commitments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-62-threshold-post-quantum-e-voting"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2500"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-62-threshold-post-quantum-e-voting</id>
-    <updated>2026-10-15T06:55:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Lattice-based homomorphic e-voting protocols built on commitments, such as EVOLVE, keep ballots private against all but one authority and the tally verifiable even if all authorities collude, but need every authority to tally. We present T-EVOLVE, in which votes are Shamir-shared over the commitment message space: any t of n authorities that took part in the checking phase complete the tally, privacy holds against t-1 colluding authorities and verifiability against all. The voter proves that her committed shares form a Reed-Solomon codeword whose value at zero is a valid vote; the parity checks cost no communication, and tallying interpolates public column sums without norm growth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2500&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Add/XNOR Chains: An NP-Complete Boolean-Arithmetic Problem at the Meet-in-the-Middle Barrier</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-63-add-xnor-chains-an-np"/>
-    <link rel="related" href="https://eprint.iacr.org/2024/2035"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-63-add-xnor-chains-an-np</id>
-    <updated>2024-12-17T08:18:53+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce the Add/XNOR decision problem: given $n$ words of $n$ bits, decide whether they can be combined into zero by a left-associative chain in which each operator is either addition modulo $2^n$ or bitwise XNOR. We prove NP-completeness by a deterministic reduction from Subset-Sum{} in which four-bit guard fields and a parity normalization force every gadget to be all-additions or all-XNORs; hardness persists for every width that is a fixed rational power of the operand count, and 3-SAT reduces with linear parameter blow-up. The problem is a minimal model of Boolean--arithmetic mixing, and we give an exact theory of its linear and differential behaviour: a carry decomposition, closed forms for every single-bit linear correlation (for addition runs $z_1,\ldots,z_r$ the bit-$1$ correlation is $\prod_j2^{-z_j/2}\cos(z_j\pi/4)$, averaging exactly $(n+1)2^{-n}$), and an exact transposition differential with collision probability $2(5/8)^{m-1}-2^{-(m-1)}$, all confirmed experimentally.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/2035&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>BBB Secure Large-Tweak TBC from Ideal Block Ciphers. At FSE&apos;15, Mennink introduced the concept of designing beyond-birthday bound secure tweakable block cipher from an ideal block cipher.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-63-bbb-secure-large-tweak-tbc"/>
+    <link rel="related" href="https://eprint.iacr.org/2024/2049"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-63-bbb-secure-large-tweak-tbc</id>
+    <updated>2024-12-19T12:22:47+00:00</updated>
+    <summary type="html">&lt;p&gt;At FSE&amp;apos;15, Mennink introduced the concept of designing beyond-birthday bound secure tweakable block cipher from an ideal block cipher. They proposed two tweakable block ciphers $\widetilde{F}[1]$ and $\widetilde{F}[2]$ that accept $n$-bit tweaks using a block cipher with an $n$-bit key and $n$-bit data. Mennink proved that the constructions achieve security up to $2^{2n/3}$ and $2^n$ queries, respectively, assuming the underlying block cipher is ideal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/2049&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,37 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>DeepWeave: Weaving Neural and Symbolic Evidence for ML-Based Network Intrusion Detection System</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-41-deepweave-weaving-neural-and-symbolic"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41541v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-41-deepweave-weaving-neural-and-symbolic</id>
-    <updated>2026-10-30T10:38:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Machine learning-based network intrusion detection systems can recognize complex traffic patterns, but often require substantial labelled attack data, degrade under deployment shift, and provide limited evidence for analysts. We present DeepWeave, a probabilistic neuro-symbolic Network Intrusion Detection System (NIDS) that makes logic an integral part of detection. DeepWeave automatically constructs and validates interpretable rules, represents neural predictions as probabilistic predicates, and reconciles both evidence sources through explicit coupling policies over packet-, flow-, and hybrid-views.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41541v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>RangeFinder: Predicting Ligand Property Ranges from Protein Pockets. Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-47-rangefinder-predicting-ligand-property-ranges"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03379v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-47-rangefinder-predicting-ligand-property-ranges</id>
+    <updated>2026-11-02T16:21:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules. Existing machine learning approaches primarily address this problem by generating candidate ligands or scoring individual protein-ligand pairs, but provide limited information about the broader chemical space compatible with a binding pocket. We introduce RangeFinder, an SE(3)-equivariant transformer pocket-level model, trained and evaluated on BioLiP2 data, that predicts ranges over nine physicochemical ligand properties directly from pocket structure, chemistry, and evolutionary context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03379v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Locality-Controlled Out-of-Distribution Guidance for Robust Regulatory DNA Sequence Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-48-locality-controlled-out-of-distribution"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41736v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-48-locality-controlled-out-of-distribution</id>
-    <updated>2026-10-30T13:44:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Designing regulatory DNA sequences for targeted gene-expression control is an important challenge. Recent approaches frame this task as property-conditioned generation, where diffusion models trained on natural sequences are guided toward high predicted activity through reward-based fine-tuning or sampling-time guidance. We show that single-reward evaluation can obscure reward-hacking behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41736v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>From Training Exposure to Membership Evidence: A Controlled Study of OLMo 2</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-58-from-training-exposure-to-membership"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41732v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-58-from-training-exposure-to-membership</id>
-    <updated>2026-10-30T13:41:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether a language model was trained on a document matters for copyright, privacy, and benchmark contamination. Yet most membership-inference (MI) evaluations on language models collect members and non-members after the fact, so success may reflect distribution shift and failure is inconclusive. We re-ran OLMo 2 1B&amp;apos;s official 50-billion-token mid-training stage, replacing selected training chunks with documents from 7,814 pairs matched on domain and difficulty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41732v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>When Is a Game a Markov Decision Process? Correspondences Between Game Theory and Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-85-when-is-a-game-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41962v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-85-when-is-a-game-a</id>
-    <updated>2026-10-30T16:12:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Reinforcement learning and game theory describe the same object from two sides. Game theory says what a rational outcome of a strategic interaction is; reinforcement learning says how an agent could reach one through experience. The two literatures nevertheless keep separate vocabularies for identical structures, and the treatments that bridge them present the correspondence as analogy rather than theorem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41962v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
+    <title>Zero-shot time-series foundation models against the Khepri v1.5 baselines for 96-hour carbon-intensity forecasts in nine Nordic bidding zones: a preregistered comparison</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-90-zero-shot-time-series-foundation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02895v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-90-zero-shot-time-series-foundation</id>
+    <updated>2026-11-02T10:29:23+00:00</updated>
+    <summary type="html">&lt;p&gt;We compare three zero-shot time-series foundation models (Timestral-5M, Timestral-209M and Chronos-2, 8192-hour context, no covariates) with the Khepri v1.5 SARIMA and GBM baselines, with their code and hyperparameters unchanged, for 96-hour forecasts of hourly carbon intensity in the Nordic bidding zones NO1-NO5 and SE1-SE4. The design, the analysis code and a minimum detectable effect (MDE) were timestamped before any foundation-model forecast by an OpenTimestamps proof (Bitcoin-confirmed) and the GPG-signed tag prereg-v1; the proofs are archived in Zenodo (DOI 10.5281/zenodo.23881315). The preregistration was also submitted to OSF Registries 2026-11-02 07:49 UTC (osf.io/hncz5; embargo requested, pending OSF approval).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02895v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

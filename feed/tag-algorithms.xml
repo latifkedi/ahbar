@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
-  <entry>
-    <title>The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-28-the-quartic-gap-between-quantum"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42069v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-28-the-quartic-gap-between-quantum</id>
-    <updated>2026-10-30T17:27:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum algorithms for linear algebra that access a matrix $A$ through quantum random access memory (QRAM) prepare quantum states proportional to the solutions of linear systems and related problems. Dequantized classical algorithms, when given sampling and query access to $A$, return sampling and query access to an approximate solution. Both kinds of algorithms use a number of queries that is polynomial in the normalized Frobenius norm $ρ=\|A\|_F/\|A\|$ and does not directly depend on the dimension.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42069v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>Podcasts about the Topic: Part II. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-29-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-30-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10239"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-29-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-30-podcasts-about-the-topic-part</id>
     <updated>2026-10-26T22:03:37+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10239&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms #quantum-physics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Two choices suffice: $k$-out sampling leaves $O(n/k)$ intercomponent edges for $k\geq 2$</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-25-two-choices-suffice-k-out"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42067v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-25-two-choices-suffice-k-out</id>
-    <updated>2026-10-30T17:26:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Given a simple undirected graph on $n$ vertices, random $k$-out sampling forms a spanning subgraph by having each vertex independently choose $k$ incident edges uniformly with replacement. We prove that, for every integer $k\geq2$, the expected number of original edges joining distinct sampled components is $O(n/k)$. This resolves the conjecture of Holm, King, Thorup, Zamir, and Zwick in its full range, improving their logarithmic sampling requirement to the optimal threshold of two choices per vertex.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42067v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>The Optimizer&apos;s Windfall: Bounding Hindsight Gain under Random Restrictions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-35-the-optimizer-s-windfall-bounding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03468v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-35-the-optimizer-s-windfall-bounding</id>
+    <updated>2026-11-02T17:11:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03468v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,61 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-39-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-41-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-39-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-41-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-42-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-42-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+    <title>PDFP: GPU-Accelerated Feasibility Pump via PDHG. The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03629v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump</id>
+    <updated>2026-11-02T18:54:16+00:00</updated>
+    <summary type="html">&lt;p&gt;The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming. It alternates between rounding an LP-feasible point and projecting the rounded point back onto the feasible region of the LP relaxation. Recent pump-based heuristics compute the projection with the primal--dual hybrid gradient method (PDHG), which is scalable on modern GPUs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03629v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optimization #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Exact SVP and CVP in Structured Lattices: Polynomial-Space Algorithms and Reductions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-62-exact-svp-and-cvp-in"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/480"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-62-exact-svp-and-cvp-in</id>
+    <updated>2025-03-13T15:00:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Although module lattices possess richer algebraic structure than general lattices, their algorithmic benefits for exact shortest and closest vector problems (SVP and CVP) remain relatively unexplored. For general $N$-dimensional lattices, the fastest known polynomial-space algorithms take $N^{\Theta(N)}$ time, whereas known $2^{O(N)}$-time algorithms require exponential space. We investigate how the algebraic structure of modules over number fields can be exploited to obtain faster exact algorithms in polynomial space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/480&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Unraveling the Cobweb of Global Imbalances: Drivers, Vulnerabilities and Adjustment Scenarios -- by Stefan Avdjiev, Kristin Forbes, Tsvetelina Nenova, Marjorie Santos</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-69-unraveling-the-cobweb-of-global"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-69-unraveling-the-cobweb-of-global"/>
     <link rel="related" href="https://www.nber.org/papers/w35962#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-69-unraveling-the-cobweb-of-global</id>
-    <updated>2026-11-02T12:55:18.840651227+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-69-unraveling-the-cobweb-of-global</id>
+    <updated>2026-11-03T12:27:21.552250693+00:00</updated>
     <summary type="html">&lt;p&gt;This paper analyses the evolution and drivers of the stock of global imbalances in order to assess associated vulnerabilities and potential adjustment scenarios. These imbalances have recently increased sharply, with a deterioration in the US net international investment position (NIIP) mirrored by NIIP improvements in most other major economies. We decompose these NIIP changes into their proximate drivers for a sample of 28 economies and find that financial factors (including valuation changes and investment income flows) are the primary drivers of global imbalances at both short and long horizons, while trade also plays a significant role (especially at long horizons).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35962#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-43-fuzzers-vs-ai-comparing-fuzzilli"/>
-    <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-43-fuzzers-vs-ai-comparing-fuzzilli</id>
-    <updated>2026-10-27T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How to fix a bug in a fix</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-44-how-to-fix-a-bug"/>
-    <link rel="related" href="https://projectzero.google/2026/10/emergency-patching.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-44-how-to-fix-a-bug</id>
-    <updated>2026-10-06T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/emergency-patching.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-45-windows-exploitation-techniques-dangling-com"/>
-    <link rel="related" href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-45-windows-exploitation-techniques-dangling-com</id>
-    <updated>2026-09-21T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/09/windows-dangling-com.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Resonant Amplification of Demographic Noise in Stochastic Common-Pool Resource Dynamics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-87-resonant-amplification-of-demographic-noise"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41830v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-87-resonant-amplification-of-demographic-noise</id>
-    <updated>2026-10-30T14:46:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Common-pool resources are vulnerable to overexploitation, yet many social-ecological systems exhibit persistent oscillations. We introduce a stochastic eco-evolutionary model in which harvesting strategies and resource availability shape one another. In the infinite population limit the system approaches a stable state through damped oscillations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41830v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

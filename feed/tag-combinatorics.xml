@@ -5,93 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>Baker--Akhiezer sections from Higgs bundles and Landau levels in hyperbolic band theory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-19-baker-akhiezer-sections-from-higgs"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42134v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-19-baker-akhiezer-sections-from-higgs</id>
-    <updated>2026-10-30T17:58:18+00:00</updated>
-    <summary type="html">&lt;p&gt;As observed by Kienzle and the second author, rank-two $\mathcal{O}(3)$-twisted Higgs bundles on the projective line encode all hyperbolic crystals of genus two: the spectral curves are the unit cells, and the Hitchin fibers are the abelian Brillouin zones. In a uniform magnetic field of two flux quanta, the lowest Landau level is one-dimensional at every nonzero momentum, and, as found by Iengo and Li, its dimension jumps to two at the zero momentum. We identify the states of the lowest Landau level with the Baker--Akhiezer sections of the Higgs bundles, and their zeros, the vortices, with the Baker--Akhiezer divisors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42134v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
+    <title>PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-16-photoguider-composition-aware-cropping-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02897"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-16-photoguider-composition-aware-cropping-and</id>
+    <updated>2026-11-01T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of composition-aware features.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02897&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Advances in Agentic Computer Graphics. Computer graphics is built on code.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-18-advances-in-agentic-computer-graphics"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01860"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-18-advances-in-agentic-computer-graphics</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01860&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-38-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-38-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Band Random Graphs: Connectivity, Geometry, and Transport. Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-22-band-random-graphs-connectivity-geometry"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42107v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-22-band-random-graphs-connectivity-geometry</id>
-    <updated>2026-10-30T17:47:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$. We study connectivity, component geometry, and random walks throughout the regime $\log n\ll m 1$, uniformly over $p\geq c\log n/(2m)$, the lazy-walk spectral gap is asymptotic in probability to that of $C_n^m$. In the same range, the mean hitting time of simple random walk satisfies, uniformly over distinct $x,y$, $$ H_G(x,y)=\frac{2|E(G)|}{d_G(y)} +\frac{r_{xy}(n-r_{xy})}{κ_m} +o_{\mathrm{Prob}}\left(n+\frac{n^2}{m^2}\right), $$ where $r_{xy}$ is cyclic distance between vertices $x$ and $y$, $d_G(z)$ is the degree of vertex $z$ and $κ_m=(m+1)(2m+1)/6$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42107v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>$C^1$-rigidity of $\mathbb{H}^{p,q}$-convex cocompact representations of Gromov hyperbolic groups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-20-c-1-rigidity-of-mathbb"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03539v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-20-c-1-rigidity-of-mathbb</id>
+    <updated>2026-11-02T18:02:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $p&amp;gt;3$ and let $Γ$ be a non-elementary Gromov hyperbolic group with $\partial_\inftyΓ\cong\mathbb S^{p-1}$. We prove that every $\mathbb{H}^{p,2}$-convex cocompact representation $$ ρ:Γ\longrightarrow \mathrm{PO}_{p,3} $$ whose proximal limit set $Λ_ρ\subset\partial_\infty\mathbb{H}^{p,2}$ is a $C^1$ submanifold preserves a totally geodesic copy of $\mathbb{H}^p\subset\mathbb{H}^{p,2}$. Consequently, $Γ/\ker ρ$ is virtually a cocompact lattice in $\mathrm{Isom}(\mathbb{H}^p)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Delocalized region of bipartite Erdős-Rényi graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-23-delocalized-region-of-bipartite-erd"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42088v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-23-delocalized-region-of-bipartite-erd</id>
-    <updated>2026-10-30T17:38:00+00:00</updated>
-    <summary type="html">&lt;p&gt;We consider bipartite Erdős-Rényi graphs $\mathbb{G}(n, p, d/\sqrt{np})$ with two parts of sizes $n$ and $p$, respectively, and edge probability $d/\sqrt{pn}$. We show that for $d &amp;gt; b_* \log (n+p)$ all eigenvectors of its adjacency matrix, with eigenvalues away from zero, are delocalized with high probability. The threshold $b_*$ is an explicit function of the size ratio $n/p$ and optimal for eigenvector delocalization near the spectral edges.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42088v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>Quantitative finiteness for maximal complex totally geodesic submanifolds of non-arithmetic ball quotients</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-21-quantitative-finiteness-for-maximal-complex"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03514v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-21-quantitative-finiteness-for-maximal-complex</id>
+    <updated>2026-11-02T17:51:10+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove that the number of maximal complex totally geodesic submanifolds of a smooth finite-volume non-arithmetic ball quotient is bounded linearly by its volume, with a constant depending only on the complex dimension. This gives a quantitative strengthening of the finiteness theorems of Bader--Fisher--Miller--Stover (Invent. Math., 2023) and Baldi--Ullmo (Ann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03514v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Limit theorems for cuspidal orbits on Fuchsian groups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-24-limit-theorems-for-cuspidal-orbits"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41973v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-24-limit-theorems-for-cuspidal-orbits</id>
-    <updated>2026-10-30T16:24:16+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $Γ\subset \operatorname{SL}(2, \mathbb{R})$ be discrete, co-finite with cusps, and let ${\frak b}\in \mathbb{R}\cup\{\infty\}$ be a cusp of $Γ$. Let $f: Γ{\frak b} \to \mathbb{R}$ be a quantum modular form in the sense that the maps $$ φ_γ(x) = f(x) - f(γx) \qquad (x\in Γ{\frak b}, γ\in Γ) $$ extend to Hölder-regular functions. Under bounded moments assumptions of the shape $\sum_n n^{-2} \int |φ_{γ^n}(x)|^αd x &amp;lt; \infty$ for some $α&amp;gt;0$ and every fixed parabolic element $γ\in Γ$, we prove asymptotic formulas for the characteristic functions of the values $f(x)$ for $x\in Γ{\frak b}$, ordered by growing denominators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41973v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #logic&lt;/p&gt;</summary>
+    <title>The Optimizer&apos;s Windfall: Bounding Hindsight Gain under Random Restrictions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-35-the-optimizer-s-windfall-bounding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03468v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-35-the-optimizer-s-windfall-bounding</id>
+    <updated>2026-11-02T17:11:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03468v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-40-security-updates-for-friday"/>
-    <link rel="related" href="https://lwn.net/Articles/1104174/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-40-security-updates-for-friday</id>
-    <updated>2026-10-30T13:37:12+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (aspell, cjose, curl, gcc-toolset-15-gcc, httpd:2.4, ignition, java-21-openjdk, libX11, libXi, libXrender, libXtst, mariadb:10.11, nodejs:24, python-pillow, python3.12-urllib3, and webkit2gtk3), Debian (imagemagick, libdatetime-timezone-perl, python-git, tor, tzdata, vlc, and wordpress), Fedora (accessibility-inspector, akonadi-calendar, akonadi-calendar-tools,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1104174/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Two choices suffice: $k$-out sampling leaves $O(n/k)$ intercomponent edges for $k\geq 2$</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-25-two-choices-suffice-k-out"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42067v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-25-two-choices-suffice-k-out</id>
-    <updated>2026-10-30T17:26:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Given a simple undirected graph on $n$ vertices, random $k$-out sampling forms a spanning subgraph by having each vertex independently choose $k$ incident edges uniformly with replacement. We prove that, for every integer $k\geq2$, the expected number of original edges joining distinct sampled components is $O(n/k)$. This resolves the conjecture of Holm, King, Thorup, Zamir, and Zwick in its full range, improving their logarithmic sampling requirement to the optimal threshold of two choices per vertex.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42067v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-59-pp-mark-provable-and-publicly"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41170v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-59-pp-mark-provable-and-publicly</id>
-    <updated>2026-10-30T02:47:24+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI models now produce images indistinguishable from real data, making publicly verifiable provenance essential; however, existing watermarking methods become vulnerable to forgeries and adversarial optimization attacks once their detectors are made public. We propose PP-Mark, a provenance framework that anchors lightweight statistical detection to a zero-knowledge proof of the embedding process, ensuring that forged content cannot pass full verification by construction. We establish formal unforgeability under standard cryptographic assumptions and validate PP-Mark against representative baselines across two latent-diffusion models (SD2.1 and SDXL), demonstrating resistance to black-box imprint forgery, white-box optimization, and regeneration attacks while remaining practical for decentralized verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41170v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Ideal Pseudorandom Code, Revisited</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-60-ideal-pseudorandom-code-revisited"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-60-ideal-pseudorandom-code-revisited</id>
-    <updated>2026-08-11T12:03:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Resonant Amplification of Demographic Noise in Stochastic Common-Pool Resource Dynamics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-87-resonant-amplification-of-demographic-noise"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41830v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-87-resonant-amplification-of-demographic-noise</id>
-    <updated>2026-10-30T14:46:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Common-pool resources are vulnerable to overexploitation, yet many social-ecological systems exhibit persistent oscillations. We introduce a stochastic eco-evolutionary model in which harvesting strategies and resource availability shape one another. In the infinite population limit the system approaches a stable state through damped oscillations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41830v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Kidney Exchange with Dual Donors</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-88-kidney-exchange-with-dual-donors"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41466v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-88-kidney-exchange-with-dual-donors</id>
-    <updated>2026-10-30T09:17:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Kidney exchange programs enable patients with incompatible living donors to receive transplants by exchanging donors with other patient-donor pairs. Existing models typically assume either that each patient enrolls with a single donor, or that at most one of a patient&amp;apos;s multiple alternative donors is selected to donate. In practice, however, a patient may have access to multiple willing but incompatible donors who are all prepared to donate simultaneously if doing so enables the patient to receive a kidney.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41466v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
+    <title>Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-60-exploring-fault-injection-attacks-on"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2492"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-60-exploring-fault-injection-attacks-on</id>
+    <updated>2026-10-15T03:39:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto transform. This work presents new fault injection attacks against BIKE and HQC that operate beyond this commonly protected component and target less obvious instructions within the decapsulation process. The proposed attacks achieve full key recovery using only valid ciphertexts under NIST Level 1 parameters, requiring 17392 and approximately 3 million decapsulation queries for HQC and BIKE, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2492&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

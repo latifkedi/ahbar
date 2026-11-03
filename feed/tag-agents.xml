@@ -5,77 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-12-roboarchitect-automating-the-design-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42141"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-12-roboarchitect-automating-the-design-of</id>
-    <updated>2026-10-29T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42141&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>CoworkOS:Scaling Agent Coworkers for Real-world Automation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-11-coworkos-scaling-agent-coworkers-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03178"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-11-coworkos-scaling-agent-coworkers-for</id>
+    <updated>2026-11-02T09:15:11.000Z</updated>
+    <summary type="html">&lt;p&gt;Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03178&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-15-cepo-a-general-framework-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.34722"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-15-cepo-a-general-framework-for</id>
-    <updated>2026-10-25T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multi-agent systems (MAS) require both effective coordination and specialized task execution. Existing prompt optimization approaches typically couple these functions within agent-specific prompts. We introduce Coordinator-Executor Prompt Optimization (CEPO), a general framework for improving prompt optimization in MAS.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.34722&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-12-cua-master-scaling-computer-use"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03126"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-12-cua-master-scaling-computer-use</id>
+    <updated>2026-11-02T08:41:14.000Z</updated>
+    <summary type="html">&lt;p&gt;Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03126&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-17-rea-a-routed-embodied-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42053"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-17-rea-a-routed-embodied-agent</id>
-    <updated>2026-10-30T13:18:13.000Z</updated>
-    <summary type="html">&lt;p&gt;Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42053&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Democratizing Robot-Use Agents: A Unified Harness with Open Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-13-democratizing-robot-use-agents-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01560"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-13-democratizing-robot-use-agents-a</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01560&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-16-captain-a-pipeline-for-post"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40799"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-16-captain-a-pipeline-for-post</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Across coding, web, and tool-use tasks, language-model agents are now routinely trained with the same recipe: supervised fine-tuning (SFT) to learn the interface, then multi-turn reinforcement learning (RL) to master it. Code-as-policy (CaP) casts robot manipulation in the same form, as the policy writes code against robot APIs and reads back the results, so the same recipe should apply. Yet existing CaP agents sidestep training: they either prompt closed frontier models or delegate manipulation to pre-trained vision-language-action models (VLAs) and high-level skills, while small open vision-language models (VLMs) fail outright.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40799&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-14-reviso-not-all-visual-evidence"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03602"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-14-reviso-not-all-visual-evidence</id>
+    <updated>2026-11-02T13:41:14.000Z</updated>
+    <summary type="html">&lt;p&gt;Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content of each video. Motivated by this observation, we propose Reviso, an agentic video captioning framework that learns what to observe and how to gather relevant visual evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03602&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-57-how-much-can-tool-calls"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41885v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-57-how-much-can-tool-calls</id>
-    <updated>2026-10-30T15:30:23+00:00</updated>
-    <summary type="html">&lt;p&gt;Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations. We introduce PrivacyTrace, a benchmark containing 1,000 synthetic user profiles and 4,000 agent trajectories across four domains, generated with real MCP tools from 25 servers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41885v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #llm #agents&lt;/p&gt;</summary>
+    <title>NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-15-northcua-technical-report-turbocharging-computer"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02102"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-15-northcua-technical-report-turbocharging-computer</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02102&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-43-fuzzers-vs-ai-comparing-fuzzilli"/>
-    <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-43-fuzzers-vs-ai-comparing-fuzzilli</id>
-    <updated>2026-10-27T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
+    <title>Advances in Agentic Computer Graphics. Computer graphics is built on code.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-18-advances-in-agentic-computer-graphics"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01860"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-18-advances-in-agentic-computer-graphics</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01860&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Strategic Tanking in Stable Matching Markets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-82-strategic-tanking-in-stable-matching"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42105v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-82-strategic-tanking-in-stable-matching</id>
-    <updated>2026-10-30T17:46:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivated by a broad literature in psychology, organizational behavior, and matching markets, we introduce strategic tanking: an agent deliberately makes themselves less attractive to selected potential partners in order to improve their eventual assignment. Unlike traditional manipulation in stable matching, a tanker does not misreport whom they prefer; instead, they influence how others rank them. We show that tanking has a striking connection to classical preference manipulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42105v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-40-klasktron-an-open-source-platform"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03138v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-40-klasktron-an-open-source-platform</id>
+    <updated>2026-11-02T13:49:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Understanding mobility dynamics and the effects of urban transportation management policies requires examining how individual travel decisions, traffic conditions, and policy interventions influence one another over time. We present AgenticMobility, an open-source experimental platform for studying how mobility AI agents and other AI agents interact, adapt through repeated experience, and collectively shape mobility outcomes. Persistent agents retain identities and relevant states across rounds, with explicit interfaces defining information access, admissible actions, and decision schedules; linked records trace decisions, execution, and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03138v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Truthful and Admissible Principal--Agent Testing with Nuisance Parameters</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-89-truthful-and-admissible-principal-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41283v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-89-truthful-and-admissible-principal-agent</id>
-    <updated>2026-10-30T05:39:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Statistical contracts reward experimenters according to the evidence produced by a costly study, so the reward rule influences both who participates and what they report. Principal--agent testing theory explains how to prevent ineffective proposals from being profitable. We ask when such contracts can also elicit honest parameter reports if the decision concerns a mean effect but the variance or distributional shape is unknown.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41283v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Optic flow in the visual system determines interaction force and collective motion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-90-optic-flow-in-the-visual"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41279v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-90-optic-flow-in-the-visual</id>
-    <updated>2026-10-30T05:33:20+00:00</updated>
-    <summary type="html">&lt;p&gt;Collective motion in animal groups relies on visual cues, yet how individual sensory inputs translate into group-level dynamics remains unclear. Traditional models often assume pre-defined ``3A&amp;quot; rules - avoidance, attraction, and alignment - which require agents to directly access the exact positions and velocities of their neighbors. Here, we propose a minimal model based on fundamental visual processing shared across species: detection of image size and optic flow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41279v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Verification Allocation in Stylized LLM Agent Pipelines under Hidden Tool Degradation: A Discrete-Time Mean-Field Analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-86-verification-allocation-in-stylized-llm"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03192v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-86-verification-allocation-in-stylized-llm</id>
+    <updated>2026-11-02T14:21:16+00:00</updated>
+    <summary type="html">&lt;p&gt;We study a stylized verification-allocation model for role-structured pipelines with binary inherited corruption and hidden tool degradation. Standard contraction arguments give serial and multi-role fixed points and a finite-population deviation bound under independence. When verification actions affect neither future errors nor observations, the belief-state choice is myopic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03192v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

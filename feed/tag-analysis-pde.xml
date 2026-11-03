@@ -5,37 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
-  <entry>
-    <title>Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-20-functional-tensor-trains-for-high"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42119v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-20-functional-tensor-trains-for-high</id>
-    <updated>2026-10-30T17:52:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note&amp;apos;s future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42119v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance #quantum-computing&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>The quasi-Riemann hypothesis. Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-21-the-quasi-riemann-hypothesis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-19-the-quasi-riemann-hypothesis"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-21-the-quasi-riemann-hypothesis</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-19-the-quasi-riemann-hypothesis</id>
     <updated>2026-10-27T22:12:50+00:00</updated>
     <summary type="html">&lt;p&gt;Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Limit theorems for cuspidal orbits on Fuchsian groups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-24-limit-theorems-for-cuspidal-orbits"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41973v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-24-limit-theorems-for-cuspidal-orbits</id>
-    <updated>2026-10-30T16:24:16+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $Γ\subset \operatorname{SL}(2, \mathbb{R})$ be discrete, co-finite with cusps, and let ${\frak b}\in \mathbb{R}\cup\{\infty\}$ be a cusp of $Γ$. Let $f: Γ{\frak b} \to \mathbb{R}$ be a quantum modular form in the sense that the maps $$ φ_γ(x) = f(x) - f(γx) \qquad (x\in Γ{\frak b}, γ\in Γ) $$ extend to Hölder-regular functions. Under bounded moments assumptions of the shape $\sum_n n^{-2} \int |φ_{γ^n}(x)|^αd x &amp;lt; \infty$ for some $α&amp;gt;0$ and every fixed parabolic element $γ\in Γ$, we prove asymptotic formulas for the characteristic functions of the values $f(x)$ for $x\in Γ{\frak b}$, ordered by growing denominators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41973v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #logic&lt;/p&gt;</summary>
+    <title>$C^1$-rigidity of $\mathbb{H}^{p,q}$-convex cocompact representations of Gromov hyperbolic groups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-20-c-1-rigidity-of-mathbb"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03539v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-20-c-1-rigidity-of-mathbb</id>
+    <updated>2026-11-02T18:02:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $p&amp;gt;3$ and let $Γ$ be a non-elementary Gromov hyperbolic group with $\partial_\inftyΓ\cong\mathbb S^{p-1}$. We prove that every $\mathbb{H}^{p,2}$-convex cocompact representation $$ ρ:Γ\longrightarrow \mathrm{PO}_{p,3} $$ whose proximal limit set $Λ_ρ\subset\partial_\infty\mathbb{H}^{p,2}$ is a $C^1$ submanifold preserves a totally geodesic copy of $\mathbb{H}^p\subset\mathbb{H}^{p,2}$. Consequently, $Γ/\ker ρ$ is virtually a cocompact lattice in $\mathrm{Isom}(\mathbb{H}^p)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Quantitative finiteness for maximal complex totally geodesic submanifolds of non-arithmetic ball quotients</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-21-quantitative-finiteness-for-maximal-complex"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03514v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-21-quantitative-finiteness-for-maximal-complex</id>
+    <updated>2026-11-02T17:51:10+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove that the number of maximal complex totally geodesic submanifolds of a smooth finite-volume non-arithmetic ball quotient is bounded linearly by its volume, with a constant depending only on the complex dimension. This gives a quantitative strengthening of the finiteness theorems of Bader--Fisher--Miller--Stover (Invent. Math., 2023) and Baldi--Ullmo (Ann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03514v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lee-Yang theorems for $q$-deformed oscillators and doubly-scaled SYK</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-22-lee-yang-theorems-for-q"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03624v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-22-lee-yang-theorems-for-q</id>
+    <updated>2026-11-02T18:52:39+00:00</updated>
+    <summary type="html">&lt;p&gt;We show that the vacuum partition function of the $q$-deformed oscillator $$ L_q(z):= \langle0|e^{zT_q}|0\rangle, \qquad T_q := \mathsf{a}_q + \mathsf{a}_q^* $$ satisfies the Lee-Yang property, i.e., all zeros of $L_q$ lie on the imaginary line for all $q\in[-1, 1)$, proving the conjectures of Okuyama&amp;apos;23. Using the connection between $q$-deformed oscillators and the Sachdev-Ye-Kitaev (SYK) Hamiltonian in the doubly-scaled regime, we show that the annealed SYK partition function satisfies the Lee-Yang property in the thermodynamic limit, that is, all of its Fisher zeros are on the imaginary axis. As a result, we show that the quenched SYK partition function admits a zero-free strip of constant width with high probability, rigorously complementing the large$-k$ replica calculations of Zlokapa and Kiani&amp;apos;26.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03624v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>PDFP: GPU-Accelerated Feasibility Pump via PDHG. The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03629v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump</id>
+    <updated>2026-11-02T18:54:16+00:00</updated>
+    <summary type="html">&lt;p&gt;The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming. It alternates between rounding an LP-feasible point and projecting the rounded point back onto the feasible region of the LP relaxation. Recent pump-based heuristics compute the projection with the primal--dual hybrid gradient method (PDHG), which is scalable on modern GPUs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03629v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optimization #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Mathematics has changed. Let’s act like it. [This is a guest post by Frank Calegari.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-25-mathematics-has-changed-let-s"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-25-mathematics-has-changed-let-s</id>
+    <updated>2026-11-01T18:28:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The mathematical sciences in an AI-enabled world</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-27-the-mathematical-sciences-in-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-26-the-mathematical-sciences-in-an"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-27-the-mathematical-sciences-in-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-26-the-mathematical-sciences-in-an</id>
     <updated>2026-10-31T15:17:00+00:00</updated>
     <summary type="html">&lt;p&gt;The Academy for the Mathematical Sciences, which is based in the UK, has released a report “The mathematical sciences in an AI-enabled world“. To quote from the release: The paper examines how recent advances in artificial intelligence are changing mathematical research and its applications, bringing new opportunities for discovery, verification and the use of mathematics […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Report of the Summit on Math Research in the Age of AI</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-27-report-of-the-summit-on"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/10/30/__trashed/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-27-report-of-the-summit-on</id>
+    <updated>2026-10-31T03:07:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by the organizers of the Summit on Math Research in the Age of AI: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. — T.] Last week […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/30/__trashed/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

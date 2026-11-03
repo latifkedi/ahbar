@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>Locality-Controlled Out-of-Distribution Guidance for Robust Regulatory DNA Sequence Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-48-locality-controlled-out-of-distribution"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41736v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-48-locality-controlled-out-of-distribution</id>
-    <updated>2026-10-30T13:44:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Designing regulatory DNA sequences for targeted gene-expression control is an important challenge. Recent approaches frame this task as property-conditioned generation, where diffusion models trained on natural sequences are guided toward high predicted activity through reward-based fine-tuning or sampling-time guidance. We show that single-reward evaluation can obscure reward-hacking behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41736v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PP-Mark: Provable and Publicly Verifiable Watermarking for Generative AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-59-pp-mark-provable-and-publicly"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41170v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-59-pp-mark-provable-and-publicly</id>
-    <updated>2026-10-30T02:47:24+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI models now produce images indistinguishable from real data, making publicly verifiable provenance essential; however, existing watermarking methods become vulnerable to forgeries and adversarial optimization attacks once their detectors are made public. We propose PP-Mark, a provenance framework that anchors lightweight statistical detection to a zero-knowledge proof of the embedding process, ensuring that forged content cannot pass full verification by construction. We establish formal unforgeability under standard cryptographic assumptions and validate PP-Mark against representative baselines across two latent-diffusion models (SD2.1 and SDXL), demonstrating resistance to black-box imprint forgery, white-box optimization, and regeneration attacks while remaining practical for decentralized verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41170v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #clean-tech&lt;/p&gt;</summary>
+    <title>When will androids outnumber humans?. Humanoid robots are increasingly discussed not only as machines but also as a potential technological population.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-84-when-will-androids-outnumber-humans"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03242v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-84-when-will-androids-outnumber-humans</id>
+    <updated>2026-11-02T14:52:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Humanoid robots are increasingly discussed not only as machines but also as a potential technological population. We develop a nonlinear population-dynamical framework to examine their possible diffusion relative to humans, without assuming that large-scale adoption or numerical crossover is inevitable. The human population $H(t)$ is calibrated to the United Nations World Population Prospects 2024 median trajectory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03242v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

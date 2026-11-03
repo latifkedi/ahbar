@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
-    <title>Latent Reasoning in Continuous Space for Unified Multimodal Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-10-latent-reasoning-in-continuous-space"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42149"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-10-latent-reasoning-in-continuous-space</id>
-    <updated>2026-10-29T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space, whereas image generation operates in a continuous space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42149&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+    <title>NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-15-northcua-technical-report-turbocharging-computer"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02102"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-15-northcua-technical-report-turbocharging-computer</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02102&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-18-introducing-gemini-3-8-flash"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-17-introducing-gemini-3-8-flash"/>
     <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-18-introducing-gemini-3-8-flash</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-17-introducing-gemini-3-8-flash</id>
     <updated>2026-09-02T16:18:31+00:00</updated>
     <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
   </entry>

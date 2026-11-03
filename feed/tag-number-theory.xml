@@ -5,53 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-02T12:55:16.986627064+00:00</updated>
-  <entry>
-    <title>Baker--Akhiezer sections from Higgs bundles and Landau levels in hyperbolic band theory</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-19-baker-akhiezer-sections-from-higgs"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42134v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-19-baker-akhiezer-sections-from-higgs</id>
-    <updated>2026-10-30T17:58:18+00:00</updated>
-    <summary type="html">&lt;p&gt;As observed by Kienzle and the second author, rank-two $\mathcal{O}(3)$-twisted Higgs bundles on the projective line encode all hyperbolic crystals of genus two: the spectral curves are the unit cells, and the Hitchin fibers are the abelian Brillouin zones. In a uniform magnetic field of two flux quanta, the lowest Landau level is one-dimensional at every nonzero momentum, and, as found by Iengo and Li, its dimension jumps to two at the zero momentum. We identify the states of the lowest Landau level with the Baker--Akhiezer sections of the Higgs bundles, and their zeros, the vortices, with the Baker--Akhiezer divisors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42134v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
   <entry>
     <title>The quasi-Riemann hypothesis. Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-21-the-quasi-riemann-hypothesis"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-19-the-quasi-riemann-hypothesis"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-21-the-quasi-riemann-hypothesis</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-19-the-quasi-riemann-hypothesis</id>
     <updated>2026-10-27T22:12:50+00:00</updated>
     <summary type="html">&lt;p&gt;Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Band Random Graphs: Connectivity, Geometry, and Transport. Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-22-band-random-graphs-connectivity-geometry"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42107v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-22-band-random-graphs-connectivity-geometry</id>
-    <updated>2026-10-30T17:47:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $G(n,p,m)$ be the random subgraph of the cycle power $C_n^m$ obtained by retaining each edge independently with probability $p$. We study connectivity, component geometry, and random walks throughout the regime $\log n\ll m 1$, uniformly over $p\geq c\log n/(2m)$, the lazy-walk spectral gap is asymptotic in probability to that of $C_n^m$. In the same range, the mean hitting time of simple random walk satisfies, uniformly over distinct $x,y$, $$ H_G(x,y)=\frac{2|E(G)|}{d_G(y)} +\frac{r_{xy}(n-r_{xy})}{κ_m} +o_{\mathrm{Prob}}\left(n+\frac{n^2}{m^2}\right), $$ where $r_{xy}$ is cyclic distance between vertices $x$ and $y$, $d_G(z)$ is the degree of vertex $z$ and $κ_m=(m+1)(2m+1)/6$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42107v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>$C^1$-rigidity of $\mathbb{H}^{p,q}$-convex cocompact representations of Gromov hyperbolic groups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-20-c-1-rigidity-of-mathbb"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03539v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-20-c-1-rigidity-of-mathbb</id>
+    <updated>2026-11-02T18:02:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $p&amp;gt;3$ and let $Γ$ be a non-elementary Gromov hyperbolic group with $\partial_\inftyΓ\cong\mathbb S^{p-1}$. We prove that every $\mathbb{H}^{p,2}$-convex cocompact representation $$ ρ:Γ\longrightarrow \mathrm{PO}_{p,3} $$ whose proximal limit set $Λ_ρ\subset\partial_\infty\mathbb{H}^{p,2}$ is a $C^1$ submanifold preserves a totally geodesic copy of $\mathbb{H}^p\subset\mathbb{H}^{p,2}$. Consequently, $Γ/\ker ρ$ is virtually a cocompact lattice in $\mathrm{Isom}(\mathbb{H}^p)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Delocalized region of bipartite Erdős-Rényi graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-23-delocalized-region-of-bipartite-erd"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42088v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-23-delocalized-region-of-bipartite-erd</id>
-    <updated>2026-10-30T17:38:00+00:00</updated>
-    <summary type="html">&lt;p&gt;We consider bipartite Erdős-Rényi graphs $\mathbb{G}(n, p, d/\sqrt{np})$ with two parts of sizes $n$ and $p$, respectively, and edge probability $d/\sqrt{pn}$. We show that for $d &amp;gt; b_* \log (n+p)$ all eigenvectors of its adjacency matrix, with eigenvalues away from zero, are delocalized with high probability. The threshold $b_*$ is an explicit function of the size ratio $n/p$ and optimal for eigenvector delocalization near the spectral edges.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42088v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Limit theorems for cuspidal orbits on Fuchsian groups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-24-limit-theorems-for-cuspidal-orbits"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.41973v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-24-limit-theorems-for-cuspidal-orbits</id>
-    <updated>2026-10-30T16:24:16+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $Γ\subset \operatorname{SL}(2, \mathbb{R})$ be discrete, co-finite with cusps, and let ${\frak b}\in \mathbb{R}\cup\{\infty\}$ be a cusp of $Γ$. Let $f: Γ{\frak b} \to \mathbb{R}$ be a quantum modular form in the sense that the maps $$ φ_γ(x) = f(x) - f(γx) \qquad (x\in Γ{\frak b}, γ\in Γ) $$ extend to Hölder-regular functions. Under bounded moments assumptions of the shape $\sum_n n^{-2} \int |φ_{γ^n}(x)|^αd x &amp;lt; \infty$ for some $α&amp;gt;0$ and every fixed parabolic element $γ\in Γ$, we prove asymptotic formulas for the characteristic functions of the values $f(x)$ for $x\in Γ{\frak b}$, ordered by growing denominators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.41973v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Low-Space Quantum Discrete Logarithms on Genus-Two Jacobians. Quantum discrete logarithms on genus-two Jacobians require reversible arithmetic with controlled workspace.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-02-61-low-space-quantum-discrete-logarithms"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2057"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-02-61-low-space-quantum-discrete-logarithms</id>
-    <updated>2026-09-16T02:08:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum discrete logarithms on genus-two Jacobians require reversible arithmetic with controlled workspace. Generic divisor-addition formulas apply only outside an exceptional set, which must be accounted for in quantum phase computation. We give a randomized reduction using two fresh independent uniform public seeds in a finite abelian group of odd order to randomize a complete balanced addition tree.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2057&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory #quantum-computing&lt;/p&gt;</summary>
+    <title>Quantitative finiteness for maximal complex totally geodesic submanifolds of non-arithmetic ball quotients</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-21-quantitative-finiteness-for-maximal-complex"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03514v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-21-quantitative-finiteness-for-maximal-complex</id>
+    <updated>2026-11-02T17:51:10+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove that the number of maximal complex totally geodesic submanifolds of a smooth finite-volume non-arithmetic ball quotient is bounded linearly by its volume, with a constant depending only on the complex dimension. This gives a quantitative strengthening of the finiteness theorems of Bader--Fisher--Miller--Stover (Invent. Math., 2023) and Baldi--Ullmo (Ann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03514v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
   </entry>
 </feed>
