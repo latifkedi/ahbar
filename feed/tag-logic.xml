@@ -5,29 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-logic.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-logic.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
-  <entry>
-    <title>Lee-Yang theorems for $q$-deformed oscillators and doubly-scaled SYK</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-22-lee-yang-theorems-for-q"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03624v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-22-lee-yang-theorems-for-q</id>
-    <updated>2026-11-02T18:52:39+00:00</updated>
-    <summary type="html">&lt;p&gt;We show that the vacuum partition function of the $q$-deformed oscillator $$ L_q(z):= \langle0|e^{zT_q}|0\rangle, \qquad T_q := \mathsf{a}_q + \mathsf{a}_q^* $$ satisfies the Lee-Yang property, i.e., all zeros of $L_q$ lie on the imaginary line for all $q\in[-1, 1)$, proving the conjectures of Okuyama&amp;apos;23. Using the connection between $q$-deformed oscillators and the Sachdev-Ye-Kitaev (SYK) Hamiltonian in the doubly-scaled regime, we show that the annealed SYK partition function satisfies the Lee-Yang property in the thermodynamic limit, that is, all of its Fisher zeros are on the imaginary axis. As a result, we show that the quenched SYK partition function admits a zero-free strip of constant width with high probability, rigorously complementing the large$-k$ replica calculations of Zlokapa and Kiani&amp;apos;26.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03624v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
     <title>An Introduction to Financial Derivatives: Open Lecture Notes. These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-67-an-introduction-to-financial-derivatives"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-69-an-introduction-to-financial-derivatives"/>
     <link rel="related" href="https://arxiv.org/abs/2611.01355v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-67-an-introduction-to-financial-derivatives</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-69-an-introduction-to-financial-derivatives</id>
     <updated>2026-10-31T23:54:51+00:00</updated>
     <summary type="html">&lt;p&gt;These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance. Topics include forward and futures contracts, no-arbitrage bounds and put-call parity, the binomial model, the fundamental theorems of asset pricing, Brownian motion and Itô calculus, the Black-Scholes model, the Greeks, variance swaps, local and stochastic volatility models including Heston, and static hedging of barrier options. Each chapter ends with exercises, and complete solutions, including Python code for the computational exercises, are provided in an appendix.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01355v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Generalised Tate Pairing over any field</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-58-the-generalised-tate-pairing-over"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1325"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-58-the-generalised-tate-pairing-over</id>
-    <updated>2026-06-26T12:01:47+00:00</updated>
-    <summary type="html">&lt;p&gt;We generalise a pairing on elliptic curves over finite fields, called the generalised Tate pairing, which is defined in terms of an arbitrary endomorphism of the curve, with certain trace requirements. We rederive this pairing from group cohomology, which allows us to generalise the pairing to principally polarized abelian varieties over any field, endomorphisms of any trace, and prove perfectness using a general…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1325&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #logic&lt;/p&gt;</summary>
+    <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-53-structure-coefficient-theorem-for-evolutionary"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-53-structure-coefficient-theorem-for-evolutionary</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Toward Constant-Factor Maximin Share Guarantees for Subadditive Valuations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-86-toward-constant-factor-maximin-share"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05073v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-86-toward-constant-factor-maximin-share</id>
+    <updated>2026-11-03T15:37:10+00:00</updated>
+    <summary type="html">&lt;p&gt;For $n$ agents and $m$ indivisible goods, an agent&amp;apos;s maximin share (MMS) is the largest minimum bundle value she can obtain by partitioning the goods into $n$ bundles. Constant MMS approximations are known for additive, submodular, or XOS valuations, but whether such a guarantee exists for general subadditive valuations remains open. We advance this question in two directions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05073v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Linear Equivalence of Full Weight Spectrum Cyclic Orbit Codes. We determine the linear-equivalence classes within the two families of full weight spectrum one-orbit cyclic subspace codes.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-87-linear-equivalence-of-full-weight"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04947v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-87-linear-equivalence-of-full-weight</id>
+    <updated>2026-11-03T14:10:49+00:00</updated>
+    <summary type="html">&lt;p&gt;We determine the linear-equivalence classes within the two families of full weight spectrum one-orbit cyclic subspace codes. This solves the second open problem posed by Castello, Polverino and Zullo [J. Combin. Theory Ser. A 212 (2025) 106005].&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04947v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

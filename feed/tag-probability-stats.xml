@@ -5,29 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>Lee-Yang theorems for $q$-deformed oscillators and doubly-scaled SYK</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-22-lee-yang-theorems-for-q"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03624v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-22-lee-yang-theorems-for-q</id>
-    <updated>2026-11-02T18:52:39+00:00</updated>
-    <summary type="html">&lt;p&gt;We show that the vacuum partition function of the $q$-deformed oscillator $$ L_q(z):= \langle0|e^{zT_q}|0\rangle, \qquad T_q := \mathsf{a}_q + \mathsf{a}_q^* $$ satisfies the Lee-Yang property, i.e., all zeros of $L_q$ lie on the imaginary line for all $q\in[-1, 1)$, proving the conjectures of Okuyama&amp;apos;23. Using the connection between $q$-deformed oscillators and the Sachdev-Ye-Kitaev (SYK) Hamiltonian in the doubly-scaled regime, we show that the annealed SYK partition function satisfies the Lee-Yang property in the thermodynamic limit, that is, all of its Fisher zeros are on the imaginary axis. As a result, we show that the quenched SYK partition function admits a zero-free strip of constant width with high probability, rigorously complementing the large$-k$ replica calculations of Zlokapa and Kiani&amp;apos;26.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03624v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
+    <title>Supercritical level-set percolation on finite graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-20-supercritical-level-set-percolation-on"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05299v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-20-supercritical-level-set-percolation-on</id>
+    <updated>2026-11-03T18:12:14+00:00</updated>
+    <summary type="html">&lt;p&gt;We continue the study of bond percolation on finite graphs induced by the level-sets of the zero-average Gaussian free field on the associated metric graph. In our previous work Goswami and Pal (2026), we analyzed the critical and near-critical behavior of this model on uniform expanders, focusing on the volume of the largest cluster. In the present paper, we investigate the size of the second largest cluster in the supercritical regime --- the phase where one expects a unique giant component.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05299v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>An Introduction to Financial Derivatives: Open Lecture Notes. These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-67-an-introduction-to-financial-derivatives"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-69-an-introduction-to-financial-derivatives"/>
     <link rel="related" href="https://arxiv.org/abs/2611.01355v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-67-an-introduction-to-financial-derivatives</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-69-an-introduction-to-financial-derivatives</id>
     <updated>2026-10-31T23:54:51+00:00</updated>
     <summary type="html">&lt;p&gt;These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance. Topics include forward and futures contracts, no-arbitrage bounds and put-call parity, the binomial model, the fundamental theorems of asset pricing, Brownian motion and Itô calculus, the Black-Scholes model, the Greeks, variance swaps, local and stochastic volatility models including Heston, and static hedging of barrier options. Each chapter ends with exercises, and complete solutions, including Python code for the computational exercises, are provided in an appendix.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01355v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PDFP: GPU-Accelerated Feasibility Pump via PDHG. The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03629v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-24-pdfp-gpu-accelerated-feasibility-pump</id>
-    <updated>2026-11-02T18:54:16+00:00</updated>
-    <summary type="html">&lt;p&gt;The feasibility pump (FP) is among the most widely used primal heuristics for mixed-integer linear programming. It alternates between rounding an LP-feasible point and projecting the rounded point back onto the feasible region of the LP relaxation. Recent pump-based heuristics compute the projection with the primal--dual hybrid gradient method (PDHG), which is scalable on modern GPUs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03629v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #optimization #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

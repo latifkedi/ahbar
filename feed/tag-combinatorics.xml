@@ -5,61 +5,85 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-16-photoguider-composition-aware-cropping-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02897"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-16-photoguider-composition-aware-cropping-and</id>
-    <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of composition-aware features.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02897&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+    <title>ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-16-toolspace-scaling-tool-centric-environment"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05036"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-16-toolspace-scaling-tool-centric-environment</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05036&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #databases #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Advances in Agentic Computer Graphics. Computer graphics is built on code.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-18-advances-in-agentic-computer-graphics"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01860"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-18-advances-in-agentic-computer-graphics</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01860&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>The cryptography behind electronic voting (and why paper ballots are still essential)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-55-the-cryptography-behind-electronic-voting"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-55-the-cryptography-behind-electronic-voting</id>
+    <updated>2026-11-04T07:33:05+00:00</updated>
+    <summary type="html">&lt;p&gt;As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-38-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-38-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>$C^1$-rigidity of $\mathbb{H}^{p,q}$-convex cocompact representations of Gromov hyperbolic groups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-20-c-1-rigidity-of-mathbb"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03539v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-20-c-1-rigidity-of-mathbb</id>
-    <updated>2026-11-02T18:02:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $p&amp;gt;3$ and let $Γ$ be a non-elementary Gromov hyperbolic group with $\partial_\inftyΓ\cong\mathbb S^{p-1}$. We prove that every $\mathbb{H}^{p,2}$-convex cocompact representation $$ ρ:Γ\longrightarrow \mathrm{PO}_{p,3} $$ whose proximal limit set $Λ_ρ\subset\partial_\infty\mathbb{H}^{p,2}$ is a $C^1$ submanifold preserves a totally geodesic copy of $\mathbb{H}^p\subset\mathbb{H}^{p,2}$. Consequently, $Γ/\ker ρ$ is virtually a cocompact lattice in $\mathrm{Isom}(\mathbb{H}^p)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03539v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
+    <title>Supercritical level-set percolation on finite graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-20-supercritical-level-set-percolation-on"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05299v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-20-supercritical-level-set-percolation-on</id>
+    <updated>2026-11-03T18:12:14+00:00</updated>
+    <summary type="html">&lt;p&gt;We continue the study of bond percolation on finite graphs induced by the level-sets of the zero-average Gaussian free field on the associated metric graph. In our previous work Goswami and Pal (2026), we analyzed the critical and near-critical behavior of this model on uniform expanders, focusing on the volume of the largest cluster. In the present paper, we investigate the size of the second largest cluster in the supercritical regime --- the phase where one expects a unique giant component.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05299v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Quantitative finiteness for maximal complex totally geodesic submanifolds of non-arithmetic ball quotients</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-21-quantitative-finiteness-for-maximal-complex"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03514v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-21-quantitative-finiteness-for-maximal-complex</id>
-    <updated>2026-11-02T17:51:10+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove that the number of maximal complex totally geodesic submanifolds of a smooth finite-volume non-arithmetic ball quotient is bounded linearly by its volume, with a constant depending only on the complex dimension. This gives a quantitative strengthening of the finiteness theorems of Bader--Fisher--Miller--Stover (Invent. Math., 2023) and Baldi--Ullmo (Ann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03514v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
+    <title>Two examples in amplituhedron tilings. We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-21-two-examples-in-amplituhedron-tilings"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05216v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-21-two-examples-in-amplituhedron-tilings</id>
+    <updated>2026-11-03T17:02:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture. The tiling uses an injective degree two cell.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05216v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Optimizer&apos;s Windfall: Bounding Hindsight Gain under Random Restrictions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-35-the-optimizer-s-windfall-bounding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03468v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-35-the-optimizer-s-windfall-bounding</id>
-    <updated>2026-11-02T17:11:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03468v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>Security updates for Tuesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-40-security-updates-for-tuesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1105111/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-40-security-updates-for-tuesday</id>
+    <updated>2026-11-03T14:10:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), Debian (chromium, git-annex, incus, kernel, and strongswan), Fedora (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105111/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-60-exploring-fault-injection-attacks-on"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2492"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-60-exploring-fault-injection-attacks-on</id>
-    <updated>2026-10-15T03:39:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto transform. This work presents new fault injection attacks against BIKE and HQC that operate beyond this commonly protected component and target less obvious instructions within the decapsulation process. The proposed attacks achieve full key recovery using only valid ciphertexts under NIST Level 1 parameters, requiring 17392 and approximately 3 million decapsulation queries for HQC and BIKE, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2492&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-68-cosmosalpha-multi-relational-graph-search"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-68-cosmosalpha-multi-relational-graph-search</id>
+    <updated>2026-11-03T09:22:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HYphlow: bringing end-to-end flow to HyPhy selection analyses, from taxon reconciliation to trait-based foreground assignment</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-47-hyphlow-bringing-end-to-end"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-47-hyphlow-bringing-end-to-end</id>
+    <updated>2026-11-03T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Phylogenetic analyses of molecular evolution often require repeated manual preparation to reconcile taxa, annotate trees, execute models, and summarize results. These steps become increasingly time-consuming and difficult to standardize as the number of taxa, genes, and analytical hypotheses increases. We present HYphlow, an open-source graphical workflow developed in Python that integrates data preparation, trait-based foreground branch assignment, HyPhy execution, and structured result extraction within a single interface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>(R)Icy-DVRF: A Robust Distributed Verifiable Random Function Based on ROAST Signatures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-62-r-icy-dvrf-a-robust"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1378"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-62-r-icy-dvrf-a-robust</id>
+    <updated>2026-07-05T21:20:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Ensuring robustness and liveness in distributed verifiable random functions (DVRFs) allows the protocol to maintain correct operation and guarantee output generation, even in the presence of malicious actors attempting to disrupt the process, delay cryptographic shares, or remain unresponsive. Because existing DVRF protocols typically rely on synchronous or semi-synchronous network assumptions, simultaneously achieving these properties remains a challenge. To address this limitation, this paper enhances the FROST-based Icy-DVRF protocol to achieve both robustness and liveness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1378&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-63-a-proof-of-p-np"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/445"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-63-a-proof-of-p-np</id>
+    <updated>2025-03-08T18:06:39+00:00</updated>
+    <summary type="html">&lt;p&gt;P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/445&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

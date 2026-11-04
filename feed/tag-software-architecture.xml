@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>Astra can read and write weights to improve Qwen. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-01-astra-can-read-and-write"/>
-    <link rel="related" href="https://rikiyat.github.io/blog/weight-space-programming/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-01-astra-can-read-and-write</id>
-    <updated>2026-11-02T18:21:28Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://rikiyat.github.io/blog/weight-space-programming/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Jailbreaking my car&apos;s navigation system just so I can change the time. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-04-jailbreaking-my-car-s-navigation"/>
+    <link rel="related" href="https://blog.nns.ee/2026/11/02/renault-hack/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-04-jailbreaking-my-car-s-navigation</id>
+    <updated>2026-11-02T16:29:19Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.nns.ee/2026/11/02/renault-hack/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>European RISC-V Industrial Computing Initiative</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-37-european-risc-v-industrial-computing"/>
-    <link rel="related" href="https://erici.eu"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-37-european-risc-v-industrial-computing</id>
-    <updated>2026-11-02T08:58:33Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://erici.eu&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #semiconductors&lt;/p&gt;</summary>
+    <title>Postman silently auto-installs AI plugins and attempts to share all API data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-03-postman-silently-auto-installs-ai"/>
+    <link rel="related" href="https://github.com/postmanlabs/postman-app-support/issues/14370"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-03-postman-silently-auto-installs-ai</id>
+    <updated>2026-11-03T17:22:37Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/postmanlabs/postman-app-support/issues/14370&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Optical Circuit Switch Technology Built on Low-Loss Silicon Photonics Platform</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-29-optical-circuit-switch-technology-built"/>
-    <link rel="related" href="https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-29-optical-circuit-switch-technology-built</id>
-    <updated>2026-11-02T01:34:16Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Physics, Quantum &amp;amp; Space. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.psiquantum.com/news-import/psiquantum-unveils-optical-circuit-switch-technology-built-on-advanced-low-loss-silicon-photonics-platform&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #optics-photonics&lt;/p&gt;</summary>
+    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-08-qwen-3-8-27b-on"/>
+    <link rel="related" href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-08-qwen-3-8-27b-on</id>
+    <updated>2026-11-03T17:40:00Z</updated>
+    <summary type="html">&lt;p&gt;Yesterday&amp;apos;s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp;amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a &amp;quot;blog post&amp;quot;, but it&amp;apos;s paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I&amp;apos;ve been playing with one of the examples from the paper and I&amp;apos;m delighted to share that Qwen 3.8 27B running on my laptop can do this as well!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

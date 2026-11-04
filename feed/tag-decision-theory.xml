@@ -5,101 +5,101 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>On inverse aggregate network assignment games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-64-on-inverse-aggregate-network-assignment"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03409v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-64-on-inverse-aggregate-network-assignment</id>
-    <updated>2026-11-02T16:35:19+00:00</updated>
-    <summary type="html">&lt;p&gt;To design platforms for multi-operator mobility markets coordinating their operations or infrastructure to support them, models are needed to understand the behavior of these operators and travelers in a shared network. Assignment games can prove useful, but operationalizing them requires adopting a more generalized aggregate assignment game framework that allows for identification and estimation. We extend such a framework to aggregate network assignment games, proposing a path-based formulation and a PURC-based formulation along with solution algorithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03409v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Search and Verification for Strategyproof Facility Location on Metric Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-64-search-and-verification-for-strategyproof"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05092v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-64-search-and-verification-for-strategyproof</id>
+    <updated>2026-11-03T15:48:39+00:00</updated>
+    <summary type="html">&lt;p&gt;We study automated design of strategyproof (SP) mechanisms for randomized facility location on continuous metric graphs, with the objective of minimizing total distance. We develop methods for computing upper and lower bounds on the optimal approximation ratio achievable by SP mechanisms for a given graph and number of agents. For the lower bound, we propose a cost-preserving reduction to a finite domain that yields lower bounds for unrestricted SP mechanisms through linear programming dual certificates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05092v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Classification Aggregation with Multiple Memberships. People face the problem of classifying objects into categories while aggregating their opinions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-65-classification-aggregation-with-multiple-memberships"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02984v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-65-classification-aggregation-with-multiple-memberships</id>
-    <updated>2026-11-02T11:50:31+00:00</updated>
-    <summary type="html">&lt;p&gt;People face the problem of classifying objects into categories while aggregating their opinions. We axiomatically study such a classification aggregation problem with multiple memberships, meaning that each individual assigns one category to every object, whereas the resulting classification may assign more than one category. Under the natural settings and axioms (i.e., Independence and Supportiveness), each of our new axioms -- Responsibility, Split Stability and Rejection Stability -- characterises what we call the junta rules.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02984v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+    <title>Bankruptcy Rules for Strategic Agents. Bankruptcy rules are rules for dividing an insufficient estate among people with different claims.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-65-bankruptcy-rules-for-strategic-agents"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04859v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-65-bankruptcy-rules-for-strategic-agents</id>
+    <updated>2026-11-03T13:19:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Bankruptcy rules are rules for dividing an insufficient estate among people with different claims. Existing rules assume that the claims are publicly known. When this is not the case, claimants have a strong incentive to claim more than they are due, as bankruptcy rules give larger allocations to claimants with larger claims.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04859v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Persuasion by Parts. Classical Bayesian persuasion assumes that an information designer can condition signals on the entire state.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-66-persuasion-by-parts"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02845v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-66-persuasion-by-parts</id>
-    <updated>2026-11-02T09:46:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Bayesian persuasion assumes that an information designer can condition signals on the entire state. We propose persuasion by parts. In this model, the receiver&amp;apos;s payoff from acting is $X = \sum_{i=1}^n X_i$ for independent coordinates $X_1,\ldots,X_n$ observed by separate sources.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02845v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Designing AI-Mediated Communication in Teams. AI assistants increasingly participate in work that requires employees to exchange information and coordinate decisions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-66-designing-ai-mediated-communication-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04686v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-66-designing-ai-mediated-communication-in</id>
+    <updated>2026-11-03T11:09:30+00:00</updated>
+    <summary type="html">&lt;p&gt;AI assistants increasingly participate in work that requires employees to exchange information and coordinate decisions. We study how a firm should design this communication when workers&amp;apos; interests conflict with each other&amp;apos;s and the firm&amp;apos;s. Two workers privately know local conditions and their preferred responses, while the assistant knows aggregate project conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04686v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>At What Cost? (In)efficiency in First-Price Procurement Auctions. We study the efficiency of Bayes-Nash equilibria in first-price procurement auctions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-82-at-what-cost-in-efficiency"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03386v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-82-at-what-cost-in-efficiency</id>
-    <updated>2026-11-02T16:25:46+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the efficiency of Bayes-Nash equilibria in first-price procurement auctions. We measure efficiency by the Price of Anarchy (PoA): the ratio between the expected social cost in equilibrium and the minimum expected social cost resulting from a socially optimal allocation. We first show that the standard first-price procurement auction has no bounded PoA guarantee.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03386v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Almost-MMS allocations with small agent redundancy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-82-almost-mms-allocations-with-small"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05360v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-82-almost-mms-allocations-with-small</id>
+    <updated>2026-11-03T18:54:34+00:00</updated>
+    <summary type="html">&lt;p&gt;For a fixed $ε\ge 0$, let $ρ_{ε, n}$ be the maximum value of $ρ_n$ such that, in every allocation instance with $m$ indivisible goods and $(1 + ε)n$ agents, there is a subset of $n$ agents with the following property. The allocation instance restricted to only this subset of $n$ agents has an allocation that gives each agent at least $ρ_n$-fraction of her $n$-maximin share (MMS). When $ε&amp;gt; 0$ we refer to $εn$ as the {\em agent redundancy}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05360v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The search for the Higgs Boson and the EBH mechanism</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-83-the-search-for-the-higgs"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03315v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-83-the-search-for-the-higgs</id>
-    <updated>2026-11-02T15:41:53+00:00</updated>
-    <summary type="html">&lt;p&gt;The searches for the Higgs boson at LEP and the Tevatron between 1980 and 2000 are set in the context of the underlying theory of spontaneous symmetry breaking and early phenomenological studies. The evolution of direct searches at LEP and the Tevatron are reviewed, as well as indirect constraints from precision electroweak data. Finally, the state of play in 2000 is summarised, together with the perspectives it offered for later searches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03315v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #high-energy&lt;/p&gt;</summary>
+    <title>Computational Aspects of Distortion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-83-computational-aspects-of-distortion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05257v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-83-computational-aspects-of-distortion</id>
+    <updated>2026-11-03T17:44:31+00:00</updated>
+    <summary type="html">&lt;p&gt;The distortion framework in social choice theory allows quantifying the efficiency of (randomized) selection of an alternative based on the preferences of a set of agents. We make two fundamental contributions to this framework. First, we develop a linear-programming-based algorithm for computing the optimal randomized decision on a given instance, which is simpler and faster than the state-of-the-art solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05257v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>When will androids outnumber humans?. Humanoid robots are increasingly discussed not only as machines but also as a potential technological population.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-84-when-will-androids-outnumber-humans"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03242v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-84-when-will-androids-outnumber-humans</id>
-    <updated>2026-11-02T14:52:34+00:00</updated>
-    <summary type="html">&lt;p&gt;Humanoid robots are increasingly discussed not only as machines but also as a potential technological population. We develop a nonlinear population-dynamical framework to examine their possible diffusion relative to humans, without assuming that large-scale adoption or numerical crossover is inevitable. The human population $H(t)$ is calibrated to the United Nations World Population Prospects 2024 median trajectory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03242v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Tight Analysis of Randomized Truthful Scheduling: An $(m+1)/2$ Lower Bound</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-84-tight-analysis-of-randomized-truthful"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05142v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-84-tight-analysis-of-randomized-truthful</id>
+    <updated>2026-11-03T16:20:44+00:00</updated>
+    <summary type="html">&lt;p&gt;The Nisan-Ronen conjecture, a central problem in algorithmic game theory, asserts that no deterministic truthful mechanism for makespan minimization on $m$ unrelated machines can achieve an approximation ratio better than $m$. Christodoulou, Koutsoupias, and Kovács resolved it in 2023, but the optimal approximation ratio achievable by randomized truthful mechanisms remained open. Recently, Anastasiadis, Christodoulou, Koutsoupias, Kovács, and Schecker extended techniques from the deterministic proof to establish a $(3/2-\sqrt{2})(m-1)$ lower bound for universally truthful mechanisms with discrete support and gave a universally truthful mechanism with approximation ratio $m/2+o(m)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05142v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cold-Start Pricing of LLM Services under Two-Sided Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-85-cold-start-pricing-of-llm"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03199v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-85-cold-start-pricing-of-llm</id>
-    <updated>2026-11-02T14:25:15+00:00</updated>
-    <summary type="html">&lt;p&gt;Online large language model (LLM) services face a pricing cold start: providers initially lack the historical data and user information needed for precise pricing, while users&amp;apos; willingness to pay evolves with repeated use. We formulate this challenge as a \emph{two-sided learning} problem between a provider and a user. The user learns from private usage experience, whereas the provider incurs a serving cost and dynamically adapts prices using only purchase decisions to maximize cumulative profit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03199v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Sharp Bounds for Truthful-in-Expectation Scheduling. We study randomized mechanisms for scheduling indivisible jobs on $n$ unrelated machines.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-85-sharp-bounds-for-truthful-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05134v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-85-sharp-bounds-for-truthful-in</id>
+    <updated>2026-11-03T16:15:42+00:00</updated>
+    <summary type="html">&lt;p&gt;We study randomized mechanisms for scheduling indivisible jobs on $n$ unrelated machines. Each machine is controlled by a selfish agent who privately knows its processing time for each job. A mechanism assigns every job to a machine and makes payments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05134v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Verification Allocation in Stylized LLM Agent Pipelines under Hidden Tool Degradation: A Discrete-Time Mean-Field Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-86-verification-allocation-in-stylized-llm"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03192v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-86-verification-allocation-in-stylized-llm</id>
-    <updated>2026-11-02T14:21:16+00:00</updated>
-    <summary type="html">&lt;p&gt;We study a stylized verification-allocation model for role-structured pipelines with binary inherited corruption and hidden tool degradation. Standard contraction arguments give serial and multi-role fixed points and a finite-population deviation bound under independence. When verification actions affect neither future errors nor observations, the belief-state choice is myopic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03192v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Toward Constant-Factor Maximin Share Guarantees for Subadditive Valuations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-86-toward-constant-factor-maximin-share"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05073v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-86-toward-constant-factor-maximin-share</id>
+    <updated>2026-11-03T15:37:10+00:00</updated>
+    <summary type="html">&lt;p&gt;For $n$ agents and $m$ indivisible goods, an agent&amp;apos;s maximin share (MMS) is the largest minimum bundle value she can obtain by partitioning the goods into $n$ bundles. Constant MMS approximations are known for additive, submodular, or XOS valuations, but whether such a guarantee exists for general subadditive valuations remains open. We advance this question in two directions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05073v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Dynamic Coalition Formation Under Capacity Constraints: A Regime-Switching Value-Investing Game</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-87-dynamic-coalition-formation-under-capacity"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03137v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-87-dynamic-coalition-formation-under-capacity</id>
-    <updated>2026-11-02T13:49:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Edge computing service deployment requires the Network Operator (NO) and Service Providers (SPs) to coordinate investment and resource allocation under uncertain demand. This paper develops an audit-based service management framework for daily coalition formation with fixed capacity and service-level agreement (SLA) reservations. A two-stage coalitional game separates infrastructure investment from operational participation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03137v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
+    <title>Linear Equivalence of Full Weight Spectrum Cyclic Orbit Codes. We determine the linear-equivalence classes within the two families of full weight spectrum one-orbit cyclic subspace codes.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-87-linear-equivalence-of-full-weight"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04947v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-87-linear-equivalence-of-full-weight</id>
+    <updated>2026-11-03T14:10:49+00:00</updated>
+    <summary type="html">&lt;p&gt;We determine the linear-equivalence classes within the two families of full weight spectrum one-orbit cyclic subspace codes. This solves the second open problem posed by Castello, Polverino and Zullo [J. Combin. Theory Ser. A 212 (2025) 106005].&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04947v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Algorithmic Intervention Decreases Polarization in Content Moderation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-88-algorithmic-intervention-decreases-polarization-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03072v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-88-algorithmic-intervention-decreases-polarization-in</id>
-    <updated>2026-11-02T12:58:57+00:00</updated>
-    <summary type="html">&lt;p&gt;Crowd-based moderation relies on people&amp;apos;s collective judgments to combat misinformation, but raters bring their own ideological biases to the task, shaping how they moderate each other&amp;apos;s contributions. We ask whether an algorithmic redesign can counteract this bias, using X&amp;apos;s Community Notes, where contributors write context for potentially misleading posts and rate each other&amp;apos;s notes. Community Notes replaced simple majority voting with an algorithm that instead rewards agreement across people with different ideological viewpoints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03072v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>The Complexity of Continuous Contract Design over Polymatroids. We study optimal contracts when an agent allocates continuous effort subject to polymatroid capacity constraints.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-88-the-complexity-of-continuous-contract"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04934v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-88-the-complexity-of-continuous-contract</id>
+    <updated>2026-11-03T14:04:32+00:00</updated>
+    <summary type="html">&lt;p&gt;We study optimal contracts when an agent allocates continuous effort subject to polymatroid capacity constraints. Effort produces a linear expected reward and incurs a cost. With binary outcomes and limited liability, the principal chooses a single reward share.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04934v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Cooperative Game-Theoretic Framework for Real-Time Deviation Settlement in Local Energy Communities</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-89-a-cooperative-game-theoretic-framework"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03030v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-89-a-cooperative-game-theoretic-framework</id>
-    <updated>2026-11-02T12:26:40+00:00</updated>
-    <summary type="html">&lt;p&gt;This paper proposes a cooperative game-theoretical framework for the financial settlement of real-time deviations in Community-Based Local Energy Markets (CB-LEMs). The real-time settlement process is modeled as a transferable-utility cooperative game, and the resulting Real-Time Local Energy Market (RTLEM) game is shown to be superadditive and balanced. We analyze two game-theoretical allocation mechanisms, the Shapley value and the nucleolus, and evaluate their efficiency, individual rationality, coalitional rationality, and temporal-aggregation properties.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03030v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #optimization&lt;/p&gt;</summary>
+    <title>Modelling lock-in of AI adoption through skill erosion. Generative AI can improve immediate performance but may erode the human skills required for future work.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-89-modelling-lock-in-of-ai"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04886v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-89-modelling-lock-in-of-ai</id>
+    <updated>2026-11-03T13:33:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Generative AI can improve immediate performance but may erode the human skills required for future work. We study a model in which individuals tend to imitate successful peers, while their independent skills grow with practice and erode with reliance on AI. Because each agent&amp;apos;s skill reflects their history, non-users and AI users develop different skill distributions, which we derive exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04886v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Zero-shot time-series foundation models against the Khepri v1.5 baselines for 96-hour carbon-intensity forecasts in nine Nordic bidding zones: a preregistered comparison</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-90-zero-shot-time-series-foundation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02895v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-90-zero-shot-time-series-foundation</id>
-    <updated>2026-11-02T10:29:23+00:00</updated>
-    <summary type="html">&lt;p&gt;We compare three zero-shot time-series foundation models (Timestral-5M, Timestral-209M and Chronos-2, 8192-hour context, no covariates) with the Khepri v1.5 SARIMA and GBM baselines, with their code and hyperparameters unchanged, for 96-hour forecasts of hourly carbon intensity in the Nordic bidding zones NO1-NO5 and SE1-SE4. The design, the analysis code and a minimum detectable effect (MDE) were timestamped before any foundation-model forecast by an OpenTimestamps proof (Bitcoin-confirmed) and the GPG-signed tag prereg-v1; the proofs are archived in Zenodo (DOI 10.5281/zenodo.23881315). The preregistration was also submitted to OSF Registries 2026-11-02 07:49 UTC (osf.io/hncz5; embargo requested, pending OSF approval).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02895v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
+    <title>Best-of-Many-Worlds MMS Allocation for Chores with Sublinear Disposals</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-90-best-of-many-worlds-mms"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04884v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-90-best-of-many-worlds-mms</id>
+    <updated>2026-11-03T13:32:43+00:00</updated>
+    <summary type="html">&lt;p&gt;We study randomized allocations (lotteries) of indivisible chores under additive costs and introduce the notion of MMS1, which requires each agent&amp;apos;s bundle to satisfy the maximin share (MMS) bound after the removal of at most one chore. Our main result establishes that every instance admits an ex-ante proportional lottery in whose support every allocation is MMS1 and all but $o(n)$ agents satisfy MMS. Consequently, every realized allocation can be made MMS by disposing of at most $o(n)$ chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04884v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

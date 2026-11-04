@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
     <title>The Merck/Moderna Results</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-46-the-merck-moderna-results"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-46-the-merck-moderna-results"/>
     <link rel="related" href="https://www.science.org/content/blog-post/merck-moderna-results"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-46-the-merck-moderna-results</id>
-    <updated>2026-11-03T12:27:29.577995518+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-46-the-merck-moderna-results</id>
+    <updated>2026-11-04T12:39:00.680429562+00:00</updated>
     <summary type="html">&lt;p&gt;This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data leaked in advance of a meeting presentation, and the companies were more or less forced to press-release on the numbers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.science.org/content/blog-post/merck-moderna-results&quot;&gt;In the Pipeline (Derek Lowe — Drug Discovery &amp;amp; Chemistry)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RangeFinder: Predicting Ligand Property Ranges from Protein Pockets. Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-47-rangefinder-predicting-ligand-property-ranges"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03379v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-47-rangefinder-predicting-ligand-property-ranges</id>
-    <updated>2026-11-02T16:21:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules. Existing machine learning approaches primarily address this problem by generating candidate ligands or scoring individual protein-ligand pairs, but provide limited information about the broader chemical space compatible with a binding pocket. We introduce RangeFinder, an SE(3)-equivariant transformer pocket-level model, trained and evaluated on BioLiP2 data, that predicts ranges over nine physicochemical ligand properties directly from pocket structure, chemistry, and evolutionary context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03379v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Res ipSAE adhuc loquuntur: What the directionality of predicted aligned error in cofolding models can tell us about scoring diverse molecular complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-48-res-ipsae-adhuc-loquuntur-what"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.02.763449v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-48-res-ipsae-adhuc-loquuntur-what</id>
+    <title>HYphlow: bringing end-to-end flow to HyPhy selection analyses, from taxon reconciliation to trait-based foreground assignment</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-47-hyphlow-bringing-end-to-end"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-47-hyphlow-bringing-end-to-end</id>
     <updated>2026-11-03T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;AlphaFold 3 (AF3) and Boltz-2 estimate confidence in predicted biomolecular complexes using the interface predicted template modeling (ipTM) score, which is derived from probability distributions of predicted aligned errors (PAEs) between molecular tokens. These errors are directional: the predicted position of tokens in one molecule is evaluated relative to coordinate frames defined by tokens in another. The PAE matrix is therefore asymmetric, but AF3 reports the maximum of the two directional pairwise ipTM scores, whereas Boltz-2 reports them separately.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.02.763449v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Phylogenetic analyses of molecular evolution often require repeated manual preparation to reconcile taxa, annotate trees, execute models, and summarize results. These steps become increasingly time-consuming and difficult to standardize as the number of taxa, genes, and analytical hypotheses increases. We present HYphlow, an open-source graphical workflow developed in Python that integrates data preparation, trait-based foreground branch assignment, HyPhy execution, and structured result extraction within a single interface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CMVAE: Contrastive Supervision Improves Single-Omic Latent Manifold for Breast Cancer Survival Prognosis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-49-cmvae-contrastive-supervision-improves-single"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763085v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-49-cmvae-contrastive-supervision-improves-single</id>
-    <updated>2026-11-02T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;High-dimensional omics data are vital for fore- casting patient prognosis in oncology. While deep multi-omics learning methods are increasingly popular, they suffer from data missingness and low patient overlap across modalities. Consequently, advancing single-omic representation learning re- mains a critical yet challenging research problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763085v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #topology&lt;/p&gt;</summary>
+    <title>DoAggregate: a pipeline for aggregation testing for rare-variant on a gene and pathway level</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-48-doaggregate-a-pipeline-for-aggregation"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762468v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-48-doaggregate-a-pipeline-for-aggregation</id>
+    <updated>2026-11-03T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation Aggregation tests overcome the classical limitation of rare variant analysis in cohort study design. Choosing the right statistical test remains one of the biggest challenges. Existing tools fall short in offering a comprehensive solution that includes automatic data processing, testing across all genes, as well as exploration of broader genetic regions such as pathways and Gene Ontology (GO) terms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762468v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>scRM: A single-cell foundation model trained on scRNA-seq reads</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-50-scrm-a-single-cell-foundation"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.24.761590v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-50-scrm-a-single-cell-foundation</id>
-    <updated>2026-11-02T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;To our knowledge, scRM is the first single-cell foundation model trained on sequencing reads, demonstrating that raw data pretraining is not only feasible but competitive at a fraction of the computational cost. We anticipate that scaling this framework and exploring alternative architectures will unlock biological information inaccessible to count models and extend the dataset-specific pretraining it already makes possible. The source code is available at https://github.com/altos-labs/scRM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.24.761590v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Leakage-Controlled Benchmarking of Variant Effect Predictors and Development of Gradient-Boosting Consensus Model</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-51-leakage-controlled-benchmarking-of-variant"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763022v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-51-leakage-controlled-benchmarking-of-variant</id>
-    <updated>2026-11-02T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Single amino acid mutations are among the most common forms of genetic variation, with effects ranging from negligible to severe disruption of protein function. Accurate quantitative evaluation of protein variants therefore represents a key challenge in medicine and protein engineering. Computational variant effect predictors (VEPs) are widely used to prioritize missense variants, yet their fair comparison is hindered by data circularity, benchmarks restricted to human clinical annotations, and limited availability of code and training data, all of which can inflate apparent performance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763022v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
+    <title>scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-49-scstec-annotating-chromatin-subcompartments-from"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-49-scstec-annotating-chromatin-subcompartments-from</id>
+    <updated>2026-11-03T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;textbf{Motivation: }Single-cell Hi-C (scHi-C) technologies enable the study of three-dimensional (3D) genome organization at individual-cell resolution. Many computational methods have been developed to infer hierarchical structures from scHi-C data. However, annotating chromatin subcompartments from sparse scHi-C data remains a challenge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-52-machine-learning-dataset-and-benchmark"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-50-machine-learning-dataset-and-benchmark"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-52-machine-learning-dataset-and-benchmark</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-50-machine-learning-dataset-and-benchmark</id>
     <updated>2026-10-26T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Making the case for a non-primary article</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-53-making-the-case-for-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-51-making-the-case-for-a"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-53-making-the-case-for-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-51-making-the-case-for-a</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-54-dynamic-networks-can-promote-pro"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-52-dynamic-networks-can-promote-pro"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-54-dynamic-networks-can-promote-pro</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-52-dynamic-networks-can-promote-pro</id>
     <updated>2026-10-22T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Structure-coefficient theorem for evolutionary games on dynamic networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-53-structure-coefficient-theorem-for-evolutionary"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01068-9"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-53-structure-coefficient-theorem-for-evolutionary</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01068-9 The authors establish a structure-coefficient theorem, showing that three universal coefficients capture evolutionary outcomes in changing networks, and identify dynamic core–periphery networks that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01068-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-54-hybrid-modeling-for-improved-structure"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-54-hybrid-modeling-for-improved-structure</id>
+    <updated>2026-10-15T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

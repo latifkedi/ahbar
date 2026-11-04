@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>RangeFinder: Predicting Ligand Property Ranges from Protein Pockets. Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-47-rangefinder-predicting-ligand-property-ranges"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03379v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-47-rangefinder-predicting-ligand-property-ranges</id>
-    <updated>2026-11-02T16:21:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules. Existing machine learning approaches primarily address this problem by generating candidate ligands or scoring individual protein-ligand pairs, but provide limited information about the broader chemical space compatible with a binding pocket. We introduce RangeFinder, an SE(3)-equivariant transformer pocket-level model, trained and evaluated on BioLiP2 data, that predicts ranges over nine physicochemical ligand properties directly from pocket structure, chemistry, and evolutionary context.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03379v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory&lt;/p&gt;</summary>
+    <title>PanelGP: A Probabilistic Factor Model for Asset-Return Panels</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-67-panelgp-a-probabilistic-factor-model"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04040v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-67-panelgp-a-probabilistic-factor-model</id>
+    <updated>2026-11-02T22:35:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop PanelGP, a conditional factor model for large panels of stock returns in which firm characteristics determine the factor loadings and economic conditions determine the expected factors. Both relations are estimated nonparametrically with Gaussian-process priors. The kernel choice nests instrumented principal component analysis (IPCA) as well as smooth nonlinear maps.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04040v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Zero-shot time-series foundation models against the Khepri v1.5 baselines for 96-hour carbon-intensity forecasts in nine Nordic bidding zones: a preregistered comparison</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-90-zero-shot-time-series-foundation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02895v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-90-zero-shot-time-series-foundation</id>
-    <updated>2026-11-02T10:29:23+00:00</updated>
-    <summary type="html">&lt;p&gt;We compare three zero-shot time-series foundation models (Timestral-5M, Timestral-209M and Chronos-2, 8192-hour context, no covariates) with the Khepri v1.5 SARIMA and GBM baselines, with their code and hyperparameters unchanged, for 96-hour forecasts of hourly carbon intensity in the Nordic bidding zones NO1-NO5 and SE1-SE4. The design, the analysis code and a minimum detectable effect (MDE) were timestamped before any foundation-model forecast by an OpenTimestamps proof (Bitcoin-confirmed) and the GPG-signed tag prereg-v1; the proofs are archived in Zenodo (DOI 10.5281/zenodo.23881315). The preregistration was also submitted to OSF Registries 2026-11-02 07:49 UTC (osf.io/hncz5; embargo requested, pending OSF approval).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02895v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
+    <title>Beyond Multi-Index Models: Learning Intersections of Degree-2 PTFs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-22-beyond-multi-index-models-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05114v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-22-beyond-multi-index-models-learning</id>
+    <updated>2026-11-03T16:05:15+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an algorithm for PAC learning intersections of $k$ degree-2 polynomial threshold functions over $R^d$ under a Gaussian distribution. Our algorithm achieves classification error $ε$ using $d^{O(k)}2^{O_k(\log^3(1/ε))}$ time and samples, improving over the $d^{O(k^2/ε^2)}$ running time of the polynomial regression approach. To our knowledge, our result is the first to obtain a dimension exponent independent of the accuracy parameter, even for $k=2$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05114v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-68-cosmosalpha-multi-relational-graph-search"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-68-cosmosalpha-multi-relational-graph-search</id>
+    <updated>2026-11-03T09:22:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Modelling lock-in of AI adoption through skill erosion. Generative AI can improve immediate performance but may erode the human skills required for future work.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-89-modelling-lock-in-of-ai"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04886v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-89-modelling-lock-in-of-ai</id>
+    <updated>2026-11-03T13:33:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Generative AI can improve immediate performance but may erode the human skills required for future work. We study a model in which individuals tend to imitate successful peers, while their independent skills grow with practice and erode with reliance on AI. Because each agent&amp;apos;s skill reflects their history, non-users and AI users develop different skill distributions, which we derive exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04886v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

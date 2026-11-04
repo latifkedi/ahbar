@@ -5,69 +5,93 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>CoworkOS:Scaling Agent Coworkers for Real-world Automation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-11-coworkos-scaling-agent-coworkers-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03178"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-11-coworkos-scaling-agent-coworkers-for</id>
-    <updated>2026-11-02T09:15:11.000Z</updated>
-    <summary type="html">&lt;p&gt;Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03178&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-10-route-anything-a-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05275"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-10-route-anything-a-study-of</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-12-cua-master-scaling-computer-use"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03126"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-12-cua-master-scaling-computer-use</id>
-    <updated>2026-11-02T08:41:14.000Z</updated>
-    <summary type="html">&lt;p&gt;Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03126&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Axion 1.0: Open Agent Foundation Models, Simplified</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-15-axion-1-0-open-agent"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03233"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-15-axion-1-0-open-agent</id>
+    <updated>2026-11-01T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesize challenging problems and adversarially strengthen them based on the base model&amp;apos;s own successful solution strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03233&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Democratizing Robot-Use Agents: A Unified Harness with Open Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-13-democratizing-robot-use-agents-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01560"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-13-democratizing-robot-use-agents-a</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01560&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>EvoTeam: Multi-Agent Collaboration via Evolving Teams. LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-18-evoteam-multi-agent-collaboration-via"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39813"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-18-evoteam-multi-agent-collaboration-via</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks. Existing methods improve MAS by refining the prompts, skills, and execution strategies of individual agents based on task feedback. However, improving individual agents does not necessarily lead to better team collaboration.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39813&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-14-reviso-not-all-visual-evidence"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03602"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-14-reviso-not-all-visual-evidence</id>
-    <updated>2026-11-02T13:41:14.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content of each video. Motivated by this observation, we propose Reviso, an agentic video captioning framework that learns what to observe and how to gather relevant visual evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03602&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-42-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-42-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <updated>2026-10-27T07:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-15-northcua-technical-report-turbocharging-computer"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02102"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-15-northcua-technical-report-turbocharging-computer</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02102&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Almost-MMS allocations with small agent redundancy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-82-almost-mms-allocations-with-small"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05360v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-82-almost-mms-allocations-with-small</id>
+    <updated>2026-11-03T18:54:34+00:00</updated>
+    <summary type="html">&lt;p&gt;For a fixed $ε\ge 0$, let $ρ_{ε, n}$ be the maximum value of $ρ_n$ such that, in every allocation instance with $m$ indivisible goods and $(1 + ε)n$ agents, there is a subset of $n$ agents with the following property. The allocation instance restricted to only this subset of $n$ agents has an allocation that gives each agent at least $ρ_n$-fraction of her $n$-maximin share (MMS). When $ε&amp;gt; 0$ we refer to $εn$ as the {\em agent redundancy}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05360v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Advances in Agentic Computer Graphics. Computer graphics is built on code.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-18-advances-in-agentic-computer-graphics"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01860"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-18-advances-in-agentic-computer-graphics</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01860&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Computational Aspects of Distortion</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-83-computational-aspects-of-distortion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05257v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-83-computational-aspects-of-distortion</id>
+    <updated>2026-11-03T17:44:31+00:00</updated>
+    <summary type="html">&lt;p&gt;The distortion framework in social choice theory allows quantifying the efficiency of (randomized) selection of an alternative based on the preferences of a set of agents. We make two fundamental contributions to this framework. First, we develop a linear-programming-based algorithm for computing the optimal randomized decision on a given instance, which is simpler and faster than the state-of-the-art solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05257v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-40-klasktron-an-open-source-platform"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03138v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-40-klasktron-an-open-source-platform</id>
-    <updated>2026-11-02T13:49:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Understanding mobility dynamics and the effects of urban transportation management policies requires examining how individual travel decisions, traffic conditions, and policy interventions influence one another over time. We present AgenticMobility, an open-source experimental platform for studying how mobility AI agents and other AI agents interact, adapt through repeated experience, and collectively shape mobility outcomes. Persistent agents retain identities and relevant states across rounds, with explicit interfaces defining information access, admissible actions, and decision schedules; linked records trace decisions, execution, and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03138v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #agents&lt;/p&gt;</summary>
+    <title>Sharp Bounds for Truthful-in-Expectation Scheduling. We study randomized mechanisms for scheduling indivisible jobs on $n$ unrelated machines.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-85-sharp-bounds-for-truthful-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05134v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-85-sharp-bounds-for-truthful-in</id>
+    <updated>2026-11-03T16:15:42+00:00</updated>
+    <summary type="html">&lt;p&gt;We study randomized mechanisms for scheduling indivisible jobs on $n$ unrelated machines. Each machine is controlled by a selfish agent who privately knows its processing time for each job. A mechanism assigns every job to a machine and makes payments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05134v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Verification Allocation in Stylized LLM Agent Pipelines under Hidden Tool Degradation: A Discrete-Time Mean-Field Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-86-verification-allocation-in-stylized-llm"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03192v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-86-verification-allocation-in-stylized-llm</id>
-    <updated>2026-11-02T14:21:16+00:00</updated>
-    <summary type="html">&lt;p&gt;We study a stylized verification-allocation model for role-structured pipelines with binary inherited corruption and hidden tool degradation. Standard contraction arguments give serial and multi-role fixed points and a finite-population deviation bound under independence. When verification actions affect neither future errors nor observations, the belief-state choice is myopic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03192v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Toward Constant-Factor Maximin Share Guarantees for Subadditive Valuations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-86-toward-constant-factor-maximin-share"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05073v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-86-toward-constant-factor-maximin-share</id>
+    <updated>2026-11-03T15:37:10+00:00</updated>
+    <summary type="html">&lt;p&gt;For $n$ agents and $m$ indivisible goods, an agent&amp;apos;s maximin share (MMS) is the largest minimum bundle value she can obtain by partitioning the goods into $n$ bundles. Constant MMS approximations are known for additive, submodular, or XOS valuations, but whether such a guarantee exists for general subadditive valuations remains open. We advance this question in two directions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05073v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Complexity of Continuous Contract Design over Polymatroids. We study optimal contracts when an agent allocates continuous effort subject to polymatroid capacity constraints.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-88-the-complexity-of-continuous-contract"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04934v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-88-the-complexity-of-continuous-contract</id>
+    <updated>2026-11-03T14:04:32+00:00</updated>
+    <summary type="html">&lt;p&gt;We study optimal contracts when an agent allocates continuous effort subject to polymatroid capacity constraints. Effort produces a linear expected reward and incurs a cost. With binary outcomes and limited liability, the principal chooses a single reward share.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04934v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Modelling lock-in of AI adoption through skill erosion. Generative AI can improve immediate performance but may erode the human skills required for future work.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-89-modelling-lock-in-of-ai"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04886v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-89-modelling-lock-in-of-ai</id>
+    <updated>2026-11-03T13:33:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Generative AI can improve immediate performance but may erode the human skills required for future work. We study a model in which individuals tend to imitate successful peers, while their independent skills grow with practice and erode with reliance on AI. Because each agent&amp;apos;s skill reflects their history, non-users and AI users develop different skill distributions, which we derive exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04886v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Best-of-Many-Worlds MMS Allocation for Chores with Sublinear Disposals</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-90-best-of-many-worlds-mms"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04884v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-90-best-of-many-worlds-mms</id>
+    <updated>2026-11-03T13:32:43+00:00</updated>
+    <summary type="html">&lt;p&gt;We study randomized allocations (lotteries) of indivisible chores under additive costs and introduce the notion of MMS1, which requires each agent&amp;apos;s bundle to satisfy the maximin share (MMS) bound after the removal of at most one chore. Our main result establishes that every instance admits an ex-ante proportional lottery in whose support every allocation is MMS1 and all but $o(n)$ agents satisfy MMS. Consequently, every realized allocation can be made MMS by disposing of at most $o(n)$ chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04884v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

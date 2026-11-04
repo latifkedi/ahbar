@@ -5,36 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>On inverse aggregate network assignment games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-64-on-inverse-aggregate-network-assignment"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03409v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-64-on-inverse-aggregate-network-assignment</id>
-    <updated>2026-11-02T16:35:19+00:00</updated>
-    <summary type="html">&lt;p&gt;To design platforms for multi-operator mobility markets coordinating their operations or infrastructure to support them, models are needed to understand the behavior of these operators and travelers in a shared network. Assignment games can prove useful, but operationalizing them requires adopting a more generalized aggregate assignment game framework that allows for identification and estimation. We extend such a framework to aggregate network assignment games, proposing a path-based formulation and a PURC-based formulation along with solution algorithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03409v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Search and Verification for Strategyproof Facility Location on Metric Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-64-search-and-verification-for-strategyproof"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05092v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-64-search-and-verification-for-strategyproof</id>
+    <updated>2026-11-03T15:48:39+00:00</updated>
+    <summary type="html">&lt;p&gt;We study automated design of strategyproof (SP) mechanisms for randomized facility location on continuous metric graphs, with the objective of minimizing total distance. We develop methods for computing upper and lower bounds on the optimal approximation ratio achievable by SP mechanisms for a given graph and number of agents. For the lower bound, we propose a cost-preserving reduction to a finite domain that yields lower bounds for unrestricted SP mechanisms through linear programming dual certificates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05092v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Classification Aggregation with Multiple Memberships. People face the problem of classifying objects into categories while aggregating their opinions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-65-classification-aggregation-with-multiple-memberships"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02984v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-65-classification-aggregation-with-multiple-memberships</id>
-    <updated>2026-11-02T11:50:31+00:00</updated>
-    <summary type="html">&lt;p&gt;People face the problem of classifying objects into categories while aggregating their opinions. We axiomatically study such a classification aggregation problem with multiple memberships, meaning that each individual assigns one category to every object, whereas the resulting classification may assign more than one category. Under the natural settings and axioms (i.e., Independence and Supportiveness), each of our new axioms -- Responsibility, Split Stability and Rejection Stability -- characterises what we call the junta rules.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02984v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+    <title>Bankruptcy Rules for Strategic Agents. Bankruptcy rules are rules for dividing an insufficient estate among people with different claims.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-65-bankruptcy-rules-for-strategic-agents"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04859v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-65-bankruptcy-rules-for-strategic-agents</id>
+    <updated>2026-11-03T13:19:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Bankruptcy rules are rules for dividing an insufficient estate among people with different claims. Existing rules assume that the claims are publicly known. When this is not the case, claimants have a strong incentive to claim more than they are due, as bankruptcy rules give larger allocations to claimants with larger claims.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04859v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Persuasion by Parts. Classical Bayesian persuasion assumes that an information designer can condition signals on the entire state.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-66-persuasion-by-parts"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02845v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-66-persuasion-by-parts</id>
-    <updated>2026-11-02T09:46:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Bayesian persuasion assumes that an information designer can condition signals on the entire state. We propose persuasion by parts. In this model, the receiver&amp;apos;s payoff from acting is $X = \sum_{i=1}^n X_i$ for independent coordinates $X_1,\ldots,X_n$ observed by separate sources.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02845v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Designing AI-Mediated Communication in Teams. AI assistants increasingly participate in work that requires employees to exchange information and coordinate decisions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-66-designing-ai-mediated-communication-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04686v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-66-designing-ai-mediated-communication-in</id>
+    <updated>2026-11-03T11:09:30+00:00</updated>
+    <summary type="html">&lt;p&gt;AI assistants increasingly participate in work that requires employees to exchange information and coordinate decisions. We study how a firm should design this communication when workers&amp;apos; interests conflict with each other&amp;apos;s and the firm&amp;apos;s. Two workers privately know local conditions and their preferred responses, while the assistant knows aggregate project conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04686v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-68-cosmosalpha-multi-relational-graph-search"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-68-cosmosalpha-multi-relational-graph-search</id>
+    <updated>2026-11-03T09:22:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>An Introduction to Financial Derivatives: Open Lecture Notes. These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-67-an-introduction-to-financial-derivatives"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-69-an-introduction-to-financial-derivatives"/>
     <link rel="related" href="https://arxiv.org/abs/2611.01355v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-67-an-introduction-to-financial-derivatives</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-69-an-introduction-to-financial-derivatives</id>
     <updated>2026-10-31T23:54:51+00:00</updated>
     <summary type="html">&lt;p&gt;These lecture notes give a broad introduction to financial derivatives at the level of a Masters program in quantitative finance. Topics include forward and futures contracts, no-arbitrage bounds and put-call parity, the binomial model, the fundamental theorems of asset pricing, Brownian motion and Itô calculus, the Black-Scholes model, the Greeks, variance swaps, local and stochastic volatility models including Heston, and static hedging of barrier options. Each chapter ends with exercises, and complete solutions, including Python code for the computational exercises, are provided in an appendix.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01355v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #probability-stats #logic&lt;/p&gt;</summary>
   </entry>

@@ -5,69 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>Wave Forcing: Towards Speed-of-Light Streaming Video Generation. Real-time long-video generation requires continuous output with consistent appearance and natural motion.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-10-wave-forcing-towards-speed-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.00859"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-10-wave-forcing-towards-speed-of</id>
+    <title>Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-10-route-anything-a-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05275"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-10-route-anything-a-study-of</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-11-dreamx-video-diffusion-model-is"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05377"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-11-dreamx-video-diffusion-model-is</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05377&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-12-words-caught-in-the-heart"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.00617"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-12-words-caught-in-the-heart</id>
     <updated>2026-10-30T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wave Forcing (WF), which co-designs generation, training, and execution for continuous video output with multi-step denoising.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.00859&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client&amp;apos;s difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy client simulation framework that models how psychological experience becomes situated, individual expression.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.00617&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CoworkOS:Scaling Agent Coworkers for Real-world Automation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-11-coworkos-scaling-agent-coworkers-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03178"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-11-coworkos-scaling-agent-coworkers-for</id>
-    <updated>2026-11-02T09:15:11.000Z</updated>
-    <summary type="html">&lt;p&gt;Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03178&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Think Less, Locally: Local Preference Learning for Reasoning Compression</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-13-think-less-locally-local-preference"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04814"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-13-think-less-locally-local-preference</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We propose LoCo, a local preference learning method for reasoning compression.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04814&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-12-cua-master-scaling-computer-use"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03126"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-12-cua-master-scaling-computer-use</id>
-    <updated>2026-11-02T08:41:14.000Z</updated>
-    <summary type="html">&lt;p&gt;Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03126&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-14-yanami-a-large-scale-multimodal"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05280"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-14-yanami-a-large-scale-multimodal</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05280&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Democratizing Robot-Use Agents: A Unified Harness with Open Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-13-democratizing-robot-use-agents-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01560"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-13-democratizing-robot-use-agents-a</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01560&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Reviso: Not All Visual Evidence Deserves Equal Attention in Video Captioning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-14-reviso-not-all-visual-evidence"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03602"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-14-reviso-not-all-visual-evidence</id>
-    <updated>2026-11-02T13:41:14.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal large language models (MLLMs) can generate detailed video captions, yet they may overemphasize minor details while overlooking essential context and key events. We argue that not all visual evidence deserves equal attention, as the importance of visual information depends on the content of each video. Motivated by this observation, we propose Reviso, an agentic video captioning framework that learns what to observe and how to gather relevant visual evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03602&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-15-northcua-technical-report-turbocharging-computer"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02102"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-15-northcua-technical-report-turbocharging-computer</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks task outcomes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02102&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-16-photoguider-composition-aware-cropping-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02897"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-16-photoguider-composition-aware-cropping-and</id>
+    <title>Axion 1.0: Open Agent Foundation Models, Simplified</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-15-axion-1-0-open-agent"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03233"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-15-axion-1-0-open-agent</id>
     <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of composition-aware features.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02897&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesize challenging problems and adversarially strengthen them based on the base model&amp;apos;s own successful solution strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03233&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Advances in Agentic Computer Graphics. Computer graphics is built on code.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-18-advances-in-agentic-computer-graphics"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01860"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-18-advances-in-agentic-computer-graphics</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01860&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-16-toolspace-scaling-tool-centric-environment"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05036"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-16-toolspace-scaling-tool-centric-environment</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05036&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #databases #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Factorized MLLM Embeddings for Composed Image Retrieval. Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-17-factorized-mllm-embeddings-for-composed"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05193"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-17-factorized-mllm-embeddings-for-composed</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM&amp;apos;s compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without explicitly resolving the intended visual modifications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05193&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #rag&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>EvoTeam: Multi-Agent Collaboration via Evolving Teams. LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-18-evoteam-multi-agent-collaboration-via"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39813"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-18-evoteam-multi-agent-collaboration-via</id>
+    <updated>2026-10-29T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks. Existing methods improve MAS by refining the prompts, skills, and execution strategies of individual agents based on task feedback. However, improving individual agents does not necessarily lead to better team collaboration.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39813&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

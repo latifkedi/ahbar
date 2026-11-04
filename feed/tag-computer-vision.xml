@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>When will androids outnumber humans?. Humanoid robots are increasingly discussed not only as machines but also as a potential technological population.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-84-when-will-androids-outnumber-humans"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03242v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-84-when-will-androids-outnumber-humans</id>
-    <updated>2026-11-02T14:52:34+00:00</updated>
-    <summary type="html">&lt;p&gt;Humanoid robots are increasingly discussed not only as machines but also as a potential technological population. We develop a nonlinear population-dynamical framework to examine their possible diffusion relative to humans, without assuming that large-scale adoption or numerical crossover is inevitable. The human population $H(t)$ is calibrated to the United Nations World Population Prospects 2024 median trajectory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03242v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-11-dreamx-video-diffusion-model-is"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05377"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-11-dreamx-video-diffusion-model-is</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05377&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

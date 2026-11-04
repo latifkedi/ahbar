@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>End-to-End NTT on FPGA for FHE Acceleration. Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-45-end-to-end-ntt-on"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03325v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-45-end-to-end-ntt-on</id>
-    <updated>2026-11-02T15:49:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Fully homomorphic encryption (FHE) enables privacy-preserving computation on encrypted data without decryption. Despite its strong security guarantees, FHE incurs substantial computational and memory overhead. In FHE-based deep learning inference, on average 63% of the CPU time is spent on the number theoretic transform (NTT) and its inverse (INTT), which reduce the complexity of polynomial multiplication from $O(N^2)$ to $O(N \log N)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03325v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #neuroscience&lt;/p&gt;</summary>
+    <title>Averaging Collusion Breaks Traceability in Personalized Neural Audio Watermarking</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-59-averaging-collusion-breaks-traceability-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04400v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-59-averaging-collusion-breaks-traceability-in</id>
+    <updated>2026-11-03T06:39:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Personalized neural audio watermarking systems embed user-specific payloads into audio to trace the user associated with a leaked or misused copy. Existing evaluations mainly assume access to a single personalized copy, but real-world distribution may expose multiple copies of the same recording. We find that simple sample-wise averaging breaks traceability: averaging only two copies produces tracing-failure rates of 87.7-99.7% across the five systems while largely preserving audio quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04400v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #multimodal #neuroscience&lt;/p&gt;</summary>
   </entry>
 </feed>

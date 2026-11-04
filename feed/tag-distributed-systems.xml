@@ -5,29 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>The Optimizer&apos;s Windfall: Bounding Hindsight Gain under Random Restrictions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-35-the-optimizer-s-windfall-bounding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03468v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-35-the-optimizer-s-windfall-bounding</id>
-    <updated>2026-11-02T17:11:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03468v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>Beyond Multi-Index Models: Learning Intersections of Degree-2 PTFs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-22-beyond-multi-index-models-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05114v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-22-beyond-multi-index-models-learning</id>
+    <updated>2026-11-03T16:05:15+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an algorithm for PAC learning intersections of $k$ degree-2 polynomial threshold functions over $R^d$ under a Gaussian distribution. Our algorithm achieves classification error $ε$ using $d^{O(k)}2^{O_k(\log^3(1/ε))}$ time and samples, improving over the $d^{O(k^2/ε^2)}$ running time of the polynomial regression approach. To our knowledge, our result is the first to obtain a dimension exponent independent of the accuracy parameter, even for $k=2$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05114v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>O2N2: Efficient Doubly Oblivious Approximate Nearest Neighbor Search</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-56-o2n2-efficient-doubly-oblivious-approximate"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03415v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-56-o2n2-efficient-doubly-oblivious-approximate</id>
-    <updated>2026-11-02T16:38:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Privacy-preserving approximate nearest neighbor (ANN) search allows clients to search from an untrusted server without revealing sensitive queries, and is useful in scenarios like medical diagnostics and credit scoring. Among the various privacy-preserving primitives, trusted execution environments (TEEs) have much lower overhead than heavy cryptographic ones, yet they leak memory access patterns, enabling adversaries to infer query contents. Oblivious RAM (ORAM) can be used to hide those access patterns at $\mathrm{O}(\log N)$ asymptotic cost, but existing high-performance ANN search algorithms (e.g., IVF or HNSW) exhibit complex, data-dependent access patterns that are unfriendly for ORAM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03415v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #databases&lt;/p&gt;</summary>
+    <title>Breaking the quantum barriers for Graph Collision</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-33-breaking-the-quantum-barriers-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05356v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-33-breaking-the-quantum-barriers-for</id>
+    <updated>2026-11-03T18:53:06+00:00</updated>
+    <summary type="html">&lt;p&gt;In the graph collision problem, the task is to decide whether a known graph on $n$ vertices contains an edge with both endpoints marked, given query access to the input bits specifying the marked vertices. We first refute the conjectured $Ω(n^{2/3})$ query lower bound with a bounded error quantum algorithm using $\widetilde O(n^{92/139})$ queries. We then refine this approach to obtain a $\widetilde O(n^{11/17})$ query algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05356v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Dynamic Coalition Formation Under Capacity Constraints: A Regime-Switching Value-Investing Game</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-87-dynamic-coalition-formation-under-capacity"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03137v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-87-dynamic-coalition-formation-under-capacity</id>
-    <updated>2026-11-02T13:49:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Edge computing service deployment requires the Network Operator (NO) and Service Providers (SPs) to coordinate investment and resource allocation under uncertain demand. This paper develops an audit-based service management framework for daily coalition formation with fixed capacity and service-level agreement (SLA) reservations. A two-stage coalitional game separates infrastructure investment from operational participation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03137v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
+    <title>Quantum Query Lower Bounds from Classical Moment Matching. We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-34-quantum-query-lower-bounds-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05117v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-34-quantum-query-lower-bounds-from</id>
+    <updated>2026-11-03T16:07:27+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing. For two random variables $X_0$ and $X_1$ whose moments match up to the first $r-1$ moments, the classical moment matching method says that no classical algorithm can reliably distinguish between input instances of length $N$ constructed from $X_0$ and $X_1$, respectively, unless it performs at least $Ω(N^{1-1/r})$ queries. While this method has been widely explored since its inception in the seminal work of Raskhodnikova, Ron, Shpilka, and Smith (STOC 2007) to prove lower bounds for symmetric properties, it has remained an open question whether a quantum analogue of it could be proved.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05117v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>(R)Icy-DVRF: A Robust Distributed Verifiable Random Function Based on ROAST Signatures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-62-r-icy-dvrf-a-robust"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1378"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-62-r-icy-dvrf-a-robust</id>
+    <updated>2026-07-05T21:20:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Ensuring robustness and liveness in distributed verifiable random functions (DVRFs) allows the protocol to maintain correct operation and guarantee output generation, even in the presence of malicious actors attempting to disrupt the process, delay cryptographic shares, or remain unresponsive. Because existing DVRF protocols typically rely on synchronous or semi-synchronous network assumptions, simultaneously achieving these properties remains a challenge. To address this limitation, this paper enhances the FROST-based Icy-DVRF protocol to achieve both robustness and liveness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1378&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

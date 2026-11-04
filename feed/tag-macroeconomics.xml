@@ -5,69 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-macroeconomics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-macroeconomics.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>On inverse aggregate network assignment games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-64-on-inverse-aggregate-network-assignment"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03409v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-64-on-inverse-aggregate-network-assignment</id>
-    <updated>2026-11-02T16:35:19+00:00</updated>
-    <summary type="html">&lt;p&gt;To design platforms for multi-operator mobility markets coordinating their operations or infrastructure to support them, models are needed to understand the behavior of these operators and travelers in a shared network. Assignment games can prove useful, but operationalizing them requires adopting a more generalized aggregate assignment game framework that allows for identification and estimation. We extend such a framework to aggregate network assignment games, proposing a path-based formulation and a PURC-based formulation along with solution algorithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03409v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Search and Verification for Strategyproof Facility Location on Metric Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-64-search-and-verification-for-strategyproof"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05092v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-64-search-and-verification-for-strategyproof</id>
+    <updated>2026-11-03T15:48:39+00:00</updated>
+    <summary type="html">&lt;p&gt;We study automated design of strategyproof (SP) mechanisms for randomized facility location on continuous metric graphs, with the objective of minimizing total distance. We develop methods for computing upper and lower bounds on the optimal approximation ratio achievable by SP mechanisms for a given graph and number of agents. For the lower bound, we propose a cost-preserving reduction to a finite domain that yields lower bounds for unrestricted SP mechanisms through linear programming dual certificates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05092v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Classification Aggregation with Multiple Memberships. People face the problem of classifying objects into categories while aggregating their opinions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-65-classification-aggregation-with-multiple-memberships"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02984v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-65-classification-aggregation-with-multiple-memberships</id>
-    <updated>2026-11-02T11:50:31+00:00</updated>
-    <summary type="html">&lt;p&gt;People face the problem of classifying objects into categories while aggregating their opinions. We axiomatically study such a classification aggregation problem with multiple memberships, meaning that each individual assigns one category to every object, whereas the resulting classification may assign more than one category. Under the natural settings and axioms (i.e., Independence and Supportiveness), each of our new axioms -- Responsibility, Split Stability and Rejection Stability -- characterises what we call the junta rules.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02984v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
+    <title>Bankruptcy Rules for Strategic Agents. Bankruptcy rules are rules for dividing an insufficient estate among people with different claims.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-65-bankruptcy-rules-for-strategic-agents"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04859v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-65-bankruptcy-rules-for-strategic-agents</id>
+    <updated>2026-11-03T13:19:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Bankruptcy rules are rules for dividing an insufficient estate among people with different claims. Existing rules assume that the claims are publicly known. When this is not the case, claimants have a strong incentive to claim more than they are due, as bankruptcy rules give larger allocations to claimants with larger claims.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04859v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Persuasion by Parts. Classical Bayesian persuasion assumes that an information designer can condition signals on the entire state.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-66-persuasion-by-parts"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02845v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-66-persuasion-by-parts</id>
-    <updated>2026-11-02T09:46:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Classical Bayesian persuasion assumes that an information designer can condition signals on the entire state. We propose persuasion by parts. In this model, the receiver&amp;apos;s payoff from acting is $X = \sum_{i=1}^n X_i$ for independent coordinates $X_1,\ldots,X_n$ observed by separate sources.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02845v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Designing AI-Mediated Communication in Teams. AI assistants increasingly participate in work that requires employees to exchange information and coordinate decisions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-66-designing-ai-mediated-communication-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04686v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-66-designing-ai-mediated-communication-in</id>
+    <updated>2026-11-03T11:09:30+00:00</updated>
+    <summary type="html">&lt;p&gt;AI assistants increasingly participate in work that requires employees to exchange information and coordinate decisions. We study how a firm should design this communication when workers&amp;apos; interests conflict with each other&amp;apos;s and the firm&amp;apos;s. Two workers privately know local conditions and their preferred responses, while the assistant knows aggregate project conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04686v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Can Home Visits Re-Engage Chronically Absent Students? Evidence from the LEAP Program -- by Eric Brunner, Shangyue Jiang, Stephen Ross</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-68-can-home-visits-re-engage"/>
-    <link rel="related" href="https://www.nber.org/papers/w35961#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-68-can-home-visits-re-engage</id>
-    <updated>2026-11-03T12:27:21.552250693+00:00</updated>
-    <summary type="html">&lt;p&gt;Beginning in the summer of 2021, the state of Connecticut launched the Learner Engagement and Attendance Program (LEAP) where home visits by school personnel were conducted with students identified as chronically absent from Connecticut’s 15 most disadvantaged school districts. Home visits were designed to connect students and their families directly with teachers to foster strong connections. We use student-level data from 2021–22 through 2023-24 to estimate event studies of the effect of LEAP on student attendance, chronic absenteeism, disciplinary incidents, and student achievement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35961#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Unraveling the Cobweb of Global Imbalances: Drivers, Vulnerabilities and Adjustment Scenarios -- by Stefan Avdjiev, Kristin Forbes, Tsvetelina Nenova, Marjorie Santos</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-69-unraveling-the-cobweb-of-global"/>
-    <link rel="related" href="https://www.nber.org/papers/w35962#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-69-unraveling-the-cobweb-of-global</id>
-    <updated>2026-11-03T12:27:21.552250693+00:00</updated>
-    <summary type="html">&lt;p&gt;This paper analyses the evolution and drivers of the stock of global imbalances in order to assess associated vulnerabilities and potential adjustment scenarios. These imbalances have recently increased sharply, with a deterioration in the US net international investment position (NIIP) mirrored by NIIP improvements in most other major economies. We decompose these NIIP changes into their proximate drivers for a sample of 28 economies and find that financial factors (including valuation changes and investment income flows) are the primary drivers of global imbalances at both short and long horizons, while trade also plays a significant role (especially at long horizons).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35962#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Affirmative Action, Faculty Productivity and Caste Interactions: Evidence from Engineering Colleges in India -- by Robert W. Fairlie, Saurabh Khanna, Prashant Loyalka, Gagandeep S. Sachdeva</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-70-affirmative-action-faculty-productivity-and"/>
-    <link rel="related" href="https://www.nber.org/papers/w35963#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-70-affirmative-action-faculty-productivity-and</id>
-    <updated>2026-11-03T12:27:21.552250693+00:00</updated>
-    <summary type="html">&lt;p&gt;Affirmative action programs are often criticized because of concerns that they result in lower worker productivity and efficiency losses. We study the relative productivity of workers benefiting from an aggressive affirmative action policy in a setting where hiring constraints are mandated upon employers and are typically likely to bind. In India, colleges are required to reserve approximately 50 percent of faculty hires for individuals from disadvantaged caste and social class groups.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35963#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Saving for the Machines -- by Jesús Fernández-Villaverde</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-71-saving-for-the-machines-by"/>
-    <link rel="related" href="https://www.nber.org/papers/w35964#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-71-saving-for-the-machines-by</id>
-    <updated>2026-11-03T12:27:21.552250693+00:00</updated>
-    <summary type="html">&lt;p&gt;When machines can perform a growing share of tasks, growth depends on two margins: how the task structure affects the returns to accumulating machines, and how strongly capital accumulation responds to those returns. I argue that, in a standard task model, capital supply governs the size of the growth boom associated with automation, while the task structure sets the duration of this growth boom and the evolution of wages. I document how the same technology path that generates 11.7% annual growth when households choose their saving rate optimally delivers only 2.2% when the saving rate is fixed at the calibrated U.S.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35964#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Income Inequality and Intergenerational Mobility in Russia: Trends, Sources, and Measurement -- by Kristina Butaeva, Steven N. Durlauf, Dmitry Rudenko</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-72-income-inequality-and-intergenerational-mobility"/>
-    <link rel="related" href="https://www.nber.org/papers/w35965#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-72-income-inequality-and-intergenerational-mobility</id>
-    <updated>2026-11-03T12:27:21.552250693+00:00</updated>
-    <summary type="html">&lt;p&gt;This chapter documents trends in income and inequality in Russia from the collapse of the Soviet Union through 2025, drawing on official statistics, the existing literature, and household survey microdata. It also reviews evidence on intergenerational mobility. While there is a consensus that inequality dramatically increased during the 1990s, its post-2000 trajectory is contested.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35965#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #consensus&lt;/p&gt;</summary>
+    <title>PanelGP: A Probabilistic Factor Model for Asset-Return Panels</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-67-panelgp-a-probabilistic-factor-model"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04040v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-67-panelgp-a-probabilistic-factor-model</id>
+    <updated>2026-11-02T22:35:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop PanelGP, a conditional factor model for large panels of stock returns in which firm characteristics determine the factor loadings and economic conditions determine the expected factors. Both relations are estimated nonparametrically with Gaussian-process priors. The kernel choice nests instrumented principal component analysis (IPCA) as well as smooth nonlinear maps.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04040v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

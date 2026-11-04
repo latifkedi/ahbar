@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-multimodal.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-multimodal.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <entry>
+    <title>Averaging Collusion Breaks Traceability in Personalized Neural Audio Watermarking</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-59-averaging-collusion-breaks-traceability-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04400v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-59-averaging-collusion-breaks-traceability-in</id>
+    <updated>2026-11-03T06:39:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Personalized neural audio watermarking systems embed user-specific payloads into audio to trace the user associated with a leaked or misused copy. Existing evaluations mainly assume access to a single personalized copy, but real-world distribution may expose multiple copies of the same recording. We find that simple sample-wise averaging breaks traceability: averaging only two copies produces tracing-failure rates of 87.7-99.7% across the five systems while largely preserving audio quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04400v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #multimodal #neuroscience&lt;/p&gt;</summary>
+  </entry>
 </feed>

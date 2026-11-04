@@ -5,21 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>Podcasts about the Topic: Part II. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-30-podcasts-about-the-topic-part"/>
-    <link rel="related" href="https://scottaaronson.blog/?p=10239"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-30-podcasts-about-the-topic-part</id>
-    <updated>2026-10-26T22:03:37+00:00</updated>
-    <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10239&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms #quantum-physics&lt;/p&gt;</summary>
+    <title>Quantum Advantage has Few Complexity Implications. We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-30-quantum-advantage-has-few-complexity"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05303v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-30-quantum-advantage-has-few-complexity</id>
+    <updated>2026-11-03T18:14:46+00:00</updated>
+    <summary type="html">&lt;p&gt;We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation. We show that both of these objects can coexist with the easiness of nondeterministic computation. That is, we give evidence that proofs of quantumness can exist when $\mathsf{P} = \mathsf{NP}$ and that (quantum verifier) oblivious state preparation can exist when $\mathsf{BQP} = \mathsf{QCMA}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05303v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Optimizer&apos;s Windfall: Bounding Hindsight Gain under Random Restrictions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-35-the-optimizer-s-windfall-bounding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03468v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-35-the-optimizer-s-windfall-bounding</id>
-    <updated>2026-11-02T17:11:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03468v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-28-podcasts-about-the-topic-part"/>
+    <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-28-podcasts-about-the-topic-part</id>
+    <updated>2026-10-31T21:40:33+00:00</updated>
+    <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Beyond Multi-Index Models: Learning Intersections of Degree-2 PTFs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-22-beyond-multi-index-models-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05114v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-22-beyond-multi-index-models-learning</id>
+    <updated>2026-11-03T16:05:15+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an algorithm for PAC learning intersections of $k$ degree-2 polynomial threshold functions over $R^d$ under a Gaussian distribution. Our algorithm achieves classification error $ε$ using $d^{O(k)}2^{O_k(\log^3(1/ε))}$ time and samples, improving over the $d^{O(k^2/ε^2)}$ running time of the polynomial regression approach. To our knowledge, our result is the first to obtain a dimension exponent independent of the accuracy parameter, even for $k=2$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05114v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Breaking the quantum barriers for Graph Collision</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-33-breaking-the-quantum-barriers-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05356v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-33-breaking-the-quantum-barriers-for</id>
+    <updated>2026-11-03T18:53:06+00:00</updated>
+    <summary type="html">&lt;p&gt;In the graph collision problem, the task is to decide whether a known graph on $n$ vertices contains an edge with both endpoints marked, given query access to the input bits specifying the marked vertices. We first refute the conjectured $Ω(n^{2/3})$ query lower bound with a bounded error quantum algorithm using $\widetilde O(n^{92/139})$ queries. We then refine this approach to obtain a $\widetilde O(n^{11/17})$ query algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05356v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Quantum Query Lower Bounds from Classical Moment Matching. We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-34-quantum-query-lower-bounds-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05117v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-34-quantum-query-lower-bounds-from</id>
+    <updated>2026-11-03T16:07:27+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing. For two random variables $X_0$ and $X_1$ whose moments match up to the first $r-1$ moments, the classical moment matching method says that no classical algorithm can reliably distinguish between input instances of length $N$ constructed from $X_0$ and $X_1$, respectively, unless it performs at least $Ω(N^{1-1/r})$ queries. While this method has been widely explored since its inception in the seminal work of Raskhodnikova, Ron, Shpilka, and Smith (STOC 2007) to prove lower bounds for symmetric properties, it has remained an open question whether a quantum analogue of it could be proved.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05117v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Best-of-Many-Worlds MMS Allocation for Chores with Sublinear Disposals</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-90-best-of-many-worlds-mms"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04884v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-90-best-of-many-worlds-mms</id>
+    <updated>2026-11-03T13:32:43+00:00</updated>
+    <summary type="html">&lt;p&gt;We study randomized allocations (lotteries) of indivisible chores under additive costs and introduce the notion of MMS1, which requires each agent&amp;apos;s bundle to satisfy the maximin share (MMS) bound after the removal of at most one chore. Our main result establishes that every instance admits an ex-ante proportional lottery in whose support every allocation is MMS1 and all but $o(n)$ agents satisfy MMS. Consequently, every realized allocation can be made MMS by disposing of at most $o(n)$ chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04884v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

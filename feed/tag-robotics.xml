@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-03T12:27:21.191661024+00:00</updated>
+  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
   <entry>
-    <title>Democratizing Robot-Use Agents: A Unified Harness with Open Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-13-democratizing-robot-use-agents-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01560"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-13-democratizing-robot-use-agents-a</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Score of 31.39, surpassing the published GPT-6 Astra-RoboProbe result of 28.97 and many VLA/WAM baselines, and performs competitively on 19 real-world tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01560&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>KlaskTron: An Open-Source Platform for Physical Adversarial Multi-Agent RL</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-03-40-klasktron-an-open-source-platform"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03138v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-03-40-klasktron-an-open-source-platform</id>
-    <updated>2026-11-02T13:49:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Understanding mobility dynamics and the effects of urban transportation management policies requires examining how individual travel decisions, traffic conditions, and policy interventions influence one another over time. We present AgenticMobility, an open-source experimental platform for studying how mobility AI agents and other AI agents interact, adapt through repeated experience, and collectively shape mobility outcomes. Persistent agents retain identities and relevant states across rounds, with explicit interfaces defining information access, admissible actions, and decision schedules; linked records trace decisions, execution, and feedback.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03138v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #robotics #agents&lt;/p&gt;</summary>
+    <title>Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-10-route-anything-a-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05275"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-10-route-anything-a-study-of</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>
