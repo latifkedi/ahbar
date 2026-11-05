@@ -5,85 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
-  <entry>
-    <title>ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-16-toolspace-scaling-tool-centric-environment"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05036"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-16-toolspace-scaling-tool-centric-environment</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05036&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #databases #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The cryptography behind electronic voting (and why paper ballots are still essential)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-55-the-cryptography-behind-electronic-voting"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-55-the-cryptography-behind-electronic-voting</id>
-    <updated>2026-11-04T07:33:05+00:00</updated>
-    <summary type="html">&lt;p&gt;As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-38-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-38-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Supercritical level-set percolation on finite graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-20-supercritical-level-set-percolation-on"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05299v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-20-supercritical-level-set-percolation-on</id>
-    <updated>2026-11-03T18:12:14+00:00</updated>
-    <summary type="html">&lt;p&gt;We continue the study of bond percolation on finite graphs induced by the level-sets of the zero-average Gaussian free field on the associated metric graph. In our previous work Goswami and Pal (2026), we analyzed the critical and near-critical behavior of this model on uniform expanders, focusing on the volume of the largest cluster. In the present paper, we investigate the size of the second largest cluster in the supercritical regime --- the phase where one expects a unique giant component.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05299v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-56-your-cryptography-conspiracy-theory-is"/>
+    <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-56-your-cryptography-conspiracy-theory-is</id>
+    <updated>2026-11-04T14:58:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Two examples in amplituhedron tilings. We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-21-two-examples-in-amplituhedron-tilings"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05216v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-21-two-examples-in-amplituhedron-tilings</id>
-    <updated>2026-11-03T17:02:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture. The tiling uses an injective degree two cell.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05216v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
+    <title>Using topology to reveal all mutually unbiased bases in dimension six. Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-20-using-topology-to-reveal-all"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06917v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-20-using-topology-to-reveal-all</id>
+    <updated>2026-11-04T18:59:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others. In dimension six, triples of MUBs are known, but whether a fourth basis could exist remained unresolved for over three decades. OpenAI recently reported a proof that none exists.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06917v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Tuesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-40-security-updates-for-tuesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1105111/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-40-security-updates-for-tuesday</id>
-    <updated>2026-11-03T14:10:12+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), Debian (chromium, git-annex, incus, kernel, and strongswan), Fedora (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105111/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
+    <title>Conformal field theory from automorphic forms on a quantum group. We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-21-conformal-field-theory-from-automorphic"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06907v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-21-conformal-field-theory-from-automorphic</id>
+    <updated>2026-11-04T18:55:13+00:00</updated>
+    <summary type="html">&lt;p&gt;We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry. To this end, we introduce automorphic forms for the von Neumann algebraic quantum group $\mathrm{SL}^+_b(2,\mathbb{R})$. A quantum measure space is a von Neumann algebra equipped with a weight.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06907v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The full Kolakoski shift is topologically transitive</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-22-the-full-kolakoski-shift-is"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06878v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-22-the-full-kolakoski-shift-is</id>
+    <updated>2026-11-04T18:35:23+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove that the full Kolakoski shift---namely, the subshift of all smooth sequences over the alphabet $\{1,2\}$---is topologically transitive. Consequently, we demonstrate the existence of a smooth sequence whose factors are invariant under both reversal and bitwise complementation. As a further application, we prove the existence of arbitrarily long smooth words containing an equal number of occurrences of the symbols $1$ and $2$, providing evidence in support of Keane&amp;apos;s conjecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06878v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Matching Random Point Sets with Minimum Distortion. How well can two independent random samples from a metric measure space be matched while preserving pairwise distances?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-23-matching-random-point-sets-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06845v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-23-matching-random-point-sets-with</id>
+    <updated>2026-11-04T18:02:57+00:00</updated>
+    <summary type="html">&lt;p&gt;How well can two independent random samples from a metric measure space be matched while preserving pairwise distances? Concretely, given two independent copies, each of $n$ points sampled from the space, what is their typical metric distortion as finite $n$-point metric spaces? We prove that the space $[0,1]$ equipped with the uniform measure already exhibits a rich behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06845v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Finding full immersions is fixed-parameter tractable in labeled tour graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-35-finding-full-immersions-is-fixed"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06776v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-35-finding-full-immersions-is-fixed</id>
+    <updated>2026-11-04T16:52:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and &amp;quot;splitting off&amp;quot; both pairs, summing the labels within each pair.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06776v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-68-cosmosalpha-multi-relational-graph-search"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-65-cosmosalpha-multi-relational-graph-search"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-68-cosmosalpha-multi-relational-graph-search</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-65-cosmosalpha-multi-relational-graph-search</id>
     <updated>2026-11-03T09:22:52+00:00</updated>
     <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>HYphlow: bringing end-to-end flow to HyPhy selection analyses, from taxon reconciliation to trait-based foreground assignment</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-47-hyphlow-bringing-end-to-end"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-47-hyphlow-bringing-end-to-end</id>
-    <updated>2026-11-03T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Phylogenetic analyses of molecular evolution often require repeated manual preparation to reconcile taxa, annotate trees, execute models, and summarize results. These steps become increasingly time-consuming and difficult to standardize as the number of taxa, genes, and analytical hypotheses increases. We present HYphlow, an open-source graphical workflow developed in Python that integrates data preparation, trait-based foreground branch assignment, HyPhy execution, and structured result extraction within a single interface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>(R)Icy-DVRF: A Robust Distributed Verifiable Random Function Based on ROAST Signatures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-62-r-icy-dvrf-a-robust"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1378"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-62-r-icy-dvrf-a-robust</id>
-    <updated>2026-07-05T21:20:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Ensuring robustness and liveness in distributed verifiable random functions (DVRFs) allows the protocol to maintain correct operation and guarantee output generation, even in the presence of malicious actors attempting to disrupt the process, delay cryptographic shares, or remain unresponsive. Because existing DVRF protocols typically rely on synchronous or semi-synchronous network assumptions, simultaneously achieving these properties remains a challenge. To address this limitation, this paper enhances the FROST-based Icy-DVRF protocol to achieve both robustness and liveness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1378&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-63-a-proof-of-p-np"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/445"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-63-a-proof-of-p-np</id>
-    <updated>2025-03-08T18:06:39+00:00</updated>
-    <summary type="html">&lt;p&gt;P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/445&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>How Rich is the Rich-Club? Super Rich-Club Organization in Complex Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-82-how-rich-is-the-rich"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06756v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-82-how-rich-is-the-rich</id>
+    <updated>2026-11-04T16:34:56+00:00</updated>
+    <summary type="html">&lt;p&gt;The rich-club coefficient is used in complex networks to quantify the tendency of progressively higher-degree nodes to be more densely connected than expected by chance. However, it does not capture whether high degree nodes towards the core are actually more interconnected than the original network. Here, we jointly analyze the rich-club coefficient and an enrichment coefficient, which quantifies whether the internal average degree of progressively higher-degree subgraphs is greater than that of the original network, despite the decreasing number of nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06756v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

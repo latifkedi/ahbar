@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-networking.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-networking.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <entry>
+    <title>Clear Human Web: Where a Person Vouches for Every Client. The web cannot tell whether a request comes from a person or from a program.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-42-clear-human-web-where-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06286v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-42-clear-human-web-where-a</id>
+    <updated>2026-11-04T10:24:34+00:00</updated>
+    <summary type="html">&lt;p&gt;The web cannot tell whether a request comes from a person or from a program. Sites have checked the network address and puzzles in its place, and both have given way: automated traffic exceeds human traffic, and puzzles are solved for pay and by agents. This paper proposes the Clear Human Web, the part of the public web that sites open only to clients a person vouches for.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06286v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Explainable Anomaly Detection in 5G Networks through Continuous Time Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-43-explainable-anomaly-detection-in-5g"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06225v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-43-explainable-anomaly-detection-in-5g</id>
+    <updated>2026-11-04T09:34:47+00:00</updated>
+    <summary type="html">&lt;p&gt;5G networks increasingly resemble distributed systems in their design. It then becomes crucial to move beyond traditional network-based detection methods and to explore alternative approaches. In this work, we propose a formalization of 5G network exchanges as a dynamic graph, on which we apply techniques from the field of graph-based learning to detect anomalies effectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06225v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
 </feed>

@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-databases.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-databases.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-16-toolspace-scaling-tool-centric-environment"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05036"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-16-toolspace-scaling-tool-centric-environment</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05036&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #databases #combinatorics&lt;/p&gt;</summary>
+    <title>RPI-Zero: Zero-shot RNA-Protein Interaction Prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-47-rpi-zero-zero-shot-rna"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.764286v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-47-rpi-zero-zero-shot-rna</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;In vivo protein-RNA interactions are mapped almost exclusively by CLIP-seq, which profiles one protein in one cell type per experiment and needs a specific antibody; only about 10% of the roughly 2,000 human RNA-binding proteins have been assayed, and the Protein Data Bank holds around 5,000 protein-RNA complexes, a quarter of them ribosomes. Sequence-based prediction could extend coverage to unprofiled, newly discovered, or designed molecules, but existing predictors are not built for that case. One family trains a separate model per protein and cannot move beyond proteins with CLIP data; the other scores pairs but targets a single RNA class.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.764286v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-41-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-45-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-41-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-45-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-84-limited-knowledge-exchange-across-biological"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06596v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-84-limited-knowledge-exchange-across-biological</id>
+    <updated>2026-11-04T14:50:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do not, raising the question of how much knowledge is exchanged between subfields. We address this question by developing a bibliometric pipeline that combines a database keyword search with coarse- and fine-grained classification by a large language model (LLM).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06596v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #databases #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

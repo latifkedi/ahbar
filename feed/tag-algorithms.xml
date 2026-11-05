@@ -5,53 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>Quantum Advantage has Few Complexity Implications. We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-30-quantum-advantage-has-few-complexity"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05303v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-30-quantum-advantage-has-few-complexity</id>
-    <updated>2026-11-03T18:14:46+00:00</updated>
-    <summary type="html">&lt;p&gt;We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation. We show that both of these objects can coexist with the easiness of nondeterministic computation. That is, we give evidence that proofs of quantumness can exist when $\mathsf{P} = \mathsf{NP}$ and that (quantum verifier) oblivious state preparation can exist when $\mathsf{BQP} = \mathsf{QCMA}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05303v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #cryptography&lt;/p&gt;</summary>
+    <title>Monadically Dependent Graph Classes Have Almost Bounded Merge-Width</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-19-monadically-dependent-graph-classes-have"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06804v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-19-monadically-dependent-graph-classes-have</id>
+    <updated>2026-11-04T17:20:29+00:00</updated>
+    <summary type="html">&lt;p&gt;A graph class $\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC &amp;apos;25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06804v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-28-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-28-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-28-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-28-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Beyond Multi-Index Models: Learning Intersections of Degree-2 PTFs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-22-beyond-multi-index-models-learning"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05114v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-22-beyond-multi-index-models-learning</id>
-    <updated>2026-11-03T16:05:15+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an algorithm for PAC learning intersections of $k$ degree-2 polynomial threshold functions over $R^d$ under a Gaussian distribution. Our algorithm achieves classification error $ε$ using $d^{O(k)}2^{O_k(\log^3(1/ε))}$ time and samples, improving over the $d^{O(k^2/ε^2)}$ running time of the polynomial regression approach. To our knowledge, our result is the first to obtain a dimension exponent independent of the accuracy parameter, even for $k=2$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05114v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #algorithms&lt;/p&gt;</summary>
+    <title>Finding full immersions is fixed-parameter tractable in labeled tour graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-35-finding-full-immersions-is-fixed"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06776v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-35-finding-full-immersions-is-fixed</id>
+    <updated>2026-11-04T16:52:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and &amp;quot;splitting off&amp;quot; both pairs, summing the labels within each pair.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06776v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Breaking the quantum barriers for Graph Collision</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-33-breaking-the-quantum-barriers-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05356v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-33-breaking-the-quantum-barriers-for</id>
-    <updated>2026-11-03T18:53:06+00:00</updated>
-    <summary type="html">&lt;p&gt;In the graph collision problem, the task is to decide whether a known graph on $n$ vertices contains an edge with both endpoints marked, given query access to the input bits specifying the marked vertices. We first refute the conjectured $Ω(n^{2/3})$ query lower bound with a bounded error quantum algorithm using $\widetilde O(n^{92/139})$ queries. We then refine this approach to obtain a $\widetilde O(n^{11/17})$ query algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05356v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+    <title>A Quantum Lower Bound for Triangle Finding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-36-a-quantum-lower-bound-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06751v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-36-a-quantum-lower-bound-for</id>
+    <updated>2026-11-04T16:27:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Triangle finding is a fundamental problem in graph theory that has played a central role in the development of quantum algorithmic techniques. For $N$-vertex graphs given by their adjacency matrices, a long line of work has improved the quantum query upper bound from $O(N^{3/2})$ to $O(N^{5/4})$. However, the best known lower bound has remained the elementary $Ω(N)$ bound obtained from unstructured search.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06751v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Quantum Query Lower Bounds from Classical Moment Matching. We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-34-quantum-query-lower-bounds-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05117v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-34-quantum-query-lower-bounds-from</id>
-    <updated>2026-11-03T16:07:27+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing. For two random variables $X_0$ and $X_1$ whose moments match up to the first $r-1$ moments, the classical moment matching method says that no classical algorithm can reliably distinguish between input instances of length $N$ constructed from $X_0$ and $X_1$, respectively, unless it performs at least $Ω(N^{1-1/r})$ queries. While this method has been widely explored since its inception in the seminal work of Raskhodnikova, Ron, Shpilka, and Smith (STOC 2007) to prove lower bounds for symmetric properties, it has remained an open question whether a quantum analogue of it could be proved.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05117v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Best-of-Many-Worlds MMS Allocation for Chores with Sublinear Disposals</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-90-best-of-many-worlds-mms"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04884v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-90-best-of-many-worlds-mms</id>
-    <updated>2026-11-03T13:32:43+00:00</updated>
-    <summary type="html">&lt;p&gt;We study randomized allocations (lotteries) of indivisible chores under additive costs and introduce the notion of MMS1, which requires each agent&amp;apos;s bundle to satisfy the maximin share (MMS) bound after the removal of at most one chore. Our main result establishes that every instance admits an ex-ante proportional lottery in whose support every allocation is MMS1 and all but $o(n)$ agents satisfy MMS. Consequently, every realized allocation can be made MMS by disposing of at most $o(n)$ chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04884v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+    <title>Competitive Equilibrium for Linear Chores is CLS-complete. The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-86-competitive-equilibrium-for-linear-chores"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06589v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-86-competitive-equilibrium-for-linear-chores</id>
+    <updated>2026-11-04T14:43:37+00:00</updated>
+    <summary type="html">&lt;p&gt;The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources. We consider the fundamental question of computing a CE in the most basic Fisher market model where agents have linear preferences. While it is known that we can compute a CE in strongly polynomial time with linear goods, there is no known polynomial-time algorithm for CE with linear chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06589v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

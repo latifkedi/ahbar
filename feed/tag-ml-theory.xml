@@ -5,37 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
-  <entry>
-    <title>PanelGP: A Probabilistic Factor Model for Asset-Return Panels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-67-panelgp-a-probabilistic-factor-model"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04040v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-67-panelgp-a-probabilistic-factor-model</id>
-    <updated>2026-11-02T22:35:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We develop PanelGP, a conditional factor model for large panels of stock returns in which firm characteristics determine the factor loadings and economic conditions determine the expected factors. Both relations are estimated nonparametrically with Gaussian-process priors. The kernel choice nests instrumented principal component analysis (IPCA) as well as smooth nonlinear maps.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04040v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Beyond Multi-Index Models: Learning Intersections of Degree-2 PTFs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-22-beyond-multi-index-models-learning"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05114v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-22-beyond-multi-index-models-learning</id>
-    <updated>2026-11-03T16:05:15+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an algorithm for PAC learning intersections of $k$ degree-2 polynomial threshold functions over $R^d$ under a Gaussian distribution. Our algorithm achieves classification error $ε$ using $d^{O(k)}2^{O_k(\log^3(1/ε))}$ time and samples, improving over the $d^{O(k^2/ε^2)}$ running time of the polynomial regression approach. To our knowledge, our result is the first to obtain a dimension exponent independent of the accuracy parameter, even for $k=2$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05114v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #ml-theory #algorithms&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
     <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-68-cosmosalpha-multi-relational-graph-search"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-65-cosmosalpha-multi-relational-graph-search"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-68-cosmosalpha-multi-relational-graph-search</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-65-cosmosalpha-multi-relational-graph-search</id>
     <updated>2026-11-03T09:22:52+00:00</updated>
     <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Modelling lock-in of AI adoption through skill erosion. Generative AI can improve immediate performance but may erode the human skills required for future work.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-89-modelling-lock-in-of-ai"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04886v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-89-modelling-lock-in-of-ai</id>
-    <updated>2026-11-03T13:33:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI can improve immediate performance but may erode the human skills required for future work. We study a model in which individuals tend to imitate successful peers, while their independent skills grow with practice and erode with reliance on AI. Because each agent&amp;apos;s skill reflects their history, non-users and AI users develop different skill distributions, which we derive exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04886v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+    <title>Catastrophic Overfitting is Weight Drift the Training Loss Cannot See</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-59-catastrophic-overfitting-is-weight-drift"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06082v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-59-catastrophic-overfitting-is-weight-drift</id>
+    <updated>2026-11-04T07:23:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Fast adversarial training (FAT) makes robust training affordable by replacing the multi-step attack with a single-step one, but it suffers from catastrophic overfitting (CO): partway through training, robustness to multi-step attacks collapses to near zero while the single-step attack used for training keeps being repelled. We show that CO is a quiet escape of the weights. Across the event the network&amp;apos;s clean behavior quietly improves, and moving from the weights just before CO to those just after it changes the training objective only marginally while destroying most of the robustness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06082v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

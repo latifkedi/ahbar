@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-crypto.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-crypto.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
-  <entry>
-    <title>The cryptography behind electronic voting (and why paper ballots are still essential)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-55-the-cryptography-behind-electronic-voting"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-55-the-cryptography-behind-electronic-voting</id>
-    <updated>2026-11-04T07:33:05+00:00</updated>
-    <summary type="html">&lt;p&gt;As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and document signing have moved away from paper-based legacy systems and become fully electronic.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-56-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-56-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Gaussian Difference Dynamics: Breaking the $2^{n/2}$ Barrier for the Shortest Vector Problem and Discrete Gaussian Sampling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-57-gaussian-difference-dynamics-breaking-the"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2690"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-57-gaussian-difference-dynamics-breaking-the</id>
-    <updated>2026-10-30T04:09:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We give classical randomized algorithms in a word-RAM model that break the $2^{n/2}$ barrier for both discrete Gaussian sampling (DGS) and the Shortest Vector Problem (SVP). For every fixed $\alpha&amp;gt;1$, shifted DGS on arbitrary lattices at width $\sigma\ge\alpha\eta_{1/2}(L)$ takes $$ (3/2)^{n/2+o(n)}\text{ time} \qquad\text{and}\qquad (4/3)^{n/2+o(n)}\text{ space}. $$ These bounds match the Becker--Ducas--Gama--Laarhoven (BDGL) heuristic sieving exponents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2690&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
+    <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-56-your-cryptography-conspiracy-theory-is"/>
+    <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-56-your-cryptography-conspiracy-theory-is</id>
+    <updated>2026-11-04T14:58:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A history of backdoors (2015). Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-57-a-history-of-backdoors-2015"/>
+    <link rel="related" href="https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-57-a-history-of-backdoors-2015</id>
+    <updated>2026-11-05T01:53:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-58-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-58-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-58-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-58-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Averaging Collusion Breaks Traceability in Personalized Neural Audio Watermarking</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-59-averaging-collusion-breaks-traceability-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04400v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-59-averaging-collusion-breaks-traceability-in</id>
-    <updated>2026-11-03T06:39:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Personalized neural audio watermarking systems embed user-specific payloads into audio to trace the user associated with a leaked or misused copy. Existing evaluations mainly assume access to a single personalized copy, but real-world distribution may expose multiple copies of the same recording. We find that simple sample-wise averaging breaks traceability: averaging only two copies produces tracing-failure rates of 87.7-99.7% across the five systems while largely preserving audio quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04400v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #multimodal #neuroscience&lt;/p&gt;</summary>
+    <title>Catastrophic Overfitting is Weight Drift the Training Loss Cannot See</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-59-catastrophic-overfitting-is-weight-drift"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06082v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-59-catastrophic-overfitting-is-weight-drift</id>
+    <updated>2026-11-04T07:23:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Fast adversarial training (FAT) makes robust training affordable by replacing the multi-step attack with a single-step one, but it suffers from catastrophic overfitting (CO): partway through training, robustness to multi-step attacks collapses to near zero while the single-step attack used for training keeps being repelled. We show that CO is a quiet escape of the weights. Across the event the network&amp;apos;s clean behavior quietly improves, and moving from the weights just before CO to those just after it changes the training objective only marginally while destroying most of the robustness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06082v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Hidden Curves and Short Duals: Cubic Jets, Dual Leaks, and the Limits of Masked-Code Encryption</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-60-hidden-curves-and-short-duals"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2710"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-60-hidden-curves-and-short-duals</id>
-    <updated>2026-10-31T15:22:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Masked-code encryption hides a decodable code behind a transformation meant to make it look random. We study the two masks proposed as compact alternatives to Goppa codes---Wang&amp;apos;s RLCE and the $(U\,|\,U{+}V)$ construction of UVW-KEM---over the decodable hidden codes they have been or could be applied to, and find that, among the families examined, none yields a compact trapdoor. Over Reed--Solomon and algebraic-geometry codes the mask hides a \emph{curve}, and curves are not hidden from jets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2710&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Rotom: A Microcontroller-Oriented Tweakable Block Cipher Using Modular Multiplication (Full Version)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-60-rotom-a-microcontroller-oriented-tweakable"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2693"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-60-rotom-a-microcontroller-oriented-tweakable</id>
+    <updated>2026-10-30T09:22:50+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose Rotom, a family of 128-bit tweakable block ciphers designed for efficient software implementation on 32-bit microcontrollers. The central design idea is to use modular multiplication as a compact and software-efficient source of strong nonlinearity. Rotom instantiates this idea with a fixed 16-bit S-box built from odd constant multiplication modulo $2^{16}$ interleaved with lightweight linear maps, and combines it with a software-friendly recursive linear layer over four 32-bit words, a compact tweakey schedule, and modular-addition boundary key mixing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2693&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Provenance Proofs: Linkable Zero-Knowledge Derivation Relations for Hierarchical Deterministic Wallets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-61-provenance-proofs-linkable-zero-knowledge"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2204"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-61-provenance-proofs-linkable-zero-knowledge</id>
-    <updated>2026-09-24T16:45:22+00:00</updated>
-    <summary type="html">&lt;p&gt;ZKPoSP proves that a public key or address was honestly derived from a hidden wallet seed, without revealing the seed or the private derivation state. This paper studies relationships among several derived values: whether public keys or addresses, possibly on different curves and different blockchains, share a hidden origin, which is the seed or an anchor of the wallet, and who else can recognize this relation. We give a model for such provenance proofs, with derivation proofs, which carry a link value, and provenance proofs, which show that several derivation statements share an origin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2204&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Practical Optimal Bucket Sets with Power-of-Two Radices for LFG-Based MSM Algorithms</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-61-practical-optimal-bucket-sets-with"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2750"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-61-practical-optimal-bucket-sets-with</id>
+    <updated>2026-11-03T18:49:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Fixed point multi-scalar multiplication (MSM) is a major computational component of pairing-based SNARK proof generation. The Luo--Fu--Gong (LFG) framework is a variant of Pippenger&amp;apos;s bucket method that uses a multiplier set $M$ and precomputed point multiples to reduce the number of buckets and online point additions. For radix $q$ and a positive multiplier set $M$, covering all digit residues requires a bucket set of size at least $q/(2|M|)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2750&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>(R)Icy-DVRF: A Robust Distributed Verifiable Random Function Based on ROAST Signatures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-62-r-icy-dvrf-a-robust"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1378"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-62-r-icy-dvrf-a-robust</id>
-    <updated>2026-07-05T21:20:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Ensuring robustness and liveness in distributed verifiable random functions (DVRFs) allows the protocol to maintain correct operation and guarantee output generation, even in the presence of malicious actors attempting to disrupt the process, delay cryptographic shares, or remain unresponsive. Because existing DVRF protocols typically rely on synchronous or semi-synchronous network assumptions, simultaneously achieving these properties remains a challenge. To address this limitation, this paper enhances the FROST-based Icy-DVRF protocol to achieve both robustness and liveness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1378&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #combinatorics&lt;/p&gt;</summary>
+    <title>LAMP: Linear Verification of Matrix Multiplication via Proximity Testing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-62-lamp-linear-verification-of-matrix"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1571"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-62-lamp-linear-verification-of-matrix</id>
+    <updated>2026-07-31T10:02:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization of a $k \times k$ product requires $\mathcal{O}(k^3)$ constraints. Freivalds&amp;apos; randomized check reduces the algebraic computation to vector-matrix products, but proving those products inside a SNARK still costs $\mathcal{O}(k^2)$ constraints. We present LAMP, a matrix-multiplication checking protocol that combines Freivalds&amp;apos; randomized check with proximity testing over linear error-correcting codes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1571&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-63-a-proof-of-p-np"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/445"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-63-a-proof-of-p-np</id>
-    <updated>2025-03-08T18:06:39+00:00</updated>
-    <summary type="html">&lt;p&gt;P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/445&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Bounded Information: PAC Certification of Multivariate Side-Channel Traces. Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-63-bounded-information-pac-certification-of"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1990"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-63-bounded-information-pac-certification-of</id>
+    <updated>2026-09-12T10:16:29+00:00</updated>
+    <summary type="html">&lt;p&gt;Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage. Existing information-theoretic estimators, such as perceived information (PI), hypothetical information (HI), and nonparametric mutual information (MI), aim to quantify distributional leakage, but they become unstable in high-dimensional traces and do not provide a finite-sample certificate of the best attacker. We introduce \emph{Bounded Information} (BI), a probably approximately correct (PAC)-style finite-sample certification method that upper-bounds the exact-recovery success of a fixed attacker scope on unseen traces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1990&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

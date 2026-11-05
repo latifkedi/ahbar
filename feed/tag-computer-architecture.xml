@@ -5,21 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-37-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-37-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DynaMite: Dynamic Measurement Scheduling To Accelerate Fault-Tolerant Quantum Programs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-32-dynamite-dynamic-measurement-scheduling-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05233v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-32-dynamite-dynamic-measurement-scheduling-to</id>
-    <updated>2026-11-03T17:18:12+00:00</updated>
-    <summary type="html">&lt;p&gt;Fault-tolerant quantum computers run millions of logical cycles to perform quantum error correction (QEC). As logical operations span entire logical cycles, the logical cycle time (LCT) dictates program runtime. Qubit measurements, critical to extract parity information for QEC, are the slowest operations and account for 43-86% of LCT.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05233v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #infosec&lt;/p&gt;</summary>
+    <title>PIMROP: A Feasibility Study of Return-Oriented Programming on Commercial Processing-in-Memory Architectures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-40-pimrop-a-feasibility-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06036v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-40-pimrop-a-feasibility-study-of</id>
+    <updated>2026-11-04T06:41:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Processing-in-Memory places small programmable cores on the memory device, where they execute beside the DRAM banks and beyond the control-flow defenses that protect host programs. The security of this in-memory code is an attack surface that remains largely unstudied. We present PIMROP, to our knowledge the first demonstrated code-reuse attack on a commercial Processing in-Memory ISA.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06036v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #compilers&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Clear Human Web: Where a Person Vouches for Every Client. The web cannot tell whether a request comes from a person or from a program.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-42-clear-human-web-where-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06286v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-42-clear-human-web-where-a</id>
+    <updated>2026-11-04T10:24:34+00:00</updated>
+    <summary type="html">&lt;p&gt;The web cannot tell whether a request comes from a person or from a program. Sites have checked the network address and puzzles in its place, and both have given way: automated traffic exceeds human traffic, and puzzles are solved for pay and by agents. This paper proposes the Clear Human Web, the part of the public web that sites open only to clients a person vouches for.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06286v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Explainable Anomaly Detection in 5G Networks through Continuous Time Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-43-explainable-anomaly-detection-in-5g"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06225v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-43-explainable-anomaly-detection-in-5g</id>
+    <updated>2026-11-04T09:34:47+00:00</updated>
+    <summary type="html">&lt;p&gt;5G networks increasingly resemble distributed systems in their design. It then becomes crucial to move beyond traditional network-based detection methods and to explore alternative approaches. In this work, we propose a formalization of 5G network exchanges as a dynamic graph, on which we apply techniques from the field of graph-based learning to detect anomalies effectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06225v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Enforcing Accountable Disclosure in Confidential AI</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-44-enforcing-accountable-disclosure-in-confidential"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05971v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-44-enforcing-accountable-disclosure-in-confidential</id>
+    <updated>2026-11-04T05:05:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Advances in CPU and GPU confidential computing enable confidential AI, allowing LLMs to process user prompts without exposing them to service providers or infrastructure operators. However, AI agents often need to send prompt-derived information to external services, and providers may also require limited disclosure for safety monitoring and failure diagnosis. We propose CORDE, a system for confidential virtual machines (CVMs) designed to satisfy the principle of Confine or Declare: user-derived data is confined by default, but when necessary, it may leave the CVM only after being &amp;quot;declared.&amp;quot; To &amp;quot;declare&amp;quot; data is to record its exact contents, recipient, and stated reason in a user-accessible, tamper-evident declaration log.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05971v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

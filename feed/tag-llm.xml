@@ -5,77 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-llm.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-llm.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-10-route-anything-a-study-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05275"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-10-route-anything-a-study-of</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental question: how can an AI system dynamically select and coordinate the most capable candidate for each task while balancing performance and computational cost?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>From Pixels to Actions - Towards Native Vision-Language-Action Policies</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-11-from-pixels-to-actions-towards"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06918"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-11-from-pixels-to-actions-towards</id>
+    <updated>2026-11-04T13:59:58.000Z</updated>
+    <summary type="html">&lt;p&gt;Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06918&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-11-dreamx-video-diffusion-model-is"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05377"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-11-dreamx-video-diffusion-model-is</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05377&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Turns Matter: Advancing Streaming Video RL via Turn-Level Credit. Streaming video understanding requires models to repeatedly decide whether to respond or continue observing.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-10-turns-matter-advancing-streaming-video"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06728"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-10-turns-matter-advancing-streaming-video</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06728&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-12-words-caught-in-the-heart"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.00617"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-12-words-caught-in-the-heart</id>
+    <title>FrontierPhysics: Evaluating Agents for End-to-End Physics Research. AI agents are playing an increasingly important role in physics research.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-12-frontierphysics-evaluating-agents-for-end"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06910"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-12-frontierphysics-evaluating-agents-for-end</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06910&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-13-what-does-multi-turn-reinforcement"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06483"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-13-what-does-multi-turn-reinforcement</id>
+    <updated>2026-11-04T08:24:54.000Z</updated>
+    <summary type="html">&lt;p&gt;While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step decision quality; rather, its strength concentrates in error recovery and long-horizon resilience.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06483&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>StreamDuo: A Live Commentator and a Research Agent for Unseen Games. Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-14-streamduo-a-live-commentator-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.01120"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-14-streamduo-a-live-commentator-and</id>
     <updated>2026-10-30T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client&amp;apos;s difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy client simulation framework that models how psychological experience becomes situated, individual expression.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.00617&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01120&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Think Less, Locally: Local Preference Learning for Reasoning Compression</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-13-think-less-locally-local-preference"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04814"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-13-think-less-locally-local-preference</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We propose LoCo, a local preference learning method for reasoning compression.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04814&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-15-emoreward-self-evolving-reward-calibration"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06518"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-15-emoreward-self-evolving-reward-calibration</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent and can invite reward hacking, while RLHF is difficult to scale and subject to individual aesthetic differences that complicate the calibration of facial, body motion, and chromatic cues across narrative contexts. We introduce EmoReward, a new self-evolving training mechanism that distills evidence reliability from reward traces collected during an actual training run to adaptively guide multi-reward weight allocation in subsequent training by determining which emotional evidence to trust and how much to weight it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06518&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-14-yanami-a-large-scale-multimodal"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05280"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-14-yanami-a-large-scale-multimodal</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05280&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-17-introducing-gemini-3-8-flash"/>
+    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-17-introducing-gemini-3-8-flash</id>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Axion 1.0: Open Agent Foundation Models, Simplified</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-15-axion-1-0-open-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03233"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-15-axion-1-0-open-agent</id>
-    <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesize challenging problems and adversarially strengthen them based on the base model&amp;apos;s own successful solution strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03233&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-16-toolspace-scaling-tool-centric-environment"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05036"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-16-toolspace-scaling-tool-centric-environment</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05036&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #databases #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Factorized MLLM Embeddings for Composed Image Retrieval. Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-17-factorized-mllm-embeddings-for-composed"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05193"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-17-factorized-mllm-embeddings-for-composed</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM&amp;apos;s compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without explicitly resolving the intended visual modifications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05193&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #rag&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>EvoTeam: Multi-Agent Collaboration via Evolving Teams. LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-18-evoteam-multi-agent-collaboration-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39813"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-18-evoteam-multi-agent-collaboration-via</id>
-    <updated>2026-10-29T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;LLM-based multi-agent systems (MAS) rely on collaboration among specialized agents to solve complex tasks. Existing methods improve MAS by refining the prompts, skills, and execution strategies of individual agents based on task feedback. However, improving individual agents does not necessarily lead to better team collaboration.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39813&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Solv3R: 3D Looped Transformer as a Multi-view Solver. Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-18-solv3r-3d-looped-transformer-as"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02857"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-18-solv3r-3d-looped-transformer-as</id>
+    <updated>2026-11-02T04:59:45.000Z</updated>
+    <summary type="html">&lt;p&gt;Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate. This allows maps to easily expand without recomputing already computed views, or geometry estimates to improve as more observations are provided. Most geometric foundation models, however, predict entire geometry in a single forward pass or update a recurrent state as frames arrive sequentially, making this expansion and refinement non-trivial.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02857&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
 </feed>

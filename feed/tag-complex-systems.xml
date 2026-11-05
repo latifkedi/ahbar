@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>Almost-MMS allocations with small agent redundancy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-82-almost-mms-allocations-with-small"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05360v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-82-almost-mms-allocations-with-small</id>
-    <updated>2026-11-03T18:54:34+00:00</updated>
-    <summary type="html">&lt;p&gt;For a fixed $ε\ge 0$, let $ρ_{ε, n}$ be the maximum value of $ρ_n$ such that, in every allocation instance with $m$ indivisible goods and $(1 + ε)n$ agents, there is a subset of $n$ agents with the following property. The allocation instance restricted to only this subset of $n$ agents has an allocation that gives each agent at least $ρ_n$-fraction of her $n$-maximin share (MMS). When $ε&amp;gt; 0$ we refer to $εn$ as the {\em agent redundancy}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05360v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>How Rich is the Rich-Club? Super Rich-Club Organization in Complex Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-82-how-rich-is-the-rich"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06756v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-82-how-rich-is-the-rich</id>
+    <updated>2026-11-04T16:34:56+00:00</updated>
+    <summary type="html">&lt;p&gt;The rich-club coefficient is used in complex networks to quantify the tendency of progressively higher-degree nodes to be more densely connected than expected by chance. However, it does not capture whether high degree nodes towards the core are actually more interconnected than the original network. Here, we jointly analyze the rich-club coefficient and an enrichment coefficient, which quantifies whether the internal average degree of progressively higher-degree subgraphs is greater than that of the original network, despite the decreasing number of nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06756v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Computational Aspects of Distortion</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-83-computational-aspects-of-distortion"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05257v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-83-computational-aspects-of-distortion</id>
-    <updated>2026-11-03T17:44:31+00:00</updated>
-    <summary type="html">&lt;p&gt;The distortion framework in social choice theory allows quantifying the efficiency of (randomized) selection of an alternative based on the preferences of a set of agents. We make two fundamental contributions to this framework. First, we develop a linear-programming-based algorithm for computing the optimal randomized decision on a given instance, which is simpler and faster than the state-of-the-art solutions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05257v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Tight bounds for fractional and randomized truthful scheduling</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-83-tight-bounds-for-fractional-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06642v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-83-tight-bounds-for-fractional-and</id>
+    <updated>2026-11-04T15:23:44+00:00</updated>
+    <summary type="html">&lt;p&gt;We resolve one of the longest-standing open problems in algorithmic mechanism design by showing that randomization cannot yield a sublinear approximation for truthful scheduling on unrelated machines, even when truthfulness is required only in expectation. Our main technical result concerns fractional scheduling, where tasks may be split among machines. We prove that every deterministic truthful fractional mechanism on $n$ unrelated machines has worst-case approximation ratio at least $(n+1)/2$, even against the optimal integral makespan.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06642v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Tight Analysis of Randomized Truthful Scheduling: An $(m+1)/2$ Lower Bound</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-84-tight-analysis-of-randomized-truthful"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05142v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-84-tight-analysis-of-randomized-truthful</id>
-    <updated>2026-11-03T16:20:44+00:00</updated>
-    <summary type="html">&lt;p&gt;The Nisan-Ronen conjecture, a central problem in algorithmic game theory, asserts that no deterministic truthful mechanism for makespan minimization on $m$ unrelated machines can achieve an approximation ratio better than $m$. Christodoulou, Koutsoupias, and Kovács resolved it in 2023, but the optimal approximation ratio achievable by randomized truthful mechanisms remained open. Recently, Anastasiadis, Christodoulou, Koutsoupias, Kovács, and Schecker extended techniques from the deterministic proof to establish a $(3/2-\sqrt{2})(m-1)$ lower bound for universally truthful mechanisms with discrete support and gave a universally truthful mechanism with approximation ratio $m/2+o(m)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05142v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-84-limited-knowledge-exchange-across-biological"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06596v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-84-limited-knowledge-exchange-across-biological</id>
+    <updated>2026-11-04T14:50:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do not, raising the question of how much knowledge is exchanged between subfields. We address this question by developing a bibliometric pipeline that combines a database keyword search with coarse- and fine-grained classification by a large language model (LLM).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06596v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #databases #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp Bounds for Truthful-in-Expectation Scheduling. We study randomized mechanisms for scheduling indivisible jobs on $n$ unrelated machines.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-85-sharp-bounds-for-truthful-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05134v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-85-sharp-bounds-for-truthful-in</id>
-    <updated>2026-11-03T16:15:42+00:00</updated>
-    <summary type="html">&lt;p&gt;We study randomized mechanisms for scheduling indivisible jobs on $n$ unrelated machines. Each machine is controlled by a selfish agent who privately knows its processing time for each job. A mechanism assigns every job to a machine and makes payments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05134v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>On Competing Sellers with Substitutable Goods. We study mechanism design by an incumbent seller facing competition from an entrant seller of a substitute good.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-85-on-competing-sellers-with-substitutable"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06595v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-85-on-competing-sellers-with-substitutable</id>
+    <updated>2026-11-04T14:49:39+00:00</updated>
+    <summary type="html">&lt;p&gt;We study mechanism design by an incumbent seller facing competition from an entrant seller of a substitute good. The incumbent commits to a potentially randomized mechanism before her competitor responds. A unit-demand buyer with fixed, publicly known values for the two goods observes both mechanisms and may interact with them in either order.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06595v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Toward Constant-Factor Maximin Share Guarantees for Subadditive Valuations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-86-toward-constant-factor-maximin-share"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05073v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-86-toward-constant-factor-maximin-share</id>
-    <updated>2026-11-03T15:37:10+00:00</updated>
-    <summary type="html">&lt;p&gt;For $n$ agents and $m$ indivisible goods, an agent&amp;apos;s maximin share (MMS) is the largest minimum bundle value she can obtain by partitioning the goods into $n$ bundles. Constant MMS approximations are known for additive, submodular, or XOS valuations, but whether such a guarantee exists for general subadditive valuations remains open. We advance this question in two directions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05073v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic #agents&lt;/p&gt;</summary>
+    <title>Competitive Equilibrium for Linear Chores is CLS-complete. The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-86-competitive-equilibrium-for-linear-chores"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06589v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-86-competitive-equilibrium-for-linear-chores</id>
+    <updated>2026-11-04T14:43:37+00:00</updated>
+    <summary type="html">&lt;p&gt;The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources. We consider the fundamental question of computing a CE in the most basic Fisher market model where agents have linear preferences. While it is known that we can compute a CE in strongly polynomial time with linear goods, there is no known polynomial-time algorithm for CE with linear chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06589v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Linear Equivalence of Full Weight Spectrum Cyclic Orbit Codes. We determine the linear-equivalence classes within the two families of full weight spectrum one-orbit cyclic subspace codes.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-87-linear-equivalence-of-full-weight"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04947v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-87-linear-equivalence-of-full-weight</id>
-    <updated>2026-11-03T14:10:49+00:00</updated>
-    <summary type="html">&lt;p&gt;We determine the linear-equivalence classes within the two families of full weight spectrum one-orbit cyclic subspace codes. This solves the second open problem posed by Castello, Polverino and Zullo [J. Combin. Theory Ser. A 212 (2025) 106005].&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04947v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic&lt;/p&gt;</summary>
+    <title>Informing research priorities for distributed acoustic sensing: insights from a citizens&apos; panel</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-87-informing-research-priorities-for-distributed"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06584v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-87-informing-research-priorities-for-distributed</id>
+    <updated>2026-11-04T14:39:47+00:00</updated>
+    <summary type="html">&lt;p&gt;This report presents findings from a Citizens&amp;apos; Panel convened by the SOUNDSCALE project (www.soundscale.ac.uk) to inform research priorities for distributed acoustic sensing (DAS). Across three online and in-person workshops, 48 residents from Hampshire and London explored the technology&amp;apos;s potential uses, risks, governance, and societal implications. The report summarises their deliberations and priorities, and reflects on the challenges of involving citizens in early-stage research on an unfamiliar technology.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06584v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Complexity of Continuous Contract Design over Polymatroids. We study optimal contracts when an agent allocates continuous effort subject to polymatroid capacity constraints.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-88-the-complexity-of-continuous-contract"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04934v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-88-the-complexity-of-continuous-contract</id>
-    <updated>2026-11-03T14:04:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We study optimal contracts when an agent allocates continuous effort subject to polymatroid capacity constraints. Effort produces a linear expected reward and incurs a cost. With binary outcomes and limited liability, the principal chooses a single reward share.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04934v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Emergent regularity of walking patterns: evidence from Swiss cities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-88-emergent-regularity-of-walking-patterns"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06529v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-88-emergent-regularity-of-walking-patterns</id>
+    <updated>2026-11-04T13:56:15+00:00</updated>
+    <summary type="html">&lt;p&gt;Human travel behaviour is characterised by high temporal and spatial regularity, as demonstrated by the Exploration and Preferential Return (EPR) mechanism, whereby individuals alternate between exploring new locations and preferentially returning to previously visited places. Yet, existing evidence is based on aggregated mobility data that cannot distinguish short trips or separate active mobility (i.e., walking and biking) from other mobility modes. This limits our ability to assess the benefits of walking activities and proximity-based policies such as the 15-minute city.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06529v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Modelling lock-in of AI adoption through skill erosion. Generative AI can improve immediate performance but may erode the human skills required for future work.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-89-modelling-lock-in-of-ai"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04886v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-89-modelling-lock-in-of-ai</id>
-    <updated>2026-11-03T13:33:26+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI can improve immediate performance but may erode the human skills required for future work. We study a model in which individuals tend to imitate successful peers, while their independent skills grow with practice and erode with reliance on AI. Because each agent&amp;apos;s skill reflects their history, non-users and AI users develop different skill distributions, which we derive exactly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04886v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+    <title>Phase Locking in Oscillator Networks with Uncertain and State-Dependent Couplings</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-89-phase-locking-in-oscillator-networks"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06466v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-89-phase-locking-in-oscillator-networks</id>
+    <updated>2026-11-04T13:03:20+00:00</updated>
+    <summary type="html">&lt;p&gt;Phase locking in oscillator networks depends critically on the interaction strengths between coupled units. In many applications, however, these couplings are uncertain, state dependent, or time varying. We derive rigorous conditions for phase locking in Kuramoto-type networks when each coupling strength is known only within prescribed bounds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06466v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #analysis-pde #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Best-of-Many-Worlds MMS Allocation for Chores with Sublinear Disposals</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-90-best-of-many-worlds-mms"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.04884v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-90-best-of-many-worlds-mms</id>
-    <updated>2026-11-03T13:32:43+00:00</updated>
-    <summary type="html">&lt;p&gt;We study randomized allocations (lotteries) of indivisible chores under additive costs and introduce the notion of MMS1, which requires each agent&amp;apos;s bundle to satisfy the maximin share (MMS) bound after the removal of at most one chore. Our main result establishes that every instance admits an ex-ante proportional lottery in whose support every allocation is MMS1 and all but $o(n)$ agents satisfy MMS. Consequently, every realized allocation can be made MMS by disposing of at most $o(n)$ chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04884v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+    <title>A Cracked Mirror: How People Perceive Gender Performance by Large Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-90-a-cracked-mirror-how-people"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06393v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-90-a-cracked-mirror-how-people</id>
+    <updated>2026-11-04T11:58:45+00:00</updated>
+    <summary type="html">&lt;p&gt;How do large language models (LLMs) perform gender under zero-shot prompting, and how do people interpret those performances in conversation? Drawing on gender performativity, we examine how gendered meanings emerge through generated language, conversational context and human interpretation. In a preregistered randomised online experiment, 1,060 participants each had five short conversations with an LLM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06393v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

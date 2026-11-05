@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-11-dreamx-video-diffusion-model-is"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05377"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-11-dreamx-video-diffusion-model-is</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05377&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-15-emoreward-self-evolving-reward-calibration"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06518"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-15-emoreward-self-evolving-reward-calibration</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent and can invite reward hacking, while RLHF is difficult to scale and subject to individual aesthetic differences that complicate the calibration of facial, body motion, and chromatic cues across narrative contexts. We introduce EmoReward, a new self-evolving training mechanism that distills evidence reliability from reward traces collected during an actual training run to adaptively guide multi-reward weight allocation in subsequent training by determining which emotional evidence to trust and how much to weight it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06518&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>YANAMI: A Large-Scale Multimodal Dataset and Benchmark for Multiturn Stateful Interaction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-14-yanami-a-large-scale-multimodal"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05280"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-14-yanami-a-large-scale-multimodal</id>
-    <updated>2026-11-02T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Unified Multimodal Models (UMMs) integrate visual understanding, generation, and editing within a single unified framework. However, existing unified multimodal datasets and benchmarks remain dominated by single-turn tasks. Even in recent multi-turn datasets, many turns can be solved independently without tracking information across turns.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05280&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
+    <title>3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-29-3d-printed-monolithic-optomechanical-chassis"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06898v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-29-3d-printed-monolithic-optomechanical-chassis</id>
+    <updated>2026-11-04T18:48:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Additive manufacturing is increasingly being explored as an approach for producing complex structures for optical hardware. In this work, we present a fully monolithic optomechanical chassis fabricated using laser powder bed fusion additive manufacturing. The structure was fabricated from thermally stable Invar36, a low-thermal-expansion alloy that enables high dimensional stability under varying environmental conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06898v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Minimal model of a Plateau-Rayleigh instability of a solid binary alloy nanowire: impacts of surface segregation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-31-minimal-model-of-a-plateau"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05283v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-31-minimal-model-of-a-plateau</id>
-    <updated>2026-11-03T18:00:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Minimal model and its linear stability analysis (LSA) for Plateau-Rayleigh (PR) instability of an intermixed, solid binary alloy nanowire is presented. Model accounts only for the surface diffusions of the alloy components without anisotropies of a surface energies, and for a classical thermodynamic surface segregation. Model allows to assess a deviation of a longwave instability cutoff wavelength $λ_c$ from the classical value $2πr_0$ (a wire circumference) as a function of a surface composition deviation from its equilibrium value, a wire radius, and a bulk concentration of a minority component.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05283v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #clean-tech&lt;/p&gt;</summary>
+    <title>Public R&amp;D and the Automation of Manufacturing: Evidence from the Space Race -- by Apoorva Babbar, Shawn Kantor, Alexander Whalley, Jingyuan Zeng</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-71-public-r-d-and-the"/>
+    <link rel="related" href="https://www.nber.org/papers/w35966#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-71-public-r-d-and-the</id>
+    <updated>2026-11-05T12:48:57.415586253+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper examines how public research and development shaped the direction of technological change during the Cold War–era Space Race and its consequences for US manufacturing. While prior research has documented the effects of public R&amp;amp;D on innovation and economic growth, less is known about whether mission-oriented public investment directed innovation toward automation and how this affected labor markets. We exploit variation in exposure to NASA&amp;apos;s Space Race investments across industries and locations to estimate the effects of public R&amp;amp;D on innovation and manufacturing outcomes from 1947 to 1992.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35966#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>Gaussian Difference Dynamics: Breaking the $2^{n/2}$ Barrier for the Shortest Vector Problem and Discrete Gaussian Sampling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-57-gaussian-difference-dynamics-breaking-the"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2690"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-57-gaussian-difference-dynamics-breaking-the</id>
-    <updated>2026-10-30T04:09:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We give classical randomized algorithms in a word-RAM model that break the $2^{n/2}$ barrier for both discrete Gaussian sampling (DGS) and the Shortest Vector Problem (SVP). For every fixed $\alpha&amp;gt;1$, shifted DGS on arbitrary lattices at width $\sigma\ge\alpha\eta_{1/2}(L)$ takes $$ (3/2)^{n/2+o(n)}\text{ time} \qquad\text{and}\qquad (4/3)^{n/2+o(n)}\text{ space}. $$ These bounds match the Becker--Ducas--Gama--Laarhoven (BDGL) heuristic sieving exponents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2690&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>An Exact QFT/Lattice Map for Fermions. We construct an exact map between continuum fermion fields and lattice fields in 1+1 dimensions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-29-an-exact-qft-lattice-map"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05329v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-29-an-exact-qft-lattice-map</id>
-    <updated>2026-11-03T18:33:22+00:00</updated>
-    <summary type="html">&lt;p&gt;We construct an exact map between continuum fermion fields and lattice fields in 1+1 dimensions. This map rewrites a continuum Hamiltonian as a lattice Hamiltonian with nearest-neighbor couplings and an infinite-dimensional local Hilbert space. The resulting lattice model reproduces exactly the energy spectrum, global operator algebra, chiral symmetries, and anomalies of the continuum QFT on any finite lattice.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05329v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
+    <title>Simulating a chiral gauge theory. Chiral gauge theories underlie the Standard Model, yet none has been simulated nonperturbatively.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-31-simulating-a-chiral-gauge-theory"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06880v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-31-simulating-a-chiral-gauge-theory</id>
+    <updated>2026-11-04T18:36:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Chiral gauge theories underlie the Standard Model, yet none has been simulated nonperturbatively. Lattice constructions that evade the Nielsen-Ninomiya obstruction entail complex fermion measures or infinite-dimensional local Hilbert spaces. Here we provide a gauge-invariant Hamiltonian lattice regularization of 1+1-dimensional abelian chiral gauge theories built from clock-and-shift qudits with $\mathbb{Z}_N$ gauge fields, in which the global chiral symmetry and its &amp;apos;t Hooft anomaly survive exactly mod $N$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06880v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

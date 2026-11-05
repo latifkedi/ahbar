@@ -5,53 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
     <title>The Merck/Moderna Results</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-46-the-merck-moderna-results"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-46-the-merck-moderna-results"/>
     <link rel="related" href="https://www.science.org/content/blog-post/merck-moderna-results"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-46-the-merck-moderna-results</id>
-    <updated>2026-11-04T12:39:00.680429562+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-46-the-merck-moderna-results</id>
+    <updated>2026-11-05T12:49:02.268702250+00:00</updated>
     <summary type="html">&lt;p&gt;This is one of those times - and there are many - when you should evaluate a biopharma news story based on the science and not on the stock market. I’m referring to the clinical trial data that Merck and Moderna released yesterday for their vaccine (intismeran autogene)/Keytruda combination in melanoma patients after surgery. That should probably read “released under duress”, because the data leaked in advance of a meeting presentation, and the companies were more or less forced to press-release on the numbers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.science.org/content/blog-post/merck-moderna-results&quot;&gt;In the Pipeline (Derek Lowe — Drug Discovery &amp;amp; Chemistry)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>HYphlow: bringing end-to-end flow to HyPhy selection analyses, from taxon reconciliation to trait-based foreground assignment</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-47-hyphlow-bringing-end-to-end"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-47-hyphlow-bringing-end-to-end</id>
-    <updated>2026-11-03T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Phylogenetic analyses of molecular evolution often require repeated manual preparation to reconcile taxa, annotate trees, execute models, and summarize results. These steps become increasingly time-consuming and difficult to standardize as the number of taxa, genes, and analytical hypotheses increases. We present HYphlow, an open-source graphical workflow developed in Python that integrates data preparation, trait-based foreground branch assignment, HyPhy execution, and structured result extraction within a single interface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.30.763228v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus #combinatorics&lt;/p&gt;</summary>
+    <title>RPI-Zero: Zero-shot RNA-Protein Interaction Prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-47-rpi-zero-zero-shot-rna"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.764286v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-47-rpi-zero-zero-shot-rna</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;In vivo protein-RNA interactions are mapped almost exclusively by CLIP-seq, which profiles one protein in one cell type per experiment and needs a specific antibody; only about 10% of the roughly 2,000 human RNA-binding proteins have been assayed, and the Protein Data Bank holds around 5,000 protein-RNA complexes, a quarter of them ribosomes. Sequence-based prediction could extend coverage to unprofiled, newly discovered, or designed molecules, but existing predictors are not built for that case. One family trains a separate model per protein and cannot move beyond proteins with CLIP data; the other scores pairs but targets a single RNA class.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.764286v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DoAggregate: a pipeline for aggregation testing for rare-variant on a gene and pathway level</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-48-doaggregate-a-pipeline-for-aggregation"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762468v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-48-doaggregate-a-pipeline-for-aggregation</id>
-    <updated>2026-11-03T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivation Aggregation tests overcome the classical limitation of rare variant analysis in cohort study design. Choosing the right statistical test remains one of the biggest challenges. Existing tools fall short in offering a comprehensive solution that includes automatic data processing, testing across all genes, as well as exploration of broader genetic regions such as pathways and Gene Ontology (GO) terms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762468v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>FoldAbS: Repurposing the Protein Folding Model as a Foundation Encoder for Antibody Screening</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-48-foldabs-repurposing-the-protein-folding"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-48-foldabs-repurposing-the-protein-folding</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Therapeutic antibody screening requires prioritizing antibody candidates across specificity, affinity, and developability. Current pipelines typically silo these objectives and underuse structural information that governs antibody-antigen recognition. To address these inefficacies, we introduce FoldAbS, a unified supervised screening framework that reconceptualizes protein folding models as frozen foundation encoders, exploiting their internal representations to capture rich sequence, geometric, and interaction dynamics well beyond basic structure prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>scSTEC: Annotating Chromatin Subcompartments from Individual Single-Cell Hi-C Data via Direct Two-Dimensional Embedding and Chromosome-wise Consensus</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-49-scstec-annotating-chromatin-subcompartments-from"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-49-scstec-annotating-chromatin-subcompartments-from</id>
-    <updated>2026-11-03T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;textbf{Motivation: }Single-cell Hi-C (scHi-C) technologies enable the study of three-dimensional (3D) genome organization at individual-cell resolution. Many computational methods have been developed to infer hierarchical structures from scHi-C data. However, annotating chromatin subcompartments from sparse scHi-C data remains a challenge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.28.762654v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
+    <title>PartiDesign: A structure-sequence co-design paradigm for practical all-to-all biomolecules design</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-49-partidesign-a-structure-sequence-co"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.03.763860v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-49-partidesign-a-structure-sequence-co</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Engineering interactions among biomolecules offers a route to creating new biological functions. Although unified models have advanced biomolecular structure prediction and design, efficient and controllable generation across molecular modalities remains challenging. A key challenge is to couple three-dimensional structure generation with sequence or chemical-identity design across chemically diverse systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.03.763860v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>OncoSpot enables benchmarking of cancer spatial transcriptomics methods across tumor evolutionary modes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-50-oncospot-enables-benchmarking-of-cancer"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.01.763496v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-50-oncospot-enables-benchmarking-of-cancer</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Spatial transcriptomics (ST) is increasingly used to map clonal architecture within tumors, yet methods for analyzing cancer ST data are difficult to evaluate because real tumors lack ground truth for copy-number alterations (CNAs), subclonal identity, and malignant cell fraction. Existing ST simulators model normal tissue and do not represent tumor evolution, CNA-driven expression, or the spatial organization of malignant subclones. We present OncoSpot, a cancer-aware simulator of Visium-like spot-based ST data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.01.763496v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>gcat, its_a_scam: modular tools for single cell data processing and per-cellquality control</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-51-gcat-its-a-scam-modular"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.03.764034v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-51-gcat-its-a-scam-modular</id>
+    <updated>2026-11-04T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: The era of designing bioinformatic pipelines using open source tools is giving way to monolithic, and often proprietary, tools designed for end-to-end analysis, especially in the context of single cell data. While these tools are convenient for going from sequencing data to an almost complete data analysis &amp;quot;in a few clicks&amp;quot;, they can strongly limit data use beyond standard analyses Results: We developed Gene and Chromosome Analysis Toolkit (gcat) and It&amp;apos;s a scam To Sell Another Single Cell Analysis Method (its_a_scam) for modular processing and quality control of single cell genomic data, freeing users from their reliance on proprietary tools. gcat is a C++ library for parsing genomic data and working with it over genomic coordinates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.03.764034v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-50-machine-learning-dataset-and-benchmark"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-53-machine-learning-dataset-and-benchmark"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-50-machine-learning-dataset-and-benchmark</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-53-machine-learning-dataset-and-benchmark</id>
     <updated>2026-10-26T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Hybrid modeling for improved structure prediction of large protein complexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-54-hybrid-modeling-for-improved-structure"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01067-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-54-hybrid-modeling-for-improved-structure</id>
-    <updated>2026-10-15T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 15 October 2026; doi:10.1038/s43588-026-01067-w An automated framework, HDOCK-Multimer (HDM), is developed that integrates ab initio docking and combinatorial assembly for the structure prediction of large protein complexes. Across three benchmarks, HDM demonstrates increased accuracy and robustness in modeling large protein assemblies, compared with state-of-the-art…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01067-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

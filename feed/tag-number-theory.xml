@@ -5,29 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-04T12:38:54.068665770+00:00</updated>
+  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
   <entry>
-    <title>The quasi-Riemann hypothesis. Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-19-the-quasi-riemann-hypothesis"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-19-the-quasi-riemann-hypothesis</id>
-    <updated>2026-10-27T22:12:50+00:00</updated>
-    <summary type="html">&lt;p&gt;Just a short note that Maksym Radziwill will be giving a hybrid talk on the quasi-Riemann hypothesis at Courant tomorrow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/27/the-quasi-riemann-hypothesis/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #number-theory&lt;/p&gt;</summary>
+    <title>Using topology to reveal all mutually unbiased bases in dimension six. Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-20-using-topology-to-reveal-all"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06917v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-20-using-topology-to-reveal-all</id>
+    <updated>2026-11-04T18:59:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others. In dimension six, triples of MUBs are known, but whether a fourth basis could exist remained unresolved for over three decades. OpenAI recently reported a proof that none exists.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06917v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Supercritical level-set percolation on finite graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-20-supercritical-level-set-percolation-on"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05299v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-20-supercritical-level-set-percolation-on</id>
-    <updated>2026-11-03T18:12:14+00:00</updated>
-    <summary type="html">&lt;p&gt;We continue the study of bond percolation on finite graphs induced by the level-sets of the zero-average Gaussian free field on the associated metric graph. In our previous work Goswami and Pal (2026), we analyzed the critical and near-critical behavior of this model on uniform expanders, focusing on the volume of the largest cluster. In the present paper, we investigate the size of the second largest cluster in the supercritical regime --- the phase where one expects a unique giant component.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05299v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>Conformal field theory from automorphic forms on a quantum group. We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-21-conformal-field-theory-from-automorphic"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06907v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-21-conformal-field-theory-from-automorphic</id>
+    <updated>2026-11-04T18:55:13+00:00</updated>
+    <summary type="html">&lt;p&gt;We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry. To this end, we introduce automorphic forms for the von Neumann algebraic quantum group $\mathrm{SL}^+_b(2,\mathbb{R})$. A quantum measure space is a von Neumann algebra equipped with a weight.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06907v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Two examples in amplituhedron tilings. We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-04-21-two-examples-in-amplituhedron-tilings"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05216v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-04-21-two-examples-in-amplituhedron-tilings</id>
-    <updated>2026-11-03T17:02:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an example of a tiling of the $m=4$ amplituhedron that has fewer cells than that of the magic number conjecture. The tiling uses an injective degree two cell.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05216v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
+    <title>The full Kolakoski shift is topologically transitive</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-22-the-full-kolakoski-shift-is"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06878v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-22-the-full-kolakoski-shift-is</id>
+    <updated>2026-11-04T18:35:23+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove that the full Kolakoski shift---namely, the subshift of all smooth sequences over the alphabet $\{1,2\}$---is topologically transitive. Consequently, we demonstrate the existence of a smooth sequence whose factors are invariant under both reversal and bitwise complementation. As a further application, we prove the existence of arbitrarily long smooth words containing an equal number of occurrences of the symbols $1$ and $2$, providing evidence in support of Keane&amp;apos;s conjecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06878v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Matching Random Point Sets with Minimum Distortion. How well can two independent random samples from a metric measure space be matched while preserving pairwise distances?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-23-matching-random-point-sets-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06845v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-23-matching-random-point-sets-with</id>
+    <updated>2026-11-04T18:02:57+00:00</updated>
+    <summary type="html">&lt;p&gt;How well can two independent random samples from a metric measure space be matched while preserving pairwise distances? Concretely, given two independent copies, each of $n$ points sampled from the space, what is their typical metric distortion as finite $n$-point metric spaces? We prove that the space $[0,1]$ equipped with the uniform measure already exhibits a rich behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06845v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
 </feed>
