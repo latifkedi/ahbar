@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>Matching Random Point Sets with Minimum Distortion. How well can two independent random samples from a metric measure space be matched while preserving pairwise distances?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-23-matching-random-point-sets-with"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06845v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-23-matching-random-point-sets-with</id>
-    <updated>2026-11-04T18:02:57+00:00</updated>
-    <summary type="html">&lt;p&gt;How well can two independent random samples from a metric measure space be matched while preserving pairwise distances? Concretely, given two independent copies, each of $n$ points sampled from the space, what is their typical metric distortion as finite $n$-point metric spaces? We prove that the space $[0,1]$ equipped with the uniform measure already exhibits a rich behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06845v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Optimal Holding Times for Entanglement Swapping</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-24-optimal-holding-times-for-entanglement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06823v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-24-optimal-holding-times-for-entanglement</id>
-    <updated>2026-11-04T17:32:52+00:00</updated>
-    <summary type="html">&lt;p&gt;We revisit the optimization of entanglement holding times in memory-based quantum repeaters for maximizing entanglement swapping throughput under different fidelity constraints - strict, probabilistic, and mean. We consider two heterogeneous quantum links that are equipped with single or multiple memories and differ in decoherence rates, memory capacities, entanglement attempt rates and success probabilities, as well as classical communication latencies. Efficient models are developed to estimate the expected entanglement throughput and the probability density functions of the conditional wait time to swap.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06823v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+    <title>From elementary processes to chaos: a discrete-time two-stage contagion model and its continuous limit</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-20-from-elementary-processes-to-chaos"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08353v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-20-from-elementary-processes-to-chaos</id>
+    <updated>2026-11-05T17:34:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Two-stage contagion, in which adoption requires two successive contacts with adopters, combined with population turnover produces bistability and relaxation oscillations in Katriel&amp;apos;s differential-equation model, but no chaos. We derive from the elementary reactions of the process, without reference to the differential equations, a discrete-time model in which the population is updated in rounds of length $τ$, as in elections, meetings or turns of a game: each individual makes at most one transition per round, events compete as exponential risks, and adoptions take effect from the next round. The model is a Markov chain whose large-population limit is a map $F_τ$; Katriel&amp;apos;s equations are recovered as $τ\to0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08353v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

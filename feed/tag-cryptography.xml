@@ -5,101 +5,93 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>PIMROP: A Feasibility Study of Return-Oriented Programming on Commercial Processing-in-Memory Architectures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-40-pimrop-a-feasibility-study-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06036v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-40-pimrop-a-feasibility-study-of</id>
-    <updated>2026-11-04T06:41:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Processing-in-Memory places small programmable cores on the memory device, where they execute beside the DRAM banks and beyond the control-flow defenses that protect host programs. The security of this in-memory code is an attack surface that remains largely unstudied. We present PIMROP, to our knowledge the first demonstrated code-reuse attack on a commercial Processing in-Memory ISA.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06036v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #compilers&lt;/p&gt;</summary>
+    <title>Can 23,000 quantum qubits break RSA-2048?. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-28-can-23-000-quantum-qubits"/>
+    <link rel="related" href="https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-28-can-23-000-quantum-qubits</id>
+    <updated>2026-11-05T17:22:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-56-your-cryptography-conspiracy-theory-is"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-56-your-cryptography-conspiracy-theory-is"/>
     <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-56-your-cryptography-conspiracy-theory-is</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-56-your-cryptography-conspiracy-theory-is</id>
     <updated>2026-11-04T14:58:11+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A history of backdoors (2015). Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-57-a-history-of-backdoors-2015"/>
-    <link rel="related" href="https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-57-a-history-of-backdoors-2015</id>
-    <updated>2026-11-05T01:53:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography&lt;/p&gt;</summary>
+    <title>SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-43-sensorguard-rv-sensor-to-register"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08380v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-43-sensorguard-rv-sensor-to-register</id>
+    <updated>2026-11-05T17:57:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08380v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Clear Human Web: Where a Person Vouches for Every Client. The web cannot tell whether a request comes from a person or from a program.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-42-clear-human-web-where-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06286v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-42-clear-human-web-where-a</id>
-    <updated>2026-11-04T10:24:34+00:00</updated>
-    <summary type="html">&lt;p&gt;The web cannot tell whether a request comes from a person or from a program. Sites have checked the network address and puzzles in its place, and both have given way: automated traffic exceeds human traffic, and puzzles are solved for pay and by agents. This paper proposes the Clear Human Web, the part of the public web that sites open only to clients a person vouches for.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06286v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+    <title>Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-44-zirah-a-post-quantum-true"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08200v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-44-zirah-a-post-quantum-true</id>
+    <updated>2026-11-05T15:54:05+00:00</updated>
+    <summary type="html">&lt;p&gt;Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws every random bit from a reverse-biased 2N3904 junction in avalanche breakdown, amplified by an LM358 and screened by SP 800-90B health tests, computes ML-DSA-65 (FIPS 204, hedged) on the STM32 with two-share arithmetic masking of the secret-key multiplications, and adds ECDSA P-256 from an ATECC608 secure element over the same digest, once a person has matched an eight-digit digest prefix on its OLED with the PC and pressed a button. A desktop application and a command-line tool drive the board and verify its output, and because only a 32-byte manifest digest reaches the device, it signs files of any type and size, returning signed copies for PDF, Office Open XML, ZIP, PNG and JPEG files and detached records for every other format.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08200v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Explainable Anomaly Detection in 5G Networks through Continuous Time Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-43-explainable-anomaly-detection-in-5g"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06225v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-43-explainable-anomaly-detection-in-5g</id>
-    <updated>2026-11-04T09:34:47+00:00</updated>
-    <summary type="html">&lt;p&gt;5G networks increasingly resemble distributed systems in their design. It then becomes crucial to move beyond traditional network-based detection methods and to explore alternative approaches. In this work, we propose a formalization of 5G network exchanges as a dynamic graph, on which we apply techniques from the field of graph-based learning to detect anomalies effectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06225v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+    <title>AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-45-ai-native-task-oriented-semantic"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08155v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-45-ai-native-task-oriented-semantic</id>
+    <updated>2026-11-05T15:14:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Semantic communication (SemCom) using a relay node is considered, where the relay assists in conveying task-relevant information from a source to a destination, with meaning defined by classification labels. A joint end-to-end design of the source encoder, relay transformation, and destination decoders is developed to optimize both semantic inference accuracy and perceptual reconstruction quality for image data. Relay-assisted schemes are shown to outperform direct transmission, with gains that become more pronounced in low signal-to-noise ratio (SNR) regimes across different relaying strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08155v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Enforcing Accountable Disclosure in Confidential AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-44-enforcing-accountable-disclosure-in-confidential"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05971v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-44-enforcing-accountable-disclosure-in-confidential</id>
-    <updated>2026-11-04T05:05:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Advances in CPU and GPU confidential computing enable confidential AI, allowing LLMs to process user prompts without exposing them to service providers or infrastructure operators. However, AI agents often need to send prompt-derived information to external services, and providers may also require limited disclosure for safety monitoring and failure diagnosis. We propose CORDE, a system for confidential virtual machines (CVMs) designed to satisfy the principle of Confine or Declare: user-derived data is confined by default, but when necessary, it may leave the CVM only after being &amp;quot;declared.&amp;quot; To &amp;quot;declare&amp;quot; data is to record its exact contents, recipient, and stated reason in a user-accessible, tamper-evident declaration log.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05971v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
+    <title>SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-57-sok-post-quantum-cryptography-pqc"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08442v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-57-sok-post-quantum-cryptography-pqc</id>
+    <updated>2026-11-05T18:34:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #software-architecture #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Catastrophic Overfitting is Weight Drift the Training Loss Cannot See</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-59-catastrophic-overfitting-is-weight-drift"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06082v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-59-catastrophic-overfitting-is-weight-drift</id>
-    <updated>2026-11-04T07:23:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Fast adversarial training (FAT) makes robust training affordable by replacing the multi-step attack with a single-step one, but it suffers from catastrophic overfitting (CO): partway through training, robustness to multi-step attacks collapses to near zero while the single-step attack used for training keeps being repelled. We show that CO is a quiet escape of the weights. Across the event the network&amp;apos;s clean behavior quietly improves, and moving from the weights just before CO to those just after it changes the training objective only marginally while destroying most of the robustness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06082v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory&lt;/p&gt;</summary>
+    <title>Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-59-beyond-instruction-override-benchmarking-indirect"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07640v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-59-beyond-instruction-override-benchmarking-indirect</id>
+    <updated>2026-11-05T08:25:27+00:00</updated>
+    <summary type="html">&lt;p&gt;Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer&amp;apos;s dispute evidence can cite a false refund policy to inflate a refund without changing the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07640v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-45-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-45-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Rotom: A Microcontroller-Oriented Tweakable Block Cipher Using Modular Multiplication (Full Version)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-60-rotom-a-microcontroller-oriented-tweakable"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2693"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-60-rotom-a-microcontroller-oriented-tweakable</id>
-    <updated>2026-10-30T09:22:50+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose Rotom, a family of 128-bit tweakable block ciphers designed for efficient software implementation on 32-bit microcontrollers. The central design idea is to use modular multiplication as a compact and software-efficient source of strong nonlinearity. Rotom instantiates this idea with a fixed 16-bit S-box built from odd constant multiplication modulo $2^{16}$ interleaved with lightweight linear maps, and combines it with a software-friendly recursive linear layer over four 32-bit words, a compact tweakey schedule, and modular-addition boundary key mixing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2693&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Stop Calling Them Provers: The Case for Calling ProVerif and Tamarin Symbolic Protocol Analyzers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-60-stop-calling-them-provers-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2683"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-60-stop-calling-them-provers-the</id>
+    <updated>2026-10-29T12:51:44+00:00</updated>
+    <summary type="html">&lt;p&gt;A claim that a cryptographic protocol has been proved secure depends on the theory, the analysis software, the protocol model, and the security property being checked. I examine each of these for ProVerif and Tamarin. An audit of their published soundness arguments finds false statements, missing proofs, and gaps between the procedures justified on paper and those the tools run.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2683&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Practical Optimal Bucket Sets with Power-of-Two Radices for LFG-Based MSM Algorithms</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-61-practical-optimal-bucket-sets-with"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-61-practical-optimal-bucket-sets-with"/>
     <link rel="related" href="https://eprint.iacr.org/2026/2750"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-61-practical-optimal-bucket-sets-with</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-61-practical-optimal-bucket-sets-with</id>
     <updated>2026-11-03T18:49:49+00:00</updated>
     <summary type="html">&lt;p&gt;Fixed point multi-scalar multiplication (MSM) is a major computational component of pairing-based SNARK proof generation. The Luo--Fu--Gong (LFG) framework is a variant of Pippenger&amp;apos;s bucket method that uses a multiplier set $M$ and precomputed point multiples to reduce the number of buckets and online point additions. For radix $q$ and a positive multiplier set $M$, covering all digit residues requires a bucket set of size at least $q/(2|M|)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2750&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LAMP: Linear Verification of Matrix Multiplication via Proximity Testing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-62-lamp-linear-verification-of-matrix"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1571"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-62-lamp-linear-verification-of-matrix</id>
-    <updated>2026-07-31T10:02:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization of a $k \times k$ product requires $\mathcal{O}(k^3)$ constraints. Freivalds&amp;apos; randomized check reduces the algebraic computation to vector-matrix products, but proving those products inside a SNARK still costs $\mathcal{O}(k^2)$ constraints. We present LAMP, a matrix-multiplication checking protocol that combines Freivalds&amp;apos; randomized check with proximity testing over linear error-correcting codes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1571&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>MuCPay: Breaking the Quadratic Bottleneck in Scriptless Multi-Party Oracle-Based Conditional Payments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-62-mucpay-breaking-the-quadratic-bottleneck"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2732"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-62-mucpay-breaking-the-quadratic-bottleneck</id>
+    <updated>2026-11-03T06:48:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Oracle-based conditional payments triggered by real-world events support decentralized finance applications. However, dense independent bilateral deployments require $\Theta(Nn^2)$ outcome authorizations and $\Theta(n^2)$ settlement signatures for $n$ parties and $N$ outcomes. To go beyond two-party settings, we propose MuCPay, a multi-party oracle-based conditional payment protocol combining (i) $\Theta(Nn)$ off-chain signing shares with one on-chain settlement signature and (ii) BIP340-compatible scriptless settlement on Bitcoin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2732&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Bounded Information: PAC Certification of Multivariate Side-Channel Traces. Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-63-bounded-information-pac-certification-of"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1990"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-63-bounded-information-pac-certification-of</id>
-    <updated>2026-09-12T10:16:29+00:00</updated>
-    <summary type="html">&lt;p&gt;Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage. Existing information-theoretic estimators, such as perceived information (PI), hypothetical information (HI), and nonparametric mutual information (MI), aim to quantify distributional leakage, but they become unstable in high-dimensional traces and do not provide a finite-sample certificate of the best attacker. We introduce \emph{Bounded Information} (BI), a probably approximately correct (PAC)-style finite-sample certification method that upper-bounds the exact-recovery success of a fixed attacker scope on unseen traces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1990&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Fully Homomorphic Encryption: A Mathematical Introduction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-63-fully-homomorphic-encryption-a-mathematical"/>
+    <link rel="related" href="https://eprint.iacr.org/2023/1402"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-63-fully-homomorphic-encryption-a-mathematical</id>
+    <updated>2023-09-18T15:13:27+00:00</updated>
+    <summary type="html">&lt;p&gt;We provide a mathematical introduction to fully homomorphic encryption (FHE), which enables computations to be performed on encrypted data without requiring decryption. We begin with a brief overview of the historical development of FHE, then focus on Fully Homomorphic Encryption over the Torus (TFHE), describing its underlying mathematical structure and fundamental homomorphic operations. Particular attention is given to key switching and bootstrapping, including their roles in managing ciphertext noise and supporting computations of greater depth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1402&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

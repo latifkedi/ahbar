@@ -5,61 +5,109 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>FrontierPhysics: Evaluating Agents for End-to-End Physics Research. AI agents are playing an increasingly important role in physics research.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-12-frontierphysics-evaluating-agents-for-end"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06910"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-12-frontierphysics-evaluating-agents-for-end</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06910&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-11-harness-s-learning-from-sibling"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04277"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-11-harness-s-learning-from-sibling</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04277&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-13-what-does-multi-turn-reinforcement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06483"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-13-what-does-multi-turn-reinforcement</id>
-    <updated>2026-11-04T08:24:54.000Z</updated>
-    <summary type="html">&lt;p&gt;While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step decision quality; rather, its strength concentrates in error recovery and long-horizon resilience.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06483&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>StreamDuo: A Live Commentator and a Research Agent for Unseen Games. Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-14-streamduo-a-live-commentator-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.01120"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-14-streamduo-a-live-commentator-and</id>
+    <title>Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-12-random-is-almost-enough-stable"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.00883"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-12-random-is-almost-enough-stable</id>
     <updated>2026-10-30T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads the wiki of the game being played.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.01120&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger errors, resulting in a long-tailed distribution. This means random sampling alone can achieve surprisingly strong performance with high probability, but remains unstable due to rare large errors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.00883&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Wednesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-37-security-updates-for-wednesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1105378/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-37-security-updates-for-wednesday</id>
-    <updated>2026-11-04T14:13:24+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), Debian (chromium, git-annex, incus, kernel, and strongswan), Fedora (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105378/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+    <title>Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-14-decoupled-predictive-decision-making-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02075"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-14-decoupled-predictive-decision-making-a</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02075&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Aggregate-Surplus Maximizing Monetary Policy -- by David Baqaee, Ariel Burstein, Joao Guerreiro</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-72-aggregate-surplus-maximizing-monetary-policy"/>
-    <link rel="related" href="https://www.nber.org/papers/w35967#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-72-aggregate-surplus-maximizing-monetary-policy</id>
-    <updated>2026-11-05T12:48:57.415586253+00:00</updated>
-    <summary type="html">&lt;p&gt;We study optimal monetary policy in a general heterogeneous-agent New Keynesian (HANK) economy. Instead of maximizing a social welfare function, the policymaker maximizes the joint surplus of all households, without taking a stance on how that surplus should be distributed. This is the policy that maximizes resources left over if winners from reform were to compensate losers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35967#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>EvoMemState: Evolving Memory State for Personal Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-16-evomemstate-evolving-memory-state-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03743"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-16-evomemstate-evolving-memory-state-for</id>
+    <updated>2026-11-01T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while leaving their applicability, role, and priority for the current request implicit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03743&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Limited knowledge exchange across biological subfields in agent-based modelling: an LLM-assisted bibliometric analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-84-limited-knowledge-exchange-across-biological"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06596v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-84-limited-knowledge-exchange-across-biological</id>
-    <updated>2026-11-04T14:50:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Agent-based models (ABMs) are widely used across the biological sciences. While applications differ between biological subfields, the mathematical and statistical methods underlying ABMs largely do not, raising the question of how much knowledge is exchanged between subfields. We address this question by developing a bibliometric pipeline that combines a database keyword search with coarse- and fine-grained classification by a large language model (LLM).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06596v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #databases #agents&lt;/p&gt;</summary>
+    <title>VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-17-vissearch-bench-evaluating-long-horizon"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04894"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-17-vissearch-bench-evaluating-long-horizon</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multimodal agents use web and image tools to answer questions beyond their internal knowledge. Some search tasks use images mainly to identify an initial entity, then rely on text retrieval. These tasks offer limited insight into how agents connect information across images, objects, and search steps.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04894&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Competitive Equilibrium for Linear Chores is CLS-complete. The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-86-competitive-equilibrium-for-linear-chores"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06589v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-86-competitive-equilibrium-for-linear-chores</id>
-    <updated>2026-11-04T14:43:37+00:00</updated>
-    <summary type="html">&lt;p&gt;The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources. We consider the fundamental question of computing a CE in the most basic Fisher market model where agents have linear preferences. While it is known that we can compute a CE in strongly polynomial time with linear goods, there is no known polynomial-time algorithm for CE with linear chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06589v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+    <title>Towards Foundation Decision Models: Drex</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-18-towards-foundation-decision-models-drex"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07854"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-18-towards-foundation-decision-models-drex</id>
+    <updated>2026-11-04T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, however, they give inconsistent answers, require parsing of outputs, and add cost and latency. Decision models address this: given a question and a set of options supplied by the user, they return a probability distribution over the options without autoregressive decoding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07854&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>European LD proxies lose tagging for 43% of GWAS leads in the African panel: a chromosome 22 analysis with SwiftLD, an 826-fold faster, byte-identical vcftools LD</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-49-european-ld-proxies-lose-tagging"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.760946v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-49-european-ld-proxies-lose-tagging</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;SwiftLD is a drop-in replacement for the pairwise linkage disequilibrium (LD) modes of vcftools 0.1.17, --hap-r2 and --geno-r2, which population-genetic pipelines use to compute r2, D and D&amp;apos; between nearby variants. On three regions of 1000 Genomes chromosome 22 with 503 to 2,504 samples it wrote the same output as vcftools, byte for byte, and was 826-fold faster (geometric mean at two threads on an AVX-512 CPU). It was also 7.6-fold faster than PLINK 2, the fastest alternative, from VCF input to LD output on all five regions tested; PLINK 2 writes a different file, although its r2 values agree with vcftools&amp;apos; within 10^-6.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.760946v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-59-beyond-instruction-override-benchmarking-indirect"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07640v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-59-beyond-instruction-override-benchmarking-indirect</id>
+    <updated>2026-11-05T08:25:27+00:00</updated>
+    <summary type="html">&lt;p&gt;Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer&amp;apos;s dispute evidence can cite a false refund policy to inflate a refund without changing the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07640v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Information Elicitation by Ordinal Agreement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-82-information-elicitation-by-ordinal-agreement"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08366v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-82-information-elicitation-by-ordinal-agreement</id>
+    <updated>2026-11-05T17:43:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Ordinal information is central to tasks ranging from conference peer review to Reinforcement Learning from Human Feedback for large language models. In many such settings, there is no objective ground truth against which reports can be directly verified, making incentive-compatible elicitation challenging. Peer-prediction mechanisms have been designed to achieve truthful elicitation despite the lack of ground-truth verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08366v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Distributed Optimization Involving Non-Lipschitzian, Linear Composite Functions: Unified Algorithm Design and Convergence Analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-85-distributed-optimization-involving-non-lipschitzian"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07703v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-85-distributed-optimization-involving-non-lipschitzian</id>
+    <updated>2026-11-05T09:25:12+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper formulates a generic distributed nonsmooth optimization problem subject to edge-based equality constraints, local inequality constraints characterized by general convex functions, as well as globally coupling constraints including affine equality and nonlinear inequality. The terminal goal is to minimize the sum of local non-differentiable convex functions and proximable nonsmooth convex composite terms attached to linear operators, over networked multi-agent systems. This formulated framework not only applies in complex practical problems but also reduces to existing distributed optimization structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07703v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Evolutionary dynamics of collective-risk social dilemma game with risk uncertainty and adaptive strategy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-87-evolutionary-dynamics-of-collective-risk"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07627v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-87-evolutionary-dynamics-of-collective-risk</id>
+    <updated>2026-11-05T08:11:15+00:00</updated>
+    <summary type="html">&lt;p&gt;The collective-risk dilemma game constitutes the leading metaphor for studying the evolution of cooperation in populations of selfish individuals. Although most theoretical studies often consider the risk level as a fixed parameter, this may not fully reflect the uncertain nature of risk detected in real-world scenarios. Motivated by the observation that individuals can infer their game environment and accordingly adjust their actual behavior, here we investigate this game with uncertain risk.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07627v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Polynomial-Time Approximate EFX for Chores via Flow and Matching. We study approximate EFX allocations of indivisible chores under nonnegative additive costs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-89-polynomial-time-approximate-efx-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07468v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-89-polynomial-time-approximate-efx-for</id>
+    <updated>2026-11-05T05:27:58+00:00</updated>
+    <summary type="html">&lt;p&gt;We study approximate EFX allocations of indivisible chores under nonnegative additive costs. Exact EFX allocations need not exist in general. We develop a polynomial-time algorithm that computes a complete $(3+\varepsilon)$-EFX allocation for any rational $0&amp;lt;\varepsilon\leq1$, improving the previous approximation guarantee from a factor depending on the number of agents to a constant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07468v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Current frontiers in mobility and well-being</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-90-current-frontiers-in-mobility-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07343v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-90-current-frontiers-in-mobility-and</id>
+    <updated>2026-11-05T02:31:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Human mobility has a profound impact on social structure and collective behavior, which allows individuals to reshape group structures in response to strategy information, acting as a double-edged sword for cooperative behavior. It can both disrupt existing cooperative communities and enable individuals to escape adverse environments and seek high-quality interaction partners. This paper surveys current research progress on the impact of mobility on cooperation within the framework of evolutionary game theory, focusing on specific mechanisms of passive escape, dynamic self-organization driven by active choice, and the core trade-off between migration costs and speed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07343v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

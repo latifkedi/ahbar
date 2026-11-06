@@ -5,53 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>Monadically Dependent Graph Classes Have Almost Bounded Merge-Width</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-19-monadically-dependent-graph-classes-have"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06804v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-19-monadically-dependent-graph-classes-have</id>
-    <updated>2026-11-04T17:20:29+00:00</updated>
-    <summary type="html">&lt;p&gt;A graph class $\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC &amp;apos;25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06804v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
+    <title>Beyond Quantum Messages: Toward Quantum-Native Network Functioning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-35-beyond-quantum-messages-toward-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08298v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-35-beyond-quantum-messages-toward-quantum</id>
+    <updated>2026-11-05T17:00:54+00:00</updated>
+    <summary type="html">&lt;p&gt;The Quantum Internet is commonly envisioned as a network that transports quantum states and distributes entanglement as the key resource underpinning distributed quantum applications. This view is necessary but incomplete if quantum phenomena are confined to what the network carries or manages, while network functionalities remain grounded predominantly in classical abstractions. This Perspective advances a broader thesis: quantum phenomena can also participate directly in the realization of network functionalities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08298v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #networking #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Finding full immersions is fixed-parameter tractable in labeled tour graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-35-finding-full-immersions-is-fixed"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06776v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-35-finding-full-immersions-is-fixed</id>
-    <updated>2026-11-04T16:52:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and &amp;quot;splitting off&amp;quot; both pairs, summing the labels within each pair.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06776v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-57-sok-post-quantum-cryptography-pqc"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08442v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-57-sok-post-quantum-cryptography-pqc</id>
+    <updated>2026-11-05T18:34:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #software-architecture #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Quantum Lower Bound for Triangle Finding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-36-a-quantum-lower-bound-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06751v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-36-a-quantum-lower-bound-for</id>
-    <updated>2026-11-04T16:27:34+00:00</updated>
-    <summary type="html">&lt;p&gt;Triangle finding is a fundamental problem in graph theory that has played a central role in the development of quantum algorithmic techniques. For $N$-vertex graphs given by their adjacency matrices, a long line of work has improved the quantum query upper bound from $O(N^{3/2})$ to $O(N^{5/4})$. However, the best known lower bound has remained the elementary $Ω(N)$ bound obtained from unstructured search.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06751v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+    <title>Solvable macroscopic models for populations of type I excitability neurons with Gaussian noise</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-84-solvable-macroscopic-models-for-populations"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07714v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-84-solvable-macroscopic-models-for-populations</id>
+    <updated>2026-11-05T09:32:22+00:00</updated>
+    <summary type="html">&lt;p&gt;The dynamics of type I excitability neurons near the bifurcation point are governed by the model of quadratic integrate-and-fire neuron (QIF). The model of QIF subject to white Gaussian noise is abundant in statistical physics, since it not only reasonably reproduces the dynamics of some biological systems but also emerges in the problems of stochastic stability and in quantum mechanics of one-dimensional systems with quenched disorder. We derive the solution for the mean interspike interval of a QIF subject to additive Gaussian noise in terms of analytic functions, from the first passage time problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07714v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>gcat, its_a_scam: modular tools for single cell data processing and per-cellquality control</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-51-gcat-its-a-scam-modular"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.03.764034v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-51-gcat-its-a-scam-modular</id>
-    <updated>2026-11-04T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivation: The era of designing bioinformatic pipelines using open source tools is giving way to monolithic, and often proprietary, tools designed for end-to-end analysis, especially in the context of single cell data. While these tools are convenient for going from sequencing data to an almost complete data analysis &amp;quot;in a few clicks&amp;quot;, they can strongly limit data use beyond standard analyses Results: We developed Gene and Chromosome Analysis Toolkit (gcat) and It&amp;apos;s a scam To Sell Another Single Cell Analysis Method (its_a_scam) for modular processing and quality control of single cell genomic data, freeing users from their reliance on proprietary tools. gcat is a C++ library for parsing genomic data and working with it over genomic coordinates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.03.764034v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Aggregate-Surplus Maximizing Monetary Policy -- by David Baqaee, Ariel Burstein, Joao Guerreiro</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-72-aggregate-surplus-maximizing-monetary-policy"/>
-    <link rel="related" href="https://www.nber.org/papers/w35967#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-72-aggregate-surplus-maximizing-monetary-policy</id>
-    <updated>2026-11-05T12:48:57.415586253+00:00</updated>
-    <summary type="html">&lt;p&gt;We study optimal monetary policy in a general heterogeneous-agent New Keynesian (HANK) economy. Instead of maximizing a social welfare function, the policymaker maximizes the joint surplus of all households, without taking a stance on how that surplus should be distributed. This is the policy that maximizes resources left over if winners from reform were to compensate losers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35967#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #distributed-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Informing research priorities for distributed acoustic sensing: insights from a citizens&apos; panel</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-87-informing-research-priorities-for-distributed"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06584v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-87-informing-research-priorities-for-distributed</id>
-    <updated>2026-11-04T14:39:47+00:00</updated>
-    <summary type="html">&lt;p&gt;This report presents findings from a Citizens&amp;apos; Panel convened by the SOUNDSCALE project (www.soundscale.ac.uk) to inform research priorities for distributed acoustic sensing (DAS). Across three online and in-person workshops, 48 residents from Hampshire and London explored the technology&amp;apos;s potential uses, risks, governance, and societal implications. The report summarises their deliberations and priorities, and reflects on the challenges of involving citizens in early-stage research on an unfamiliar technology.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06584v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
+    <title>Distributed Optimization Involving Non-Lipschitzian, Linear Composite Functions: Unified Algorithm Design and Convergence Analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-85-distributed-optimization-involving-non-lipschitzian"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07703v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-85-distributed-optimization-involving-non-lipschitzian</id>
+    <updated>2026-11-05T09:25:12+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper formulates a generic distributed nonsmooth optimization problem subject to edge-based equality constraints, local inequality constraints characterized by general convex functions, as well as globally coupling constraints including affine equality and nonlinear inequality. The terminal goal is to minimize the sum of local non-differentiable convex functions and proximable nonsmooth convex composite terms attached to linear operators, over networked multi-agent systems. This formulated framework not only applies in complex practical problems but also reduces to existing distributed optimization structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07703v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

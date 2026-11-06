@@ -5,53 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-15-emoreward-self-evolving-reward-calibration"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06518"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-15-emoreward-self-evolving-reward-calibration</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent and can invite reward hacking, while RLHF is difficult to scale and subject to individual aesthetic differences that complicate the calibration of facial, body motion, and chromatic cues across narrative contexts. We introduce EmoReward, a new self-evolving training mechanism that distills evidence reliability from reward traces collected during an actual training run to adaptively guide multi-reward weight allocation in subsequent training by determining which emotional evidence to trust and how much to weight it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06518&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #clean-tech&lt;/p&gt;</summary>
+    <title>Security updates for Thursday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-38-security-updates-for-thursday"/>
+    <link rel="related" href="https://lwn.net/Articles/1105639/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-38-security-updates-for-thursday</id>
+    <updated>2026-11-05T14:11:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), Debian (chromium, git-annex, incus, kernel, and strongswan), Fedora (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105639/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Wednesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-37-security-updates-for-wednesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1105378/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-37-security-updates-for-wednesday</id>
-    <updated>2026-11-04T14:13:24+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), Debian (chromium, git-annex, incus, kernel, and strongswan), Fedora (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105378/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+    <title>Can 23,000 quantum qubits break RSA-2048?. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-28-can-23-000-quantum-qubits"/>
+    <link rel="related" href="https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-28-can-23-000-quantum-qubits</id>
+    <updated>2026-11-05T17:22:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #quantum-computing&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SourceHut disabled registration bypass | CVE-2026-121728. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-41-sourcehut-disabled-registration-bypass-cve"/>
+    <link rel="related" href="https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-41-sourcehut-disabled-registration-bypass-cve</id>
+    <updated>2026-11-05T18:34:41+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-56-your-cryptography-conspiracy-theory-is"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-56-your-cryptography-conspiracy-theory-is"/>
     <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-56-your-cryptography-conspiracy-theory-is</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-56-your-cryptography-conspiracy-theory-is</id>
     <updated>2026-11-04T14:58:11+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A history of backdoors (2015). Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-57-a-history-of-backdoors-2015"/>
-    <link rel="related" href="https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-57-a-history-of-backdoors-2015</id>
-    <updated>2026-11-05T01:53:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography&lt;/p&gt;</summary>
+    <title>SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-43-sensorguard-rv-sensor-to-register"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08380v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-43-sensorguard-rv-sensor-to-register</id>
+    <updated>2026-11-05T17:57:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08380v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Enforcing Accountable Disclosure in Confidential AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-44-enforcing-accountable-disclosure-in-confidential"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05971v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-44-enforcing-accountable-disclosure-in-confidential</id>
-    <updated>2026-11-04T05:05:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Advances in CPU and GPU confidential computing enable confidential AI, allowing LLMs to process user prompts without exposing them to service providers or infrastructure operators. However, AI agents often need to send prompt-derived information to external services, and providers may also require limited disclosure for safety monitoring and failure diagnosis. We propose CORDE, a system for confidential virtual machines (CVMs) designed to satisfy the principle of Confine or Declare: user-derived data is confined by default, but when necessary, it may leave the CVM only after being &amp;quot;declared.&amp;quot; To &amp;quot;declare&amp;quot; data is to record its exact contents, recipient, and stated reason in a user-accessible, tamper-evident declaration log.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05971v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-45-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-45-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
+    <title>Stop Calling Them Provers: The Case for Calling ProVerif and Tamarin Symbolic Protocol Analyzers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-60-stop-calling-them-provers-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2683"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-60-stop-calling-them-provers-the</id>
+    <updated>2026-10-29T12:51:44+00:00</updated>
+    <summary type="html">&lt;p&gt;A claim that a cryptographic protocol has been proved secure depends on the theory, the analysis software, the protocol model, and the security property being checked. I examine each of these for ProVerif and Tamarin. An audit of their published soundness arguments finds false statements, missing proofs, and gaps between the procedures justified on paper and those the tools run.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2683&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

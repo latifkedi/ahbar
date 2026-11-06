@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-13-what-does-multi-turn-reinforcement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06483"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-13-what-does-multi-turn-reinforcement</id>
-    <updated>2026-11-04T08:24:54.000Z</updated>
-    <summary type="html">&lt;p&gt;While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step decision quality; rather, its strength concentrates in error recovery and long-horizon resilience.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06483&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-11-harness-s-learning-from-sibling"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.04277"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-11-harness-s-learning-from-sibling</id>
+    <updated>2026-11-02T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04277&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber. Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-17-introducing-gemini-3-8-flash"/>
-    <link rel="related" href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-17-introducing-gemini-3-8-flash</id>
-    <updated>2026-09-02T16:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/&quot;&gt;Google DeepMind Research Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Towards Foundation Decision Models: Drex</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-18-towards-foundation-decision-models-drex"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07854"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-18-towards-foundation-decision-models-drex</id>
+    <updated>2026-11-04T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, however, they give inconsistent answers, require parsing of outputs, and add cost and latency. Decision models address this: given a question and a set of options supplied by the user, they return a probability distribution over the options without autoregressive decoding.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07854&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Information Elicitation by Ordinal Agreement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-82-information-elicitation-by-ordinal-agreement"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08366v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-82-information-elicitation-by-ordinal-agreement</id>
+    <updated>2026-11-05T17:43:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Ordinal information is central to tasks ranging from conference peer review to Reinforcement Learning from Human Feedback for large language models. In many such settings, there is no objective ground truth against which reports can be directly verified, making incentive-compatible elicitation challenging. Peer-prediction mechanisms have been designed to achieve truthful elicitation despite the lack of ground-truth verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08366v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>

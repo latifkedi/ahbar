@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-logic.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-logic.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
-  <entry>
-    <title>Monadically Dependent Graph Classes Have Almost Bounded Merge-Width</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-19-monadically-dependent-graph-classes-have"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06804v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-19-monadically-dependent-graph-classes-have</id>
-    <updated>2026-11-04T17:20:29+00:00</updated>
-    <summary type="html">&lt;p&gt;A graph class $\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC &amp;apos;25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06804v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
 </feed>

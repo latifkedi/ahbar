@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #18 (2026-11-05)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-05</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-05:issue:18</guid>
-      <pubDate>2026-11-05T12:48:57.182522114+00:00</pubDate>
-      <description>Ahbar Sayı #18 (2026-11-05):
+      <title>Ahbar Günlük Bülten — Sayı #19 (2026-11-06)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-06</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-06:issue:19</guid>
+      <pubDate>2026-11-06T12:34:11.033720465+00:00</pubDate>
+      <description>Ahbar Sayı #19 (2026-11-06):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] JSON için yeni bir Go API&apos;si. Go 1.27, yeni encoding/json/v2 ve encoding/json/jsontext paketlerini sunar.
-Go 1.27, yeni encoding/json/v2 ve encoding/json/jsontext paketlerini sunar.
+1. [Bilgisayar Bilimi &amp; Yazılım] Show HN: Kuşların sesini duyan ve onları 1800&apos;lerden kalma resimler gibi çizen bir e-mürekkep çerçevesi
+Bilgisayar Bilimi ve Yazılımında Show HN (Trend Repoları ve Araçları) aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] Piksellerden Eylemlere - Yerel Vizyon-Dil-Eylem Politikalarına Doğru
-Görme-dil-eylem modelleri genellikle basit bir önerme üzerine kuruludur: algı ilk önce görsel kodlayıcılar tarafından sıkıştırılır ve eylem muhakemesi ancak daha sonra başlar. Ancak manipülasyon genellikle bu soyutlamaya karşı en savunmasız olan görsel sinyallere (örneğin, yerel geometri, sınırlar, derinlik ve ince durum değişiklikleri) dayanır. Bu temel bir soruyu gündeme getiriyor…
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] VFlash: Flash Primitive Decoding ile Hızlı, Doğru Görsel Planlama. Robotik ve otonom sürüş gibi fiziksel yapay zeka görevlerine yönelik modellerin yalnızca dilde akıl yürütmesi gerekmez.
+Robotik ve otonom sürüş gibi fiziksel yapay zeka görevlerine yönelik modellerin yalnızca dilde akıl yürütmesi gerekmez. Uzamsal hedefleri temsil etmek ve hareketi tahmin etmek için görsel planları (noktalar, sınırlayıcı kutular ve yörüngeler) kullanabilirler. Bununla birlikte, otoregresif vizyon dili modelleri bu planları her seferinde bir koordinat jetonu oluşturarak daha zengin tahminlerin artmasını sağlar.
 
-3. [Matematik &amp; Biçimsel Bilimler] Tekli Bağımlı Grafik Sınıfları Neredeyse Sınırlı Birleştirme Genişliğine Sahiptir
-Bir grafik sınıfı $\mathcal{C}$, birinci dereceden mantığın sabit bir formülünü kullanarak $\mathcal{C}$ köşe renkli grafiklerdeki tüm grafikleri yorumlayamıyorsa monadik olarak bağımlıdır. Her monadik bağımlı grafik sınıfının neredeyse sınırlı birleştirme genişliğine sahip olduğunu kanıtladık, böylece ilk ve son yazarın varsayımını doğruladık [STOC &apos;25]. Kanıtımız algoritma…
+3. [Matematik &amp; Biçimsel Bilimler] Følner olmayan diziler aracılığıyla alt toplam fonksiyonların ortalamaları
+$\sup_{φ\inΦ}\limsup_{n\to\infty}φ(F_n)/|F_n|$ miktarını inceliyoruz; burada $\mathcal F= (F_n)_{n\in\mathbb{N}}$ sayılabilir uygun bir grubun sonlu alt kümelerinin bir dizisidir ve $Φ$ alt toplamsal fonksiyonların bir koleksiyonudur. $Φ$ üzerindeki ılıman koşullar altında yukarıda belirtilen miktarın $φ(F)/|F|$ limitinin $φ\inΦ$ üzerindeki üst toplamına eşit olduğunu kanıtlıyoruz:
 
-4. [Fizik, Kuantum &amp; Uzay] Dengesiz Alanı Genişletilmiş İnterferometre için 3D Baskılı Monolitik Optomekanik Şasi
-Eklemeli üretim, optik donanım için karmaşık yapılar üretmeye yönelik bir yaklaşım olarak giderek daha fazla araştırılıyor. Bu çalışmada, lazer toz yataklı füzyon eklemeli imalat kullanılarak üretilen tamamen monolitik bir optomekanik şasi sunuyoruz. Yapı, düşük termal genleşmeli bir alaşım olan termal olarak stabil Invar36&apos;dan üretildi.
+4. [Fizik, Kuantum &amp; Uzay] 23.000 kuantum kübit RSA-2048&apos;i kırabilir mi? Yorumlar
+Yorumlar
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Çarşamba günü için güvenlik güncellemeleri
-Güvenlik güncellemeleri AlmaLinux (bind,bind9.16, firefox, freerdp, hayaletscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat vewireshark), Debian (chromium, git-annex, incus, kernel ve Strongswan), Fedora (barman, erlang-hex_core, glib-ağ iletişimi, çekirdek, düğüm, liblerc, libsoup3, mingw-cfitsio…
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] MS Paint&apos;te Uzaktan Kod Yürütme Güvenlik Açığı
+Sistemler, Donanım ve Uygulamalı Teknoloji alanında Hacker News aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] Merck/Moderna Sonuçları
-Bu, bir biyofarma haberini borsaya değil bilime dayalı olarak değerlendirmeniz gereken zamanlardan biridir ve çoktur. Merck ve Moderna&apos;nın melanom hastalarında ameliyat sonrası aşı (intismeran otojen)/Keytruda kombinasyonu için dün yayınladığı klinik araştırma verilerine atıfta bulunuyorum. Bu muhtemelen &quot;serbest bırakma&quot; şeklinde olmalıdır.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] MUSS: Tek Hücreli Gen Düzenlemesi için Çok Ölçekli ve Dizi Tabanlı Bir Model
+Tek hücrelerde gen düzenlemesinin modellenmesi, düzenleyici ölçeklerde DNA dizisinin, kromatin erişilebilirliğinin ve gen ifadesinin ortaklaşa temsil edilmesini gerektirir. Dizi bazlı modeller, DNA düzeyinde düzenleyici dilbilgisini yakalar ancak çoğu zaman hücre düzeyinde çözünürlükten yoksundur; oysa birçok tek hücreli omic modeli, genleri ve zirveleri, belirli bir anlam olmadan sabit sözcük belirteçleri olarak temsil eder.
 
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Kısıtlı Ağırlıklı Ağ Oyunlarında Kararlılık ve Mükemmellik
-Ajanların, fizibilite kısıtlamalarıyla karşı karşıya kalırken koalisyon etkileşimleri arasında kaynakları tahsis ettiği, kısıtlı ağırlıklı ağ oluşumunun genel bir çerçevesini sunuyoruz. Daha doğrusu, keyfi aktör koalisyonlarına sürekli bir ağırlık verilmesine izin veriyoruz ve hem koalisyon kapasitesi kısıtlamalarını hem de bireysel bütçe kısıtlamalarını bir araya getiriyoruz…
+8. [Ekonomi, Finans &amp; Makro Analiz] $3$-uzak dışbükey oyunların çekirdekleri. Dışbükey işbirlikçi oyunlar boş olmayan bir çekirdeğe sahiptir ve çekirdek tahsislerinin verimli bir şekilde oluşturulmasına izin verir.
+Dışbükey işbirlikçi oyunlar boş olmayan bir çekirdeğe sahiptir ve çekirdek tahsislerinin verimli bir şekilde oluşturulmasına izin verir. Ancak ekonomik olarak doğal yerel sürtünmeler dışbükeyliği ihlal edebilir. Yalnızca yakın ilişkili koalisyonlar arasında dışbükeylik ihlallerine izin veren $3$-uzak dışbükey oyunların çekirdeğini inceliyoruz.
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Yeni Kongre Sivil-Asker İlişkilerini Onarabilir. Hegseth&apos;in üst düzey yöneticilere yönelik saldırısı nasıl köreltilir?
-Hegseth&apos;in üst düzey yöneticilere yönelik saldırısı nasıl köreltilir?
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Gücün Gerçek Anlamı. Gerçekçiliğin vaftiz babası Trump&apos;a neler öğretebilir?
+Gerçekçiliğin vaftiz babası Trump&apos;a neler öğretebilir?
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Zengin Kulübü ne kadar zengin? Karmaşık Ağlarda Süper Zengin Kulüp Organizasyonu
-Zengin kulüp katsayısı, karmaşık ağlarda, giderek daha yüksek dereceli düğümlerin şans eseri beklenenden daha yoğun bir şekilde bağlanma eğilimini ölçmek için kullanılır. Ancak çekirdeğe doğru yüksek dereceli düğümlerin aslında orijinal ağdan daha fazla birbirine bağlı olup olmadığını tespit edemiyor. Burada zengin kulüp katsayısını ortaklaşa analiz ediyoruz ve …
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Sıralı Anlaşma Yoluyla Bilgi Elde Etme
+Sıralı bilgiler, konferans akran incelemesinden büyük dil modelleri için İnsan Geri Bildiriminden Takviyeli Öğrenmeye kadar uzanan görevlerin merkezinde yer alır. Bu tür ortamların çoğunda, raporların doğrudan doğrulanabileceği nesnel bir temel gerçek yoktur, bu da teşviklerle uyumlu çıkarımı zorlaştırır. Akran tahmin mekanizmaları şu amaçlara ulaşmak için tasarlanmıştır:
 
 </description>
       <itunes:duration>300</itunes:duration>

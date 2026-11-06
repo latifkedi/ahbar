@@ -5,77 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
+  <entry>
+    <title>Security updates for Thursday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-38-security-updates-for-thursday"/>
+    <link rel="related" href="https://lwn.net/Articles/1105639/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-38-security-updates-for-thursday</id>
+    <updated>2026-11-05T14:11:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), Debian (chromium, git-annex, incus, kernel, and strongswan), Fedora (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105639/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-56-your-cryptography-conspiracy-theory-is"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-56-your-cryptography-conspiracy-theory-is"/>
     <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-56-your-cryptography-conspiracy-theory-is</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-56-your-cryptography-conspiracy-theory-is</id>
     <updated>2026-11-04T14:58:11+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Using topology to reveal all mutually unbiased bases in dimension six. Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-20-using-topology-to-reveal-all"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06917v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-20-using-topology-to-reveal-all</id>
-    <updated>2026-11-04T18:59:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others. In dimension six, triples of MUBs are known, but whether a fourth basis could exist remained unresolved for over three decades. OpenAI recently reported a proof that none exists.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06917v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Conformal field theory from automorphic forms on a quantum group. We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-21-conformal-field-theory-from-automorphic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06907v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-21-conformal-field-theory-from-automorphic</id>
-    <updated>2026-11-04T18:55:13+00:00</updated>
-    <summary type="html">&lt;p&gt;We reformulate two-dimensional conformal field theory (2d CFT) in the language of noncommutative geometry. To this end, we introduce automorphic forms for the von Neumann algebraic quantum group $\mathrm{SL}^+_b(2,\mathbb{R})$. A quantum measure space is a von Neumann algebra equipped with a weight.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06907v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The full Kolakoski shift is topologically transitive</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-22-the-full-kolakoski-shift-is"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06878v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-22-the-full-kolakoski-shift-is</id>
-    <updated>2026-11-04T18:35:23+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove that the full Kolakoski shift---namely, the subshift of all smooth sequences over the alphabet $\{1,2\}$---is topologically transitive. Consequently, we demonstrate the existence of a smooth sequence whose factors are invariant under both reversal and bitwise complementation. As a further application, we prove the existence of arbitrarily long smooth words containing an equal number of occurrences of the symbols $1$ and $2$, providing evidence in support of Keane&amp;apos;s conjecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06878v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Matching Random Point Sets with Minimum Distortion. How well can two independent random samples from a metric measure space be matched while preserving pairwise distances?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-23-matching-random-point-sets-with"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06845v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-23-matching-random-point-sets-with</id>
-    <updated>2026-11-04T18:02:57+00:00</updated>
-    <summary type="html">&lt;p&gt;How well can two independent random samples from a metric measure space be matched while preserving pairwise distances? Concretely, given two independent copies, each of $n$ points sampled from the space, what is their typical metric distortion as finite $n$-point metric spaces? We prove that the space $[0,1]$ equipped with the uniform measure already exhibits a rich behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06845v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Finding full immersions is fixed-parameter tractable in labeled tour graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-35-finding-full-immersions-is-fixed"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06776v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-35-finding-full-immersions-is-fixed</id>
-    <updated>2026-11-04T16:52:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and &amp;quot;splitting off&amp;quot; both pairs, summing the labels within each pair.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06776v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>Averages of sub-additive functions through non-Følner sequences</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-19-averages-of-sub-additive-functions"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08408v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-19-averages-of-sub-additive-functions</id>
+    <updated>2026-11-05T18:14:40+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the quantity $\sup_{φ\inΦ}\limsup_{n\to\infty}φ(F_n)/|F_n|$, where $\mathcal F= (F_n)_{n\in\mathbb{N}}$ is a sequence of finite subsets of a countable amenable group, and $Φ$ is a collection of subadditive functions. Under mild conditions on $Φ$ we prove that the aforementioned quantity equals the supremum over $φ\inΦ$ of the limit of $φ(F)/|F|$ as $F$ becomes more and more invariant, multiplied by a ``Følnerness&amp;apos;&amp;apos; constant $C(\mathcal F)\in[1,\infty]$. We have $C(\mathcal F)=1$ if and only if $\mathcal F$ is Følner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08408v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-65-cosmosalpha-multi-relational-graph-search"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-68-cosmosalpha-multi-relational-graph-search"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-65-cosmosalpha-multi-relational-graph-search</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-68-cosmosalpha-multi-relational-graph-search</id>
     <updated>2026-11-03T09:22:52+00:00</updated>
     <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>How Rich is the Rich-Club? Super Rich-Club Organization in Complex Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-82-how-rich-is-the-rich"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06756v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-82-how-rich-is-the-rich</id>
-    <updated>2026-11-04T16:34:56+00:00</updated>
-    <summary type="html">&lt;p&gt;The rich-club coefficient is used in complex networks to quantify the tendency of progressively higher-degree nodes to be more densely connected than expected by chance. However, it does not capture whether high degree nodes towards the core are actually more interconnected than the original network. Here, we jointly analyze the rich-club coefficient and an enrichment coefficient, which quantifies whether the internal average degree of progressively higher-degree subgraphs is greater than that of the original network, despite the decreasing number of nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06756v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
+    <title>Stop Calling Them Provers: The Case for Calling ProVerif and Tamarin Symbolic Protocol Analyzers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-60-stop-calling-them-provers-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2683"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-60-stop-calling-them-provers-the</id>
+    <updated>2026-10-29T12:51:44+00:00</updated>
+    <summary type="html">&lt;p&gt;A claim that a cryptographic protocol has been proved secure depends on the theory, the analysis software, the protocol model, and the security property being checked. I examine each of these for ProVerif and Tamarin. An audit of their published soundness arguments finds false statements, missing proofs, and gaps between the procedures justified on paper and those the tools run.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2683&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

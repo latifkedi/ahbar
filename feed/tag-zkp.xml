@@ -5,61 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-58-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-58-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-58-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-58-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Catastrophic Overfitting is Weight Drift the Training Loss Cannot See</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-59-catastrophic-overfitting-is-weight-drift"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06082v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-59-catastrophic-overfitting-is-weight-drift</id>
-    <updated>2026-11-04T07:23:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Fast adversarial training (FAT) makes robust training affordable by replacing the multi-step attack with a single-step one, but it suffers from catastrophic overfitting (CO): partway through training, robustness to multi-step attacks collapses to near zero while the single-step attack used for training keeps being repelled. We show that CO is a quiet escape of the weights. Across the event the network&amp;apos;s clean behavior quietly improves, and moving from the weights just before CO to those just after it changes the training objective only marginally while destroying most of the robustness.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06082v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory&lt;/p&gt;</summary>
+    <title>Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-59-beyond-instruction-override-benchmarking-indirect"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07640v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-59-beyond-instruction-override-benchmarking-indirect</id>
+    <updated>2026-11-05T08:25:27+00:00</updated>
+    <summary type="html">&lt;p&gt;Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer&amp;apos;s dispute evidence can cite a false refund policy to inflate a refund without changing the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07640v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Rotom: A Microcontroller-Oriented Tweakable Block Cipher Using Modular Multiplication (Full Version)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-60-rotom-a-microcontroller-oriented-tweakable"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2693"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-60-rotom-a-microcontroller-oriented-tweakable</id>
-    <updated>2026-10-30T09:22:50+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose Rotom, a family of 128-bit tweakable block ciphers designed for efficient software implementation on 32-bit microcontrollers. The central design idea is to use modular multiplication as a compact and software-efficient source of strong nonlinearity. Rotom instantiates this idea with a fixed 16-bit S-box built from odd constant multiplication modulo $2^{16}$ interleaved with lightweight linear maps, and combines it with a software-friendly recursive linear layer over four 32-bit words, a compact tweakey schedule, and modular-addition boundary key mixing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2693&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Stop Calling Them Provers: The Case for Calling ProVerif and Tamarin Symbolic Protocol Analyzers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-60-stop-calling-them-provers-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2683"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-60-stop-calling-them-provers-the</id>
+    <updated>2026-10-29T12:51:44+00:00</updated>
+    <summary type="html">&lt;p&gt;A claim that a cryptographic protocol has been proved secure depends on the theory, the analysis software, the protocol model, and the security property being checked. I examine each of these for ProVerif and Tamarin. An audit of their published soundness arguments finds false statements, missing proofs, and gaps between the procedures justified on paper and those the tools run.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2683&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Practical Optimal Bucket Sets with Power-of-Two Radices for LFG-Based MSM Algorithms</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-61-practical-optimal-bucket-sets-with"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-61-practical-optimal-bucket-sets-with"/>
     <link rel="related" href="https://eprint.iacr.org/2026/2750"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-61-practical-optimal-bucket-sets-with</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-61-practical-optimal-bucket-sets-with</id>
     <updated>2026-11-03T18:49:49+00:00</updated>
     <summary type="html">&lt;p&gt;Fixed point multi-scalar multiplication (MSM) is a major computational component of pairing-based SNARK proof generation. The Luo--Fu--Gong (LFG) framework is a variant of Pippenger&amp;apos;s bucket method that uses a multiplier set $M$ and precomputed point multiples to reduce the number of buckets and online point additions. For radix $q$ and a positive multiplier set $M$, covering all digit residues requires a bucket set of size at least $q/(2|M|)$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2750&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LAMP: Linear Verification of Matrix Multiplication via Proximity Testing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-62-lamp-linear-verification-of-matrix"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1571"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-62-lamp-linear-verification-of-matrix</id>
-    <updated>2026-07-31T10:02:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization of a $k \times k$ product requires $\mathcal{O}(k^3)$ constraints. Freivalds&amp;apos; randomized check reduces the algebraic computation to vector-matrix products, but proving those products inside a SNARK still costs $\mathcal{O}(k^2)$ constraints. We present LAMP, a matrix-multiplication checking protocol that combines Freivalds&amp;apos; randomized check with proximity testing over linear error-correcting codes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1571&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>MuCPay: Breaking the Quadratic Bottleneck in Scriptless Multi-Party Oracle-Based Conditional Payments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-62-mucpay-breaking-the-quadratic-bottleneck"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2732"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-62-mucpay-breaking-the-quadratic-bottleneck</id>
+    <updated>2026-11-03T06:48:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Oracle-based conditional payments triggered by real-world events support decentralized finance applications. However, dense independent bilateral deployments require $\Theta(Nn^2)$ outcome authorizations and $\Theta(n^2)$ settlement signatures for $n$ parties and $N$ outcomes. To go beyond two-party settings, we propose MuCPay, a multi-party oracle-based conditional payment protocol combining (i) $\Theta(Nn)$ off-chain signing shares with one on-chain settlement signature and (ii) BIP340-compatible scriptless settlement on Bitcoin.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2732&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Bounded Information: PAC Certification of Multivariate Side-Channel Traces. Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-63-bounded-information-pac-certification-of"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1990"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-63-bounded-information-pac-certification-of</id>
-    <updated>2026-09-12T10:16:29+00:00</updated>
-    <summary type="html">&lt;p&gt;Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed leakage. Existing information-theoretic estimators, such as perceived information (PI), hypothetical information (HI), and nonparametric mutual information (MI), aim to quantify distributional leakage, but they become unstable in high-dimensional traces and do not provide a finite-sample certificate of the best attacker. We introduce \emph{Bounded Information} (BI), a probably approximately correct (PAC)-style finite-sample certification method that upper-bounds the exact-recovery success of a fixed attacker scope on unseen traces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1990&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Fully Homomorphic Encryption: A Mathematical Introduction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-63-fully-homomorphic-encryption-a-mathematical"/>
+    <link rel="related" href="https://eprint.iacr.org/2023/1402"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-63-fully-homomorphic-encryption-a-mathematical</id>
+    <updated>2023-09-18T15:13:27+00:00</updated>
+    <summary type="html">&lt;p&gt;We provide a mathematical introduction to fully homomorphic encryption (FHE), which enables computations to be performed on encrypted data without requiring decryption. We begin with a brief overview of the historical development of FHE, then focus on Fully Homomorphic Encryption over the Torus (TFHE), describing its underlying mathematical structure and fundamental homomorphic operations. Particular attention is given to key switching and bootstrapping, including their roles in managing ciphertext noise and supporting computations of greater depth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1402&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

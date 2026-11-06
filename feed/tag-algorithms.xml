@@ -5,45 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>Monadically Dependent Graph Classes Have Almost Bounded Merge-Width</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-19-monadically-dependent-graph-classes-have"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06804v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-19-monadically-dependent-graph-classes-have</id>
-    <updated>2026-11-04T17:20:29+00:00</updated>
-    <summary type="html">&lt;p&gt;A graph class $\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC &amp;apos;25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06804v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
+    <title>Polynomial-time classical simulation of boson and fermion sampling under thermal loss</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-33-polynomial-time-classical-simulation-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08444v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-33-polynomial-time-classical-simulation-of</id>
+    <updated>2026-11-05T18:36:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Sampling experiments are a leading approach to demonstrating quantum computational advantage, yet their robustness to experimental noise is not completely understood. We develop a common framework for classical simulation of boson and fermion sampling under thermal loss, including pure loss. For Fock-state boson sampling, Gaussian boson sampling with fixed uniform squeezing, and fermion sampling with magic inputs, we obtain polynomial-time sampling at inverse-polynomial total variation error, for any fixed nonzero overall loss rate, and with high probability over Haar-random interferometers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08444v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #optics-photonics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-28-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-29-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-28-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-29-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Finding full immersions is fixed-parameter tractable in labeled tour graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-35-finding-full-immersions-is-fixed"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06776v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-35-finding-full-immersions-is-fixed</id>
-    <updated>2026-11-04T16:52:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and &amp;quot;splitting off&amp;quot; both pairs, summing the labels within each pair.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06776v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A Quantum Lower Bound for Triangle Finding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-36-a-quantum-lower-bound-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06751v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-36-a-quantum-lower-bound-for</id>
-    <updated>2026-11-04T16:27:34+00:00</updated>
-    <summary type="html">&lt;p&gt;Triangle finding is a fundamental problem in graph theory that has played a central role in the development of quantum algorithmic techniques. For $N$-vertex graphs given by their adjacency matrices, a long line of work has improved the quantum query upper bound from $O(N^{3/2})$ to $O(N^{5/4})$. However, the best known lower bound has remained the elementary $Ω(N)$ bound obtained from unstructured search.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06751v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Competitive Equilibrium for Linear Chores is CLS-complete. The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-86-competitive-equilibrium-for-linear-chores"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06589v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-86-competitive-equilibrium-for-linear-chores</id>
-    <updated>2026-11-04T14:43:37+00:00</updated>
-    <summary type="html">&lt;p&gt;The competitive equilibrium (CE) is a fundamental concept for markets, with applications to efficient and fair allocation of resources. We consider the fundamental question of computing a CE in the most basic Fisher market model where agents have linear preferences. While it is known that we can compute a CE in strongly polynomial time with linear goods, there is no known polynomial-time algorithm for CE with linear chores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06589v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

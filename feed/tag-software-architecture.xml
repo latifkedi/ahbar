@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
-    <title>A new Go API for JSON. Go 1.27 introduces new encoding/json/v2 and encoding/json/jsontext packages.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-02-a-new-go-api-for"/>
-    <link rel="related" href="https://go.dev/blog/jsonv2"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-02-a-new-go-api-for</id>
-    <updated>2026-11-04T17:52:11Z</updated>
-    <summary type="html">&lt;p&gt;Go 1.27 introduces new encoding/json/v2 and encoding/json/jsontext packages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://go.dev/blog/jsonv2&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Claude Code sends your email address to websites</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-03-claude-code-sends-your-email"/>
+    <link rel="related" href="https://github.com/anthropics/claude-code/issues/107757"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-03-claude-code-sends-your-email</id>
+    <updated>2026-11-05T22:17:15Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/anthropics/claude-code/issues/107757&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Residential proxies detected on White House network. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-04-residential-proxies-detected-on-white"/>
-    <link rel="related" href="https://layer3intel.com/blog/residential-proxies-white-house-network"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-04-residential-proxies-detected-on-white</id>
-    <updated>2026-11-04T20:45:18Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://layer3intel.com/blog/residential-proxies-white-house-network&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>MS Paint Remote Code Execution Vulnerability</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-37-ms-paint-remote-code-execution"/>
+    <link rel="related" href="https://www.cve.org/CVERecord?id=CVE-2026-83844"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-37-ms-paint-remote-code-execution</id>
+    <updated>2026-11-05T20:43:42Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-83844&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Kimi K3.1 Pro model weights are out</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-16-kimi-k3-1-pro-model"/>
-    <link rel="related" href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-16-kimi-k3-1-pro-model</id>
-    <updated>2026-11-04T15:30:30Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://huggingface.co/moonshotai/Kimi-K3.1-Pro&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-57-sok-post-quantum-cryptography-pqc"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08442v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-57-sok-post-quantum-cryptography-pqc</id>
+    <updated>2026-11-05T18:34:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #software-architecture #cryptography&lt;/p&gt;</summary>
   </entry>
 </feed>

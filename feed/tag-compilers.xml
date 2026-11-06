@@ -5,61 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-05T12:48:57.182522114+00:00</updated>
-  <entry>
-    <title>Monadically Dependent Graph Classes Have Almost Bounded Merge-Width</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-19-monadically-dependent-graph-classes-have"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06804v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-19-monadically-dependent-graph-classes-have</id>
-    <updated>2026-11-04T17:20:29+00:00</updated>
-    <summary type="html">&lt;p&gt;A graph class $\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC &amp;apos;25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06804v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PIMROP: A Feasibility Study of Return-Oriented Programming on Commercial Processing-in-Memory Architectures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-40-pimrop-a-feasibility-study-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06036v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-40-pimrop-a-feasibility-study-of</id>
-    <updated>2026-11-04T06:41:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Processing-in-Memory places small programmable cores on the memory device, where they execute beside the DRAM banks and beyond the control-flow defenses that protect host programs. The security of this in-memory code is an attack surface that remains largely unstudied. We present PIMROP, to our knowledge the first demonstrated code-reuse attack on a commercial Processing in-Memory ISA.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06036v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #compilers&lt;/p&gt;</summary>
+    <title>Can 23,000 quantum qubits break RSA-2048?. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-28-can-23-000-quantum-qubits"/>
+    <link rel="related" href="https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-28-can-23-000-quantum-qubits</id>
+    <updated>2026-11-05T17:22:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #quantum-computing&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SourceHut disabled registration bypass | CVE-2026-121728. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-41-sourcehut-disabled-registration-bypass-cve"/>
+    <link rel="related" href="https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-41-sourcehut-disabled-registration-bypass-cve</id>
+    <updated>2026-11-05T18:34:41+00:00</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-56-your-cryptography-conspiracy-theory-is"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-56-your-cryptography-conspiracy-theory-is"/>
     <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-56-your-cryptography-conspiracy-theory-is</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-56-your-cryptography-conspiracy-theory-is</id>
     <updated>2026-11-04T14:58:11+00:00</updated>
     <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A history of backdoors (2015). Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-57-a-history-of-backdoors-2015"/>
-    <link rel="related" href="https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-57-a-history-of-backdoors-2015</id>
-    <updated>2026-11-05T01:53:17+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Finding full immersions is fixed-parameter tractable in labeled tour graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-35-finding-full-immersions-is-fixed"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06776v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-35-finding-full-immersions-is-fixed</id>
-    <updated>2026-11-04T16:52:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and &amp;quot;splitting off&amp;quot; both pairs, summing the labels within each pair.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06776v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A Quantum Lower Bound for Triangle Finding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-05-36-a-quantum-lower-bound-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06751v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-05-36-a-quantum-lower-bound-for</id>
-    <updated>2026-11-04T16:27:34+00:00</updated>
-    <summary type="html">&lt;p&gt;Triangle finding is a fundamental problem in graph theory that has played a central role in the development of quantum algorithmic techniques. For $N$-vertex graphs given by their adjacency matrices, a long line of work has improved the quantum query upper bound from $O(N^{3/2})$ to $O(N^{5/4})$. However, the best known lower bound has remained the elementary $Ω(N)$ bound obtained from unstructured search.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06751v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
+    <title>SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-57-sok-post-quantum-cryptography-pqc"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08442v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-57-sok-post-quantum-cryptography-pqc</id>
+    <updated>2026-11-05T18:34:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #software-architecture #cryptography&lt;/p&gt;</summary>
   </entry>
 </feed>
