@@ -5,20 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
-  <entry>
-    <title>D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-15-d3d-decoupled-diffusion-drafting-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06425"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-15-d3d-decoupled-diffusion-drafting-for</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter that removes this inter-round dependency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06425&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
   <entry>
     <title>Solvable macroscopic models for populations of type I excitability neurons with Gaussian noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-84-solvable-macroscopic-models-for-populations"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-84-solvable-macroscopic-models-for-populations"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07714v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-84-solvable-macroscopic-models-for-populations</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-84-solvable-macroscopic-models-for-populations</id>
     <updated>2026-11-05T09:32:22+00:00</updated>
     <summary type="html">&lt;p&gt;The dynamics of type I excitability neurons near the bifurcation point are governed by the model of quadratic integrate-and-fire neuron (QIF). The model of QIF subject to white Gaussian noise is abundant in statistical physics, since it not only reasonably reproduces the dynamics of some biological systems but also emerges in the problems of stochastic stability and in quantum mechanics of one-dimensional systems with quenched disorder. We derive the solution for the mean interspike interval of a QIF subject to additive Gaussian noise in terms of analytic functions, from the first passage time problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07714v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #clean-tech&lt;/p&gt;</summary>
   </entry>

@@ -5,20 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
   <entry>
     <title>Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-14-decoupled-predictive-decision-making-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-15-decoupled-predictive-decision-making-a"/>
     <link rel="related" href="https://arxiv.org/abs/2611.02075"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-14-decoupled-predictive-decision-making-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-15-decoupled-predictive-decision-making-a</id>
     <updated>2026-10-31T20:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02075&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Bioprocess Modeling Made Easy With Hybrax</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-50-bioprocess-modeling-made-easy-with"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764695v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-50-bioprocess-modeling-made-easy-with</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Hybrid models that embed neural networks in ordinary differential equations are increasingly popular in bioprocess modeling, but they are challenging to set up. Much of the effort goes into the code around the model: wet-lab data must be imported and pre-processed, feeds and sampling must be accounted for in the balance equations, and a training loop with cross-validation must be set up. Researchers usually write this code from scratch for each project.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764695v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-53-scalable-physical-deep-learning-using"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-53-scalable-physical-deep-learning-using"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-53-scalable-physical-deep-learning-using</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-53-scalable-physical-deep-learning-using</id>
     <updated>2026-11-05T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
   </entry>

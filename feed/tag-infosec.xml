@@ -5,53 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
   <entry>
     <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding. Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-10-vflash-fast-accurate-visual-planning"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-10-vflash-fast-accurate-visual-planning"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08449"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-10-vflash-fast-accurate-visual-planning</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-10-vflash-fast-accurate-visual-planning</id>
     <updated>2026-11-04T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08449&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MS Paint Remote Code Execution Vulnerability</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-37-ms-paint-remote-code-execution"/>
-    <link rel="related" href="https://www.cve.org/CVERecord?id=CVE-2026-83844"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-37-ms-paint-remote-code-execution</id>
-    <updated>2026-11-05T20:43:42Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-83844&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
+    <title>SLA: Scaling Spatial-Language-Action Model via Continual Pre-training. Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-16-sla-scaling-spatial-language-action"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08373"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-16-sla-scaling-spatial-language-action</id>
+    <updated>2026-11-04T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08373&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SourceHut disabled registration bypass | CVE-2026-121728. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-41-sourcehut-disabled-registration-bypass-cve"/>
-    <link rel="related" href="https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-41-sourcehut-disabled-registration-bypass-cve</id>
-    <updated>2026-11-05T18:34:41+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec&lt;/p&gt;</summary>
+    <title>On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-18-on-the-opportunities-and-challenges"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06976"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-18-on-the-opportunities-and-challenges</id>
+    <updated>2026-11-04T08:33:47.000Z</updated>
+    <summary type="html">&lt;p&gt;Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model&amp;apos;s prompt representations with a smaller model&amp;apos;s efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the receiver benefits from the sender&amp;apos;s information. We introduce PLatour, an open-source PACT framework that connects frozen models through lightweight, zero-initialized linear bridges trained directly with task rewards and supports hybrid-attention architectures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06976&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-42-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-40-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-42-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-40-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>FoldAbS: Repurposing the Protein Folding Model as a Foundation Encoder for Antibody Screening</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-52-foldabs-repurposing-the-protein-folding"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-52-foldabs-repurposing-the-protein-folding</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Therapeutic antibody screening requires prioritizing antibody candidates across specificity, affinity, and developability. Current pipelines typically silo these objectives and underuse structural information that governs antibody-antigen recognition. To address these inefficacies, we introduce FoldAbS, a unified supervised screening framework that reconceptualizes protein folding models as frozen foundation encoders, exploiting their internal representations to capture rich sequence, geometric, and interaction dynamics well beyond basic structure prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #infosec&lt;/p&gt;</summary>
+    <title>Toward space-optimal approximate colored indexes at scale. Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-48-toward-space-optimal-approximate-colored"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-48-toward-space-optimal-approximate-colored</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput. Although exact colored indexes retain complete sequence information, their construction and storage costs can become substantial for highly diverse collections. Indexes based on approximate membership query (AMQ) filters offer a compact alternative with fast construction and queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Package managers have an integrity problem</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-44-package-managers-have-an-integrity"/>
+    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-44-package-managers-have-an-integrity</id>
+    <updated>2026-10-14T11:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Unraveling the Cobweb of Global Imbalances: Drivers, Vulnerabilities and Adjustment Scenarios -- by Stefan Avdjiev, Kristin Forbes, Tsvetelina Nenova, Marjorie Santos</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-70-unraveling-the-cobweb-of-global"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-70-unraveling-the-cobweb-of-global"/>
     <link rel="related" href="https://www.nber.org/papers/w35962#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-70-unraveling-the-cobweb-of-global</id>
-    <updated>2026-11-06T12:34:11.316693164+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-70-unraveling-the-cobweb-of-global</id>
+    <updated>2026-11-07T11:23:37.579714440+00:00</updated>
     <summary type="html">&lt;p&gt;This paper analyses the evolution and drivers of the stock of global imbalances in order to assess associated vulnerabilities and potential adjustment scenarios. These imbalances have recently increased sharply, with a deterioration in the US net international investment position (NIIP) mirrored by NIIP improvements in most other major economies. We decompose these NIIP changes into their proximate drivers for a sample of 28 economies and find that financial factors (including valuation changes and investment income flows) are the primary drivers of global imbalances at both short and long horizons, while trade also plays a significant role (especially at long horizons).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35962#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

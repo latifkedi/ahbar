@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
-  <entry>
-    <title>D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-15-d3d-decoupled-diffusion-drafting-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06425"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-15-d3d-decoupled-diffusion-drafting-for</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter that removes this inter-round dependency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06425&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
 </feed>

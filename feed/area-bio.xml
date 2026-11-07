@@ -5,76 +5,76 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
   <entry>
     <title>MUSS: A Multi-scale and Sequence-based Model for Single-cell Gene Regulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-46-muss-a-multi-scale-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-46-muss-a-multi-scale-and"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08086v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-46-muss-a-multi-scale-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-46-muss-a-multi-scale-and</id>
     <updated>2026-11-05T14:34:07+00:00</updated>
     <summary type="html">&lt;p&gt;Modeling gene regulation in single cells requires jointly representing DNA sequence, chromatin accessibility, and gene expression across regulatory scales. Sequence-based models capture DNA-level regulatory grammar but often lack cell-level resolution, whereas many single-cell omics models represent genes and peaks as fixed-vocabulary tokens without their underlying sequence. Here, we present MUSS, a sequence-based multi-scale model for single-cell gene regulation that preserves both DNA-level and cell-level resolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08086v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LinearRaccess: linear-time approximation of RNA accessibility without base-pair span limits</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-47-linearraccess-linear-time-approximation-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.764167v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-47-linearraccess-linear-time-approximation-of</id>
+    <title>Somatic Structural Variant Discovery from Tumor Specific Strings Computed Against a Draft Composite Germline Reference</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-47-somatic-structural-variant-discovery-from"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.06.764802v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-47-somatic-structural-variant-discovery-from</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivation: RNA accessibility is the probability that every nucleotide in a contiguous interval is simultaneously unpaired; it is widely used to predict binding sites for RNA-binding proteins and other RNA-RNA interactions, often in the form of the opening energy, an equivalent measure on a logarithmic scale. Existing tools restrict the maximum base-pair span, discarding long-range base pairs that matter biologically. Others sample structures, introducing statistical variance, or compute accessibility exactly without a span limit, at cubic time cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.764167v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Somatic structural variants (SVs) are among the most clinically relevant genomic alterations in cancer. However, their accurate detection remains challenging due to complex genomic rearrangements, repetitive genomic regions, difficulties in distinguishing somatic variants from germline variation and sequencing artifacts, and limited sequencing support for low-frequency events. Existing mapping-based somatic SV callers are susceptible to alignment ambiguities in repetitive regions and near complex SV breakpoints, while approaches relying on comparisons of independently generated tumor and normal variant callsets may propagate errors from both callsets.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.06.764802v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Learning Strand-Equivariant Tokenizations of DNA with MirrorDNA. DNA has two strands, and for most regulatory label prediction tasks a sequence and its reverse complement should get same answer.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-48-learning-strand-equivariant-tokenizations-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.764207v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-48-learning-strand-equivariant-tokenizations-of</id>
+    <title>Toward space-optimal approximate colored indexes at scale. Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-48-toward-space-optimal-approximate-colored"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-48-toward-space-optimal-approximate-colored</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;DNA has two strands, and for most regulatory label prediction tasks a sequence and its reverse complement should get same answer. Yet DNA language models are tokenized, trained and tested on one strand at a time. We show that this makes them inconsistent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.764207v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput. Although exact colored indexes retain complete sequence information, their construction and storage costs can become substantial for highly diverse collections. Indexes based on approximate membership query (AMQ) filters offer a compact alternative with fast construction and queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>European LD proxies lose tagging for 43% of GWAS leads in the African panel: a chromosome 22 analysis with SwiftLD, an 826-fold faster, byte-identical vcftools LD</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-49-european-ld-proxies-lose-tagging"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.760946v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-49-european-ld-proxies-lose-tagging</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;SwiftLD is a drop-in replacement for the pairwise linkage disequilibrium (LD) modes of vcftools 0.1.17, --hap-r2 and --geno-r2, which population-genetic pipelines use to compute r2, D and D&amp;apos; between nearby variants. On three regions of 1000 Genomes chromosome 22 with 503 to 2,504 samples it wrote the same output as vcftools, byte for byte, and was 826-fold faster (geometric mean at two threads on an AVX-512 CPU). It was also 7.6-fold faster than PLINK 2, the fastest alternative, from VCF input to LD output on all five regions tested; PLINK 2 writes a different file, although its r2 values agree with vcftools&amp;apos; within 10^-6.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.760946v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #agents&lt;/p&gt;</summary>
+    <title>scCircaSim: A Circadian Simulator for Single-Cell and Spatial Transcriptomics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-49-sccircasim-a-circadian-simulator-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764753v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-49-sccircasim-a-circadian-simulator-for</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Simulated single-cell and spatial transcriptomic datasets that capture circadian dynamics while providing known ground truth remain scarce, limiting systematic evaluation of circadian analysis methods. Results: We developed scCircaSim to generate circadian single-cell and spatial transcriptomic data from a single-time-point reference. The framework combines phase progression with reference-derived network propagation of anchor gene rhythms and incorporates neighborhood effects for spatial simulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764753v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-50-protify-a-benchmarking-platform-revealing"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.764373v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-50-protify-a-benchmarking-platform-revealing</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Protein Language Models (pLMs) have become essential tools for computational protein analysis, and the rapid proliferation of architectures, training objectives, and pretraining corpora has produced a diverse and expanding model landscape. Evaluation practices, however, remain fragmented: studies use different datasets, preprocessing pipelines, and reporting conventions, so results rarely transfer between publications. Here we introduce Protify, an open-source platform that standardizes pLM benchmarking across zero-shot, supervised, and transferlearning settings through a unified, low-code interface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.764373v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Bioprocess Modeling Made Easy With Hybrax</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-50-bioprocess-modeling-made-easy-with"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764695v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-50-bioprocess-modeling-made-easy-with</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Hybrid models that embed neural networks in ordinary differential equations are increasingly popular in bioprocess modeling, but they are challenging to set up. Much of the effort goes into the code around the model: wet-lab data must be imported and pre-processed, feeds and sampling must be accounted for in the balance equations, and a training loop with cross-validation must be set up. Researchers usually write this code from scratch for each project.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764695v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RPI-Zero: Zero-shot RNA-Protein Interaction Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-51-rpi-zero-zero-shot-rna"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.04.764286v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-51-rpi-zero-zero-shot-rna</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;In vivo protein-RNA interactions are mapped almost exclusively by CLIP-seq, which profiles one protein in one cell type per experiment and needs a specific antibody; only about 10% of the roughly 2,000 human RNA-binding proteins have been assayed, and the Protein Data Bank holds around 5,000 protein-RNA complexes, a quarter of them ribosomes. Sequence-based prediction could extend coverage to unprofiled, newly discovered, or designed molecules, but existing predictors are not built for that case. One family trains a separate model per protein and cannot move beyond proteins with CLIP data; the other scores pairs but targets a single RNA class.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.04.764286v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #databases&lt;/p&gt;</summary>
+    <title>pLM-bVAE: protein language model-enhanced binary representation improves quantum annealing-based protein sequence design</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-51-plm-bvae-protein-language-model"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764447v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-51-plm-bvae-protein-language-model</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum annealing (QA) has been explored as an approach for protein design in vast combinatorial sequence spaces. Applying QA to protein sequence design requires amino acid sequences to be encoded as binary vectors, and optimized vectors to be decoded back into amino acid sequences. Thus, both the quality of binary encoding and sequence reconstruction accuracy are important for effective QA-based optimization.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764447v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>FoldAbS: Repurposing the Protein Folding Model as a Foundation Encoder for Antibody Screening</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-52-foldabs-repurposing-the-protein-folding"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-52-foldabs-repurposing-the-protein-folding</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Therapeutic antibody screening requires prioritizing antibody candidates across specificity, affinity, and developability. Current pipelines typically silo these objectives and underuse structural information that governs antibody-antigen recognition. To address these inefficacies, we introduce FoldAbS, a unified supervised screening framework that reconceptualizes protein folding models as frozen foundation encoders, exploiting their internal representations to capture rich sequence, geometric, and interaction dynamics well beyond basic structure prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #infosec&lt;/p&gt;</summary>
+    <title>Ab initio simulation of excited-state potential energy surfaces with transferable deep quantum Monte Carlo</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-52-ab-initio-simulation-of-excited"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01065-y"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-52-ab-initio-simulation-of-excited</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 06 November 2026; doi:10.1038/s43588-026-01065-y Transferable deep-learning quantum Monte Carlo for molecular excited states is introduced. Sharing parameters, an ansatz represents the wavefunction across molecular geometries and states, reducing the cost of modeling potential energy surfaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01065-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-53-scalable-physical-deep-learning-using"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-53-scalable-physical-deep-learning-using"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-53-scalable-physical-deep-learning-using</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-53-scalable-physical-deep-learning-using</id>
     <updated>2026-11-05T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-54-machine-learning-dataset-and-benchmark"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-54-machine-learning-dataset-and-benchmark"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-54-machine-learning-dataset-and-benchmark</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-54-machine-learning-dataset-and-benchmark</id>
     <updated>2026-10-26T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>

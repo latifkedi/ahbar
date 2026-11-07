@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-networking.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-networking.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
   <entry>
     <title>Beyond Quantum Messages: Toward Quantum-Native Network Functioning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-35-beyond-quantum-messages-toward-quantum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-34-beyond-quantum-messages-toward-quantum"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08298v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-35-beyond-quantum-messages-toward-quantum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-34-beyond-quantum-messages-toward-quantum</id>
     <updated>2026-11-05T17:00:54+00:00</updated>
     <summary type="html">&lt;p&gt;The Quantum Internet is commonly envisioned as a network that transports quantum states and distributes entanglement as the key resource underpinning distributed quantum applications. This view is necessary but incomplete if quantum phenomena are confined to what the network carries or manages, while network functionalities remain grounded predominantly in classical abstractions. This Perspective advances a broader thesis: quantum phenomena can also participate directly in the realization of network functionalities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08298v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #networking #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?. Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-45-how-far-can-lightweight-llms"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07982v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-45-how-far-can-lightweight-llms</id>
+    <updated>2026-11-05T13:12:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals. Its first step, translating a natural-language intent into enforceable service-level objectives (SLOs) grounded in a live snapshot of the network state, increasingly relies on large language models (LLMs). These large models add cost and energy to the management loop and typically require multi-GPU, cloud-hosted infrastructure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07982v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #llm&lt;/p&gt;</summary>
   </entry>
 </feed>

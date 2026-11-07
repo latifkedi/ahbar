@@ -5,44 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-06T12:34:11.033720465+00:00</updated>
+  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-40-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-40-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Can 23,000 quantum qubits break RSA-2048?. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-28-can-23-000-quantum-qubits"/>
-    <link rel="related" href="https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-28-can-23-000-quantum-qubits</id>
-    <updated>2026-11-05T17:22:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.bfswa.blog/p/can-23000-quantum-qubits-break-rsa&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #quantum-computing&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SourceHut disabled registration bypass | CVE-2026-121728. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-41-sourcehut-disabled-registration-bypass-cve"/>
-    <link rel="related" href="https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-41-sourcehut-disabled-registration-bypass-cve</id>
-    <updated>2026-11-05T18:34:41+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Your Cryptography Conspiracy Theory Is Wrong. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-56-your-cryptography-conspiracy-theory-is"/>
-    <link rel="related" href="https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-56-your-cryptography-conspiracy-theory-is</id>
-    <updated>2026-11-04T14:58:11+00:00</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers #cryptography #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-06-57-sok-post-quantum-cryptography-pqc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-56-sok-post-quantum-cryptography-pqc"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08442v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-06-57-sok-post-quantum-cryptography-pqc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-56-sok-post-quantum-cryptography-pqc</id>
     <updated>2026-11-05T18:34:08+00:00</updated>
     <summary type="html">&lt;p&gt;Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #software-architecture #cryptography&lt;/p&gt;</summary>
   </entry>
