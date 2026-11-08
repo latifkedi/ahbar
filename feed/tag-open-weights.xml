@@ -5,68 +5,76 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
   <entry>
     <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding. Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-10-vflash-fast-accurate-visual-planning"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-10-vflash-fast-accurate-visual-planning"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08449"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-10-vflash-fast-accurate-visual-planning</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-10-vflash-fast-accurate-visual-planning</id>
     <updated>2026-11-04T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08449&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-11-harness-s-learning-from-sibling"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-11-harness-s-learning-from-sibling"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04277"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-11-harness-s-learning-from-sibling</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-11-harness-s-learning-from-sibling</id>
     <updated>2026-11-02T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04277&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-12-tailsteer-trajectory-tail-steering-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06741"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-12-tailsteer-trajectory-tail-steering-for</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that improves multi-turn robustness while retaining the generative and editing capabilities acquired through earlier training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06741&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-13-swarmevolve-latent-agent-swarms-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-12-swarmevolve-latent-agent-swarms-for"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08483"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-13-swarmevolve-latent-agent-swarms-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-12-swarmevolve-latent-agent-swarms-for</id>
     <updated>2026-11-04T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decoding to text, and share information by passing KV caches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08483&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-13-tailsteer-trajectory-tail-steering-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06741"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-13-tailsteer-trajectory-tail-steering-for</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to foundation models. We introduce TailSteer, a final-stage training framework that improves multi-turn robustness while retaining the generative and editing capabilities acquired through earlier training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06741&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>EvoMemState: Evolving Memory State for Personal Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-14-evomemstate-evolving-memory-state-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-14-evomemstate-evolving-memory-state-for"/>
     <link rel="related" href="https://arxiv.org/abs/2611.03743"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-14-evomemstate-evolving-memory-state-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-14-evomemstate-evolving-memory-state-for</id>
     <updated>2026-11-01T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while leaving their applicability, role, and priority for the current request implicit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03743&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-15-decoupled-predictive-decision-making-a"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02075"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-15-decoupled-predictive-decision-making-a</id>
-    <updated>2026-10-31T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02075&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #agents&lt;/p&gt;</summary>
+    <title>From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-15-from-autonomous-agents-to-cognitive"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05376"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-15-from-autonomous-agents-to-cognitive</id>
+    <updated>2026-11-03T13:59:52.000Z</updated>
+    <summary type="html">&lt;p&gt;For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person&amp;apos;s behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05376&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>SLA: Scaling Spatial-Language-Action Model via Continual Pre-training. Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-16-sla-scaling-spatial-language-action"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-16-sla-scaling-spatial-language-action"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08373"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-16-sla-scaling-spatial-language-action</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-16-sla-scaling-spatial-language-action</id>
     <updated>2026-11-04T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08373&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-17-decoupled-predictive-decision-making-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02075"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-17-decoupled-predictive-decision-making-a</id>
+    <updated>2026-10-31T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a general-purpose conditional predictor predicts task-defined targets from the represented evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02075&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>On the Opportunities and Challenges of Prefill-to-Autoregressive Cross-Model Transfer</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-18-on-the-opportunities-and-challenges"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-18-on-the-opportunities-and-challenges"/>
     <link rel="related" href="https://arxiv.org/abs/2611.06976"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-18-on-the-opportunities-and-challenges</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-18-on-the-opportunities-and-challenges</id>
     <updated>2026-11-04T08:33:47.000Z</updated>
     <summary type="html">&lt;p&gt;Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communication between language models, combines a larger model&amp;apos;s prompt representations with a smaller model&amp;apos;s efficient generation, offering a promising way to balance capability and inference cost. However, existing systems provide limited support for independently evaluating large-small model collaboration, and improved task performance alone does not establish whether the receiver benefits from the sender&amp;apos;s information. We introduce PLatour, an open-source PACT framework that connects frozen models through lightweight, zero-initialized linear bridges trained directly with task rewards and supports hybrid-attention architectures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06976&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec&lt;/p&gt;</summary>
   </entry>

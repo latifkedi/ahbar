@@ -5,37 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
   <entry>
     <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-37-security-updates-for-friday"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-37-security-updates-for-friday"/>
     <link rel="related" href="https://lwn.net/Articles/1105881/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-37-security-updates-for-friday</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-37-security-updates-for-friday</id>
     <updated>2026-11-06T14:04:54+00:00</updated>
     <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105881/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Averages of sub-additive functions through non-Følner sequences</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-19-averages-of-sub-additive-functions"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-19-averages-of-sub-additive-functions"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08408v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-19-averages-of-sub-additive-functions</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-19-averages-of-sub-additive-functions</id>
     <updated>2026-11-05T18:14:40+00:00</updated>
     <summary type="html">&lt;p&gt;We study the quantity $\sup_{φ\inΦ}\limsup_{n\to\infty}φ(F_n)/|F_n|$, where $\mathcal F= (F_n)_{n\in\mathbb{N}}$ is a sequence of finite subsets of a countable amenable group, and $Φ$ is a collection of subadditive functions. Under mild conditions on $Φ$ we prove that the aforementioned quantity equals the supremum over $φ\inΦ$ of the limit of $φ(F)/|F|$ as $F$ becomes more and more invariant, multiplied by a ``Følnerness&amp;apos;&amp;apos; constant $C(\mathcal F)\in[1,\infty]$. We have $C(\mathcal F)=1$ if and only if $\mathcal F$ is Følner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08408v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27&apos;&apos;</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-59-correction-of-parameters-in-computing"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1884"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-59-correction-of-parameters-in-computing</id>
-    <updated>2026-09-03T22:10:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree $k=27$) at the 256-bit and 192-bit security levels. In both instances, the disclosed seeds produce a composite $r(x)$, violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the 192-bit seed, the characteristic $p(x)$ is also composite.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1884&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Radical 3-isogenies for the ideal class group actions on $(2, \varepsilon)$-structures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-60-radical-3-isogenies-for-the"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/576"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-60-radical-3-isogenies-for-the</id>
-    <updated>2026-03-23T09:54:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Chenu and Smith introduced the notion of $(d,\varepsilon)$-structures, pairs consisting of an elliptic curve over $\mathbb{F}_{p^2}$ and an isogeny of degree $d$ from the curve to its Galois conjugate, and defined an ideal class group action on supersingular $(d,\varepsilon)$-structures, inherited from the action on oriented supersingular elliptic curves. They also outlined extensions of the CSIDH key exchange and of the Delfs–Galbraith algorithm for the supersingular isogeny problem. In particular, they suggested that the latter, called the generalized Delfs–Galbraith algorithm, may be faster than the original one by a constant factor for small $d$, provided that the class group action on $(d,\varepsilon)$-structures can be evaluated efficiently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/576&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

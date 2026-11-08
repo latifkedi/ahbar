@@ -5,76 +5,76 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
   <entry>
     <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-37-security-updates-for-friday"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-37-security-updates-for-friday"/>
     <link rel="related" href="https://lwn.net/Articles/1105881/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-37-security-updates-for-friday</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-37-security-updates-for-friday</id>
     <updated>2026-11-06T14:04:54+00:00</updated>
     <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105881/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-40-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-40-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-40-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-40-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-41-sensorguard-rv-sensor-to-register"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-41-sensorguard-rv-sensor-to-register"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08380v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-41-sensorguard-rv-sensor-to-register</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-41-sensorguard-rv-sensor-to-register</id>
     <updated>2026-11-05T17:57:49+00:00</updated>
     <summary type="html">&lt;p&gt;Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08380v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-42-zirah-a-post-quantum-true"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-42-zirah-a-post-quantum-true"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08200v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-42-zirah-a-post-quantum-true</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-42-zirah-a-post-quantum-true</id>
     <updated>2026-11-05T15:54:05+00:00</updated>
     <summary type="html">&lt;p&gt;Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws every random bit from a reverse-biased 2N3904 junction in avalanche breakdown, amplified by an LM358 and screened by SP 800-90B health tests, computes ML-DSA-65 (FIPS 204, hedged) on the STM32 with two-share arithmetic masking of the secret-key multiplications, and adds ECDSA P-256 from an ATECC608 secure element over the same digest, once a person has matched an eight-digit digest prefix on its OLED with the PC and pressed a button. A desktop application and a command-line tool drive the board and verify its output, and because only a 32-byte manifest digest reaches the device, it signs files of any type and size, returning signed copies for PDF, Office Open XML, ZIP, PNG and JPEG files and detached records for every other format.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08200v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-43-ai-native-task-oriented-semantic"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-43-ai-native-task-oriented-semantic"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08155v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-43-ai-native-task-oriented-semantic</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-43-ai-native-task-oriented-semantic</id>
     <updated>2026-11-05T15:14:59+00:00</updated>
     <summary type="html">&lt;p&gt;Semantic communication (SemCom) using a relay node is considered, where the relay assists in conveying task-relevant information from a source to a destination, with meaning defined by classification labels. A joint end-to-end design of the source encoder, relay transformation, and destination decoders is developed to optimize both semantic inference accuracy and perceptual reconstruction quality for image data. Relay-assisted schemes are shown to outperform direct transmission, with gains that become more pronounced in low signal-to-noise ratio (SNR) regimes across different relaying strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08155v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?. Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-45-how-far-can-lightweight-llms"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-45-how-far-can-lightweight-llms"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07982v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-45-how-far-can-lightweight-llms</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-45-how-far-can-lightweight-llms</id>
     <updated>2026-11-05T13:12:30+00:00</updated>
     <summary type="html">&lt;p&gt;Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals. Its first step, translating a natural-language intent into enforceable service-level objectives (SLOs) grounded in a live snapshot of the network state, increasingly relies on large language models (LLMs). These large models add cost and energy to the management loop and typically require multi-GPU, cloud-hosted infrastructure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07982v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #llm&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-44-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-44-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-44-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-44-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>

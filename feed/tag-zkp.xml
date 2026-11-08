@@ -5,69 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-57-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-57-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-57-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-57-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-58-beyond-instruction-override-benchmarking-indirect"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-58-beyond-instruction-override-benchmarking-indirect"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07640v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-58-beyond-instruction-override-benchmarking-indirect</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-58-beyond-instruction-override-benchmarking-indirect</id>
     <updated>2026-11-05T08:25:27+00:00</updated>
     <summary type="html">&lt;p&gt;Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer&amp;apos;s dispute evidence can cite a false refund policy to inflate a refund without changing the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07640v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Correction of parameters in ``Computing Optimal Ate Pairings on Elliptic Curves with Embedding Degree 9, 15 and 27&apos;&apos;</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-59-correction-of-parameters-in-computing"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1884"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-59-correction-of-parameters-in-computing</id>
-    <updated>2026-09-03T22:10:32+00:00</updated>
-    <summary type="html">&lt;p&gt;We correct two errors in Section~8 of the above-mentioned paper concerning the seed parameters proposed for BLS27 elliptic curves (embedding degree $k=27$) at the 256-bit and 192-bit security levels. In both instances, the disclosed seeds produce a composite $r(x)$, violating the primality condition essential for constructing pairing-friendly curves. Additionally, for the 192-bit seed, the characteristic $p(x)$ is also composite.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1884&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
+    <title>Generalized Batched Decomposition Key-Switching for CKKS. In lattice-based homomorphic encryption schemes, ciphertexts carry an inherent noise that grows as computation advances.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-59-generalized-batched-decomposition-key-switching"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1340"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-59-generalized-batched-decomposition-key-switching</id>
+    <updated>2026-06-29T18:52:32+00:00</updated>
+    <summary type="html">&lt;p&gt;In lattice-based homomorphic encryption schemes, ciphertexts carry an inherent noise that grows as computation advances. The key-switching procedure of these schemes allows the homomorphic re-encryption of a ciphertext under a new secret key, but it incurs substantial noise growth and computational cost. In this work, we generalize the RNS-based decomposition technique of the CKKS scheme to an arbitrary number of input polynomials and secret keys.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1340&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Radical 3-isogenies for the ideal class group actions on $(2, \varepsilon)$-structures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-60-radical-3-isogenies-for-the"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/576"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-60-radical-3-isogenies-for-the</id>
-    <updated>2026-03-23T09:54:04+00:00</updated>
-    <summary type="html">&lt;p&gt;Chenu and Smith introduced the notion of $(d,\varepsilon)$-structures, pairs consisting of an elliptic curve over $\mathbb{F}_{p^2}$ and an isogeny of degree $d$ from the curve to its Galois conjugate, and defined an ideal class group action on supersingular $(d,\varepsilon)$-structures, inherited from the action on oriented supersingular elliptic curves. They also outlined extensions of the CSIDH key exchange and of the Delfs–Galbraith algorithm for the supersingular isogeny problem. In particular, they suggested that the latter, called the generalized Delfs–Galbraith algorithm, may be faster than the original one by a constant factor for small $d$, provided that the class group action on $(d,\varepsilon)$-structures can be evaluated efficiently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/576&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
+    <title>Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit. Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-60-atlantis-lattice-based-anonymous-tokens"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1248"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-60-atlantis-lattice-based-anonymous-tokens</id>
+    <updated>2026-06-12T20:54:19+00:00</updated>
+    <summary type="html">&lt;p&gt;Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens. The bit remains hidden from the clients, but verifiers can read the bit and rate-limit or discard tokens marked suspect. A series of ATPM constructions exist in the literature, however all current constructions rely on classical hardness assumptions such as RSA groups, pairings, or elliptic-curve VRFs and do not provide any post-quantum security guarantees.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1248&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A proof of P≠NP (New symmetric encryption algorithm against any linear attacks and differential attacks)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-61-a-proof-of-p-np"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/445"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-61-a-proof-of-p-np</id>
-    <updated>2025-03-08T18:06:39+00:00</updated>
-    <summary type="html">&lt;p&gt;P vs NP problem is the most important unresolved problem in the field of computational complexity. Its impact has penetrated into all aspects of algorithm design, especially in the field of cryptography. The security of cryptographic algorithms based on short keys depends on whether P is equal to NP.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/445&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Catalytic Tree Evaluation From Matching Vectors. We give new algorithms for tree evaluation (S.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-61-catalytic-tree-evaluation-from-matching"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/265"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-61-catalytic-tree-evaluation-from-matching</id>
+    <updated>2026-02-15T21:45:12+00:00</updated>
+    <summary type="html">&lt;p&gt;We give new algorithms for tree evaluation (S. Cook et al. TOCT 2012) in the catalytic-computing model (Buhrman et al. STOC 2014). Two existing approaches aim to solve tree evaluation (TreeEval) in low space: on the one hand, J.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/265&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AEAD Applications</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-62-repeated-masks-predictable-splices-breaking"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1424"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-62-repeated-masks-predictable-splices-breaking</id>
-    <updated>2026-07-12T10:20:19+00:00</updated>
-    <summary type="html">&lt;p&gt;AESpolyW, presented at the 2026 IEEE Symposium on Security and Privacy, is a wide-block encryption mode that preserves the length of each message. Its design lets operations of the Advanced Encryption Standard (AES) overlap with hash computations based on polynomial evaluation. Our attacks splice ciphertexts by copying blocks from one ciphertext to the same positions in another.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1424&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Dynark: Making Groth16 Dynamic</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-62-dynark-making-groth16-dynamic"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1897"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-62-dynark-making-groth16-dynamic</id>
+    <updated>2025-10-10T17:23:25+00:00</updated>
+    <summary type="html">&lt;p&gt;In recent years, numerous new and more efficient constructions of zero-knowledge succinct non-interactive argument of knowledge (zkSNARK) have been proposed, motivated by their growing practical applications. However, in most schemes, when the witness is changed, the prover has to recompute the proof from scratch even if the new witness is close to the old one. This is inefficient for applications where proofs are generated for dynamically changing witnesses with small changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1897&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>BAKSHEESH: Similar Yet Different From GIFT. We propose a lightweight block cipher named BAKSHEESH, which follows up on the popular cipher GIFT-128 (CHES&apos;17).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-63-baksheesh-similar-yet-different-from"/>
-    <link rel="related" href="https://eprint.iacr.org/2023/750"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-63-baksheesh-similar-yet-different-from</id>
-    <updated>2023-05-24T12:28:09+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a lightweight block cipher named BAKSHEESH, which follows up on the popular cipher GIFT-128 (CHES&amp;apos;17). BAKSHEESH runs for 35 rounds, which is 12.50 percent smaller compared to GIFT-128 (runs for 40 rounds) while maintaining the same security claims against the classical attacks. The crux of BAKSHEESH is to use a 4-bit SBox that has a non-trivial Linear Structure (LS).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/750&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Linear Cryptanalysis with Bibrace Characters: Weak-Key Distinguishers for CRAFT</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-63-linear-cryptanalysis-with-bibrace-characters"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1767"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-63-linear-cryptanalysis-with-bibrace-characters</id>
+    <updated>2026-08-21T16:16:57+00:00</updated>
+    <summary type="html">&lt;p&gt;Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences. If that group is replaced by a second elementary abelian group structure on the same set, here the one coming from a binary bibrace, then the admissible masks are no longer the ordinary scalar products: exactly half of them survive, and the other half are forced to be quadratic. Beyne&amp;apos;s geometric approach develops linear cryptanalysis over an arbitrary finite abelian group, providing a natural framework for this setting.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1767&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,52 +5,52 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
   <entry>
     <title>Polynomial-Time Computation of Extensive-Form Proper Equilibria in Two-Player Zero-Sum Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-66-polynomial-time-computation-of-extensive"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-66-polynomial-time-computation-of-extensive"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07089v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-66-polynomial-time-computation-of-extensive</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-66-polynomial-time-computation-of-extensive</id>
     <updated>2026-11-04T19:52:21+00:00</updated>
     <summary type="html">&lt;p&gt;We give a deterministic polynomial-time algorithm for computing an exact extensive-form proper equilibrium in a finite two-player zero-sum extensive-form game with perfect recall and rational data. Properness is understood in the agent normal form: an action at an information set is penalized relative to a better action while all other local behavioral choices, including the player&amp;apos;s own future actions, remain fixed. Our algorithm assigns each information set a geometric permutahedron of allowable action probabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07089v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-43-ai-native-task-oriented-semantic"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-43-ai-native-task-oriented-semantic"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08155v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-43-ai-native-task-oriented-semantic</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-43-ai-native-task-oriented-semantic</id>
     <updated>2026-11-05T15:14:59+00:00</updated>
     <summary type="html">&lt;p&gt;Semantic communication (SemCom) using a relay node is considered, where the relay assists in conveying task-relevant information from a source to a destination, with meaning defined by classification labels. A joint end-to-end design of the source encoder, relay transformation, and destination decoders is developed to optimize both semantic inference accuracy and perceptual reconstruction quality for image data. Relay-assisted schemes are shown to outperform direct transmission, with gains that become more pronounced in low signal-to-noise ratio (SNR) regimes across different relaying strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08155v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-68-cosmosalpha-multi-relational-graph-search"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-68-cosmosalpha-multi-relational-graph-search"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-68-cosmosalpha-multi-relational-graph-search</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-68-cosmosalpha-multi-relational-graph-search</id>
     <updated>2026-11-03T09:22:52+00:00</updated>
     <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>MUSS: A Multi-scale and Sequence-based Model for Single-cell Gene Regulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-46-muss-a-multi-scale-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-46-muss-a-multi-scale-and"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08086v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-46-muss-a-multi-scale-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-46-muss-a-multi-scale-and</id>
     <updated>2026-11-05T14:34:07+00:00</updated>
     <summary type="html">&lt;p&gt;Modeling gene regulation in single cells requires jointly representing DNA sequence, chromatin accessibility, and gene expression across regulatory scales. Sequence-based models capture DNA-level regulatory grammar but often lack cell-level resolution, whereas many single-cell omics models represent genes and peaks as fixed-vocabulary tokens without their underlying sequence. Here, we present MUSS, a sequence-based multi-scale model for single-cell gene regulation that preserves both DNA-level and cell-level resolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08086v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-58-beyond-instruction-override-benchmarking-indirect"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-58-beyond-instruction-override-benchmarking-indirect"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07640v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-58-beyond-instruction-override-benchmarking-indirect</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-58-beyond-instruction-override-benchmarking-indirect</id>
     <updated>2026-11-05T08:25:27+00:00</updated>
     <summary type="html">&lt;p&gt;Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer&amp;apos;s dispute evidence can cite a false refund policy to inflate a refund without changing the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07640v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Learning and Steering in Incomplete-Information Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-88-learning-and-steering-in-incomplete"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-88-learning-and-steering-in-incomplete"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07589v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-88-learning-and-steering-in-incomplete</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-88-learning-and-steering-in-incomplete</id>
     <updated>2026-11-05T07:40:05+00:00</updated>
     <summary type="html">&lt;p&gt;In many modern multi-agent systems, a mediator seeks to influence strategic decision dynamics using only outcome-level feedback and without knowing agents&amp;apos; utilities. In this work, we study how a mediator can learn an unknown game and steer adaptive agents toward outcomes that maximize her utility using only trajectory feedback. The mediator knows the game form and her own objective, but not the agents&amp;apos; utilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07589v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #optimization&lt;/p&gt;</summary>
   </entry>

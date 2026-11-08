@@ -5,12 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <entry>
+    <title>Linear Cryptanalysis with Bibrace Characters: Weak-Key Distinguishers for CRAFT</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-63-linear-cryptanalysis-with-bibrace-characters"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1767"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-63-linear-cryptanalysis-with-bibrace-characters</id>
+    <updated>2026-08-21T16:16:57+00:00</updated>
+    <summary type="html">&lt;p&gt;Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences. If that group is replaced by a second elementary abelian group structure on the same set, here the one coming from a binary bibrace, then the admissible masks are no longer the ordinary scalar products: exactly half of them survive, and the other half are forced to be quadratic. Beyne&amp;apos;s geometric approach develops linear cryptanalysis over an arbitrary finite abelian group, providing a natural framework for this setting.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1767&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Solvable macroscopic models for populations of type I excitability neurons with Gaussian noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-84-solvable-macroscopic-models-for-populations"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-84-solvable-macroscopic-models-for-populations"/>
     <link rel="related" href="https://arxiv.org/abs/2611.07714v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-84-solvable-macroscopic-models-for-populations</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-84-solvable-macroscopic-models-for-populations</id>
     <updated>2026-11-05T09:32:22+00:00</updated>
     <summary type="html">&lt;p&gt;The dynamics of type I excitability neurons near the bifurcation point are governed by the model of quadratic integrate-and-fire neuron (QIF). The model of QIF subject to white Gaussian noise is abundant in statistical physics, since it not only reasonably reproduces the dynamics of some biological systems but also emerges in the problems of stochastic stability and in quantum mechanics of one-dimensional systems with quenched disorder. We derive the solution for the mean interspike interval of a QIF subject to additive Gaussian noise in terms of analytic functions, from the first passage time problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07714v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #clean-tech&lt;/p&gt;</summary>
   </entry>

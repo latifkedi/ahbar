@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-07T11:23:37.360198475+00:00</updated>
+  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
   <entry>
     <title>Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-11-harness-s-learning-from-sibling"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-11-harness-s-learning-from-sibling"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04277"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-11-harness-s-learning-from-sibling</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-11-harness-s-learning-from-sibling</id>
     <updated>2026-11-02T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04277&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Information Elicitation by Ordinal Agreement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-07-82-information-elicitation-by-ordinal-agreement"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-82-information-elicitation-by-ordinal-agreement"/>
     <link rel="related" href="https://arxiv.org/abs/2611.08366v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-07-82-information-elicitation-by-ordinal-agreement</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-82-information-elicitation-by-ordinal-agreement</id>
     <updated>2026-11-05T17:43:56+00:00</updated>
     <summary type="html">&lt;p&gt;Ordinal information is central to tasks ranging from conference peer review to Reinforcement Learning from Human Feedback for large language models. In many such settings, there is no objective ground truth against which reports can be directly verified, making incentive-compatible elicitation challenging. Peer-prediction mechanisms have been designed to achieve truthful elicitation despite the lack of ground-truth verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08366v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
