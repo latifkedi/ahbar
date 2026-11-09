@@ -5,45 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-41-sensorguard-rv-sensor-to-register"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08380v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-41-sensorguard-rv-sensor-to-register</id>
-    <updated>2026-11-05T17:57:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08380v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
+    <title>A Cross-Domain TARA-to-NAC Rule Mapping Methodology: From Automotive OEM Networks to Energy Storage Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-41-a-cross-domain-tara-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09771v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-41-a-cross-domain-tara-to</id>
+    <updated>2026-11-06T17:33:46+00:00</updated>
+    <summary type="html">&lt;p&gt;Threat analysis and risk assessment under ISO/SAE 21434 ends with cybersecurity goals, but existing methods give little structured guidance for turning those goals into enforceable network access control rules. Compliance standards such as IEC 62443, ISO/SAE 21434, and ISO/IEC 27001 are usually applied as parallel efforts rather than as one enforcement architecture. This paper presents a six-step methodology that maps cybersecurity goals from a threat analysis and risk assessment to network access control rules, each placed at a named enforcement point and traceable to the threat records behind it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09771v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-42-zirah-a-post-quantum-true"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08200v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-42-zirah-a-post-quantum-true</id>
-    <updated>2026-11-05T15:54:05+00:00</updated>
-    <summary type="html">&lt;p&gt;Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws every random bit from a reverse-biased 2N3904 junction in avalanche breakdown, amplified by an LM358 and screened by SP 800-90B health tests, computes ML-DSA-65 (FIPS 204, hedged) on the STM32 with two-share arithmetic masking of the secret-key multiplications, and adds ECDSA P-256 from an ATECC608 secure element over the same digest, once a person has matched an eight-digit digest prefix on its OLED with the PC and pressed a button. A desktop application and a command-line tool drive the board and verify its output, and because only a 32-byte manifest digest reaches the device, it signs files of any type and size, returning signed copies for PDF, Office Open XML, ZIP, PNG and JPEG files and detached records for every other format.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08200v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AI-Native Task-Oriented Semantic Communications over a Relay: Benefits and Vulnerabilities</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-43-ai-native-task-oriented-semantic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08155v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-43-ai-native-task-oriented-semantic</id>
-    <updated>2026-11-05T15:14:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Semantic communication (SemCom) using a relay node is considered, where the relay assists in conveying task-relevant information from a source to a destination, with meaning defined by classification labels. A joint end-to-end design of the source encoder, relay transformation, and destination decoders is developed to optimize both semantic inference accuracy and perceptual reconstruction quality for image data. Relay-assisted schemes are shown to outperform direct transmission, with gains that become more pronounced in low signal-to-noise ratio (SNR) regimes across different relaying strategies.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08155v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How Far Can Lightweight LLMs Go in Intent-to-SLO Translation?. Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-45-how-far-can-lightweight-llms"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07982v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-45-how-far-can-lightweight-llms</id>
-    <updated>2026-11-05T13:12:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Intent-based networking (IBN) promises QoS provisioning in which the network derives the configuration from operator-stated goals. Its first step, translating a natural-language intent into enforceable service-level objectives (SLOs) grounded in a live snapshot of the network state, increasingly relies on large language models (LLMs). These large models add cost and energy to the management loop and typically require multi-GPU, cloud-hosted infrastructure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07982v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking #llm&lt;/p&gt;</summary>
+    <title>Robust &amp; Scalable Website Fingerprinting via Minimal DRAM Traffic. Website fingerprinting attacks infer websites visited by users and threaten their privacy.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-42-robust-scalable-website-fingerprinting-via"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09422v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-42-robust-scalable-website-fingerprinting-via</id>
+    <updated>2026-11-06T12:50:37+00:00</updated>
+    <summary type="html">&lt;p&gt;Website fingerprinting attacks infer websites visited by users and threaten their privacy. These attacks are classified as on-path, which monitor network traffic, and co-located, which exploit shared system resources. Existing co-located attacks, such as sweep-counting and loop-counting, achieve over 90% accuracy but suffer significant performance degradation on many-core systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09422v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

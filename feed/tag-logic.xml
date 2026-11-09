@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-logic.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-logic.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <entry>
+    <title>Strong Convergence for Zig-Zag Products and Typical Spectra of Irregular Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-20-strong-convergence-for-zig-zag"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09732v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-20-strong-convergence-for-zig-zag</id>
+    <updated>2026-11-06T17:08:51+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the following: do existence bounds obtained by interlacing methods describe the spectra of typical random graphs? Depending on the model, we provide both positive and negative answers. We establish a Friedman-type theorem for zig-zag products of random regular graphs $G$ with a fixed vertex-transitive gadget $H$, where $G$ is sampled from independent permutations or matchings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09732v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>TPIC: Energy-Conserving Space Plasma Simulations on GPU Supercomputers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-22-tpic-energy-conserving-space-plasma"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09624v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-22-tpic-energy-conserving-space-plasma</id>
+    <updated>2026-11-06T15:45:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Artificial heating and numerical damping affect particle energization in kinetic space plasma simulations, even when the numerical scheme remains stable. Implicit and semi implicit energy conserving Particle-in-Cell (PIC) methods eliminate these errors in the discrete energy balance while relaxing explicit stability constraints. We present TPIC, a massively parallel implementation of the Energy Conserving Semi-Implicit Method (ECSIM) for GPU supercomputers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09624v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
+  </entry>
 </feed>

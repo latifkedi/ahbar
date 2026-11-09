@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
-    <title>Linear Cryptanalysis with Bibrace Characters: Weak-Key Distinguishers for CRAFT</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-63-linear-cryptanalysis-with-bibrace-characters"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1767"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-63-linear-cryptanalysis-with-bibrace-characters</id>
-    <updated>2026-08-21T16:16:57+00:00</updated>
-    <summary type="html">&lt;p&gt;Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences. If that group is replaced by a second elementary abelian group structure on the same set, here the one coming from a binary bibrace, then the admissible masks are no longer the ordinary scalar products: exactly half of them survive, and the other half are forced to be quadratic. Beyne&amp;apos;s geometric approach develops linear cryptanalysis over an arbitrary finite abelian group, providing a natural framework for this setting.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1767&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Solvable macroscopic models for populations of type I excitability neurons with Gaussian noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-84-solvable-macroscopic-models-for-populations"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07714v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-84-solvable-macroscopic-models-for-populations</id>
-    <updated>2026-11-05T09:32:22+00:00</updated>
-    <summary type="html">&lt;p&gt;The dynamics of type I excitability neurons near the bifurcation point are governed by the model of quadratic integrate-and-fire neuron (QIF). The model of QIF subject to white Gaussian noise is abundant in statistical physics, since it not only reasonably reproduces the dynamics of some biological systems but also emerges in the problems of stochastic stability and in quantum mechanics of one-dimensional systems with quenched disorder. We derive the solution for the mean interspike interval of a QIF subject to additive Gaussian noise in terms of analytic functions, from the first passage time problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07714v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #clean-tech&lt;/p&gt;</summary>
+    <title>EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-14-evoworld-towards-out-of-sight"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06748"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-14-evoworld-towards-out-of-sight</id>
+    <updated>2026-11-04T11:26:45.000Z</updated>
+    <summary type="html">&lt;p&gt;Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wild beast appears, the model should not only depict the wild beast, but also infer whether a nearby person should flee, take cover, or fight back based on the realized scene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06748&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

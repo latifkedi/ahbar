@@ -5,29 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
-  <entry>
-    <title>VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding. Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-10-vflash-fast-accurate-visual-planning"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08449"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-10-vflash-fast-accurate-visual-planning</id>
-    <updated>2026-11-04T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08449&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SLA: Scaling Spatial-Language-Action Model via Continual Pre-training. Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-16-sla-scaling-spatial-language-action"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08373"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-16-sla-scaling-spatial-language-action</id>
-    <updated>2026-11-04T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08373&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A Sequential Framework for Urban Drone Delivery: Network Design, Vehicle Sizing, and Energy and Cost Assessment</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-83-a-sequential-framework-for-urban"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07808v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-83-a-sequential-framework-for-urban</id>
-    <updated>2026-11-05T10:49:37+00:00</updated>
-    <summary type="html">&lt;p&gt;A sequential engineering framework is presented for urban drone delivery, linking hub location, route planning, mission-specific vehicle sizing, and energy and operating cost assessment. Aggregate origin-destination demand is assumed known a priori. For each hub configuration, the maximum required link distance is minimized, and feasible routes that return to their departure hubs are generated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07808v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #robotics #materials-science&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
 </feed>

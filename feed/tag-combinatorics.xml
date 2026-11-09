@@ -5,29 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <entry>
+    <title>LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-13-longbanana-an-expert-verified-benchmark"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.06856"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-13-longbanana-an-expert-verified-benchmark</id>
+    <updated>2026-11-04T13:11:56.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06856&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-18-the-last-mile-to-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07461"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-18-the-last-mile-to-the</id>
+    <updated>2026-11-04T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07461&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Averages of sub-additive functions through non-Følner sequences</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-19-averages-of-sub-additive-functions"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08408v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-19-averages-of-sub-additive-functions</id>
-    <updated>2026-11-05T18:14:40+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the quantity $\sup_{φ\inΦ}\limsup_{n\to\infty}φ(F_n)/|F_n|$, where $\mathcal F= (F_n)_{n\in\mathbb{N}}$ is a sequence of finite subsets of a countable amenable group, and $Φ$ is a collection of subadditive functions. Under mild conditions on $Φ$ we prove that the aforementioned quantity equals the supremum over $φ\inΦ$ of the limit of $φ(F)/|F|$ as $F$ becomes more and more invariant, multiplied by a ``Følnerness&amp;apos;&amp;apos; constant $C(\mathcal F)\in[1,\infty]$. We have $C(\mathcal F)=1$ if and only if $\mathcal F$ is Følner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08408v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
+    <title>Harper&apos;s beyond square-root conjecture for random matrices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-19-harper-s-beyond-square-root"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09753v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-19-harper-s-beyond-square-root</id>
+    <updated>2026-11-06T17:21:41+00:00</updated>
+    <summary type="html">&lt;p&gt;For a Haar unitary matrix $U_N$ of size $N$, we prove that the first absolute moment of $\operatorname{tr}(\operatorname{Sym}^k U_N)$ tends to zero as $\min(N,k)\to\infty$. This settles the random matrix version of Harper&amp;apos;s beyond square-root conjecture formulated by Wang and Xu, with no restriction on $k/N$. The proof is elementary and self-contained, combining exact weighted trace moments with a Gaussian change of measure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09753v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Strong Convergence for Zig-Zag Products and Typical Spectra of Irregular Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-20-strong-convergence-for-zig-zag"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09732v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-20-strong-convergence-for-zig-zag</id>
+    <updated>2026-11-06T17:08:51+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the following: do existence bounds obtained by interlacing methods describe the spectra of typical random graphs? Depending on the model, we provide both positive and negative answers. We establish a Friedman-type theorem for zig-zag products of random regular graphs $G$ with a fixed vertex-transitive gadget $H$, where $G$ is sampled from independent permutations or matchings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09732v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What remains of the planar induced minor conjectures?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-21-what-remains-of-the-planar"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09627v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-21-what-remains-of-the-planar</id>
+    <updated>2026-11-06T15:46:58+00:00</updated>
+    <summary type="html">&lt;p&gt;Dallard, Milanič, and Štorgel, and independently Gartland and Lokshtanov, conjectured that for every planar graph $H$, Maximum Weight Independent Set and List $3$-Coloring are polynomial-time solvable in $H$-induced-minor-free graphs. As a structural explanation, Gartland and Lokshtanov further conjectured that such graphs admit balanced separators dominated by a constant number of vertices. Bonnet and Chang recently refuted the independent-set part of the algorithmic conjecture, by showing that Maximum Independent Set is $\mathsf{NP}$-hard in graphs excluding the $5\times5$ grid as an induced minor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09627v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-68-cosmosalpha-multi-relational-graph-search"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-65-cosmosalpha-multi-relational-graph-search"/>
     <link rel="related" href="https://arxiv.org/abs/2611.04555v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-68-cosmosalpha-multi-relational-graph-search</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-65-cosmosalpha-multi-relational-graph-search</id>
     <updated>2026-11-03T09:22:52+00:00</updated>
     <summary type="html">&lt;p&gt;Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.04555v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #ml-theory #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AirBB: Lightweight Threshold Anonymous Credentials without Random Oracles from BB Signatures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-60-airbb-lightweight-threshold-anonymous-credentials"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2762"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-60-airbb-lightweight-threshold-anonymous-credentials</id>
+    <updated>2026-11-04T10:21:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their identity and selectively present personal information in an unlinkable manner. The issuer, however, is often a single point of failure. Threshold issuance addresses this by distributing the issuer across several parties such that a quorum of them must cooperate to issue credentials.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2762&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

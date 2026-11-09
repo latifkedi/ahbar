@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
-    <title>Polynomial-time classical simulation of boson and fermion sampling under thermal loss</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-32-polynomial-time-classical-simulation-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08444v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-32-polynomial-time-classical-simulation-of</id>
-    <updated>2026-11-05T18:36:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Sampling experiments are a leading approach to demonstrating quantum computational advantage, yet their robustness to experimental noise is not completely understood. We develop a common framework for classical simulation of boson and fermion sampling under thermal loss, including pure loss. For Fock-state boson sampling, Gaussian boson sampling with fixed uniform squeezing, and fermion sampling with magic inputs, we obtain polynomial-time sampling at inverse-polynomial total variation error, for any fixed nonzero overall loss rate, and with high probability over Haar-random interferometers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08444v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms #optics-photonics&lt;/p&gt;</summary>
+    <title>A proof of the Aaronson-Ambainis conjecture. Aaronson and Ambainis conjectured that every bounded polynomial of low degree on the discrete cube has an influential variable.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-33-a-proof-of-the-aaronson"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09773v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-33-a-proof-of-the-aaronson</id>
+    <updated>2026-11-06T17:36:58+00:00</updated>
+    <summary type="html">&lt;p&gt;Aaronson and Ambainis conjectured that every bounded polynomial of low degree on the discrete cube has an influential variable. They showed that the conjecture implies that the acceptance probability of every quantum algorithm making $T$ queries can be approximated on most inputs by a classical algorithm making $\mathrm{poly}(T)$ queries. We prove their conjecture: every function $f\colon\{-1,1\}^n\to[-1,1]$ of degree at most $d\ge1$ has a variable of influence at least $c\,\operatorname{Var}(f)^{5/2}/d^{6}$, where $c&amp;gt;0$ is an absolute constant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09773v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-28-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-29-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-28-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-29-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What remains of the planar induced minor conjectures?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-21-what-remains-of-the-planar"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09627v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-21-what-remains-of-the-planar</id>
+    <updated>2026-11-06T15:46:58+00:00</updated>
+    <summary type="html">&lt;p&gt;Dallard, Milanič, and Štorgel, and independently Gartland and Lokshtanov, conjectured that for every planar graph $H$, Maximum Weight Independent Set and List $3$-Coloring are polynomial-time solvable in $H$-induced-minor-free graphs. As a structural explanation, Gartland and Lokshtanov further conjectured that such graphs admit balanced separators dominated by a constant number of vertices. Bonnet and Chang recently refuted the independent-set part of the algorithmic conjecture, by showing that Maximum Independent Set is $\mathsf{NP}$-hard in graphs excluding the $5\times5$ grid as an induced minor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09627v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

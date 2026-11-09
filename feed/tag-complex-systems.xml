@@ -5,85 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
-    <title>From elementary processes to chaos: a discrete-time two-stage contagion model and its continuous limit</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-20-from-elementary-processes-to-chaos"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08353v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-20-from-elementary-processes-to-chaos</id>
-    <updated>2026-11-05T17:34:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Two-stage contagion, in which adoption requires two successive contacts with adopters, combined with population turnover produces bistability and relaxation oscillations in Katriel&amp;apos;s differential-equation model, but no chaos. We derive from the elementary reactions of the process, without reference to the differential equations, a discrete-time model in which the population is updated in rounds of length $τ$, as in elections, meetings or turns of a game: each individual makes at most one transition per round, events compete as exponential risks, and adoptions take effect from the next round. The model is a Markov chain whose large-population limit is a map $F_τ$; Katriel&amp;apos;s equations are recovered as $τ\to0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08353v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems&lt;/p&gt;</summary>
+    <title>Effects of a Nuclear Detonation in Low Earth Orbit</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-82-effects-of-a-nuclear-detonation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09827v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-82-effects-of-a-nuclear-detonation</id>
+    <updated>2026-11-06T18:14:20+00:00</updated>
+    <summary type="html">&lt;p&gt;More than 13,000 satellites operate in low Earth orbit (LEO), and concern has grown that nuclear weapons could be used in space to target them. Beyond the initial X-ray burst, electrons released by radioactive fission products can become trapped in Earth&amp;apos;s magnetic field, repeatedly exposing satellites as an artificial radiation belt. Here we couple prompt radiation, electron trapping and belt evolution to satellite failures, collisions and atmospheric drag.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09827v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Information Elicitation by Ordinal Agreement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-82-information-elicitation-by-ordinal-agreement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08366v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-82-information-elicitation-by-ordinal-agreement</id>
-    <updated>2026-11-05T17:43:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Ordinal information is central to tasks ranging from conference peer review to Reinforcement Learning from Human Feedback for large language models. In many such settings, there is no objective ground truth against which reports can be directly verified, making incentive-compatible elicitation challenging. Peer-prediction mechanisms have been designed to achieve truthful elicitation despite the lack of ground-truth verification.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08366v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Regime change in a model for political opinion dynamics. Political crises involving a series of violent events are the rule rather than the exception in history.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-83-regime-change-in-a-model"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09742v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-83-regime-change-in-a-model</id>
+    <updated>2026-11-06T17:15:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Political crises involving a series of violent events are the rule rather than the exception in history. Here, we use a minimal opinion dynamics model to describe regime change as a contested transition between dominant shared ideas in a society. New opinions spread with a cumulative advantage, and agents do not return to opinions they held before, resulting in recurrent boom-and-bust dynamics without tuned parameters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09742v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Sequential Framework for Urban Drone Delivery: Network Design, Vehicle Sizing, and Energy and Cost Assessment</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-83-a-sequential-framework-for-urban"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07808v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-83-a-sequential-framework-for-urban</id>
-    <updated>2026-11-05T10:49:37+00:00</updated>
-    <summary type="html">&lt;p&gt;A sequential engineering framework is presented for urban drone delivery, linking hub location, route planning, mission-specific vehicle sizing, and energy and operating cost assessment. Aggregate origin-destination demand is assumed known a priori. For each hub configuration, the maximum required link distance is minimized, and feasible routes that return to their departure hubs are generated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07808v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #robotics #materials-science&lt;/p&gt;</summary>
+    <title>Scarce or Missed Opportunities? Structural Peers and Latin America&apos;s Diversification Frontier</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-84-scarce-or-missed-opportunities-structural"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09727v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-84-scarce-or-missed-opportunities-structural</id>
+    <updated>2026-11-06T17:05:09+00:00</updated>
+    <summary type="html">&lt;p&gt;Latin America&amp;apos;s limited export upgrading is often attributed to failures to seize available diversification opportunities. We distinguish two possibilities: countries failed to realize opportunities demonstrated by structurally similar economies, or upgrading-oriented options were scarce within this peer-revealed set. Using export data for 105 countries from 1962 to 2024, we construct country-specific opportunity sets with an imitation-density measure associated with subsequent product entry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09727v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Solvable macroscopic models for populations of type I excitability neurons with Gaussian noise</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-84-solvable-macroscopic-models-for-populations"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07714v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-84-solvable-macroscopic-models-for-populations</id>
-    <updated>2026-11-05T09:32:22+00:00</updated>
-    <summary type="html">&lt;p&gt;The dynamics of type I excitability neurons near the bifurcation point are governed by the model of quadratic integrate-and-fire neuron (QIF). The model of QIF subject to white Gaussian noise is abundant in statistical physics, since it not only reasonably reproduces the dynamics of some biological systems but also emerges in the problems of stochastic stability and in quantum mechanics of one-dimensional systems with quenched disorder. We derive the solution for the mean interspike interval of a QIF subject to additive Gaussian noise in terms of analytic functions, from the first passage time problem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07714v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #clean-tech&lt;/p&gt;</summary>
+    <title>Slow structures, fast degrees of freedom, and the morphology of chess openings</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-85-slow-structures-fast-degrees-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09710v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-85-slow-structures-fast-degrees-of</id>
+    <updated>2026-11-06T16:54:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Chess openings naturally separate into slow and fast degrees of freedom: pawns evolve through irreversible moves, whereas pieces can be rapidly reorganized within the resulting structure. We exploit this separation to construct a quantitative morphology of opening space. From a catalogue of 3810 named variations, 1749 reach a common depth of $N=10$ plies, corresponding to 619 distinct positions and only 435 joint pawn structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09710v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Distributed Optimization Involving Non-Lipschitzian, Linear Composite Functions: Unified Algorithm Design and Convergence Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-85-distributed-optimization-involving-non-lipschitzian"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07703v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-85-distributed-optimization-involving-non-lipschitzian</id>
-    <updated>2026-11-05T09:25:12+00:00</updated>
-    <summary type="html">&lt;p&gt;This paper formulates a generic distributed nonsmooth optimization problem subject to edge-based equality constraints, local inequality constraints characterized by general convex functions, as well as globally coupling constraints including affine equality and nonlinear inequality. The terminal goal is to minimize the sum of local non-differentiable convex functions and proximable nonsmooth convex composite terms attached to linear operators, over networked multi-agent systems. This formulated framework not only applies in complex practical problems but also reduces to existing distributed optimization structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07703v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>Contextual Search and Bilateral Trade with a Trace-Square-Root Potential</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-86-contextual-search-and-bilateral-trade"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09615v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-86-contextual-search-and-bilateral-trade</id>
+    <updated>2026-11-06T15:35:58+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a unified potential method for contextual search and bilateral trade with one-bit feedback and obtain order-tight algorithms for both problems. Our framework starts from a Bayesian perspective in which the unknown target (for contextual search) and the unknown pair of valuations (for bilateral trade) are sampled from a known prior distribution. In that model, the decision maker bases its prediction on the posterior distribution, obtained by conditioning on feedback received in previous rounds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09615v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Vibration patterns and reed - pipe coupling in the free reeds of the hulusi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-86-vibration-patterns-and-reed-pipe"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07696v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-86-vibration-patterns-and-reed-pipe</id>
-    <updated>2026-11-05T09:19:17+00:00</updated>
-    <summary type="html">&lt;p&gt;The hulusi is a free-reed instrument from Yunnan, Western China, known for its unique sound. Its reed and frame are cut from a single brass sheet in a symmetric shape, the free end narrower than the clamped end. Its free reeds are coupled to tubes that determine the instrument&amp;apos;s pitch during normal playing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07696v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #fluid-dynamics&lt;/p&gt;</summary>
+    <title>Optimal Regret for Profit Maximization in Bilateral Trade</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-87-optimal-regret-for-profit-maximization"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09558v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-87-optimal-regret-for-profit-maximization</id>
+    <updated>2026-11-06T15:02:17+00:00</updated>
+    <summary type="html">&lt;p&gt;Learning to profit from trade requires learning both sides of a market: what a seller is willing to accept and what a buyer is willing to pay. We study repeated bilateral trade, where an intermediary posts a purchase price to a seller and a sale price to a buyer whose valuations are drawn from an unknown joint distribution. Trade occurs only if both parties accept their respective prices, in which case the intermediary earns the difference between the two prices.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09558v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Evolutionary dynamics of collective-risk social dilemma game with risk uncertainty and adaptive strategy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-87-evolutionary-dynamics-of-collective-risk"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07627v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-87-evolutionary-dynamics-of-collective-risk</id>
-    <updated>2026-11-05T08:11:15+00:00</updated>
-    <summary type="html">&lt;p&gt;The collective-risk dilemma game constitutes the leading metaphor for studying the evolution of cooperation in populations of selfish individuals. Although most theoretical studies often consider the risk level as a fixed parameter, this may not fully reflect the uncertain nature of risk detected in real-world scenarios. Motivated by the observation that individuals can infer their game environment and accordingly adjust their actual behavior, here we investigate this game with uncertain risk.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07627v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Resolving non-neutrality across scales in a hyperdiverse tropical forest. Different ecological processes operate at different spatial and temporal scales.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-88-resolving-non-neutrality-across-scales"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09479v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-88-resolving-non-neutrality-across-scales</id>
+    <updated>2026-11-06T13:59:39+00:00</updated>
+    <summary type="html">&lt;p&gt;Different ecological processes operate at different spatial and temporal scales. Macroscopic regularities can therefore be captured by descriptions that ignore microscopic details, even when those details are mechanistically relevant to ecological processes. Here, we develop a framework inspired by statistical mechanics to track interspecific spatial correlations under spatial coarse-graining.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09479v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Learning and Steering in Incomplete-Information Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-88-learning-and-steering-in-incomplete"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07589v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-88-learning-and-steering-in-incomplete</id>
-    <updated>2026-11-05T07:40:05+00:00</updated>
-    <summary type="html">&lt;p&gt;In many modern multi-agent systems, a mediator seeks to influence strategic decision dynamics using only outcome-level feedback and without knowing agents&amp;apos; utilities. In this work, we study how a mediator can learn an unknown game and steer adaptive agents toward outcomes that maximize her utility using only trajectory feedback. The mediator knows the game form and her own objective, but not the agents&amp;apos; utilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07589v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #optimization&lt;/p&gt;</summary>
+    <title>Incentive Pathologies in a Live LLM Agent Arena: An Empirical Study of Concentration, Reward-Rule Implementation Discrepancy, and Network Dilution</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-89-incentive-pathologies-in-a-live"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09445v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-89-incentive-pathologies-in-a-live</id>
+    <updated>2026-11-06T13:19:48+00:00</updated>
+    <summary type="html">&lt;p&gt;We audit one live LLM agent arena (AITRAP; 22 autonomous agent seats, ~96,000 reasoning nodes) over nine days (Oct 16-25, 2026), during which the platform deployed two bundled incentive changes: a progressive tax reform (V2.9.3, Oct 19) and a seed-inversion with explorer-side action update (V3.0, Oct 21). These serve as before-and-after markers, not cleanly isolated interventions. Four exploratory predictions are tested against ten data frames (F1-F10) using the Gini coefficient, Top-K concentration share, code-level reconstruction of the continuation-bonus mechanism, and the Mann-Kendall trend test.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09445v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Polynomial-Time Approximate EFX for Chores via Flow and Matching. We study approximate EFX allocations of indivisible chores under nonnegative additive costs.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-89-polynomial-time-approximate-efx-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07468v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-89-polynomial-time-approximate-efx-for</id>
-    <updated>2026-11-05T05:27:58+00:00</updated>
-    <summary type="html">&lt;p&gt;We study approximate EFX allocations of indivisible chores under nonnegative additive costs. Exact EFX allocations need not exist in general. We develop a polynomial-time algorithm that computes a complete $(3+\varepsilon)$-EFX allocation for any rational $0&amp;lt;\varepsilon\leq1$, improving the previous approximation guarantee from a factor depending on the number of agents to a constant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07468v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Current frontiers in mobility and well-being</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-90-current-frontiers-in-mobility-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07343v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-90-current-frontiers-in-mobility-and</id>
-    <updated>2026-11-05T02:31:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Human mobility has a profound impact on social structure and collective behavior, which allows individuals to reshape group structures in response to strategy information, acting as a double-edged sword for cooperative behavior. It can both disrupt existing cooperative communities and enable individuals to escape adverse environments and seek high-quality interaction partners. This paper surveys current research progress on the impact of mobility on cooperation within the framework of evolutionary game theory, focusing on specific mechanisms of passive escape, dynamic self-organization driven by active choice, and the core trade-off between migration costs and speed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07343v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>An Inspection Game for Monitor Design Against GNSS Timing Attacks in Synchronous Islanding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-90-an-inspection-game-for-monitor"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09331v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-90-an-inspection-game-for-monitor</id>
+    <updated>2026-11-06T11:26:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Phasor measurement units (PMUs) take their time from GNSS, so a spoofer that slowly drags a receiver clock rotates the reported phase without touching the power waveform. The threat is acute in synchronous islanding, where a controller keeps an islanded generator in phase with the grid, using one PMU on each side of an open breaker, so that the two can be reconnected at any moment: a differential clock bias of about $0.56$\,ms can make the controller hold the generator $10^\circ$ out of phase while it reports perfect synchronism. We cast the defense as a zero-sum inspection game.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09331v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

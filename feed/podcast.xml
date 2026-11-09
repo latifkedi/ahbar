@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #21 (2026-11-08)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-08</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-08:issue:21</guid>
-      <pubDate>2026-11-08T11:35:25.216149371+00:00</pubDate>
-      <description>Ahbar Sayı #21 (2026-11-08):
+      <title>Ahbar Günlük Bülten — Sayı #22 (2026-11-09)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-09</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-09:issue:22</guid>
+      <pubDate>2026-11-09T13:27:01.604185451+00:00</pubDate>
+      <description>Ahbar Sayı #22 (2026-11-09):
 
 1. [Bilgisayar Bilimi &amp; Yazılım] Show HN: Kuşların sesini duyan ve onları 1800&apos;lerin illüstrasyonları gibi çizen bir e-mürekkep çerçevesi
 Bilgisayar Bilimi ve Yazılımında Show HN (Trend Repoları ve Araçları) aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] VFlash: Flash Primitive Decoding ile Hızlı, Doğru Görsel Planlama. Robotik ve otonom sürüş gibi fiziksel yapay zeka görevlerine yönelik modellerin yalnızca dilde akıl yürütmesi gerekmez.
-Robotik ve otonom sürüş gibi fiziksel yapay zeka görevlerine yönelik modellerin yalnızca dilde akıl yürütmesi gerekmez. Uzamsal hedefleri temsil etmek ve hareketi tahmin etmek için görsel planları (noktalar, sınırlayıcı kutular ve yörüngeler) kullanabilirler. Bununla birlikte, otoregresif görüş dili modelleri bu planları her seferinde bir koordinat jetonu oluşturarak daha zengin tahminlerin artmasını sağlar.
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] Video Kodlayıcı: Video Üretimi için Ajansal Kodlamayı Güçlendirme. Son yıllarda video oluşturmada görsel kalite ve zamansal tutarlılık açısından dikkate değer ilerlemelere tanık olduk.
+Son yıllarda video oluşturmada görsel kalite ve zamansal tutarlılık açısından dikkate değer ilerlemelere tanık olduk. Ancak hassas uzamsal yapıya, tutarlı hareket dinamiklerine ve kontrol edilebilir sahne kompozisyonuna sahip videolar oluşturmak hala zorludur. Bu yazıda, kod odaklı bir video oluşturmayı eğitmeye yönelik ilk girişim olan Video-Coder&apos;ı tanıtıyoruz…
 
-3. [Matematik &amp; Biçimsel Bilimler] Følner olmayan diziler aracılığıyla alt toplam fonksiyonların ortalamaları
-$\sup_{φ\inΦ}\limsup_{n\to\infty}φ(F_n)/|F_n|$ miktarını inceliyoruz; burada $\mathcal F= (F_n)_{n\in\mathbb{N}}$ sayılabilir uygun bir grubun sonlu alt kümelerinin bir dizisidir ve $Φ$ alt toplamsal fonksiyonların bir koleksiyonudur. $Φ$ üzerindeki ılıman koşullar altında yukarıda belirtilen miktarın $φ(F)/|F|$ limitinin $φ\inΦ$ üzerindeki üst toplamına eşit olduğunu kanıtlıyoruz:
+3. [Matematik &amp; Biçimsel Bilimler] Harper&apos;ın rastgele matrisler için karekök ötesi varsayımı
+$N$ boyutunda bir Haar üniter matrisi $U_N$ için, $\operatorname{tr}(\operatorname{Sym}^k U_N)$&apos;nin ilk mutlak momentinin $\min(N,k)\to\infty$ kadar sıfıra doğru yöneldiğini kanıtlarız. Bu, Wang ve Xu tarafından formüle edilen Harper&apos;ın karekök ötesi varsayımının rastgele matris versiyonunu, $k/N$ üzerinde herhangi bir kısıtlama olmadan çözer. Kanıt basit ve müstakildir, kombindir…
 
-4. [Fizik, Kuantum &amp; Uzay] Uzaktaki Kusur Anomalileri
-Yüzey kusurları, iki boyutlu konformal alan teorilerinin (CFT&apos;ler) merkezi yüklerini genelleştiren ve boşluksuz yüzey modlarının arka plan geometrisine anormal tepkisini karakterize eden Weyl ve yerçekimi anomalilerini taşır. Bu anormallikler genellikle kusur üzerinde temas terimleri olarak görünür. Uzaktan, şemadan bağımsız olarak nasıl kodlandıklarını açıklıyoruz…
+4. [Fizik, Kuantum &amp; Uzay] Yapay zeka ile resmi olarak doğrulanmış kuantum programlarını keşfetme
+Kuantum bilgisayarların bilimdeki çığır açan sorunları çözebileceği zaman çizelgesi, daha iyi donanıma olduğu kadar gelişmiş kuantum algoritmalarına da bağlıdır. Bu tür algoritmik ilerlemeler genellikle uzun yıllar süren uzman insan işbirliğiyle elde edilir. Matematik ve bilgisayar bilimlerinde büyük dil modelleri, otomatik disko aracılığıyla ilerlemeyi hızlandırdı…
 
 5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Cuma günü için güvenlik güncellemeleri
 Güvenlik güncellemeleri AlmaLinux (cockpit, dpdk, fend-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm ve raptor2), Debian (apt ve squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, pas ap…
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] MUSS: Tek Hücreli Gen Düzenlemesi için Çok Ölçekli ve Dizi Tabanlı Bir Model
-Tek hücrelerde gen düzenlemesinin modellenmesi, düzenleyici ölçeklerde DNA dizisinin, kromatin erişilebilirliğinin ve gen ifadesinin ortaklaşa temsil edilmesini gerektirir. Dizi bazlı modeller, DNA düzeyinde düzenleyici dilbilgisini yakalar ancak çoğu zaman hücre düzeyinde çözünürlükten yoksundur; oysa birçok tek hücreli omic modeli, genleri ve zirveleri, belirli bir anlam olmadan sabit sözcük belirteçleri olarak temsil eder.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] Kompakt Renkli k-mer İndekslerinin Çıkarılması ve Güncellenmesi
+Renkli k-mer indeksleri, bir genom koleksiyonunun her k-merini, onu içeren genomları veya türleri kaydeder ve büyük koleksiyonlara karşı sahte hizalama ve dizi aramasını destekler. Böyle bir indeksin oluşturulması pahalıdır, ancak temsil ettiği koleksiyon nadiren nihai olur: genomlar geri çekilir veya kontamine olduğu tespit edilir, kullanıcıların bir indekse ihtiyacı vardır.
 
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] $3$-uzak dışbükey oyunların çekirdekleri. Dışbükey işbirlikçi oyunlar boş olmayan bir çekirdeğe sahiptir ve çekirdek tahsislerinin verimli bir şekilde oluşturulmasına izin verir.
-Dışbükey işbirlikçi oyunlar boş olmayan bir çekirdeğe sahiptir ve çekirdek tahsislerinin verimli bir şekilde oluşturulmasına izin verir. Ancak ekonomik olarak doğal yerel sürtünmeler dışbükeyliği ihlal edebilir. Yalnızca yakın ilişkili koalisyonlar arasında dışbükeylik ihlallerine izin veren $3$-uzak dışbükey oyunların çekirdeğini inceliyoruz.
+8. [Ekonomi, Finans &amp; Makro Analiz] Yapay Müşteriler ve Dikkat Yarışması. Yapay zeka alışveriş arayüzlerinin fiyat rekabetini, platform kârını ve tüketici refahını nasıl etkilediğini inceliyoruz.
+Yapay zeka alışveriş arayüzlerinin fiyat rekabetini, platform kârını ve tüketici refahını nasıl etkilediğini inceliyoruz. Bir platform farklı kalitede üç üründen ikisini barındırır. Yapay zeka olmadan tüketiciler, barındırılan çifti, hangi özelliğin, fiyatın veya kalitenin öne çıktığına göre belirginlik bozulması ve aşırı kilo açısından karşılaştırır.
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Demokratlar Dış Politika Devrimi Başlatma Şansını Harcamamalı
-Yeni bir Kongrede hırsın zorunluluğu.
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Küresel Terörün Yeni Merkez Üssü. Afrika&apos;nın zayıf devletleri ve nadir toprak elementleri ulusötesi aşırıcılığı nasıl teşvik ediyor?
+Afrika&apos;nın zayıf devletleri ve nadir toprak elementleri ulusötesi aşırıcılığı nasıl teşvik ediyor?
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Sıralı Anlaşma Yoluyla Bilgi Elde Etme
-Sıralı bilgiler, konferans akran incelemesinden büyük dil modelleri için İnsan Geri Bildiriminden Takviyeli Öğrenmeye kadar uzanan görevlerin merkezinde yer alır. Bu tür ortamların çoğunda, raporların doğrudan doğrulanabileceği nesnel bir temel gerçek yoktur, bu da teşviklerle uyumlu çıkarımı zorlaştırır. Akran tahmin mekanizmaları şu amaçlara ulaşmak için tasarlanmıştır:
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Alçak Dünya Yörüngesindeki Nükleer Patlamanın Etkileri
+Alçak Dünya yörüngesinde (LEO) 13.000&apos;den fazla uydu çalışıyor ve nükleer silahların uzayda bunları hedef almak için kullanılabileceği yönündeki endişeler artıyor. İlk X-ışını patlamasının ötesinde, radyoaktif fisyon ürünleri tarafından salınan elektronlar, Dünya&apos;nın manyetik alanında sıkışıp kalarak uyduları yapay bir radyasyon kuşağı olarak tekrar tekrar açığa çıkarabilir. Burada istemi çiftleştiriyoruz…
 
 </description>
       <itunes:duration>300</itunes:duration>

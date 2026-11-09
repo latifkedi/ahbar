@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-crypto.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-crypto.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-56-sok-post-quantum-cryptography-pqc"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08442v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-56-sok-post-quantum-cryptography-pqc</id>
-    <updated>2026-11-05T18:34:08+00:00</updated>
-    <summary type="html">&lt;p&gt;Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, software development lifecycle coverage, cybersecurity practices, deployment maturity, and testing and evaluation evidence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #software-architecture #cryptography&lt;/p&gt;</summary>
+    <title>Empirical Assessment of Post-Quantum Cryptography Adoption Status in TLS. Anticipating Q-day security concerns, major CDNs and cloud providers are migrating to post-quantum cryptography (PQC).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-56-empirical-assessment-of-post-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09707v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-56-empirical-assessment-of-post-quantum</id>
+    <updated>2026-11-06T16:49:55+00:00</updated>
+    <summary type="html">&lt;p&gt;Anticipating Q-day security concerns, major CDNs and cloud providers are migrating to post-quantum cryptography (PQC). While existing literature benchmarks PQC performance, empirical research evaluating real-world adoption data remains scarce. We present an empirical assessment of PQC deployment across seven critical protocols (HTTPS, LDAPS, SMTPS, IMAP-SSL, POP3-SSL, TELNETS, and RDP) using 10,000 target IP addresses per protocol.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09707v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-57-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-57-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-57-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-57-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-58-beyond-instruction-override-benchmarking-indirect"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07640v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-58-beyond-instruction-override-benchmarking-indirect</id>
-    <updated>2026-11-05T08:25:27+00:00</updated>
-    <summary type="html">&lt;p&gt;Indirect prompt-injection (IPI) benchmarks predominantly test planted instructions that redirect a tool-using agent toward an attacker-chosen task. Yet attacker-controlled content can instead tamper with the outcome of the task already in progress. A buyer&amp;apos;s dispute evidence can cite a false refund policy to inflate a refund without changing the task.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07640v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #agents&lt;/p&gt;</summary>
+    <title>Beyond-Birthday-Bound Security with HCTR2: Cascaded Construction and Tweak-based Key Derivation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-58-beyond-birthday-bound-security-with"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/085"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-58-beyond-birthday-bound-security-with</id>
+    <updated>2026-01-19T13:37:05+00:00</updated>
+    <summary type="html">&lt;p&gt;The block cipher (BC) mode for realizing a variable-input-length strong tweakable pseudorandom permutation (VIL-STPRP), also known as the accordion mode, is a rapidly growing research field driven by NIST&amp;apos;s standardization project, which considers AES as a primitive. Widely used VIL-STPRP modes, such as HCTR2, have birthday-bound security and provide only 64-bit security with AES. To provide higher security, NIST is considering two directions: to develop new modes with beyond-birthday-bound (BBB) security and to use Rijndael-256-256 with HCTR2.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/085&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Generalized Batched Decomposition Key-Switching for CKKS. In lattice-based homomorphic encryption schemes, ciphertexts carry an inherent noise that grows as computation advances.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-59-generalized-batched-decomposition-key-switching"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1340"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-59-generalized-batched-decomposition-key-switching</id>
-    <updated>2026-06-29T18:52:32+00:00</updated>
-    <summary type="html">&lt;p&gt;In lattice-based homomorphic encryption schemes, ciphertexts carry an inherent noise that grows as computation advances. The key-switching procedure of these schemes allows the homomorphic re-encryption of a ciphertext under a new secret key, but it incurs substantial noise growth and computational cost. In this work, we generalize the RNS-based decomposition technique of the CKKS scheme to an arbitrary number of input polynomials and secret keys.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1340&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #neuroscience&lt;/p&gt;</summary>
+    <title>RoKoko: Lattice-based Succinct Arguments, a Committed Refinement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-59-rokoko-lattice-based-succinct-arguments"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/575"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-59-rokoko-lattice-based-succinct-arguments</id>
+    <updated>2026-03-23T07:53:09+00:00</updated>
+    <summary type="html">&lt;p&gt;We present RoKoko, a new lattice-based succinct argument system that achieves a linear-time prover alongside polylogarithmic communication and verifier complexity. Asymptotically, our construction improves upon RoK and Roll (ASIACRYPT 2025), the first post-quantum SNARK with $\tilde{O}(\lambda)$ proof size, by a multiplicative factor of $\Theta(\log \lambda)$. Practically, our system yields proofs of roughly $200$KB, while outperforming the state-of-the-art polynomial commitment scheme Greyhound (CRYPTO 2024) with a $100\times$ faster verification time, similar prover time, and competitive proof size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/575&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit. Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-60-atlantis-lattice-based-anonymous-tokens"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1248"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-60-atlantis-lattice-based-anonymous-tokens</id>
-    <updated>2026-06-12T20:54:19+00:00</updated>
-    <summary type="html">&lt;p&gt;Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens. The bit remains hidden from the clients, but verifiers can read the bit and rate-limit or discard tokens marked suspect. A series of ATPM constructions exist in the literature, however all current constructions rely on classical hardness assumptions such as RSA groups, pairings, or elliptic-curve VRFs and do not provide any post-quantum security guarantees.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1248&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #post-quantum&lt;/p&gt;</summary>
+    <title>AirBB: Lightweight Threshold Anonymous Credentials without Random Oracles from BB Signatures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-60-airbb-lightweight-threshold-anonymous-credentials"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2762"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-60-airbb-lightweight-threshold-anonymous-credentials</id>
+    <updated>2026-11-04T10:21:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their identity and selectively present personal information in an unlinkable manner. The issuer, however, is often a single point of failure. Threshold issuance addresses this by distributing the issuer across several parties such that a quorum of them must cooperate to issue credentials.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2762&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Catalytic Tree Evaluation From Matching Vectors. We give new algorithms for tree evaluation (S.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-61-catalytic-tree-evaluation-from-matching"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/265"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-61-catalytic-tree-evaluation-from-matching</id>
-    <updated>2026-02-15T21:45:12+00:00</updated>
-    <summary type="html">&lt;p&gt;We give new algorithms for tree evaluation (S. Cook et al. TOCT 2012) in the catalytic-computing model (Buhrman et al. STOC 2014). Two existing approaches aim to solve tree evaluation (TreeEval) in low space: on the one hand, J.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/265&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rag&lt;/p&gt;</summary>
+    <title>Sonata: Certifying Canonical Openings in High-Arity Lattice Folding. Folding lets a prover certify a computation incrementally by combining committed instances into an accumulator.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-61-sonata-certifying-canonical-openings-in"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2011"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-61-sonata-certifying-canonical-openings-in</id>
+    <updated>2026-09-14T04:47:13+00:00</updated>
+    <summary type="html">&lt;p&gt;Folding lets a prover certify a computation incrementally by combining committed instances into an accumulator. In lattice-based folding, a linear combination of field values can change their canonical digit representations. Re-encoding the result gives the prover a short opening.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2011&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Dynark: Making Groth16 Dynamic</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-62-dynark-making-groth16-dynamic"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1897"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-62-dynark-making-groth16-dynamic</id>
-    <updated>2025-10-10T17:23:25+00:00</updated>
-    <summary type="html">&lt;p&gt;In recent years, numerous new and more efficient constructions of zero-knowledge succinct non-interactive argument of knowledge (zkSNARK) have been proposed, motivated by their growing practical applications. However, in most schemes, when the witness is changed, the prover has to recompute the proof from scratch even if the new witness is close to the old one. This is inefficient for applications where proofs are generated for dynamically changing witnesses with small changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1897&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
+    <title>Optimality and Efficiency of Higher-Order Rank-Based Side-Channel Attacks against Inner Product Masking Schemes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-62-optimality-and-efficiency-of-higher"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2676"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-62-optimality-and-efficiency-of-higher</id>
+    <updated>2026-10-29T06:36:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Higher-Order Spearman Coefficient Analysis (HO-SPA) is of particular interest in non-profiling Side-Channel Attacks (SCA) due to its effectiveness against monotonic nonlinear leakage. However, the optimal form, effective order combinations, and performance of HO-SPA (or its variants) remain underexplored. This work systematically revisits HO-SPA in the presence of Boolean Masking (BM) and Inner Product Masking (IPM).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2676&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Linear Cryptanalysis with Bibrace Characters: Weak-Key Distinguishers for CRAFT</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-63-linear-cryptanalysis-with-bibrace-characters"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1767"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-63-linear-cryptanalysis-with-bibrace-characters</id>
-    <updated>2026-08-21T16:16:57+00:00</updated>
-    <summary type="html">&lt;p&gt;Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences. If that group is replaced by a second elementary abelian group structure on the same set, here the one coming from a binary bibrace, then the admissible masks are no longer the ordinary scalar products: exactly half of them survive, and the other half are forced to be quadratic. Beyne&amp;apos;s geometric approach develops linear cryptanalysis over an arbitrary finite abelian group, providing a natural framework for this setting.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1767&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Non-Interactive Threshold Mercurial Signatures with Applications to Threshold DAC</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-63-non-interactive-threshold-mercurial-signatures"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/2134"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-63-non-interactive-threshold-mercurial-signatures</id>
+    <updated>2025-11-21T16:21:31+00:00</updated>
+    <summary type="html">&lt;p&gt;In a mercurial signature, a signer signs a representative $m$ of an equivalence class of messages on behalf of a representative $\mathsf{pk}$ of an equivalence class of public keys, receiving the signature $\sigma$. One can then transform $\sigma$ into a signature $\sigma&amp;apos;$ on an equivalent (to $m$) message $m&amp;apos;$ under an equivalent (to $\mathsf{pk}$) public key $\mathsf{pk}&amp;apos;$. Mercurial signatures are helpful in constructing delegatable anonymous credentials (DACs): their privacy properties enable straightforward randomization of a credential chain, hiding the identity of each signer while preserving the authenticity of the overall credential.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2134&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

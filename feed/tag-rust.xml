@@ -5,61 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
-  <entry>
-    <title>From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-15-from-autonomous-agents-to-cognitive"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05376"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-15-from-autonomous-agents-to-cognitive</id>
-    <updated>2026-11-03T13:59:52.000Z</updated>
-    <summary type="html">&lt;p&gt;For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person&amp;apos;s behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05376&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #agents&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
     <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-37-security-updates-for-friday"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-37-security-updates-for-friday"/>
     <link rel="related" href="https://lwn.net/Articles/1105881/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-37-security-updates-for-friday</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-37-security-updates-for-friday</id>
     <updated>2026-11-06T14:04:54+00:00</updated>
     <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105881/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-41-sensorguard-rv-sensor-to-register"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08380v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-41-sensorguard-rv-sensor-to-register</id>
-    <updated>2026-11-05T17:57:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08380v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Toward space-optimal approximate colored indexes at scale. Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-48-toward-space-optimal-approximate-colored"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-50-toward-space-optimal-approximate-colored"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-48-toward-space-optimal-approximate-colored</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-50-toward-space-optimal-approximate-colored</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput. Although exact colored indexes retain complete sequence information, their construction and storage costs can become substantial for highly diverse collections. Indexes based on approximate membership query (AMQ) filters offer a compact alternative with fast construction and queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-44-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-43-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-44-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-43-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit. Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-60-atlantis-lattice-based-anonymous-tokens"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1248"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-60-atlantis-lattice-based-anonymous-tokens</id>
-    <updated>2026-06-12T20:54:19+00:00</updated>
-    <summary type="html">&lt;p&gt;Anonymous tokens with private metadata bit (ATPM) allow an issuer to embed a hidden trust flag, as a single bit, within issued tokens. The bit remains hidden from the clients, but verifiers can read the bit and rate-limit or discard tokens marked suspect. A series of ATPM constructions exist in the literature, however all current constructions rely on classical hardness assumptions such as RSA groups, pairings, or elliptic-curve VRFs and do not provide any post-quantum security guarantees.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1248&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #post-quantum&lt;/p&gt;</summary>
+    <title>Non-Interactive Threshold Mercurial Signatures with Applications to Threshold DAC</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-63-non-interactive-threshold-mercurial-signatures"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/2134"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-63-non-interactive-threshold-mercurial-signatures</id>
+    <updated>2025-11-21T16:21:31+00:00</updated>
+    <summary type="html">&lt;p&gt;In a mercurial signature, a signer signs a representative $m$ of an equivalence class of messages on behalf of a representative $\mathsf{pk}$ of an equivalence class of public keys, receiving the signature $\sigma$. One can then transform $\sigma$ into a signature $\sigma&amp;apos;$ on an equivalent (to $m$) message $m&amp;apos;$ under an equivalent (to $\mathsf{pk}$) public key $\mathsf{pk}&amp;apos;$. Mercurial signatures are helpful in constructing delegatable anonymous credentials (DACs): their privacy properties enable straightforward randomization of a credential chain, hiding the identity of each signer while preserving the authenticity of the overall credential.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2134&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Dynark: Making Groth16 Dynamic</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-62-dynark-making-groth16-dynamic"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1897"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-62-dynark-making-groth16-dynamic</id>
-    <updated>2025-10-10T17:23:25+00:00</updated>
-    <summary type="html">&lt;p&gt;In recent years, numerous new and more efficient constructions of zero-knowledge succinct non-interactive argument of knowledge (zkSNARK) have been proposed, motivated by their growing practical applications. However, in most schemes, when the witness is changed, the prover has to recompute the proof from scratch even if the new witness is close to the old one. This is inefficient for applications where proofs are generated for dynamically changing witnesses with small changes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1897&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust&lt;/p&gt;</summary>
+    <title>Financial Advisors and Retirees&apos; Risk-taking -- by Allison T. Cole, Maarten Meeuwis, Alessandro Previtero, Noah Stoffman</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-72-financial-advisors-and-retirees-risk"/>
+    <link rel="related" href="https://www.nber.org/papers/w35990#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-72-financial-advisors-and-retirees-risk</id>
+    <updated>2026-11-09T13:27:02.057979514+00:00</updated>
+    <summary type="html">&lt;p&gt;Advised retirees keep about two-thirds of their portfolios in equities well into old age—30 to 40 percentage points more than non-advised retirees, target-date funds, or common rules of thumb. These allocations reflect active choices rather than inertia, and they adjust gradually toward a new advisor’s investment style following advisor switches. Equity shares rise with relationship tenure, and advisor influence is strongest among clients with low financial knowledge or risk tolerance, consistent with trust facilitating risk-taking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35990#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

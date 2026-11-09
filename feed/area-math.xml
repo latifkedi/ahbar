@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-math.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-math.xml</id>
-  <updated>2026-11-08T11:35:25.216149371+00:00</updated>
+  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
   <entry>
-    <title>Averages of sub-additive functions through non-Følner sequences</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-19-averages-of-sub-additive-functions"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08408v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-19-averages-of-sub-additive-functions</id>
-    <updated>2026-11-05T18:14:40+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the quantity $\sup_{φ\inΦ}\limsup_{n\to\infty}φ(F_n)/|F_n|$, where $\mathcal F= (F_n)_{n\in\mathbb{N}}$ is a sequence of finite subsets of a countable amenable group, and $Φ$ is a collection of subadditive functions. Under mild conditions on $Φ$ we prove that the aforementioned quantity equals the supremum over $φ\inΦ$ of the limit of $φ(F)/|F|$ as $F$ becomes more and more invariant, multiplied by a ``Følnerness&amp;apos;&amp;apos; constant $C(\mathcal F)\in[1,\infty]$. We have $C(\mathcal F)=1$ if and only if $\mathcal F$ is Følner.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08408v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
+    <title>Harper&apos;s beyond square-root conjecture for random matrices</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-19-harper-s-beyond-square-root"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09753v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-19-harper-s-beyond-square-root</id>
+    <updated>2026-11-06T17:21:41+00:00</updated>
+    <summary type="html">&lt;p&gt;For a Haar unitary matrix $U_N$ of size $N$, we prove that the first absolute moment of $\operatorname{tr}(\operatorname{Sym}^k U_N)$ tends to zero as $\min(N,k)\to\infty$. This settles the random matrix version of Harper&amp;apos;s beyond square-root conjecture formulated by Wang and Xu, with no restriction on $k/N$. The proof is elementary and self-contained, combining exact weighted trace moments with a Gaussian change of measure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09753v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>From elementary processes to chaos: a discrete-time two-stage contagion model and its continuous limit</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-20-from-elementary-processes-to-chaos"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08353v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-20-from-elementary-processes-to-chaos</id>
-    <updated>2026-11-05T17:34:56+00:00</updated>
-    <summary type="html">&lt;p&gt;Two-stage contagion, in which adoption requires two successive contacts with adopters, combined with population turnover produces bistability and relaxation oscillations in Katriel&amp;apos;s differential-equation model, but no chaos. We derive from the elementary reactions of the process, without reference to the differential equations, a discrete-time model in which the population is updated in rounds of length $τ$, as in elections, meetings or turns of a game: each individual makes at most one transition per round, events compete as exponential risks, and adoptions take effect from the next round. The model is a Markov chain whose large-population limit is a map $F_τ$; Katriel&amp;apos;s equations are recovered as $τ\to0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08353v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems&lt;/p&gt;</summary>
+    <title>Strong Convergence for Zig-Zag Products and Typical Spectra of Irregular Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-20-strong-convergence-for-zig-zag"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09732v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-20-strong-convergence-for-zig-zag</id>
+    <updated>2026-11-06T17:08:51+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the following: do existence bounds obtained by interlacing methods describe the spectra of typical random graphs? Depending on the model, we provide both positive and negative answers. We establish a Friedman-type theorem for zig-zag products of random regular graphs $G$ with a fixed vertex-transitive gadget $H$, where $G$ is sampled from independent permutations or matchings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09732v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What remains of the planar induced minor conjectures?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-21-what-remains-of-the-planar"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09627v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-21-what-remains-of-the-planar</id>
+    <updated>2026-11-06T15:46:58+00:00</updated>
+    <summary type="html">&lt;p&gt;Dallard, Milanič, and Štorgel, and independently Gartland and Lokshtanov, conjectured that for every planar graph $H$, Maximum Weight Independent Set and List $3$-Coloring are polynomial-time solvable in $H$-induced-minor-free graphs. As a structural explanation, Gartland and Lokshtanov further conjectured that such graphs admit balanced separators dominated by a constant number of vertices. Bonnet and Chang recently refuted the independent-set part of the algorithmic conjecture, by showing that Maximum Independent Set is $\mathsf{NP}$-hard in graphs excluding the $5\times5$ grid as an induced minor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09627v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>TPIC: Energy-Conserving Space Plasma Simulations on GPU Supercomputers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-22-tpic-energy-conserving-space-plasma"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09624v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-22-tpic-energy-conserving-space-plasma</id>
+    <updated>2026-11-06T15:45:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Artificial heating and numerical damping affect particle energization in kinetic space plasma simulations, even when the numerical scheme remains stable. Implicit and semi implicit energy conserving Particle-in-Cell (PIC) methods eliminate these errors in the discrete energy balance while relaxing explicit stability constraints. We present TPIC, a massively parallel implementation of the Energy Conserving Semi-Implicit Method (ECSIM) for GPU supercomputers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09624v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Safety Is $Π_1$, Provability Is $Σ_1$: One Framework for the Hugging Face Breach and OpenAI&apos;s Mathematical Proofs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-23-safety-is-1-provability-is"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09736v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-23-safety-is-1-provability-is</id>
+    <updated>2026-11-06T17:10:40+00:00</updated>
+    <summary type="html">&lt;p&gt;OpenAI&amp;apos;s agents breached Hugging Face in July 2026, and the same company released more than seven hundred AI-generated manuscripts of mathematical proofs in October 2026. The first event is read as a failure in security, while the second is read as a success in mathematics. We read both through the hybrid framework of our paper (Kim and Kang, 2026, arXiv:2611.01914), in which coding, proving, and learning from data are derivations by one and the same deductive mechanism, distinguished by the kinds of premises from which they are derived.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09736v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #ml-theory #cryptography&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What should we teach our (undergraduate) students?. [This is a guest post by Jana Gevertz and Steffen Marcus.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-24-what-should-we-teach-our"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-24-what-should-we-teach-our</id>
+    <updated>2026-11-08T15:56:34+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Jana Gevertz and Steffen Marcus. This blog post was initially written in a different file format and converted using AI. — T.] In the last few months AI has hit our discipline with a frightening force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Futures of Maths Launch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-21-futures-of-maths-launch"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-25-futures-of-maths-launch"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-21-futures-of-maths-launch</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-25-futures-of-maths-launch</id>
     <updated>2026-11-05T17:14:20+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Francesco Fournier-Facio, Yara Kyrychenko, Jon Roozenbeek, and Julian Wykowski, cross-posted from the Proofs and Prompts blog. This blog post was initially written in a different file format and converted using AI. — T.] Today we launch Futures of Maths, a new, living platform that asks active research mathematicians about […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/05/futures-of-maths-launch/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>More of my interviews and talks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-22-more-of-my-interviews-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-26-more-of-my-interviews-and"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-22-more-of-my-interviews-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-26-more-of-my-interviews-and</id>
     <updated>2026-11-04T18:52:00+00:00</updated>
     <summary type="html">&lt;p&gt;I am continuing in this current era to open up my blog to a broader range of voices on math and AI, with the majority of posts now being guest posts by other authors. My own views on these topics (which often overlap with, but are not identical to, those of the guest authors) are […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/04/more-of-my-interviews-and-talks/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doctoral Advising Guidelines by the AHM. [This is a guest post by the AHM communications group.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-23-doctoral-advising-guidelines-by-the"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-27-doctoral-advising-guidelines-by-the"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-23-doctoral-advising-guidelines-by-the</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-27-doctoral-advising-guidelines-by-the</id>
     <updated>2026-11-03T18:32:46+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by the AHM communications group. — T.] We are happy to announce that the Teaching Working Group of the Association for Human Mathematics wrote a set of recommendations on doctoral advising aimed at departments, advisors, and students. The document contains five guidelines centered on prioritizing human-authored writing, avoiding overreliance on […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/03/doctoral-advising-guidelines-by-the-ahm/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Egoless Mathematics in the AI Era. [This is a guest post by Karthik C.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-24-egoless-mathematics-in-the-ai"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-24-egoless-mathematics-in-the-ai</id>
-    <updated>2026-11-02T18:54:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Karthik C. S., Amit Sahai, and Jie Xue. This blog post was initially written in a different file format and converted using AI. — T.] This is a good time for mathematicians to think carefully about the purpose of their work.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Mathematics has changed. Let’s act like it. [This is a guest post by Frank Calegari.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-25-mathematics-has-changed-let-s"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-25-mathematics-has-changed-let-s</id>
-    <updated>2026-11-01T18:28:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The mathematical sciences in an AI-enabled world</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-26-the-mathematical-sciences-in-an"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-26-the-mathematical-sciences-in-an</id>
-    <updated>2026-10-31T15:17:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The Academy for the Mathematical Sciences, which is based in the UK, has released a report “The mathematical sciences in an AI-enabled world“. To quote from the release: The paper examines how recent advances in artificial intelligence are changing mathematical research and its applications, bringing new opportunities for discovery, verification and the use of mathematics […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/31/the-mathematical-sciences-in-an-ai-enabled-world/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Report of the Summit on Math Research in the Age of AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-08-27-report-of-the-summit-on"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/10/30/__trashed/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-08-27-report-of-the-summit-on</id>
-    <updated>2026-10-31T03:07:00+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by the organizers of the Summit on Math Research in the Age of AI: Dan Freed (Harvard), Larry Guth (MIT), Bryna Kra (Northwestern), Emily Riehl (Johns Hopkins), and Mohammed Abouzaid (Stanford). This blog post was initially written in a different file format and converted using AI. — T.] Last week […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/10/30/__trashed/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>
