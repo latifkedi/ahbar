@@ -5,29 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-37-security-updates-for-friday"/>
-    <link rel="related" href="https://lwn.net/Articles/1105881/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-37-security-updates-for-friday</id>
-    <updated>2026-11-06T14:04:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105881/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #number-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Harper&apos;s beyond square-root conjecture for random matrices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-19-harper-s-beyond-square-root"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09753v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-19-harper-s-beyond-square-root</id>
-    <updated>2026-11-06T17:21:41+00:00</updated>
-    <summary type="html">&lt;p&gt;For a Haar unitary matrix $U_N$ of size $N$, we prove that the first absolute moment of $\operatorname{tr}(\operatorname{Sym}^k U_N)$ tends to zero as $\min(N,k)\to\infty$. This settles the random matrix version of Harper&amp;apos;s beyond square-root conjecture formulated by Wang and Xu, with no restriction on $k/N$. The proof is elementary and self-contained, combining exact weighted trace moments with a Gaussian change of measure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09753v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Strong Convergence for Zig-Zag Products and Typical Spectra of Irregular Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-20-strong-convergence-for-zig-zag"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09732v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-20-strong-convergence-for-zig-zag</id>
-    <updated>2026-11-06T17:08:51+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the following: do existence bounds obtained by interlacing methods describe the spectra of typical random graphs? Depending on the model, we provide both positive and negative answers. We establish a Friedman-type theorem for zig-zag products of random regular graphs $G$ with a fixed vertex-transitive gadget $H$, where $G$ is sampled from independent permutations or matchings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09732v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+    <title>PEEK: integrated primer design for silent-mutation and restriction-site engineering, validated in silico and by whole-plasmid sequencing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-48-peek-integrated-primer-design-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-48-peek-integrated-primer-design-for</id>
+    <updated>2026-11-09T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Silent introduction of restriction sites, direct site insertion, and verification of the result are routine operations in molecular cloning, yet they are typically distributed across separate tools built on inconsistent thermodynamics. Primer design is itself mature and heavily validated; the gap is not accuracy in principle but integration, together with the absence of any explicit account of why one synonymous edit should be preferred over another. Because melting temperature (Tm) gates which primers a tool will accept, any unified tool must first be shown to compute Tm correctly against an external standard, and then shown to produce the edits it proposes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

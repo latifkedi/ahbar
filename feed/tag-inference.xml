@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <entry>
+    <title>Flide: Accelerating Decision Inference with Exact State Forking</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-14-flide-accelerating-decision-inference-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42148"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-14-flide-accelerating-decision-inference-with</id>
+    <updated>2026-10-30T13:59:38.000Z</updated>
+    <summary type="html">&lt;p&gt;Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure of a decision request from its physical execution within a single flattened token stream.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42148&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #inference&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?. On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-15-how-much-training-inference-mismatch"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.11450"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-15-how-much-training-inference-mismatch</id>
+    <updated>2026-11-07T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.11450&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
 </feed>

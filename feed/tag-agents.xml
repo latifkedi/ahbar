@@ -5,85 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>Video-Coder: Reinforcing Agentic Coding for Video Generation. Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-10-video-coder-reinforcing-agentic-coding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09894"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-10-video-coder-reinforcing-agentic-coding</id>
-    <updated>2026-11-05T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals to downstream video generators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09894&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-13-reframe-observation-aligned-multi-teacher"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12886"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-13-reframe-observation-aligned-multi-teacher</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12886&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-13-longbanana-an-expert-verified-benchmark"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06856"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-13-longbanana-an-expert-verified-benchmark</id>
-    <updated>2026-11-04T13:11:56.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06856&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-16-trio-task-refinement-with-individual"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02810"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-16-trio-task-refinement-with-individual</id>
+    <updated>2026-11-01T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02810&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-15-authorization-drift-in-llm-agents"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09113"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-15-authorization-drift-in-llm-agents</id>
-    <updated>2026-11-06T02:47:25.000Z</updated>
-    <summary type="html">&lt;p&gt;LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path with an attractive unauthorized shortcut. To ensure executable tasks, tempting shortcuts, and feasible compliant paths, Staged Execution-Reflective Synthesis (SERS) grounds benchmark validation in real agent rollouts rather than LLM self-critique.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09113&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>ReproBridge: Building Reproducibility into ML Research Artifacts</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-17-reprobridge-building-reproducibility-into-ml"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08452"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-17-reprobridge-building-reproducibility-into-ml</id>
+    <updated>2026-11-05T13:45:36.000Z</updated>
+    <summary type="html">&lt;p&gt;Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08452&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-16-confucius4-r2t2-a-stable-prefix"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06043"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-16-confucius4-r2t2-a-stable-prefix</id>
-    <updated>2026-11-04T01:46:50.000Z</updated>
-    <summary type="html">&lt;p&gt;Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06043&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-17-exploring-weight-space-programming-capabilities"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09382"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-17-exploring-weight-space-programming-capabilities</id>
-    <updated>2026-11-05T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently understood. We systematically investigate WSP through 16 editing trajectories across seven benchmarks and two model scales (Qwen3.5-0.8B and Qwen3.5-9B).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09382&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-18-the-last-mile-to-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07461"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-18-the-last-mile-to-the</id>
-    <updated>2026-11-04T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07461&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Security updates for Monday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-37-security-updates-for-monday"/>
+    <link rel="related" href="https://lwn.net/Articles/1106282/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-37-security-updates-for-monday</id>
+    <updated>2026-11-09T14:02:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by Debian (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib), Fedora (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable, jupyterlab, kryoptic,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106282/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-68-debiasing-law-enforcement-officers-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-66-debiasing-law-enforcement-officers-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35986#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-68-debiasing-law-enforcement-officers-evidence</id>
-    <updated>2026-11-09T13:27:02.057979514+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-66-debiasing-law-enforcement-officers-evidence</id>
+    <updated>2026-11-10T13:06:10.498994728+00:00</updated>
     <summary type="html">&lt;p&gt;Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35986#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-44-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli"/>
     <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-44-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli</id>
     <updated>2026-10-27T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Regime change in a model for political opinion dynamics. Political crises involving a series of violent events are the rule rather than the exception in history.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-83-regime-change-in-a-model"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09742v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-83-regime-change-in-a-model</id>
-    <updated>2026-11-06T17:15:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Political crises involving a series of violent events are the rule rather than the exception in history. Here, we use a minimal opinion dynamics model to describe regime change as a contested transition between dominant shared ideas in a society. New opinions spread with a cumulative advantage, and agents do not return to opinions they held before, resulting in recurrent boom-and-bust dynamics without tuned parameters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09742v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Incentive Pathologies in a Live LLM Agent Arena: An Empirical Study of Concentration, Reward-Rule Implementation Discrepancy, and Network Dilution</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-89-incentive-pathologies-in-a-live"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09445v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-89-incentive-pathologies-in-a-live</id>
-    <updated>2026-11-06T13:19:48+00:00</updated>
-    <summary type="html">&lt;p&gt;We audit one live LLM agent arena (AITRAP; 22 autonomous agent seats, ~96,000 reasoning nodes) over nine days (Oct 16-25, 2026), during which the platform deployed two bundled incentive changes: a progressive tax reform (V2.9.3, Oct 19) and a seed-inversion with explorer-side action update (V3.0, Oct 21). These serve as before-and-after markers, not cleanly isolated interventions. Four exploratory predictions are tested against ten data frames (F1-F10) using the Gini coefficient, Top-K concentration share, code-level reconstruction of the continuation-bonus mechanism, and the Mann-Kendall trend test.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09445v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

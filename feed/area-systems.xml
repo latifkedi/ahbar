@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>Security updates for Friday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-37-security-updates-for-friday"/>
-    <link rel="related" href="https://lwn.net/Articles/1105881/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-37-security-updates-for-friday</id>
-    <updated>2026-11-06T14:04:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), Debian (apt and squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1105881/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #number-theory&lt;/p&gt;</summary>
+    <title>Security updates for Monday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-37-security-updates-for-monday"/>
+    <link rel="related" href="https://lwn.net/Articles/1106282/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-37-security-updates-for-monday</id>
+    <updated>2026-11-09T14:02:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by Debian (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib), Fedora (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable, jupyterlab, kryoptic,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106282/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-40-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-40-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-40-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-40-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Cross-Domain TARA-to-NAC Rule Mapping Methodology: From Automotive OEM Networks to Energy Storage Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-41-a-cross-domain-tara-to"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09771v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-41-a-cross-domain-tara-to</id>
-    <updated>2026-11-06T17:33:46+00:00</updated>
-    <summary type="html">&lt;p&gt;Threat analysis and risk assessment under ISO/SAE 21434 ends with cybersecurity goals, but existing methods give little structured guidance for turning those goals into enforceable network access control rules. Compliance standards such as IEC 62443, ISO/SAE 21434, and ISO/IEC 27001 are usually applied as parallel efforts rather than as one enforcement architecture. This paper presents a six-step methodology that maps cybersecurity goals from a threat analysis and risk assessment to network access control rules, each placed at a named enforcement point and traceable to the threat records behind it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09771v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Robust &amp; Scalable Website Fingerprinting via Minimal DRAM Traffic. Website fingerprinting attacks infer websites visited by users and threaten their privacy.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-42-robust-scalable-website-fingerprinting-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09422v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-42-robust-scalable-website-fingerprinting-via</id>
-    <updated>2026-11-06T12:50:37+00:00</updated>
-    <summary type="html">&lt;p&gt;Website fingerprinting attacks infer websites visited by users and threaten their privacy. These attacks are classified as on-path, which monitor network traffic, and co-located, which exploit shared system resources. Existing co-located attacks, such as sweep-counting and loop-counting, achieve over 90% accuracy but suffer significant performance degradation on many-core systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09422v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #infosec&lt;/p&gt;</summary>
+    <title>Vulnerability that lets hackers SSH into Linux devices is under active exploitation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-41-vulnerability-that-lets-hackers-ssh"/>
+    <link rel="related" href="https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-41-vulnerability-that-lets-hackers-ssh</id>
+    <updated>2026-11-09T19:41:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Certain configurations of Alpine are affected. Other distros may be as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/&quot;&gt;Ars Technica (Applied Tech &amp;amp; Hardware)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consumer-tech #hardware #semiconductors #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-42-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-42-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-44-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli"/>
     <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-44-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli</id>
     <updated>2026-10-27T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>How to fix a bug in a fix</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-45-how-to-fix-a-bug"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-44-how-to-fix-a-bug"/>
     <link rel="related" href="https://projectzero.google/2026/10/emergency-patching.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-45-how-to-fix-a-bug</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-44-how-to-fix-a-bug</id>
     <updated>2026-10-06T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/emergency-patching.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-45-windows-exploitation-techniques-dangling-com"/>
+    <link rel="related" href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-45-windows-exploitation-techniques-dangling-com</id>
+    <updated>2026-09-21T07:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/09/windows-dangling-com.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
 </feed>

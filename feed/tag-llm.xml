@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-llm.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-llm.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>Video-Coder: Reinforcing Agentic Coding for Video Generation. Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-10-video-coder-reinforcing-agentic-coding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09894"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-10-video-coder-reinforcing-agentic-coding</id>
-    <updated>2026-11-05T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals to downstream video generators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09894&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Learning Heterogeneous Tactile Representation for General Dexterous Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-10-learning-heterogeneous-tactile-representation-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12806"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-10-learning-heterogeneous-tactile-representation-for</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12806&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-11-splatanything-gaussian-spacing-normalization-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08264"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-11-splatanything-gaussian-spacing-normalization-for</id>
-    <updated>2026-11-05T11:37:29.000Z</updated>
-    <summary type="html">&lt;p&gt;We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale targets, leading to ambiguous supervision. To address this, we propose SplatAnything with Gaussian Spacing Normalization (GSNorm), which canonicalizes a robust scene-level statistic of Gaussian spacing to provide a more consistent spatial reference for Gaussian prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08264&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>WorldFoundry: Towards Unified Infrastructure for World Intelligence. Visual generative models increasingly blur the line between synthesizing observations and simulating environments.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-11-worldfoundry-towards-unified-infrastructure-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.10771"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-11-worldfoundry-towards-unified-infrastructure-for</id>
+    <updated>2026-11-07T09:59:22.000Z</updated>
+    <summary type="html">&lt;p&gt;Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes under observed and counterfactual interventions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.10771&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-12-p-2-mopd-accelerating-multi"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03953"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-12-p-2-mopd-accelerating-multi</id>
-    <updated>2026-11-02T15:53:15.000Z</updated>
-    <summary type="html">&lt;p&gt;Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within the span of the frozen student and expert parameters for any choice of merging coefficients, P^2-MOPD keeps the student trainable, so the experts act as parameter priors without confining it to this span.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03953&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-12-sage-taiyi-a-metacognitive-architecture"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12762"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-12-sage-taiyi-a-metacognitive-architecture</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12762&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-13-longbanana-an-expert-verified-benchmark"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06856"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-13-longbanana-an-expert-verified-benchmark</id>
-    <updated>2026-11-04T13:11:56.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks organized by a 3-by-3 taxonomy; each task includes about 32 reference images, 20 constraints, and 50 evaluation items, yielding 4,670 expert-specified atomic evaluation items in total.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06856&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-13-reframe-observation-aligned-multi-teacher"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12886"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-13-reframe-observation-aligned-multi-teacher</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12886&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-14-evoworld-towards-out-of-sight"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06748"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-14-evoworld-towards-out-of-sight</id>
-    <updated>2026-11-04T11:26:45.000Z</updated>
-    <summary type="html">&lt;p&gt;Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wild beast appears, the model should not only depict the wild beast, but also infer whether a nearby person should flee, take cover, or fight back based on the realized scene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06748&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Flide: Accelerating Decision Inference with Exact State Forking</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-14-flide-accelerating-decision-inference-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.42148"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-14-flide-accelerating-decision-inference-with</id>
+    <updated>2026-10-30T13:59:38.000Z</updated>
+    <summary type="html">&lt;p&gt;Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure of a decision request from its physical execution within a single flattened token stream.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42148&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-15-authorization-drift-in-llm-agents"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09113"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-15-authorization-drift-in-llm-agents</id>
-    <updated>2026-11-06T02:47:25.000Z</updated>
-    <summary type="html">&lt;p&gt;LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a sufficient compliant path with an attractive unauthorized shortcut. To ensure executable tasks, tempting shortcuts, and feasible compliant paths, Staged Execution-Reflective Synthesis (SERS) grounds benchmark validation in real agent rollouts rather than LLM self-critique.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09113&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?. On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-15-how-much-training-inference-mismatch"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.11450"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-15-how-much-training-inference-mismatch</id>
+    <updated>2026-11-07T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.11450&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-16-confucius4-r2t2-a-stable-prefix"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06043"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-16-confucius4-r2t2-a-stable-prefix</id>
-    <updated>2026-11-04T01:46:50.000Z</updated>
-    <summary type="html">&lt;p&gt;Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06043&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-16-trio-task-refinement-with-individual"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.02810"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-16-trio-task-refinement-with-individual</id>
+    <updated>2026-11-01T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02810&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-17-exploring-weight-space-programming-capabilities"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09382"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-17-exploring-weight-space-programming-capabilities</id>
-    <updated>2026-11-05T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently understood. We systematically investigate WSP through 16 editing trajectories across seven benchmarks and two model scales (Qwen3.5-0.8B and Qwen3.5-9B).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09382&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #agents&lt;/p&gt;</summary>
+    <title>ReproBridge: Building Reproducibility into ML Research Artifacts</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-17-reprobridge-building-reproducibility-into-ml"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08452"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-17-reprobridge-building-reproducibility-into-ml</id>
+    <updated>2026-11-05T13:45:36.000Z</updated>
+    <summary type="html">&lt;p&gt;Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08452&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-18-the-last-mile-to-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07461"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-18-the-last-mile-to-the</id>
-    <updated>2026-11-04T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07461&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-18-fewsteprl-fine-tuning-few-step"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08240"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-18-fewsteprl-fine-tuning-few-step</id>
+    <updated>2026-11-05T11:19:52.000Z</updated>
+    <summary type="html">&lt;p&gt;Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a many-step sampler. We adapt RL objectives to few-step models systematically in three phases, namely a transformation, a decomposition and an adaptation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08240&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

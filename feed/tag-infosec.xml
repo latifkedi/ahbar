@@ -5,77 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-40-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-40-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-40-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-40-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cavity-enhanced second harmonic generation from Rydberg excitons in Cu$_2$O</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-36-cavity-enhanced-second-harmonic-generation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09705v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-36-cavity-enhanced-second-harmonic-generation</id>
-    <updated>2026-11-06T16:48:38+00:00</updated>
-    <summary type="html">&lt;p&gt;Rydberg excitons in Cu$_2$O provide a solid-state setting for creating giant optical nonlinearities. Here, we use second-harmonic generation (SHG) to study Rydberg excitons in a doubly resonant optical microcavity designed to enhance both the pump and second-harmonic fields. We observe even-parity exciton states in an optical cavity and extend cavity-based measurements of Rydberg excitons up to $n=10$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09705v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Robust &amp; Scalable Website Fingerprinting via Minimal DRAM Traffic. Website fingerprinting attacks infer websites visited by users and threaten their privacy.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-42-robust-scalable-website-fingerprinting-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09422v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-42-robust-scalable-website-fingerprinting-via</id>
-    <updated>2026-11-06T12:50:37+00:00</updated>
-    <summary type="html">&lt;p&gt;Website fingerprinting attacks infer websites visited by users and threaten their privacy. These attacks are classified as on-path, which monitor network traffic, and co-located, which exploit shared system resources. Existing co-located attacks, such as sweep-counting and loop-counting, achieve over 90% accuracy but suffer significant performance degradation on many-core systems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09422v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Toward space-optimal approximate colored indexes at scale. Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-50-toward-space-optimal-approximate-colored"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-50-toward-space-optimal-approximate-colored</id>
-    <updated>2026-11-06T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Searching current petabase-scale sequence repositories requires indexes that combine compact storage with high query throughput. Although exact colored indexes retain complete sequence information, their construction and storage costs can become substantial for highly diverse collections. Indexes based on approximate membership query (AMQ) filters offer a compact alternative with fast construction and queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.05.764633v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust #infosec&lt;/p&gt;</summary>
+    <title>Vulnerability that lets hackers SSH into Linux devices is under active exploitation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-41-vulnerability-that-lets-hackers-ssh"/>
+    <link rel="related" href="https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-41-vulnerability-that-lets-hackers-ssh</id>
+    <updated>2026-11-09T19:41:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Certain configurations of Alpine are affected. Other distros may be as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/&quot;&gt;Ars Technica (Applied Tech &amp;amp; Hardware)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consumer-tech #hardware #semiconductors #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-42-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-42-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-68-debiasing-law-enforcement-officers-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-66-debiasing-law-enforcement-officers-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35986#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-68-debiasing-law-enforcement-officers-evidence</id>
-    <updated>2026-11-09T13:27:02.057979514+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-66-debiasing-law-enforcement-officers-evidence</id>
+    <updated>2026-11-10T13:06:10.498994728+00:00</updated>
     <summary type="html">&lt;p&gt;Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35986#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-44-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli"/>
     <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-44-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli</id>
     <updated>2026-10-27T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>How to fix a bug in a fix</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-45-how-to-fix-a-bug"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-44-how-to-fix-a-bug"/>
     <link rel="related" href="https://projectzero.google/2026/10/emergency-patching.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-45-how-to-fix-a-bug</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-44-how-to-fix-a-bug</id>
     <updated>2026-10-06T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems designed to protect users in the case of exceptional exploitation scenarios, both through vendor discussions and security reviews, we want to share what we’ve learned.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/emergency-patching.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Slow structures, fast degrees of freedom, and the morphology of chess openings</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-85-slow-structures-fast-degrees-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09710v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-85-slow-structures-fast-degrees-of</id>
-    <updated>2026-11-06T16:54:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Chess openings naturally separate into slow and fast degrees of freedom: pawns evolve through irreversible moves, whereas pieces can be rapidly reorganized within the resulting structure. We exploit this separation to construct a quantitative morphology of opening space. From a catalogue of 3810 named variations, 1749 reach a common depth of $N=10$ plies, corresponding to 619 distinct positions and only 435 joint pawn structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09710v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec&lt;/p&gt;</summary>
+    <title>Windows Exploitation Techniques: Dangling COM Object Registrations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-45-windows-exploitation-techniques-dangling-com"/>
+    <link rel="related" href="https://projectzero.google/2026/09/windows-dangling-com.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-45-windows-exploitation-techniques-dangling-com</id>
+    <updated>2026-09-21T07:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/09/windows-dangling-com.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
 </feed>

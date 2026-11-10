@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-14-evoworld-towards-out-of-sight"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.06748"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-14-evoworld-towards-out-of-sight</id>
-    <updated>2026-11-04T11:26:45.000Z</updated>
-    <summary type="html">&lt;p&gt;Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wild beast appears, the model should not only depict the wild beast, but also infer whether a nearby person should flee, take cover, or fight back based on the realized scene.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.06748&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Learning Heterogeneous Tactile Representation for General Dexterous Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-10-learning-heterogeneous-tactile-representation-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12806"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-10-learning-heterogeneous-tactile-representation-for</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12806&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-18-fewsteprl-fine-tuning-few-step"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08240"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-18-fewsteprl-fine-tuning-few-step</id>
+    <updated>2026-11-05T11:19:52.000Z</updated>
+    <summary type="html">&lt;p&gt;Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a many-step sampler. We adapt RL objectives to few-step models systematically in three phases, namely a transformation, a decomposition and an adaptation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08240&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

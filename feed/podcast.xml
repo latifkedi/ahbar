@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #22 (2026-11-09)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-09</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-09:issue:22</guid>
-      <pubDate>2026-11-09T13:27:01.604185451+00:00</pubDate>
-      <description>Ahbar Sayı #22 (2026-11-09):
+      <title>Ahbar Günlük Bülten — Sayı #23 (2026-11-10)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-10</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-10:issue:23</guid>
+      <pubDate>2026-11-10T13:06:10.279725710+00:00</pubDate>
+      <description>Ahbar Sayı #23 (2026-11-10):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] Show HN: Kuşların sesini duyan ve onları 1800&apos;lerin illüstrasyonları gibi çizen bir e-mürekkep çerçevesi
-Bilgisayar Bilimi ve Yazılımında Show HN (Trend Repoları ve Araçları) aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
+1. [Bilgisayar Bilimi &amp; Yazılım] Discord Yama Notları: 9 Kasım 2026. Discord&apos;a yakın zamanda uygulanan daha teknik düzeltmelerin daha ince ayrıntılarına göz atın.
+Yakın zamanda Discord&apos;a uygulanan daha teknik düzeltmelerin daha ince ayrıntılarına göz atın.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] Video Kodlayıcı: Video Üretimi için Ajansal Kodlamayı Güçlendirme. Son yıllarda video oluşturmada görsel kalite ve zamansal tutarlılık açısından dikkate değer ilerlemelere tanık olduk.
-Son yıllarda video oluşturmada görsel kalite ve zamansal tutarlılık açısından dikkate değer ilerlemelere tanık olduk. Ancak hassas uzamsal yapıya, tutarlı hareket dinamiklerine ve kontrol edilebilir sahne kompozisyonuna sahip videolar oluşturmak hala zorludur. Bu yazıda, kod odaklı bir video oluşturmayı eğitmeye yönelik ilk girişim olan Video-Coder&apos;ı tanıtıyoruz…
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] Genel Ustalıklı Manipülasyon için Heterojen Dokunsal Temsili Öğrenme
+Dokunsal algılama, temas açısından zengin hünerli manipülasyon için vazgeçilmez bir yöntemdir; somutlaşmış zekanın nihai sınırlarını ima eden bir yetenektir. Bununla birlikte, ticari olarak temin edilebilen dokunsal sensörler hala nispeten erken bir gelişme aşamasındadır; her sensör türü, kendi dezavantajlarının yanı sıra yeri doldurulamaz güçler sunar. Bir anahtar…
 
-3. [Matematik &amp; Biçimsel Bilimler] Harper&apos;ın rastgele matrisler için karekök ötesi varsayımı
-$N$ boyutunda bir Haar üniter matrisi $U_N$ için, $\operatorname{tr}(\operatorname{Sym}^k U_N)$&apos;nin ilk mutlak momentinin $\min(N,k)\to\infty$ kadar sıfıra doğru yöneldiğini kanıtlarız. Bu, Wang ve Xu tarafından formüle edilen Harper&apos;ın karekök ötesi varsayımının rastgele matris versiyonunu, $k/N$ üzerinde herhangi bir kısıtlama olmadan çözer. Kanıt basit ve müstakildir, kombindir…
+3. [Matematik &amp; Biçimsel Bilimler] Kariyerinin Erken Dönemindeki Matematikçilere Yönelik Anketimiz. [Bu Anna Brandenberger, Hanna Mularczyk ve Dora Woodruff&apos;un (MIT) misafir yazısıdır.
+[Bu Anna Brandenberger, Hanna Mularczyk ve Dora Woodruff&apos;un (MIT) misafir yazısıdır. Bu blog yazısı başlangıçta farklı bir dosya formatında yazılmış ve yapay zeka kullanılarak dönüştürülmüştür. — T.] Eylül sonu ve Ekim başında, kariyerinin başındaki matematikçilere yönelik bir anket dağıttık.
 
-4. [Fizik, Kuantum &amp; Uzay] Yapay zeka ile resmi olarak doğrulanmış kuantum programlarını keşfetme
-Kuantum bilgisayarların bilimdeki çığır açan sorunları çözebileceği zaman çizelgesi, daha iyi donanıma olduğu kadar gelişmiş kuantum algoritmalarına da bağlıdır. Bu tür algoritmik ilerlemeler genellikle uzun yıllar süren uzman insan işbirliğiyle elde edilir. Matematik ve bilgisayar bilimlerinde büyük dil modelleri, otomatik disko aracılığıyla ilerlemeyi hızlandırdı…
+4. [Fizik, Kuantum &amp; Uzay] Konuyla ilgili podcast&apos;ler: Bölüm III, Brian Greene ile. Her zaman olduğu gibi, 2x hızı şiddetle tavsiye ediyorum, bu da sözlü kusurlarımı bir şekilde telafi ediyor!
+Her zaman olduğu gibi, 2x hızı şiddetle tavsiye ediyorum, bu da sözlü kusurlarımı bir şekilde telafi ediyor! Yeni! Daha fazla podcast düşmeye devam ediyor! Bu, yapay zeka hizalama araştırmacısı Roman Yampolskiy ile ilgili, yani... yapay zeka hizalaması, artı Mathocalypse, artı kuantum hesaplama, artı evrenin bir simülasyon olup olmadığı ve başka ne olduğunu unuttum!
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Cuma günü için güvenlik güncellemeleri
-Güvenlik güncellemeleri AlmaLinux (cockpit, dpdk, fend-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm ve raptor2), Debian (apt ve squid), Fedora (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, pas ap…
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Pazartesi günü için güvenlik güncellemeleri
+Güvenlik güncellemeleri Debian (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim ve zlib), Fedora (bind, besteci, copyparty, dnf5, elixir, fastxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-sağlayıcıları, jackson-modülleri-tabanı, jackson-ebeveyn, java-21-…
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] Kompakt Renkli k-mer İndekslerinin Çıkarılması ve Güncellenmesi
-Renkli k-mer indeksleri, bir genom koleksiyonunun her k-merini, onu içeren genomları veya türleri kaydeder ve büyük koleksiyonlara karşı sahte hizalama ve dizi aramasını destekler. Böyle bir indeksin oluşturulması pahalıdır, ancak temsil ettiği koleksiyon nadiren nihai olur: genomlar geri çekilir veya kontamine olduğu tespit edilir, kullanıcıların bir indekse ihtiyacı vardır.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] PyTorch Frustratometer: Proteom Ölçeğinde Yerel Enerjik Hayal Kırıklığı Analizi için Ultra Hızlı, Paralelleştirilmiş Bir Araç
+Doğal protein dizilerinin çoğu, iyi tanımlanmış üç boyutlu yapısal topluluklar halinde katlanır ve evrimsel zaman ölçekleri üzerinde şekillenen etkileşimleri tatmin eder. Minimum hayal kırıklığı ilkesi, çoğu yerli etkileşimin, alternatif yerli olmayan etkileşimlerden enerji açısından daha olumlu olduğunu ve huni şeklinde bir katlanan enerji alanıyla sonuçlandığını belirtir…
 
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Yapay Müşteriler ve Dikkat Yarışması. Yapay zeka alışveriş arayüzlerinin fiyat rekabetini, platform kârını ve tüketici refahını nasıl etkilediğini inceliyoruz.
-Yapay zeka alışveriş arayüzlerinin fiyat rekabetini, platform kârını ve tüketici refahını nasıl etkilediğini inceliyoruz. Bir platform farklı kalitede üç üründen ikisini barındırır. Yapay zeka olmadan tüketiciler, barındırılan çifti, hangi özelliğin, fiyatın veya kalitenin öne çıktığına göre belirginlik bozulması ve aşırı kilo açısından karşılaştırır.
+8. [Ekonomi, Finans &amp; Makro Analiz] Hedef Ne? Yoksulluk Hedeflemenin Temelleri - Yazan: Rema Hanna, Emily Breza, Benjamin A. Olken, Abhijit Banerjee, Arun G. Chandrasekhar, Gideon Moore
+Çoğu hükümet transfer programı yoksulları hedef almayı amaçlamaktadır. Bunu yapmak, dolaylı olarak en düşük tüketimli hanelerin en yüksek marjinal sosyal değere sahip olduğunu, yani ek bir dolardan en yüksek sosyal refah kazancına sahip olduklarını varsayar. Ancak durumun böyle olması gerekmez.
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Küresel Terörün Yeni Merkez Üssü. Afrika&apos;nın zayıf devletleri ve nadir toprak elementleri ulusötesi aşırıcılığı nasıl teşvik ediyor?
-Afrika&apos;nın zayıf devletleri ve nadir toprak elementleri ulusötesi aşırıcılığı nasıl teşvik ediyor?
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Çin&apos;in Yapay Zeka Diplomasisi Çalışıyor. Amerika not almalı.
+Amerika not almalı.
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Alçak Dünya Yörüngesindeki Nükleer Patlamanın Etkileri
-Alçak Dünya yörüngesinde (LEO) 13.000&apos;den fazla uydu çalışıyor ve nükleer silahların uzayda bunları hedef almak için kullanılabileceği yönündeki endişeler artıyor. İlk X-ışını patlamasının ötesinde, radyoaktif fisyon ürünleri tarafından salınan elektronlar, Dünya&apos;nın manyetik alanında sıkışıp kalarak uyduları yapay bir radyasyon kuşağı olarak tekrar tekrar açığa çıkarabilir. Burada istemi çiftleştiriyoruz…
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Nobel ödülleri atıf sayılarıyla ne kadar ilişkili?. Her yıl ekim ayında Nobel ödülleri açıklanmadan önce aynı merak yeniden ortaya çıkıyor: Bu yıl kim kazanacak?
+Her yıl ekim ayında Nobel ödülleri açıklanmadan önce aynı merak yeniden ortaya çıkıyor: Bu yıl kim kazanacak? Hangi keşif ödüllendirilecek? Bilim dünyasında önemli katkılarda bulunmuş hangi araştırmacılar sonunda hak ettikleri tanınmaya kavuşacak?
 
 </description>
       <itunes:duration>300</itunes:duration>

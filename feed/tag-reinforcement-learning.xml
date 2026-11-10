@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>Video-Coder: Reinforcing Agentic Coding for Video Generation. Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-10-video-coder-reinforcing-agentic-coding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09894"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-10-video-coder-reinforcing-agentic-coding</id>
-    <updated>2026-11-05T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals to downstream video generators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09894&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-13-reframe-observation-aligned-multi-teacher"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12886"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-13-reframe-observation-aligned-multi-teacher</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12886&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?. On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-15-how-much-training-inference-mismatch"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.11450"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-15-how-much-training-inference-mismatch</id>
+    <updated>2026-11-07T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;On-policy distillation (OPD) trains a student language model on its own responses, guided by a fixed teacher. Generating these responses is expensive, so systems use quantized inference and asynchronous rollouts to reduce the cost. Both, however, introduce training-inference mismatch between the rollout engine and the model being trained.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.11450&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>

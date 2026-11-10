@@ -5,37 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-09T13:27:01.604185451+00:00</updated>
+  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
   <entry>
-    <title>Discovering formally verified quantum programs with AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-28-discovering-formally-verified-quantum-programs"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09822v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-28-discovering-formally-verified-quantum-programs</id>
-    <updated>2026-11-06T18:08:06+00:00</updated>
-    <summary type="html">&lt;p&gt;The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human collaboration. In mathematics and computer science, large language models have accelerated progress through automated discovery loops.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09822v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #ml-theory&lt;/p&gt;</summary>
+    <title>PEEK: integrated primer design for silent-mutation and restriction-site engineering, validated in silico and by whole-plasmid sequencing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-48-peek-integrated-primer-design-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-48-peek-integrated-primer-design-for</id>
+    <updated>2026-11-09T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Silent introduction of restriction sites, direct site insertion, and verification of the result are routine operations in molecular cloning, yet they are typically distributed across separate tools built on inconsistent thermodynamics. Primer design is itself mature and heavily validated; the gap is not accuracy in principle but integration, together with the absence of any explicit account of why one synonymous edit should be preferred over another. Because melting temperature (Tm) gates which primers a tool will accept, any unified tool must first be shown to compute Tm correctly against an external standard, and then shown to produce the edits it proposes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>What remains of the planar induced minor conjectures?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-21-what-remains-of-the-planar"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09627v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-21-what-remains-of-the-planar</id>
-    <updated>2026-11-06T15:46:58+00:00</updated>
-    <summary type="html">&lt;p&gt;Dallard, Milanič, and Štorgel, and independently Gartland and Lokshtanov, conjectured that for every planar graph $H$, Maximum Weight Independent Set and List $3$-Coloring are polynomial-time solvable in $H$-induced-minor-free graphs. As a structural explanation, Gartland and Lokshtanov further conjectured that such graphs admit balanced separators dominated by a constant number of vertices. Bonnet and Chang recently refuted the independent-set part of the algorithmic conjecture, by showing that Maximum Independent Set is $\mathsf{NP}$-hard in graphs excluding the $5\times5$ grid as an induced minor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09627v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>TPIC: Energy-Conserving Space Plasma Simulations on GPU Supercomputers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-22-tpic-energy-conserving-space-plasma"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.09624v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-22-tpic-energy-conserving-space-plasma</id>
-    <updated>2026-11-06T15:45:21+00:00</updated>
-    <summary type="html">&lt;p&gt;Artificial heating and numerical damping affect particle energization in kinetic space plasma simulations, even when the numerical scheme remains stable. Implicit and semi implicit energy conserving Particle-in-Cell (PIC) methods eliminate these errors in the discrete energy balance while relaxing explicit stability constraints. We present TPIC, a massively parallel implementation of the Energy Conserving Semi-Implicit Method (ECSIM) for GPU supercomputers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09624v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
+    <title>Pufferfish: DAG-Guided Speculative Execution for Low-Latency BFT SMR</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-58-pufferfish-dag-guided-speculative-execution"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/796"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-58-pufferfish-dag-guided-speculative-execution</id>
+    <updated>2026-04-22T22:00:59+00:00</updated>
+    <summary type="html">&lt;p&gt;Modern Byzantine fault-tolerant state machine replication (BFT SMR) systems increasingly decouple data dissemination from transaction ordering, but typically execute transactions only after consensus finalizes their order. This execution-after-consensus design serializes ordering and execution on the confirmation path, so transactions incur both costs even under normal network conditions. Decoupling enables dissemination to continue during ordering stalls, but amplifies the same bottleneck: disseminated transactions accumulate into an execution backlog that replicas must drain after ordering recovers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/796&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Clearing the Fog: Price Transparency, Market Churn, and Consumer Welfare in Short-Term Rentals -- by Ginger Zhe Jin, Liad Wagman, Jingyi Xing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-09-71-clearing-the-fog-price-transparency"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-69-clearing-the-fog-price-transparency"/>
     <link rel="related" href="https://www.nber.org/papers/w35989#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-09-71-clearing-the-fog-price-transparency</id>
-    <updated>2026-11-09T13:27:02.057979514+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-69-clearing-the-fog-price-transparency</id>
+    <updated>2026-11-10T13:06:10.498994728+00:00</updated>
     <summary type="html">&lt;p&gt;We study California&amp;apos;s short-term lodging price transparency law (AB 537), which from July 1, 2024 required Airbnb and other providers to advertise fee-inclusive prices. Using Coarsened Exact Matching to compare Airbnb listings in San Diego and San Francisco with those in Seattle and Chicago, we find that all-in pricing made guests more price-sensitive relative to control cities; yet, contrary to the standard prediction that transparency lowers prices, average daily rates rose by 4.8 percent. We also observe significant market churn: relative to control cities, treated cities saw more exits and entries, listings reliant on cleaning-fee revenue disproportionately exited, higher-quality listings were more likely to stay, and entrants offered lower fees and lower quality than incumbents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35989#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-19-our-survey-of-early-career"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-19-our-survey-of-early-career</id>
+    <updated>2026-11-09T17:12:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>
