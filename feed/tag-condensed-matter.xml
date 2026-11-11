@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <entry>
+    <title>Dimensional Crossover and Correlated Spin Dynamics in the Chain-Like van der Waals Antiferromagnet AgCrP$_2$S$_6$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-30-dimensional-crossover-and-correlated-spin"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14444v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-30-dimensional-crossover-and-correlated-spin</id>
+    <updated>2026-11-10T18:14:07+00:00</updated>
+    <summary type="html">&lt;p&gt;We report a comprehensive investigation of the magnetic properties and spin dynamics of the chain-like van der Waals antiferromagnet AgCrP$_2$S$_6$ using magnetization, magnetic susceptibility, and $^{31}$P nuclear magnetic resonance (NMR). The magnetic susceptibility exhibits a broad maximum near 250 K, characteristic of strong short-range antiferromagnetic correlations in a low-dimensional system. A classical Fisher-chain analysis gives an effective intrachain exchange scale $J/k_B\approx 140$ K, while a quantum $S=3/2$ nearest-neighbor-chain calculation yields $J/k_B\approx 114$ K.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14444v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Quantum-Assisted Counterfactual Regret Minimization for Bounded-Payoff Imperfect-Information Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-31-quantum-assisted-counterfactual-regret-minimization"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14182v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-31-quantum-assisted-counterfactual-regret-minimization</id>
+    <updated>2026-11-10T15:05:22+00:00</updated>
+    <summary type="html">&lt;p&gt;Imperfect-information games with a graded-reward structure present significant computational challenges for equilibrium computation, since the payoff expectations must be estimated across exponentially large strategy spaces. Counterfactual Regret Minimization over the years has proven effective for approximating Nash equilibria, but Monte Carlo variants create a large overhead of sampling costs when the counterfactual values are estimated from sampled game-tree trajectories. We propose a novel Quantum-Assisted Counterfactual Regret Minimization, a framework that uses Quantum Amplitude Estimation to reduce the computational complexity of the regret updates in bounded-payoff imperfect-information games, while preserving the convergence of its classical counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14182v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #decision-theory #infosec&lt;/p&gt;</summary>
+  </entry>
 </feed>

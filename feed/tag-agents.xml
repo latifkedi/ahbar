@@ -5,53 +5,93 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-13-reframe-observation-aligned-multi-teacher"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12886"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-13-reframe-observation-aligned-multi-teacher</id>
+    <title>Don&apos;t Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-10-don-t-just-trust-your"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14320"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-10-don-t-just-trust-your</id>
+    <updated>2026-11-09T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14320&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Tree-Ising: Repairing Language Models with Bit-Level Ising Edits</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-11-tree-ising-repairing-language-models"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14210"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-11-tree-ising-repairing-language-models</id>
+    <updated>2026-11-09T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network&amp;apos;s weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model&amp;apos;s own BF16 weights.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14210&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>World In-Context Learning for Agentic Robot Manipulation. Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-12-world-in-context-learning-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12885"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-12-world-in-context-learning-for</id>
     <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12886&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12885&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-16-trio-task-refinement-with-individual"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02810"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-16-trio-task-refinement-with-individual</id>
-    <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02810&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+    <title>MMDM: Measuring Massive Multitask Decision Making</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-14-mmdm-measuring-massive-multitask-decision"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14309"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-14-mmdm-measuring-massive-multitask-decision</id>
+    <updated>2026-11-09T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves long contexts, large option spaces, and complex logical dependencies, challenges that existing benchmarks do not adequately capture together.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14309&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ReproBridge: Building Reproducibility into ML Research Artifacts</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-17-reprobridge-building-reproducibility-into-ml"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08452"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-17-reprobridge-building-reproducibility-into-ml</id>
-    <updated>2026-11-05T13:45:36.000Z</updated>
-    <summary type="html">&lt;p&gt;Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08452&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Security updates for Monday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-37-security-updates-for-monday"/>
-    <link rel="related" href="https://lwn.net/Articles/1106282/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-37-security-updates-for-monday</id>
-    <updated>2026-11-09T14:02:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by Debian (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib), Fedora (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable, jupyterlab, kryoptic,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106282/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+    <title>Security updates for Tuesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-37-security-updates-for-tuesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1106522/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-37-security-updates-for-tuesday</id>
+    <updated>2026-11-10T14:03:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106522/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-66-debiasing-law-enforcement-officers-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-69-debiasing-law-enforcement-officers-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35986#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-66-debiasing-law-enforcement-officers-evidence</id>
-    <updated>2026-11-10T13:06:10.498994728+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-69-debiasing-law-enforcement-officers-evidence</id>
+    <updated>2026-11-11T12:15:47.437315461+00:00</updated>
     <summary type="html">&lt;p&gt;Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35986#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli"/>
-    <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-43-fuzzers-vs-ai-comparing-fuzzilli</id>
-    <updated>2026-10-27T07:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
+    <title>Spatial patterns of transportation choice in Niterói</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-83-spatial-patterns-of-transportation-choice"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14499v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-83-spatial-patterns-of-transportation-choice</id>
+    <updated>2026-11-10T18:51:37+00:00</updated>
+    <summary type="html">&lt;p&gt;Characterizing how people move through a city requires spatially and temporally fine-grained data that are often costly and difficult to obtain. Here, we introduce a computational framework that uses macroscopic, aggregated, and static urban data to construct a microscopic, dynamic, and spatially detailed representation of urban mobility. Building on an existing activity simulator, the framework combines a synthetic population, the built environment, and transport networks to generate daily trips and assign walking, car, or public transit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14499v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Second-Best Trade Is Half Efficient in Multidimensional Markets</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-84-second-best-trade-is-half"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14489v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-84-second-best-trade-is-half</id>
+    <updated>2026-11-10T18:48:40+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove that at least half of the first-best gains from trade can always be achieved in multidimensional two-sided markets with additive values and costs and arbitrary downward-closed feasibility constraints. The guarantee is achieved by a mechanism satisfying Bayesian incentive compatibility, interim individual rationality, and strong budget balance, and is tight already in single-item bilateral trade. Types are independent across agents, while the coordinates of each agent&amp;apos;s type may be arbitrarily correlated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14489v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Adversarial risk analysis with fully probabilistic designs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-86-adversarial-risk-analysis-with-fully"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14289v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-86-adversarial-risk-analysis-with-fully</id>
+    <updated>2026-11-10T16:28:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Adversarial risk analysis (ARA) informs decision-makers when facing intelligent opponents and uncertain outcomes, enabling an analyst to model beliefs about the opponents&amp;apos; preferences, capabilities, beliefs, and the strategic calculations that opponents employ. Major applications cover reliability and risk analysis of critical infrastructures in presence of adversarial threats. In such domains, ARA mitigates typical common knowledge assumptions of standard game-theoretic approaches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14289v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Data-driven regional traffic simulation from heterogeneous mobility sources</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-90-data-driven-regional-traffic-simulation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13947v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-90-data-driven-regional-traffic-simulation</id>
+    <updated>2026-11-10T11:33:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Regional traffic simulators increasingly combine mobile-phone, road-sensor and GPS data, but what each source contributes is rarely clear. We present an agent-based simulator of daily traffic in Emilia-Romagna, Italy: phone data give trips and their timing, half of the road sensors set the traffic level, all sensors correct it locally, and GPS traces guide route choice. We measure what each source adds against predictors without simulation, on sensors kept out of parameter calibration in winter 2020 and partly shared with it in summer 2021; as these sensors informed some modelling choices, the evaluation is not fully independent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13947v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A New Kind of Foreign Agent. How AI is reshaping influence operations in America.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-73-a-new-kind-of-foreign"/>
+    <link rel="related" href="https://www.foreignaffairs.com/china/new-kind-foreign-agent"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-73-a-new-kind-of-foreign</id>
+    <updated>2026-11-11T09:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;How AI is reshaping influence operations in America.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/china/new-kind-foreign-agent&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

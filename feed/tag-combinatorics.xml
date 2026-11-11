@@ -5,37 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
-  <entry>
-    <title>Flide: Accelerating Decision Inference with Exact State Forking</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-14-flide-accelerating-decision-inference-with"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.42148"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-14-flide-accelerating-decision-inference-with</id>
-    <updated>2026-10-30T13:59:38.000Z</updated>
-    <summary type="html">&lt;p&gt;Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure of a decision request from its physical execution within a single flattened token stream.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.42148&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #inference&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>KORD: Breaking the Key-Generation Bottleneck in Dealerless Function Secret Sharing via Protocol–Hardware Co-Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-57-kord-breaking-the-key-generation"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1615"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-57-kord-breaking-the-key-generation</id>
-    <updated>2026-08-05T11:53:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Function secret sharing (FSS) has emerged as a promising technique for secure multi-party computation (MPC), offering a lightweight online phase. However, existing FSS-based private inference frameworks typically rely on trusted dealers to generate and distribute large amounts of offline key material (e.g., 16.8 GiB for BERT-base), incurring substantial overhead in key generation, transfer, storage, and parsing. Cryptographic dealer-free FSS eliminates the trusted dealer but introduces costly interaction during key generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1615&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
+    <title>Newton non-degenerate holomorphic foliations and their separatrices. In this paper we study germs of holomorphic foliations in the complex plane that are Newton non-degenerate.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-19-newton-non-degenerate-holomorphic-foliations"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14466v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-19-newton-non-degenerate-holomorphic-foliations</id>
+    <updated>2026-11-10T18:31:26+00:00</updated>
+    <summary type="html">&lt;p&gt;In this paper we study germs of holomorphic foliations in the complex plane that are Newton non-degenerate. This is an algebraic condition attached to the Newton polygon of the foliation, analogous to the one defined by Kouchnirenko for analytic curves and, more generally, hypersurfaces. As in this case, the condition of Newton non-degeneracy for foliations can be identified through the comparison of two numerical invariants: the Newton number - a computation involving simple geometric data of the Newton polygon - and the Milnor number.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14466v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Independent Leakage Does Not Save Evasive LWE: Refuting Folklore Fixes in the Private-Coin Setting</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-59-independent-leakage-does-not-save"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2792"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-59-independent-leakage-does-not-save</id>
-    <updated>2026-11-05T23:03:38+00:00</updated>
-    <summary type="html">&lt;p&gt;The evasive learning with errors (evasive LWE) assumption has enabled a wide range of advanced cryptographic constructions from lattices in the past few years. The simple intuition that LWE remains secure even when additional ``non-zeroizing&amp;apos;&amp;apos; short preimages are given has proved highly versatile in applications. Unfortunately, recent counterexamples have refuted its general private-coin formulations, showing that having the short preimages along with arbitrary auxiliary leakage about the secret and target matrices can invalidate this intuition.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2792&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-47-bridging-graph-and-pairwise-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13801v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-47-bridging-graph-and-pairwise-learning</id>
+    <updated>2026-11-10T09:34:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data, existing GRN inference approaches generally fall into two categories: graph-based methods, which model the GRN as a whole graph, and pairwise-based methods, which decompose the GRN into individual TF-target gene pairs for modeling. However, each approach exhibits limitations that are precisely the strengths of its counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13801v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A gentle introduction to lattice-based cryptography</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-62-a-gentle-introduction-to-lattice"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-62-a-gentle-introduction-to-lattice</id>
+    <updated>2026-05-29T13:08:16+00:00</updated>
+    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Where are the shortest-path nodes in spatial networks?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-87-where-are-the-shortest-path"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14152v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-87-where-are-the-shortest-path</id>
+    <updated>2026-11-10T14:41:11+00:00</updated>
+    <summary type="html">&lt;p&gt;To predict the spatial distribution of shortest-path nodes, we propose a Gaussian estimate of the shortest-path node probability $π_{uv}(w)$, the probability that a node $w$ lies on a shortest path between a source $u$ and a destination $v$. According to the Gaussian estimate, three variables affect the shortest-path node probability $π_{uv}(w)$ and combine into one variable, the standardized detour $X_{uvw}$. In our simulations of hard and soft random geometric graphs in Euclidean, hyperbolic and spherical space, the standardized detour $X_{uvw}$ alone approximately determines how fast the shortest-path node probability $π_{uv}(w)$ decreases as the node $w$ moves away from the geodesic between the source $u$ and the destination $v$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14152v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

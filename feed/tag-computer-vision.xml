@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>Learning Heterogeneous Tactile Representation for General Dexterous Manipulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-10-learning-heterogeneous-tactile-representation-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12806"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-10-learning-heterogeneous-tactile-representation-for</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12806&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-18-fewsteprl-fine-tuning-few-step"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.08240"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-18-fewsteprl-fine-tuning-few-step</id>
-    <updated>2026-11-05T11:19:52.000Z</updated>
-    <summary type="html">&lt;p&gt;Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an average velocity over an interval, whereas existing RL objectives are built for an instantaneous velocity with a many-step sampler. We adapt RL objectives to few-step models systematically in three phases, namely a transformation, a decomposition and an adaptation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08240&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-57-location-matters-sparse-latent-variance"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14254v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-57-location-matters-sparse-latent-variance</id>
+    <updated>2026-11-10T16:03:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Text-to-image diffusion models can learn and reproduce an individual&amp;apos;s identity from only a few reference photos, creating risks of unauthorized and misleading content generation. Proactive defenses address this risk by adding adversarial perturbations to facial images before release, thereby disrupting identity acquisition during downstream personalization. However, existing methods typically rely on dense $L_\infty$-bounded perturbations, whose accumulated distortions can become visible around facial structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14254v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #clean-tech&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,29 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>Independent Leakage Does Not Save Evasive LWE: Refuting Folklore Fixes in the Private-Coin Setting</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-59-independent-leakage-does-not-save"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2792"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-59-independent-leakage-does-not-save</id>
-    <updated>2026-11-05T23:03:38+00:00</updated>
-    <summary type="html">&lt;p&gt;The evasive learning with errors (evasive LWE) assumption has enabled a wide range of advanced cryptographic constructions from lattices in the past few years. The simple intuition that LWE remains secure even when additional ``non-zeroizing&amp;apos;&amp;apos; short preimages are given has proved highly versatile in applications. Unfortunately, recent counterexamples have refuted its general private-coin formulations, showing that having the short preimages along with arbitrary auxiliary leakage about the secret and target matrices can invalidate this intuition.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2792&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Superlattice methods for the shortest vector problem and discrete Gaussian sampling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-60-superlattice-methods-for-the-shortest"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2761"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-60-superlattice-methods-for-the-shortest</id>
-    <updated>2026-11-04T07:47:31+00:00</updated>
-    <summary type="html">&lt;p&gt;We give worst-case algorithms for the shortest vector problem (SVP) and discrete Gaussian sampling (DGS) at arbitrary widths. Both algorithms generate lists on a dense superlattice and combine vectors along a chain down to the input lattice. Random shifts let us control the expected number of representations of a vector regardless of the lattice.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2761&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Masked Solving of Linear Equations System and Application to UOV Signatures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-62-masked-solving-of-linear-equations"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/048"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-62-masked-solving-of-linear-equations</id>
-    <updated>2026-01-12T13:34:15+00:00</updated>
-    <summary type="html">&lt;p&gt;In response to the looming quantum threat, NIST has selected four algorithms for standardization (i.e., ML-KEM, ML-DSA, SLH-DSA, and FN-DSA), yet three of the four schemes are based on Euclidean lattices, which raises concerns about the mathematical diversity of post-quantum algorithms. NIST has therefore announced an additional call for post-quantum signatures with a preference for schemes constructed from assumptions other than lattices. Among such candidates, the Unbalanced Oil and Vinegar (UOV) signature over the multivariate quadratic (MQ) problem is attractive for its short signature and security against quantum cryptanalysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/048&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
+    <title>A gentle introduction to lattice-based cryptography</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-62-a-gentle-introduction-to-lattice"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-62-a-gentle-introduction-to-lattice</id>
+    <updated>2026-05-29T13:08:16+00:00</updated>
+    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

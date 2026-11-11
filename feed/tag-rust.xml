@@ -5,61 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rust.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rust.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
     <title>Discord Patch Notes: November 9, 2026. Check out the finer details of the more technical fixes implemented into Discord recently.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-02-discord-patch-notes-november-9"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-03-discord-patch-notes-november-9"/>
     <link rel="related" href="https://discord.com/blog/discord-patch-notes-november-9-2026"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-02-discord-patch-notes-november-9</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-03-discord-patch-notes-november-9</id>
     <updated>2026-11-09T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Check out the finer details of the more technical fixes implemented into Discord recently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discord.com/blog/discord-patch-notes-november-9-2026&quot;&gt;Discord Systems &amp;amp; Database Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Security updates for Monday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-37-security-updates-for-monday"/>
-    <link rel="related" href="https://lwn.net/Articles/1106282/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-37-security-updates-for-monday</id>
-    <updated>2026-11-09T14:02:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by Debian (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib), Fedora (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable, jupyterlab, kryoptic,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106282/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+    <title>Don&apos;t Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-10-don-t-just-trust-your"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14320"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-10-don-t-just-trust-your</id>
+    <updated>2026-11-09T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14320&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rust #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PyTorch Frustratometer: An Ultra-fast, Parallelized Tool for Proteome-Scale Local Energetic Frustration Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-46-pytorch-frustratometer-an-ultra-fast"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.06.764892v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-46-pytorch-frustratometer-an-ultra-fast</id>
-    <updated>2026-11-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Most natural protein sequences fold into well-defined three-dimensional structural ensembles, satisfying interactions that have been shaped over evolutionary timescales. The principle of minimal frustration states that most native interactions are energetically more favorable than alternative non-native ones, resulting in a funnel-shaped folding energy landscape. The FrustratometeR tool measures how the energetics of a residue or contact compares to decoys with different amino acid identities or configurations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.06.764892v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust&lt;/p&gt;</summary>
+    <title>Security updates for Tuesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-37-security-updates-for-tuesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1106522/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-37-security-updates-for-tuesday</id>
+    <updated>2026-11-10T14:03:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106522/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-42-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-45-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-42-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-45-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>KORD: Breaking the Key-Generation Bottleneck in Dealerless Function Secret Sharing via Protocol–Hardware Co-Design</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-57-kord-breaking-the-key-generation"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1615"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-57-kord-breaking-the-key-generation</id>
-    <updated>2026-08-05T11:53:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Function secret sharing (FSS) has emerged as a promising technique for secure multi-party computation (MPC), offering a lightweight online phase. However, existing FSS-based private inference frameworks typically rely on trusted dealers to generate and distribute large amounts of offline key material (e.g., 16.8 GiB for BERT-base), incurring substantial overhead in key generation, transfer, storage, and parsing. Cryptographic dealer-free FSS eliminates the trusted dealer but introduces costly interaction during key generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1615&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Financial Advisors and Retirees&apos; Risk-taking -- by Allison T. Cole, Maarten Meeuwis, Alessandro Previtero, Noah Stoffman</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-70-financial-advisors-and-retirees-risk"/>
-    <link rel="related" href="https://www.nber.org/papers/w35990#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-70-financial-advisors-and-retirees-risk</id>
-    <updated>2026-11-10T13:06:10.498994728+00:00</updated>
-    <summary type="html">&lt;p&gt;Advised retirees keep about two-thirds of their portfolios in equities well into old age—30 to 40 percentage points more than non-advised retirees, target-date funds, or common rules of thumb. These allocations reflect active choices rather than inertia, and they adjust gradually toward a new advisor’s investment style following advisor switches. Equity shares rise with relationship tenure, and advisor influence is strongest among clients with low financial knowledge or risk tolerance, consistent with trust facilitating risk-taking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35990#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-54-dynamic-networks-can-promote-pro"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-54-dynamic-networks-can-promote-pro</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

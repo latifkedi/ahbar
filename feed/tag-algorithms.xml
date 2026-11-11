@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <entry>
+    <title>Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-28-dana-s-talk-on-openai"/>
+    <link rel="related" href="https://scottaaronson.blog/?p=10318"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-28-dana-s-talk-on-openai</id>
+    <updated>2026-11-10T20:27:28+00:00</updated>
+    <summary type="html">&lt;p&gt;In my “Mathocalypse” post, I mentioned that my wife Dana—who’s been working on Subhash Khot’s Unique Games Conjecture since ~2009, for the entire time I’ve known her—has for the past few weeks (while on sabbatical at the Simons Institute in Berkeley) been spending essentially all of her time laboring to understand OpenAI’s recent proof of […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10318&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-28-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-29-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-28-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-29-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-43-an-improved-1-2e-approximation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13224v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-43-an-improved-1-2e-approximation</id>
+    <updated>2026-11-09T20:53:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13224v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #algorithms #decision-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

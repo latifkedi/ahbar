@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-51-scalable-physical-deep-learning-using"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-51-scalable-physical-deep-learning-using</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
+    <title>WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-16-wavegen-truly-end-to-end"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12527"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-16-wavegen-truly-end-to-end</id>
+    <updated>2026-11-09T10:02:29.000Z</updated>
+    <summary type="html">&lt;p&gt;This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate representations, such as neural audio codecs, Mel-spectrogram vocoders, or VAE-based latent models. In addition, WaveGen performs internal text-speech alignment within a single model, eliminating the need for external alignment modules such as duration predictors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12527&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #clean-tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Detection of local recombination and mutation hotspots in bacterial genomes using neural posterior estimation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-48-detection-of-local-recombination-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13763v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-48-detection-of-local-recombination-and</id>
+    <updated>2026-11-10T09:03:29+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Recombination and mutation rates in bacteria vary along the genome, and regions of elevated rate (hotspots) often reflect selection on specific genes. Detecting them is difficult because the two processes leave overlapping signals in sequence data, clonal relationships act as a confounder, and inference must scale to whole genomes. Existing methods assume a constant mutation rate and/or rely on a small set of summary statistics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13763v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
   </entry>
 </feed>

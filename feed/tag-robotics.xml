@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <entry>
+    <title>Is Your Robot&apos;s Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-13-is-your-robot-s-memory"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14488"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-13-is-your-robot-s-memory</id>
+    <updated>2026-11-09T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14488&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>World In-Context Learning for Agentic Robot Manipulation. Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-12-world-in-context-learning-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12885"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-12-world-in-context-learning-for</id>
+    <updated>2026-11-08T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12885&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
 </feed>

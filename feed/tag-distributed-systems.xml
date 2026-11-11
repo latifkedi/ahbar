@@ -5,36 +5,52 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>PEEK: integrated primer design for silent-mutation and restriction-site engineering, validated in silico and by whole-plasmid sequencing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-48-peek-integrated-primer-design-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-48-peek-integrated-primer-design-for</id>
-    <updated>2026-11-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivation: Silent introduction of restriction sites, direct site insertion, and verification of the result are routine operations in molecular cloning, yet they are typically distributed across separate tools built on inconsistent thermodynamics. Primer design is itself mature and heavily validated; the gap is not accuracy in principle but integration, together with the absence of any explicit account of why one synonymous edit should be preferred over another. Because melting temperature (Tm) gates which primers a tool will accept, any unified tool must first be shown to compute Tm correctly against an external standard, and then shown to produce the edits it proposes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems #number-theory&lt;/p&gt;</summary>
+    <title>Operational limits of reference renewal for retained quantum-service results</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-32-operational-limits-of-reference-renewal"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14376v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-32-operational-limits-of-reference-renewal</id>
+    <updated>2026-11-10T17:31:11+00:00</updated>
+    <summary type="html">&lt;p&gt;We implement reference renewal to reconsider retained physical quantum-service results under a prespecified protocol. Twelve transitions retained six results each; ten completed renewal, eight met the prespecified endpoint, and five succeeded using retained results alone. The exact one-sided p=0.0546875 does not establish the recovery hypothesis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14376v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Pufferfish: DAG-Guided Speculative Execution for Low-Latency BFT SMR</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-58-pufferfish-dag-guided-speculative-execution"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/796"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-58-pufferfish-dag-guided-speculative-execution</id>
-    <updated>2026-04-22T22:00:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern Byzantine fault-tolerant state machine replication (BFT SMR) systems increasingly decouple data dissemination from transaction ordering, but typically execute transactions only after consensus finalizes their order. This execution-after-consensus design serializes ordering and execution on the confirmation path, so transactions incur both costs even under normal network conditions. Decoupling enables dissemination to continue during ordering stalls, but amplifies the same bottleneck: disseminated transactions accumulate into an execution backlog that replicas must drain after ordering recovers.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/796&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #consensus&lt;/p&gt;</summary>
+    <title>Secure Information Flow in Quantum Programs. Information-flow security aims to prevent the leakage of confidential information through program execution.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-33-secure-information-flow-in-quantum"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14147v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-33-secure-information-flow-in-quantum</id>
+    <updated>2026-11-10T14:34:39+00:00</updated>
+    <summary type="html">&lt;p&gt;Information-flow security aims to prevent the leakage of confidential information through program execution. This problem becomes fundamentally subtler for quantum programs, because their states may involve superposition and entanglement, and their executions may involve intricate interactions between classical and quantum variables. This paper develops semantic foundations and verification methods for secure information flow in quantum programs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14147v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #cryptography&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-41-an-empirical-study-on-cve"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14164v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-41-an-empirical-study-on-cve</id>
+    <updated>2026-11-10T14:49:52+00:00</updated>
+    <summary type="html">&lt;p&gt;Vulnerabilities in applications, including browsers, media players, online services and document readers, etc. are often exploited and cause a serious damage. The vulnerabilities could exist in your system maybe because of some coding errors, design oversights, outdated software, AI generated codes or maybe transferred from another system during development (e.g., code clones).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14164v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #software-architecture&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Authenticated Outsourced Incrementally Verifiable MPC</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-59-authenticated-outsourced-incrementally-verifiable-mpc"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2721"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-59-authenticated-outsourced-incrementally-verifiable-mpc</id>
+    <updated>2026-11-02T09:58:10+00:00</updated>
+    <summary type="html">&lt;p&gt;Many privacy-preserving applications such as iterative machine learning training require executing ongoing computations over a secret state for long periods of time. While MPC enables secure computation, long-lived secret state is vulnerable to adaptive corruptions, requiring periodic share refreshes and committee rotation. In many settings, it is desirable for external parties to be able to verify that these state updates and rotations are performed correctly, but existing approaches for such public verifiability incur high overhead as they require MPC nodes to generate expensive proofs over secret-shared data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2721&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Clearing the Fog: Price Transparency, Market Churn, and Consumer Welfare in Short-Term Rentals -- by Ginger Zhe Jin, Liad Wagman, Jingyi Xing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-69-clearing-the-fog-price-transparency"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-72-clearing-the-fog-price-transparency"/>
     <link rel="related" href="https://www.nber.org/papers/w35989#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-69-clearing-the-fog-price-transparency</id>
-    <updated>2026-11-10T13:06:10.498994728+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-72-clearing-the-fog-price-transparency</id>
+    <updated>2026-11-11T12:15:47.437315461+00:00</updated>
     <summary type="html">&lt;p&gt;We study California&amp;apos;s short-term lodging price transparency law (AB 537), which from July 1, 2024 required Airbnb and other providers to advertise fee-inclusive prices. Using Coarsened Exact Matching to compare Airbnb listings in San Diego and San Francisco with those in Seattle and Chicago, we find that all-in pricing made guests more price-sensitive relative to control cities; yet, contrary to the standard prediction that transparency lowers prices, average daily rates rose by 4.8 percent. We also observe significant market churn: relative to control cities, treated cities saw more exits and entries, listings reliant on cleaning-fee revenue disproportionately exited, higher-quality listings were more likely to stay, and entrants offered lower fees and lower quality than incumbents.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35989#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-19-our-survey-of-early-career"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-20-our-survey-of-early-career"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-19-our-survey-of-early-career</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-20-our-survey-of-early-career</id>
     <updated>2026-11-09T17:12:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
   </entry>

@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <entry>
+    <title>Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-47-bridging-graph-and-pairwise-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13801v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-47-bridging-graph-and-pairwise-learning</id>
+    <updated>2026-11-10T09:34:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data, existing GRN inference approaches generally fall into two categories: graph-based methods, which model the GRN as a whole graph, and pairwise-based methods, which decompose the GRN into individual TF-target gene pairs for modeling. However, each approach exhibits limitations that are precisely the strengths of its counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13801v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #combinatorics&lt;/p&gt;</summary>
+  </entry>
 </feed>

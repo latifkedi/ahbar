@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>PyTorch Frustratometer: An Ultra-fast, Parallelized Tool for Proteome-Scale Local Energetic Frustration Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-46-pytorch-frustratometer-an-ultra-fast"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.06.764892v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-46-pytorch-frustratometer-an-ultra-fast</id>
-    <updated>2026-11-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Most natural protein sequences fold into well-defined three-dimensional structural ensembles, satisfying interactions that have been shaped over evolutionary timescales. The principle of minimal frustration states that most native interactions are energetically more favorable than alternative non-native ones, resulting in a funnel-shaped folding energy landscape. The FrustratometeR tool measures how the energetics of a residue or contact compares to decoys with different amino acid identities or configurations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.06.764892v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #rust&lt;/p&gt;</summary>
+    <title>ANTIOCH-VS: From Sequence to Hits with Modular, Open-Source Ensemble Virtual Screening</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-46-antioch-vs-from-sequence-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14287v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-46-antioch-vs-from-sequence-to</id>
+    <updated>2026-11-10T16:27:14+00:00</updated>
+    <summary type="html">&lt;p&gt;Structure-based virtual screening needs a receptor conformation that fits the ligand class, but for most targets no ligand-bound crystal is available -- and a single predicted model or an apo structure often misses the binding-competent state. We present ANTIOCH-VS, an open-source framework that runs an entire in silico screening campaign, from a protein sequence to a ranked shortlist of candidate binders, as one plug-and-play workflow. It first builds a conformational ensemble by reduced-MSA subsampling with ColabFold, then uses AlphaFold2-RAVE (AF2RAVE) -- short molecular-dynamics simulations with State Predictive Information Bottleneck analysis -- to pick out docking-ready, Boltzmann-weighted metastable states.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14287v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Unveiling immune targets via TriStageHLA: high-throughput screening of peptide presentation, peptide-HLA binding, and immunogenicity</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-47-unveiling-immune-targets-via-tristagehla"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762831v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-47-unveiling-immune-targets-via-tristagehla</id>
-    <updated>2026-11-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;High-throughput screening of HLA class I epitopes underpins neoantigen vaccine design, T cell therapies, and pathogen immune monitoring, yet proteome-scale prioritization remains challenging under severe class imbalance. We present TriStageHLA, a compact three-stage framework that decomposes epitope discovery into peptide-only screening (PRE), allele-specific binding/presentation prediction (BIND), and immunogenicity prediction (IM). PRE performs early pruning via a LoRA-adapted ESM-2 classifier; BIND integrates quantitative binding affinity and eluted ligand data with a dual-branch architecture combining global cross-attention and local motif extraction; IM is fine-tuned on curated human T-cell assay data with a decoupled LoRA head.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762831v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-47-bridging-graph-and-pairwise-learning"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13801v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-47-bridging-graph-and-pairwise-learning</id>
+    <updated>2026-11-10T09:34:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data, existing GRN inference approaches generally fall into two categories: graph-based methods, which model the GRN as a whole graph, and pairwise-based methods, which decompose the GRN into individual TF-target gene pairs for modeling. However, each approach exhibits limitations that are precisely the strengths of its counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13801v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PEEK: integrated primer design for silent-mutation and restriction-site engineering, validated in silico and by whole-plasmid sequencing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-48-peek-integrated-primer-design-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-48-peek-integrated-primer-design-for</id>
-    <updated>2026-11-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivation: Silent introduction of restriction sites, direct site insertion, and verification of the result are routine operations in molecular cloning, yet they are typically distributed across separate tools built on inconsistent thermodynamics. Primer design is itself mature and heavily validated; the gap is not accuracy in principle but integration, together with the absence of any explicit account of why one synonymous edit should be preferred over another. Because melting temperature (Tm) gates which primers a tool will accept, any unified tool must first be shown to compute Tm correctly against an external standard, and then shown to produce the edits it proposes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems #number-theory&lt;/p&gt;</summary>
+    <title>Detection of local recombination and mutation hotspots in bacterial genomes using neural posterior estimation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-48-detection-of-local-recombination-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13763v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-48-detection-of-local-recombination-and</id>
+    <updated>2026-11-10T09:03:29+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Recombination and mutation rates in bacteria vary along the genome, and regions of elevated rate (hotspots) often reflect selection on specific genes. Detecting them is difficult because the two processes leave overlapping signals in sequence data, clonal relationships act as a confounder, and inference must scale to whole genomes. Existing methods assume a constant mutation rate and/or rely on a small set of summary statistics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13763v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Extracting and Updating Compact Colored k-mer Indexes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-49-extracting-and-updating-compact-colored"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.06.764792v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-49-extracting-and-updating-compact-colored</id>
-    <updated>2026-11-09T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Colored k-mer indexes record, for every k-mer of a collection of genomes, the genomes or species that contain it, and underpin pseudoalignment and sequence search against large collections. Construction of such an index is expensive, yet the collection it represents is rarely final: genomes are retracted or found to be contaminated, users need an index of a single species or clade, and new genomes keep arriving. Rebuilding the index after every such change requires the original sequences and repeats the costly construction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.06.764792v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Detection of Maximal Exact Matches in Terabases of Genome Assemblies in Compressed Space and Sublinear Time</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-49-detection-of-maximal-exact-matches"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765459v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-49-detection-of-maximal-exact-matches</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Detection of long exact matches between a pair of genomes has historically been a fundamental operation in genomics. Similarly, detection of long exact matches between all pairs of haplotypes in a large panel of genotyping array data or whole-genome sequencing variant calls is a fundamental operation in population genetics. Thanks to various recent pangenome efforts, for the first time, large panels of high-quality genome assemblies are being constructed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765459v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SIFT: Syncmer-Informed Selection of Haplotypes for T2T Imputation. Genome patching improves the completeness of fragmented assemblies by filling unresolved gaps with sequences from reference genomes.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-50-sift-syncmer-informed-selection-of"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765394v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-50-sift-syncmer-informed-selection-of</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Genome patching improves the completeness of fragmented assemblies by filling unresolved gaps with sequences from reference genomes. Pangenome panels provide diverse candidate haplotypes for this task, but identifying suitable references efficiently becomes increasingly challenging as these panels grow. We present SIFT, a compressed indexing method for selecting reference haplotypes for genome patching with ImpuT2T.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765394v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Reticulation-Aware Dissimilarities for Phylogenetic Networks. Dissimilarity measures play a critical role in phylogenetics.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-51-reticulation-aware-dissimilarities-for-phylogenetic"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.08.765198v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-51-reticulation-aware-dissimilarities-for-phylogenetic</id>
+    <updated>2026-11-10T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Dissimilarity measures play a critical role in phylogenetics. They help quantify the accuracy of inferences when the ground truth is known, allow comparisons of inferences obtained using different methods, and provide a tool for summarizing sets of phylogenies. A wide array of dissimilarity measures has been introduced for phylogenetic trees over the past half-century, and they vary in their mathematical properties, empirical behavior, and computational complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.08.765198v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ProClust provides reliable statistical significance of clusters for single-cell transcriptomic data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-52-proclust-provides-reliable-statistical-significance"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.08.764985v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-52-proclust-provides-reliable-statistical-significance</id>
+    <updated>2026-11-10T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Clustering of single-cell RNA sequencing (scRNA-seq) data is widely used to identify cell populations. However, overclustering can partition a single cell population into multiple clusters, potentially leading to spurious identification of cell subpopulations. Assessing the statistical significance of clusters is therefore needed to support their biological interpretation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.08.764985v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Batch, Prefetch, Skip, Orient, Squeeze: Faster, Smaller k-mer dictionaries via the Spectral Burrows-Wheeler transform</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-53-batch-prefetch-skip-orient-squeeze"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765318v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-53-batch-prefetch-skip-orient-squeeze</id>
+    <updated>2026-11-10T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Looking up k-mers in an index is a core operation in genomics, underlying read mapping, metagenomic classification, and many other tasks. Queries are often streaming: the k-mers come from a longer sequence such as a sequencing read, and consecutive k-mers overlap. The fastest index for such queries is currently the hashing-based SSHash; indexes based on the spectral Burrows-Wheeler transform (SBWT) are competitive in space but slower.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765318v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Ab initio simulation of excited-state potential energy surfaces with transferable deep quantum Monte Carlo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-50-ab-initio-simulation-of-excited"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-54-ab-initio-simulation-of-excited"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01065-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-50-ab-initio-simulation-of-excited</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-54-ab-initio-simulation-of-excited</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 06 November 2026; doi:10.1038/s43588-026-01065-y Transferable deep-learning quantum Monte Carlo for molecular excited states is introduced. Sharing parameters, an ansatz represents the wavefunction across molecular geometries and states, reducing the cost of modeling potential energy surfaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01065-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-51-scalable-physical-deep-learning-using"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-51-scalable-physical-deep-learning-using</id>
-    <updated>2026-11-05T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-52-machine-learning-dataset-and-benchmark"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-52-machine-learning-dataset-and-benchmark</id>
-    <updated>2026-10-26T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Making the case for a non-primary article</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-53-making-the-case-for-a"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-53-making-the-case-for-a</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Dynamic networks can promote pro-sociality</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-54-dynamic-networks-can-promote-pro"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01069-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-54-dynamic-networks-can-promote-pro</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01069-8 Structure coefficients provide a unified way to identify dynamic network structures that promote cooperation, altruism, fairness and trust.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01069-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #rust&lt;/p&gt;</summary>
   </entry>
 </feed>

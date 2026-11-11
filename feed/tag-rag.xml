@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rag.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rag.xml</id>
-  <updated>2026-11-10T13:06:10.279725710+00:00</updated>
+  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
   <entry>
-    <title>TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-10-16-trio-task-refinement-with-individual"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.02810"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-10-16-trio-task-refinement-with-individual</id>
+    <title>DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-15-depthgraft-structural-regularization-through-hierarchical"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.03142"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-15-depthgraft-structural-regularization-through-hierarchical</id>
     <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due to inadequate retrieval and potential hallucinations. Towards this end, we propose a novel approach named Task Refinement with Individual Optimization (TRIO) for RAG.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.02810&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #rag&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs usually introduce additional computation or memory access. We revisit cross-layer KV sharing as an efficient form of such connectivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03142&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #rag&lt;/p&gt;</summary>
   </entry>
 </feed>
