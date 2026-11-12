@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
-  <entry>
-    <title>A gentle introduction to lattice-based cryptography</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-62-a-gentle-introduction-to-lattice"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-62-a-gentle-introduction-to-lattice</id>
-    <updated>2026-05-29T13:08:16+00:00</updated>
-    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
 </feed>

@@ -5,77 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-infosec.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-infosec.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
-    <title>Is Your Robot&apos;s Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-13-is-your-robot-s-memory"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14488"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-13-is-your-robot-s-memory</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14488&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-15-depthgraft-structural-regularization-through-hierarchical"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03142"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-15-depthgraft-structural-regularization-through-hierarchical</id>
-    <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs usually introduce additional computation or memory access. We revisit cross-layer KV sharing as an efficient form of such connectivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03142&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #rag&lt;/p&gt;</summary>
+    <title>Critical RCE Vulnerability in Apache HTTP Server</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-37-critical-rce-vulnerability-in-apache"/>
+    <link rel="related" href="https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-37-critical-rce-vulnerability-in-apache</id>
+    <updated>2026-11-12T02:11:11Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-40-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-41-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-40-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-41-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Quantum-Assisted Counterfactual Regret Minimization for Bounded-Payoff Imperfect-Information Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-31-quantum-assisted-counterfactual-regret-minimization"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-31-quantum-assisted-counterfactual-regret-minimization"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14182v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-31-quantum-assisted-counterfactual-regret-minimization</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-31-quantum-assisted-counterfactual-regret-minimization</id>
     <updated>2026-11-10T15:05:22+00:00</updated>
     <summary type="html">&lt;p&gt;Imperfect-information games with a graded-reward structure present significant computational challenges for equilibrium computation, since the payoff expectations must be estimated across exponentially large strategy spaces. Counterfactual Regret Minimization over the years has proven effective for approximating Nash equilibria, but Monte Carlo variants create a large overhead of sampling costs when the counterfactual values are estimated from sampled game-tree trajectories. We propose a novel Quantum-Assisted Counterfactual Regret Minimization, a framework that uses Quantum Amplitude Estimation to reduce the computational complexity of the regret updates in bounded-payoff imperfect-information games, while preserving the convergence of its classical counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14182v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #decision-theory #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Vulnerability that lets hackers SSH into Linux devices is under active exploitation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-44-vulnerability-that-lets-hackers-ssh"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-45-vulnerability-that-lets-hackers-ssh"/>
     <link rel="related" href="https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-44-vulnerability-that-lets-hackers-ssh</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-45-vulnerability-that-lets-hackers-ssh</id>
     <updated>2026-11-09T19:41:34+00:00</updated>
     <summary type="html">&lt;p&gt;Certain configurations of Alpine are affected. Other distros may be as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/&quot;&gt;Ars Technica (Applied Tech &amp;amp; Hardware)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consumer-tech #hardware #semiconductors #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Batch, Prefetch, Skip, Orient, Squeeze: Faster, Smaller k-mer dictionaries via the Spectral Burrows-Wheeler transform</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-53-batch-prefetch-skip-orient-squeeze"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765318v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-53-batch-prefetch-skip-orient-squeeze</id>
-    <updated>2026-11-10T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Looking up k-mers in an index is a core operation in genomics, underlying read mapping, metagenomic classification, and many other tasks. Queries are often streaming: the k-mers come from a longer sequence such as a sequencing read, and consecutive k-mers overlap. The fastest index for such queries is currently the hashing-based SSHash; indexes based on the spectral Burrows-Wheeler transform (SBWT) are competitive in space but slower.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765318v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #infosec&lt;/p&gt;</summary>
+    <title>More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing Transform</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-61-more-keys-less-commitment-key"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2811"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-61-more-keys-less-commitment-key</id>
+    <updated>2026-11-07T04:24:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Cryptographic accordions with beyond-birthday-bound (BBB) security are being actively studied in connection with NIST’s ongoing standardization effort. We show that BBB security of an accordion does not necessarily strengthen key commitment of AE built from it: in many BBB accordions, additional keys introduced for BBB security give an adversary extra degrees of freedom. Exploiting this observation, we present $O(1)$ key-committing attacks on a broad range of AE schemes built from BBB accordions, mostly via the Encode-then-Encipher (EtE) paradigm, including CHCTR2, eCTR-based accordions, THCTR, HCTR+, TCT2, and bbb-ddd-AES under a natural polynomial-hash instantiation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2811&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-45-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-45-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cryptanalysis of Goldreich&apos;s PRGs with MAJ–XOR Predicates</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-61-cryptanalysis-of-goldreich-s-prgs"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2156"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-61-cryptanalysis-of-goldreich-s-prgs</id>
-    <updated>2026-09-22T09:47:13+00:00</updated>
-    <summary type="html">&lt;p&gt;Goldreich&amp;apos;s pseudorandom generators (PRGs) expand a secret $n$-bit seed into $m$ output bits by applying the same local predicate to each selected subset of seed bits. We develop a pooled recovery framework for $\mathrm{MAJ}$–$\mathrm{XOR}$ predicates. The method guesses that a set of seed bits has the same value and pools outputs whose majority inputs sufficiently overlap this set.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2156&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+    <title>PERSEPHONE: Zero-Knowledge Multiplicative Non-Negative Proof for Sequential Private Range Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-63-persephone-zero-knowledge-multiplicative-non"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1477"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-63-persephone-zero-knowledge-multiplicative-non</id>
+    <updated>2026-07-20T03:42:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Privacy is a fundamental requirement of modern digital payment systems, which process highly sensitive financial data, including account balances and transaction amounts. Unauthorized disclosure of this information can compromise users’ financial privacy and expose them to fraud or other forms of financial abuse. A key challenge in this setting is to verify that a payment amount does not exceed the payer’s available balance without revealing either the payment amount or the balance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1477&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-69-debiasing-law-enforcement-officers-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-69-debiasing-law-enforcement-officers-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35986#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-69-debiasing-law-enforcement-officers-evidence</id>
-    <updated>2026-11-11T12:15:47.437315461+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-69-debiasing-law-enforcement-officers-evidence</id>
+    <updated>2026-11-12T13:22:28.323926270+00:00</updated>
     <summary type="html">&lt;p&gt;Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35986#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

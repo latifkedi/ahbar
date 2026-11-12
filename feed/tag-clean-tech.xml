@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
-    <title>WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-16-wavegen-truly-end-to-end"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12527"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-16-wavegen-truly-end-to-end</id>
-    <updated>2026-11-09T10:02:29.000Z</updated>
-    <summary type="html">&lt;p&gt;This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate representations, such as neural audio codecs, Mel-spectrogram vocoders, or VAE-based latent models. In addition, WaveGen performs internal text-speech alignment within a single model, eliminating the need for external alignment modules such as duration predictors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12527&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience #clean-tech&lt;/p&gt;</summary>
+    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-53-scdeepsim-deep-generative-simulation-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-53-scdeepsim-deep-generative-simulation-for</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-57-location-matters-sparse-latent-variance"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-57-location-matters-sparse-latent-variance"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14254v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-57-location-matters-sparse-latent-variance</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-57-location-matters-sparse-latent-variance</id>
     <updated>2026-11-10T16:03:32+00:00</updated>
     <summary type="html">&lt;p&gt;Text-to-image diffusion models can learn and reproduce an individual&amp;apos;s identity from only a few reference photos, creating risks of unauthorized and misleading content generation. Proactive defenses address this risk by adding adversarial perturbations to facial images before release, thereby disrupting identity acquisition during downstream personalization. However, existing methods typically rely on dense $L_\infty$-bounded perturbations, whose accumulated distortions can become visible around facial structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14254v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Mesoscopic derivation of predator-prey dynamics via diffusive fast-reaction asymptotics: cross-diffusion and fear effects</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-88-mesoscopic-derivation-of-predator-prey"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-88-mesoscopic-derivation-of-predator-prey"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14132v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-88-mesoscopic-derivation-of-predator-prey</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-88-mesoscopic-derivation-of-predator-prey</id>
     <updated>2026-11-10T14:18:52+00:00</updated>
     <summary type="html">&lt;p&gt;We propose a kinetic derivation of a spatial predator-prey model with cross-diffusion interactions and a Beddington-DeAngelis functional response. At the mesoscopic level, we divide the two populations into distinct behavioral states: prey can be active or hidden in a refuge, while predators can be either searching or handling. The microscopic state of each subpopulation is described in terms of group size and a continuous directional velocity variable, with state transitions governed by suitable Boltzmann-type interaction operators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14132v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #analysis-pde #clean-tech&lt;/p&gt;</summary>
   </entry>

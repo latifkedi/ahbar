@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-logic.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-logic.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <entry>
+    <title>Revisiting Witness-Succinct UC-lifting Compilers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-60-revisiting-witness-succinct-uc-lifting"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2453"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-60-revisiting-witness-succinct-uc-lifting</id>
+    <updated>2026-10-12T16:18:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Zero-knowledge succinct non-interactive arguments of knowledge (zkSNARKs) are increasingly used within larger cryptographic protocols, making security under composition essential. Generic compilation to Universal Composability (UC) requires straight-line, black-box extraction while preserving succinctness and controlling prover cost. We introduce verifiable reconstructible straightline codes (VRSCs), a primitive that separates public hiding, transcript-based reconstruction, binding, and proof non-rerandomizability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2453&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-20-lean-grimoire"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-20-lean-grimoire</id>
+    <updated>2026-11-12T02:36:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
+  </entry>
 </feed>

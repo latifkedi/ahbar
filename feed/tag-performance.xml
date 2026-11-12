@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-performance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-performance.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
-    <title>Security updates for Tuesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-37-security-updates-for-tuesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1106522/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-37-security-updates-for-tuesday</id>
-    <updated>2026-11-10T14:03:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106522/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+    <title>Security updates for Wednesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-38-security-updates-for-wednesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1106876/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-38-security-updates-for-wednesday</id>
+    <updated>2026-11-11T14:15:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106876/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>

@@ -5,37 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Operational limits of reference renewal for retained quantum-service results</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-32-operational-limits-of-reference-renewal"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-32-operational-limits-of-reference-renewal"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14376v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-32-operational-limits-of-reference-renewal</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-32-operational-limits-of-reference-renewal</id>
     <updated>2026-11-10T17:31:11+00:00</updated>
     <summary type="html">&lt;p&gt;We implement reference renewal to reconsider retained physical quantum-service results under a prespecified protocol. Twelve transitions retained six results each; ten completed renewal, eight met the prespecified endpoint, and five succeeded using retained results alone. The exact one-sided p=0.0546875 does not establish the recovery hypothesis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14376v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Secure Information Flow in Quantum Programs. Information-flow security aims to prevent the leakage of confidential information through program execution.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-33-secure-information-flow-in-quantum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-33-secure-information-flow-in-quantum"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14147v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-33-secure-information-flow-in-quantum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-33-secure-information-flow-in-quantum</id>
     <updated>2026-11-10T14:34:39+00:00</updated>
     <summary type="html">&lt;p&gt;Information-flow security aims to prevent the leakage of confidential information through program execution. This problem becomes fundamentally subtler for quantum programs, because their states may involve superposition and entanglement, and their executions may involve intricate interactions between classical and quantum variables. This paper develops semantic foundations and verification methods for secure information flow in quantum programs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14147v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #cryptography&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-41-an-empirical-study-on-cve"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-42-an-empirical-study-on-cve"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14164v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-41-an-empirical-study-on-cve</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-42-an-empirical-study-on-cve</id>
     <updated>2026-11-10T14:49:52+00:00</updated>
     <summary type="html">&lt;p&gt;Vulnerabilities in applications, including browsers, media players, online services and document readers, etc. are often exploited and cause a serious damage. The vulnerabilities could exist in your system maybe because of some coding errors, design oversights, outdated software, AI generated codes or maybe transferred from another system during development (e.g., code clones).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14164v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #software-architecture&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Revisiting Witness-Succinct UC-lifting Compilers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-60-revisiting-witness-succinct-uc-lifting"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2453"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-60-revisiting-witness-succinct-uc-lifting</id>
+    <updated>2026-10-12T16:18:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Zero-knowledge succinct non-interactive arguments of knowledge (zkSNARKs) are increasingly used within larger cryptographic protocols, making security under composition essential. Generic compilation to Universal Composability (UC) requires straight-line, black-box extraction while preserving succinctness and controlling prover cost. We introduce verifiable reconstructible straightline codes (VRSCs), a primitive that separates public hiding, transcript-based reconstruction, binding, and proof non-rerandomizability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2453&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

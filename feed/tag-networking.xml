@@ -5,12 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-networking.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-networking.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
     <title>5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-42-5g-cats-5g-based-cryptographic"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-43-5g-cats-5g-based-cryptographic"/>
     <link rel="related" href="https://arxiv.org/abs/2611.13437v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-42-5g-cats-5g-based-cryptographic</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-43-5g-cats-5g-based-cryptographic</id>
     <updated>2026-11-10T01:20:18+00:00</updated>
     <summary type="html">&lt;p&gt;Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measurements can bound a chip&amp;apos;s distance from a trusted landmark, but any jitter in honest replies forces the verifier to loosen its timeout, giving an attacker slack to relay traffic over fiber from a restricted region. Prior approaches either cross the untrusted host stack or rely on noisy power-line channels that inflate this slack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13437v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
   </entry>

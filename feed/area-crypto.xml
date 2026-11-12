@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-crypto.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-crypto.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-56-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-56-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-56-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-56-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-57-location-matters-sparse-latent-variance"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-57-location-matters-sparse-latent-variance"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14254v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-57-location-matters-sparse-latent-variance</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-57-location-matters-sparse-latent-variance</id>
     <updated>2026-11-10T16:03:32+00:00</updated>
     <summary type="html">&lt;p&gt;Text-to-image diffusion models can learn and reproduce an individual&amp;apos;s identity from only a few reference photos, creating risks of unauthorized and misleading content generation. Proactive defenses address this risk by adding adversarial perturbations to facial images before release, thereby disrupting identity acquisition during downstream personalization. However, existing methods typically rely on dense $L_\infty$-bounded perturbations, whose accumulated distortions can become visible around facial structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14254v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Constructions of Efficiently Implementable Boolean Functions with Provable Nonlinearity/Resiliency/Algebraic Immunity Trade-Offs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-58-constructions-of-efficiently-implementable-boolean"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1800"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-58-constructions-of-efficiently-implementable-boolean</id>
-    <updated>2025-10-02T06:50:21+00:00</updated>
-    <summary type="html">&lt;p&gt;We describe new families of efficiently implementable Boolean functions achieving provable trade-offs between resiliency, nonlinearity, and algebraic immunity. Compared to one direction of research on balanced and 1-resilient functions with optimal algebraic immunity, the new functions provide lower algebraic immunity, but much lower -- in fact, almost optimal -- linear bias and importantly are much more efficient to implement. Compared to another direction of research based on constructions using direct sum, the new functions while achieving similar efficiency, has less number of variables for the same order of resiliency, same lower bound on algebraic immunity, and similar nonlinearity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1800&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-58-sable-a-small-field-sumcheck"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14083v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-58-sable-a-small-field-sumcheck</id>
+    <updated>2026-11-10T13:47:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling decision is determined by its inputs, and proves it with a constraint system whose relations provably never wrap modulo the 31-bit KoalaBear prime. The proof batches zerochecks and LogUp-GKR lookups into one sumcheck per domain, and commits to every witness tensor and weight in one multilinear commitment built from Reed-Solomon codes, BLAKE3 Merkle trees and a mixed-length BaseFold opening.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14083v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Authenticated Outsourced Incrementally Verifiable MPC</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-59-authenticated-outsourced-incrementally-verifiable-mpc"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2721"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-59-authenticated-outsourced-incrementally-verifiable-mpc</id>
-    <updated>2026-11-02T09:58:10+00:00</updated>
-    <summary type="html">&lt;p&gt;Many privacy-preserving applications such as iterative machine learning training require executing ongoing computations over a secret state for long periods of time. While MPC enables secure computation, long-lived secret state is vulnerable to adaptive corruptions, requiring periodic share refreshes and committee rotation. In many settings, it is desirable for external parties to be able to verify that these state updates and rotations are performed correctly, but existing approaches for such public verifiability incur high overhead as they require MPC nodes to generate expensive proofs over secret-shared data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2721&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
+    <title>Smaller Share Size for Evolving Secret Sharing: General Thresholds and Threshold Three</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-59-smaller-share-size-for-evolving"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2619"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-59-smaller-share-size-for-evolving</id>
+    <updated>2026-10-23T20:32:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Evolving secret sharing allows participants to join indefinitely without modifying previously distributed shares. We study the share size of perfectly secure evolving threshold secret sharing schemes and obtain two results. For general thresholds, we introduce a polynomial sharing method that shares two secrets with adjacent reconstruction thresholds using one polynomial.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2619&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Maximum Possible Nonlinearity for a Balanced Boolean Function in 10 Variables is 492</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-60-the-maximum-possible-nonlinearity-for"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2797"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-60-the-maximum-possible-nonlinearity-for</id>
-    <updated>2026-11-06T11:08:39+00:00</updated>
-    <summary type="html">&lt;p&gt;Determining the maximum nonlinearity of 10-variable balanced Boolean functions has been a long-standing open problem. In this paper, we resolve it by proving that the maximum nonlinearity is exactly 492, thereby confirming Dobbertin’s conjecture in dimension 10. To exclude nonlinearity 494, we derive a quadratic residue for the Walsh spectrum and refine a local energy table from four-block concatenation by retaining the signs of the Walsh coefficients.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2797&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Revisiting Witness-Succinct UC-lifting Compilers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-60-revisiting-witness-succinct-uc-lifting"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2453"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-60-revisiting-witness-succinct-uc-lifting</id>
+    <updated>2026-10-12T16:18:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Zero-knowledge succinct non-interactive arguments of knowledge (zkSNARKs) are increasingly used within larger cryptographic protocols, making security under composition essential. Generic compilation to Universal Composability (UC) requires straight-line, black-box extraction while preserving succinctness and controlling prover cost. We introduce verifiable reconstructible straightline codes (VRSCs), a primitive that separates public hiding, transcript-based reconstruction, binding, and proof non-rerandomizability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2453&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cryptanalysis of Goldreich&apos;s PRGs with MAJ–XOR Predicates</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-61-cryptanalysis-of-goldreich-s-prgs"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2156"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-61-cryptanalysis-of-goldreich-s-prgs</id>
-    <updated>2026-09-22T09:47:13+00:00</updated>
-    <summary type="html">&lt;p&gt;Goldreich&amp;apos;s pseudorandom generators (PRGs) expand a secret $n$-bit seed into $m$ output bits by applying the same local predicate to each selected subset of seed bits. We develop a pooled recovery framework for $\mathrm{MAJ}$–$\mathrm{XOR}$ predicates. The method guesses that a set of seed bits has the same value and pools outputs whose majority inputs sufficiently overlap this set.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2156&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+    <title>More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing Transform</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-61-more-keys-less-commitment-key"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2811"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-61-more-keys-less-commitment-key</id>
+    <updated>2026-11-07T04:24:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Cryptographic accordions with beyond-birthday-bound (BBB) security are being actively studied in connection with NIST’s ongoing standardization effort. We show that BBB security of an accordion does not necessarily strengthen key commitment of AE built from it: in many BBB accordions, additional keys introduced for BBB security give an adversary extra degrees of freedom. Exploiting this observation, we present $O(1)$ key-committing attacks on a broad range of AE schemes built from BBB accordions, mostly via the Encode-then-Encipher (EtE) paradigm, including CHCTR2, eCTR-based accordions, THCTR, HCTR+, TCT2, and bbb-ddd-AES under a natural polynomial-hash instantiation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2811&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A gentle introduction to lattice-based cryptography</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-62-a-gentle-introduction-to-lattice"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1098"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-62-a-gentle-introduction-to-lattice</id>
-    <updated>2026-05-29T13:08:16+00:00</updated>
-    <summary type="html">&lt;p&gt;We present four quantum-safe schemes: the Kyber (ML-KEM) and FrodoKEM key encapsulation mechanisms, and the Dilithium (ML-DSA) and Falcon (FN-DSA) signature schemes. We also develop the mathematical background on lattices needed to understand why Kyber, FrodoKEM, Dilithium and Falcon are regarded as lattice-based cryptosystems, and we provide insight into the computational hardness of the underlying lattice problems. The exposition is intended to be accessible to senior undergraduate students and beginning graduate students.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1098&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>A Note on the Security of Changing of the Guards. Masking stands as one of the most effective countermeasures against side-channel attacks.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-62-a-note-on-the-security"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1226"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-62-a-note-on-the-security</id>
+    <updated>2026-06-10T09:37:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Masking stands as one of the most effective countermeasures against side-channel attacks. The Changing of the Guards (COTG) technique reduces online fresh randomness by reusing masks and borrowing shares across nonlinear computations. We identify a security flaw in the round-based AES Design I of Askeland et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1226&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Constructions of Boolean Correctors with Optimal Nonlinearity and Vectorial Correctors Beyond Optimal Linear Correction Order</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-63-constructions-of-boolean-correctors-with"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2812"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-63-constructions-of-boolean-correctors-with</id>
-    <updated>2026-11-07T05:32:40+00:00</updated>
-    <summary type="html">&lt;p&gt;Correctors are postprocessing functions that reduce or eliminate statistical bias in raw bitstreams produced by physical noise sources in true random number generators. In this paper, we develop a framework based on binary Krawtchouk polynomials for analyzing and constructing Boolean and vectorial correctors. This framework reformulates the Walsh-layer criterion into finite moment constraints on support-layer counts and preimage-layer counts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2812&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>PERSEPHONE: Zero-Knowledge Multiplicative Non-Negative Proof for Sequential Private Range Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-63-persephone-zero-knowledge-multiplicative-non"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1477"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-63-persephone-zero-knowledge-multiplicative-non</id>
+    <updated>2026-07-20T03:42:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Privacy is a fundamental requirement of modern digital payment systems, which process highly sensitive financial data, including account balances and transaction amounts. Unauthorized disclosure of this information can compromise users’ financial privacy and expose them to fraud or other forms of financial abuse. A key challenge in this setting is to verify that a payment amount does not exceed the payer’s available balance without revealing either the payment amount or the balance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1477&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

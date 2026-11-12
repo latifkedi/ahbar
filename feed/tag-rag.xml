@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-rag.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-rag.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
-    <title>DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-15-depthgraft-structural-regularization-through-hierarchical"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.03142"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-15-depthgraft-structural-regularization-through-hierarchical</id>
-    <updated>2026-11-01T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs usually introduce additional computation or memory access. We revisit cross-layer KV sharing as an efficient form of such connectivity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.03142&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec #rag&lt;/p&gt;</summary>
+    <title>Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-18-incentivizing-self-learning-in-large"/>
+    <link rel="related" href="https://arxiv.org/abs/2610.39671"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-18-incentivizing-self-learning-in-large</id>
+    <updated>2026-10-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39671&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>

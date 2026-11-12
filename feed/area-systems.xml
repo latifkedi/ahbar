@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
-    <title>Security updates for Tuesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-37-security-updates-for-tuesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1106522/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-37-security-updates-for-tuesday</id>
-    <updated>2026-11-10T14:03:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106522/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #agents&lt;/p&gt;</summary>
+    <title>Critical RCE Vulnerability in Apache HTTP Server</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-37-critical-rce-vulnerability-in-apache"/>
+    <link rel="related" href="https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-37-critical-rce-vulnerability-in-apache</id>
+    <updated>2026-11-12T02:11:11Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Security updates for Wednesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-38-security-updates-for-wednesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1106876/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-38-security-updates-for-wednesday</id>
+    <updated>2026-11-11T14:15:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1106876/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-39-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-39-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-40-bypassing-administrator-protection-by-abusing"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-41-bypassing-administrator-protection-by-abusing"/>
     <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-40-bypassing-administrator-protection-by-abusing</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-41-bypassing-administrator-protection-by-abusing</id>
     <updated>2026-02-12T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-41-an-empirical-study-on-cve"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-42-an-empirical-study-on-cve"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14164v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-41-an-empirical-study-on-cve</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-42-an-empirical-study-on-cve</id>
     <updated>2026-11-10T14:49:52+00:00</updated>
     <summary type="html">&lt;p&gt;Vulnerabilities in applications, including browsers, media players, online services and document readers, etc. are often exploited and cause a serious damage. The vulnerabilities could exist in your system maybe because of some coding errors, design oversights, outdated software, AI generated codes or maybe transferred from another system during development (e.g., code clones).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14164v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-42-5g-cats-5g-based-cryptographic"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-43-5g-cats-5g-based-cryptographic"/>
     <link rel="related" href="https://arxiv.org/abs/2611.13437v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-42-5g-cats-5g-based-cryptographic</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-43-5g-cats-5g-based-cryptographic</id>
     <updated>2026-11-10T01:20:18+00:00</updated>
     <summary type="html">&lt;p&gt;Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measurements can bound a chip&amp;apos;s distance from a trusted landmark, but any jitter in honest replies forces the verifier to loosen its timeout, giving an attacker slack to relay traffic over fiber from a restricted region. Prior approaches either cross the untrusted host stack or rely on noisy power-line channels that inflate this slack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13437v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-43-an-improved-1-2e-approximation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-44-an-improved-1-2e-approximation"/>
     <link rel="related" href="https://arxiv.org/abs/2611.13224v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-43-an-improved-1-2e-approximation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-44-an-improved-1-2e-approximation</id>
     <updated>2026-11-09T20:53:05+00:00</updated>
     <summary type="html">&lt;p&gt;We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13224v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #algorithms #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Vulnerability that lets hackers SSH into Linux devices is under active exploitation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-44-vulnerability-that-lets-hackers-ssh"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-45-vulnerability-that-lets-hackers-ssh"/>
     <link rel="related" href="https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-44-vulnerability-that-lets-hackers-ssh</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-45-vulnerability-that-lets-hackers-ssh</id>
     <updated>2026-11-09T19:41:34+00:00</updated>
     <summary type="html">&lt;p&gt;Certain configurations of Alpine are affected. Other distros may be as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/&quot;&gt;Ars Technica (Applied Tech &amp;amp; Hardware)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consumer-tech #hardware #semiconductors #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-45-package-managers-have-an-integrity"/>
-    <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-45-package-managers-have-an-integrity</id>
-    <updated>2026-10-14T11:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
 </feed>

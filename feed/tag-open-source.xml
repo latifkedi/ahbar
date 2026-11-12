@@ -5,69 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-source.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-source.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
-    <title>Synaptics patent claims stop work on DisplayLink drivers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-01-synaptics-patent-claims-stop-work"/>
-    <link rel="related" href="https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-01-synaptics-patent-claims-stop-work</id>
-    <updated>2026-11-10T18:02:02Z</updated>
-    <summary type="html">&lt;p&gt;Mike Lothian owns a docking station (or dock) that uses a DisplayLink chipset that had, at least in his opinion, subpar performance on Linux. He decided to try improving the Linux driver, with LLM assistance, but ran into one problem that he could not solve—so he asked for help, hoping that Synaptics&amp;apos;s developers would lend a hand. (DisplayLink was acquired by Synaptics in 2022.) Rather than help him in improving the driver, however, the Synaptics legal team responded with patent infringement claims, a demand that he cease unauthorized implementation of DisplayLink technology, and threats of expensive legal penalties.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>AWS emulator</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-01-aws-emulator"/>
+    <link rel="related" href="https://github.com/aws/aws-emulator"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-01-aws-emulator</id>
+    <updated>2026-11-11T18:21:38Z</updated>
+    <summary type="html">&lt;p&gt;aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It&amp;apos;s written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels&amp;apos; blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/aws/aws-emulator&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-02-show-hn-an-e-ink"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-02-show-hn-an-e-ink"/>
     <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-02-show-hn-an-e-ink</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-02-show-hn-an-e-ink</id>
     <updated>2026-09-15T12:31:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Tim Peters has died. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-05-tim-peters-has-died"/>
+    <link rel="related" href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-05-tim-peters-has-died</id>
+    <updated>2026-11-11T07:03:17Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-04-show-hn-can-t-afford"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-04-show-hn-can-t-afford"/>
     <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-04-show-hn-can-t-afford</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-04-show-hn-can-t-afford</id>
     <updated>2021-02-25T01:47:30Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>.name Grandfathered. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-05-name-grandfathered"/>
-    <link rel="related" href="https://neil.fraser.name/news/2026/11/10/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-05-name-grandfathered</id>
-    <updated>2026-11-10T16:37:44Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://neil.fraser.name/news/2026/11/10/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: This up votes itself</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-06-show-hn-this-up-votes"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-06-show-hn-this-up-votes"/>
     <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-06-show-hn-this-up-votes</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-06-show-hn-this-up-votes</id>
     <updated>2012-03-23T00:40:39Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AlphaProof Code. AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-09-alphaproof-code"/>
-    <link rel="related" href="https://deepmind.google/blog/introducing-alphaproof-code/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-09-alphaproof-code</id>
-    <updated>2026-11-10T12:11:12Z</updated>
-    <summary type="html">&lt;p&gt;AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://deepmind.google/blog/introducing-alphaproof-code/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-07-show-hn-gemini-pro-3"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-07-show-hn-gemini-pro-3"/>
     <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-07-show-hn-gemini-pro-3</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-07-show-hn-gemini-pro-3</id>
     <updated>2025-12-09T15:00:38Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: I made an open-source laptop from scratch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-08-show-hn-i-made-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-08-show-hn-i-made-an"/>
     <link rel="related" href="https://www.byran.ee/posts/creation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-08-show-hn-i-made-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-08-show-hn-i-made-an</id>
     <updated>2025-01-22T20:41:52Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Show HN: If YouTube had actual channels</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-09-show-hn-if-youtube-had"/>
+    <link rel="related" href="https://ytch.xyz"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-09-show-hn-if-youtube-had</id>
+    <updated>2024-08-14T15:10:06Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Critical RCE Vulnerability in Apache HTTP Server</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-37-critical-rce-vulnerability-in-apache"/>
+    <link rel="related" href="https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-37-critical-rce-vulnerability-in-apache</id>
+    <updated>2026-11-12T02:11:11Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

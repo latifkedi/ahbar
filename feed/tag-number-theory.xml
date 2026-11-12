@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
     <title>Newton non-degenerate holomorphic foliations and their separatrices. In this paper we study germs of holomorphic foliations in the complex plane that are Newton non-degenerate.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-19-newton-non-degenerate-holomorphic-foliations"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-19-newton-non-degenerate-holomorphic-foliations"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14466v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-19-newton-non-degenerate-holomorphic-foliations</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-19-newton-non-degenerate-holomorphic-foliations</id>
     <updated>2026-11-10T18:31:26+00:00</updated>
     <summary type="html">&lt;p&gt;In this paper we study germs of holomorphic foliations in the complex plane that are Newton non-degenerate. This is an algebraic condition attached to the Newton polygon of the foliation, analogous to the one defined by Kouchnirenko for analytic curves and, more generally, hypersurfaces. As in this case, the condition of Newton non-degeneracy for foliations can be identified through the comparison of two numerical invariants: the Newton number - a computation involving simple geometric data of the Newton polygon - and the Milnor number.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14466v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-58-sable-a-small-field-sumcheck"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.14083v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-58-sable-a-small-field-sumcheck</id>
+    <updated>2026-11-10T13:47:29+00:00</updated>
+    <summary type="html">&lt;p&gt;We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling decision is determined by its inputs, and proves it with a constraint system whose relations provably never wrap modulo the 31-bit KoalaBear prime. The proof batches zerochecks and LogUp-GKR lookups into one sumcheck per domain, and commits to every witness tensor and weight in one multilinear commitment built from Reed-Solomon codes, BLAKE3 Merkle trees and a mixed-length BaseFold opening.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14083v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

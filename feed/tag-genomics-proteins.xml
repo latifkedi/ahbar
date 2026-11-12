@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-11-11T12:15:47.126891788+00:00</updated>
-  <entry>
-    <title>ProTEUS: A mutation-resolved world model for closed-loop protein evolution</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-17-proteus-a-mutation-resolved-world"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13348"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-17-proteus-a-mutation-resolved-world</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13348&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
   <entry>
     <title>ANTIOCH-VS: From Sequence to Hits with Modular, Open-Source Ensemble Virtual Screening</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-46-antioch-vs-from-sequence-to"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-46-antioch-vs-from-sequence-to"/>
     <link rel="related" href="https://arxiv.org/abs/2611.14287v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-46-antioch-vs-from-sequence-to</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-46-antioch-vs-from-sequence-to</id>
     <updated>2026-11-10T16:27:14+00:00</updated>
     <summary type="html">&lt;p&gt;Structure-based virtual screening needs a receptor conformation that fits the ligand class, but for most targets no ligand-bound crystal is available -- and a single predicted model or an apo structure often misses the binding-competent state. We present ANTIOCH-VS, an open-source framework that runs an entire in silico screening campaign, from a protein sequence to a ranked shortlist of candidate binders, as one plug-and-play workflow. It first builds a conformational ensemble by reduced-MSA subsampling with ColabFold, then uses AlphaFold2-RAVE (AF2RAVE) -- short molecular-dynamics simulations with State Predictive Information Bottleneck analysis -- to pick out docking-ready, Boltzmann-weighted metastable states.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14287v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bridging Graph and Pairwise Learning for Gene Regulatory Network Inference from scRNA-seq Data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-47-bridging-graph-and-pairwise-learning"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-47-bridging-graph-and-pairwise-learning"/>
     <link rel="related" href="https://arxiv.org/abs/2611.13801v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-47-bridging-graph-and-pairwise-learning</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-47-bridging-graph-and-pairwise-learning</id>
     <updated>2026-11-10T09:34:28+00:00</updated>
     <summary type="html">&lt;p&gt;Motivation: Gene regulatory networks (GRNs) capture the underlying interactions through which transcription factors (TFs) regulate genes. Based on gene expression data, existing GRN inference approaches generally fall into two categories: graph-based methods, which model the GRN as a whole graph, and pairwise-based methods, which decompose the GRN into individual TF-target gene pairs for modeling. However, each approach exhibits limitations that are precisely the strengths of its counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13801v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #ml-theory #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Detection of local recombination and mutation hotspots in bacterial genomes using neural posterior estimation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-48-detection-of-local-recombination-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-48-detection-of-local-recombination-and"/>
     <link rel="related" href="https://arxiv.org/abs/2611.13763v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-48-detection-of-local-recombination-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-48-detection-of-local-recombination-and</id>
     <updated>2026-11-10T09:03:29+00:00</updated>
     <summary type="html">&lt;p&gt;Motivation: Recombination and mutation rates in bacteria vary along the genome, and regions of elevated rate (hotspots) often reflect selection on specific genes. Detecting them is difficult because the two processes leave overlapping signals in sequence data, clonal relationships act as a confounder, and inference must scale to whole genomes. Existing methods assume a constant mutation rate and/or rely on a small set of summary statistics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13763v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Detection of Maximal Exact Matches in Terabases of Genome Assemblies in Compressed Space and Sublinear Time</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-49-detection-of-maximal-exact-matches"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765459v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-49-detection-of-maximal-exact-matches</id>
+    <title>RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-49-rawmod-modification-agnostic-detection-of"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-49-rawmod-modification-agnostic-detection-of</id>
     <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Detection of long exact matches between a pair of genomes has historically been a fundamental operation in genomics. Similarly, detection of long exact matches between all pairs of haplotypes in a large panel of genotyping array data or whole-genome sequencing variant calls is a fundamental operation in population genetics. Thanks to various recent pangenome efforts, for the first time, large panels of high-quality genome assemblies are being constructed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765459v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Summary: Identifying epigenetically modified bases (e.g., methylation) is crucial for many important applications such as discovering mechanisms of cancer development, cell differentiation, and bacterial defense. Nanopore sequencing generates electrical signals that can differentiate canonical bases from modified ones. To detect base modifications from signals, machine learning (ML) methods and statistical approaches are commonly used.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SIFT: Syncmer-Informed Selection of Haplotypes for T2T Imputation. Genome patching improves the completeness of fragmented assemblies by filling unresolved gaps with sequences from reference genomes.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-50-sift-syncmer-informed-selection-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765394v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-50-sift-syncmer-informed-selection-of</id>
+    <title>The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-50-the-confessions-of-a-protein"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-50-the-confessions-of-a-protein</id>
     <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Genome patching improves the completeness of fragmented assemblies by filling unresolved gaps with sequences from reference genomes. Pangenome panels provide diverse candidate haplotypes for this task, but identifying suitable references efficiently becomes increasingly challenging as these panels grow. We present SIFT, a compressed indexing method for selecting reference haplotypes for genome patching with ImpuT2T.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765394v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep&amp;apos;s own control: 64.0%).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Reticulation-Aware Dissimilarities for Phylogenetic Networks. Dissimilarity measures play a critical role in phylogenetics.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-51-reticulation-aware-dissimilarities-for-phylogenetic"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.08.765198v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-51-reticulation-aware-dissimilarities-for-phylogenetic</id>
-    <updated>2026-11-10T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Dissimilarity measures play a critical role in phylogenetics. They help quantify the accuracy of inferences when the ground truth is known, allow comparisons of inferences obtained using different methods, and provide a tool for summarizing sets of phylogenies. A wide array of dissimilarity measures has been introduced for phylogenetic trees over the past half-century, and they vary in their mathematical properties, empirical behavior, and computational complexity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.08.765198v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>SubCellSeg: A generalist model for subcellular structure segmentation in 3D fluorescence microscopy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-51-subcellseg-a-generalist-model-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-51-subcellseg-a-generalist-model-for</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Three-dimensional (3D) segmentation of subcellular structures from fluorescence microscopy images is the foundation of many analyses in quantitative cell biology. The prevailing approach addresses 3D segmentation one structure at a time, with a separate model trained for each structure type. By developing SubCellSeg, we demonstrate that a single model, trained jointly across a diverse range of structures, substantially and consistently outperforms structure-specific specialist models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ProClust provides reliable statistical significance of clusters for single-cell transcriptomic data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-52-proclust-provides-reliable-statistical-significance"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.08.764985v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-52-proclust-provides-reliable-statistical-significance</id>
-    <updated>2026-11-10T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Clustering of single-cell RNA sequencing (scRNA-seq) data is widely used to identify cell populations. However, overclustering can partition a single cell population into multiple clusters, potentially leading to spurious identification of cell subpopulations. Assessing the statistical significance of clusters is therefore needed to support their biological interpretation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.08.764985v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Fast Pangenome Matching Statistics in Compressed Space with Move Structures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-52-fast-pangenome-matching-statistics-in"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765781v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-52-fast-pangenome-matching-statistics-in</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Matching statistics and supermaximal exact matches (SMEMs) are key inputs for sequence homology search and classification. Methods such as MONI, PHONI, and ropebwt3 compute these statistics using compressed pangenome indexes, but are substantially slower than methods that compute approximations of matching statistics, such as pseudo-matching lengths (PMLs). PMLs can be computed quickly in a single pass, but SMEM computation can require overlapping forward or backward passes over the query.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765781v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Batch, Prefetch, Skip, Orient, Squeeze: Faster, Smaller k-mer dictionaries via the Spectral Burrows-Wheeler transform</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-11-53-batch-prefetch-skip-orient-squeeze"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765318v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-11-53-batch-prefetch-skip-orient-squeeze</id>
-    <updated>2026-11-10T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Looking up k-mers in an index is a core operation in genomics, underlying read mapping, metagenomic classification, and many other tasks. Queries are often streaming: the k-mers come from a longer sequence such as a sequencing read, and consecutive k-mers overlap. The fastest index for such queries is currently the hashing-based SSHash; indexes based on the spectral Burrows-Wheeler transform (SBWT) are competitive in space but slower.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765318v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #infosec&lt;/p&gt;</summary>
+    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-53-scdeepsim-deep-generative-simulation-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-53-scdeepsim-deep-generative-simulation-for</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-54-rna-small-molecule-binding-site"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-54-rna-small-molecule-binding-site</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;RNAs are emerging as promising therapeutic targets, and small-molecule binding can modulate their structure and function, creating opportunities for therapeutic development. Accurate identification of RNA small-molecule binding sites is therefore important for understanding RNA-ligand interactions and facilitating RNA-targeted drug discovery. However, the structural complexity of RNA and the limited availability of experimentally characterized RNA-ligand complexes pose challenges for computational binding-site prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>
