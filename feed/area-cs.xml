@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-cs.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-cs.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>AWS emulator</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-01-aws-emulator"/>
-    <link rel="related" href="https://github.com/aws/aws-emulator"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-01-aws-emulator</id>
-    <updated>2026-11-11T18:21:38Z</updated>
-    <summary type="html">&lt;p&gt;aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It&amp;apos;s written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels&amp;apos; blog.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/aws/aws-emulator&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Announcing Rust 1.100.0. The Rust team is happy to announce a new version of Rust, 1.100.0.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-01-announcing-rust-1-100-0"/>
+    <link rel="related" href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-01-announcing-rust-1-100-0</id>
+    <updated>2026-11-12T18:43:41+00:00</updated>
+    <summary type="html">&lt;p&gt;The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don&amp;apos;t have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Jensen Huang resigns</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-02-jensen-huang-resigns"/>
+    <link rel="related" href="https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-02-jensen-huang-resigns</id>
+    <updated>2026-11-12T13:52:29Z</updated>
+    <summary type="html">&lt;p&gt;Following reports of two extramarital affairs, one with an alleged Chinese spy and the other with a VP that is a direct report to him, Jensen Huang is no longer CEO of NVIDIA...&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Discord Patch Notes: November 9, 2026. Check out the finer details of the more technical fixes implemented into Discord recently.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-03-discord-patch-notes-november-9"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-04-discord-patch-notes-november-9"/>
     <link rel="related" href="https://discord.com/blog/discord-patch-notes-november-9-2026"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-03-discord-patch-notes-november-9</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-04-discord-patch-notes-november-9</id>
     <updated>2026-11-09T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Check out the finer details of the more technical fixes implemented into Discord recently.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discord.com/blog/discord-patch-notes-november-9-2026&quot;&gt;Discord Systems &amp;amp; Database Engineering&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-02-show-hn-an-e-ink"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-03-show-hn-an-e-ink"/>
     <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-02-show-hn-an-e-ink</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-03-show-hn-an-e-ink</id>
     <updated>2026-09-15T12:31:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Tim Peters has died. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-05-tim-peters-has-died"/>
-    <link rel="related" href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-05-tim-peters-has-died</id>
-    <updated>2026-11-11T07:03:17Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-04-show-hn-can-t-afford"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-05-show-hn-can-t-afford"/>
     <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-04-show-hn-can-t-afford</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-05-show-hn-can-t-afford</id>
     <updated>2021-02-25T01:47:30Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Anthropic IPO</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-06-anthropic-ipo"/>
+    <link rel="related" href="https://ipo.anthropic.com/us/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-06-anthropic-ipo</id>
+    <updated>2026-11-12T11:46:41Z</updated>
+    <summary type="html">&lt;p&gt;Anthropic&amp;apos;s IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on &amp;quot;Approach to compute&amp;quot; with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I&amp;apos;m not sure why there&amp;apos;s no official video transcript, but here&amp;apos;s one that I extracted using MacWhisper.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ipo.anthropic.com/us/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Show HN: This up votes itself</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-06-show-hn-this-up-votes"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-07-show-hn-this-up-votes"/>
     <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-06-show-hn-this-up-votes</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-07-show-hn-this-up-votes</id>
     <updated>2012-03-23T00:40:39Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-07-show-hn-gemini-pro-3"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-08-show-hn-gemini-pro-3"/>
     <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-07-show-hn-gemini-pro-3</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-08-show-hn-gemini-pro-3</id>
     <updated>2025-12-09T15:00:38Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: I made an open-source laptop from scratch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-08-show-hn-i-made-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-09-show-hn-i-made-an"/>
     <link rel="related" href="https://www.byran.ee/posts/creation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-08-show-hn-i-made-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-09-show-hn-i-made-an</id>
     <updated>2025-01-22T20:41:52Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Show HN: If YouTube had actual channels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-09-show-hn-if-youtube-had"/>
-    <link rel="related" href="https://ytch.xyz"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-09-show-hn-if-youtube-had</id>
-    <updated>2024-08-14T15:10:06Z</updated>
-    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

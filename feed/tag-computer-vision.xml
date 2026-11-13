@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-53-scdeepsim-deep-generative-simulation-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-53-scdeepsim-deep-generative-simulation-for</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Duo: A Reciprocal World Model for Full-Duplex Interaction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-14-duo-a-reciprocal-world-model"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15131"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-14-duo-a-reciprocal-world-model</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15131&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-57-location-matters-sparse-latent-variance"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14254v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-57-location-matters-sparse-latent-variance</id>
-    <updated>2026-11-10T16:03:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Text-to-image diffusion models can learn and reproduce an individual&amp;apos;s identity from only a few reference photos, creating risks of unauthorized and misleading content generation. Proactive defenses address this risk by adding adversarial perturbations to facial images before release, thereby disrupting identity acquisition during downstream personalization. However, existing methods typically rely on dense $L_\infty$-bounded perturbations, whose accumulated distortions can become visible around facial structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14254v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #clean-tech&lt;/p&gt;</summary>
+    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-50-scdeepsim-deep-generative-simulation-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-50-scdeepsim-deep-generative-simulation-for</id>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

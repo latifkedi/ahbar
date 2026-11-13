@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Detection of local recombination and mutation hotspots in bacterial genomes using neural posterior estimation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-48-detection-of-local-recombination-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13763v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-48-detection-of-local-recombination-and</id>
-    <updated>2026-11-10T09:03:29+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivation: Recombination and mutation rates in bacteria vary along the genome, and regions of elevated rate (hotspots) often reflect selection on specific genes. Detecting them is difficult because the two processes leave overlapping signals in sequence data, clonal relationships act as a confounder, and inference must scale to whole genomes. Existing methods assume a constant mutation rate and/or rely on a small set of summary statistics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13763v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #neuroscience&lt;/p&gt;</summary>
+    <title>TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-10-ttb-test-time-baking-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17331"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-10-ttb-test-time-baking-for</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the fast-weight MLP of TTT to learn the cross-view attention mapping explicitly from its input-output pairs, rather than replacing attention entirely, achieving the same rendering efficiency as TTT while delivering substantially higher quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17331&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-24-structure-preserving-leaky-integrate-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17219v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-24-structure-preserving-leaky-integrate-and</id>
+    <updated>2026-11-12T18:16:14+00:00</updated>
+    <summary type="html">&lt;p&gt;The leaky integrate-and-fire (LIF) neuron combines a passive membrane law with threshold-triggered firing and reset. We formulate this hybrid neuron model, under constant input, on an arbitrary Hilger time scale $\mathbb{T}$. Our central result is that, after the first spike, the firing times satisfy $t_{n+1}=Π_{\mathbb{T}}^{+}(t_n+T_c)$, where $T_c$ is the classical reset-to-threshold travel time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17219v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #neuroscience #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>OblivDGL: Oblivious Deep Graph Learning Made Practical. The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-60-oblivdgl-oblivious-deep-graph-learning"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2655"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-60-oblivdgl-oblivious-deep-graph-learning</id>
+    <updated>2026-10-27T05:28:09+00:00</updated>
+    <summary type="html">&lt;p&gt;The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns. Both sensitive graph data and proprietary GNN models are submitted to and processed in third-party MLaaS platform for training and inference. To alleviate those concerns, recent efforts have been made to design tailored secure computation protocols for GNNs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2655&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #neuroscience&lt;/p&gt;</summary>
   </entry>
 </feed>

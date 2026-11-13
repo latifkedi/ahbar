@@ -5,77 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-10-one-table-many-queries-benchmarking"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13001"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-10-one-table-many-queries-benchmarking</id>
+    <title>TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-10-ttb-test-time-baking-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17331"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-10-ttb-test-time-baking-for</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the fast-weight MLP of TTT to learn the cross-view attention mapping explicitly from its input-output pairs, rather than replacing attention entirely, achieving the same rendering efficiency as TTT while delivering substantially higher quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17331&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-12-so-arena-benchmarking-the-capability"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15777"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-12-so-arena-benchmarking-the-capability</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15777&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-13-g-star-group-scaled-token"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.13004"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-13-g-star-group-scaled-token</id>
     <updated>2026-11-07T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13001&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13004&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Embodied First Exam. Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-11-embodied-first-exam"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12177"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-11-embodied-first-exam</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to control, or train a policy to control.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12177&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Duo: A Reciprocal World Model for Full-Duplex Interaction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-14-duo-a-reciprocal-world-model"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15131"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-14-duo-a-reciprocal-world-model</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15131&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering. Low-bit quantization reduces the inference cost of LLM agents but can compromise task success.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-12-steerdistill-quantizing-llm-agents-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13410"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-12-steerdistill-quantizing-llm-agents-via</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student&amp;apos;s failure contexts, while its own rollouts may provide few correct responses in those contexts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13410&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference #agents&lt;/p&gt;</summary>
+    <title>PhysLoop: Harnessing LLMs&apos; Physics Awareness for Self-Improving Video Generation Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-15-physloop-harnessing-llms-physics-awareness"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16748"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-15-physloop-harnessing-llms-physics-awareness</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16748&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-13-gtagym-real-aaa-game-tasks"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13028"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-13-gtagym-real-aaa-game-tasks</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13028&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-16-actor-judge-or-teacher-understanding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17167"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-16-actor-judge-or-teacher-understanding</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent&amp;apos;s actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17167&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>PhyRubric: Rubric-Grounded Diagnostic Evaluation of Physical Commonsense in Text-to-Video Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-14-phyrubric-rubric-grounded-diagnostic-evaluation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13576"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-14-phyrubric-rubric-grounded-diagnostic-evaluation</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;As text-to-video (T2V) models are increasingly positioned as world simulators, it is essential to evaluate whether their videos conform to physical commonsense. However, existing benchmarks rely on annotators who rate each video with a single score based on intuition, yielding ratings that are subjective and do not tell which physical principle is violated. We introduce PhyRubric, a rubric-grounded diagnostic framework for evaluating physical commonsense in T2V generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13576&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>On the Design of Hyper-Connections: Simplification, Stability, and Scalability</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-17-on-the-design-of-hyper"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.05984"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-17-on-the-design-of-hyper</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs. We find that learned read/write gating without mixing and unconstrained mixing with fixed gates form two effective interaction groups: either alone achieves performance comparable to mHC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05984&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Scaling Mathematical Proof Supervision from Structured Textbooks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-15-scaling-mathematical-proof-supervision-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.40394"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-15-scaling-mathematical-proof-supervision-from</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance. Leveraging these structural signals, we explore curriculum learning across multiple mathematical subjects and characterize scaling patterns with supervision volume and source breadth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.40394&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Evolving Infra: Agent-Adaptive LLM Serving at Scale. Agentic workloads are a major source of LLM inference demand.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-16-evolving-infra-agent-adaptive-llm"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12304"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-16-evolving-infra-agent-adaptive-llm</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12304&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LEASH: Stay Safe in Agentic Robotics. Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-17-leash-stay-safe-in-agentic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-17-leash-stay-safe-in-agentic</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks, and comprehensive safety evaluation is still lacking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Incentivizing Self-Learning in Large Language Models via Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-18-incentivizing-self-learning-in-large"/>
-    <link rel="related" href="https://arxiv.org/abs/2610.39671"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-18-incentivizing-self-learning-in-large</id>
-    <updated>2026-10-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-intensive tasks. Yet problem solving in unfamiliar domains calls for tightly coupled knowledge acquisition and reasoning, beyond factual retrieval and aggregation or learning solely from a preassembled context. We study self-learning -- autonomously retrieving, studying, and applying knowledge from long-form reference materials on the fly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2610.39671&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #rag #reinforcement-learning&lt;/p&gt;</summary>
+    <title>Open Vision Banana: A Fully Open Recipe for Generative Visual Perception. Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-18-open-vision-banana-a-fully"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15844"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-18-open-vision-banana-a-fully</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15844&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

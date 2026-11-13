@@ -5,21 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Dimensional Crossover and Correlated Spin Dynamics in the Chain-Like van der Waals Antiferromagnet AgCrP$_2$S$_6$</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-30-dimensional-crossover-and-correlated-spin"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14444v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-30-dimensional-crossover-and-correlated-spin</id>
-    <updated>2026-11-10T18:14:07+00:00</updated>
-    <summary type="html">&lt;p&gt;We report a comprehensive investigation of the magnetic properties and spin dynamics of the chain-like van der Waals antiferromagnet AgCrP$_2$S$_6$ using magnetization, magnetic susceptibility, and $^{31}$P nuclear magnetic resonance (NMR). The magnetic susceptibility exhibits a broad maximum near 250 K, characteristic of strong short-range antiferromagnetic correlations in a low-dimensional system. A classical Fisher-chain analysis gives an effective intrachain exchange scale $J/k_B\approx 140$ K, while a quantum $S=3/2$ nearest-neighbor-chain calculation yields $J/k_B\approx 114$ K.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14444v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+    <title>Long-lived light-driven bimagnons at finite momentum in NiO. Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-28-long-lived-light-driven-bimagnons"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17335v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-28-long-lived-light-driven-bimagnons</id>
+    <updated>2026-11-12T18:59:55+00:00</updated>
+    <summary type="html">&lt;p&gt;Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons. In antiferromagnets, light can also create correlated magnon pairs, or bimagnons. Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated pairs: prior two-magnon measurements show broad linewidths or coherences that dephase within 200 fs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17335v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #optics-photonics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Quantum-Assisted Counterfactual Regret Minimization for Bounded-Payoff Imperfect-Information Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-31-quantum-assisted-counterfactual-regret-minimization"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14182v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-31-quantum-assisted-counterfactual-regret-minimization</id>
-    <updated>2026-11-10T15:05:22+00:00</updated>
-    <summary type="html">&lt;p&gt;Imperfect-information games with a graded-reward structure present significant computational challenges for equilibrium computation, since the payoff expectations must be estimated across exponentially large strategy spaces. Counterfactual Regret Minimization over the years has proven effective for approximating Nash equilibria, but Monte Carlo variants create a large overhead of sampling costs when the counterfactual values are estimated from sampled game-tree trajectories. We propose a novel Quantum-Assisted Counterfactual Regret Minimization, a framework that uses Quantum Amplitude Estimation to reduce the computational complexity of the regret updates in bounded-payoff imperfect-information games, while preserving the convergence of its classical counterpart.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14182v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #decision-theory #infosec&lt;/p&gt;</summary>
+    <title>A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against finite-key security bounds</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-31-a-deployed-four-city-entanglement"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17265v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-31-a-deployed-four-city-entanglement</id>
+    <updated>2026-11-12T18:45:08+00:00</updated>
+    <summary type="html">&lt;p&gt;Quantum key distribution (QKD) generates shared secret keys whose security rests on the laws of physics rather than on computational assumptions. We report the entanglement-based segment of the Slovak national quantum communication infrastructure, connecting four cities in western Slovakia over deployed telecommunication fiber. Polarization-entangled photons generated at a central node are passively routed by wavelength to form a trusted-node-free, fully meshed sub-network of three cities, with the fourth connected through the central node and all links operated simultaneously.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17265v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #rust&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Non-interferometric tests of gravitational decoherence models with mechanical oscillators</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-32-non-interferometric-tests-of-gravitational"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17260v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-32-non-interferometric-tests-of-gravitational</id>
+    <updated>2026-11-12T18:43:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Phenomenological models of quantum-gravity-induced decoherence can leave observable effects even in experiments that do not rely on interferometric measurements. We study three such models, based respectively on deformed relativistic symmetries, stochastic metric fluctuations, and a stochastic generalized uncertainty principle, all of which induce decoherence in the momentum basis. For a free particle, the models preserve momentum distribution and mean energy but produce position diffusion and momentum-space decoherence with model-specific momentum dependences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17260v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #clean-tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Implementation of a 1D Gaussian-modulated CV-QKD under finite-size parameter estimation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-33-implementation-of-a-1d-gaussian"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17250v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-33-implementation-of-a-1d-gaussian</id>
+    <updated>2026-11-12T18:37:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Continuous-variable quantum key distribution (CV-QKD) is a promising technology for quantum-secure communications, offering high secret-key rates and straightforward integration with coherent optical communication systems. Conventional Gaussian-modulated CV-QKD encodes information in both optical-field quadratures, increasing requirements for state preparation, modulation, and calibration, while potentially introducing additional preparation imperfections. Unidimensional (1D) Gaussian modulation offers a simpler alternative by encoding information in only one quadrature, while the conjugate quadrature constrains the protocol&amp;apos;s security.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17250v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lattice response theory for subsystem symmetry-protected topological phases</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-34-lattice-response-theory-for-subsystem"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17182v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-34-lattice-response-theory-for-subsystem</id>
+    <updated>2026-11-12T17:50:53+00:00</updated>
+    <summary type="html">&lt;p&gt;We develop a framework to study subsystem symmetry-protected topological (SSPT) phases using lattice response theory. We begin with a systematic construction of spacetime lattice gauge fields from general microscopic $X$-type symmetry actions on qudit systems, including global symmetries, subsystem symmetries, and more general modulated symmetries. Given a gauge-invariant response action, we then construct a corresponding entangler and explicitly show that it implements stacking with the SSPT phase described by the response action.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17182v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

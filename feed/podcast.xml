@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #25 (2026-11-12)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-12</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-12:issue:25</guid>
-      <pubDate>2026-11-12T13:22:28.087859310+00:00</pubDate>
-      <description>Ahbar Sayı #25 (2026-11-12):
+      <title>Ahbar Günlük Bülten — Sayı #26 (2026-11-13)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-13</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-13:issue:26</guid>
+      <pubDate>2026-11-13T12:42:26.815474254+00:00</pubDate>
+      <description>Ahbar Sayı #26 (2026-11-13):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] AWS emülatörü
-aws-emulator Son olarak, ücretli bir API anahtarı sağlamak zorunda kalmadan birçok farklı hizmetinin yerel bir klonuna karşı testler çalıştıran AWS&apos;nin resmi bir emülatörü. Rust&apos;ta çok sayıda temsilci tarafından yazılmıştır - projenin ilk üç haftasında 29.684 taahhüt. Swaminathan (Swami) Sivasubramanian bir misafir yazısında bunun nasıl ortaya çıktığını yazdı…
+1. [Bilgisayar Bilimi &amp; Yazılım] Rust 1.100.0 duyurusu. Rust ekibi, Rust&apos;un yeni sürümü olan 1.100.0&apos;ı duyurmaktan mutluluk duyuyor.
+Rust ekibi, Rust&apos;un yeni sürümü olan 1.100.0&apos;ı duyurmaktan mutluluk duyuyor. Rust, herkesin güvenilir ve verimli yazılım geliştirmesine olanak tanıyan bir programlama dilidir. Eğer Rust&apos;un eski bir sürümünü Rustup aracılığıyla yüklediyseniz, 1.100.0&apos;ı şu şekilde alabilirsiniz: $ Rustup güncellemesi kararlı Eğer henüz sahip değilseniz, web sitemizdeki uygun sayfadan Rust&apos;u alabilirsiniz…
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] Bir Tablo, Birçok Sorgu: Üretim, Atama ve Tahmin Genelinde Genel Tablo Modellerinin Kıyaslanması
-Oluşturma, atama ve tahmin sorgusu aynı tablo dağılımının farklı yönleridir ancak genellikle ayrı ayrı değerlendirilir. Bu, hangi yetenekleri paylaştıklarını, eğitim hedeflerinin nasıl etkileşimde bulunduğunu ve bir modelin üçünü de iyi performans gösterip gösteremeyeceğini belirsiz bırakıyor. 56 veri kümesini, 46 kayıtlı yöntemi kapsayan Tek Tablo Karşılaştırmasını () tanıtıyoruz…
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] TTB: Yalnızca Kod Çözücü Görünüm Sentez Modellerinin Verimli Bir Şekilde Oluşturulması için Test Zamanında Pişirme
+KV önbelleğe sahip, yalnızca kod çözücüden oluşan Geniş Görünüm Sentez Modelleri (LVSM&apos;ler), 3D geometriyi yeniden yapılandırmadan sinir ağlarından gelen yeni görünümleri gerileyerek son teknoloji ürünü kaliteye ulaşırken, Test Süresi Eğitimi (TTT) katmanları hesaplamadan tasarruf sağlar ancak kaliteden ödün verir. Küresel sahne bilgilerini hazırlamayı öğrenen bir strateji olan Test-Time Baking&apos;i (TTB) öneriyoruz.
 
-3. [Matematik &amp; Biçimsel Bilimler] Newton dejenere olmayan holomorfik yapraklanmalar ve bunların ayırıcıları. Bu yazıda karmaşık düzlemde Newton dejenere olmayan holomorfik yapraklanmaların tohumlarını inceliyoruz.
-Bu yazıda karmaşık düzlemde Newton dejenere olmayan holomorfik yapraklanmaların tohumlarını inceliyoruz. Bu, Kouchnirenko&apos;nun analitik eğriler ve daha genel olarak hiper yüzeyler için tanımladığı duruma benzer, yapraklanmanın Newton poligonuna bağlı cebirsel bir durumdur. Bu durumda olduğu gibi yapraklanmalar için Newton&apos;un dejenere olmama durumu...
+3. [Matematik &amp; Biçimsel Bilimler] Pozitif Lagrangianların değişmeli kategorisine doğru
+Bir Calabi-Yau manifoldunun türetilmiş Fukaya kategorisindeki pozitif Lagrange zarları arasındaki bir morfizmin çekirdeğini ve kok çekirdeğini terminal konfigürasyonu belirleyen bir geometrik yapı tanıtıyoruz. Dolayısıyla, eğer yapı her zaman sona eriyorsa, Joyce&apos;un tahmin ettiği gibi, pozitif Lagrange zarlarının tüm alt kategorisi değişmeli olacaktır. Bunu gösteriyoruz ki…
 
-4. [Fizik, Kuantum &amp; Uzay] Zincir Benzeri van der Waals Antiferromıknatıs AgCrP$_2$S$_6$&apos;de Boyutsal Geçiş ve İlişkili Spin Dinamiği
-Mıknatıslanma, manyetik duyarlılık ve $^{31}$P nükleer manyetik rezonans (NMR) kullanılarak zincir benzeri van der Waals antiferromıknatıs AgCrP$_2$S$_6$&apos;ün manyetik özellikleri ve dönüş dinamikleri hakkında kapsamlı bir araştırma rapor ediyoruz. Manyetik duyarlılık, güçlü kısa menzilli antiferromanyetik özelliğin özelliği olan 250 K civarında geniş bir maksimum sergiler…
+4. [Fizik, Kuantum &amp; Uzay] NiO&apos;da sonlu momentumda uzun ömürlü, ışıkla çalışan bimagnonlar. Işık, rezonansla yönlendirilen fononlar da dahil olmak üzere, manyetik düzeni ve onun uyarımlarını ultra hızlı zaman ölçeklerinde manipüle edebilir.
+Işık, rezonansla yönlendirilen fononlar da dahil olmak üzere, manyetik düzeni ve onun uyarımlarını ultra hızlı zaman ölçeklerinde manipüle edebilir. Antiferromıknatıslarda ışık aynı zamanda ilişkili magnon çiftleri veya bimagnonlar da oluşturabilir. Sönümleri ayrıntılı olarak ölçülen ve modellenen tek magnonların aksine, bu tür korelasyonların ömrü, etkileşimleri ve bozulması hakkında çok az şey bilinmektedir.
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Apache HTTP Sunucusunda Kritik RCE Güvenlik Açığı
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] 22 yaşındaki Postgres tipi karışıklık ilkelini RCE&apos;ye dönüştürmek
 Sistemler, Donanım ve Uygulamalı Teknoloji alanında Hacker News aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] ANTIOCH-VS: Modüler, Açık Kaynak Topluluk Sanal Gösterimi ile Diziden Hit&apos;lere
-Yapı bazlı sanal tarama, ligand sınıfına uyan bir reseptör konformasyonuna ihtiyaç duyar, ancak çoğu hedef için liganda bağlı kristal mevcut değildir ve tahmin edilen tek bir model veya bir apo yapısı genellikle bağlanma yeterliliğini kaçırır. Bir protein dizisinden silico tarama kampanyasının tamamını yürüten açık kaynaklı bir çerçeve olan ANTIOCH-VS&apos;yi sunuyoruz.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] RawMod: Nanopore Sinyal Birikmelerinden DNA Baz Modifikasyonlarının Modifikasyon-Agnostik Tespiti
+Özet: Epigenetik olarak değiştirilmiş bazların (örneğin metilasyon) tanımlanması, kanser gelişimi, hücre farklılaşması ve bakteriyel savunma mekanizmalarının keşfedilmesi gibi birçok önemli uygulama için çok önemlidir. Nanopore dizilimi, kanonik bazları değiştirilmiş olanlardan ayırt edebilen elektrik sinyalleri üretir. Sinyallerden temel değişiklikleri tespit etmek için…
 
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Blockchain&apos;de Optimum İşlem Hızı
-Blockchain tabanlı borsalarda daha hızlı bloklar, arbitrajcılar arasındaki öncelik ücreti rekabetini zayıflatıyor ve kiraları blok üreticisinden onlara kaydırıyor. Denge likiditesi bir iç blok hızında zirveye ulaşır; Bir eşiğin ötesinde, aktif bir likidite sağlayıcı kaymağını alır ve pasif sermaye küçülür. Temel Flashblocks yükseltmesinden elde edilen kanıtlar, on kat blok hızı…
+8. [Ekonomi, Finans &amp; Makro Analiz] Doğruluk Refah Değildir: Yapay Bir Duopolde Yapay Zeka Alıcılarını Stratejik Fiyat Karmaşıklığı Altında Değerlendirmek
+Yapay zeka satın alma acenteleri tüketicilerin kararlarının yanı sıra satıcıların teşviklerini de değiştirebilir. Sentetik bir duopolde, fiyat karşılaştırma boru hatlarını sabit bir menüde ve ampirik korelasyonlu denge oyunlarında değerlendiririz. Hesap makinesi yardımı, doğrulanmış toplam açıklama altında %68,57&apos;ye kıyasla %84,00 oranında en uygun teklifi seçer, ancak açıklamanın 20,14 birim daha yüksek bir oranı vardır…
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Amerika İyilik Yapabilir ve İyi Yapabilir. Dış yardımın stratejik mantığı.
-Dış yardımın stratejik mantığı.
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Trump-Xi-Putin Zirvesi Durumu. Sadece birkaç gün içinde ABD
+Sadece birkaç gün içinde ABD Başkanı Donald Trump, Çin lideri Xi Jinping ve Rusya Devlet Başkanı Vladimir Putin, önümüzdeki hafta Çin&apos;in Shenzhen kentinde yapılacak Asya-Pasifik Ekonomik İşbirliği toplantısının oturum aralarında üçlü bir zirve düzenleyebilir. The Wall Street Journal&apos;a göre Putin, üçlü diyalog fikrini geçen ay ortaya attı.
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Yapay Para ve Ayrı Satış: Tüketici Fazlasına 3&apos;lü Bir Yaklaşım
-Bölünemez kalemlerin alıcılara tahsisini, bağımsız dağıtımlardan elde edilen katma değerlerle inceliyoruz. Amaç, yakılan ödemeler hariç tüketici fazlasını elde etmektir. Yapay para birimi mekanizmalarını göz önünde bulunduruyoruz: Alıcılar, mekanizmanın dışında değeri olmayan bir para biriminin kişiselleştirilmiş bütçelerini alıyor ve bunları öğeler arasında teklif vermek için kullanıyor.
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Turnuva Denge Seti, Kalıtsal Benzersizlik Altında Bile PSPACE Uyumludur
+Schwartz tarafından 1990 yılında önerilen turnuva denge seti (TEQ), ikili çoğunluk karşılaştırmalarına dayanan klasik bir oylama kuralıdır. Tanımı özyinelemelidir: Bir alternatif, onu yenen, ona hakim olanlar olarak adlandırılan ve TEQ&apos;un kendisinin seçtiği bu hakimlerden olan alternatiflere göre değerlendirilir. Belirli bir alternatifin TEQ’a ait olup olmadığına karar vermek biliniyordu…
 
 </description>
       <itunes:duration>300</itunes:duration>

@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quant-finance.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Optimal Trading Speed on Blockchain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-64-optimal-trading-speed-on-blockchain"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13616v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-64-optimal-trading-speed-on-blockchain</id>
-    <updated>2026-11-10T05:52:22+00:00</updated>
-    <summary type="html">&lt;p&gt;On blockchain-based exchanges, faster blocks weaken the priority-fee competition among arbitrageurs and shift rents from the block producer to them. Equilibrium liquidity peaks at an interior block speed; beyond a threshold, an active liquidity provider cream-skims and passive capital shrinks. Evidence from the Base Flashblocks upgrade, a tenfold block-speed increase, confirms the predictions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13616v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance&lt;/p&gt;</summary>
+    <title>Accuracy Is Not Welfare: Evaluating AI Buyers under Strategic Price Complexity in a Synthetic Duopoly</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-64-accuracy-is-not-welfare-evaluating"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16471v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-64-accuracy-is-not-welfare-evaluating</id>
+    <updated>2026-11-12T08:28:49+00:00</updated>
+    <summary type="html">&lt;p&gt;AI buying agents may alter sellers&amp;apos; incentives as well as consumers&amp;apos; decisions. In a synthetic duopoly, we evaluate price-comparison pipelines on a fixed menu and in empirical correlated-equilibrium games. Calculator assistance selects an optimal offer 84.00% of the time, versus 68.57% under verified-total disclosure, yet disclosure has a 20.14-unit higher consumer-worst equilibrium surplus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16471v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #quant-finance&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Verifiable Settlement and Pricing for Local Energy Markets: Architecture and Deployment on Hyperledger Besu</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-56-verifiable-settlement-and-pricing-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16495v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-56-verifiable-settlement-and-pricing-for</id>
+    <updated>2026-11-12T09:02:06+00:00</updated>
+    <summary type="html">&lt;p&gt;We implement privacy-preserving local electricity exchanges using an automated market maker on the Hyperledger Besu network under QBFT consensus. The proposed protocol operator collects individual electricity positions off-chain and publishes aggregate supply and demand on the blockchain, where smart contracts compute market prices every fifteen minutes. Individual positions remain off-chain; Poseidon2 commitments and UltraHonk zeroknowledge proofs, generated from Noir circuits, verify aggregation, payments, and daily balance updates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16495v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #decision-theory #quant-finance&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Price-impact Martingale optimal transport</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-23-price-impact-martingale-optimal-transport"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17247v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-23-price-impact-martingale-optimal-transport</id>
+    <updated>2026-11-12T18:35:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Martingale optimal transport (MOT) provides model-independent bounds for option prices calibrated to vanilla options, assuming frictionless trading in the underlying. In this work, we consider the case where dynamic trading incurs quadratic temporary price impact. First, we prove a duality result for the superhedging price.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17247v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance&lt;/p&gt;</summary>
   </entry>
 </feed>

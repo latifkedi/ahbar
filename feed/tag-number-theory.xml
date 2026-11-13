@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Newton non-degenerate holomorphic foliations and their separatrices. In this paper we study germs of holomorphic foliations in the complex plane that are Newton non-degenerate.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-19-newton-non-degenerate-holomorphic-foliations"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14466v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-19-newton-non-degenerate-holomorphic-foliations</id>
-    <updated>2026-11-10T18:31:26+00:00</updated>
-    <summary type="html">&lt;p&gt;In this paper we study germs of holomorphic foliations in the complex plane that are Newton non-degenerate. This is an algebraic condition attached to the Newton polygon of the foliation, analogous to the one defined by Kouchnirenko for analytic curves and, more generally, hypersurfaces. As in this case, the condition of Newton non-degeneracy for foliations can be identified through the comparison of two numerical invariants: the Newton number - a computation involving simple geometric data of the Newton polygon - and the Milnor number.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14466v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algebra-geometry #analysis-pde&lt;/p&gt;</summary>
+    <title>Toward the abelian category of positive Lagrangians</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-19-toward-the-abelian-category-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17282v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-19-toward-the-abelian-category-of</id>
+    <updated>2026-11-12T18:51:25+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce a geometric construction whose terminal configuration determines the kernel and cokernel of a morphism between positive Lagrangian branes in the derived Fukaya category of a Calabi-Yau manifold. Thus, if the construction always terminates, the full subcategory of positive Lagrangian branes is abelian, as conjectured by Joyce. We show that this abelian category admits Harder-Narasimhan filtrations with respect to the central charge defined by the holomorphic volume form.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17282v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-58-sable-a-small-field-sumcheck"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14083v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-58-sable-a-small-field-sumcheck</id>
-    <updated>2026-11-10T13:47:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling decision is determined by its inputs, and proves it with a constraint system whose relations provably never wrap modulo the 31-bit KoalaBear prime. The proof batches zerochecks and LogUp-GKR lookups into one sumcheck per domain, and commits to every witness tensor and weight in one multilinear commitment built from Reed-Solomon codes, BLAKE3 Merkle trees and a mixed-length BaseFold opening.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14083v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #number-theory&lt;/p&gt;</summary>
+    <title>Sowing the Seeds of Intractability: Kalah is PSPACE-complete. Kalah is a classic two-player game in the mancala family of sowing games.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-20-sowing-the-seeds-of-intractability"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17252v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-20-sowing-the-seeds-of-intractability</id>
+    <updated>2026-11-12T18:38:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Kalah is a classic two-player game in the mancala family of sowing games. Computers have solved several standard-size starting positions, but the complexity of the game on boards of growing size has remained open. We study the natural generalization in which the number of pits per side is part of the input and an arbitrary position is given, with the stone counts given in unary.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17252v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algorithms #decision-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Dimension drop for superlevel sets of the uniform Littlewood constant</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-21-dimension-drop-for-superlevel-sets"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17189v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-21-dimension-drop-for-superlevel-sets</id>
+    <updated>2026-11-12T17:54:36+00:00</updated>
+    <summary type="html">&lt;p&gt;For $(x,y)\in\mathbb{R}^2$ and $Q\ge 1$, set $F_Q(x,y)=Q\min_{1\le q\le Q}\lVert qx\rVert\lVert qy\rVert$, where $q$ ranges over positive integers and $\lVert\cdot\rVert$ denotes distance to the nearest integer. The set on which the uniform Littlewood constant $L=\limsup_{Q\to\infty}F_Q$ is positive has full Hausdorff dimension. We prove that for every fixed $c&amp;gt;0$ the superlevel set $\{L\ge c\}$ has Hausdorff dimension strictly less than two.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17189v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>The Case for a Trump-Xi-Putin Summit. In just a few days’ time, U.S.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-73-the-case-for-a-trump"/>
+    <link rel="related" href="https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-73-the-case-for-a-trump</id>
+    <updated>2026-11-13T05:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;In just a few days’ time, U.S. President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin could be holding a three-way summit on the sidelines of next week’s Asia-Pacific Economic Cooperation meeting in Shenzhen, China. According to The Wall Street Journal, Putin floated the idea of a trialogue last month as an opportunity to discuss ending the war in Ukraine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

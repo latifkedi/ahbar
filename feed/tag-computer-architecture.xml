@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-39-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-39-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-39-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-39-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-43-5g-cats-5g-based-cryptographic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13437v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-43-5g-cats-5g-based-cryptographic</id>
-    <updated>2026-11-10T01:20:18+00:00</updated>
-    <summary type="html">&lt;p&gt;Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measurements can bound a chip&amp;apos;s distance from a trusted landmark, but any jitter in honest replies forces the verifier to loosen its timeout, giving an attacker slack to relay traffic over fiber from a restricted region. Prior approaches either cross the untrusted host stack or rely on noisy power-line channels that inflate this slack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13437v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+    <title>Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-43-infrastructure-for-verifiable-ai-where"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17042v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-43-infrastructure-for-verifiable-ai-where</id>
+    <updated>2026-11-12T16:27:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17042v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>An Improved $(1+2e)$-Approximation Algorithm for Metric Data Placement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-44-an-improved-1-2e-approximation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13224v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-44-an-improved-1-2e-approximation</id>
-    <updated>2026-11-09T20:53:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the metric data placement problem with site-capacity constraints and fixed installation costs, aiming to minimize the total cost of placing data (resources) and accessing their nearest copies. We develop a deterministic polynomial-time approximation algorithm based on a natural linear programming relaxation of the problem. Starting from an optimal fractional solution, we construct multiscale metric-ball partitions independently for each resource and connect overlapping balls at consecutive levels to form a flow network.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13224v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #algorithms #decision-theory&lt;/p&gt;</summary>
+    <title>What Does It Cost to Force-Close a Lightning Channel? Evidence from 974,000 Channel Closes, 2018-2026</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-44-what-does-it-cost-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16311v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-44-what-does-it-cost-to</id>
+    <updated>2026-11-12T05:13:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Bitcoin&amp;apos;s Lightning payment network returns the funds of a channel that cannot close cooperatively through pre-signed transactions whose fees and delays fall on its operators. That fee design is being replaced: Bitcoin Core 31.0 removed the mempool rule anchor channels relied on, and the Lightning specification adopted zero-fee commitments in May 2026. What the old design costs has never been measured across fee regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16311v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
   </entry>
 </feed>

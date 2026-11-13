@@ -5,77 +5,85 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Artificial Currency and Separate Selling: A 3-Approximation for Consumer Surplus</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-82-artificial-currency-and-separate-selling"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14509v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-82-artificial-currency-and-separate-selling</id>
-    <updated>2026-11-10T18:56:27+00:00</updated>
-    <summary type="html">&lt;p&gt;We study the allocation of indivisible items to buyers with additive values drawn from independent distributions. The objective is consumer surplus net of burnt payments. We consider artificial-currency mechanisms: buyers receive personalized budgets of a currency worthless outside the mechanism and use them to bid across items.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14509v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Unequal Rewards and the Direction of Scientific Work: Evidence from U.S. Public Universities</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-66-unequal-rewards-and-the-direction"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16747v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-66-unequal-rewards-and-the-direction</id>
+    <updated>2026-11-12T12:58:45+00:00</updated>
+    <summary type="html">&lt;p&gt;Research on pay dispersion has long asked whether unequal rewards increase or depress performance. Tournament theory expects stronger effort, while social comparison accounts expect withdrawal. Both perspectives, however, treat performance as a single scale on which workers can be ranked.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16747v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spatial patterns of transportation choice in Niterói</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-83-spatial-patterns-of-transportation-choice"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14499v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-83-spatial-patterns-of-transportation-choice</id>
-    <updated>2026-11-10T18:51:37+00:00</updated>
-    <summary type="html">&lt;p&gt;Characterizing how people move through a city requires spatially and temporally fine-grained data that are often costly and difficult to obtain. Here, we introduce a computational framework that uses macroscopic, aggregated, and static urban data to construct a microscopic, dynamic, and spatially detailed representation of urban mobility. Building on an existing activity simulator, the framework combines a synthetic population, the built environment, and transport networks to generate daily trips and assign walking, car, or public transit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14499v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-82-the-tournament-equilibrium-set-is"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17312v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-82-the-tournament-equilibrium-set-is</id>
+    <updated>2026-11-12T18:57:05+00:00</updated>
+    <summary type="html">&lt;p&gt;The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a given alternative belongs to TEQ was known to be NP-hard and to lie in PSPACE.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17312v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Second-Best Trade Is Half Efficient in Multidimensional Markets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-84-second-best-trade-is-half"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14489v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-84-second-best-trade-is-half</id>
-    <updated>2026-11-10T18:48:40+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove that at least half of the first-best gains from trade can always be achieved in multidimensional two-sided markets with additive values and costs and arbitrary downward-closed feasibility constraints. The guarantee is achieved by a mechanism satisfying Bayesian incentive compatibility, interim individual rationality, and strong budget balance, and is tight already in single-item bilateral trade. Types are independent across agents, while the coordinates of each agent&amp;apos;s type may be arbitrarily correlated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14489v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Physical Observables and Superselection</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-83-physical-observables-and-superselection"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17051v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-83-physical-observables-and-superselection</id>
+    <updated>2026-11-12T16:33:21+00:00</updated>
+    <summary type="html">&lt;p&gt;It is well-known that a physical state may be represented by a unit vector in a Hilbert space, whilst a physical observable may be represented by a self-adjoint operator on that same space. However, the introduction of a superselection rule on a Hilbert space imposes constraints such that not all self-adjoint operators can represent observables, which has further consequences for the states themselves as well as the physical processes that transform them. In this article, we review the concept of superselection from the view of how such rules would affect what we consider to be physical.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17051v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The two-component picture of soft hadron production: Regge exchange, duality, and resonance cascades</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-85-the-two-component-picture-of"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14388v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-85-the-two-component-picture-of</id>
-    <updated>2026-11-10T17:40:26+00:00</updated>
-    <summary type="html">&lt;p&gt;The fragmentation regions of soft hadronic collisions approach energy-independent limits. Benecke, Chou, Yang, and Yen stated this hypothesis of limiting fragmentation in 1969. Feynman gave it a parton-model formulation the same year.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14388v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #high-energy&lt;/p&gt;</summary>
+    <title>Cup and cap synchronization: higher-order node dynamics from topology. Higher-order node-based synchronization provides distinct mechanisms for discontinuous synchronization transitions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-84-cup-and-cap-synchronization-higher"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16979v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-84-cup-and-cap-synchronization-higher</id>
+    <updated>2026-11-12T15:47:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Higher-order node-based synchronization provides distinct mechanisms for discontinuous synchronization transitions. However, a comprehensive theoretical framework capable of encompassing existing models and revealing the role of higher-order interactions beyond triangles is still missing. Here, combining algebraic topology and nonlinear dynamics, we introduce Cup and Cap Synchronization, a unifying theoretical framework for higher-order node-based dynamics that naturally incorporates the topological organization of the underlying higher-order network.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16979v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Adversarial risk analysis with fully probabilistic designs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-86-adversarial-risk-analysis-with-fully"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14289v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-86-adversarial-risk-analysis-with-fully</id>
-    <updated>2026-11-10T16:28:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Adversarial risk analysis (ARA) informs decision-makers when facing intelligent opponents and uncertain outcomes, enabling an analyst to model beliefs about the opponents&amp;apos; preferences, capabilities, beliefs, and the strategic calculations that opponents employ. Major applications cover reliability and risk analysis of critical infrastructures in presence of adversarial threats. In such domains, ARA mitigates typical common knowledge assumptions of standard game-theoretic approaches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14289v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Tight Bounds for Downward-Closed Prophet and Secretary Problems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-85-tight-bounds-for-downward-closed"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16880v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-85-tight-bounds-for-downward-closed</id>
+    <updated>2026-11-12T14:44:56+00:00</updated>
+    <summary type="html">&lt;p&gt;We study online selection problems subject to arbitrary downward-closed feasibility constraints, under different arrival orders, with different distributional assumptions. We establish the following bounds: (1) $Θ(\log^2 n / \log \log n)$ for the standard (adversarial-order) prophet problem, (2) $Ω(\log n)$ for the (Bayesian, random-order) prophet secretary problem, and by extension, for the standard (prior-free, random-order) secretary problem, and (3) $O(\log n / \log \log n)$ for the free-order prophet problem. Together with complementary bounds established in prior work, these results pin down the asymptotically tight competitive ratios for all these variants of prophet and secretary problems subject to downward-closed constraints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16880v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Where are the shortest-path nodes in spatial networks?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-87-where-are-the-shortest-path"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14152v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-87-where-are-the-shortest-path</id>
-    <updated>2026-11-10T14:41:11+00:00</updated>
-    <summary type="html">&lt;p&gt;To predict the spatial distribution of shortest-path nodes, we propose a Gaussian estimate of the shortest-path node probability $π_{uv}(w)$, the probability that a node $w$ lies on a shortest path between a source $u$ and a destination $v$. According to the Gaussian estimate, three variables affect the shortest-path node probability $π_{uv}(w)$ and combine into one variable, the standardized detour $X_{uvw}$. In our simulations of hard and soft random geometric graphs in Euclidean, hyperbolic and spherical space, the standardized detour $X_{uvw}$ alone approximately determines how fast the shortest-path node probability $π_{uv}(w)$ decreases as the node $w$ moves away from the geodesic between the source $u$ and the destination $v$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14152v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
+    <title>The landscape of quantum technology companies in 2026. We update our 2022 mapping of 441 quantum technology (QT) companies and examine how the industry has developed.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-86-the-landscape-of-quantum-technology"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16838v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-86-the-landscape-of-quantum-technology</id>
+    <updated>2026-11-12T14:13:25+00:00</updated>
+    <summary type="html">&lt;p&gt;We update our 2022 mapping of 441 quantum technology (QT) companies and examine how the industry has developed. The principal dataset now includes 1,092 companies founded with a QT focus, of which 935 remain active. Public sources and archived company websites provide evidence on company formation, technology fields and geography, alongside acquisitions, closures, valuations and involvement in artificial intelligence, defence and space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16838v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quantum-computing #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mesoscopic derivation of predator-prey dynamics via diffusive fast-reaction asymptotics: cross-diffusion and fear effects</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-88-mesoscopic-derivation-of-predator-prey"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14132v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-88-mesoscopic-derivation-of-predator-prey</id>
-    <updated>2026-11-10T14:18:52+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a kinetic derivation of a spatial predator-prey model with cross-diffusion interactions and a Beddington-DeAngelis functional response. At the mesoscopic level, we divide the two populations into distinct behavioral states: prey can be active or hidden in a refuge, while predators can be either searching or handling. The microscopic state of each subpopulation is described in terms of group size and a continuous directional velocity variable, with state transitions governed by suitable Boltzmann-type interaction operators.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14132v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #analysis-pde #clean-tech&lt;/p&gt;</summary>
+    <title>History, mathematics and physics: two cases of the inverse square law. How did mathematicians of the past relate to history?</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-87-history-mathematics-and-physics-two"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16700v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-87-history-mathematics-and-physics-two</id>
+    <updated>2026-11-12T12:18:31+00:00</updated>
+    <summary type="html">&lt;p&gt;How did mathematicians of the past relate to history? What can we learn from their experience? It is a truism to say that all people are embedded in history.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16700v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Thermodynamics of words</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-89-thermodynamics-of-words"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14039v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-89-thermodynamics-of-words</id>
-    <updated>2026-11-10T13:09:11+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce the word thermalization hypothesis according to which in a literary work there are effective interactions between words that drive them to thermalization where their word frequency distribution is the same as for the phenomenon of Rayleigh-Jeans (RJ) thermalization and condensation. In this concept, the different words play a role of classical oscillators (particles) and their word frequencies, or related tokens, are analogous to certain filling factors over energy state levels. The thermalization process is characterized by the conservation of total system energy, or total number of words/tokens, and total probability norm, or total number of different words.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14039v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm&lt;/p&gt;</summary>
+    <title>Regime-Uncertain Data Transactions: A Game-Theoretic Framework for Self-Adapting and Self-Diagnosing Multi-ML-Agent Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-88-regime-uncertain-data-transactions-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16603v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-88-regime-uncertain-data-transactions-a</id>
+    <updated>2026-11-12T10:38:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Autonomous ML agents in large organizations exchange data and model outputs across organizational and legal boundaries. Which rules bind a given exchange is not fixed. It depends on where the data subjects live, where the agents run, who owns them, whom they target, and which version of each rule is in force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16603v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Data-driven regional traffic simulation from heterogeneous mobility sources</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-90-data-driven-regional-traffic-simulation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13947v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-90-data-driven-regional-traffic-simulation</id>
-    <updated>2026-11-10T11:33:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Regional traffic simulators increasingly combine mobile-phone, road-sensor and GPS data, but what each source contributes is rarely clear. We present an agent-based simulator of daily traffic in Emilia-Romagna, Italy: phone data give trips and their timing, half of the road sensors set the traffic level, all sensors correct it locally, and GPS traces guide route choice. We measure what each source adds against predictors without simulation, on sensors kept out of parameter calibration in winter 2020 and partly shared with it in summer 2021; as these sensors informed some modelling choices, the evaluation is not fully independent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13947v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Persistent structural regimes in Bitcoin transactions relate to market cycles</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-89-persistent-structural-regimes-in-bitcoin"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16585v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-89-persistent-structural-regimes-in-bitcoin</id>
+    <updated>2026-11-12T10:18:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Bitcoin&amp;apos;s blockchain is a public record of every on-chain transaction, while the price of bitcoin is set by trading on external markets. We ask whether on-chain activity alone reveals regimes associated with market trends, and whether this association remains stable over time. We summarise each week of blockchain activity from 2012 to 2026 using four measures of transaction structure and fit a two-state hidden semi-Markov model without price data.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16585v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Scale-rich network metamaterials grow by local rules on a recursive cell division</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-90-scale-rich-network-metamaterials-grow"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16513v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-90-scale-rich-network-metamaterials-grow</id>
+    <updated>2026-11-12T09:11:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Scale-rich (SR) metamaterials are planar ligament networks grown by nucleating a segment at a random point and angle and extending it until it meets the existing structure. In the dual graph, where ligaments are nodes and junctions are links, the degree distribution has a $k^{-3}$ tail. We show that the SR construction is Cowan&amp;apos;s iterated cell division with area-weighted selection, so the cell genealogy is a random binary search tree, and that the dual grows by a face-local rule: a new node joins two nodes on the boundary of one face.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16513v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

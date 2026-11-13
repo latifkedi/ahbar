@@ -5,100 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Embodied First Exam. Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-11-embodied-first-exam"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12177"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-11-embodied-first-exam</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to control, or train a policy to control.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12177&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering. Low-bit quantization reduces the inference cost of LLM agents but can compromise task success.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-12-steerdistill-quantizing-llm-agents-via"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13410"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-12-steerdistill-quantizing-llm-agents-via</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student&amp;apos;s failure contexts, while its own rollouts may provide few correct responses in those contexts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13410&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>GTAGym: Real AAA Game Tasks Environment for Evaluation and Reinforcement Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-13-gtagym-real-aaa-game-tasks"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13028"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-13-gtagym-real-aaa-game-tasks</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;AAA games offer a rich testbed for evaluating agent perception, reasoning, and control. However, evaluating whether agents can complete tasks in AAA games is challenging and often human-annotated because task outcomes are often difficult to verify automatically, let alone applying it for Reinforcement Learning (RL). We introduce GTAGym, an environment and framework for evaluation and RL on GTA V tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13028&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Evolving Infra: Agent-Adaptive LLM Serving at Scale. Agentic workloads are a major source of LLM inference demand.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-16-evolving-infra-agent-adaptive-llm"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12304"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-16-evolving-infra-agent-adaptive-llm</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12304&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LEASH: Stay Safe in Agentic Robotics. Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-17-leash-stay-safe-in-agentic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-17-leash-stay-safe-in-agentic</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks, and comprehensive safety evaluation is still lacking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-16-actor-judge-or-teacher-understanding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17167"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-16-actor-judge-or-teacher-understanding</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent&amp;apos;s actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17167&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-69-debiasing-law-enforcement-officers-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-70-debiasing-law-enforcement-officers-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35986#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-69-debiasing-law-enforcement-officers-evidence</id>
-    <updated>2026-11-12T13:22:28.323926270+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-70-debiasing-law-enforcement-officers-evidence</id>
+    <updated>2026-11-13T12:42:27.278411431+00:00</updated>
     <summary type="html">&lt;p&gt;Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35986#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-20-lean-grimoire"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-26-lean-grimoire"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-20-lean-grimoire</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-26-lean-grimoire</id>
     <updated>2026-11-12T02:36:00+00:00</updated>
     <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spatial patterns of transportation choice in Niterói</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-83-spatial-patterns-of-transportation-choice"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14499v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-83-spatial-patterns-of-transportation-choice</id>
-    <updated>2026-11-10T18:51:37+00:00</updated>
-    <summary type="html">&lt;p&gt;Characterizing how people move through a city requires spatially and temporally fine-grained data that are often costly and difficult to obtain. Here, we introduce a computational framework that uses macroscopic, aggregated, and static urban data to construct a microscopic, dynamic, and spatially detailed representation of urban mobility. Building on an existing activity simulator, the framework combines a synthetic population, the built environment, and transport networks to generate daily trips and assign walking, car, or public transit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14499v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Second-Best Trade Is Half Efficient in Multidimensional Markets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-84-second-best-trade-is-half"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14489v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-84-second-best-trade-is-half</id>
-    <updated>2026-11-10T18:48:40+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove that at least half of the first-best gains from trade can always be achieved in multidimensional two-sided markets with additive values and costs and arbitrary downward-closed feasibility constraints. The guarantee is achieved by a mechanism satisfying Bayesian incentive compatibility, interim individual rationality, and strong budget balance, and is tight already in single-item bilateral trade. Types are independent across agents, while the coordinates of each agent&amp;apos;s type may be arbitrarily correlated.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14489v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Adversarial risk analysis with fully probabilistic designs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-86-adversarial-risk-analysis-with-fully"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14289v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-86-adversarial-risk-analysis-with-fully</id>
-    <updated>2026-11-10T16:28:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Adversarial risk analysis (ARA) informs decision-makers when facing intelligent opponents and uncertain outcomes, enabling an analyst to model beliefs about the opponents&amp;apos; preferences, capabilities, beliefs, and the strategic calculations that opponents employ. Major applications cover reliability and risk analysis of critical infrastructures in presence of adversarial threats. In such domains, ARA mitigates typical common knowledge assumptions of standard game-theoretic approaches.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14289v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Data-driven regional traffic simulation from heterogeneous mobility sources</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-90-data-driven-regional-traffic-simulation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13947v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-90-data-driven-regional-traffic-simulation</id>
-    <updated>2026-11-10T11:33:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Regional traffic simulators increasingly combine mobile-phone, road-sensor and GPS data, but what each source contributes is rarely clear. We present an agent-based simulator of daily traffic in Emilia-Romagna, Italy: phone data give trips and their timing, half of the road sensors set the traffic level, all sensors correct it locally, and GPS traces guide route choice. We measure what each source adds against predictors without simulation, on sensors kept out of parameter calibration in winter 2020 and partly shared with it in summer 2021; as these sensors informed some modelling choices, the evaluation is not fully independent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13947v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Regime-Uncertain Data Transactions: A Game-Theoretic Framework for Self-Adapting and Self-Diagnosing Multi-ML-Agent Systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-88-regime-uncertain-data-transactions-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16603v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-88-regime-uncertain-data-transactions-a</id>
+    <updated>2026-11-12T10:38:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Autonomous ML agents in large organizations exchange data and model outputs across organizational and legal boundaries. Which rules bind a given exchange is not fixed. It depends on where the data subjects live, where the agents run, who owns them, whom they target, and which version of each rule is in force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16603v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>A New Kind of Foreign Agent. How AI is reshaping influence operations in America.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-75-a-new-kind-of-foreign"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-78-a-new-kind-of-foreign"/>
     <link rel="related" href="https://www.foreignaffairs.com/china/new-kind-foreign-agent"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-75-a-new-kind-of-foreign</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-78-a-new-kind-of-foreign</id>
     <updated>2026-11-11T09:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;How AI is reshaping influence operations in America.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/china/new-kind-foreign-agent&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #agents&lt;/p&gt;</summary>
   </entry>

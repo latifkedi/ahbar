@@ -5,85 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
   <entry>
-    <title>Secure Information Flow in Quantum Programs. Information-flow security aims to prevent the leakage of confidential information through program execution.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-33-secure-information-flow-in-quantum"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14147v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-33-secure-information-flow-in-quantum</id>
-    <updated>2026-11-10T14:34:39+00:00</updated>
-    <summary type="html">&lt;p&gt;Information-flow security aims to prevent the leakage of confidential information through program execution. This problem becomes fundamentally subtler for quantum programs, because their states may involve superposition and entanglement, and their executions may involve intricate interactions between classical and quantum variables. This paper develops semantic foundations and verification methods for secure information flow in quantum programs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14147v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #cryptography&lt;/p&gt;</summary>
+    <title>Verifiable Settlement and Pricing for Local Energy Markets: Architecture and Deployment on Hyperledger Besu</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-56-verifiable-settlement-and-pricing-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16495v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-56-verifiable-settlement-and-pricing-for</id>
+    <updated>2026-11-12T09:02:06+00:00</updated>
+    <summary type="html">&lt;p&gt;We implement privacy-preserving local electricity exchanges using an automated market maker on the Hyperledger Besu network under QBFT consensus. The proposed protocol operator collects individual electricity positions off-chain and publishes aggregate supply and demand on the blockchain, where smart contracts compute market prices every fifteen minutes. Individual positions remain off-chain; Poseidon2 commitments and UltraHonk zeroknowledge proofs, generated from Noir circuits, verify aggregation, payments, and daily balance updates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16495v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #decision-theory #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-42-an-empirical-study-on-cve"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14164v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-42-an-empirical-study-on-cve</id>
-    <updated>2026-11-10T14:49:52+00:00</updated>
-    <summary type="html">&lt;p&gt;Vulnerabilities in applications, including browsers, media players, online services and document readers, etc. are often exploited and cause a serious damage. The vulnerabilities could exist in your system maybe because of some coding errors, design oversights, outdated software, AI generated codes or maybe transferred from another system during development (e.g., code clones).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14164v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #software-architecture&lt;/p&gt;</summary>
+    <title>How to Defeat a Mafia (of Size 1). The game &quot;Mafia&apos;&apos; is a social deduction game where $n$ players attempt to uncover a covert coalition of $m$ players among the $n$.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-57-how-to-defeat-a-mafia"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16496v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-57-how-to-defeat-a-mafia</id>
+    <updated>2026-11-12T09:02:28+00:00</updated>
+    <summary type="html">&lt;p&gt;The game &amp;quot;Mafia&amp;apos;&amp;apos; is a social deduction game where $n$ players attempt to uncover a covert coalition of $m$ players among the $n$. Typically, $d=1$ of the non-coalition players are labelled ``Detective&amp;apos;&amp;apos; and have special abilities. Most game-theoretic analysis considers, however, only the variant without a Detective.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16496v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-43-5g-cats-5g-based-cryptographic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13437v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-43-5g-cats-5g-based-cryptographic</id>
-    <updated>2026-11-10T01:20:18+00:00</updated>
-    <summary type="html">&lt;p&gt;Enforcing export controls on AI accelerators requires verifying where a chip operates after deployment. Round-trip time measurements can bound a chip&amp;apos;s distance from a trusted landmark, but any jitter in honest replies forces the verifier to loosen its timeout, giving an attacker slack to relay traffic over fiber from a restricted region. Prior approaches either cross the untrusted host stack or rely on noisy power-line channels that inflate this slack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13437v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+    <title>Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-43-infrastructure-for-verifiable-ai-where"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17042v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-43-infrastructure-for-verifiable-ai-where</id>
+    <updated>2026-11-12T16:27:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17042v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-57-location-matters-sparse-latent-variance"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14254v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-57-location-matters-sparse-latent-variance</id>
-    <updated>2026-11-10T16:03:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Text-to-image diffusion models can learn and reproduce an individual&amp;apos;s identity from only a few reference photos, creating risks of unauthorized and misleading content generation. Proactive defenses address this risk by adding adversarial perturbations to facial images before release, thereby disrupting identity acquisition during downstream personalization. However, existing methods typically rely on dense $L_\infty$-bounded perturbations, whose accumulated distortions can become visible around facial structures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14254v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #computer-vision #clean-tech&lt;/p&gt;</summary>
+    <title>What Does It Cost to Force-Close a Lightning Channel? Evidence from 974,000 Channel Closes, 2018-2026</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-44-what-does-it-cost-to"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16311v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-44-what-does-it-cost-to</id>
+    <updated>2026-11-12T05:13:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Bitcoin&amp;apos;s Lightning payment network returns the funds of a channel that cannot close cooperatively through pre-signed transactions whose fees and delays fall on its operators. That fee design is being replaced: Bitcoin Core 31.0 removed the mempool rule anchor channels relied on, and the Lightning specification adopted zero-fee commitments in May 2026. What the old design costs has never been measured across fee regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16311v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-58-sable-a-small-field-sumcheck"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14083v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-58-sable-a-small-field-sumcheck</id>
-    <updated>2026-11-10T13:47:29+00:00</updated>
-    <summary type="html">&lt;p&gt;We present Sable, an argument system and single-GPU prover for the statement that a committed, integer-quantized transformer produced a given token sequence from a given prompt, bit for bit. Sable fixes an integer function F_O with no floating-point step, in which every rounding, normalization, softmax and sampling decision is determined by its inputs, and proves it with a constraint system whose relations provably never wrap modulo the 31-bit KoalaBear prime. The proof batches zerochecks and LogUp-GKR lookups into one sumcheck per domain, and commits to every witness tensor and weight in one multilinear commitment built from Reed-Solomon codes, BLAKE3 Merkle trees and a mixed-length BaseFold opening.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14083v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #number-theory&lt;/p&gt;</summary>
+    <title>Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-59-bait-mitigating-harmful-agentic-reinforcement"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16369v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-59-bait-mitigating-harmful-agentic-reinforcement</id>
+    <updated>2026-11-12T06:34:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as $20, we show that safety alignment of a large language model (e.g., Inkling) can be completely subverted through rounds of harmful agentic reinforcement learning (agentic RL) with a toxic environment from its users. We also demonstrate that upon a successful harmful agentic RL attack via the service API, the attackers can potentially use the safety-degraded model to assist with real-world harmful activities, e.g., exploit software vulnerabilities and launch code re-use attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16369v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Smaller Share Size for Evolving Secret Sharing: General Thresholds and Threshold Three</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-59-smaller-share-size-for-evolving"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2619"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-59-smaller-share-size-for-evolving</id>
-    <updated>2026-10-23T20:32:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Evolving secret sharing allows participants to join indefinitely without modifying previously distributed shares. We study the share size of perfectly secure evolving threshold secret sharing schemes and obtain two results. For general thresholds, we introduce a polynomial sharing method that shares two secrets with adjacent reconstruction thresholds using one polynomial.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2619&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
+    <title>OblivDGL: Oblivious Deep Graph Learning Made Practical. The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-60-oblivdgl-oblivious-deep-graph-learning"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2655"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-60-oblivdgl-oblivious-deep-graph-learning</id>
+    <updated>2026-10-27T05:28:09+00:00</updated>
+    <summary type="html">&lt;p&gt;The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns. Both sensitive graph data and proprietary GNN models are submitted to and processed in third-party MLaaS platform for training and inference. To alleviate those concerns, recent efforts have been made to design tailored secure computation protocols for GNNs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2655&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Revisiting Witness-Succinct UC-lifting Compilers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-60-revisiting-witness-succinct-uc-lifting"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2453"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-60-revisiting-witness-succinct-uc-lifting</id>
-    <updated>2026-10-12T16:18:24+00:00</updated>
-    <summary type="html">&lt;p&gt;Zero-knowledge succinct non-interactive arguments of knowledge (zkSNARKs) are increasingly used within larger cryptographic protocols, making security under composition essential. Generic compilation to Universal Composability (UC) requires straight-line, black-box extraction while preserving succinctness and controlling prover cost. We introduce verifiable reconstructible straightline codes (VRSCs), a primitive that separates public hiding, transcript-based reconstruction, binding, and proof non-rerandomizability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2453&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #logic&lt;/p&gt;</summary>
+    <title>From $\textsf{TS-SUF-2}$ to $\textsf{TS-SUF-4}$: Practical Security Enhancements for $\textsf{FROST2}$ Threshold Signatures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-61-from-textsf-ts-suf-2"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/075"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-61-from-textsf-ts-suf-2</id>
+    <updated>2026-01-17T06:11:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, $\textsf{FROST2}$ has been shown by Bellare et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/075&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing Transform</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-61-more-keys-less-commitment-key"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2811"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-61-more-keys-less-commitment-key</id>
-    <updated>2026-11-07T04:24:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Cryptographic accordions with beyond-birthday-bound (BBB) security are being actively studied in connection with NIST’s ongoing standardization effort. We show that BBB security of an accordion does not necessarily strengthen key commitment of AE built from it: in many BBB accordions, additional keys introduced for BBB security give an adversary extra degrees of freedom. Exploiting this observation, we present $O(1)$ key-committing attacks on a broad range of AE schemes built from BBB accordions, mostly via the Encode-then-Encipher (EtE) paradigm, including CHCTR2, eCTR-based accordions, THCTR, HCTR+, TCT2, and bbb-ddd-AES under a natural polynomial-hash instantiation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2811&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics #infosec&lt;/p&gt;</summary>
+    <title>Multi-Hop Functional Encryption</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-62-multi-hop-functional-encryption"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2835"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-62-multi-hop-functional-encryption</id>
+    <updated>2026-11-08T22:43:48+00:00</updated>
+    <summary type="html">&lt;p&gt;In this paper, we initiate the study of multi-hop functional encryption ($\mathsf{MHFE}$), a new primitive for computing over encrypted data in recursive and multi-stage workflows while enabling controlled release of intermediate outputs. $\mathsf{MHFE}$ supports dynamic directed-acyclic computation graphs in which each node is labeled by a function and is equipped with a restricted secret key that reveals only that node&amp;apos;s output, yet the computation can continue downstream on a forwardable encrypted state. In doing so, $\mathsf{MHFE}$ simultaneously overcomes (i) multi-hop fully homomorphic encryption&amp;apos;s need for a globally trusted, always-online decryption key to reveal intermediate values, (ii) standard FE&amp;apos;s lack of a native mechanism for forwarding reusable encrypted state across stages and handling evolving datasets without a fresh recomputation, and (iii) Multi Party Computation&amp;apos;s deployment friction stemming from interaction and liveness/coordination requirements (at the cost of a central key-issuing authority).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2835&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Note on the Security of Changing of the Guards. Masking stands as one of the most effective countermeasures against side-channel attacks.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-62-a-note-on-the-security"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1226"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-62-a-note-on-the-security</id>
-    <updated>2026-06-10T09:37:30+00:00</updated>
-    <summary type="html">&lt;p&gt;Masking stands as one of the most effective countermeasures against side-channel attacks. The Changing of the Guards (COTG) technique reduces online fresh randomness by reusing masks and borrowing shares across nonlinear computations. We identify a security flaw in the round-based AES Design I of Askeland et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1226&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PERSEPHONE: Zero-Knowledge Multiplicative Non-Negative Proof for Sequential Private Range Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-63-persephone-zero-knowledge-multiplicative-non"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1477"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-63-persephone-zero-knowledge-multiplicative-non</id>
-    <updated>2026-07-20T03:42:50+00:00</updated>
-    <summary type="html">&lt;p&gt;Privacy is a fundamental requirement of modern digital payment systems, which process highly sensitive financial data, including account balances and transaction amounts. Unauthorized disclosure of this information can compromise users’ financial privacy and expose them to fraud or other forms of financial abuse. A key challenge in this setting is to verify that a payment amount does not exceed the payer’s available balance without revealing either the payment amount or the balance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1477&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+    <title>A Tutorial on Oblivious Random Access Memory</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-63-a-tutorial-on-oblivious-random"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2852"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-63-a-tutorial-on-oblivious-random</id>
+    <updated>2026-11-10T02:15:41+00:00</updated>
+    <summary type="html">&lt;p&gt;Abstract—Oblivious RAM (ORAM) is a key technique for pro- tecting memory access patterns in systems with untrusted mem- ory, including secure processors, trusted execution environments, and multi-party computation. This article presents a tutorial overview of ORAM concepts and designs from an algorithmic and cryptographic perspective. We review the security goals and threat models underlying ORAM, describe the most popular ORAM constructions and their core mechanisms, and discuss practical considerations for implementing ORAM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2852&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

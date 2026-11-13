@@ -5,21 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-12T13:22:28.087859310+00:00</updated>
-  <entry>
-    <title>Embodied First Exam. Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-11-embodied-first-exam"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12177"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-11-embodied-first-exam</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to control, or train a policy to control.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12177&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LEASH: Stay Safe in Agentic Robotics. Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-12-17-leash-stay-safe-in-agentic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.14115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-12-17-leash-stay-safe-in-agentic</id>
-    <updated>2026-11-09T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Foundation models such as GPT and Claude have shown strong capabilities in spatial understanding and embodied intelligence. These advances make agentic robotics a promising path toward artificial general intelligence in robotics. However, we find that using foundation models to control robots poses serious safety risks, and comprehensive safety evaluation is still lacking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.14115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
 </feed>
