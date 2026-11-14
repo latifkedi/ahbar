@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
-    <title>Duo: A Reciprocal World Model for Full-Duplex Interaction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-14-duo-a-reciprocal-world-model"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15131"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-14-duo-a-reciprocal-world-model</id>
-    <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15131&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-50-scdeepsim-deep-generative-simulation-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-50-scdeepsim-deep-generative-simulation-for</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space. Frontier video generation models work in a VAE latent space that compresses video in both space and time.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-16-back-to-pixels-lifting-latent"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17336"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-16-back-to-pixels-lifting-latent</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17336&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -11,11 +11,11 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #26 (2026-11-13)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-13</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-13:issue:26</guid>
-      <pubDate>2026-11-13T12:42:26.815474254+00:00</pubDate>
-      <description>Ahbar Sayı #26 (2026-11-13):
+      <title>Ahbar Günlük Bülten — Sayı #27 (2026-11-14)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-14</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-14:issue:27</guid>
+      <pubDate>2026-11-14T11:49:56.918084045+00:00</pubDate>
+      <description>Ahbar Sayı #27 (2026-11-14):
 
 1. [Bilgisayar Bilimi &amp; Yazılım] Rust 1.100.0 duyurusu. Rust ekibi, Rust&apos;un yeni sürümü olan 1.100.0&apos;ı duyurmaktan mutluluk duyuyor.
 Rust ekibi, Rust&apos;un yeni sürümü olan 1.100.0&apos;ı duyurmaktan mutluluk duyuyor. Rust, herkesin güvenilir ve verimli yazılım geliştirmesine olanak tanıyan bir programlama dilidir. Eğer Rust&apos;un eski bir sürümünü Rustup aracılığıyla yüklediyseniz, 1.100.0&apos;ı şu şekilde alabilirsiniz: $ Rustup güncellemesi kararlı Eğer henüz sahip değilseniz, web sitemizdeki uygun sayfadan Rust&apos;u alabilirsiniz…
@@ -29,11 +29,11 @@ Bir Calabi-Yau manifoldunun türetilmiş Fukaya kategorisindeki pozitif Lagrange
 4. [Fizik, Kuantum &amp; Uzay] NiO&apos;da sonlu momentumda uzun ömürlü, ışıkla çalışan bimagnonlar. Işık, rezonansla yönlendirilen fononlar da dahil olmak üzere, manyetik düzeni ve onun uyarımlarını ultra hızlı zaman ölçeklerinde manipüle edebilir.
 Işık, rezonansla yönlendirilen fononlar da dahil olmak üzere, manyetik düzeni ve onun uyarımlarını ultra hızlı zaman ölçeklerinde manipüle edebilir. Antiferromıknatıslarda ışık aynı zamanda ilişkili magnon çiftleri veya bimagnonlar da oluşturabilir. Sönümleri ayrıntılı olarak ölçülen ve modellenen tek magnonların aksine, bu tür korelasyonların ömrü, etkileşimleri ve bozulması hakkında çok az şey bilinmektedir.
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] 22 yaşındaki Postgres tipi karışıklık ilkelini RCE&apos;ye dönüştürmek
-Sistemler, Donanım ve Uygulamalı Teknoloji alanında Hacker News aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Cuma günü için güvenlik güncellemeleri
+Güvenlik güncellemeleri AlmaLinux tarafından yayınlanmıştır (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, Tigervnc, vim ve xorg-x11-server), Debian (apache2, c-ares, linux-6.1…
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] RawMod: Nanopore Sinyal Birikmelerinden DNA Baz Modifikasyonlarının Modifikasyon-Agnostik Tespiti
-Özet: Epigenetik olarak değiştirilmiş bazların (örneğin metilasyon) tanımlanması, kanser gelişimi, hücre farklılaşması ve bakteriyel savunma mekanizmalarının keşfedilmesi gibi birçok önemli uygulama için çok önemlidir. Nanopore dizilimi, kanonik bazları değiştirilmiş olanlardan ayırt edebilen elektrik sinyalleri üretir. Sinyallerden temel değişiklikleri tespit etmek için…
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] DynamicsPLM: Protein Varyant Etkisi Tahmini için Dinamiklerle Zenginleştirilmiş Küçük Protein Dil Modeli
+Mutasyonların protein fonksiyonunu ve stabilitesini nasıl etkilediğini tahmin etmek, hesaplamalı biyolojide önemli bir zorluk olmaya devam ediyor. Mevcut son teknoloji ürünü protein dili modelleri (PLM&apos;ler), evrimsel kısıtlamaları yakalamak için öncelikli olarak dizi korporasındaki parametre boyutunu ölçeklendirir, ancak katlanmış proteinlerin açık fiziksel dinamiklerine karşı kör kalır. Tersine, modeller sıkı bir şekilde eğitildi…
 
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.

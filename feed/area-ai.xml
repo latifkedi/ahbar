@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-10-ttb-test-time-baking-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-10-ttb-test-time-baking-for"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17331"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-10-ttb-test-time-baking-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-10-ttb-test-time-baking-for</id>
     <updated>2026-11-11T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the fast-weight MLP of TTT to learn the cross-view attention mapping explicitly from its input-output pairs, rather than replacing attention entirely, achieving the same rendering efficiency as TTT while delivering substantially higher quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17331&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-12-so-arena-benchmarking-the-capability"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15777"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-12-so-arena-benchmarking-the-capability</id>
+    <title>Open Vision Banana: A Fully Open Recipe for Generative Visual Perception. Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-11-open-vision-banana-a-fully"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15844"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-11-open-vision-banana-a-fully</id>
     <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15777&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>I&apos;m making LLMs work on small and old devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-11-i-m-making-llms-work"/>
-    <link rel="related" href="https://github.com/hyperionaidev/smolmaxxing/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-11-i-m-making-llms-work</id>
-    <updated>2026-11-12T15:23:10Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/hyperionaidev/smolmaxxing/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-13-g-star-group-scaled-token"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13004"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-13-g-star-group-scaled-token</id>
-    <updated>2026-11-07T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13004&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Duo: A Reciprocal World Model for Full-Duplex Interaction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-14-duo-a-reciprocal-world-model"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15131"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-14-duo-a-reciprocal-world-model</id>
-    <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15131&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PhysLoop: Harnessing LLMs&apos; Physics Awareness for Self-Improving Video Generation Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-15-physloop-harnessing-llms-physics-awareness"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.16748"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-15-physloop-harnessing-llms-physics-awareness</id>
-    <updated>2026-11-11T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16748&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15844&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-16-actor-judge-or-teacher-understanding"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-12-actor-judge-or-teacher-understanding"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17167"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-16-actor-judge-or-teacher-understanding</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-12-actor-judge-or-teacher-understanding</id>
     <updated>2026-11-11T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent&amp;apos;s actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17167&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On the Design of Hyper-Connections: Simplification, Stability, and Scalability</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-17-on-the-design-of-hyper"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.05984"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-17-on-the-design-of-hyper</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs. We find that learned read/write gating without mixing and unconstrained mixing with fixed gates form two effective interaction groups: either alone achieves performance comparable to mHC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.05984&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-13-ropedia-xperience-2-a-gold"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17060"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-13-ropedia-xperience-2-a-gold</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17060&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Open Vision Banana: A Fully Open Recipe for Generative Visual Perception. Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-18-open-vision-banana-a-fully"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15844"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-18-open-vision-banana-a-fully</id>
+    <title>Unbundling Multimodal Vision Encoding. How multimodal language models should encode visual input remains up for debate.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-14-unbundling-multimodal-vision-encoding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17334"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-14-unbundling-multimodal-vision-encoding</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17334&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Factored One-sided Adam-Moment for Practical and Scalable SOAP</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-15-factored-one-sided-adam-moment"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16905"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-15-factored-one-sided-adam-moment</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecomposition overhead. We ask whether the benefits of SOAP can be retained at nearly the efficiency of AdamW.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16905&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space. Frontier video generation models work in a VAE latent space that compresses video in both space and time.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-16-back-to-pixels-lifting-latent"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17336"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-16-back-to-pixels-lifting-latent</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17336&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-17-turtles-a-large-scale-benchmark"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09567"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-17-turtles-a-large-scale-benchmark</id>
+    <updated>2026-11-05T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations. The dataset contains 400 trajectories of 400 time steps each, with 3-11 million points per frame, spanning variations in geometry, Reynolds number, and angle of attack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09567&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #analysis-pde #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>JustRUA: A Controlled Study of GPT-6 Robot-Use Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-18-justrua-a-controlled-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16009"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-18-justrua-a-controlled-study-of</id>
     <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15844&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #infosec&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action interface, the reuse of experience and the scene geometry given to the model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16009&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

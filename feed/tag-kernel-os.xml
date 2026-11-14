@@ -5,53 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-kernel-os.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-kernel-os.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
-    <title>Security updates for Thursday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-38-security-updates-for-thursday"/>
-    <link rel="related" href="https://lwn.net/Articles/1107146/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-38-security-updates-for-thursday</id>
-    <updated>2026-11-12T14:13:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), Debian (symfony and tomcat10), Fedora (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1107146/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #combinatorics&lt;/p&gt;</summary>
+    <title>Security updates for Friday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-37-security-updates-for-friday"/>
+    <link rel="related" href="https://lwn.net/Articles/1107472/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-37-security-updates-for-friday</id>
+    <updated>2026-11-13T14:25:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, tigervnc, vim, and xorg-x11-server), Debian (apache2, c-ares, linux-6.12, node-shell-quote, nova, parted, postgresql-17,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1107472/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-40-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-40-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Bypassing Administrator Protection by Abusing UI Access. A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-41-bypassing-administrator-protection-by-abusing"/>
-    <link rel="related" href="https://projectzero.google/2026/02/windows-administrator-protection.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-41-bypassing-administrator-protection-by-abusing</id>
-    <updated>2026-02-12T08:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/02/windows-administrator-protection.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Introducing Polo: a Wayland MATE compositor</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-42-introducing-polo-a-wayland-mate"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-40-introducing-polo-a-wayland-mate"/>
     <link rel="related" href="https://lwn.net/Articles/1107152/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-42-introducing-polo-a-wayland-mate</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-40-introducing-polo-a-wayland-mate</id>
     <updated>2026-11-12T14:32:49+00:00</updated>
     <summary type="html">&lt;p&gt;Kerem Söke has announced the 1.0 release of Polo , a Wayland compositor for the MATE Desktop Environment : The idea is to keep MATE behaving as closely as possible to how it does on X11, rather than changing the desktop to fit a different compositor. [...] Window management, metacity, workspaces, tiling, XWayland, clipboard and clipman support, multiple monitors, display scaling, hotplugging, screenshots, screen sharing, and session management are all working. I&amp;apos;ve also added desktop effects: fade, zoom, zap, spin, squeemize, magic lamp, desktop cube, expo, and wobbly windows.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1107152/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-43-infrastructure-for-verifiable-ai-where"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-41-infrastructure-for-verifiable-ai-where"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17042v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-43-infrastructure-for-verifiable-ai-where</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-41-infrastructure-for-verifiable-ai-where</id>
     <updated>2026-11-12T16:27:07+00:00</updated>
     <summary type="html">&lt;p&gt;Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17042v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>What Does It Cost to Force-Close a Lightning Channel? Evidence from 974,000 Channel Closes, 2018-2026</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-44-what-does-it-cost-to"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-42-what-does-it-cost-to"/>
     <link rel="related" href="https://arxiv.org/abs/2611.16311v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-44-what-does-it-cost-to</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-42-what-does-it-cost-to</id>
     <updated>2026-11-12T05:13:54+00:00</updated>
     <summary type="html">&lt;p&gt;Bitcoin&amp;apos;s Lightning payment network returns the funds of a channel that cannot close cooperatively through pre-signed transactions whose fees and delays fall on its operators. That fee design is being replaced: Bitcoin Core 31.0 removed the mempool rule anchor channels relied on, and the Lightning specification adopted zero-fee commitments in May 2026. What the old design costs has never been measured across fee regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16311v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Snoopie: A Multi-GPU Communication Profiler and Visualizer</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-45-snoopie-a-multi-gpu-communication"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16330v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-45-snoopie-a-multi-gpu-communication</id>
+    <updated>2026-11-12T05:53:50+00:00</updated>
+    <summary type="html">&lt;p&gt;With data movement becoming one of the most expensive bottlenecks in computing, the need for profiling tools to analyze communication becomes crucial for effectively scaling multi-GPU applications. While existing profiling tools including first-party software by GPU vendors are robust and excel at capturing compute operations within a single GPU, support for monitoring GPU-GPU data transfers and calls issued by communication libraries is currently inadequate. To fill these gaps, we introduce Snoopie, an instrumentation-based multi-GPU communication profiling tool built on NVBit, capable of tracking peer-to-peer transfers and GPU-centric communication library calls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16330v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,44 +5,52 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-16-actor-judge-or-teacher-understanding"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-12-actor-judge-or-teacher-understanding"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17167"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-16-actor-judge-or-teacher-understanding</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-12-actor-judge-or-teacher-understanding</id>
     <updated>2026-11-11T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent&amp;apos;s actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17167&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>JustRUA: A Controlled Study of GPT-6 Robot-Use Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-18-justrua-a-controlled-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16009"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-18-justrua-a-controlled-study-of</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action interface, the reuse of experience and the scene geometry given to the model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16009&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-70-debiasing-law-enforcement-officers-evidence"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-70-debiasing-law-enforcement-officers-evidence"/>
     <link rel="related" href="https://www.nber.org/papers/w35986#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-70-debiasing-law-enforcement-officers-evidence</id>
-    <updated>2026-11-13T12:42:27.278411431+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-70-debiasing-law-enforcement-officers-evidence</id>
+    <updated>2026-11-14T11:49:57.421844498+00:00</updated>
     <summary type="html">&lt;p&gt;Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w35986#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics #infosec #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-26-lean-grimoire"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-27-lean-grimoire"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-26-lean-grimoire</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-27-lean-grimoire</id>
     <updated>2026-11-12T02:36:00+00:00</updated>
     <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Regime-Uncertain Data Transactions: A Game-Theoretic Framework for Self-Adapting and Self-Diagnosing Multi-ML-Agent Systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-88-regime-uncertain-data-transactions-a"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-88-regime-uncertain-data-transactions-a"/>
     <link rel="related" href="https://arxiv.org/abs/2611.16603v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-88-regime-uncertain-data-transactions-a</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-88-regime-uncertain-data-transactions-a</id>
     <updated>2026-11-12T10:38:21+00:00</updated>
     <summary type="html">&lt;p&gt;Autonomous ML agents in large organizations exchange data and model outputs across organizational and legal boundaries. Which rules bind a given exchange is not fixed. It depends on where the data subjects live, where the agents run, who owns them, whom they target, and which version of each rule is in force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16603v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>A New Kind of Foreign Agent. How AI is reshaping influence operations in America.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-78-a-new-kind-of-foreign"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-78-a-new-kind-of-foreign"/>
     <link rel="related" href="https://www.foreignaffairs.com/china/new-kind-foreign-agent"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-78-a-new-kind-of-foreign</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-78-a-new-kind-of-foreign</id>
     <updated>2026-11-11T09:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;How AI is reshaping influence operations in America.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/china/new-kind-foreign-agent&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #agents&lt;/p&gt;</summary>
   </entry>

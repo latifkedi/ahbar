@@ -5,29 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Dimension drop for superlevel sets of the uniform Littlewood constant</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-21-dimension-drop-for-superlevel-sets"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-21-dimension-drop-for-superlevel-sets"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17189v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-21-dimension-drop-for-superlevel-sets</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-21-dimension-drop-for-superlevel-sets</id>
     <updated>2026-11-12T17:54:36+00:00</updated>
     <summary type="html">&lt;p&gt;For $(x,y)\in\mathbb{R}^2$ and $Q\ge 1$, set $F_Q(x,y)=Q\min_{1\le q\le Q}\lVert qx\rVert\lVert qy\rVert$, where $q$ ranges over positive integers and $\lVert\cdot\rVert$ denotes distance to the nearest integer. The set on which the uniform Littlewood constant $L=\limsup_{Q\to\infty}F_Q$ is positive has full Hausdorff dimension. We prove that for every fixed $c&amp;gt;0$ the superlevel set $\{L\ge c\}$ has Hausdorff dimension strictly less than two.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17189v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lattice response theory for subsystem symmetry-protected topological phases</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-34-lattice-response-theory-for-subsystem"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-34-lattice-response-theory-for-subsystem"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17182v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-34-lattice-response-theory-for-subsystem</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-34-lattice-response-theory-for-subsystem</id>
     <updated>2026-11-12T17:50:53+00:00</updated>
     <summary type="html">&lt;p&gt;We develop a framework to study subsystem symmetry-protected topological (SSPT) phases using lattice response theory. We begin with a systematic construction of spacetime lattice gauge fields from general microscopic $X$-type symmetry actions on qudit systems, including global symmetries, subsystem symmetries, and more general modulated symmetries. Given a gauge-invariant response action, we then construct a corresponding entangler and explicitly show that it implements stacking with the SSPT phase described by the response action.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17182v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-24-structure-preserving-leaky-integrate-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-24-structure-preserving-leaky-integrate-and"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17219v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-24-structure-preserving-leaky-integrate-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-24-structure-preserving-leaky-integrate-and</id>
     <updated>2026-11-12T18:16:14+00:00</updated>
     <summary type="html">&lt;p&gt;The leaky integrate-and-fire (LIF) neuron combines a passive membrane law with threshold-triggered firing and reset. We formulate this hybrid neuron model, under constant input, on an arbitrary Hilger time scale $\mathbb{T}$. Our central result is that, after the first spike, the firing times satisfy $t_{n+1}=Π_{\mathbb{T}}^{+}(t_n+T_c)$, where $T_c$ is the classical reset-to-threshold travel time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17219v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #neuroscience #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ECLIPSE: Strongly Unforgeable Isogeny Signatures from the Prime-Degree Variant of PRISM</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-62-eclipse-strongly-unforgeable-isogeny-signatures"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2312"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-62-eclipse-strongly-unforgeable-isogeny-signatures</id>
+    <updated>2026-10-02T16:32:53+00:00</updated>
+    <summary type="html">&lt;p&gt;ECLIPSE is the prime-degree signature construction the PRISM authors describe beside their salted scheme, with that salt, implemented. It exists because a two-dimensional isogeny signature carries an auxiliary isogeny the hash does not bind: the SQIsign round-3 specification says SQIsign cannot be strongly unforgeable for that reason, and PRISM&amp;apos;s prime-degree variant has no auxiliary isogeny but was published without parameters, code or a running verifier. This paper is the first implementation, on the SQIsign round-3 primes: a verifier that evaluates the paper&amp;apos;s criterion through one isogeny chain and a pull-back, a canonical wire format whose strict decoder recovers one coefficient from two Weil pairings, randomisable keys, two independent implementations that accept each other&amp;apos;s signatures, and one key in both roles: a MIKE key pair at the level I prime is an ECLIPSE key pair, the public curve re-encoded and the signing key derived from the MIKE secret alone, with MIKE&amp;apos;s code untouched.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2312&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Fictitious Play When Agents Are Not Expected-Utility Maximizers: A Geometric Analysis in $2$-Action Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-22-fictitious-play-when-agents-are"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-22-fictitious-play-when-agents-are"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17286v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-22-fictitious-play-when-agents-are</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-22-fictitious-play-when-agents-are</id>
     <updated>2026-11-12T18:52:14+00:00</updated>
     <summary type="html">&lt;p&gt;Fictitious play (FP) is one of the earliest and most fundamental learning procedures in games, where each agent independently chooses a best response to the empirical distribution of opponents&amp;apos; past actions by maximizing the expected payoff with respect to it. However, learning agents may not always be expected-utility maximizers: they may use nonlinear evaluation functionals to account for the uncertainty induced by the opponents, e.g., via risk measures. In this work, we study nonlinear fictitious play (NL-FP), in which each pure action is evaluated by a general, possibly nonlinear functional of the payoff distribution induced by the opponent&amp;apos;s empirical belief.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17286v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #decision-theory #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Price-impact Martingale optimal transport</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-23-price-impact-martingale-optimal-transport"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-23-price-impact-martingale-optimal-transport"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17247v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-23-price-impact-martingale-optimal-transport</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-23-price-impact-martingale-optimal-transport</id>
     <updated>2026-11-12T18:35:02+00:00</updated>
     <summary type="html">&lt;p&gt;Martingale optimal transport (MOT) provides model-independent bounds for option prices calibrated to vanilla options, assuming frictionless trading in the underlying. In this work, we consider the case where dynamic trading incurs quadratic temporary price impact. First, we prove a duality result for the superhedging price.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17247v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-24-structure-preserving-leaky-integrate-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-24-structure-preserving-leaky-integrate-and"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17219v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-24-structure-preserving-leaky-integrate-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-24-structure-preserving-leaky-integrate-and</id>
     <updated>2026-11-12T18:16:14+00:00</updated>
     <summary type="html">&lt;p&gt;The leaky integrate-and-fire (LIF) neuron combines a passive membrane law with threshold-triggered firing and reset. We formulate this hybrid neuron model, under constant input, on an arbitrary Hilger time scale $\mathbb{T}$. Our central result is that, after the first spike, the firing times satisfy $t_{n+1}=Π_{\mathbb{T}}^{+}(t_n+T_c)$, where $T_c$ is the classical reset-to-threshold travel time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17219v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #neuroscience #post-quantum&lt;/p&gt;</summary>
   </entry>

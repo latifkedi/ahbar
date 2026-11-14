@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
-    <title>SubCellSeg: A generalist model for subcellular structure segmentation in 3D fluorescence microscopy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-48-subcellseg-a-generalist-model-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-48-subcellseg-a-generalist-model-for</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Three-dimensional (3D) segmentation of subcellular structures from fluorescence microscopy images is the foundation of many analyses in quantitative cell biology. The prevailing approach addresses 3D segmentation one structure at a time, with a separate model trained for each structure type. By developing SubCellSeg, we demonstrate that a single model, trained jointly across a diverse range of structures, substantially and consistently outperforms structure-specific specialist models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>From $\textsf{TS-SUF-2}$ to $\textsf{TS-SUF-4}$: Practical Security Enhancements for $\textsf{FROST2}$ Threshold Signatures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-61-from-textsf-ts-suf-2"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/075"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-61-from-textsf-ts-suf-2</id>
-    <updated>2026-01-17T06:11:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems. $\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, noted for its efficiency and compatibility with standard verification processes. However, under the one-more discrete logarithm assumption, with static corruption and centralized key generation settings, $\textsf{FROST2}$ has been shown by Bellare et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/075&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #infosec&lt;/p&gt;</summary>
+    <title>Snoopie: A Multi-GPU Communication Profiler and Visualizer</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-45-snoopie-a-multi-gpu-communication"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16330v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-45-snoopie-a-multi-gpu-communication</id>
+    <updated>2026-11-12T05:53:50+00:00</updated>
+    <summary type="html">&lt;p&gt;With data movement becoming one of the most expensive bottlenecks in computing, the need for profiling tools to analyze communication becomes crucial for effectively scaling multi-GPU applications. While existing profiling tools including first-party software by GPU vendors are robust and excel at capturing compute operations within a single GPU, support for monitoring GPU-GPU data transfers and calls issued by communication libraries is currently inadequate. To fill these gaps, we introduce Snoopie, an instrumentation-based multi-GPU communication profiling tool built on NVBit, capable of tracking peer-to-peer transfers and GPU-centric communication library calls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16330v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,37 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
-    <title>Duo: A Reciprocal World Model for Full-Duplex Interaction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-14-duo-a-reciprocal-world-model"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15131"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-14-duo-a-reciprocal-world-model</id>
-    <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15131&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>Unbundling Multimodal Vision Encoding. How multimodal language models should encode visual input remains up for debate.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-14-unbundling-multimodal-vision-encoding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17334"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-14-unbundling-multimodal-vision-encoding</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17334&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Turning a 22-year-old Postgres type-confusion primitive into RCE</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-37-turning-a-22-year-old"/>
-    <link rel="related" href="https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-37-turning-a-22-year-old</id>
-    <updated>2026-11-12T18:22:22Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #databases #clean-tech&lt;/p&gt;</summary>
+    <title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space. Frontier video generation models work in a VAE latent space that compresses video in both space and time.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-16-back-to-pixels-lifting-latent"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17336"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-16-back-to-pixels-lifting-latent</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17336&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Non-interferometric tests of gravitational decoherence models with mechanical oscillators</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-32-non-interferometric-tests-of-gravitational"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-32-non-interferometric-tests-of-gravitational"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17260v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-32-non-interferometric-tests-of-gravitational</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-32-non-interferometric-tests-of-gravitational</id>
     <updated>2026-11-12T18:43:12+00:00</updated>
     <summary type="html">&lt;p&gt;Phenomenological models of quantum-gravity-induced decoherence can leave observable effects even in experiments that do not rely on interferometric measurements. We study three such models, based respectively on deformed relativistic symmetries, stochastic metric fluctuations, and a stochastic generalized uncertainty principle, all of which induce decoherence in the momentum basis. For a free particle, the models preserve momentum distribution and mean energy but produce position diffusion and momentum-space decoherence with model-specific momentum dependences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17260v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-50-scdeepsim-deep-generative-simulation-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-50-scdeepsim-deep-generative-simulation-for</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

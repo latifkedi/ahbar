@@ -5,44 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-algorithms.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Sowing the Seeds of Intractability: Kalah is PSPACE-complete. Kalah is a classic two-player game in the mancala family of sowing games.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-20-sowing-the-seeds-of-intractability"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-20-sowing-the-seeds-of-intractability"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17252v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-20-sowing-the-seeds-of-intractability</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-20-sowing-the-seeds-of-intractability</id>
     <updated>2026-11-12T18:38:34+00:00</updated>
     <summary type="html">&lt;p&gt;Kalah is a classic two-player game in the mancala family of sowing games. Computers have solved several standard-size starting positions, but the complexity of the game on boards of growing size has remained open. We study the natural generalization in which the number of pits per side is part of the input and an arbitrary position is given, with the stone counts given in unary.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17252v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algorithms #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-29-dana-s-talk-on-openai"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-29-dana-s-talk-on-openai"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10318"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-29-dana-s-talk-on-openai</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-29-dana-s-talk-on-openai</id>
     <updated>2026-11-10T20:27:28+00:00</updated>
     <summary type="html">&lt;p&gt;In my “Mathocalypse” post, I mentioned that my wife Dana—who’s been working on Subhash Khot’s Unique Games Conjecture since ~2009, for the entire time I’ve known her—has for the past few weeks (while on sabbatical at the Simons Institute in Berkeley) been spending essentially all of her time laboring to understand OpenAI’s recent proof of […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10318&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-30-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-30-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-30-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-30-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-82-the-tournament-equilibrium-set-is"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-82-the-tournament-equilibrium-set-is"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17312v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-82-the-tournament-equilibrium-set-is</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-82-the-tournament-equilibrium-set-is</id>
     <updated>2026-11-12T18:57:05+00:00</updated>
     <summary type="html">&lt;p&gt;The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a given alternative belongs to TEQ was known to be NP-hard and to lie in PSPACE.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17312v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Tight Bounds for Downward-Closed Prophet and Secretary Problems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-85-tight-bounds-for-downward-closed"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-85-tight-bounds-for-downward-closed"/>
     <link rel="related" href="https://arxiv.org/abs/2611.16880v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-85-tight-bounds-for-downward-closed</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-85-tight-bounds-for-downward-closed</id>
     <updated>2026-11-12T14:44:56+00:00</updated>
     <summary type="html">&lt;p&gt;We study online selection problems subject to arbitrary downward-closed feasibility constraints, under different arrival orders, with different distributional assumptions. We establish the following bounds: (1) $Θ(\log^2 n / \log \log n)$ for the standard (adversarial-order) prophet problem, (2) $Ω(\log n)$ for the (Bayesian, random-order) prophet secretary problem, and by extension, for the standard (prior-free, random-order) secretary problem, and (3) $O(\log n / \log \log n)$ for the free-order prophet problem. Together with complementary bounds established in prior work, these results pin down the asymptotically tight competitive ratios for all these variants of prophet and secretary problems subject to downward-closed constraints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16880v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
   </entry>

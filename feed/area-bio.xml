@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
-    <title>RawMod: Modification-Agnostic Detection of DNA Base Modifications from Nanopore Signal Pileups</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-46-rawmod-modification-agnostic-detection-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-46-rawmod-modification-agnostic-detection-of</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Summary: Identifying epigenetically modified bases (e.g., methylation) is crucial for many important applications such as discovering mechanisms of cancer development, cell differentiation, and bacterial defense. Nanopore sequencing generates electrical signals that can differentiate canonical bases from modified ones. To detect base modifications from signals, machine learning (ML) methods and statistical approaches are commonly used.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765445v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-46-dynamicsplm-a-dynamics-enriched-small"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-46-dynamicsplm-a-dynamics-enriched-small</id>
+    <updated>2026-11-13T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Predicting how mutations impact protein function and stability remains a key challenge in computational biology. Current state-of-the-art protein language models (PLMs) primarily scale parameter size on sequence corpora to capture evolutionary constraints but remain blind to the explicit physical dynamics of folded proteins. Conversely, models trained strictly on physical dynamics neglect critical evolutionary sequence statistics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-47-the-confessions-of-a-protein"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-47-the-confessions-of-a-protein</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep&amp;apos;s own control: 64.0%).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Regional Signals Matter: Rethinking Global Pooling for mRNA Foundation Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-47-regional-signals-matter-rethinking-global"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.12.766253v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-47-regional-signals-matter-rethinking-global</id>
+    <updated>2026-11-13T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;RNA foundation models with diverse architectures have shown promise for learning representations of messenger RNA (mRNA) sequences. However, existing benchmarks commonly reduce token-level embeddings to transcript-level representations through global mean pooling before fitting a downstream probe. This aggregation does not explicitly preserve the identities of biologically distinct mRNA regions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.12.766253v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>SubCellSeg: A generalist model for subcellular structure segmentation in 3D fluorescence microscopy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-48-subcellseg-a-generalist-model-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-48-subcellseg-a-generalist-model-for</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Three-dimensional (3D) segmentation of subcellular structures from fluorescence microscopy images is the foundation of many analyses in quantitative cell biology. The prevailing approach addresses 3D segmentation one structure at a time, with a separate model trained for each structure type. By developing SubCellSeg, we demonstrate that a single model, trained jointly across a diverse range of structures, substantially and consistently outperforms structure-specific specialist models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765799v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Fast Pangenome Matching Statistics in Compressed Space with Move Structures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-49-fast-pangenome-matching-statistics-in"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765781v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-49-fast-pangenome-matching-statistics-in</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Matching statistics and supermaximal exact matches (SMEMs) are key inputs for sequence homology search and classification. Methods such as MONI, PHONI, and ropebwt3 compute these statistics using compressed pangenome indexes, but are substantially slower than methods that compute approximations of matching statistics, such as pseudo-matching lengths (PMLs). PMLs can be computed quickly in a single pass, but SMEM computation can require overlapping forward or backward passes over the query.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765781v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>scDeepSim: Deep Generative Simulation for Controlled Benchmarking of Single-Cell Methods</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-50-scdeepsim-deep-generative-simulation-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-50-scdeepsim-deep-generative-simulation-for</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Benchmarking single-cell computational methods requires both realistic data and reliable ground truth. However, annotating real datasets is costly and, even when available, may not fully represent the diverse settings where methods are used. Simulators address this gap by generating synthetic data that has fully specified ground truth and whose structure can be tailored to challenge competing methods.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.09.765456v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-51-rna-small-molecule-binding-site"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-51-rna-small-molecule-binding-site</id>
-    <updated>2026-11-11T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;RNAs are emerging as promising therapeutic targets, and small-molecule binding can modulate their structure and function, creating opportunities for therapeutic development. Accurate identification of RNA small-molecule binding sites is therefore important for understanding RNA-ligand interactions and facilitating RNA-targeted drug discovery. However, the structural complexity of RNA and the limited availability of experimentally characterized RNA-ligand complexes pose challenges for computational binding-site prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics&lt;/p&gt;</summary>
+    <title>deepTools4: Faster, Scalable, and Modernized Genomic Data Analysis. The deepTools suite is widely used for quality control, summarization, and visualization of high-throughput sequencing data.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-48-deeptools4-faster-scalable-and-modernized"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.11.765524v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-48-deeptools4-faster-scalable-and-modernized</id>
+    <updated>2026-11-13T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;The deepTools suite is widely used for quality control, summarization, and visualization of high-throughput sequencing data. However, as genomic datasets grow in scale and depth, existing tools often become computational bottlenecks. We present deepTools4, a modernized framework designed for high performance, scalability, and enhanced usability, while maintaining seamless integration with the Galaxy platform.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.11.765524v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Training reservoirs without looking back</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-52-training-reservoirs-without-looking-back"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-49-training-reservoirs-without-looking-back"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01079-6"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-52-training-reservoirs-without-looking-back</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-49-training-reservoirs-without-looking-back</id>
     <updated>2026-11-13T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 November 2026; doi:10.1038/s43588-026-01079-6 By training a reservoir computing system without access to its intermediate states and by eliminating the coupling between its nodes, a physical learning framework achieves efficient learning both in simulation and on optoelectronic hardware.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01079-6&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Open foundation models for clinical AI. Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-53-open-foundation-models-for-clinical"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-50-open-foundation-models-for-clinical"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01094-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-53-open-foundation-models-for-clinical</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-50-open-foundation-models-for-clinical</id>
     <updated>2026-11-12T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01094-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Ab initio simulation of excited-state potential energy surfaces with transferable deep quantum Monte Carlo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-54-ab-initio-simulation-of-excited"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-51-ab-initio-simulation-of-excited"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01065-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-54-ab-initio-simulation-of-excited</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-51-ab-initio-simulation-of-excited</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 06 November 2026; doi:10.1038/s43588-026-01065-y Transferable deep-learning quantum Monte Carlo for molecular excited states is introduced. Sharing parameters, an ansatz represents the wavefunction across molecular geometries and states, reducing the cost of modeling potential energy surfaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01065-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-52-scalable-physical-deep-learning-using"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-52-scalable-physical-deep-learning-using</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-53-machine-learning-dataset-and-benchmark"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-53-machine-learning-dataset-and-benchmark</id>
+    <updated>2026-10-26T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Making the case for a non-primary article</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-54-making-the-case-for-a"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-54-making-the-case-for-a</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
 </feed>

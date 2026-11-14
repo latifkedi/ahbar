@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-43-infrastructure-for-verifiable-ai-where"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-41-infrastructure-for-verifiable-ai-where"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17042v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-43-infrastructure-for-verifiable-ai-where</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-41-infrastructure-for-verifiable-ai-where</id>
     <updated>2026-11-12T16:27:07+00:00</updated>
     <summary type="html">&lt;p&gt;Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17042v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-59-bait-mitigating-harmful-agentic-reinforcement"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-59-bait-mitigating-harmful-agentic-reinforcement"/>
     <link rel="related" href="https://arxiv.org/abs/2611.16369v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-59-bait-mitigating-harmful-agentic-reinforcement</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-59-bait-mitigating-harmful-agentic-reinforcement</id>
     <updated>2026-11-12T06:34:34+00:00</updated>
     <summary type="html">&lt;p&gt;We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as $20, we show that safety alignment of a large language model (e.g., Inkling) can be completely subverted through rounds of harmful agentic reinforcement learning (agentic RL) with a toxic environment from its users. We also demonstrate that upon a successful harmful agentic RL attack via the service API, the attackers can potentially use the safety-degraded model to assist with real-world harmful activities, e.g., exploit software vulnerabilities and launch code re-use attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16369v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #infosec&lt;/p&gt;</summary>
   </entry>

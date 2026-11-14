@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
-  <entry>
-    <title>G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-13-g-star-group-scaled-token"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.13004"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-13-g-star-group-scaled-token</id>
-    <updated>2026-11-07T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.13004&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #inference&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
 </feed>

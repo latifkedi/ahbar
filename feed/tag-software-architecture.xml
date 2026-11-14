@@ -5,37 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
-  <entry>
-    <title>Jensen Huang resigns</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-02-jensen-huang-resigns"/>
-    <link rel="related" href="https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-02-jensen-huang-resigns</id>
-    <updated>2026-11-12T13:52:29Z</updated>
-    <summary type="html">&lt;p&gt;Following reports of two extramarital affairs, one with an alleged Chinese spy and the other with a VP that is a direct report to him, Jensen Huang is no longer CEO of NVIDIA...&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Anthropic IPO</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-06-anthropic-ipo"/>
-    <link rel="related" href="https://ipo.anthropic.com/us/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-06-anthropic-ipo</id>
-    <updated>2026-11-12T11:46:41Z</updated>
-    <summary type="html">&lt;p&gt;Anthropic&amp;apos;s IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on &amp;quot;Approach to compute&amp;quot; with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I&amp;apos;m not sure why there&amp;apos;s no official video transcript, but here&amp;apos;s one that I extracted using MacWhisper.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ipo.anthropic.com/us/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>I&apos;m making LLMs work on small and old devices</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-11-i-m-making-llms-work"/>
-    <link rel="related" href="https://github.com/hyperionaidev/smolmaxxing/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-11-i-m-making-llms-work</id>
-    <updated>2026-11-12T15:23:10Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/hyperionaidev/smolmaxxing/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Turning a 22-year-old Postgres type-confusion primitive into RCE</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-37-turning-a-22-year-old"/>
-    <link rel="related" href="https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-37-turning-a-22-year-old</id>
-    <updated>2026-11-12T18:22:22Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #databases #clean-tech&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
 </feed>

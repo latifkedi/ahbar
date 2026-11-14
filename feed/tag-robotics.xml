@@ -5,5 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
+  <entry>
+    <title>Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-13-ropedia-xperience-2-a-gold"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17060"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-13-ropedia-xperience-2-a-gold</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17060&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>JustRUA: A Controlled Study of GPT-6 Robot-Use Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-18-justrua-a-controlled-study-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16009"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-18-justrua-a-controlled-study-of</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action interface, the reuse of experience and the scene geometry given to the model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16009&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
 </feed>

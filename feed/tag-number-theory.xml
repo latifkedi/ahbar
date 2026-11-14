@@ -5,36 +5,52 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Toward the abelian category of positive Lagrangians</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-19-toward-the-abelian-category-of"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-19-toward-the-abelian-category-of"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17282v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-19-toward-the-abelian-category-of</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-19-toward-the-abelian-category-of</id>
     <updated>2026-11-12T18:51:25+00:00</updated>
     <summary type="html">&lt;p&gt;We introduce a geometric construction whose terminal configuration determines the kernel and cokernel of a morphism between positive Lagrangian branes in the derived Fukaya category of a Calabi-Yau manifold. Thus, if the construction always terminates, the full subcategory of positive Lagrangian branes is abelian, as conjectured by Joyce. We show that this abelian category admits Harder-Narasimhan filtrations with respect to the central charge defined by the holomorphic volume form.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17282v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Sowing the Seeds of Intractability: Kalah is PSPACE-complete. Kalah is a classic two-player game in the mancala family of sowing games.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-20-sowing-the-seeds-of-intractability"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-20-sowing-the-seeds-of-intractability"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17252v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-20-sowing-the-seeds-of-intractability</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-20-sowing-the-seeds-of-intractability</id>
     <updated>2026-11-12T18:38:34+00:00</updated>
     <summary type="html">&lt;p&gt;Kalah is a classic two-player game in the mancala family of sowing games. Computers have solved several standard-size starting positions, but the complexity of the game on boards of growing size has remained open. We study the natural generalization in which the number of pits per side is part of the input and an arbitrary position is given, with the stone counts given in unary.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17252v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #algorithms #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dimension drop for superlevel sets of the uniform Littlewood constant</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-21-dimension-drop-for-superlevel-sets"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-21-dimension-drop-for-superlevel-sets"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17189v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-21-dimension-drop-for-superlevel-sets</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-21-dimension-drop-for-superlevel-sets</id>
     <updated>2026-11-12T17:54:36+00:00</updated>
     <summary type="html">&lt;p&gt;For $(x,y)\in\mathbb{R}^2$ and $Q\ge 1$, set $F_Q(x,y)=Q\min_{1\le q\le Q}\lVert qx\rVert\lVert qy\rVert$, where $q$ ranges over positive integers and $\lVert\cdot\rVert$ denotes distance to the nearest integer. The set on which the uniform Littlewood constant $L=\limsup_{Q\to\infty}F_Q$ is positive has full Hausdorff dimension. We prove that for every fixed $c&amp;gt;0$ the superlevel set $\{L\ge c\}$ has Hausdorff dimension strictly less than two.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17189v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Affine Combiners for Reed-Solomon Proximity Gaps. Reed–Solomon proximity gaps establish soundness guarantees for protocols that test received words through random combinations.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-61-affine-combiners-for-reed-solomon"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2863"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-61-affine-combiners-for-reed-solomon</id>
+    <updated>2026-11-11T06:54:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Reed–Solomon proximity gaps establish soundness guarantees for protocols that test received words through random combinations. For length-$n$ codes over $\mathbb{F}_q$, classical scalar combiners achieve error $O(n/q)$ in the unique-decoding regime, with larger known bounds near the Johnson radius. We prove smaller error bounds using affine combiners, which combine two received words $f,g$ as $f(x)+(\alpha+\beta x)g(x)$, where $\alpha,\beta$ are independent uniform elements of $\mathbb{F}_q$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2863&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ECLIPSE: Strongly Unforgeable Isogeny Signatures from the Prime-Degree Variant of PRISM</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-62-eclipse-strongly-unforgeable-isogeny-signatures"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2312"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-62-eclipse-strongly-unforgeable-isogeny-signatures</id>
+    <updated>2026-10-02T16:32:53+00:00</updated>
+    <summary type="html">&lt;p&gt;ECLIPSE is the prime-degree signature construction the PRISM authors describe beside their salted scheme, with that salt, implemented. It exists because a two-dimensional isogeny signature carries an auxiliary isogeny the hash does not bind: the SQIsign round-3 specification says SQIsign cannot be strongly unforgeable for that reason, and PRISM&amp;apos;s prime-degree variant has no auxiliary isogeny but was published without parameters, code or a running verifier. This paper is the first implementation, on the SQIsign round-3 primes: a verifier that evaluates the paper&amp;apos;s criterion through one isogeny chain and a pull-back, a canonical wire format whose strict decoder recovers one coefficient from two Weil pairings, randomisable keys, two independent implementations that accept each other&amp;apos;s signatures, and one key in both roles: a MIKE key pair at the level I prime is an ECLIPSE key pair, the public curve re-encoded and the signing key derived from the MIKE secret alone, with MIKE&amp;apos;s code untouched.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2312&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #number-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>The Case for a Trump-Xi-Putin Summit. In just a few days’ time, U.S.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-73-the-case-for-a-trump"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-73-the-case-for-a-trump"/>
     <link rel="related" href="https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-73-the-case-for-a-trump</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-73-the-case-for-a-trump</id>
     <updated>2026-11-13T05:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;In just a few days’ time, U.S. President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin could be holding a three-way summit on the sidelines of next week’s Asia-Pacific Economic Cooperation meeting in Shenzhen, China. According to The Wall Street Journal, Putin floated the idea of a trialogue last month as an opportunity to discuss ending the war in Ukraine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #number-theory&lt;/p&gt;</summary>
   </entry>

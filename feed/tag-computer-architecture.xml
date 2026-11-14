@@ -5,29 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-39-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-39-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-43-infrastructure-for-verifiable-ai-where"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-41-infrastructure-for-verifiable-ai-where"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17042v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-43-infrastructure-for-verifiable-ai-where</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-41-infrastructure-for-verifiable-ai-where</id>
     <updated>2026-11-12T16:27:07+00:00</updated>
     <summary type="html">&lt;p&gt;Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17042v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>What Does It Cost to Force-Close a Lightning Channel? Evidence from 974,000 Channel Closes, 2018-2026</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-44-what-does-it-cost-to"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-42-what-does-it-cost-to"/>
     <link rel="related" href="https://arxiv.org/abs/2611.16311v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-44-what-does-it-cost-to</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-42-what-does-it-cost-to</id>
     <updated>2026-11-12T05:13:54+00:00</updated>
     <summary type="html">&lt;p&gt;Bitcoin&amp;apos;s Lightning payment network returns the funds of a channel that cannot close cooperatively through pre-signed transactions whose fees and delays fall on its operators. That fee design is being replaced: Bitcoin Core 31.0 removed the mempool rule anchor channels relied on, and the Lightning specification adopted zero-fee commitments in May 2026. What the old design costs has never been measured across fee regimes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16311v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Snoopie: A Multi-GPU Communication Profiler and Visualizer</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-45-snoopie-a-multi-gpu-communication"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.16330v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-45-snoopie-a-multi-gpu-communication</id>
+    <updated>2026-11-12T05:53:50+00:00</updated>
+    <summary type="html">&lt;p&gt;With data movement becoming one of the most expensive bottlenecks in computing, the need for profiling tools to analyze communication becomes crucial for effectively scaling multi-GPU applications. While existing profiling tools including first-party software by GPU vendors are robust and excel at capturing compute operations within a single GPU, support for monitoring GPU-GPU data transfers and calls issued by communication libraries is currently inadequate. To fill these gaps, we introduce Snoopie, an instrumentation-based multi-GPU communication profiling tool built on NVBit, capable of tracking peer-to-peer transfers and GPU-centric communication library calls.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16330v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

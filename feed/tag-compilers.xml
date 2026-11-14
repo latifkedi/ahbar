@@ -5,20 +5,20 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
   <entry>
     <title>Announcing Rust 1.100.0. The Rust team is happy to announce a new version of Rust, 1.100.0.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-01-announcing-rust-1-100-0"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-01-announcing-rust-1-100-0"/>
     <link rel="related" href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-01-announcing-rust-1-100-0</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-01-announcing-rust-1-100-0</id>
     <updated>2026-11-12T18:43:41+00:00</updated>
     <summary type="html">&lt;p&gt;The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don&amp;apos;t have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/&quot;&gt;Lobste.rs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #rust #compilers&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-40-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-40-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>

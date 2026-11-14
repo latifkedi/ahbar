@@ -5,61 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml</id>
-  <updated>2026-11-13T12:42:26.815474254+00:00</updated>
+  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
+  <entry>
+    <title>TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-17-turtles-a-large-scale-benchmark"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.09567"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-17-turtles-a-large-scale-benchmark</id>
+    <updated>2026-11-05T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations. The dataset contains 400 trajectories of 400 time steps each, with 3-11 million points per frame, spanning variations in geometry, Reynolds number, and angle of attack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.09567&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #analysis-pde #neuroscience&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Dimension drop for superlevel sets of the uniform Littlewood constant</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-21-dimension-drop-for-superlevel-sets"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-21-dimension-drop-for-superlevel-sets"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17189v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-21-dimension-drop-for-superlevel-sets</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-21-dimension-drop-for-superlevel-sets</id>
     <updated>2026-11-12T17:54:36+00:00</updated>
     <summary type="html">&lt;p&gt;For $(x,y)\in\mathbb{R}^2$ and $Q\ge 1$, set $F_Q(x,y)=Q\min_{1\le q\le Q}\lVert qx\rVert\lVert qy\rVert$, where $q$ ranges over positive integers and $\lVert\cdot\rVert$ denotes distance to the nearest integer. The set on which the uniform Littlewood constant $L=\limsup_{Q\to\infty}F_Q$ is positive has full Hausdorff dimension. We prove that for every fixed $c&amp;gt;0$ the superlevel set $\{L\ge c\}$ has Hausdorff dimension strictly less than two.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17189v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Fictitious Play When Agents Are Not Expected-Utility Maximizers: A Geometric Analysis in $2$-Action Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-22-fictitious-play-when-agents-are"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-22-fictitious-play-when-agents-are"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17286v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-22-fictitious-play-when-agents-are</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-22-fictitious-play-when-agents-are</id>
     <updated>2026-11-12T18:52:14+00:00</updated>
     <summary type="html">&lt;p&gt;Fictitious play (FP) is one of the earliest and most fundamental learning procedures in games, where each agent independently chooses a best response to the empirical distribution of opponents&amp;apos; past actions by maximizing the expected payoff with respect to it. However, learning agents may not always be expected-utility maximizers: they may use nonlinear evaluation functionals to account for the uncertainty induced by the opponents, e.g., via risk measures. In this work, we study nonlinear fictitious play (NL-FP), in which each pure action is evaluated by a general, possibly nonlinear functional of the payoff distribution induced by the opponent&amp;apos;s empirical belief.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17286v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #decision-theory #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Price-impact Martingale optimal transport</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-23-price-impact-martingale-optimal-transport"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-23-price-impact-martingale-optimal-transport"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17247v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-23-price-impact-martingale-optimal-transport</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-23-price-impact-martingale-optimal-transport</id>
     <updated>2026-11-12T18:35:02+00:00</updated>
     <summary type="html">&lt;p&gt;Martingale optimal transport (MOT) provides model-independent bounds for option prices calibrated to vanilla options, assuming frictionless trading in the underlying. In this work, we consider the case where dynamic trading incurs quadratic temporary price impact. First, we prove a duality result for the superhedging price.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17247v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-24-structure-preserving-leaky-integrate-and"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-24-structure-preserving-leaky-integrate-and"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17219v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-24-structure-preserving-leaky-integrate-and</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-24-structure-preserving-leaky-integrate-and</id>
     <updated>2026-11-12T18:16:14+00:00</updated>
     <summary type="html">&lt;p&gt;The leaky integrate-and-fire (LIF) neuron combines a passive membrane law with threshold-triggered firing and reset. We formulate this hybrid neuron model, under constant input, on an arbitrary Hilger time scale $\mathbb{T}$. Our central result is that, after the first spike, the firing times satisfy $t_{n+1}=Π_{\mathbb{T}}^{+}(t_n+T_c)$, where $T_c$ is the classical reset-to-threshold travel time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17219v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #neuroscience #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Introducing MathHelm: A Place to discuss AI-generated papers. [This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-25-introducing-mathhelm-a-place-to"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-25-introducing-mathhelm-a-place-to</id>
+    <updated>2026-11-14T03:19:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the wider public. They help us share ideas, deepen our collective understanding, see where the field stands, and decide what to explore next.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>247A, Notes 4: Weighted estimates and pseudodifferential operators</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-25-247a-notes-4-weighted-estimates"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-26-247a-notes-4-weighted-estimates"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-25-247a-notes-4-weighted-estimates</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-26-247a-notes-4-weighted-estimates</id>
     <updated>2026-11-13T07:09:00+00:00</updated>
     <summary type="html">&lt;p&gt;— 1. Weighted inequalities — In the previous notes we have taken a linear or sublinear operator on a measure space and established mapping properties, such as These estimates reveal information about how the height and width of is controlled by the height and width of . However, these estimates do not indicate where the […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-26-lean-grimoire"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-27-lean-grimoire"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-26-lean-grimoire</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-27-lean-grimoire</id>
     <updated>2026-11-12T02:36:00+00:00</updated>
     <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>“Six Math Essentials” now available</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-13-27-six-math-essentials-now-available"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-13-27-six-math-essentials-now-available</id>
-    <updated>2026-11-10T16:58:00+00:00</updated>
-    <summary type="html">&lt;p&gt;My popular mathematics book, “Six Math Essentials” (Six Maths Essentials in the UK), which was previously announced on this blog in February, is now available (in print, digital, and audiobook formats). Some related links: Review by Karmela Padavic-Callaghan (New Scientist) Review (Publishers Weekly) Review (Library Journal) Sample excerpt (via Science Friday), with related podcast interview […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>
