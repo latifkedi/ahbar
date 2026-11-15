@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-14T11:49:56.918084045+00:00</updated>
+  <updated>2026-11-15T12:20:19.629677126+00:00</updated>
   <entry>
     <title>Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-14-12-actor-judge-or-teacher-understanding"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-12-actor-judge-or-teacher-understanding"/>
     <link rel="related" href="https://arxiv.org/abs/2611.17167"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-14-12-actor-judge-or-teacher-understanding</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-12-actor-judge-or-teacher-understanding</id>
     <updated>2026-11-11T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent&amp;apos;s actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17167&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-17-agent-r-2-scaling-agents"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.08219"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-17-agent-r-2-scaling-agents</id>
+    <updated>2026-11-04T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements. A key bottleneck is the lack of scalable post-training data that reflects real work intent, authentic file environments, and deliverable-level evaluation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.08219&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>
