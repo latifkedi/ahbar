@@ -5,77 +5,101 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml</id>
-  <updated>2026-11-15T12:20:19.629677126+00:00</updated>
+  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
   <entry>
-    <title>Long-lived light-driven bimagnons at finite momentum in NiO. Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-28-long-lived-light-driven-bimagnons"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17335v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-28-long-lived-light-driven-bimagnons</id>
-    <updated>2026-11-12T18:59:55+00:00</updated>
-    <summary type="html">&lt;p&gt;Light can manipulate magnetic order and its excitations on ultrafast timescales, including through resonantly driven phonons. In antiferromagnets, light can also create correlated magnon pairs, or bimagnons. Unlike single magnons, whose damping has been measured and modeled in detail, little is known about the lifetime, interactions and decay of such correlated pairs: prior two-magnon measurements show broad linewidths or coherences that dephase within 200 fs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17335v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #optics-photonics&lt;/p&gt;</summary>
+    <title>Beyond Blossom: Accelerating MWPM Decoding for Surface Codes With Local Predecoding and Architecture-Aware Optimizations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-30-beyond-blossom-accelerating-mwpm-decoding"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18476v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-30-beyond-blossom-accelerating-mwpm-decoding</id>
+    <updated>2026-11-13T17:49:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Minimum-weight perfect matching (MWPM) is widely used to decode surface codes, but its computational cost increases with code distance. We present Beyond Blossom, a state-of-the-art CPU-based MWPM decoder for surface codes. It combines algorithmic optimization through local predecoding, architecture-aware optimization, and pipeline-wide parallelism to reduce matching workload and execution overhead while preserving MWPM optimality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18476v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A deployed four-city entanglement-based QKD network with real-time key delivery, benchmarked against finite-key security bounds</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-31-a-deployed-four-city-entanglement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17265v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-31-a-deployed-four-city-entanglement</id>
-    <updated>2026-11-12T18:45:08+00:00</updated>
-    <summary type="html">&lt;p&gt;Quantum key distribution (QKD) generates shared secret keys whose security rests on the laws of physics rather than on computational assumptions. We report the entanglement-based segment of the Slovak national quantum communication infrastructure, connecting four cities in western Slovakia over deployed telecommunication fiber. Polarization-entangled photons generated at a central node are passively routed by wavelength to form a trusted-node-free, fully meshed sub-network of three cities, with the fourth connected through the central node and all links operated simultaneously.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17265v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #rust&lt;/p&gt;</summary>
+    <title>Topological phase diagram of an extended Su-Schrieffer-Heeger model with negative coupling</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-31-topological-phase-diagram-of-an"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18456v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-31-topological-phase-diagram-of-an</id>
+    <updated>2026-11-13T17:28:02+00:00</updated>
+    <summary type="html">&lt;p&gt;Recently, an extended Su-Schrieffer-Heeger model with three atoms per unit cell has been experimentally realized in perovskite exciton-polariton micropillars. A distinctive feature of this system is that the second and third bands undergo a topological transition through a band crossing at the wave vector $k=0$, associated with a negative coupling. In this work, we analytically determine the phase diagram of the model as a function of the on-site energy splitting and the ratio of intercell to intracell hopping amplitudes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18456v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Non-interferometric tests of gravitational decoherence models with mechanical oscillators</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-32-non-interferometric-tests-of-gravitational"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17260v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-32-non-interferometric-tests-of-gravitational</id>
-    <updated>2026-11-12T18:43:12+00:00</updated>
-    <summary type="html">&lt;p&gt;Phenomenological models of quantum-gravity-induced decoherence can leave observable effects even in experiments that do not rely on interferometric measurements. We study three such models, based respectively on deformed relativistic symmetries, stochastic metric fluctuations, and a stochastic generalized uncertainty principle, all of which induce decoherence in the momentum basis. For a free particle, the models preserve momentum distribution and mean energy but produce position diffusion and momentum-space decoherence with model-specific momentum dependences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17260v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #clean-tech&lt;/p&gt;</summary>
+    <title>High Entropy Oxides as Room Temperature Anderson Insulators with Colossal Soft Gaps</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-32-high-entropy-oxides-as-room"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18433v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-32-high-entropy-oxides-as-room</id>
+    <updated>2026-11-13T17:12:57+00:00</updated>
+    <summary type="html">&lt;p&gt;The Anderson effect, arising from destructive quantum interference of electron wave packets in disordered potentials, is usually observed at cryogenic temperatures and typically arises from extrinsic defects in conventional materials such as phosphorus dopants in silicon or oxygen vacancies in transition metal oxides. Here we demonstrate that a multication lattice of transition metals in a high-entropy oxide (HEO) natively establishes an interacting Anderson insulator that extends up to $500\,\mathrm{K}$. By controlling the population of transition metal cations in $\mathrm{La}_{0.7}\mathrm{Sr}_{0.3}\mathrm{Mn}_{1-x}(\mathrm{Cr},\mathrm{Fe},\mathrm{Co},\mathrm{Ni})_{x/4}\mathrm{O}_3$ (LS5B), we tune the system from the prototypical correlated metal $\mathrm{La}_{0.7}\mathrm{Sr}_{0.3}\mathrm{Mn}\mathrm{O}_3$ at $x=0.00$ to a localized insulator at $x=0.80$, where the disorder length contracts to near the unit cell (3.85 $\mathring{\mathrm{A}}$) and drives the electron mean free path to the Ioffe-Regel limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18433v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Implementation of a 1D Gaussian-modulated CV-QKD under finite-size parameter estimation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-33-implementation-of-a-1d-gaussian"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17250v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-33-implementation-of-a-1d-gaussian</id>
-    <updated>2026-11-12T18:37:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Continuous-variable quantum key distribution (CV-QKD) is a promising technology for quantum-secure communications, offering high secret-key rates and straightforward integration with coherent optical communication systems. Conventional Gaussian-modulated CV-QKD encodes information in both optical-field quadratures, increasing requirements for state preparation, modulation, and calibration, while potentially introducing additional preparation imperfections. Unidimensional (1D) Gaussian modulation offers a simpler alternative by encoding information in only one quadrature, while the conjugate quadrature constrains the protocol&amp;apos;s security.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17250v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+    <title>Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-33-graph-diffusion-transformer-for-interpretable"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18420v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-33-graph-diffusion-transformer-for-interpretable</id>
+    <updated>2026-11-13T17:00:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and silica.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18420v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Lattice response theory for subsystem symmetry-protected topological phases</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-34-lattice-response-theory-for-subsystem"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17182v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-34-lattice-response-theory-for-subsystem</id>
-    <updated>2026-11-12T17:50:53+00:00</updated>
-    <summary type="html">&lt;p&gt;We develop a framework to study subsystem symmetry-protected topological (SSPT) phases using lattice response theory. We begin with a systematic construction of spacetime lattice gauge fields from general microscopic $X$-type symmetry actions on qudit systems, including global symmetries, subsystem symmetries, and more general modulated symmetries. Given a gauge-invariant response action, we then construct a corresponding entangler and explicitly show that it implements stacking with the SSPT phase described by the response action.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17182v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
+    <title>Number fluctuations and particle loss in Dicke superradiance</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-34-number-fluctuations-and-particle-loss"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18413v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-34-number-fluctuations-and-particle-loss</id>
+    <updated>2026-11-13T16:56:38+00:00</updated>
+    <summary type="html">&lt;p&gt;Dicke superradiance, the collective spontaneous emission of identical quantum emitters into a common reservoir, produces a burst with a characteristic delay $t_{\mathrm{SR}}$ and a peak intensity that scales quadratically with the emitter number $N$. This strong dependence makes the burst sensitive to how many emitters actually participate. In experiments, however, this number is rarely fixed: it fluctuates between preparations and decreases during emission through atom loss.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18413v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Uniaxial strain induces $d$-wave phonon chirality in ferroelectric BaTiO$_3$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-35-uniaxial-strain-induces-d-wave"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18402v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-35-uniaxial-strain-induces-d-wave</id>
+    <updated>2026-11-13T16:44:38+00:00</updated>
+    <summary type="html">&lt;p&gt;Circularly dichroic resonant inelastic x-ray scattering has revealed electrically switchable $g$-wave phonon chirality in freestanding BaTiO$_3$ membranes. Here, we show from first principles that uniaxial strain changes the angular class of this texture. Lowering $C_{4v}$ to $C_{2v}$ adds a $d$-wave helicity that is bilinear in the orthorhombic strain $η$ and the polarization, with nodal lines along the stress axis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18402v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bond Anharmonicity in a Caged Molecule Probed by Vibronic Core Spectroscopy</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-36-bond-anharmonicity-in-a-caged"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18331v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-36-bond-anharmonicity-in-a-caged</id>
+    <updated>2026-11-13T15:44:25+00:00</updated>
+    <summary type="html">&lt;p&gt;X-ray absorption spectroscopy and resonant inelastic X-ray scattering at the nitrogen K-edge show that the N$\equiv$N bond in N$_2$@C$_{60}$ is substantially more anharmonic than in free N$_2$, with the ground-state ($X^1Σ_g^+$) anharmonic constant $\hbarω_e x_e$ a factor of two larger ($3.8\pm0.3$~meV versus $\sim 1.8$~meV) despite an essentially unchanged harmonic frequency. The same enhancement is found across all three vibronic potentials accessible to the experiment---the electronic ground state, the core-excited intermediate state, and the spectator-decay final state---pointing to a common origin rather than an effect specific to one electronic configuration. High-level coupled-cluster calculations of the N$_2$@C$_{60}$ potential energy surface, however, find no significant change in anharmonicity upon encapsulation, ruling out a simple static distortion of the N$\equiv$N bonding potential by the fullerene cage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18331v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Learning observable propagation with sparse local moments. We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-21-learning-observable-propagation-with-sparse"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18448v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-21-learning-observable-propagation-with-sparse</id>
+    <updated>2026-11-13T17:22:20+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories. Thanks to the locality of the dynamics, we construct the transition moment matrices by projecting the Markov operator onto low-order connected-cluster basis functions supported near the target observable. Exploiting the spatial decay of time-lagged correlations, {these matrices} can be approximated in sparse-plus-low-rank form using trajectory samples, with computational cost scaling linearly in the system dimension and the number of trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18448v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nesting in additive manufacturing using quantum annealing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-22-nesting-in-additive-manufacturing-using"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18447v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-22-nesting-in-additive-manufacturing-using</id>
+    <updated>2026-11-13T17:22:19+00:00</updated>
+    <summary type="html">&lt;p&gt;Nesting in powder bed fusion (PBF), an additive manufacturing (AM) process, determines the positions and orientations of parts within the build space and influences build height and build time. As the number of parts and feasible placements increases, the nesting problem becomes computationally demanding. Exact approaches are limited to small problem sizes as computational effort increases rapidly with the problem size, while heuristic and metaheuristic approaches involve a trade-off between solution quality and computation time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18447v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-29-dana-s-talk-on-openai"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-28-dana-s-talk-on-openai"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10318"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-29-dana-s-talk-on-openai</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-28-dana-s-talk-on-openai</id>
     <updated>2026-11-10T20:27:28+00:00</updated>
     <summary type="html">&lt;p&gt;In my “Mathocalypse” post, I mentioned that my wife Dana—who’s been working on Subhash Khot’s Unique Games Conjecture since ~2009, for the entire time I’ve known her—has for the past few weeks (while on sabbatical at the Simons Institute in Berkeley) been spending essentially all of her time laboring to understand OpenAI’s recent proof of […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10318&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-30-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-29-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-30-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-29-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Physical Observables and Superselection</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-83-physical-observables-and-superselection"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17051v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-83-physical-observables-and-superselection</id>
-    <updated>2026-11-12T16:33:21+00:00</updated>
-    <summary type="html">&lt;p&gt;It is well-known that a physical state may be represented by a unit vector in a Hilbert space, whilst a physical observable may be represented by a self-adjoint operator on that same space. However, the introduction of a superselection rule on a Hilbert space imposes constraints such that not all self-adjoint operators can represent observables, which has further consequences for the states themselves as well as the physical processes that transform them. In this article, we review the concept of superselection from the view of how such rules would affect what we consider to be physical.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17051v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quantum-computing&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The landscape of quantum technology companies in 2026. We update our 2022 mapping of 441 quantum technology (QT) companies and examine how the industry has developed.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-86-the-landscape-of-quantum-technology"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.16838v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-86-the-landscape-of-quantum-technology</id>
-    <updated>2026-11-12T14:13:25+00:00</updated>
-    <summary type="html">&lt;p&gt;We update our 2022 mapping of 441 quantum technology (QT) companies and examine how the industry has developed. The principal dataset now includes 1,092 companies founded with a QT focus, of which 935 remain active. Public sources and archived company websites provide evidence on company formation, technology fields and geography, alongside acquisitions, closures, valuations and involvement in artificial intelligence, defence and space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16838v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quantum-computing #combinatorics&lt;/p&gt;</summary>
+    <title>Indefinite causal order with definite Bohmian trajectories for the quantum switch</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-87-indefinite-causal-order-with-definite"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17906v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-87-indefinite-causal-order-with-definite</id>
+    <updated>2026-11-13T08:49:05+00:00</updated>
+    <summary type="html">&lt;p&gt;We analyze the notion of indefinite causal order (ICO) from the standpoint of the deterministic de Broglie--Bohm theory, based on the notion of trajectories in configuration space. More precisely, we study the physics of the quantum switch (QS) interferometer within a Bohmian framework and show how the notion of causality is preserved in this approach. Furthermore, we investigate device-independent certification and causal inequalities applied to an entangled quantum system, and show that in this regime too, the notions of trajectories and of a strict causal order are perfectly preserved.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17906v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quantum-computing&lt;/p&gt;</summary>
   </entry>
 </feed>

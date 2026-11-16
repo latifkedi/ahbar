@@ -5,21 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-15T12:20:19.629677126+00:00</updated>
+  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
   <entry>
-    <title>Infrastructure for Verifiable AI: Where Proof Costs Go and How Hardware Can Help</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-40-infrastructure-for-verifiable-ai-where"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17042v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-40-infrastructure-for-verifiable-ai-where</id>
-    <updated>2026-11-12T16:27:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Users of artificial intelligence services, including those powered by large language models and other transformer-based models, need assurance that inference and training follow the declared computation without exposing private models or data. Zero-knowledge proofs can provide this assurance, but proof generation remains expensive. Hardware acceleration research often reports gains for individual cryptographic operations, leaving their effect on the full cost of proving neural-network workloads, particularly large transformer models, unclear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17042v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-65-a-push-down-the-mountain"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17515v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-65-a-push-down-the-mountain</id>
+    <updated>2026-11-12T21:09:43+00:00</updated>
+    <summary type="html">&lt;p&gt;Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simulations, the agent is asked to collude on the price of silver by a counterparty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17515v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #ml-theory #llm&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-59-bait-mitigating-harmful-agentic-reinforcement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.16369v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-59-bait-mitigating-harmful-agentic-reinforcement</id>
-    <updated>2026-11-12T06:34:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as $20, we show that safety alignment of a large language model (e.g., Inkling) can be completely subverted through rounds of harmful agentic reinforcement learning (agentic RL) with a toxic environment from its users. We also demonstrate that upon a successful harmful agentic RL attack via the service API, the attackers can potentially use the safety-degraded model to assist with real-world harmful activities, e.g., exploit software vulnerabilities and launch code re-use attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16369v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #infosec&lt;/p&gt;</summary>
+    <title>Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-33-graph-diffusion-transformer-for-interpretable"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18420v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-33-graph-diffusion-transformer-for-interpretable</id>
+    <updated>2026-11-13T17:00:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and silica.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18420v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Beyond Bot Labels: Retrospective Consequence-Grounded Ranking of Attributed Cache Harm in E-Commerce Logs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-40-beyond-bot-labels-retrospective-consequence"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18027v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-40-beyond-bot-labels-retrospective-consequence</id>
+    <updated>2026-11-13T10:53:23+00:00</updated>
+    <summary type="html">&lt;p&gt;Web caches reduce origin load and latency, but automated traffic can either warm them or evict objects shoppers reuse, lowering the cache hit ratio (CHR). Existing bot defenses generally infer automation from User-Agent (UA) strings or behavior rather than identify sessions that impose cross-session cache harm. We instead formulate the task as ranking sessions by eviction damage and propose consequence-grounded session ranking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18027v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A systematic comparison of physics-informed neural networks and mechanistic models for epidemic modeling and forecasting</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-82-a-systematic-comparison-of-physics"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18389v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-82-a-systematic-comparison-of-physics</id>
+    <updated>2026-11-13T16:32:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Physics-Informed Neural Networks (PINNs) have recently been applied to epidemic modeling and forecasting with promising results. These methods integrate mechanistic knowledge with data-driven learning. Yet, their comparative performance against well-established, and simpler epidemic models is underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18389v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #neuroscience&lt;/p&gt;</summary>
   </entry>
 </feed>

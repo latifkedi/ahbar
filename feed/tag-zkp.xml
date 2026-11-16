@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-11-15T12:20:19.629677126+00:00</updated>
+  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Verifiable Settlement and Pricing for Local Energy Markets: Architecture and Deployment on Hyperledger Besu</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-56-verifiable-settlement-and-pricing-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.16495v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-56-verifiable-settlement-and-pricing-for</id>
-    <updated>2026-11-12T09:02:06+00:00</updated>
-    <summary type="html">&lt;p&gt;We implement privacy-preserving local electricity exchanges using an automated market maker on the Hyperledger Besu network under QBFT consensus. The proposed protocol operator collects individual electricity positions off-chain and publishes aggregate supply and demand on the blockchain, where smart contracts compute market prices every fifteen minutes. Individual positions remain off-chain; Poseidon2 commitments and UltraHonk zeroknowledge proofs, generated from Noir circuits, verify aggregation, payments, and daily balance updates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16495v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #decision-theory #quant-finance&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How to Defeat a Mafia (of Size 1). The game &quot;Mafia&apos;&apos; is a social deduction game where $n$ players attempt to uncover a covert coalition of $m$ players among the $n$.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-57-how-to-defeat-a-mafia"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.16496v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-57-how-to-defeat-a-mafia</id>
-    <updated>2026-11-12T09:02:28+00:00</updated>
-    <summary type="html">&lt;p&gt;The game &amp;quot;Mafia&amp;apos;&amp;apos; is a social deduction game where $n$ players attempt to uncover a covert coalition of $m$ players among the $n$. Typically, $d=1$ of the non-coalition players are labelled ``Detective&amp;apos;&amp;apos; and have special abilities. Most game-theoretic analysis considers, however, only the variant without a Detective.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16496v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #decision-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-58-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-56-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-58-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-56-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Bait: Mitigating Harmful Agentic Reinforcement Learning via Probing Reward Function</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-59-bait-mitigating-harmful-agentic-reinforcement"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.16369v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-59-bait-mitigating-harmful-agentic-reinforcement</id>
-    <updated>2026-11-12T06:34:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We expose a safety vulnerability on nascent agentic reinforcement-learning-as-a-service. Specifically, with a cost as low as $20, we show that safety alignment of a large language model (e.g., Inkling) can be completely subverted through rounds of harmful agentic reinforcement learning (agentic RL) with a toxic environment from its users. We also demonstrate that upon a successful harmful agentic RL attack via the service API, the attackers can potentially use the safety-degraded model to assist with real-world harmful activities, e.g., exploit software vulnerabilities and launch code re-use attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.16369v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #ml-theory #infosec&lt;/p&gt;</summary>
+    <title>The Pipes Model for Latency and Throughput Analysis</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-57-the-pipes-model-for-latency"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1116"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-57-the-pipes-model-for-latency</id>
+    <updated>2025-06-13T13:42:36+00:00</updated>
+    <summary type="html">&lt;p&gt;In much of the distributed computing literature, latency is expressed as the number of communication rounds or network delays; such metrics do not directly account for the amount of data sent or the dependencies among parties sending the data. Throughput is also normally evaluated empirically. As a consequence, the standard models used for analysing state machine replication (SMR) protocols do not by themselves provide an end-to-end analytical comparison of practical latency and throughput as functions of per-processor bandwidth and transaction arrival rate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1116&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Ideal Pseudorandom Code, Revisited</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-58-ideal-pseudorandom-code-revisited"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-58-ideal-pseudorandom-code-revisited</id>
+    <updated>2026-08-11T12:03:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Toward Eﬃcient Post-Quantum Bitcoin Bridges. BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-59-toward-e-cient-post-quantum"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2877"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-59-toward-e-cient-post-quantum</id>
+    <updated>2026-11-12T11:55:38+00:00</updated>
+    <summary type="html">&lt;p&gt;BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that authenticate them and the signatures that bind them to transactions. Existing designs garble elliptic-curve succinct non-interactive argument of knowledge (SNARK) veriﬁers, which a quantum adversary breaks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2877&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #consensus&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Extending the Schur--Macaulay Framework for UOV Attacks via Truncated Polynomial Algebras</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-60-extending-the-schur-macaulay-framework"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2444"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-60-extending-the-schur-macaulay-framework</id>
+    <updated>2026-10-11T10:08:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Building on the ideal-inclusion framework of Ding, Li, and Tao, we reformulate and extend the Schur--Macaulay approach of Merz and Ran using multigraded $p$-truncated polynomial algebras over arbitrary finite fields. The construction admits a reconciliation interpretation involving multiple oil vectors. Combining divided powers with transfer relation spaces, we derive quotient-dimension criteria for recovering graded components of the hidden oil-space ideal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2444&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Shuffling is Universal: Statistical Additive Randomized Encodings for All Functions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-61-shuffling-is-universal-statistical-additive"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1442"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-61-shuffling-is-universal-statistical-additive</id>
+    <updated>2025-08-08T03:25:23+00:00</updated>
+    <summary type="html">&lt;p&gt;The shuffle model is a widely used abstraction for non-interactive anonymous communication. It allows $n$ parties holding private inputs $x_1,\dots,x_n$ to simultaneously send messages to an evaluator, so that the messages are received in a random order. The evaluator can then compute a joint function $f(x_1,\dots,x_n)$, ideally while learning nothing else about the private inputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1442&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Vectorised Hashing Based on Bernstein-Rabin-Winograd Polynomials over Prime Order Fields</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-62-vectorised-hashing-based-on-bernstein"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1262"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-62-vectorised-hashing-based-on-bernstein</id>
+    <updated>2025-07-08T15:53:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We introduce the new AXU hash function decBRWHash, which is parameterised by the positive integer $c$ and is based on Bernstein-Rabin-Winograd (BRW) polynomials. Choosing $c&amp;gt;1$ gives a hash function which can be implemented using $c$-way single instruction multiple data (SIMD) instructions. We report a set of very comprehensive hand optimised assembly implementations of 4-decBRWHash using avx2 SIMD instructions available on modern Intel processors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1262&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Connecting Cryptanalytic Distinguishers through Divisibility</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-60-connecting-cryptanalytic-distinguishers-through-divisibility"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-63-connecting-cryptanalytic-distinguishers-through-divisibility"/>
     <link rel="related" href="https://eprint.iacr.org/2026/2471"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-60-connecting-cryptanalytic-distinguishers-through-divisibility</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-63-connecting-cryptanalytic-distinguishers-through-divisibility</id>
     <updated>2026-10-14T09:12:14+00:00</updated>
     <summary type="html">&lt;p&gt;Integral distinguishers can reveal more than a zero-sum property: the number of ones in an output component may be divisible by a high power of $2$, rather than merely being even. To exploit this divisibility, we relate linear, integral, differential-linear, and restricted differential sums through two-way conversions with explicit divisibility guarantees and data complexity, recovering established links as special cases. We derive exact random-permutation probabilities and rigorous bounds to quantify the distinguishing strength while accounting for dependencies between output conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2471&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Just How Secure is SRP, Really?</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-61-just-how-secure-is-srp"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1869"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-61-just-how-secure-is-srp</id>
-    <updated>2025-10-08T06:58:29+00:00</updated>
-    <summary type="html">&lt;p&gt;An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client and a server to agree upon a cryptographic key, with the only information shared in advance being a low-entropy password (memorized by the client) and a corresponding password file (stored in the server). The standard security definition for aPAKE is in the Universally Composable (UC) framework. Since aPAKE does not rely on a PKI, such protocols have received much attention in recent years due to their potential of replacing the traditional “password-over-TLS” approach for client-server authentication on the Internet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1869&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>One More Pair, More Information Gained: Improved Attacks on LowMC with Full S-box Layers Using Two Plaintext/Ciphertext Pairs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-62-one-more-pair-more-information"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1498"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-62-one-more-pair-more-information</id>
-    <updated>2025-08-20T04:01:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \PICNIC application setting, \ie an attacker can see only a single plaintext/ciphertext pair. It can be noted that in the security proof of \PICNIC, LowMC is required to be secure under two plaintexts, it is thus meaningful to investigate the security of LowMC in this direction. Pioneered by Liu, Isobe and Meier at Crypto 2021, they combined algebraic techniques with difference enumeration attack, which could attack all three 4-round LowMC instances adopting full S-Box layers in \PICNIC with only two chosen plaintexts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1498&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>MODDIV-WC: Unit-Anchored Toeplitz/Hankel Rounding with Exact Binary-LWE Masking and an IND-CCA Security Route</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-63-moddiv-wc-unit-anchored-toeplitz"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2747"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-63-moddiv-wc-unit-anchored-toeplitz</id>
-    <updated>2026-11-03T17:35:12+00:00</updated>
-    <summary type="html">&lt;p&gt;\begin{abstract} We present MODDIV-WC, a public-key encryption and key-encapsulation candidate based on a widened Hankel linear map followed by deterministic integer division, together with an implicit-rejection Fujisaki--Okamoto wrapper, MODDIV-WC-FO. The construction uses a secret vector whose first coordinate is fixed to one and whose remaining coordinates are sampled from a positive interval. This unit anchor makes the Hankel map surjective for every admissible secret, a property that is central to the proof.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2747&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

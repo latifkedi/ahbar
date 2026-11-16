@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #28 (2026-11-15)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-15</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-15:issue:28</guid>
-      <pubDate>2026-11-15T12:20:19.629677126+00:00</pubDate>
-      <description>Ahbar Sayı #28 (2026-11-15):
+      <title>Ahbar Günlük Bülten — Sayı #29 (2026-11-16)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-16</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-16:issue:29</guid>
+      <pubDate>2026-11-16T13:12:39.996728385+00:00</pubDate>
+      <description>Ahbar Sayı #29 (2026-11-16):
 
 1. [Bilgisayar Bilimi &amp; Yazılım] Discord Yama Notları: 9 Kasım 2026. Discord&apos;a yakın zamanda uygulanan daha teknik düzeltmelerin daha ince ayrıntılarına göz atın.
 Yakın zamanda Discord&apos;a uygulanan daha teknik düzeltmelerin daha ince ayrıntılarına göz atın.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] TTB: Yalnızca Kod Çözücü Görünüm Sentez Modellerinin Verimli Bir Şekilde Oluşturulması için Test Zamanında Pişirme
-KV önbelleğe sahip, yalnızca kod çözücüden oluşan Geniş Görünüm Sentez Modelleri (LVSM&apos;ler), 3D geometriyi yeniden yapılandırmadan sinir ağlarından gelen yeni görünümleri gerileyerek son teknoloji ürünü kaliteye ulaşırken, Test Süresi Eğitimi (TTT) katmanları hesaplamadan tasarruf sağlar ancak kaliteden ödün verir. Küresel sahne bilgilerini hazırlamayı öğrenen bir strateji olan Test-Time Baking&apos;i (TTB) öneriyoruz.
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] MMFlash: Görme-Dil Modelleri için Daha Hızlı Spekülatif Kod Çözme. Spekülatif kod çözme, hafif bir taslak hazırlayıcının bir hedef model tarafından paralel doğrulama için belirteçler önermesine olanak tanıyarak üretimi hızlandırır.
+Spekülatif kod çözme, hafif bir taslak hazırlayıcının bir hedef model tarafından paralel doğrulama için belirteçler önermesine olanak tanıyarak üretimi hızlandırır. DFlash gibi dağıtım taslakları, tek bir ileri geçişte tüm bir jeton bloğunu önerir, ancak esas olarak salt metin görevlerine odaklanır ve çok modlu taslak oluşturmayı yeterince araştırılmamış halde bırakır. Bu ayarı incelemek için öncelikle bir ölçüm sunuyoruz:
 
-3. [Matematik &amp; Biçimsel Bilimler] Pozitif Lagrangianların değişmeli kategorisine doğru
-Bir Calabi-Yau manifoldunun türetilmiş Fukaya kategorisindeki pozitif Lagrange zarları arasındaki bir morfizmin çekirdeğini ve kok çekirdeğini terminal konfigürasyonu belirleyen bir geometrik yapı tanıtıyoruz. Dolayısıyla, eğer yapı her zaman sona eriyorsa, Joyce&apos;un tahmin ettiği gibi, pozitif Lagrange zarlarının tüm alt kategorisi değişmeli olacaktır. Bunu gösteriyoruz ki…
+3. [Matematik &amp; Biçimsel Bilimler] Değişim süreci için hareketli parçacık lemmasının katılığı. $G=(V,c)$ sonlu bağlı ağırlıklı bir grafik olsun.
+$G=(V,c)$ sonlu bağlı ağırlıklı bir grafik olsun. İki terminal köşesi $x\neq y \in V$ boyunca birim voltaj düşüşüne bağlı olarak $G$ üzerindeki değişim süreci için hareketli parçacık lemmasında eşitliği elde etmek için kesin koşulları oluşturuyoruz. Birincisi, eşitlik yalnızca en fazla iki satıra sahip bölümler tarafından indekslenen indirgenemez temsillerde meydana gelebilir.
 
-4. [Fizik, Kuantum &amp; Uzay] NiO&apos;da sonlu momentumda uzun ömürlü, ışıkla çalışan bimagnonlar. Işık, rezonansla yönlendirilen fononlar da dahil olmak üzere, manyetik düzeni ve onun uyarımlarını ultra hızlı zaman ölçeklerinde manipüle edebilir.
-Işık, rezonansla yönlendirilen fononlar da dahil olmak üzere, manyetik düzeni ve onun uyarımlarını ultra hızlı zaman ölçeklerinde manipüle edebilir. Antiferromıknatıslarda ışık aynı zamanda ilişkili magnon çiftleri veya bimagnonlar da oluşturabilir. Sönümleri ayrıntılı olarak ölçülen ve modellenen tek magnonların aksine, bu tür korelasyonların ömrü, etkileşimleri ve bozulması hakkında çok az şey bilinmektedir.
+4. [Fizik, Kuantum &amp; Uzay] Beyond Blossom: Yerel Ön Kod Çözme ve Mimariye Uygun Optimizasyonlarla Yüzey Kodları için MWPM Kod Çözmeyi Hızlandırma
+Minimum ağırlıkta mükemmel eşleştirme (MWPM), yüzey kodlarının kodunu çözmek için yaygın olarak kullanılır, ancak hesaplama maliyeti kod mesafesiyle birlikte artar. Yüzey kodları için son teknoloji CPU tabanlı MWPM kod çözücü Beyond Blossom&apos;u sunuyoruz. Yerel ön kod çözme, mimariye duyarlı optimizasyon ve boru hattı çapında paralellik yoluyla algoritmik optimizasyonu birleştirir ve böylece…
 
 5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Cuma günü için güvenlik güncellemeleri
 Güvenlik güncellemeleri AlmaLinux tarafından yayınlanmıştır (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, Tigervnc, vim ve xorg-x11-server), Debian (apache2, c-ares, linux-6.1…
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] DynamicsPLM: Protein Varyant Etkisi Tahmini için Dinamiklerle Zenginleştirilmiş Küçük Protein Dil Modeli
-Mutasyonların protein fonksiyonunu ve stabilitesini nasıl etkilediğini tahmin etmek, hesaplamalı biyolojide önemli bir zorluk olmaya devam ediyor. Mevcut son teknoloji ürünü protein dili modelleri (PLM&apos;ler), evrimsel kısıtlamaları yakalamak için öncelikli olarak dizi korporasındaki parametre boyutunu ölçeklendirir, ancak katlanmış proteinlerin açık fiziksel dinamiklerine karşı kör kalır. Tersine, modeller sıkı bir şekilde eğitildi…
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] COPASI Becerileri: Basico aracılığıyla COPASI analizleri için Aracı Becerileri
+Biyokimyasal modeller, biyolojik sistemleri, moleküler türlerin zaman içindeki üretimini, tüketimini ve dönüşümünü tanımlayan reaksiyon ağları olarak temsil eder. Bu modeller, sistem dinamiklerini analiz etmek için niceliksel bir çerçeve sağlar ve geleneksel ıslak laboratuvar yaklaşımlarını tamamlayan hesaplamalı deneylere olanak tanıyarak araştırmacıların mekanik bilgi edinmesine yardımcı olur.
 
 7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
 Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Doğruluk Refah Değildir: Yapay Bir Duopolde Yapay Zeka Alıcılarını Stratejik Fiyat Karmaşıklığı Altında Değerlendirmek
-Yapay zeka satın alma acenteleri tüketicilerin kararlarının yanı sıra satıcıların teşviklerini de değiştirebilir. Sentetik bir duopolde, fiyat karşılaştırma boru hatlarını sabit bir menüde ve ampirik korelasyonlu denge oyunlarında değerlendiririz. Hesap makinesi yardımı, doğrulanmış toplam açıklama altında %68,57&apos;ye kıyasla %84,00 oranında en uygun teklifi seçer, ancak açıklamanın 20,14 birim daha yüksek bir oranı vardır…
+8. [Ekonomi, Finans &amp; Makro Analiz] Mekansal Oylama Oyunlarında Haklardan Kurtulma
+Oy hakları, grup üyeliği ve kabul edilebilir söylemin sınırları ile ilgili soruların tümü, seçmenlerin, grup üyelerinin ve kabul edilebilir yorumcuların genellikle kendi dahil etme ve hariç tutma kurallarının nihai karar vericileri olduğu yinelenen, kendi kendine istikrar meselesini içerir. İdeolojik veya konu çeşitliliğinin bıçaklamayı nasıl etkileyebileceğini anlamak için…
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Dünyanın Barış İçin Son Şansı. Yeni bir dünya savaşı nasıl önlenir?
-Yeni bir dünya savaşı nasıl önlenir?
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Çin Nükleer Silah Yarışı İstemiyor Amerika gereksiz bir rekabetin önüne geçebilir.
+Amerika gereksiz bir rekabetin önüne geçebilir.
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Turnuva Denge Seti, Kalıtsal Benzersizlik Altında Bile PSPACE Uyumludur
-Schwartz tarafından 1990 yılında önerilen turnuva denge seti (TEQ), ikili çoğunluk karşılaştırmalarına dayanan klasik bir oylama kuralıdır. Tanımı özyinelemelidir: Bir alternatif, onu yenen, ona hakim olanlar olarak adlandırılan ve TEQ&apos;un kendisinin seçtiği bu hakimlerden olan alternatiflere göre değerlendirilir. Belirli bir alternatifin TEQ’a ait olup olmadığına karar vermek biliniyordu…
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Salgın modelleme ve tahmin için fizik bilgili sinir ağları ve mekanik modellerin sistematik bir karşılaştırması
+Fizik Bilgili Sinir Ağları (PINN&apos;ler) yakın zamanda salgın modelleme ve tahminde umut verici sonuçlarla uygulandı. Bu yöntemler mekanik bilgiyi veriye dayalı öğrenmeyle bütünleştirir. Ancak bunların köklü ve daha basit salgın modellerine karşı karşılaştırmalı performansları yeterince araştırılmamıştır.
 
 </description>
       <itunes:duration>300</itunes:duration>

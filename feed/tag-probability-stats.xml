@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-15T12:20:19.629677126+00:00</updated>
+  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
   <entry>
-    <title>Fictitious Play When Agents Are Not Expected-Utility Maximizers: A Geometric Analysis in $2$-Action Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-22-fictitious-play-when-agents-are"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17286v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-22-fictitious-play-when-agents-are</id>
-    <updated>2026-11-12T18:52:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Fictitious play (FP) is one of the earliest and most fundamental learning procedures in games, where each agent independently chooses a best response to the empirical distribution of opponents&amp;apos; past actions by maximizing the expected payoff with respect to it. However, learning agents may not always be expected-utility maximizers: they may use nonlinear evaluation functionals to account for the uncertainty induced by the opponents, e.g., via risk measures. In this work, we study nonlinear fictitious play (NL-FP), in which each pure action is evaluated by a general, possibly nonlinear functional of the payoff distribution induced by the opponent&amp;apos;s empirical belief.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17286v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #decision-theory #optimization&lt;/p&gt;</summary>
+    <title>Rigidity of the moving particle lemma for the interchange process. Let $G=(V,c)$ be a finite connected weighted graph.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-19-rigidity-of-the-moving-particle"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18483v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-19-rigidity-of-the-moving-particle</id>
+    <updated>2026-11-13T17:57:28+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $G=(V,c)$ be a finite connected weighted graph. We establish the exact conditions for attaining equality in the moving particle lemma for the interchange process on $G$ subject to a unit voltage drop across two terminal vertices $x\neq y \in V$. First, equality can occur only in irreducible representations indexed by partitions with at most two rows.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18483v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Price-impact Martingale optimal transport</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-23-price-impact-martingale-optimal-transport"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17247v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-23-price-impact-martingale-optimal-transport</id>
-    <updated>2026-11-12T18:35:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Martingale optimal transport (MOT) provides model-independent bounds for option prices calibrated to vanilla options, assuming frictionless trading in the underlying. In this work, we consider the case where dynamic trading incurs quadratic temporary price impact. First, we prove a duality result for the superhedging price.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17247v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quant-finance&lt;/p&gt;</summary>
+    <title>Learning observable propagation with sparse local moments. We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-21-learning-observable-propagation-with-sparse"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18448v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-21-learning-observable-propagation-with-sparse</id>
+    <updated>2026-11-13T17:22:20+00:00</updated>
+    <summary type="html">&lt;p&gt;We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories. Thanks to the locality of the dynamics, we construct the transition moment matrices by projecting the Markov operator onto low-order connected-cluster basis functions supported near the target observable. Exploiting the spatial decay of time-lagged correlations, {these matrices} can be approximated in sparse-plus-low-rank form using trajectory samples, with computational cost scaling linearly in the system dimension and the number of trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18448v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-24-structure-preserving-leaky-integrate-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17219v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-24-structure-preserving-leaky-integrate-and</id>
-    <updated>2026-11-12T18:16:14+00:00</updated>
-    <summary type="html">&lt;p&gt;The leaky integrate-and-fire (LIF) neuron combines a passive membrane law with threshold-triggered firing and reset. We formulate this hybrid neuron model, under constant input, on an arbitrary Hilger time scale $\mathbb{T}$. Our central result is that, after the first spike, the firing times satisfy $t_{n+1}=Π_{\mathbb{T}}^{+}(t_n+T_c)$, where $T_c$ is the classical reset-to-threshold travel time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17219v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #neuroscience #post-quantum&lt;/p&gt;</summary>
+    <title>Nesting in additive manufacturing using quantum annealing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-22-nesting-in-additive-manufacturing-using"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18447v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-22-nesting-in-additive-manufacturing-using</id>
+    <updated>2026-11-13T17:22:19+00:00</updated>
+    <summary type="html">&lt;p&gt;Nesting in powder bed fusion (PBF), an additive manufacturing (AM) process, determines the positions and orientations of parts within the build space and influences build height and build time. As the number of parts and feasible placements increases, the nesting problem becomes computationally demanding. Exact approaches are limited to small problem sizes as computational effort increases rapidly with the problem size, while heuristic and metaheuristic approaches involve a trade-off between solution quality and computation time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18447v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
   </entry>
 </feed>

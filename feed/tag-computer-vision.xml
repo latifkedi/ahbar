@@ -5,13 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-vision.xml</id>
-  <updated>2026-11-15T12:20:19.629677126+00:00</updated>
+  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
   <entry>
-    <title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space. Frontier video generation models work in a VAE latent space that compresses video in both space and time.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-15-18-back-to-pixels-lifting-latent"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17336"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-15-18-back-to-pixels-lifting-latent</id>
-    <updated>2026-11-11T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17336&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>MMFlash: Faster Speculative Decoding for Vision-Language Models. Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-10-mmflash-faster-speculative-decoding-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18482"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-10-mmflash-faster-speculative-decoding-for</id>
+    <updated>2026-11-12T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18482&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>JVT: Just Video Transformer makes pixel-space video diffusion simple</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-11-jvt-just-video-transformer-makes"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.18549"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-11-jvt-just-video-transformer-makes</id>
+    <updated>2026-11-12T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choices that balance generation quality and computational efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18549&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-15-rethinking-in-spikes-mitigating-hallucinations"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.12901"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-15-rethinking-in-spikes-mitigating-hallucinations</id>
+    <updated>2026-10-13T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associated with hallucinations. We argue that anomalous steps can be identified by measuring the entropy deviation of each denoising step from its neighboring temporal window.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12901&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>
