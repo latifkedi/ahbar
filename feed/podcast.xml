@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #29 (2026-11-16)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-16</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-16:issue:29</guid>
-      <pubDate>2026-11-16T13:12:39.996728385+00:00</pubDate>
-      <description>Ahbar Sayı #29 (2026-11-16):
+      <title>Ahbar Günlük Bülten — Sayı #30 (2026-11-17)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-17</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-17:issue:30</guid>
+      <pubDate>2026-11-17T13:56:01.895369510+00:00</pubDate>
+      <description>Ahbar Sayı #30 (2026-11-17):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] Discord Yama Notları: 9 Kasım 2026. Discord&apos;a yakın zamanda uygulanan daha teknik düzeltmelerin daha ince ayrıntılarına göz atın.
-Yakın zamanda Discord&apos;a uygulanan daha teknik düzeltmelerin daha ince ayrıntılarına göz atın.
+1. [Bilgisayar Bilimi &amp; Yazılım] Discord Patch Notes: November 9, 2026. Check out the finer details of the more technical fixes implemented into Discord recently. — Discord Systems &amp; Database Engineering (Bilgisayar Bilimi &amp; Yazılım)
+Bilgisayar Bilimi &amp; Yazılım alanında Discord Systems &amp; Database Engineering tarafından yayımlanan teknik araştırma ve analiz raporu: Check out the finer details of the more technical fixes implemented into Discord recently.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] MMFlash: Görme-Dil Modelleri için Daha Hızlı Spekülatif Kod Çözme. Spekülatif kod çözme, hafif bir taslak hazırlayıcının bir hedef model tarafından paralel doğrulama için belirteçler önermesine olanak tanıyarak üretimi hızlandırır.
-Spekülatif kod çözme, hafif bir taslak hazırlayıcının bir hedef model tarafından paralel doğrulama için belirteçler önermesine olanak tanıyarak üretimi hızlandırır. DFlash gibi dağıtım taslakları, tek bir ileri geçişte tüm bir jeton bloğunu önerir, ancak esas olarak salt metin görevlerine odaklanır ve çok modlu taslak oluşturmayı yeterince araştırılmamış halde bırakır. Bu ayarı incelemek için öncelikle bir ölçüm sunuyoruz:
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data — Hugging Face Daily Papers (Yapay Zekâ &amp; Makine Öğrenmesi)
+Yapay Zekâ &amp; Makine Öğrenmesi alanında Hugging Face Daily Papers tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.
 
-3. [Matematik &amp; Biçimsel Bilimler] Değişim süreci için hareketli parçacık lemmasının katılığı. $G=(V,c)$ sonlu bağlı ağırlıklı bir grafik olsun.
-$G=(V,c)$ sonlu bağlı ağırlıklı bir grafik olsun. İki terminal köşesi $x\neq y \in V$ boyunca birim voltaj düşüşüne bağlı olarak $G$ üzerindeki değişim süreci için hareketli parçacık lemmasında eşitliği elde etmek için kesin koşulları oluşturuyoruz. Birincisi, eşitlik yalnızca en fazla iki satıra sahip bölümler tarafından indekslenen indirgenemez temsillerde meydana gelebilir.
+3. [Matematik &amp; Biçimsel Bilimler] Peak state transfer in trees and the cost of distance — arXiv Mathematics (NT, CO, AG, LO, AT, GR) (Matematik &amp; Biçimsel Bilimler)
+Matematik &amp; Biçimsel Bilimler alanında arXiv Mathematics (NT, CO, AG, LO, AT, GR) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\mathrm{e}^{\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size.
 
-4. [Fizik, Kuantum &amp; Uzay] Beyond Blossom: Yerel Ön Kod Çözme ve Mimariye Uygun Optimizasyonlarla Yüzey Kodları için MWPM Kod Çözmeyi Hızlandırma
-Minimum ağırlıkta mükemmel eşleştirme (MWPM), yüzey kodlarının kodunu çözmek için yaygın olarak kullanılır, ancak hesaplama maliyeti kod mesafesiyle birlikte artar. Yüzey kodları için son teknoloji CPU tabanlı MWPM kod çözücü Beyond Blossom&apos;u sunuyoruz. Yerel ön kod çözme, mimariye duyarlı optimizasyon ve boru hattı çapında paralellik yoluyla algoritmik optimizasyonu birleştirir ve böylece…
+4. [Fizik, Kuantum &amp; Uzay] Hyperkagome antiferromagnetism in the iron garnet Almandine Fe$_3$Al$_2$Si$_3$O$_{12}$ — arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat) (Fizik, Kuantum &amp; Uzay)
+Fizik, Kuantum &amp; Uzay alanında arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Antiferromagnets on the hyperkagome lattice provide a three-dimensional route to strong magnetic frustration, but experimentally accessible realizations with well-established microscopic Hamiltonians remain scarce. Garnets are a broad family of materials in which magnetic ions can form two interpenetrating hyperkagome lattices, giving rise to spin glass, spin-liquid and hidden-order physics. Here we identify the iron aluminosilicate garnet almandine, Fe$_3$Al$_2$Si$_3$O$_{12}$, as a spin-$2$ hyperkagome antiferromagnet.
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Cuma günü için güvenlik güncellemeleri
-Güvenlik güncellemeleri AlmaLinux tarafından yayınlanmıştır (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, Tigervnc, vim ve xorg-x11-server), Debian (apache2, c-ares, linux-6.1…
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Security updates for Monday — LWN.net (Linux &amp; Kernel Engineering) (Sistem, Donanım &amp; Tüketici Teknolojisi)
+Sistem, Donanım &amp; Tüketici Teknolojisi alanında LWN.net (Linux &amp; Kernel Engineering) tarafından yayımlanan teknik araştırma ve analiz raporu: Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, tigervnc, vim, and xorg-x11-server), Debian (apache2, c-ares, linux-6.12, node-shell-quote, nova, parted, postgresql-17,…
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] COPASI Becerileri: Basico aracılığıyla COPASI analizleri için Aracı Becerileri
-Biyokimyasal modeller, biyolojik sistemleri, moleküler türlerin zaman içindeki üretimini, tüketimini ve dönüşümünü tanımlayan reaksiyon ağları olarak temsil eder. Bu modeller, sistem dinamiklerini analiz etmek için niceliksel bir çerçeve sağlar ve geleneksel ıslak laboratuvar yaklaşımlarını tamamlayan hesaplamalı deneylere olanak tanıyarak araştırmacıların mekanik bilgi edinmesine yardımcı olur.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] The rise of AI in mathematics — and science — Nature Computational Science (Biyoteknoloji, Tıp &amp; Malzeme Bilimi)
+Biyoteknoloji, Tıp &amp; Malzeme Bilimi alanında Nature Computational Science tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Nature Computational Science, Published online: 17 November 2026; doi:10.1038/s43588-026-01112-8 We discuss the role of artificial intelligence (AI) in mathematical research and explore its implications for the computational science community.
 
-7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
-Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
+7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Possible futures of the Ethereum protocol, part 6: The Splurge — Vitalik Buterin&apos;s Blog (Kriptografi, Web3 &amp; Dağıtık Protokoller)
+Kriptografi, Web3 &amp; Dağıtık Protokoller alanında Vitalik Buterin&apos;s Blog tarafından yayımlanan teknik araştırma ve analiz raporu: Published via Vitalik Buterin&apos;s Blog in Cryptography, Web3 &amp; Protocols. Primary discussion and technical specification available at the linked source.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Mekansal Oylama Oyunlarında Haklardan Kurtulma
-Oy hakları, grup üyeliği ve kabul edilebilir söylemin sınırları ile ilgili soruların tümü, seçmenlerin, grup üyelerinin ve kabul edilebilir yorumcuların genellikle kendi dahil etme ve hariç tutma kurallarının nihai karar vericileri olduğu yinelenen, kendi kendine istikrar meselesini içerir. İdeolojik veya konu çeşitliliğinin bıçaklamayı nasıl etkileyebileceğini anlamak için…
+8. [Ekonomi, Finans &amp; Makro Analiz] Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity — arXiv Economics (econ.EM, econ.GN, econ.TH) (Ekonomi, Finans &amp; Makro Analiz)
+Ekonomi, Finans &amp; Makro Analiz alanında arXiv Economics (econ.EM, econ.GN, econ.TH) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: A network in which every bank pays in full can nevertheless admit a self-fulfilling settlement freeze under the same balance-sheet fundamentals. Thus, observing full repayment does not establish the uniqueness or robustness of the payment equilibrium. We derive this result from a precautionary-liquidity choice: banks may delay otherwise feasible payments to insure an interim funding need, trading a positive settlement-discipline cost against the marginal value of retained cash.
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Çin Nükleer Silah Yarışı İstemiyor Amerika gereksiz bir rekabetin önüne geçebilir.
-Amerika gereksiz bir rekabetin önüne geçebilir.
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Is China Misreading the Moment? — Foreign Affairs (Uluslararası İlişkiler, Jeopolitik &amp; Strateji)
+Uluslararası İlişkiler, Jeopolitik &amp; Strateji alanında Foreign Affairs tarafından yayımlanan teknik araştırma ve analiz raporu: When U.S. President Donald Trump lands in Shenzhen later this week for the Asia-Pacific Economic Cooperation summit, he will sit down with Chinese leader Xi Jinping for the fourth time amid an unexpected détente between Washington and Beijing. The trade war of 2025 is in abeyance, the two governments have announced a relationship of “constructive strategic stability,” and, to the alarm of American allies, Trump and Xi are planning to meet with Russian President Vladimir Putin. Beneath the surface, however, the détente is beginning to crack.
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Salgın modelleme ve tahmin için fizik bilgili sinir ağları ve mekanik modellerin sistematik bir karşılaştırması
-Fizik Bilgili Sinir Ağları (PINN&apos;ler) yakın zamanda salgın modelleme ve tahminde umut verici sonuçlarla uygulandı. Bu yöntemler mekanik bilgiyi veriye dayalı öğrenmeyle bütünleştirir. Ancak bunların köklü ve daha basit salgın modellerine karşı karşılaştırmalı performansları yeterince araştırılmamıştır.
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Leverage-Enhanced Sampling Owen Method for Explainable Artificial Intelligence — arXiv Game Theory, Complex Systems &amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph) (Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler)
+Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler alanında arXiv Game Theory, Complex Systems &amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Recently, the Shapley value has been widely applied in machine learning for feature importance analysis and model explainability. The multilinear extension of games proposed by Owen (1972) expresses the Shapley value as the integral of partial derivatives along the main diagonal of the cube. Direct evaluation of this integral requires exponential-time computation of the partial derivatives.
 
 </description>
       <itunes:duration>300</itunes:duration>

@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-math.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-math.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>Rigidity of the moving particle lemma for the interchange process. Let $G=(V,c)$ be a finite connected weighted graph.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-19-rigidity-of-the-moving-particle"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18483v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-19-rigidity-of-the-moving-particle</id>
-    <updated>2026-11-13T17:57:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $G=(V,c)$ be a finite connected weighted graph. We establish the exact conditions for attaining equality in the moving particle lemma for the interchange process on $G$ subject to a unit voltage drop across two terminal vertices $x\neq y \in V$. First, equality can occur only in irreducible representations indexed by partitions with at most two rows.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18483v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+    <title>Peak state transfer in trees and the cost of distance</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-19-peak-state-transfer-in-trees"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21567v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-19-peak-state-transfer-in-trees</id>
+    <updated>2026-11-16T18:41:31+00:00</updated>
+    <summary type="html">&lt;p&gt;There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\mathrm{e}^{\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21567v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Quadratic APN Functions of $\mathbb{F}_2^{10}$ with a Self-Equivalence of Prime Order</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-20-quadratic-apn-functions-of-mathbb"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18358v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-20-quadratic-apn-functions-of-mathbb</id>
-    <updated>2026-11-13T16:06:46+00:00</updated>
-    <summary type="html">&lt;p&gt;Almost perfect nonlinear (APN) functions of $\mathbb{F}_2^n$ have the lowest possible differential uniformity. The only known APN permutation in even dimension, in dimension six, is equivalent to a quadratic APN function with a nontrivial linear self-equivalence; no APN permutation is known for even $n \geq 8$. In a published collection of about 3.8 million quadratic APN classes of dimension eight, at most 0.34% have a nontrivial linear self-equivalence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18358v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #cryptography&lt;/p&gt;</summary>
+    <title>Complex Moments of the Derivative of the Riemann Zeta Function. We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-20-complex-moments-of-the-derivative"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21551v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-20-complex-moments-of-the-derivative</id>
+    <updated>2026-11-16T18:32:03+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model. For each fixed $σ&amp;gt;1/2$ and every $s\in\mathbb{C}$ with $\operatorname{Re}(s)&amp;gt;0$, we show, under the Lindelöf hypothesis, that the $2s$-th moment of $|ζ&amp;apos;(σ+\mathrm{i}t)|$ over $t\in[1,T]$ converges, as $T\to\infty$, to the corresponding moment of the derivative of the random Euler product. We then establish, unconditionally, an asymptotic formula for the latter moment as $σ\downarrow 1/2$ throughout the half-plane $\operatorname{Re}(s)&amp;gt;0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21551v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Learning observable propagation with sparse local moments. We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-21-learning-observable-propagation-with-sparse"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18448v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-21-learning-observable-propagation-with-sparse</id>
-    <updated>2026-11-13T17:22:20+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories. Thanks to the locality of the dynamics, we construct the transition moment matrices by projecting the Markov operator onto low-order connected-cluster basis functions supported near the target observable. Exploiting the spatial decay of time-lagged correlations, {these matrices} can be approximated in sparse-plus-low-rank form using trajectory samples, with computational cost scaling linearly in the system dimension and the number of trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18448v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nesting in additive manufacturing using quantum annealing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-22-nesting-in-additive-manufacturing-using"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18447v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-22-nesting-in-additive-manufacturing-using</id>
-    <updated>2026-11-13T17:22:19+00:00</updated>
-    <summary type="html">&lt;p&gt;Nesting in powder bed fusion (PBF), an additive manufacturing (AM) process, determines the positions and orientations of parts within the build space and influences build height and build time. As the number of parts and feasible placements increases, the nesting problem becomes computationally demanding. Exact approaches are limited to small problem sizes as computational effort increases rapidly with the problem size, while heuristic and metaheuristic approaches involve a trade-off between solution quality and computation time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18447v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>How rigid is maximum cardinality search? Stability and locality of MCS orderings under edge updates, verified in Lean</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-23-how-rigid-is-maximum-cardinality"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18369v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-23-how-rigid-is-maximum-cardinality</id>
-    <updated>2026-11-13T16:15:18+00:00</updated>
-    <summary type="html">&lt;p&gt;For which sets F of edge modifications do a graph G and the modified graph share a maximum cardinality search (MCS) ordering? We prove that they do whenever, along every proper common MCS prefix, each unchosen vertex&amp;apos;s neighbour count in the second graph exceeds its count in the first by zero or one. In particular, inserting or deleting any matching, or flipping a single edge, preserves a common ordering, and under the same hypothesis every common MCS prefix extends to a full common ordering without backtracking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18369v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DeCompCert: A Verified Decompiler for CompCert-Generated AArch64. DeCompCert is a Rocq-verified decompiler for AArch64 assembly generated by CompCert.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-24-decompcert-a-verified-decompiler-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18055v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-24-decompcert-a-verified-decompiler-for</id>
-    <updated>2026-11-13T11:28:29+00:00</updated>
-    <summary type="html">&lt;p&gt;DeCompCert is a Rocq-verified decompiler for AArch64 assembly generated by CompCert. It reconstructs CompCert C through nine reverse passes, combining deductively verified transformations with translation validation. Untrusted OCaml and Datalog analyses propose candidate reconstructions, while verified validators accept only candidates that satisfy the required semantic correspondence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18055v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>No free lattice contains an infinite ascending chain of copies of FL(3)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-25-no-free-lattice-contains-an"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18541v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-25-no-free-lattice-contains-an</id>
-    <updated>2026-11-13T18:49:26+00:00</updated>
-    <summary type="html">&lt;p&gt;No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3), the free lattice on three generators; this answers a question that R. A. Dean asked and the second author&amp;apos;s 1997 notes on the problem left open. Every such chain would yield, inside FL(3), a coherent chain of proper self-embeddings $Θ_0, Θ_1, Θ_2, \dots$ with $Θ_k \circ Θ_j = Θ_j$ for $j &amp;lt; k$, so that each later embedding fixes the image of each earlier one pointwise.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18541v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #algebra-geometry #logic&lt;/p&gt;</summary>
+    <title>CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-21-compcert4lean-porting-a-verified-c"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21084v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-21-compcert4lean-porting-a-verified-c</id>
+    <updated>2026-11-16T13:32:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We present CompCert4Lean, a large-scale port of CompCert 3.17&amp;apos;s verified compiler core from Rocq to Lean, completed in approximately six weeks by one expert directing parallel LLM agents. Our migration workflow partitions the development along its dependencies, audits translated definitions and theorem statements before large-scale proof reconstruction, and then reconstructs proofs in parallel against stable interfaces. The resulting compiler covers typed CompCert C through x86-64 assembly, discharges all 4,908 recorded proof obligations without project-specific axioms, and produces executable Linux binaries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21084v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Introducing MathHelm: A Place to discuss AI-generated papers. [This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-26-introducing-mathhelm-a-place-to"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-22-introducing-mathhelm-a-place-to"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-26-introducing-mathhelm-a-place-to</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-22-introducing-mathhelm-a-place-to</id>
     <updated>2026-11-14T03:19:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the wider public. They help us share ideas, deepen our collective understanding, see where the field stands, and decide what to explore next.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>247A, Notes 4: Weighted estimates and pseudodifferential operators</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-27-247a-notes-4-weighted-estimates"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-23-247a-notes-4-weighted-estimates"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-27-247a-notes-4-weighted-estimates</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-23-247a-notes-4-weighted-estimates</id>
     <updated>2026-11-13T07:09:00+00:00</updated>
     <summary type="html">&lt;p&gt;— 1. Weighted inequalities — In the previous notes we have taken a linear or sublinear operator on a measure space and established mapping properties, such as These estimates reveal information about how the height and width of is controlled by the height and width of . However, these estimates do not indicate where the […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-24-lean-grimoire"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-24-lean-grimoire</id>
+    <updated>2026-11-12T02:36:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>“Six Math Essentials” now available</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-25-six-math-essentials-now-available"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-25-six-math-essentials-now-available</id>
+    <updated>2026-11-10T16:58:00+00:00</updated>
+    <summary type="html">&lt;p&gt;My popular mathematics book, “Six Math Essentials” (Six Maths Essentials in the UK), which was previously announced on this blog in February, is now available (in print, digital, and audiobook formats). Some related links: Review by Karmela Padavic-Callaghan (New Scientist) Review (Publishers Weekly) Review (Library Journal) Sample excerpt (via Science Friday), with related podcast interview […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-26-our-survey-of-early-career"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-26-our-survey-of-early-career</id>
+    <updated>2026-11-09T17:12:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What should we teach our (undergraduate) students?. [This is a guest post by Jana Gevertz and Steffen Marcus.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-27-what-should-we-teach-our"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-27-what-should-we-teach-our</id>
+    <updated>2026-11-08T15:56:34+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Jana Gevertz and Steffen Marcus. This blog post was initially written in a different file format and converted using AI. — T.] In the last few months AI has hit our discipline with a frightening force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

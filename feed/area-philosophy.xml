@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-philosophy.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-philosophy.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>A systematic comparison of physics-informed neural networks and mechanistic models for epidemic modeling and forecasting</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-82-a-systematic-comparison-of-physics"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18389v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-82-a-systematic-comparison-of-physics</id>
-    <updated>2026-11-13T16:32:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Physics-Informed Neural Networks (PINNs) have recently been applied to epidemic modeling and forecasting with promising results. These methods integrate mechanistic knowledge with data-driven learning. Yet, their comparative performance against well-established, and simpler epidemic models is underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18389v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #neuroscience&lt;/p&gt;</summary>
+    <title>Leverage-Enhanced Sampling Owen Method for Explainable Artificial Intelligence</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-82-leverage-enhanced-sampling-owen-method"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21504v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-82-leverage-enhanced-sampling-owen-method</id>
+    <updated>2026-11-16T18:02:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Recently, the Shapley value has been widely applied in machine learning for feature importance analysis and model explainability. The multilinear extension of games proposed by Owen (1972) expresses the Shapley value as the integral of partial derivatives along the main diagonal of the cube. Direct evaluation of this integral requires exponential-time computation of the partial derivatives.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The directions of science: How we search the unknown</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-83-the-directions-of-science-how"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18349v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-83-the-directions-of-science-how</id>
-    <updated>2026-11-13T15:58:09+00:00</updated>
-    <summary type="html">&lt;p&gt;Science is producing knowledge at unprecedented scale, while artificial intelligence promises to accelerate the generation of hypotheses, analyses, and scientific outputs further. Yet increasing the volume of research does not necessarily expand the range of directions science effectively explores. We argue that science can be understood as a collective search process in which finite resources are allocated across an evolving space of possible research trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18349v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>A Polynomial-Time Algorithm for Constant-Factor EFX Allocations of Chores</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-83-a-polynomial-time-algorithm-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21387v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-83-a-polynomial-time-algorithm-for</id>
+    <updated>2026-11-16T16:46:47+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the fair division of indivisible chores among agents with additive disutilities, focusing on the central fairness notion of envy-freeness up to any chore (EFX), and its multiplicative approximations. Although the existence of constant-factor approximations to EFX are known, computing such an allocation in polynomial time remained open. We resolve this question by giving an algorithm that, for every $\varepsilon\in(0,1)$, computes a $(3+\varepsilon)$-EFX allocation in time polynomial in the input length and $1/\varepsilon$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21387v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Go under Chinese Rules with a Succinct Game History is Complete for Exponential Space</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-84-go-under-chinese-rules-with"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18201v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-84-go-under-chinese-rules-with</id>
-    <updated>2026-11-13T14:07:41+00:00</updated>
-    <summary type="html">&lt;p&gt;The complexity of games is a central topic in combinatorics, algorithms, and computational complexity theory. It asks how difficult it is to determine the winner of a combinatorial game under optimal play. Many games, such as Hex or Othello, are PSPACE-complete: the game tree has polynomial depth, so the game can be decided in PSPACE.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18201v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
+    <title>Why Cassini&apos;s Oval Could Not Replace Kepler&apos;s Ellipse?. In the later seventeenth century, Kepler&apos;s ellipse was not yet accepted.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-84-why-cassini-s-oval-could"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21336v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-84-why-cassini-s-oval-could</id>
+    <updated>2026-11-16T16:20:08+00:00</updated>
+    <summary type="html">&lt;p&gt;In the later seventeenth century, Kepler&amp;apos;s ellipse was not yet accepted. Ward claimed that Boulliau&amp;apos;s conic hypothesis amounted to a Ptolemaic equant at the ellipse&amp;apos;s empty focus, and built his own model on it. Around 1675--1680, Giovanni Domenico Cassini proposed another curve, the ``oval&amp;apos;&amp;apos;, a genus-1 quartic with no closed-form Kepler equation; yet its eccentric anomaly shares exactly the leading coefficient of Kepler&amp;apos;s, and its empty focus is, for the Sun, 38 times closer to a true equant than the ellipse&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21336v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Latent resonances in oscillator networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-85-latent-resonances-in-oscillator-networks"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18031v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-85-latent-resonances-in-oscillator-networks</id>
-    <updated>2026-11-13T10:59:13+00:00</updated>
-    <summary type="html">&lt;p&gt;In networks of coupled oscillators, from neural circuits to power grids, damping is expected to suppress oscillations because of its dissipativity. Here we show that local damping can, counterintuitively, amplify oscillations along some input-output channels, while the network&amp;apos;s global oscillation energy decreases and its spectral properties improve. The amplified oscillation arises from a latent resonance that lies in the spectrum yet barely manifests.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18031v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #neuroscience&lt;/p&gt;</summary>
+    <title>Nearly Settling the Complexity of Connected $\varepsilon$-Envy-Free Cake Cutting</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-85-nearly-settling-the-complexity-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20890v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-85-nearly-settling-the-complexity-of</id>
+    <updated>2026-11-16T10:59:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Envy-free cake cutting has been one of the central problems in fair division. In cake cutting, agents&amp;apos; preferences over the cake are accessed through Robertson--Webb (RW) queries. For three or more agents, no algorithm that makes finitely many RW queries can always find a contiguous, exactly envy-free allocation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20890v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Emulating spatially extended systems using Fourier Neural Operator</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-86-emulating-spatially-extended-systems-using"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18007v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-86-emulating-spatially-extended-systems-using</id>
-    <updated>2026-11-13T10:35:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Operator Learning (OL) algorithms approximate underlying mathematical operators by mapping entire classes of input functions to their corresponding solutions. For instance, architectures such as the Fourier Neural Operator (FNO) have been trained on numerical datasets generated by isolated, stiff ionic models to provide a data-driven alternative to traditional numerical integration schemes. However, real-world biological and physical systems typically consist of interconnected spatial units arranged in complex, heterogeneous networks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18007v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #neuroscience&lt;/p&gt;</summary>
+    <title>Highlighting Ukrainian Contributions to the Development of the Field of Particle Physics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-86-highlighting-ukrainian-contributions-to-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20886v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-86-highlighting-ukrainian-contributions-to-the</id>
+    <updated>2026-11-16T10:57:32+00:00</updated>
+    <summary type="html">&lt;p&gt;The contribution examines the role played by Ukrainian scientists, both in Ukraine and abroad, in the development of particle physics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20886v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Indefinite causal order with definite Bohmian trajectories for the quantum switch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-87-indefinite-causal-order-with-definite"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17906v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-87-indefinite-causal-order-with-definite</id>
-    <updated>2026-11-13T08:49:05+00:00</updated>
-    <summary type="html">&lt;p&gt;We analyze the notion of indefinite causal order (ICO) from the standpoint of the deterministic de Broglie--Bohm theory, based on the notion of trajectories in configuration space. More precisely, we study the physics of the quantum switch (QS) interferometer within a Bohmian framework and show how the notion of causality is preserved in this approach. Furthermore, we investigate device-independent certification and causal inequalities applied to an entangled quantum system, and show that in this regime too, the notions of trajectories and of a strict causal order are perfectly preserved.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17906v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quantum-computing&lt;/p&gt;</summary>
+    <title>Percolation under Edge-Reversal: Creation and Destruction of Strong Connectivity in Directed Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-87-percolation-under-edge-reversal-creation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20717v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-87-percolation-under-edge-reversal-creation</id>
+    <updated>2026-11-16T08:24:24+00:00</updated>
+    <summary type="html">&lt;p&gt;We study how the connectivity of a directed network changes when each edge is independently reversed with probability $p$, while the underlying connections remain fixed. Reversal changes the in- and out-degrees, and we derive the exact transformation of the joint in--out-degree distribution and characterize its evolution under repeated reversal. However, the transformation does not rewire the network, and every edge still connects the same pair of vertices.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20717v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Spatial scaling of heterogeneity transfer from boron concentration to absorbed dose in boron neutron capture therapy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-88-spatial-scaling-of-heterogeneity-transfer"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17699v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-88-spatial-scaling-of-heterogeneity-transfer</id>
-    <updated>2026-11-13T03:25:11+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate how the amplitude and spatial correlation length of boron-concentration fluctuations affect the boron-induced absorbed-dose distribution in boron neutron capture therapy (BNCT). The spatial energy-deposition response of alpha particles and lithium nuclei is obtained using Geant4 and convolved with three-dimensional correlated lognormal boron fields under a uniform neutron field. Approximately $90\%$ of the reaction-product energy is deposited within a radius of $6.00~μ\mathrm{m}$, with a characteristic deposition length of $\ell_B\approx2.05~μ\mathrm{m}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17699v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Borrowed Strength, Imported Risk: Capability Gaps and Reception Govern Heterogeneous LLM Debate</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-88-borrowed-strength-imported-risk-capability"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20649v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-88-borrowed-strength-imported-risk-capability</id>
+    <updated>2026-11-16T07:06:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Heterogeneous LLM debate is often attributed to collective reasoning that creates capability beyond any member. In the matched panels we study, the aggregate gain is dominated by capability transfer: a peer supplies task competence and receivers absorb a measurable fraction. Across nine matched directions, honest benefit and first-exchange adversarial exposure open when the peer has a positive same-task advantage, and honest gain is closely described by the empirical decomposition $ΔA_d^{\mathrm{hon}}\approxκΓ_d^+ρ_d$, the product of that advantage and the receiver&amp;apos;s reception.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20649v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Tournament Equilibrium Set Is PSPACE-Complete, Even under Hereditary Uniqueness</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-89-the-tournament-equilibrium-set-is"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17312v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-89-the-tournament-equilibrium-set-is</id>
-    <updated>2026-11-12T18:57:05+00:00</updated>
-    <summary type="html">&lt;p&gt;The tournament equilibrium set (TEQ), proposed by Schwartz in 1990, is a classical voting rule based on pairwise majority comparisons. Its definition is recursive: an alternative is judged by the alternatives that beat it, called its dominators, and by which of those dominators TEQ itself selects. Deciding whether a given alternative belongs to TEQ was known to be NP-hard and to lie in PSPACE.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17312v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
+    <title>A Combinatorial Characterization of Immunity to the Strong Braess Paradox</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-89-a-combinatorial-characterization-of-immunity"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20640v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-89-a-combinatorial-characterization-of-immunity</id>
+    <updated>2026-11-16T07:01:18+00:00</updated>
+    <summary type="html">&lt;p&gt;In a nonatomic congestion game, a strong Braess paradox occurs when reducing resource costs, population demands, or both increases at least one population&amp;apos;s equilibrium cost. We characterize immunity when each population&amp;apos;s available strategies form a fixed finite family of nonempty subsets of a common resource set. Immunity means that no such paradox can arise for any nonnegative continuous nondecreasing resource cost functions common to all populations and any positive demand vector.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20640v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Submodular Secretary Problem: Tight $1-1/e$ for Monotone Objectives, and Strictly Between $1/e$ and $1/2$ in General</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-90-the-submodular-secretary-problem-tight"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17292v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-90-the-submodular-secretary-problem-tight</id>
-    <updated>2026-11-12T18:53:44+00:00</updated>
-    <summary type="html">&lt;p&gt;In the submodular secretary problem with a cardinality constraint, $n$ elements arrive in uniformly random order, and an algorithm must irrevocably accept or reject each one on arrival so as to maximize a nonnegative submodular function over sets of at most $k$ elements. For monotone objectives we settle the problem: the optimal competitive ratio tends to exactly $1-1/e$ as $k\to\infty$, and its worst case over all budgets $k$ is exactly $1/e$. The bound $1-1/e$ cannot be exceeded even with unlimited computation, and it is achieved by a single algorithm with at most $4n+1$ value queries; previously the best ratio without a shortlist was $1/e-o(1)$, with exponentially many queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17292v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms&lt;/p&gt;</summary>
+    <title>Same Papers, Different Verdicts: Tracing Version Drift in LLM Peer Review. Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-90-same-papers-different-verdicts-tracing"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20608v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-90-same-papers-different-verdicts-tracing</id>
+    <updated>2026-11-16T06:32:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months. We audit twenty frontier models from OpenAI, Google and Anthropic on ICLR 2027 submissions while they were under review, with tests registered before the decisions. Between an earlier and a later version of Claude Opus and of Gemini, the share of papers placed on the accept side falls by 52 and 53 percentage points on 183 and 60 randomly drawn submissions, and by 43 to 79 points in six further paired comparisons, with no paper moving up in any of them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20608v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

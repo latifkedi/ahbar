@@ -5,29 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>Rigidity of the moving particle lemma for the interchange process. Let $G=(V,c)$ be a finite connected weighted graph.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-19-rigidity-of-the-moving-particle"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18483v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-19-rigidity-of-the-moving-particle</id>
-    <updated>2026-11-13T17:57:28+00:00</updated>
-    <summary type="html">&lt;p&gt;Let $G=(V,c)$ be a finite connected weighted graph. We establish the exact conditions for attaining equality in the moving particle lemma for the interchange process on $G$ subject to a unit voltage drop across two terminal vertices $x\neq y \in V$. First, equality can occur only in irreducible representations indexed by partitions with at most two rows.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18483v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Learning observable propagation with sparse local moments. We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-21-learning-observable-propagation-with-sparse"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18448v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-21-learning-observable-propagation-with-sparse</id>
-    <updated>2026-11-13T17:22:20+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories. Thanks to the locality of the dynamics, we construct the transition moment matrices by projecting the Markov operator onto low-order connected-cluster basis functions supported near the target observable. Exploiting the spatial decay of time-lagged correlations, {these matrices} can be approximated in sparse-plus-low-rank form using trajectory samples, with computational cost scaling linearly in the system dimension and the number of trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18448v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nesting in additive manufacturing using quantum annealing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-22-nesting-in-additive-manufacturing-using"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18447v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-22-nesting-in-additive-manufacturing-using</id>
-    <updated>2026-11-13T17:22:19+00:00</updated>
-    <summary type="html">&lt;p&gt;Nesting in powder bed fusion (PBF), an additive manufacturing (AM) process, determines the positions and orientations of parts within the build space and influences build height and build time. As the number of parts and feasible placements increases, the nesting problem becomes computationally demanding. Exact approaches are limited to small problem sizes as computational effort increases rapidly with the problem size, while heuristic and metaheuristic approaches involve a trade-off between solution quality and computation time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18447v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
+    <title>Complex Moments of the Derivative of the Riemann Zeta Function. We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-20-complex-moments-of-the-derivative"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21551v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-20-complex-moments-of-the-derivative</id>
+    <updated>2026-11-16T18:32:03+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model. For each fixed $σ&amp;gt;1/2$ and every $s\in\mathbb{C}$ with $\operatorname{Re}(s)&amp;gt;0$, we show, under the Lindelöf hypothesis, that the $2s$-th moment of $|ζ&amp;apos;(σ+\mathrm{i}t)|$ over $t\in[1,T]$ converges, as $T\to\infty$, to the corresponding moment of the derivative of the random Euler product. We then establish, unconditionally, an asymptotic formula for the latter moment as $σ\downarrow 1/2$ throughout the half-plane $\operatorname{Re}(s)&amp;gt;0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21551v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

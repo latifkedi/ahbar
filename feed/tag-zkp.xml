@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-zkp.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-zkp.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-56-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-56-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-56-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-56-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Pipes Model for Latency and Throughput Analysis</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-57-the-pipes-model-for-latency"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1116"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-57-the-pipes-model-for-latency</id>
-    <updated>2025-06-13T13:42:36+00:00</updated>
-    <summary type="html">&lt;p&gt;In much of the distributed computing literature, latency is expressed as the number of communication rounds or network delays; such metrics do not directly account for the amount of data sent or the dependencies among parties sending the data. Throughput is also normally evaluated empirically. As a consequence, the standard models used for analysing state machine replication (SMR) protocols do not by themselves provide an end-to-end analytical comparison of practical latency and throughput as functions of per-processor bandwidth and transaction arrival rate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1116&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems&lt;/p&gt;</summary>
+    <title>The Geometry of Zero Knowledge: Tight Masking and Efficient Multilinear Arguments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-57-the-geometry-of-zero-knowledge"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2019"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-57-the-geometry-of-zero-knowledge</id>
+    <updated>2026-09-14T08:19:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Zero-knowledge proofs have become a fundamental tool for verifiable computation and privacy-preserving applications, driving growing interest in proof systems that are both succinct and efficient. In polynomial-based arguments, however, achieving zero knowledge introduces additional costs. Random masks must hide the evaluations and intermediate messages revealed during verification while preserving the underlying computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2019&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ideal Pseudorandom Code, Revisited</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-58-ideal-pseudorandom-code-revisited"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-58-ideal-pseudorandom-code-revisited</id>
-    <updated>2026-08-11T12:03:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>Information-Theoretic Strong Traceable Secret Sharing Schemes. Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-58-information-theoretic-strong-traceable-secret"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/435"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-58-information-theoretic-strong-traceable-secret</id>
+    <updated>2026-03-03T15:45:48+00:00</updated>
+    <summary type="html">&lt;p&gt;Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares. More precisely, a group of corrupted parties generates a reconstruction box $R$ that, given enough valid shares as input, reconstructs the secret. The goal is to trace $R$ back to at least one of the corrupted parties using only black-box access to it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/435&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Toward Eﬃcient Post-Quantum Bitcoin Bridges. BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-59-toward-e-cient-post-quantum"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2877"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-59-toward-e-cient-post-quantum</id>
-    <updated>2026-11-12T11:55:38+00:00</updated>
-    <summary type="html">&lt;p&gt;BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that authenticate them and the signatures that bind them to transactions. Existing designs garble elliptic-curve succinct non-interactive argument of knowledge (SNARK) veriﬁers, which a quantum adversary breaks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2877&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #consensus&lt;/p&gt;</summary>
+    <title>Improved Differential-Linear Cryptanalysis of Orthros, Gleeok, ZIP-AES, and ZIP-GIFT</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-59-improved-differential-linear-cryptanalysis-of"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2255"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-59-improved-differential-linear-cryptanalysis-of</id>
+    <updated>2026-09-29T02:44:45+00:00</updated>
+    <summary type="html">&lt;p&gt;We improve differential-linear distinguishers and derive key-recovery attacks on reduced-round versions of the PRFs Orthros, Gleeok, ZIP-AES, ZIP-GIFT-64, and ZIP-GIFT-128. Relative to previous differential-linear analyses, we extend the reported coverage for Orthros from 7 to 9 rounds and for Gleeok-128 from 4 to 5 rounds. For Orthros and Gleeok-128, we obtain estimated correlation magnitudes $2^{-61.40}$ and $2^{-31.71}$, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2255&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Extending the Schur--Macaulay Framework for UOV Attacks via Truncated Polynomial Algebras</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-60-extending-the-schur-macaulay-framework"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2444"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-60-extending-the-schur-macaulay-framework</id>
-    <updated>2026-10-11T10:08:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Building on the ideal-inclusion framework of Ding, Li, and Tao, we reformulate and extend the Schur--Macaulay approach of Merz and Ran using multigraded $p$-truncated polynomial algebras over arbitrary finite fields. The construction admits a reconciliation interpretation involving multiple oil vectors. Combining divided powers with transfer relation spaces, we derive quotient-dimension criteria for recovering graded components of the hidden oil-space ideal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2444&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Practical Keyword SPIR with Lightweight Clients: Hintless and Efficient</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-60-practical-keyword-spir-with-lightweight"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1883"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-60-practical-keyword-spir-with-lightweight</id>
+    <updated>2026-09-03T18:17:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Keyword private information retrieval (keyword PIR) enables a client to retrieve the value associated with a keyword without revealing the queried keyword, generalizing traditional index PIR. This work advances the state of the art of Hao et al. (USENIX Security 2025) by addressing several key limitations of their constructions, most notably the efficiency bottleneck of their generic framework and the over-revealing nature of their more efficient designs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1883&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #databases #rag&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Shuffling is Universal: Statistical Additive Randomized Encodings for All Functions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-61-shuffling-is-universal-statistical-additive"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1442"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-61-shuffling-is-universal-statistical-additive</id>
-    <updated>2025-08-08T03:25:23+00:00</updated>
-    <summary type="html">&lt;p&gt;The shuffle model is a widely used abstraction for non-interactive anonymous communication. It allows $n$ parties holding private inputs $x_1,\dots,x_n$ to simultaneously send messages to an evaluator, so that the messages are received in a random order. The evaluator can then compute a joint function $f(x_1,\dots,x_n)$, ideally while learning nothing else about the private inputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1442&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
+    <title>Unconditional Unclonable Encryption</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-61-unconditional-unclonable-encryption"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1511"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-61-unconditional-unclonable-encryption</id>
+    <updated>2026-07-24T00:11:54+00:00</updated>
+    <summary type="html">&lt;p&gt;We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption for one-bit messages, with efficient encryption and decryption and exponentially small unclonable-indistinguishability advantage. Previous work by Bhattacharyya and Culf (Nature Physics, 2026) and Bhattacharyya, Broadbent, and Culf (arXiv:2603.08916) either only showed inverse-polynomial security loss or required inefficient encryption/decryption operations; we avoid both of these caveats. Our scheme&amp;apos;s key is a uniformly random non-identity phase-free Pauli on $n$ qubits, and bit $a$ is encrypted as a random $(-1)^a$ eigenstate of that Pauli.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1511&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #quantum-computing&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Vectorised Hashing Based on Bernstein-Rabin-Winograd Polynomials over Prime Order Fields</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-62-vectorised-hashing-based-on-bernstein"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1262"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-62-vectorised-hashing-based-on-bernstein</id>
-    <updated>2025-07-08T15:53:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We introduce the new AXU hash function decBRWHash, which is parameterised by the positive integer $c$ and is based on Bernstein-Rabin-Winograd (BRW) polynomials. Choosing $c&amp;gt;1$ gives a hash function which can be implemented using $c$-way single instruction multiple data (SIMD) instructions. We report a set of very comprehensive hand optimised assembly implementations of 4-decBRWHash using avx2 SIMD instructions available on modern Intel processors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1262&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
+    <title>One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-62-one-fell-swoop-a-single"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/2159"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-62-one-fell-swoop-a-single</id>
+    <updated>2025-11-27T15:23:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits their real-world practicality. This paper presents a new single-trace attack on the Falcon signing procedure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2159&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Connecting Cryptanalytic Distinguishers through Divisibility</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-63-connecting-cryptanalytic-distinguishers-through-divisibility"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2471"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-63-connecting-cryptanalytic-distinguishers-through-divisibility</id>
-    <updated>2026-10-14T09:12:14+00:00</updated>
-    <summary type="html">&lt;p&gt;Integral distinguishers can reveal more than a zero-sum property: the number of ones in an output component may be divisible by a high power of $2$, rather than merely being even. To exploit this divisibility, we relate linear, integral, differential-linear, and restricted differential sums through two-way conversions with explicit divisibility guarantees and data complexity, recovering established links as special cases. We derive exact random-permutation probabilities and rigorous bounds to quantify the distinguishing strength while accounting for dependencies between output conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2471&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
+    <title>Zero-Knowledge IOPPs for Constrained Interleaved Codes</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-63-zero-knowledge-iopps-for-constrained"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/391"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-63-zero-knowledge-iopps-for-constrained</id>
+    <updated>2026-02-25T17:02:27+00:00</updated>
+    <summary type="html">&lt;p&gt;Succinct arguments based on interactive oracle proofs (IOPs) have achieved remarkable efficiency improvements and are now widely adopted in applications. State-of-the-art IOPs involve protocols for testing proximity to constrained interleaved linear codes, and enjoy essentially optimal parameters. However, recent IOP constructions provide no privacy guarantees, which remain a must for many applications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/391&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
 </feed>

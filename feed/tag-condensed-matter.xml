@@ -5,61 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>Beyond Blossom: Accelerating MWPM Decoding for Surface Codes With Local Predecoding and Architecture-Aware Optimizations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-30-beyond-blossom-accelerating-mwpm-decoding"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18476v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-30-beyond-blossom-accelerating-mwpm-decoding</id>
-    <updated>2026-11-13T17:49:31+00:00</updated>
-    <summary type="html">&lt;p&gt;Minimum-weight perfect matching (MWPM) is widely used to decode surface codes, but its computational cost increases with code distance. We present Beyond Blossom, a state-of-the-art CPU-based MWPM decoder for surface codes. It combines algorithmic optimization through local predecoding, architecture-aware optimization, and pipeline-wide parallelism to reduce matching workload and execution overhead while preserving MWPM optimality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18476v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter&lt;/p&gt;</summary>
+    <title>Hyperkagome antiferromagnetism in the iron garnet Almandine Fe$_3$Al$_2$Si$_3$O$_{12}$</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-30-hyperkagome-antiferromagnetism-in-the-iron"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21610v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-30-hyperkagome-antiferromagnetism-in-the-iron</id>
+    <updated>2026-11-16T18:59:56+00:00</updated>
+    <summary type="html">&lt;p&gt;Antiferromagnets on the hyperkagome lattice provide a three-dimensional route to strong magnetic frustration, but experimentally accessible realizations with well-established microscopic Hamiltonians remain scarce. Garnets are a broad family of materials in which magnetic ions can form two interpenetrating hyperkagome lattices, giving rise to spin glass, spin-liquid and hidden-order physics. Here we identify the iron aluminosilicate garnet almandine, Fe$_3$Al$_2$Si$_3$O$_{12}$, as a spin-$2$ hyperkagome antiferromagnet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21610v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #rust&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Topological phase diagram of an extended Su-Schrieffer-Heeger model with negative coupling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-31-topological-phase-diagram-of-an"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18456v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-31-topological-phase-diagram-of-an</id>
-    <updated>2026-11-13T17:28:02+00:00</updated>
-    <summary type="html">&lt;p&gt;Recently, an extended Su-Schrieffer-Heeger model with three atoms per unit cell has been experimentally realized in perovskite exciton-polariton micropillars. A distinctive feature of this system is that the second and third bands undergo a topological transition through a band crossing at the wave vector $k=0$, associated with a negative coupling. In this work, we analytically determine the phase diagram of the model as a function of the on-site energy splitting and the ratio of intercell to intracell hopping amplitudes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18456v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+    <title>Geometry of squeezed states. The phase-space metric, relative vacua and cosmology</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-31-geometry-of-squeezed-states-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21426v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-31-geometry-of-squeezed-states-the</id>
+    <updated>2026-11-16T17:15:30+00:00</updated>
+    <summary type="html">&lt;p&gt;Geometry enters quantum theory in two places. The space of quantum states carries a symplectic form, which generates unitary evolution, and a metric, which governs uncertainties and transition probabilities. The classical phase space acquires a metric of its own when a vacuum is chosen: quantizing a linear system amounts to choosing a compatible complex structure, equivalently a compatible metric $g$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21426v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>High Entropy Oxides as Room Temperature Anderson Insulators with Colossal Soft Gaps</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-32-high-entropy-oxides-as-room"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18433v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-32-high-entropy-oxides-as-room</id>
-    <updated>2026-11-13T17:12:57+00:00</updated>
-    <summary type="html">&lt;p&gt;The Anderson effect, arising from destructive quantum interference of electron wave packets in disordered potentials, is usually observed at cryogenic temperatures and typically arises from extrinsic defects in conventional materials such as phosphorus dopants in silicon or oxygen vacancies in transition metal oxides. Here we demonstrate that a multication lattice of transition metals in a high-entropy oxide (HEO) natively establishes an interacting Anderson insulator that extends up to $500\,\mathrm{K}$. By controlling the population of transition metal cations in $\mathrm{La}_{0.7}\mathrm{Sr}_{0.3}\mathrm{Mn}_{1-x}(\mathrm{Cr},\mathrm{Fe},\mathrm{Co},\mathrm{Ni})_{x/4}\mathrm{O}_3$ (LS5B), we tune the system from the prototypical correlated metal $\mathrm{La}_{0.7}\mathrm{Sr}_{0.3}\mathrm{Mn}\mathrm{O}_3$ at $x=0.00$ to a localized insulator at $x=0.80$, where the disorder length contracts to near the unit cell (3.85 $\mathring{\mathrm{A}}$) and drives the electron mean free path to the Ioffe-Regel limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18433v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+    <title>Atomistic Insights into the All-Optical Switching of GdCo Alloys with Minimal Gd Concentration</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-32-atomistic-insights-into-the-all"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21410v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-32-atomistic-insights-into-the-all</id>
+    <updated>2026-11-16T17:01:39+00:00</updated>
+    <summary type="html">&lt;p&gt;Single-pulse all-optical helicity-independent switching (AO-HIS) is most commonly observed in Gd-based ferrimagnets near magnetization compensation. Recent experiments, however, demonstrated switching in Pt/Co/Pt-based heterostructures containing only a small amount of Gd at a Co/Pt interface. Here, we use atomistic spin-dynamics simulations to test an effective interfacial GdCo-alloy picture and to determine how species-dependent spin-bath coupling controls the minimum Gd concentration required for reversal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21410v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-33-graph-diffusion-transformer-for-interpretable"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18420v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-33-graph-diffusion-transformer-for-interpretable</id>
-    <updated>2026-11-13T17:00:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and silica.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18420v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Number fluctuations and particle loss in Dicke superradiance</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-34-number-fluctuations-and-particle-loss"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18413v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-34-number-fluctuations-and-particle-loss</id>
-    <updated>2026-11-13T16:56:38+00:00</updated>
-    <summary type="html">&lt;p&gt;Dicke superradiance, the collective spontaneous emission of identical quantum emitters into a common reservoir, produces a burst with a characteristic delay $t_{\mathrm{SR}}$ and a peak intensity that scales quadratically with the emitter number $N$. This strong dependence makes the burst sensitive to how many emitters actually participate. In experiments, however, this number is rarely fixed: it fluctuates between preparations and decreases during emission through atom loss.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18413v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Uniaxial strain induces $d$-wave phonon chirality in ferroelectric BaTiO$_3$</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-35-uniaxial-strain-induces-d-wave"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18402v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-35-uniaxial-strain-induces-d-wave</id>
-    <updated>2026-11-13T16:44:38+00:00</updated>
-    <summary type="html">&lt;p&gt;Circularly dichroic resonant inelastic x-ray scattering has revealed electrically switchable $g$-wave phonon chirality in freestanding BaTiO$_3$ membranes. Here, we show from first principles that uniaxial strain changes the angular class of this texture. Lowering $C_{4v}$ to $C_{2v}$ adds a $d$-wave helicity that is bilinear in the orthorhombic strain $η$ and the polarization, with nodal lines along the stress axis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18402v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Bond Anharmonicity in a Caged Molecule Probed by Vibronic Core Spectroscopy</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-36-bond-anharmonicity-in-a-caged"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18331v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-36-bond-anharmonicity-in-a-caged</id>
-    <updated>2026-11-13T15:44:25+00:00</updated>
-    <summary type="html">&lt;p&gt;X-ray absorption spectroscopy and resonant inelastic X-ray scattering at the nitrogen K-edge show that the N$\equiv$N bond in N$_2$@C$_{60}$ is substantially more anharmonic than in free N$_2$, with the ground-state ($X^1Σ_g^+$) anharmonic constant $\hbarω_e x_e$ a factor of two larger ($3.8\pm0.3$~meV versus $\sim 1.8$~meV) despite an essentially unchanged harmonic frequency. The same enhancement is found across all three vibronic potentials accessible to the experiment---the electronic ground state, the core-excited intermediate state, and the spectator-decay final state---pointing to a common origin rather than an effect specific to one electronic configuration. High-level coupled-cluster calculations of the N$_2$@C$_{60}$ potential energy surface, however, find no significant change in anharmonicity upon encapsulation, ruling out a simple static distortion of the N$\equiv$N bonding potential by the fullerene cage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18331v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science&lt;/p&gt;</summary>
+    <title>Self-attention is a Dyson equation for many-body machine learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-33-self-attention-is-a-dyson"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21398v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-33-self-attention-is-a-dyson</id>
+    <updated>2026-11-16T16:52:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Why does symmetric sum-pooling (DeepSets) predict ground-state potentials to sub-meV accuracy, yet fail for correlated wavefunctions and excited states? Sum-pooling is a mean-field (Hartree) model: its $O(1/N)$ off-diagonal Jacobian suffices for nearsighted ground-state energies, but erases nonlocal two-body correlations. We show that self-attention is a real-space Dyson iteration whose Boltzmann (softmax) kernel acts as a two-body self-energy.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21398v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

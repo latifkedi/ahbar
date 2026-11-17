@@ -5,37 +5,53 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-analysis-pde.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
-  <entry>
-    <title>Learning observable propagation with sparse local moments. We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-21-learning-observable-propagation-with-sparse"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18448v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-21-learning-observable-propagation-with-sparse</id>
-    <updated>2026-11-13T17:22:20+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories. Thanks to the locality of the dynamics, we construct the transition moment matrices by projecting the Markov operator onto low-order connected-cluster basis functions supported near the target observable. Exploiting the spatial decay of time-lagged correlations, {these matrices} can be approximated in sparse-plus-low-rank form using trajectory samples, with computational cost scaling linearly in the system dimension and the number of trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18448v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Nesting in additive manufacturing using quantum annealing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-22-nesting-in-additive-manufacturing-using"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18447v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-22-nesting-in-additive-manufacturing-using</id>
-    <updated>2026-11-13T17:22:19+00:00</updated>
-    <summary type="html">&lt;p&gt;Nesting in powder bed fusion (PBF), an additive manufacturing (AM) process, determines the positions and orientations of parts within the build space and influences build height and build time. As the number of parts and feasible placements increases, the nesting problem becomes computationally demanding. Exact approaches are limited to small problem sizes as computational effort increases rapidly with the problem size, while heuristic and metaheuristic approaches involve a trade-off between solution quality and computation time.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18447v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #optimization&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
     <title>Introducing MathHelm: A Place to discuss AI-generated papers. [This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-26-introducing-mathhelm-a-place-to"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-22-introducing-mathhelm-a-place-to"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-26-introducing-mathhelm-a-place-to</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-22-introducing-mathhelm-a-place-to</id>
     <updated>2026-11-14T03:19:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the wider public. They help us share ideas, deepen our collective understanding, see where the field stands, and decide what to explore next.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>247A, Notes 4: Weighted estimates and pseudodifferential operators</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-27-247a-notes-4-weighted-estimates"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-23-247a-notes-4-weighted-estimates"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-27-247a-notes-4-weighted-estimates</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-23-247a-notes-4-weighted-estimates</id>
     <updated>2026-11-13T07:09:00+00:00</updated>
     <summary type="html">&lt;p&gt;— 1. Weighted inequalities — In the previous notes we have taken a linear or sublinear operator on a measure space and established mapping properties, such as These estimates reveal information about how the height and width of is controlled by the height and width of . However, these estimates do not indicate where the […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-24-lean-grimoire"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-24-lean-grimoire</id>
+    <updated>2026-11-12T02:36:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>“Six Math Essentials” now available</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-25-six-math-essentials-now-available"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-25-six-math-essentials-now-available</id>
+    <updated>2026-11-10T16:58:00+00:00</updated>
+    <summary type="html">&lt;p&gt;My popular mathematics book, “Six Math Essentials” (Six Maths Essentials in the UK), which was previously announced on this blog in February, is now available (in print, digital, and audiobook formats). Some related links: Review by Karmela Padavic-Callaghan (New Scientist) Review (Publishers Weekly) Review (Library Journal) Sample excerpt (via Science Friday), with related podcast interview […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-26-our-survey-of-early-career"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-26-our-survey-of-early-career</id>
+    <updated>2026-11-09T17:12:00+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>What should we teach our (undergraduate) students?. [This is a guest post by Jana Gevertz and Steffen Marcus.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-27-what-should-we-teach-our"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-27-what-should-we-teach-our</id>
+    <updated>2026-11-08T15:56:34+00:00</updated>
+    <summary type="html">&lt;p&gt;[This is a guest post by Jana Gevertz and Steffen Marcus. This blog post was initially written in a different file format and converted using AI. — T.] In the last few months AI has hit our discipline with a frightening force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>

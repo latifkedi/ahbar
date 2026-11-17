@@ -5,77 +5,101 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-12-vibeprevisbench-evaluating-agentic-coding-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15789"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-12-vibeprevisbench-evaluating-agentic-coding-for</id>
-    <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-11-scalevla-scaling-vision-language-action"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21607"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-11-scalevla-scaling-vision-language-action</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21607&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-13-gamer-a-generalist-vision-language"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18397"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-13-gamer-a-generalist-vision-language</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18397&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Sage S2.1 Flash Technical Report</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-13-sage-s2-1-flash-technical"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21072"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-13-sage-s2-1-flash-technical</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21072&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Envisioning Agentic Robotics: A New Era of Robotic Systems. The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-16-envisioning-agentic-robotics-a-new"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18359"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-16-envisioning-agentic-robotics-a-new</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18359&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-14-spillway-separating-target-admission-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07222"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-14-spillway-separating-target-admission-from</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker&amp;apos;s text and adds model calls to every step. Provenance defenses keep the model off the final check but need a model to plan or route each task first.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07222&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MIRIX-2.0: Multi-Agent Memory System. Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-17-mirix-2-0-multi-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12068"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-17-mirix-2-0-multi-agent</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12068&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-15-swe-cowork-benchmarking-coding-agents"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20218"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-15-swe-cowork-benchmarking-coding-agents</id>
+    <updated>2026-11-14T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20218&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>COPASI Skills: Agent Skills for COPASI analyses through Basico</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-46-copasi-skills-agent-skills-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18115v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-46-copasi-skills-agent-skills-for</id>
-    <updated>2026-11-13T12:37:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Biochemical models represent biological systems as networks of reactions that describe the production, consumption, and transformation of molecular species over time. These models provide a quantitative framework for analyzing system dynamics and enable computational experiments that complement traditional wet-lab approaches, helping researchers gain mechanistic insight and make predictive assessments of biological behavior. COPASI is a widely used program for simulating and analyzing those models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18115v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #agents&lt;/p&gt;</summary>
+    <title>Accelerate Bench: Evaluating Agents for Application-Level Program Optimization</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-17-accelerate-bench-evaluating-agents-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20882"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-17-accelerate-bench-evaluating-agents-for</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and permitted edits, leaving agents to choose where and how to optimize.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20882&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>OpenLayout: An Open and Agentic-Driven Platform for Holistic VLSI Physical Design and Benchmarking</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-43-openlayout-an-open-and-agentic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18517v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-43-openlayout-an-open-and-agentic</id>
-    <updated>2026-11-13T18:36:22+00:00</updated>
-    <summary type="html">&lt;p&gt;Physical design automation of very large-scale integrated circuits (VLSI) has made significant strides, progressing from single-stage placement and routing toward increasingly integrated full-flow implementation. Yet, existing approaches struggle with the vast design space optimization (DSO) arising from diverse technology nodes, circuit designs, and varied constraints. The substantial runtime of physical-design tools further exacerbates this challenge, leaving industrial workflows heavily dependent on experienced engineers to navigate the design space and achieve power, performance, and area (PPA) targets, incurring significant engineering effort.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18517v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #infosec #agents&lt;/p&gt;</summary>
+    <title>K2-Horizon: A Frontier Fleet of Open Source Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-18-k2-horizon-a-frontier-fleet"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21003"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-18-k2-horizon-a-frontier-fleet</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21003&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-24-lean-grimoire"/>
+    <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-24-lean-grimoire</id>
+    <updated>2026-11-12T02:36:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Cognitive grounding improves LLM simulation of collective human behavior</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-51-cognitive-grounding-improves-llm-simulation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-47-cognitive-grounding-improves-llm-simulation"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01080-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-51-cognitive-grounding-improves-llm-simulation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-47-cognitive-grounding-improves-llm-simulation</id>
     <updated>2026-11-16T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 16 November 2026; doi:10.1038/s43588-026-01080-z The study shows that guiding AI agents with descriptions of how people make decisions in a supply-chain game helps agents reproduce collective human behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01080-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-45-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-44-fuzzers-vs-ai-comparing-fuzzilli"/>
     <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-45-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-44-fuzzers-vs-ai-comparing-fuzzilli</id>
     <updated>2026-10-27T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A New Kind of Foreign Agent. How AI is reshaping influence operations in America.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-80-a-new-kind-of-foreign"/>
-    <link rel="related" href="https://www.foreignaffairs.com/china/new-kind-foreign-agent"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-80-a-new-kind-of-foreign</id>
-    <updated>2026-11-11T09:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;How AI is reshaping influence operations in America.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/china/new-kind-foreign-agent&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #agents&lt;/p&gt;</summary>
+    <title>A Polynomial-Time Algorithm for Constant-Factor EFX Allocations of Chores</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-83-a-polynomial-time-algorithm-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21387v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-83-a-polynomial-time-algorithm-for</id>
+    <updated>2026-11-16T16:46:47+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the fair division of indivisible chores among agents with additive disutilities, focusing on the central fairness notion of envy-freeness up to any chore (EFX), and its multiplicative approximations. Although the existence of constant-factor approximations to EFX are known, computing such an allocation in polynomial time remained open. We resolve this question by giving an algorithm that, for every $\varepsilon\in(0,1)$, computes a $(3+\varepsilon)$-EFX allocation in time polynomial in the input length and $1/\varepsilon$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21387v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Nearly Settling the Complexity of Connected $\varepsilon$-Envy-Free Cake Cutting</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-85-nearly-settling-the-complexity-of"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20890v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-85-nearly-settling-the-complexity-of</id>
+    <updated>2026-11-16T10:59:04+00:00</updated>
+    <summary type="html">&lt;p&gt;Envy-free cake cutting has been one of the central problems in fair division. In cake cutting, agents&amp;apos; preferences over the cake are accessed through Robertson--Webb (RW) queries. For three or more agents, no algorithm that makes finitely many RW queries can always find a contiguous, exactly envy-free allocation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20890v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Borrowed Strength, Imported Risk: Capability Gaps and Reception Govern Heterogeneous LLM Debate</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-88-borrowed-strength-imported-risk-capability"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20649v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-88-borrowed-strength-imported-risk-capability</id>
+    <updated>2026-11-16T07:06:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Heterogeneous LLM debate is often attributed to collective reasoning that creates capability beyond any member. In the matched panels we study, the aggregate gain is dominated by capability transfer: a peer supplies task competence and receivers absorb a measurable fraction. Across nine matched directions, honest benefit and first-exchange adversarial exposure open when the peer has a positive same-task advantage, and honest gain is closely described by the empirical decomposition $ΔA_d^{\mathrm{hon}}\approxκΓ_d^+ρ_d$, the product of that advantage and the receiver&amp;apos;s reception.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20649v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,53 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
-  <entry>
-    <title>CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-14-cantraj-recovering-vehicle-trajectories-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18442v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-14-cantraj-recovering-vehicle-trajectories-from</id>
-    <updated>2026-11-13T17:17:13+00:00</updated>
-    <summary type="html">&lt;p&gt;Open driving releases and usage-based insurance programs often claim to prevent privacy breaches by omitting GPS records when sharing or collecting vehicle data. However, removing GPS coordinates from driving logs does not erase the location information carried by vehicle signals. While prior route-inference attacks have demonstrated that speed, steering, and driving events can be matched to road networks to reconstruct trajectories, existing studies rely on inconsistent prior assumptions and evaluation metrics and are tested only on small, restricted datasets, making their results difficult to compare and their real-world effectiveness uncertain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18442v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #databases&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>How rigid is maximum cardinality search? Stability and locality of MCS orderings under edge updates, verified in Lean</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-23-how-rigid-is-maximum-cardinality"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18369v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-23-how-rigid-is-maximum-cardinality</id>
-    <updated>2026-11-13T16:15:18+00:00</updated>
-    <summary type="html">&lt;p&gt;For which sets F of edge modifications do a graph G and the modified graph share a maximum cardinality search (MCS) ordering? We prove that they do whenever, along every proper common MCS prefix, each unchosen vertex&amp;apos;s neighbour count in the second graph exceeds its count in the first by zero or one. In particular, inserting or deleting any matching, or flipping a single edge, preserves a common ordering, and under the same hypothesis every common MCS prefix extends to a full common ordering without backtracking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18369v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #algorithms #logic&lt;/p&gt;</summary>
+    <title>CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-21-compcert4lean-porting-a-verified-c"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21084v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-21-compcert4lean-porting-a-verified-c</id>
+    <updated>2026-11-16T13:32:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We present CompCert4Lean, a large-scale port of CompCert 3.17&amp;apos;s verified compiler core from Rocq to Lean, completed in approximately six weeks by one expert directing parallel LLM agents. Our migration workflow partitions the development along its dependencies, audits translated definitions and theorem statements before large-scale proof reconstruction, and then reconstructs proofs in parallel against stable interfaces. The resulting compiler covers typed CompCert C through x86-64 assembly, discharges all 4,908 recorded proof obligations without project-specific axioms, and produces executable Linux binaries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21084v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>DeCompCert: A Verified Decompiler for CompCert-Generated AArch64. DeCompCert is a Rocq-verified decompiler for AArch64 assembly generated by CompCert.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-24-decompcert-a-verified-decompiler-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18055v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-24-decompcert-a-verified-decompiler-for</id>
-    <updated>2026-11-13T11:28:29+00:00</updated>
-    <summary type="html">&lt;p&gt;DeCompCert is a Rocq-verified decompiler for AArch64 assembly generated by CompCert. It reconstructs CompCert C through nine reverse passes, combining deductively verified transformations with translation validation. Untrusted OCaml and Datalog analyses propose candidate reconstructions, while verified validators accept only candidates that satisfy the required semantic correspondence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18055v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #cryptography #rust&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>No free lattice contains an infinite ascending chain of copies of FL(3)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-25-no-free-lattice-contains-an"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18541v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-25-no-free-lattice-contains-an</id>
-    <updated>2026-11-13T18:49:26+00:00</updated>
-    <summary type="html">&lt;p&gt;No free lattice contains an infinite strictly ascending chain of sublattices isomorphic to FL(3), the free lattice on three generators; this answers a question that R. A. Dean asked and the second author&amp;apos;s 1997 notes on the problem left open. Every such chain would yield, inside FL(3), a coherent chain of proper self-embeddings $Θ_0, Θ_1, Θ_2, \dots$ with $Θ_k \circ Θ_j = Θ_j$ for $j &amp;lt; k$, so that each later embedding fixes the image of each earlier one pointwise.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18541v1&quot;&gt;arXiv CS (Formal Languages, Logic &amp;amp; Verification)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #formal-proofs #compilers #algebra-geometry #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Ideal Pseudorandom Code, Revisited</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-58-ideal-pseudorandom-code-revisited"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-58-ideal-pseudorandom-code-revisited</id>
-    <updated>2026-08-11T12:03:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>Specifying &amp; Verifying Quantum Error-Correcting Codes. Building quantum computers is challenging due to the noise that affects qubits.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-34-specifying-verifying-quantum-error-correcting"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21236v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-34-specifying-verifying-quantum-error-correcting</id>
+    <updated>2026-11-16T15:20:32+00:00</updated>
+    <summary type="html">&lt;p&gt;Building quantum computers is challenging due to the noise that affects qubits. Quantum error correction tackles noise by encoding information in quantum error-correcting (QEC) codes. These codes are often complex, increasingly found by computational search, presented in diverse formalisms with informal arguments, and hard to reason about algorithmically.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21236v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing&lt;/p&gt;</summary>
   </entry>
 </feed>

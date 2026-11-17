@@ -5,29 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>MMFlash: Faster Speculative Decoding for Vision-Language Models. Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-10-mmflash-faster-speculative-decoding-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18482"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-10-mmflash-faster-speculative-decoding-for</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18482&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>JVT: Just Video Transformer makes pixel-space video diffusion simple</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-11-jvt-just-video-transformer-makes"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18549"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-11-jvt-just-video-transformer-makes</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choices that balance generation quality and computational efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18549&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-15-rethinking-in-spikes-mitigating-hallucinations"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-15-rethinking-in-spikes-mitigating-hallucinations</id>
-    <updated>2026-10-13T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associated with hallucinations. We argue that anomalous steps can be identified by measuring the entropy deviation of each denoising step from its neighboring temporal window.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12901&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>K2-Horizon: A Frontier Fleet of Open Source Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-18-k2-horizon-a-frontier-fleet"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21003"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-18-k2-horizon-a-frontier-fleet</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21003&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

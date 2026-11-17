@@ -5,69 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>MMFlash: Faster Speculative Decoding for Vision-Language Models. Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-10-mmflash-faster-speculative-decoding-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18482"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-10-mmflash-faster-speculative-decoding-for</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence between next-token distributions with and without visual input.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18482&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-10-allocflow-end-to-end-portfolio"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.19937"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-10-allocflow-end-to-end-portfolio</id>
+    <updated>2026-11-14T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.19937&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>JVT: Just Video Transformer makes pixel-space video diffusion simple</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-11-jvt-just-video-transformer-makes"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18549"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-11-jvt-just-video-transformer-makes</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Direct diffusion modeling of high-dimensional raw video data is challenging, and existing pixel-space methods often rely on specialized architectures. We introduce JVT (Just Video Transformer), a simple large-patch DiT-style Transformer for pixel-space video diffusion, without a pretrained autoencoder, auxiliary detailers, cascaded stages, or U-Net-style skip connections. We systematically examine video patch embeddings, register tokens, and adaptive layer normalization to identify design choices that balance generation quality and computational efficiency.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18549&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-11-scalevla-scaling-vision-language-action"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21607"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-11-scalevla-scaling-vision-language-action</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21607&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-12-vibeprevisbench-evaluating-agentic-coding-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15789"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-12-vibeprevisbench-evaluating-agentic-coding-for</id>
-    <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>InclusionMed: Benchmarking AI for Inclusive Healthcare</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-12-inclusionmed-benchmarking-ai-for-inclusive"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21218"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-12-inclusionmed-benchmarking-ai-for-inclusive</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21218&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-13-gamer-a-generalist-vision-language"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18397"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-13-gamer-a-generalist-vision-language</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18397&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Sage S2.1 Flash Technical Report</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-13-sage-s2-1-flash-technical"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21072"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-13-sage-s2-1-flash-technical</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21072&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-15-rethinking-in-spikes-mitigating-hallucinations"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12901"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-15-rethinking-in-spikes-mitigating-hallucinations</id>
-    <updated>2026-10-13T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associated with hallucinations. We argue that anomalous steps can be identified by measuring the entropy deviation of each denoising step from its neighboring temporal window.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12901&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-14-spillway-separating-target-admission-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.07222"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-14-spillway-separating-target-admission-from</id>
+    <updated>2026-11-03T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker&amp;apos;s text and adds model calls to every step. Provenance defenses keep the model off the final check but need a model to plan or route each task first.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07222&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Envisioning Agentic Robotics: A New Era of Robotic Systems. The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-16-envisioning-agentic-robotics-a-new"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18359"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-16-envisioning-agentic-robotics-a-new</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18359&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-15-swe-cowork-benchmarking-coding-agents"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20218"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-15-swe-cowork-benchmarking-coding-agents</id>
+    <updated>2026-11-14T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20218&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MIRIX-2.0: Multi-Agent Memory System. Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-17-mirix-2-0-multi-agent"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.12068"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-17-mirix-2-0-multi-agent</id>
-    <updated>2026-11-08T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.12068&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>VoxMel TTS Technical Report</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-16-voxmel-tts-technical-report"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20254"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-16-voxmel-tts-technical-report</id>
+    <updated>2026-11-14T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like mel-spectrograms eliminate encoder overhead, yet their potential for autoregressive generation remains largely underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20254&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-18-v-jepa-lm-video-language"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17831"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-18-v-jepa-lm-video-language</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% while the VLM answers at chance.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17831&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>Accelerate Bench: Evaluating Agents for Application-Level Program Optimization</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-17-accelerate-bench-evaluating-agents-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20882"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-17-accelerate-bench-evaluating-agents-for</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and permitted edits, leaving agents to choose where and how to optimize.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20882&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>K2-Horizon: A Frontier Fleet of Open Source Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-18-k2-horizon-a-frontier-fleet"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21003"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-18-k2-horizon-a-frontier-fleet</id>
+    <updated>2026-11-15T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21003&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

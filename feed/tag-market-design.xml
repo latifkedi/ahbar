@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>Disenfranchisement in Spatial Voting Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-64-disenfranchisement-in-spatial-voting-games"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18468v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-64-disenfranchisement-in-spatial-voting-games</id>
-    <updated>2026-11-13T17:40:54+00:00</updated>
-    <summary type="html">&lt;p&gt;The questions of voting rights, group membership, and the boundaries of acceptable discourse all involve a recursive, self-stability issue, wherein the voters, group members, and acceptable commentators are often the ultimate arbiters of their own rules for inclusion and exclusion. In order to understand how ideological or issue diversity may impact the stability of such inclusion and exclusion, we introduce franchise elections, where voting members of a group vote to change the electorate. In particular, when agents are positioned inside an ideological or issue space, a social choice function that aggregates agent viewpoints induces a preference for agents over group composition, where agents prefer groups that improve the social choice function outcome for them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18468v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Intransigence or compromise: concatenated opinion dynamics with voting feedback</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-65-intransigence-or-compromise-concatenated-opinion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21113v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-65-intransigence-or-compromise-concatenated-opinion</id>
+    <updated>2026-11-16T13:58:56+00:00</updated>
+    <summary type="html">&lt;p&gt;In this paper, we study opinion evolution in a sequence of Friedkin-Johnsen (FJ) models, concatenated so that the final opinions of each model serve as the initial opinions of the next. Each FJ model is followed by a vote, and each agent becomes partially or fully stubborn in the next model, depending on how close its opinion is to the voting result. With the state-dependent switching of stubbornness, the dynamics are not guaranteed to be contractive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21113v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #complex-systems #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Learning Dynamics of the Influencer&apos;s Game in Resource Landscapes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-66-learning-dynamics-of-the-influencer"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17148v2"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-66-learning-dynamics-of-the-influencer</id>
-    <updated>2026-11-12T17:33:27+00:00</updated>
-    <summary type="html">&lt;p&gt;Across domains as varied as ecology, economics, and online platforms, individuals are incentivized to position themselves within resource-rich strategy spaces. In this work we introduce a new spatial game framework called the influencer&amp;apos;s game. Within this new framework players&amp;apos; strategies are represented as positions within a trait space.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17148v2&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #market-design&lt;/p&gt;</summary>
+    <title>Alternative Computational Formulations for Testing Discrete-Choice Random Utility Models: Half-Space and Network-Flow Formulations</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-68-alternative-computational-formulations-for-testing"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.19177v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-68-alternative-computational-formulations-for-testing</id>
+    <updated>2026-11-14T05:52:35+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper develops computational algorithms for testing discrete-choice random utility models (RUM). The set of RUM-consistent choice probabilities forms a polytope, and existing computational methods rely on its vertex representation. We exploit alternative half-space (Block--Marschak inequalities) and network-flow representations to develop two methods based on the alternating direction method of multipliers and a flow-based column-generation algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.19177v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #infosec&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,37 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-65-a-push-down-the-mountain"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17515v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-65-a-push-down-the-mountain</id>
-    <updated>2026-11-12T21:09:43+00:00</updated>
-    <summary type="html">&lt;p&gt;Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simulations, the agent is asked to collude on the price of silver by a counterparty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17515v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #ml-theory #llm&lt;/p&gt;</summary>
+    <title>Paying Creators for Training Data Can Increase AI Displacement. Generative AI increasingly competes with creators while using their content as training data.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-66-paying-creators-for-training-data"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20204v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-66-paying-creators-for-training-data</id>
+    <updated>2026-11-15T19:05:47+00:00</updated>
+    <summary type="html">&lt;p&gt;Generative AI increasingly competes with creators while using their content as training data. In response, policymakers have called for platforms to compensate creators for training data use and allow opting out. We study how such policies affect creator displacement in a model of a platform where creators choose whether to contribute training data and consumers choose between purchasing from creators and prompting generative AI trained on their content.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20204v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-33-graph-diffusion-transformer-for-interpretable"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18420v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-33-graph-diffusion-transformer-for-interpretable</id>
-    <updated>2026-11-13T17:00:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and silica.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18420v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
+    <title>Self-attention is a Dyson equation for many-body machine learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-33-self-attention-is-a-dyson"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21398v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-33-self-attention-is-a-dyson</id>
+    <updated>2026-11-16T16:52:07+00:00</updated>
+    <summary type="html">&lt;p&gt;Why does symmetric sum-pooling (DeepSets) predict ground-state potentials to sub-meV accuracy, yet fail for correlated wavefunctions and excited states? Sum-pooling is a mean-field (Hartree) model: its $O(1/N)$ off-diagonal Jacobian suffices for nearsighted ground-state energies, but erases nonlocal two-body correlations. We show that self-attention is a real-space Dyson iteration whose Boltzmann (softmax) kernel acts as a two-body self-energy.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21398v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Beyond Bot Labels: Retrospective Consequence-Grounded Ranking of Attributed Cache Harm in E-Commerce Logs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-40-beyond-bot-labels-retrospective-consequence"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18027v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-40-beyond-bot-labels-retrospective-consequence</id>
-    <updated>2026-11-13T10:53:23+00:00</updated>
-    <summary type="html">&lt;p&gt;Web caches reduce origin load and latency, but automated traffic can either warm them or evict objects shoppers reuse, lowering the cache hit ratio (CHR). Existing bot defenses generally infer automation from User-Agent (UA) strings or behavior rather than identify sessions that impose cross-session cache harm. We instead formulate the task as ranking sessions by eviction damage and propose consequence-grounded session ranking.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18027v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #ml-theory&lt;/p&gt;</summary>
+    <title>Leverage-Enhanced Sampling Owen Method for Explainable Artificial Intelligence</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-82-leverage-enhanced-sampling-owen-method"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21504v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-82-leverage-enhanced-sampling-owen-method</id>
+    <updated>2026-11-16T18:02:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Recently, the Shapley value has been widely applied in machine learning for feature importance analysis and model explainability. The multilinear extension of games proposed by Owen (1972) expresses the Shapley value as the integral of partial derivatives along the main diagonal of the cube. Direct evaluation of this integral requires exponential-time computation of the partial derivatives.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A systematic comparison of physics-informed neural networks and mechanistic models for epidemic modeling and forecasting</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-82-a-systematic-comparison-of-physics"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18389v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-82-a-systematic-comparison-of-physics</id>
-    <updated>2026-11-13T16:32:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Physics-Informed Neural Networks (PINNs) have recently been applied to epidemic modeling and forecasting with promising results. These methods integrate mechanistic knowledge with data-driven learning. Yet, their comparative performance against well-established, and simpler epidemic models is underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18389v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #neuroscience&lt;/p&gt;</summary>
+    <title>Same Papers, Different Verdicts: Tracing Version Drift in LLM Peer Review. Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-90-same-papers-different-verdicts-tracing"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.20608v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-90-same-papers-different-verdicts-tracing</id>
+    <updated>2026-11-16T06:32:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months. We audit twenty frontier models from OpenAI, Google and Anthropic on ICLR 2027 submissions while they were under review, with tests registered before the decisions. Between an earlier and a later version of Claude Opus and of Gemini, the share of papers placed on the accept side falls by 52 and 53 percentage points on 183 and 60 randomly drawn submissions, and by 43 to 79 points in six further paired comparisons, with no paper moving up in any of them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20608v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

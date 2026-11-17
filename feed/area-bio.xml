@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>COPASI Skills: Agent Skills for COPASI analyses through Basico</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-46-copasi-skills-agent-skills-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18115v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-46-copasi-skills-agent-skills-for</id>
-    <updated>2026-11-13T12:37:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Biochemical models represent biological systems as networks of reactions that describe the production, consumption, and transformation of molecular species over time. These models provide a quantitative framework for analyzing system dynamics and enable computational experiments that complement traditional wet-lab approaches, helping researchers gain mechanistic insight and make predictive assessments of biological behavior. COPASI is a widely used program for simulating and analyzing those models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18115v1&quot;&gt;arXiv Quantitative Biology &amp;amp; Materials (q-bio, mtrl-sci)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>OrthoSimulator: Empirically trained simulations for ground-truth benchmarking of orthology inference</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-47-orthosimulator-empirically-trained-simulations-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.12.766176v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-47-orthosimulator-empirically-trained-simulations-for</id>
-    <updated>2026-11-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Orthology inference is foundational for comparative genomics, enabling the reconstruction of phylogenetic relationships and transfer of biological knowledge between species. Methods often infer different orthogroups and orthologous relationships, making robust benchmarking essential for evaluating their accuracy. Existing resources such as the Quest for Orthologs benchmark service and OrthoBench provide valuable benchmarks grounded in real biological data and expert curation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.12.766176v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-48-dynamicsplm-a-dynamics-enriched-small"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-48-dynamicsplm-a-dynamics-enriched-small</id>
-    <updated>2026-11-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Predicting how mutations impact protein function and stability remains a key challenge in computational biology. Current state-of-the-art protein language models (PLMs) primarily scale parameter size on sequence corpora to capture evolutionary constraints but remain blind to the explicit physical dynamics of folded proteins. Conversely, models trained strictly on physical dynamics neglect critical evolutionary sequence statistics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Regional Signals Matter: Rethinking Global Pooling for mRNA Foundation Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-49-regional-signals-matter-rethinking-global"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.12.766253v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-49-regional-signals-matter-rethinking-global</id>
-    <updated>2026-11-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;RNA foundation models with diverse architectures have shown promise for learning representations of messenger RNA (mRNA) sequences. However, existing benchmarks commonly reduce token-level embeddings to transcript-level representations through global mean pooling before fitting a downstream probe. This aggregation does not explicitly preserve the identities of biologically distinct mRNA regions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.12.766253v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>deepTools4: Faster, Scalable, and Modernized Genomic Data Analysis. The deepTools suite is widely used for quality control, summarization, and visualization of high-throughput sequencing data.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-50-deeptools4-faster-scalable-and-modernized"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.11.765524v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-50-deeptools4-faster-scalable-and-modernized</id>
-    <updated>2026-11-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The deepTools suite is widely used for quality control, summarization, and visualization of high-throughput sequencing data. However, as genomic datasets grow in scale and depth, existing tools often become computational bottlenecks. We present deepTools4, a modernized framework designed for high performance, scalability, and enhanced usability, while maintaining seamless integration with the Galaxy platform.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.11.765524v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics&lt;/p&gt;</summary>
+    <title>The rise of AI in mathematics — and science</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-46-the-rise-of-ai-in"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01112-8"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-46-the-rise-of-ai-in</id>
+    <updated>2026-11-17T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 17 November 2026; doi:10.1038/s43588-026-01112-8 We discuss the role of artificial intelligence (AI) in mathematical research and explore its implications for the computational science community.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01112-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Cognitive grounding improves LLM simulation of collective human behavior</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-51-cognitive-grounding-improves-llm-simulation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-47-cognitive-grounding-improves-llm-simulation"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01080-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-51-cognitive-grounding-improves-llm-simulation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-47-cognitive-grounding-improves-llm-simulation</id>
     <updated>2026-11-16T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 16 November 2026; doi:10.1038/s43588-026-01080-z The study shows that guiding AI agents with descriptions of how people make decisions in a supply-chain game helps agents reproduce collective human behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01080-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Training reservoirs without looking back</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-52-training-reservoirs-without-looking-back"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-48-training-reservoirs-without-looking-back"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01079-6"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-52-training-reservoirs-without-looking-back</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-48-training-reservoirs-without-looking-back</id>
     <updated>2026-11-13T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 November 2026; doi:10.1038/s43588-026-01079-6 By training a reservoir computing system without access to its intermediate states and by eliminating the coupling between its nodes, a physical learning framework achieves efficient learning both in simulation and on optoelectronic hardware.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01079-6&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Open foundation models for clinical AI. Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-53-open-foundation-models-for-clinical"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-49-open-foundation-models-for-clinical"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01094-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-53-open-foundation-models-for-clinical</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-49-open-foundation-models-for-clinical</id>
     <updated>2026-11-12T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01094-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Ab initio simulation of excited-state potential energy surfaces with transferable deep quantum Monte Carlo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-54-ab-initio-simulation-of-excited"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-50-ab-initio-simulation-of-excited"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01065-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-54-ab-initio-simulation-of-excited</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-50-ab-initio-simulation-of-excited</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 06 November 2026; doi:10.1038/s43588-026-01065-y Transferable deep-learning quantum Monte Carlo for molecular excited states is introduced. Sharing parameters, an ansatz represents the wavefunction across molecular geometries and states, reducing the cost of modeling potential energy surfaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01065-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-51-scalable-physical-deep-learning-using"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-51-scalable-physical-deep-learning-using</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-52-machine-learning-dataset-and-benchmark"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-52-machine-learning-dataset-and-benchmark</id>
+    <updated>2026-10-26T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Making the case for a non-primary article</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-53-making-the-case-for-a"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-53-making-the-case-for-a</id>
+    <updated>2026-10-22T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>A CD7-targeted AAV variant enables efficient T and NK cell engineering in vivo</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-54-a-cd7-targeted-aav-variant"/>
+    <link rel="related" href="https://www.nature.com/articles/s41587-026-03344-5"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-54-a-cd7-targeted-aav-variant</id>
+    <updated>2026-11-16T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Biotechnology, Published online: 16 November 2026; doi:10.1038/s41587-026-03344-5 Adeno-associated virus vectors targeted to CD7 enable T and NK cell engineering in vivo.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41587-026-03344-5&quot;&gt;Nature Biotechnology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
   </entry>
 </feed>

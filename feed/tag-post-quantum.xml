@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-11-16T13:12:39.996728385+00:00</updated>
+  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
   <entry>
-    <title>High Entropy Oxides as Room Temperature Anderson Insulators with Colossal Soft Gaps</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-32-high-entropy-oxides-as-room"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.18433v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-32-high-entropy-oxides-as-room</id>
-    <updated>2026-11-13T17:12:57+00:00</updated>
-    <summary type="html">&lt;p&gt;The Anderson effect, arising from destructive quantum interference of electron wave packets in disordered potentials, is usually observed at cryogenic temperatures and typically arises from extrinsic defects in conventional materials such as phosphorus dopants in silicon or oxygen vacancies in transition metal oxides. Here we demonstrate that a multication lattice of transition metals in a high-entropy oxide (HEO) natively establishes an interacting Anderson insulator that extends up to $500\,\mathrm{K}$. By controlling the population of transition metal cations in $\mathrm{La}_{0.7}\mathrm{Sr}_{0.3}\mathrm{Mn}_{1-x}(\mathrm{Cr},\mathrm{Fe},\mathrm{Co},\mathrm{Ni})_{x/4}\mathrm{O}_3$ (LS5B), we tune the system from the prototypical correlated metal $\mathrm{La}_{0.7}\mathrm{Sr}_{0.3}\mathrm{Mn}\mathrm{O}_3$ at $x=0.00$ to a localized insulator at $x=0.80$, where the disorder length contracts to near the unit cell (3.85 $\mathring{\mathrm{A}}$) and drives the electron mean free path to the Ioffe-Regel limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.18433v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Toward Eﬃcient Post-Quantum Bitcoin Bridges. BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-16-59-toward-e-cient-post-quantum"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2877"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-16-59-toward-e-cient-post-quantum</id>
-    <updated>2026-11-12T11:55:38+00:00</updated>
-    <summary type="html">&lt;p&gt;BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that authenticate them and the signatures that bind them to transactions. Existing designs garble elliptic-curve succinct non-interactive argument of knowledge (SNARK) veriﬁers, which a quantum adversary breaks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2877&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #consensus&lt;/p&gt;</summary>
+    <title>One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-62-one-fell-swoop-a-single"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/2159"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-62-one-fell-swoop-a-single</id>
+    <updated>2025-11-27T15:23:49+00:00</updated>
+    <summary type="html">&lt;p&gt;Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits their real-world practicality. This paper presents a new single-trace attack on the Falcon signing procedure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2159&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>
