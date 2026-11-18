@@ -11,41 +11,41 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #30 (2026-11-17)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-17</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-17:issue:30</guid>
-      <pubDate>2026-11-17T13:56:01.895369510+00:00</pubDate>
-      <description>Ahbar Sayı #30 (2026-11-17):
+      <title>Ahbar Günlük Bülten — Sayı #31 (2026-11-18)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-18</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-18:issue:31</guid>
+      <pubDate>2026-11-18T13:32:16.101350625+00:00</pubDate>
+      <description>Ahbar Sayı #31 (2026-11-18):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] Discord Patch Notes: November 9, 2026. Check out the finer details of the more technical fixes implemented into Discord recently. — Discord Systems &amp; Database Engineering (Bilgisayar Bilimi &amp; Yazılım)
-Bilgisayar Bilimi &amp; Yazılım alanında Discord Systems &amp; Database Engineering tarafından yayımlanan teknik araştırma ve analiz raporu: Check out the finer details of the more technical fixes implemented into Discord recently.
+1. [Bilgisayar Bilimi &amp; Yazılım] GPT‑6.2 Astra ve Sol
+GPT‑6.2 Astra ve GPT‑6.2 Sol OpenAI: En zorlu projeleriniz için yeni sınır modelimiz GPT‑6.2 Astra&apos;yı ve günlük işler için verimli, çok yönlü modelimiz GPT‑6.2 Sol&apos;u tanıtıyoruz. API&apos;de gpt-6.2-astra ve gpt-6.2-sol olarak mevcutturlar. LLM 0.38&apos;i yeni modeller için destekle birlikte gönderdim.
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data — Hugging Face Daily Papers (Yapay Zekâ &amp; Makine Öğrenmesi)
-Yapay Zekâ &amp; Makine Öğrenmesi alanında Hugging Face Daily Papers tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] TCP4D: Robot Manipülasyonu için Birleşik Bir Araç-Merkez-Nokta İzleme ve Oluşturma Modeli
+Robot manipülasyon videoları zengin bir görsel deneyim sağlar, ancak robot hareketini ve kıskaç durumu açıklamalarını RGB gözlemlerinden kurtarmak hâlâ zorlu olmaya devam ediyor. Eylem alanı olarak düzenlemeden bağımsız araç-merkez noktası (TCP) pozunu kullanarak, paylaşılan bir 4D sahne temsilinin hem gözlemlenen TCP hareketini hem de gözlemlenen TCP hareketini takip ettiği birleşik bir model olan TCP4D&apos;yi sunuyoruz.
 
-3. [Matematik &amp; Biçimsel Bilimler] Peak state transfer in trees and the cost of distance — arXiv Mathematics (NT, CO, AG, LO, AT, GR) (Matematik &amp; Biçimsel Bilimler)
-Matematik &amp; Biçimsel Bilimler alanında arXiv Mathematics (NT, CO, AG, LO, AT, GR) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\mathrm{e}^{\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size.
+3. [Matematik &amp; Biçimsel Bilimler] Dinamikleri koruyan grafik seyrekleştirmesi. Birçok dinamik sistem, uç etkileşimlerle birleştirilmiş düğüm ağlarında ortaya çıkar.
+Birçok dinamik sistem, uç etkileşimlerle birleştirilmiş düğüm ağlarında ortaya çıkar. Bu çalışma şu soruyla motive edilmiştir: Ağ bağlantılı bir dinamik sistemin davranışını önemli ölçüde değiştirmeden çoğu kenarı kaldırabilir miyiz? Belirli bir ağ için amacımız, düğümlerdeki dinamikleri yaklaşık olarak koruyan daha seyrek bir ağ bulmaktır.
 
-4. [Fizik, Kuantum &amp; Uzay] Hyperkagome antiferromagnetism in the iron garnet Almandine Fe$_3$Al$_2$Si$_3$O$_{12}$ — arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat) (Fizik, Kuantum &amp; Uzay)
-Fizik, Kuantum &amp; Uzay alanında arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Antiferromagnets on the hyperkagome lattice provide a three-dimensional route to strong magnetic frustration, but experimentally accessible realizations with well-established microscopic Hamiltonians remain scarce. Garnets are a broad family of materials in which magnetic ions can form two interpenetrating hyperkagome lattices, giving rise to spin glass, spin-liquid and hidden-order physics. Here we identify the iron aluminosilicate garnet almandine, Fe$_3$Al$_2$Si$_3$O$_{12}$, as a spin-$2$ hyperkagome antiferromagnet.
+4. [Fizik, Kuantum &amp; Uzay] Elektrik ve Manyetik Alanlarda Tek Alanlı Enerjiyi Dağıtan Manyetik Jiroskopun Dinamiği
+Statik manyetik ve elektrik alanlarında tek alanlı simetrik üst ferromanyetik iğnenin (manyetik jiroskop) birleşik spin-dönme dinamiklerini formüle ediyoruz. Muhafazakar Hamiltonyen, dönme kinetik enerjisini, manyetokristalin ve şekil anizotropisini, Zeeman enerjisini, iletkenlikte indüklenen dipolün elektrostatik enerjisini içerir…
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Security updates for Monday — LWN.net (Linux &amp; Kernel Engineering) (Sistem, Donanım &amp; Tüketici Teknolojisi)
-Sistem, Donanım &amp; Tüketici Teknolojisi alanında LWN.net (Linux &amp; Kernel Engineering) tarafından yayımlanan teknik araştırma ve analiz raporu: Security updates have been issued by AlmaLinux (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, tigervnc, vim, and xorg-x11-server), Debian (apache2, c-ares, linux-6.12, node-shell-quote, nova, parted, postgresql-17,…
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Salı günü için güvenlik güncellemeleri
+Güvenlik güncellemeleri AlmaLinux tarafından yayınlanmıştır (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bağlama, bağlama9.18, buildah, c-ares, cjose, kokpit, kokpit dosyaları, kokpit makineleri, kokpit-podman, konteyner ağ iletişimi eklentileri, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, çevre modülleri, expat, fetchmail, firefox, düzpak, düzpak-oluşturucu, freerdp, g…
 
-6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] The rise of AI in mathematics — and science — Nature Computational Science (Biyoteknoloji, Tıp &amp; Malzeme Bilimi)
-Biyoteknoloji, Tıp &amp; Malzeme Bilimi alanında Nature Computational Science tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Nature Computational Science, Published online: 17 November 2026; doi:10.1038/s43588-026-01112-8 We discuss the role of artificial intelligence (AI) in mathematical research and explore its implications for the computational science community.
+6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] CATEomiks: yüksek boyutlu omik verilerinden heterojen tedavi etkisi tahmini için model seçimi ve birleştirme
+CATEomik, tahmin hatalarının doğrudan gözlemlenen sonuçlardan değerlendirilemediği yüksek boyutlu omik çalışmalarındaki koşullu ortalama tedavi etkisi (CATE) tahmin edicileri arasından seçim yapmak için standartlaştırılmış ve tekrarlanabilir bir sürecin eksikliğini giderir. R paketi Özetlenmiş Deneyi kabul eder, ortak ön işleme ve veri bölümlemelerini uygular.
 
-7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Possible futures of the Ethereum protocol, part 6: The Splurge — Vitalik Buterin&apos;s Blog (Kriptografi, Web3 &amp; Dağıtık Protokoller)
-Kriptografi, Web3 &amp; Dağıtık Protokoller alanında Vitalik Buterin&apos;s Blog tarafından yayımlanan teknik araştırma ve analiz raporu: Published via Vitalik Buterin&apos;s Blog in Cryptography, Web3 &amp; Protocols. Primary discussion and technical specification available at the linked source.
+7. [Kriptografi, Web3 &amp; Dağıtık Protokoller] Ethereum protokolünün olası gelecekleri, bölüm 6: Savurganlık
+Vitalik Buterin&apos;in Kriptografi, Web3 ve Protokoller Blogu aracılığıyla yayınlandı. Bağlantılı kaynakta birincil tartışma ve teknik özellikler mevcuttur.
 
-8. [Ekonomi, Finans &amp; Makro Analiz] Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity — arXiv Economics (econ.EM, econ.GN, econ.TH) (Ekonomi, Finans &amp; Makro Analiz)
-Ekonomi, Finans &amp; Makro Analiz alanında arXiv Economics (econ.EM, econ.GN, econ.TH) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: A network in which every bank pays in full can nevertheless admit a self-fulfilling settlement freeze under the same balance-sheet fundamentals. Thus, observing full repayment does not establish the uniqueness or robustness of the payment equilibrium. We derive this result from a precautionary-liquidity choice: banks may delay otherwise feasible payments to insure an interim funding need, trading a positive settlement-discipline cost against the marginal value of retained cash.
+8. [Ekonomi, Finans &amp; Makro Analiz] Finansal Ağlarda Stratejik Geri Ödeme ve Gizli Kırılganlık: Bankalar Neden Borç Likiditesini Durduruyor?
+Her bankanın tam ödeme yaptığı bir ağ, yine de aynı bilanço temelleri altında kendi kendine yeten bir ödemenin dondurulmasını kabul edebilir. Dolayısıyla, geri ödemenin tamamının gözlemlenmesi, ödeme dengesinin benzersizliğini veya sağlamlığını ortaya koymaz. Bu sonucu ihtiyati likidite seçiminden çıkarıyoruz: bankalar aksi takdirde mümkün olan ödemeleri geciktirebilir…
 
-9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Is China Misreading the Moment? — Foreign Affairs (Uluslararası İlişkiler, Jeopolitik &amp; Strateji)
-Uluslararası İlişkiler, Jeopolitik &amp; Strateji alanında Foreign Affairs tarafından yayımlanan teknik araştırma ve analiz raporu: When U.S. President Donald Trump lands in Shenzhen later this week for the Asia-Pacific Economic Cooperation summit, he will sit down with Chinese leader Xi Jinping for the fourth time amid an unexpected détente between Washington and Beijing. The trade war of 2025 is in abeyance, the two governments have announced a relationship of “constructive strategic stability,” and, to the alarm of American allies, Trump and Xi are planning to meet with Russian President Vladimir Putin. Beneath the surface, however, the détente is beginning to crack.
+9. [Uluslararası İlişkiler, Jeopolitik &amp; Strateji] Amerika&apos;nın Gizli Yapay Zeka Avantajı. Yayılımda Çin değil ABD hakimdir.
+Yayılımda Çin değil ABD hakimdir.
 
-10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Leverage-Enhanced Sampling Owen Method for Explainable Artificial Intelligence — arXiv Game Theory, Complex Systems &amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph) (Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler)
-Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler alanında arXiv Game Theory, Complex Systems &amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Recently, the Shapley value has been widely applied in machine learning for feature importance analysis and model explainability. The multilinear extension of games proposed by Owen (1972) expresses the Shapley value as the integral of partial derivatives along the main diagonal of the cube. Direct evaluation of this integral requires exponential-time computation of the partial derivatives.
+10. [Bilim Felsefesi, Karar Kuramı &amp; Bilişsel Bilimler] Rastgele İki Popülasyonlu ve Üç Popülasyonlu Evrimsel Oyunlarda Denge İstatistikleri ve Kararlılık
+Çok popülasyonlu matris evrimsel oyunlar, heterojen etmenler arasındaki adaptasyonu ve stratejik etkileşimleri incelemek için bir çerçeve sağlar. Ancak getiriler belirsiz olduğunda, belirli bir oyunu analiz etmek, farklı evrimsel sonuçların ne sıklıkta meydana geldiğini veya bunların olasılıklarının modelleme varsayımlarına nasıl bağlı olduğunu ortaya çıkarmaz. İki ve üç sayfalık çalışıyoruz…
 
 </description>
       <itunes:duration>300</itunes:duration>

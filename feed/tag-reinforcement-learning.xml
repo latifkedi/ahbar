@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
-  <entry>
-    <title>AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-10-allocflow-end-to-end-portfolio"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.19937"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-10-allocflow-end-to-end-portfolio</id>
-    <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.19937&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
 </feed>

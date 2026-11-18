@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-post-quantum.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-62-one-fell-swoop-a-single"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/2159"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-62-one-fell-swoop-a-single</id>
-    <updated>2025-11-27T15:23:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits their real-world practicality. This paper presents a new single-trace attack on the Falcon signing procedure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2159&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Pair distribution function oscillations at electrostatically stabilized nanocrystal surfaces reflect nanocrystal lattice periodicity</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-36-pair-distribution-function-oscillations-at"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22946v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-36-pair-distribution-function-oscillations-at</id>
+    <updated>2026-11-17T15:37:34+00:00</updated>
+    <summary type="html">&lt;p&gt;Nanocrystals (NCs) stabilized electrostatically by short, multivalent inorganic ligands exhibit rich interactions and phase behavior believed to hinge on the configuration of ions at the NC surface, yet these molecular details have not previously been measured. Here we use double-difference pair distribution functions (ddPDFs) of total X-ray scattering to determine the configuration of Sn$_2$S$_6^{4-}$ ligands on PbS NCs suspended in multivalent electrolyte. The measured ddPDFs exhibit a $\sim$3-$\mathring{\mathrm{A}}$ wavelength oscillation that extends $\sim$10 $\mathring{\mathrm{A}}$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22946v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>G+G: A Fiat-Shamir Lattice Signature Based on Convolved Gaussians</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-57-g-g-a-fiat-shamir"/>
+    <link rel="related" href="https://eprint.iacr.org/2023/1477"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-57-g-g-a-fiat-shamir</id>
+    <updated>2023-09-26T12:35:20+00:00</updated>
+    <summary type="html">&lt;p&gt;We describe an adaptation of Schnorr&amp;apos;s signature to the lattice setting, which relies on Gaussian convolution rather than flooding or rejection sampling as previous approaches. It does not involve any abort, can be proved secure in the ROM and QROM using existing analyses of the Fiat-Shamir transform, and enjoys smaller signature sizes (both asymptotically and for concrete security levels).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1477&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
 </feed>

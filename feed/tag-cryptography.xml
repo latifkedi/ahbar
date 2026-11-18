@@ -5,77 +5,85 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>Post-Quantum Migration of Wi-Fi Key Establishment: A Hybrid ML-KEM Design for OWE and FILS, Validated on OWE with hostapd</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-40-post-quantum-migration-of-wi"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21528v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-40-post-quantum-migration-of-wi</id>
-    <updated>2026-11-16T18:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;The key agreements that protect a Wi-Fi connection rely on Diffie-Hellman, which a sufficiently capable quantum computer would break; an adversary can therefore record an association today and decrypt its traffic years later. Key establishment is thus the part of IEEE 802.11 that has to be migrated first. This work targets the two protocols that perform that agreement inside the frames used to set up the link: Opportunistic Wireless Encryption (OWE), which encrypts otherwise open networks, and Fast Initial Link Setup (FILS), designed for fast connection in dense and mobile deployments.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21528v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #networking&lt;/p&gt;</summary>
+    <title>Dissecting the GPU Load/Store Unit and Exposing Its Security Risks. GPUs are the main platform for large-scale machine learning and power the largest supercomputers.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-40-dissecting-the-gpu-load-store"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23022v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-40-dissecting-the-gpu-load-store</id>
+    <updated>2026-11-17T16:28:03+00:00</updated>
+    <summary type="html">&lt;p&gt;GPUs are the main platform for large-scale machine learning and power the largest supercomputers. Their load/store units (LSUs) often determine kernel performance and have been exploited in prior attacks. Yet what is known about the LSU is only a few isolated mechanisms and parameters, and even a single one has been enough for an attack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23022v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-41-from-token-changes-to-task"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22243v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-41-from-token-changes-to-task</id>
+    <updated>2026-11-17T05:46:02+00:00</updated>
+    <summary type="html">&lt;p&gt;In LLM serving systems with prefix caching, each KV block of a shared system prompt is held in GPU memory as a single physical copy, which every request with that prompt reads. Our earlier work measured change and showed that one bit flip in such a block changes many later responses without making them visibly degenerate. This paper extends that work by measuring how often the changed responses are wrong.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22243v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #inference&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-42-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-43-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-42-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-43-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Geometry of Zero Knowledge: Tight Masking and Efficient Multilinear Arguments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-57-the-geometry-of-zero-knowledge"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2019"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-57-the-geometry-of-zero-knowledge</id>
-    <updated>2026-09-14T08:19:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Zero-knowledge proofs have become a fundamental tool for verifiable computation and privacy-preserving applications, driving growing interest in proof systems that are both succinct and efficient. In polynomial-based arguments, however, achieving zero knowledge introduces additional costs. Random masks must hide the evaluations and intermediate messages revealed during verification while preserving the underlying computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2019&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
+    <title>G+G: A Fiat-Shamir Lattice Signature Based on Convolved Gaussians</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-57-g-g-a-fiat-shamir"/>
+    <link rel="related" href="https://eprint.iacr.org/2023/1477"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-57-g-g-a-fiat-shamir</id>
+    <updated>2023-09-26T12:35:20+00:00</updated>
+    <summary type="html">&lt;p&gt;We describe an adaptation of Schnorr&amp;apos;s signature to the lattice setting, which relies on Gaussian convolution rather than flooding or rejection sampling as previous approaches. It does not involve any abort, can be proved secure in the ROM and QROM using existing analyses of the Fiat-Shamir transform, and enjoys smaller signature sizes (both asymptotically and for concrete security levels).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/1477&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Information-Theoretic Strong Traceable Secret Sharing Schemes. Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-58-information-theoretic-strong-traceable-secret"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/435"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-58-information-theoretic-strong-traceable-secret</id>
-    <updated>2026-03-03T15:45:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares. More precisely, a group of corrupted parties generates a reconstruction box $R$ that, given enough valid shares as input, reconstructs the secret. The goal is to trace $R$ back to at least one of the corrupted parties using only black-box access to it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/435&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Correcting the modulus switch error in TFHE bootstrapping for real-valued computation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-58-correcting-the-modulus-switch-error"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1533"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-58-correcting-the-modulus-switch-error</id>
+    <updated>2026-07-27T08:05:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Torus Fully Homomorphic Encryption (TFHE) enables the homomorphic evaluation of arbitrary functions via Programmable Bootstrapping (PBS). However, the modulus switching step inherent to bootstrapping introduces a rounding error that forces the discretization of the input space, limiting the achievable precision on real-valued inputs. We propose a correction algorithm based on a first-order Taylor expansion, applied after bootstrapping, that directly mitigates this rounding error.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1533&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Improved Differential-Linear Cryptanalysis of Orthros, Gleeok, ZIP-AES, and ZIP-GIFT</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-59-improved-differential-linear-cryptanalysis-of"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2255"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-59-improved-differential-linear-cryptanalysis-of</id>
-    <updated>2026-09-29T02:44:45+00:00</updated>
-    <summary type="html">&lt;p&gt;We improve differential-linear distinguishers and derive key-recovery attacks on reduced-round versions of the PRFs Orthros, Gleeok, ZIP-AES, ZIP-GIFT-64, and ZIP-GIFT-128. Relative to previous differential-linear analyses, we extend the reported coverage for Orthros from 7 to 9 rounds and for Gleeok-128 from 4 to 5 rounds. For Orthros and Gleeok-128, we obtain estimated correlation magnitudes $2^{-61.40}$ and $2^{-31.71}$, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2255&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>STIP: Efficient and Secure Non-Interactive Transformer Inference via Compact Packing</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-59-stip-efficient-and-secure-non"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/174"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-59-stip-efficient-and-secure-non</id>
+    <updated>2026-02-03T02:48:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Secure Transformer Inference (STFI) for LLMs aims to protect user inputs and model parameters. Fully Homomorphic Encryption (FHE) enables non-interactive STFI without intermediate communication, but its computational overhead remains substantial. Advancements have accelerated inference by optimizing packing strategies and reducing rotations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/174&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Practical Keyword SPIR with Lightweight Clients: Hintless and Efficient</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-60-practical-keyword-spir-with-lightweight"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1883"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-60-practical-keyword-spir-with-lightweight</id>
-    <updated>2026-09-03T18:17:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Keyword private information retrieval (keyword PIR) enables a client to retrieve the value associated with a keyword without revealing the queried keyword, generalizing traditional index PIR. This work advances the state of the art of Hao et al. (USENIX Security 2025) by addressing several key limitations of their constructions, most notably the efficiency bottleneck of their generic framework and the over-revealing nature of their more efficient designs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1883&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #databases #rag&lt;/p&gt;</summary>
+    <title>Prop RFQ: Proprietary Request for Quote as Pressure-Aware Exit Pricing for Redeemable Real-World Asset Tokens</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-60-prop-rfq-proprietary-request-for"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1739"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-60-prop-rfq-proprietary-request-for</id>
+    <updated>2026-08-19T15:00:27+00:00</updated>
+    <summary type="html">&lt;p&gt;Redeemable real-world asset tokens can trade onchain faster than their backing assets can be sold or settled. An immediate-exit facility must therefore distinguish the token’s reported net asset value (NAV) from the reserve available to pay sellers. Charging larger exits more can preserve that reserve, but a holder may avoid part of the charge by splitting the sale.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1739&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Unconditional Unclonable Encryption</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-61-unconditional-unclonable-encryption"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1511"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-61-unconditional-unclonable-encryption</id>
-    <updated>2026-07-24T00:11:54+00:00</updated>
-    <summary type="html">&lt;p&gt;We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption for one-bit messages, with efficient encryption and decryption and exponentially small unclonable-indistinguishability advantage. Previous work by Bhattacharyya and Culf (Nature Physics, 2026) and Bhattacharyya, Broadbent, and Culf (arXiv:2603.08916) either only showed inverse-polynomial security loss or required inefficient encryption/decryption operations; we avoid both of these caveats. Our scheme&amp;apos;s key is a uniformly random non-identity phase-free Pauli on $n$ qubits, and bit $a$ is encrypted as a random $(-1)^a$ eigenstate of that Pauli.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1511&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #quantum-computing&lt;/p&gt;</summary>
+    <title>Revisiting the Security of OleF, t-OleF, and OlÆF. We revisit the security of OleF, t-OleF, and OlÆF and identify two independent security flaws.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-61-revisiting-the-security-of-olef"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2823"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-61-revisiting-the-security-of-olef</id>
+    <updated>2026-11-08T14:46:37+00:00</updated>
+    <summary type="html">&lt;p&gt;We revisit the security of OleF, t-OleF, and OlÆF and identify two independent security flaws. First, we establish a mask-compensation relation between continuation and termination processing in OleF and t-OleF. Exploiting this relation, we construct a two-encryption-query distinguisher against OleF with advantage $1 − 2^{−2n}$ .&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2823&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-62-one-fell-swoop-a-single"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/2159"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-62-one-fell-swoop-a-single</id>
-    <updated>2025-11-27T15:23:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits their real-world practicality. This paper presents a new single-trace attack on the Falcon signing procedure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2159&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Impossible Polytopic Cryptanalysis Extended: Attention to Block Ciphers with Oversized Keys</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-62-impossible-polytopic-cryptanalysis-extended-attention"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1963"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-62-impossible-polytopic-cryptanalysis-extended-attention</id>
+    <updated>2026-09-10T08:37:03+00:00</updated>
+    <summary type="html">&lt;p&gt;Block ciphers whose key size exceeds their block size, such as the 192- and 256-bit variants of \textsf{AES}, the tweakable block ciphers \textsf{Deoxys-BC-256} and \textsf{Deoxys-BC-384} (standardized by ISO/IEC as \textsf{Deoxys-TBC}), and \textsf{ChiLow-32} (EUROCRYPT 2025), achieve a security level beyond the block size and are becoming increasingly prevalent. This paper extends the impossible polytopic attack (\ipa{}, proposed by Tyge Tiessen at EUROCRYPT 2016) and shows that it yields longer-round distinguishers, enables key recovery on more rounds, and extends to the known-plaintext (KP) setting. To this end, we formalize the bound-estimation-based \ipd{} underlying Tiessen&amp;apos;s original work and establish a general framework for distinguisher construction, within which we develop two strategies---the large-Sbox strategy and the subtlety-aware strategy---that substantially reduce the construction cost.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1963&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Zero-Knowledge IOPPs for Constrained Interleaved Codes</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-63-zero-knowledge-iopps-for-constrained"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/391"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-63-zero-knowledge-iopps-for-constrained</id>
-    <updated>2026-02-25T17:02:27+00:00</updated>
-    <summary type="html">&lt;p&gt;Succinct arguments based on interactive oracle proofs (IOPs) have achieved remarkable efficiency improvements and are now widely adopted in applications. State-of-the-art IOPs involve protocols for testing proximity to constrained interleaved linear codes, and enjoy essentially optimal parameters. However, recent IOP constructions provide no privacy guarantees, which remain a must for many applications.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/391&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Universally Composable Almost-Everywhere Secure Computation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-63-universally-composable-almost-everywhere-secure"/>
+    <link rel="related" href="https://eprint.iacr.org/2021/1398"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-63-universally-composable-almost-everywhere-secure</id>
+    <updated>2021-10-18T06:13:31+00:00</updated>
+    <summary type="html">&lt;p&gt;Most existing work on secure multi-party computation (MPC) ignores a key idiosyncrasy of modern communication networks, that there are a limited number of communication paths between any two nodes, many of which might even be corrupted. The problem becomes particularly acute in the information-theoretic setting, where the lack of trusted setups (and the cryptographic primitives they enable) makes communication over sparse networks more challenging. The work by Garay and Ostrovsky [EUROCRYPT&amp;apos;08] on almost-everywhere MPC (AE-MPC), introduced ``best-possible security&amp;apos;&amp;apos; properties for MPC over such incomplete networks, where necessarily some of the honest parties may be excluded from the computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2021/1398&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

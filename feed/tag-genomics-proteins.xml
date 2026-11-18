@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-52-machine-learning-dataset-and-benchmark"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-52-machine-learning-dataset-and-benchmark</id>
-    <updated>2026-10-26T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
+    <title>CATEomics: model selection and ensembling for heterogeneous treatment effect estimation from high-dimensional omics data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-46-cateomics-model-selection-and-ensembling"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-46-cateomics-model-selection-and-ensembling</id>
+    <updated>2026-11-18T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;CATEomics addresses the lack of a standardized and reproducible process for choosing among conditional average treatment effect (CATE) estimators in high-dimensional omics studies, where their estimation errors cannot be evaluated directly from observed outcomes. The R package accepts a SummarizedExperiment, applies common preprocessing and data partitions across R and Python estimators, compares their out-of-fold estimates using proxy losses, supports model selection and ensembling, and returns the resulting CATE estimates to the original object for downstream omics analysis. Availability and implementation: CATEomics is implemented in R and is freely available under the MIT license at https://github.com/matsui-lab/CATEomics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A CD7-targeted AAV variant enables efficient T and NK cell engineering in vivo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-54-a-cd7-targeted-aav-variant"/>
-    <link rel="related" href="https://www.nature.com/articles/s41587-026-03344-5"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-54-a-cd7-targeted-aav-variant</id>
-    <updated>2026-11-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Biotechnology, Published online: 16 November 2026; doi:10.1038/s41587-026-03344-5 Adeno-associated virus vectors targeted to CD7 enable T and NK cell engineering in vivo.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41587-026-03344-5&quot;&gt;Nature Biotechnology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
+    <title>MetaboRx: R Shiny application for quality assessment and preprocessing of mass spectrometry-based metabolomics data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-47-metaborx-r-shiny-application-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767162v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-47-metaborx-r-shiny-application-for</id>
+    <updated>2026-11-18T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Introduction Metabolomics datasets offer deep insights into biological systems, yet the multi-step analytical workflow, from sample preparation through instrumental analysis, introduces unwanted variation. This variation, including signal drift and batch effects can confound true biological signals. Although rigorous quality control (QC) and data preprocessing are prerequisites for downstream analysis, existing workflows are often fragmented, time-consuming, and inaccessible to non-experts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767162v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

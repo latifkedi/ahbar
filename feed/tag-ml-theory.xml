@@ -5,37 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>Paying Creators for Training Data Can Increase AI Displacement. Generative AI increasingly competes with creators while using their content as training data.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-66-paying-creators-for-training-data"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20204v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-66-paying-creators-for-training-data</id>
-    <updated>2026-11-15T19:05:47+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI increasingly competes with creators while using their content as training data. In response, policymakers have called for platforms to compensate creators for training data use and allow opting out. We study how such policies affect creator displacement in a model of a platform where creators choose whether to contribute training data and consumers choose between purchasing from creators and prompting generative AI trained on their content.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20204v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
+    <title>ThermLeT: Transformer-based Temperature Prediction for 2.5D Chiplet Architecture</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-44-thermlet-transformer-based-temperature-prediction"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21954v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-44-thermlet-transformer-based-temperature-prediction</id>
+    <updated>2026-11-16T22:36:06+00:00</updated>
+    <summary type="html">&lt;p&gt;The drive toward heterogeneous 2.5D chiplet packages promises unmatched performance and customization, yet the resulting density amplifies thermal challenges. To facilitate rapid design space exploration, we present ThermLeT, a multimodal transformer-based, scale invariant surrogate that integrates power density maps, spatial coordinate embeddings, material properties and heat transfer rate to predict steady state temperature in 13 ms, about four orders of magnitude faster than conventional finite element solvers such as ANSYS. To train the transformer model, we also create a dataset of 6,221 chiplet layouts perturbed from three representative architectures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21954v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Self-attention is a Dyson equation for many-body machine learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-33-self-attention-is-a-dyson"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21398v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-33-self-attention-is-a-dyson</id>
-    <updated>2026-11-16T16:52:07+00:00</updated>
-    <summary type="html">&lt;p&gt;Why does symmetric sum-pooling (DeepSets) predict ground-state potentials to sub-meV accuracy, yet fail for correlated wavefunctions and excited states? Sum-pooling is a mean-field (Hartree) model: its $O(1/N)$ off-diagonal Jacobian suffices for nearsighted ground-state energies, but erases nonlocal two-body correlations. We show that self-attention is a real-space Dyson iteration whose Boltzmann (softmax) kernel acts as a two-body self-energy.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21398v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #ml-theory&lt;/p&gt;</summary>
+    <title>SLED: Sensor SLicing from Edge to Datacenter</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-45-sled-sensor-slicing-from-edge"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21937v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-45-sled-sensor-slicing-from-edge</id>
+    <updated>2026-11-16T21:51:51+00:00</updated>
+    <summary type="html">&lt;p&gt;Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21937v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Leverage-Enhanced Sampling Owen Method for Explainable Artificial Intelligence</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-82-leverage-enhanced-sampling-owen-method"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21504v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-82-leverage-enhanced-sampling-owen-method</id>
-    <updated>2026-11-16T18:02:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Recently, the Shapley value has been widely applied in machine learning for feature importance analysis and model explainability. The multilinear extension of games proposed by Owen (1972) expresses the Shapley value as the integral of partial derivatives along the main diagonal of the cube. Direct evaluation of this integral requires exponential-time computation of the partial derivatives.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21504v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
+    <title>Reversing the text is not reversing the path: a fixed-text measure without a zero, and an assembly-order comparison that vanishes identically</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-83-reversing-the-text-is-not"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23049v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-83-reversing-the-text-is-not</id>
+    <updated>2026-11-17T16:46:03+00:00</updated>
+    <summary type="html">&lt;p&gt;For an ensemble of trajectories the fluctuation theorems give the entropy production its meaning and zero. The same expression has recently been evaluated on one fixed text, $Δ= [\log P(x) - \log P(\tilde x)]/L$ with $\tilde x$ the text in reversed order, read as an entropy production separating causally from arbitrarily ordered prose. A single text is neither a distribution nor a dynamics, and the texts at issue were produced by other models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23049v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Same Papers, Different Verdicts: Tracing Version Drift in LLM Peer Review. Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-90-same-papers-different-verdicts-tracing"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20608v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-90-same-papers-different-verdicts-tracing</id>
-    <updated>2026-11-16T06:32:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Venues and benchmarks read LLM review scores as measurements of a paper, while providers replace their models within months. We audit twenty frontier models from OpenAI, Google and Anthropic on ICLR 2027 submissions while they were under review, with tests registered before the decisions. Between an earlier and a later version of Claude Opus and of Gemini, the share of papers placed on the accept side falls by 52 and 53 percentage points on 183 and 60 randomly drawn submissions, and by 43 to 79 points in six further paired comparisons, with no paper moving up in any of them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20608v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #llm #ml-theory&lt;/p&gt;</summary>
+    <title>Virtual Double Oracle: Faster Convergence by Leveraging Strategies That Were Watching All Along</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-85-virtual-double-oracle-faster-convergence"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22806v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-85-virtual-double-oracle-faster-convergence</id>
+    <updated>2026-11-17T14:00:20+00:00</updated>
+    <summary type="html">&lt;p&gt;Double Oracle (DO) and PSRO approximate Nash equilibria in two-player zero-sum games by iteratively expanding a strategy population with best responses supplied by an oracle. Online Double Oracle (ODO) interleaves multiplicative weights updates (MWU) with population discovery and obtains an $O(\sqrt{k\ln k/T})$ rate, where $T$ is the number of learning rounds and $k$ is the larger of the two players&amp;apos; final population sizes. We identify the reinitialisation step as an underexplored design choice: at each expansion, MWU-based methods reset newly discovered strategies to a uniform prior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22806v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Flocking Time and Graph Volume in Nonlinear Cucker-Smale Models with Dynamic Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-89-flocking-time-and-graph-volume"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22204v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-89-flocking-time-and-graph-volume</id>
+    <updated>2026-11-17T04:41:45+00:00</updated>
+    <summary type="html">&lt;p&gt;This study proposes a Cucker-Smale model incorporating dynamic networks and the discrete $p$-Laplacian ($p \in (1,2)$) and analyzes the relationship between flocking time constraints and graph connectivity from both theoretical and experimental perspectives. We establish that this model achieves flocking within finite time and derive a quantitative relationship between the lower bound of flocking time and graph volume. Based on these results, we observe that imposing sufficiently small flocking time induces an increase in network volume, and that larger initial velocity variance requires greater volume under the same time constraint.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22204v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #analysis-pde #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

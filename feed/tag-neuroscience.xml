@@ -5,20 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
-  <entry>
-    <title>VoxMel TTS Technical Report</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-16-voxmel-tts-technical-report"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20254"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-16-voxmel-tts-technical-report</id>
-    <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like mel-spectrograms eliminate encoder overhead, yet their potential for autoregressive generation remains largely underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20254&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
     <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-51-scalable-physical-deep-learning-using"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-54-scalable-physical-deep-learning-using"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-51-scalable-physical-deep-learning-using</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-54-scalable-physical-deep-learning-using</id>
     <updated>2026-11-05T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
   </entry>

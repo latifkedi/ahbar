@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-bio.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-bio.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <entry>
+    <title>CATEomics: model selection and ensembling for heterogeneous treatment effect estimation from high-dimensional omics data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-46-cateomics-model-selection-and-ensembling"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-46-cateomics-model-selection-and-ensembling</id>
+    <updated>2026-11-18T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;CATEomics addresses the lack of a standardized and reproducible process for choosing among conditional average treatment effect (CATE) estimators in high-dimensional omics studies, where their estimation errors cannot be evaluated directly from observed outcomes. The R package accepts a SummarizedExperiment, applies common preprocessing and data partitions across R and Python estimators, compares their out-of-fold estimates using proxy losses, supports model selection and ensembling, and returns the resulting CATE estimates to the original object for downstream omics analysis. Availability and implementation: CATEomics is implemented in R and is freely available under the MIT license at https://github.com/matsui-lab/CATEomics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>MetaboRx: R Shiny application for quality assessment and preprocessing of mass spectrometry-based metabolomics data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-47-metaborx-r-shiny-application-for"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767162v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-47-metaborx-r-shiny-application-for</id>
+    <updated>2026-11-18T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Introduction Metabolomics datasets offer deep insights into biological systems, yet the multi-step analytical workflow, from sample preparation through instrumental analysis, introduces unwanted variation. This variation, including signal drift and batch effects can confound true biological signals. Although rigorous quality control (QC) and data preprocessing are prerequisites for downstream analysis, existing workflows are often fragmented, time-consuming, and inaccessible to non-experts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767162v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Minimizing data requirements for chemical and material property prediction via cluster-based training set selection</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-48-minimizing-data-requirements-for-chemical"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01076-9"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-48-minimizing-data-requirements-for-chemical</id>
+    <updated>2026-11-18T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 18 November 2026; doi:10.1038/s43588-026-01076-9 A survey of 100 algorithms across 60 chemical and materials property prediction tasks finds that cluster-based selection of training data outperforms active learning, and a theoretical framework establishes why this occurs in the low-data limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01076-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>The rise of AI in mathematics — and science</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-46-the-rise-of-ai-in"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-49-the-rise-of-ai-in"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01112-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-46-the-rise-of-ai-in</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-49-the-rise-of-ai-in</id>
     <updated>2026-11-17T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 17 November 2026; doi:10.1038/s43588-026-01112-8 We discuss the role of artificial intelligence (AI) in mathematical research and explore its implications for the computational science community.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01112-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Cognitive grounding improves LLM simulation of collective human behavior</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-47-cognitive-grounding-improves-llm-simulation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-50-cognitive-grounding-improves-llm-simulation"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01080-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-47-cognitive-grounding-improves-llm-simulation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-50-cognitive-grounding-improves-llm-simulation</id>
     <updated>2026-11-16T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 16 November 2026; doi:10.1038/s43588-026-01080-z The study shows that guiding AI agents with descriptions of how people make decisions in a supply-chain game helps agents reproduce collective human behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01080-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Training reservoirs without looking back</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-48-training-reservoirs-without-looking-back"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-51-training-reservoirs-without-looking-back"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01079-6"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-48-training-reservoirs-without-looking-back</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-51-training-reservoirs-without-looking-back</id>
     <updated>2026-11-13T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 November 2026; doi:10.1038/s43588-026-01079-6 By training a reservoir computing system without access to its intermediate states and by eliminating the coupling between its nodes, a physical learning framework achieves efficient learning both in simulation and on optoelectronic hardware.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01079-6&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Open foundation models for clinical AI. Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-49-open-foundation-models-for-clinical"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-52-open-foundation-models-for-clinical"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01094-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-49-open-foundation-models-for-clinical</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-52-open-foundation-models-for-clinical</id>
     <updated>2026-11-12T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01094-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Ab initio simulation of excited-state potential energy surfaces with transferable deep quantum Monte Carlo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-50-ab-initio-simulation-of-excited"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-53-ab-initio-simulation-of-excited"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01065-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-50-ab-initio-simulation-of-excited</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-53-ab-initio-simulation-of-excited</id>
     <updated>2026-11-06T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 06 November 2026; doi:10.1038/s43588-026-01065-y Transferable deep-learning quantum Monte Carlo for molecular excited states is introduced. Sharing parameters, an ansatz represents the wavefunction across molecular geometries and states, reducing the cost of modeling potential energy surfaces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01065-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Scalable physical deep learning using optical dynamics with state-skipping training and single-map architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-51-scalable-physical-deep-learning-using"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-54-scalable-physical-deep-learning-using"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01075-w"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-51-scalable-physical-deep-learning-using</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-54-scalable-physical-deep-learning-using</id>
     <updated>2026-11-05T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 05 November 2026; doi:10.1038/s43588-026-01075-w This study presents a scalable, efficient framework for unconventional computing with physical neural networks. It replaces dense connections with uncoupled one-dimensional dynamics, simplifies training, improves performance and reduces resource use.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01075-w&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Machine learning dataset and benchmark for accurate T cell receptor–pHLA binding prediction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-52-machine-learning-dataset-and-benchmark"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01073-y"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-52-machine-learning-dataset-and-benchmark</id>
-    <updated>2026-10-26T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 26 October 2026; doi:10.1038/s43588-026-01073-y Hi-TPH is a large-scale hierarchical dataset that enables more accurate prediction of T cell receptor binding to antigens using protein language models and reveals how molecular components jointly contribute to prediction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01073-y&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Making the case for a non-primary article</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-53-making-the-case-for-a"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01078-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-53-making-the-case-for-a</id>
-    <updated>2026-10-22T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 22 October 2026; doi:10.1038/s43588-026-01078-7 Author-proposed non-primary articles can bring fresh and timely perspectives to the journal. Here, we discuss the factors that editors consider when assessing proposals for these contributions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01078-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>A CD7-targeted AAV variant enables efficient T and NK cell engineering in vivo</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-54-a-cd7-targeted-aav-variant"/>
-    <link rel="related" href="https://www.nature.com/articles/s41587-026-03344-5"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-54-a-cd7-targeted-aav-variant</id>
-    <updated>2026-11-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Biotechnology, Published online: 16 November 2026; doi:10.1038/s41587-026-03344-5 Adeno-associated virus vectors targeted to CD7 enable T and NK cell engineering in vivo.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s41587-026-03344-5&quot;&gt;Nature Biotechnology&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #genomics-proteins #bioinformatics&lt;/p&gt;</summary>
   </entry>
 </feed>

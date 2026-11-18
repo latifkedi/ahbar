@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-ai.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-ai.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-10-allocflow-end-to-end-portfolio"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.19937"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-10-allocflow-end-to-end-portfolio</id>
+    <title>TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-10-tcp4d-a-unified-tool-center"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23143"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-10-tcp4d-a-unified-tool-center</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given a monocular video and initial 2D TCP queries, the tracker directly recovers metric TCP poses in SE(3) and gripper states alongside scene geometry and camera parameters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23143&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>FastFrames: Video Generation at Interactive Latency</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-11-fastframes-video-generation-at-interactive"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23226"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-11-fastframes-video-generation-at-interactive</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23226&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-12-ascendgym-a-cost-aware-kernel"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17621"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-12-ascendgym-a-cost-aware-kernel</id>
+    <updated>2026-11-12T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17621&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>π^4: A Foundation Model for 4D Scene Geometry and Motion. $π^4$ is a unified foundation model for 4D scene perception.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-13-4-a-foundation-model-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23144"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-13-4-a-foundation-model-for</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;$π^4$ is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses, and metric scale, together with 2D/3D point tracks and moving-object masks for multi-image inputs. It couples a geometry branch with a geometry-conditioned motion branch, which predicts image-space correspondences that are lifted into 3D using reconstructed target-view geometry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23144&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-14-telechat-to-xing4-advancing-frontier"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22115"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-14-telechat-to-xing4-advancing-frontier</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Beyond Answering: Learning to Speak First and Act in Streaming Video</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-15-beyond-answering-learning-to-speak"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17048"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-15-beyond-answering-learning-to-speak</id>
     <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.19937&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #reinforcement-learning&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics worth discussing in the evolving visual stream and initiate conversations at appropriate moments without a user query.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17048&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-11-scalevla-scaling-vision-language-action"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21607"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-11-scalevla-scaling-vision-language-action</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21607&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-16-breath-dx-a-time-series"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15348"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-16-breath-dx-a-time-series</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with inconsistent protocols, rendering results non-comparable and slowing progress.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15348&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>InclusionMed: Benchmarking AI for Inclusive Healthcare</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-12-inclusionmed-benchmarking-ai-for-inclusive"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21218"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-12-inclusionmed-benchmarking-ai-for-inclusive</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21218&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>Do LLM Agents Still Need to Be Told How to Self-Improve?. LLM agents increasingly drive their own learning.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-17-do-llm-agents-still-need"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23219"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-17-do-llm-agents-still-need</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23219&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sage S2.1 Flash Technical Report</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-13-sage-s2-1-flash-technical"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21072"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-13-sage-s2-1-flash-technical</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21072&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-14-spillway-separating-target-admission-from"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.07222"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-14-spillway-separating-target-admission-from</id>
-    <updated>2026-11-03T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker&amp;apos;s text and adds model calls to every step. Provenance defenses keep the model off the final check but need a model to plan or route each task first.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.07222&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-15-swe-cowork-benchmarking-coding-agents"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20218"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-15-swe-cowork-benchmarking-coding-agents</id>
-    <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20218&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>VoxMel TTS Technical Report</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-16-voxmel-tts-technical-report"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20254"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-16-voxmel-tts-technical-report</id>
-    <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like mel-spectrograms eliminate encoder overhead, yet their potential for autoregressive generation remains largely underexplored.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20254&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Accelerate Bench: Evaluating Agents for Application-Level Program Optimization</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-17-accelerate-bench-evaluating-agents-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20882"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-17-accelerate-bench-evaluating-agents-for</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and permitted edits, leaving agents to choose where and how to optimize.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20882&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>K2-Horizon: A Frontier Fleet of Open Source Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-18-k2-horizon-a-frontier-fleet"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21003"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-18-k2-horizon-a-frontier-fleet</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21003&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #agents&lt;/p&gt;</summary>
+    <title>Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration. Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-18-heave-ho-decentralized-long-horizon"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22275"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-18-heave-ho-decentralized-long-horizon</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
 </feed>

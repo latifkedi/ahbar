@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>Complex Moments of the Derivative of the Riemann Zeta Function. We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-20-complex-moments-of-the-derivative"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-20-complex-moments-of-the-derivative</id>
-    <updated>2026-11-16T18:32:03+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model. For each fixed $σ&amp;gt;1/2$ and every $s\in\mathbb{C}$ with $\operatorname{Re}(s)&amp;gt;0$, we show, under the Lindelöf hypothesis, that the $2s$-th moment of $|ζ&amp;apos;(σ+\mathrm{i}t)|$ over $t\in[1,T]$ converges, as $T\to\infty$, to the corresponding moment of the derivative of the random Euler product. We then establish, unconditionally, an asymptotic formula for the latter moment as $σ\downarrow 1/2$ throughout the half-plane $\operatorname{Re}(s)&amp;gt;0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21551v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+    <title>Dynamics-preserving graph sparsification. Many dynamical systems unfold on networks of nodes coupled by edge interactions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-19-dynamics-preserving-graph-sparsification"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23176v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-19-dynamics-preserving-graph-sparsification</id>
+    <updated>2026-11-17T18:23:13+00:00</updated>
+    <summary type="html">&lt;p&gt;Many dynamical systems unfold on networks of nodes coupled by edge interactions. This work is motivated by the following question: can we remove most edges from a networked dynamical system without significantly altering its behavior? For a given network, our goal is to find a sparser network that approximately preserves the dynamics on the nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23176v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems #combinatorics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Unique continuation for the Pauli-Fierz Hamiltonian</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-20-unique-continuation-for-the-pauli"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23062v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-20-unique-continuation-for-the-pauli</id>
+    <updated>2026-11-17T16:53:33+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove a unique continuation property for eigenstates of the Pauli-Fierz Hamiltonian, viewed as functions of the electron configuration with values in the spin-photon space. The vector potential may lie in $L^6_\mathrm{loc}$, with its divergence, curl, and the scalar potential in $L^p_\mathrm{loc}$ for some $p&amp;gt;2$. As an application, we prove a Hohenberg-Kohn theorem at positive coupling strength: the spin-summed ground-state density and combined current density determine the external potentials up to a gauge transformation and an additive constant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23062v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,28 +5,12 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
-  <entry>
-    <title>Peak state transfer in trees and the cost of distance</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-19-peak-state-transfer-in-trees"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21567v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-19-peak-state-transfer-in-trees</id>
-    <updated>2026-11-16T18:41:31+00:00</updated>
-    <summary type="html">&lt;p&gt;There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\mathrm{e}^{\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21567v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Complex Moments of the Derivative of the Riemann Zeta Function. We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-20-complex-moments-of-the-derivative"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-20-complex-moments-of-the-derivative</id>
-    <updated>2026-11-16T18:32:03+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model. For each fixed $σ&amp;gt;1/2$ and every $s\in\mathbb{C}$ with $\operatorname{Re}(s)&amp;gt;0$, we show, under the Lindelöf hypothesis, that the $2s$-th moment of $|ζ&amp;apos;(σ+\mathrm{i}t)|$ over $t\in[1,T]$ converges, as $T\to\infty$, to the corresponding moment of the derivative of the random Euler product. We then establish, unconditionally, an asymptotic formula for the latter moment as $σ\downarrow 1/2$ throughout the half-plane $\operatorname{Re}(s)&amp;gt;0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21551v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
     <title>The Case for a Trump-Xi-Putin Summit. In just a few days’ time, U.S.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-77-the-case-for-a-trump"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-81-the-case-for-a-trump"/>
     <link rel="related" href="https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-77-the-case-for-a-trump</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-81-the-case-for-a-trump</id>
     <updated>2026-11-13T05:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;In just a few days’ time, U.S. President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin could be holding a three-way summit on the sidelines of next week’s Asia-Pacific Economic Cooperation meeting in Shenzhen, China. According to The Wall Street Journal, Putin floated the idea of a trialogue last month as an opportunity to discuss ending the war in Ukraine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #number-theory&lt;/p&gt;</summary>
   </entry>

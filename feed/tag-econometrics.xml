@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-econometrics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-econometrics.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
     <title>Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-64-strategic-repayment-and-latent-fragility"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-64-strategic-repayment-and-latent-fragility"/>
     <link rel="related" href="https://arxiv.org/abs/2611.21262v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-64-strategic-repayment-and-latent-fragility</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-64-strategic-repayment-and-latent-fragility</id>
     <updated>2026-11-16T15:34:18+00:00</updated>
     <summary type="html">&lt;p&gt;A network in which every bank pays in full can nevertheless admit a self-fulfilling settlement freeze under the same balance-sheet fundamentals. Thus, observing full repayment does not establish the uniqueness or robustness of the payment equilibrium. We derive this result from a precautionary-liquidity choice: banks may delay otherwise feasible payments to insure an interim funding need, trading a positive settlement-discipline cost against the marginal value of retained cash.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21262v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #decision-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>Settling the Time and Structural Complexity of Bertrand Networks. In the seminal Bertrand network game introduced by Babaioff et al.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-65-settling-the-time-and-structural"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22216v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-65-settling-the-time-and-structural</id>
+    <updated>2026-11-17T04:52:49+00:00</updated>
+    <summary type="html">&lt;p&gt;In the seminal Bertrand network game introduced by Babaioff et al. (2013), each seller posts a single price to captive buyers and to the markets it shares with neighboring sellers, where sellers cannot price discriminate across the markets. Although the existence of equilibria and polynomial-time algorithms to compute them in trees (Babaioff et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22216v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #algorithms&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Intransigence or compromise: concatenated opinion dynamics with voting feedback</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-65-intransigence-or-compromise-concatenated-opinion"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-66-intransigence-or-compromise-concatenated-opinion"/>
     <link rel="related" href="https://arxiv.org/abs/2611.21113v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-65-intransigence-or-compromise-concatenated-opinion</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-66-intransigence-or-compromise-concatenated-opinion</id>
     <updated>2026-11-16T13:58:56+00:00</updated>
     <summary type="html">&lt;p&gt;In this paper, we study opinion evolution in a sequence of Friedkin-Johnsen (FJ) models, concatenated so that the final opinions of each model serve as the initial opinions of the next. Each FJ model is followed by a vote, and each agent becomes partially or fully stubborn in the next model, depending on how close its opinion is to the voting result. With the state-dependent switching of stubbornness, the dynamics are not guaranteed to be contractive.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21113v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #complex-systems #market-design&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Paying Creators for Training Data Can Increase AI Displacement. Generative AI increasingly competes with creators while using their content as training data.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-66-paying-creators-for-training-data"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20204v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-66-paying-creators-for-training-data</id>
-    <updated>2026-11-15T19:05:47+00:00</updated>
-    <summary type="html">&lt;p&gt;Generative AI increasingly competes with creators while using their content as training data. In response, policymakers have called for platforms to compensate creators for training data use and allow opting out. We study how such policies affect creator displacement in a model of a platform where creators choose whether to contribute training data and consumers choose between purchasing from creators and prompting generative AI trained on their content.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20204v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Who Observes Whom: Network Rationalizability and Its Complexity</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-67-who-observes-whom-network-rationalizability"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20110v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-67-who-observes-whom-network-rationalizability</id>
-    <updated>2026-11-15T16:40:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nash equilibrium and rationalizability sit at opposite informational extremes: the former presumes that each player knows all opponents&amp;apos; strategies, the latter that players reason from common knowledge of rationality alone. When visibility is partial and asymmetric, we study the solution concepts induced by a directed \emph{observation network} $G$ in which an edge $i\to j$ means that $i$ observes $j$&amp;apos;s strategy. A set of profiles is \emph{self-sustaining} if every profile in it can be justified, for every player, by conjectures from the same set that agree with everything the player observes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20110v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #algorithms&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Alternative Computational Formulations for Testing Discrete-Choice Random Utility Models: Half-Space and Network-Flow Formulations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-68-alternative-computational-formulations-for-testing"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.19177v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-68-alternative-computational-formulations-for-testing</id>
-    <updated>2026-11-14T05:52:35+00:00</updated>
-    <summary type="html">&lt;p&gt;This paper develops computational algorithms for testing discrete-choice random utility models (RUM). The set of RUM-consistent choice probabilities forms a polytope, and existing computational methods rely on its vertex representation. We exploit alternative half-space (Block--Marschak inequalities) and network-flow representations to develop two methods based on the alternating direction method of multipliers and a flow-based column-generation algorithm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.19177v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #market-design #infosec&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>How Will the 340B Rebate Model Pilot Affect Covered Entity Finances? -- by Charles J. Courtemanche</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-69-how-will-the-340b-rebate"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-67-how-will-the-340b-rebate"/>
     <link rel="related" href="https://www.nber.org/papers/w36006#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-69-how-will-the-340b-rebate</id>
-    <updated>2026-11-17T13:56:02.155903462+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-67-how-will-the-340b-rebate</id>
+    <updated>2026-11-18T13:32:16.299361822+00:00</updated>
     <summary type="html">&lt;p&gt;The Health Resources and Services Administration (HRSA) plans to implement a pilot switching 340B from an upfront discount model to a rebate model for drugs in the Medicare Drug Price Negotiation Program (MDPNP). This study uses calibration methods to predict the impact of the rebate model pilot (RMP) on covered entities’ net revenues from the 340B program. I examine possible losses from averted duplicate discounts; denial of valid claims; manufacturers using data to exert influence; liquidity-related expenses; and administrative and staffing costs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w36006#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Horizontal Equity of Taxation: Citizen Beliefs and Policy Preferences -- by Pierre Bachas, Christopher A. Hoy, Anders Jensen, Mahvish Shaukat</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-70-horizontal-equity-of-taxation-citizen"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-68-horizontal-equity-of-taxation-citizen"/>
     <link rel="related" href="https://www.nber.org/papers/w36007#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-70-horizontal-equity-of-taxation-citizen</id>
-    <updated>2026-11-17T13:56:02.155903462+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-68-horizontal-equity-of-taxation-citizen</id>
+    <updated>2026-11-18T13:32:16.299361822+00:00</updated>
     <summary type="html">&lt;p&gt;Taxes are harder to enforce on the self-employed than on wage earners, creating horizontal inequities among taxpayers with similar incomes. Using tax microsimulation and household survey data from 29 developing countries, we show that horizontal inequities in actual tax systems are comparable in magnitude to vertical equity and are exacerbated by progressive reforms that fall disproportionately on wage earners. We then conduct surveys and randomized information experiments in Pakistan to study public perceptions of these inequities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w36007#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Monetary policy in a Phelps–Winter Economy -- by Bruce C. Greenwald, Joseph E. Stiglitz</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-71-monetary-policy-in-a-phelps"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-69-monetary-policy-in-a-phelps"/>
     <link rel="related" href="https://www.nber.org/papers/w36008#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-71-monetary-policy-in-a-phelps</id>
-    <updated>2026-11-17T13:56:02.155903462+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-69-monetary-policy-in-a-phelps</id>
+    <updated>2026-11-18T13:32:16.299361822+00:00</updated>
     <summary type="html">&lt;p&gt;We use the Phelps-Winter customer market—providing a better theory of price determination for large parts of the economy than the standard model—to show that raising interest rates induces higher prices, as firms value current profits more, and are more willing to lose customers for short-term gains. These inflationary effects can be significant in relevant ranges of interest rates; they exist in the short run even when interest rate hikes succeed in cutting aggregate demand; and that they are amplified by policy uncertainty and the uncertainty about the effects of interest rate changes, both of which have increased as conventional policy has demonstrably failed badly to keep inflation at the 2% target. Empirical studies confirm this low level of ineffectiveness of raising interest rates in reducing inflation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w36008#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Measuring the Impact of Impact Measurement -- by Emanuele Colonnelli, Timothy McQuade, Natalia Rigol, Benjamin N. Roth</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-72-measuring-the-impact-of-impact"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-70-measuring-the-impact-of-impact"/>
     <link rel="related" href="https://www.nber.org/papers/w36009#fromrss"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-72-measuring-the-impact-of-impact</id>
-    <updated>2026-11-17T13:56:02.155903462+00:00</updated>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-70-measuring-the-impact-of-impact</id>
+    <updated>2026-11-18T13:32:16.299361822+00:00</updated>
     <summary type="html">&lt;p&gt;Impact measurement is central to impact investing and social entrepreneurship, yet little is known about whether firms benefit privately from measuring impact. We conduct the first randomized controlled trial of an impact measurement intervention among high-growth social enterprises in India. Treated firms exhibit nearly twice as much revenue growth and raise nearly twice as much capital as control firms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w36009#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Gambling for Goals -- by Costas Arkolakis, Spencer Y. Kwon, Dominic Russel, Claire Shi, Hyunjoo Yang</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-71-gambling-for-goals-by-costas"/>
+    <link rel="related" href="https://www.nber.org/papers/w36010#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-71-gambling-for-goals-by-costas</id>
+    <updated>2026-11-18T13:32:16.299361822+00:00</updated>
+    <summary type="html">&lt;p&gt;Young adults in advanced economies have grown more pessimistic about their economic prospects in recent years. At the same time, gambling-like financial activities have proliferated. We link these trends through a Friedman-Savage (1948) motive: when life goals such as homeownership or marriage seem out of reach, individuals turn to financial gambles.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w36010#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Investment and Governance: Through The Lens of Sustainability -- by Jitendra Aswani, Roberto Rigobon</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-72-investment-and-governance-through-the"/>
+    <link rel="related" href="https://www.nber.org/papers/w36011#fromrss"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-72-investment-and-governance-through-the</id>
+    <updated>2026-11-18T13:32:16.299361822+00:00</updated>
+    <summary type="html">&lt;p&gt;Using 3,944 sustainable bond issuances by public firms from 2013 to 2022, we examine the causal effect of sustainable investment on governance adoption. A heteroskedasticity-based identification strategy reveals that a 1% increase in sustainable debt (by total debt) raises the likelihood of sustainable governance adoption by 9.2%. Such adoption improves environmental performance by 16% (structural estimates).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nber.org/papers/w36011#fromrss&quot;&gt;NBER Working Papers (National Bureau of Economic Research)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #macroeconomics #econometrics&lt;/p&gt;</summary>
   </entry>
 </feed>

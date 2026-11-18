@@ -5,13 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>K2-Horizon: A Frontier Fleet of Open Source Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-18-k2-horizon-a-frontier-fleet"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21003"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-18-k2-horizon-a-frontier-fleet</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21003&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #agents&lt;/p&gt;</summary>
+    <title>FastFrames: Video Generation at Interactive Latency</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-11-fastframes-video-generation-at-interactive"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23226"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-11-fastframes-video-generation-at-interactive</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23226&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>America’s Hidden AI Advantage. The United States—not China—dominates diffusion.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-73-america-s-hidden-ai-advantage"/>
+    <link rel="related" href="https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-73-america-s-hidden-ai-advantage</id>
+    <updated>2026-11-18T09:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;The United States—not China—dominates diffusion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,36 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-15-swe-cowork-benchmarking-coding-agents"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.20218"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-15-swe-cowork-benchmarking-coding-agents</id>
-    <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.20218&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-14-telechat-to-xing4-advancing-frontier"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22115"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-14-telechat-to-xing4-advancing-frontier</id>
+    <updated>2026-11-16T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-21-compcert4lean-porting-a-verified-c"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21084v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-21-compcert4lean-porting-a-verified-c</id>
-    <updated>2026-11-16T13:32:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We present CompCert4Lean, a large-scale port of CompCert 3.17&amp;apos;s verified compiler core from Rocq to Lean, completed in approximately six weeks by one expert directing parallel LLM agents. Our migration workflow partitions the development along its dependencies, audits translated definitions and theorem statements before large-scale proof reconstruction, and then reconstructs proofs in parallel against stable interfaces. The resulting compiler covers typed CompCert C through x86-64 assembly, discharges all 4,908 recorded proof obligations without project-specific axioms, and produces executable Linux binaries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21084v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #formal-proofs&lt;/p&gt;</summary>
+    <title>A Unifying Metatheorem on Weak-Memory Robustness</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-21-a-unifying-metatheorem-on-weak"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22663v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-21-a-unifying-metatheorem-on-weak</id>
+    <updated>2026-11-17T12:20:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Memory models specify the behaviors that concurrent programs may exhibit under compiler and hardware optimizations, which often deviate from Sequential Consistency (SC). Robustness is the property of a program P not exhibiting any weak behaviors when executing under a weak memory model MM, compared to SC. As such, the algorithmic problem of deciding whether $P$ is robust against MM has been studied extensively, and has been repeatedly shown to be in PSPACE for many memory models, such as TSO, PSO, and Release/Acquire.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22663v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Specifying &amp; Verifying Quantum Error-Correcting Codes. Building quantum computers is challenging due to the noise that affects qubits.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-34-specifying-verifying-quantum-error-correcting"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21236v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-34-specifying-verifying-quantum-error-correcting</id>
-    <updated>2026-11-16T15:20:32+00:00</updated>
-    <summary type="html">&lt;p&gt;Building quantum computers is challenging due to the noise that affects qubits. Quantum error correction tackles noise by encoding information in quantum error-correcting (QEC) codes. These codes are often complex, increasingly found by computational search, presented in diverse formalisms with informal arguments, and hard to reason about algorithmically.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21236v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing&lt;/p&gt;</summary>
+    <title>Python Code Generation for Isabelle/HOL. The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-22-python-code-generation-for-isabelle"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22613v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-22-python-code-generation-for-isabelle</id>
+    <updated>2026-11-17T11:29:58+00:00</updated>
+    <summary type="html">&lt;p&gt;The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22613v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #software-architecture&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>SLED: Sensor SLicing from Edge to Datacenter</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-45-sled-sensor-slicing-from-edge"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21937v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-45-sled-sensor-slicing-from-edge</id>
+    <updated>2026-11-16T21:51:51+00:00</updated>
+    <summary type="html">&lt;p&gt;Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21937v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-26-our-survey-of-early-career"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-27-our-survey-of-early-career"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-26-our-survey-of-early-career</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-27-our-survey-of-early-career</id>
     <updated>2026-11-09T17:12:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
   </entry>

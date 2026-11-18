@@ -5,61 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>Sage S2.1 Flash Technical Report</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-13-sage-s2-1-flash-technical"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21072"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-13-sage-s2-1-flash-technical</id>
-    <updated>2026-11-15T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21072&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-16-breath-dx-a-time-series"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.15348"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-16-breath-dx-a-time-series</id>
+    <updated>2026-11-10T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with inconsistent protocols, rendering results non-comparable and slowing progress.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15348&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Peak state transfer in trees and the cost of distance</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-19-peak-state-transfer-in-trees"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21567v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-19-peak-state-transfer-in-trees</id>
-    <updated>2026-11-16T18:41:31+00:00</updated>
-    <summary type="html">&lt;p&gt;There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\mathrm{e}^{\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21567v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
+    <title>Strange-Metal Magnetotransport without a Strange-Metal Ground State. Strange metals display a linear-in-temperature resistivity, $ρ_{xx}\sim T$, and a quadratic inverse Hall angle, $\cotΘ_H\sim T^2$.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-35-strange-metal-magnetotransport-without-a"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22985v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-35-strange-metal-magnetotransport-without-a</id>
+    <updated>2026-11-17T16:02:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Strange metals display a linear-in-temperature resistivity, $ρ_{xx}\sim T$, and a quadratic inverse Hall angle, $\cotΘ_H\sim T^2$. These seemingly universal laws are often attributed to quantum criticality, yet no controlled theory realizes both at an asymptotic zero-temperature fixed point, and experimentally they persist only over finite temperature windows. Here, we show that these properties can arise from an intermediate critical regime that does not govern the ground state.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22985v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Complex Moments of the Derivative of the Riemann Zeta Function. We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-20-complex-moments-of-the-derivative"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-20-complex-moments-of-the-derivative</id>
-    <updated>2026-11-16T18:32:03+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model. For each fixed $σ&amp;gt;1/2$ and every $s\in\mathbb{C}$ with $\operatorname{Re}(s)&amp;gt;0$, we show, under the Lindelöf hypothesis, that the $2s$-th moment of $|ζ&amp;apos;(σ+\mathrm{i}t)|$ over $t\in[1,T]$ converges, as $T\to\infty$, to the corresponding moment of the derivative of the random Euler product. We then establish, unconditionally, an asymptotic formula for the latter moment as $σ\downarrow 1/2$ throughout the half-plane $\operatorname{Re}(s)&amp;gt;0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21551v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+    <title>Dynamics-preserving graph sparsification. Many dynamical systems unfold on networks of nodes coupled by edge interactions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-19-dynamics-preserving-graph-sparsification"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23176v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-19-dynamics-preserving-graph-sparsification</id>
+    <updated>2026-11-17T18:23:13+00:00</updated>
+    <summary type="html">&lt;p&gt;Many dynamical systems unfold on networks of nodes coupled by edge interactions. This work is motivated by the following question: can we remove most edges from a networked dynamical system without significantly altering its behavior? For a given network, our goal is to find a sparser network that approximately preserves the dynamics on the nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23176v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Geometry of Zero Knowledge: Tight Masking and Efficient Multilinear Arguments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-57-the-geometry-of-zero-knowledge"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2019"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-57-the-geometry-of-zero-knowledge</id>
-    <updated>2026-09-14T08:19:53+00:00</updated>
-    <summary type="html">&lt;p&gt;Zero-knowledge proofs have become a fundamental tool for verifiable computation and privacy-preserving applications, driving growing interest in proof systems that are both succinct and efficient. In polynomial-based arguments, however, achieving zero knowledge introduces additional costs. Random masks must hide the evaluations and intermediate messages revealed during verification while preserving the underlying computation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2019&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Information-Theoretic Strong Traceable Secret Sharing Schemes. Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-58-information-theoretic-strong-traceable-secret"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/435"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-58-information-theoretic-strong-traceable-secret</id>
-    <updated>2026-03-03T15:45:48+00:00</updated>
-    <summary type="html">&lt;p&gt;Traceable secret sharing complements traditional schemes by enabling the identification of parties who sell their shares. More precisely, a group of corrupted parties generates a reconstruction box $R$ that, given enough valid shares as input, reconstructs the secret. The goal is to trace $R$ back to at least one of the corrupted parties using only black-box access to it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/435&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-62-one-fell-swoop-a-single"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/2159"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-62-one-fell-swoop-a-single</id>
-    <updated>2025-11-27T15:23:49+00:00</updated>
-    <summary type="html">&lt;p&gt;Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact signature size alongside a complex signing procedure involving extensive floating-point arithmetic. Prior side-channel attacks on Falcon signing, while demonstrating vulnerabilities, have consistently required a large number of power traces for successful key recovery, which limits their real-world practicality. This paper presents a new single-trace attack on the Falcon signing procedure.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/2159&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>A Common Exponential Lower Bound for Dantzig and Modified Simplex in Deterministic Discounted Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-84-a-common-exponential-lower-bound"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22977v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-84-a-common-exponential-lower-bound</id>
+    <updated>2026-11-17T15:58:25+00:00</updated>
+    <summary type="html">&lt;p&gt;On a family of $N$-state deterministic two-player discounted games, every run that chooses adaptively between Dantzig&amp;apos;s rule and modified simplex requires $2^{Ω(N)}$ switches from a specified initial strategy, regardless of tie breaking. More generally, a return-gate construction lets Dantzig reproduce any finite Bland prefix in an undiscounted deterministic Markov decision process with rational rewards whenever every visited policy reaches a common sink from all states. Applied to an acyclic binary counter, deleting the minimizer&amp;apos;s return actions preserves every fixed maximizing strategy&amp;apos;s value at each original state while reducing Dantzig&amp;apos;s switch count from exponential to linear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22977v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

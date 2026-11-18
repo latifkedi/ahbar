@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-math.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-math.xml</id>
-  <updated>2026-11-17T13:56:01.895369510+00:00</updated>
+  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
   <entry>
-    <title>Peak state transfer in trees and the cost of distance</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-19-peak-state-transfer-in-trees"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21567v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-19-peak-state-transfer-in-trees</id>
-    <updated>2026-11-16T18:41:31+00:00</updated>
-    <summary type="html">&lt;p&gt;There is peak state transfer between vertices $u$ and $v$ in a graph $G$ if there exists a time $t$ for which $|(\mathrm{e}^{\mathrm i t M})_{u,v}|$ saturates the triangle inequality imposed by its spectral decomposition and $M$ is either the adjacency or Laplacian matrix. We show that peak state transfer at distance $d$ requires $\frac{d^3}{24}(1 + o(1))$ edges in the adjacency case, $Ω(d^2)$ edges in the Laplacian case, and that the leading coefficient in the former is tight. We find a family of graphs with Laplacian peak state transfer at distance $d$ and $Θ(d^5)$ edges, showing that peak state transfer is achievable in a polynomial graph size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21567v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #quantum-computing&lt;/p&gt;</summary>
+    <title>Dynamics-preserving graph sparsification. Many dynamical systems unfold on networks of nodes coupled by edge interactions.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-19-dynamics-preserving-graph-sparsification"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23176v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-19-dynamics-preserving-graph-sparsification</id>
+    <updated>2026-11-17T18:23:13+00:00</updated>
+    <summary type="html">&lt;p&gt;Many dynamical systems unfold on networks of nodes coupled by edge interactions. This work is motivated by the following question: can we remove most edges from a networked dynamical system without significantly altering its behavior? For a given network, our goal is to find a sparser network that approximately preserves the dynamics on the nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23176v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Complex Moments of the Derivative of the Riemann Zeta Function. We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-20-complex-moments-of-the-derivative"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21551v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-20-complex-moments-of-the-derivative</id>
-    <updated>2026-11-16T18:32:03+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the complex moments of the derivative of the Riemann zeta function through a random Euler product model. For each fixed $σ&amp;gt;1/2$ and every $s\in\mathbb{C}$ with $\operatorname{Re}(s)&amp;gt;0$, we show, under the Lindelöf hypothesis, that the $2s$-th moment of $|ζ&amp;apos;(σ+\mathrm{i}t)|$ over $t\in[1,T]$ converges, as $T\to\infty$, to the corresponding moment of the derivative of the random Euler product. We then establish, unconditionally, an asymptotic formula for the latter moment as $σ\downarrow 1/2$ throughout the half-plane $\operatorname{Re}(s)&amp;gt;0$.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21551v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+    <title>Unique continuation for the Pauli-Fierz Hamiltonian</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-20-unique-continuation-for-the-pauli"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23062v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-20-unique-continuation-for-the-pauli</id>
+    <updated>2026-11-17T16:53:33+00:00</updated>
+    <summary type="html">&lt;p&gt;We prove a unique continuation property for eigenstates of the Pauli-Fierz Hamiltonian, viewed as functions of the electron configuration with values in the spin-photon space. The vector potential may lie in $L^6_\mathrm{loc}$, with its divergence, curl, and the scalar potential in $L^p_\mathrm{loc}$ for some $p&amp;gt;2$. As an application, we prove a Hohenberg-Kohn theorem at positive coupling strength: the spin-summed ground-state density and combined current density determine the external potentials up to a gauge transformation and an additive constant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23062v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-21-compcert4lean-porting-a-verified-c"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21084v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-21-compcert4lean-porting-a-verified-c</id>
-    <updated>2026-11-16T13:32:37+00:00</updated>
-    <summary type="html">&lt;p&gt;We present CompCert4Lean, a large-scale port of CompCert 3.17&amp;apos;s verified compiler core from Rocq to Lean, completed in approximately six weeks by one expert directing parallel LLM agents. Our migration workflow partitions the development along its dependencies, audits translated definitions and theorem statements before large-scale proof reconstruction, and then reconstructs proofs in parallel against stable interfaces. The resulting compiler covers typed CompCert C through x86-64 assembly, discharges all 4,908 recorded proof obligations without project-specific axioms, and produces executable Linux binaries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21084v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #formal-proofs&lt;/p&gt;</summary>
+    <title>A Unifying Metatheorem on Weak-Memory Robustness</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-21-a-unifying-metatheorem-on-weak"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22663v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-21-a-unifying-metatheorem-on-weak</id>
+    <updated>2026-11-17T12:20:33+00:00</updated>
+    <summary type="html">&lt;p&gt;Memory models specify the behaviors that concurrent programs may exhibit under compiler and hardware optimizations, which often deviate from Sequential Consistency (SC). Robustness is the property of a program P not exhibiting any weak behaviors when executing under a weak memory model MM, compared to SC. As such, the algorithmic problem of deciding whether $P$ is robust against MM has been studied extensively, and has been repeatedly shown to be in PSPACE for many memory models, such as TSO, PSO, and Release/Acquire.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22663v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Python Code Generation for Isabelle/HOL. The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-22-python-code-generation-for-isabelle"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.22613v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-22-python-code-generation-for-isabelle</id>
+    <updated>2026-11-17T11:29:58+00:00</updated>
+    <summary type="html">&lt;p&gt;The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22613v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Introducing MathHelm: A Place to discuss AI-generated papers. [This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-22-introducing-mathhelm-a-place-to"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-23-introducing-mathhelm-a-place-to"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-22-introducing-mathhelm-a-place-to</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-23-introducing-mathhelm-a-place-to</id>
     <updated>2026-11-14T03:19:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the wider public. They help us share ideas, deepen our collective understanding, see where the field stands, and decide what to explore next.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>247A, Notes 4: Weighted estimates and pseudodifferential operators</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-23-247a-notes-4-weighted-estimates"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-24-247a-notes-4-weighted-estimates"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-23-247a-notes-4-weighted-estimates</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-24-247a-notes-4-weighted-estimates</id>
     <updated>2026-11-13T07:09:00+00:00</updated>
     <summary type="html">&lt;p&gt;— 1. Weighted inequalities — In the previous notes we have taken a linear or sublinear operator on a measure space and established mapping properties, such as These estimates reveal information about how the height and width of is controlled by the height and width of . However, these estimates do not indicate where the […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/12/247a-notes-4-weighted-estimates-and-pseudodifferential-operators/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-24-lean-grimoire"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-25-lean-grimoire"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-24-lean-grimoire</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-25-lean-grimoire</id>
     <updated>2026-11-12T02:36:00+00:00</updated>
     <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>“Six Math Essentials” now available</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-25-six-math-essentials-now-available"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-26-six-math-essentials-now-available"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-25-six-math-essentials-now-available</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-26-six-math-essentials-now-available</id>
     <updated>2026-11-10T16:58:00+00:00</updated>
     <summary type="html">&lt;p&gt;My popular mathematics book, “Six Math Essentials” (Six Maths Essentials in the UK), which was previously announced on this blog in February, is now available (in print, digital, and audiobook formats). Some related links: Review by Karmela Padavic-Callaghan (New Scientist) Review (Publishers Weekly) Review (Library Journal) Sample excerpt (via Science Friday), with related podcast interview […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/10/six-math-essentials-now-available/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-26-our-survey-of-early-career"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-27-our-survey-of-early-career"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-26-our-survey-of-early-career</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-27-our-survey-of-early-career</id>
     <updated>2026-11-09T17:12:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>What should we teach our (undergraduate) students?. [This is a guest post by Jana Gevertz and Steffen Marcus.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-17-27-what-should-we-teach-our"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-17-27-what-should-we-teach-our</id>
-    <updated>2026-11-08T15:56:34+00:00</updated>
-    <summary type="html">&lt;p&gt;[This is a guest post by Jana Gevertz and Steffen Marcus. This blog post was initially written in a different file format and converted using AI. — T.] In the last few months AI has hit our discipline with a frightening force.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/08/what-should-we-teach-our-undergraduate-students/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs&lt;/p&gt;</summary>
   </entry>
 </feed>
