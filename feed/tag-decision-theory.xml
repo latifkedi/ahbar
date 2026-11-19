@@ -5,93 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-64-strategic-repayment-and-latent-fragility"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21262v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-64-strategic-repayment-and-latent-fragility</id>
-    <updated>2026-11-16T15:34:18+00:00</updated>
-    <summary type="html">&lt;p&gt;A network in which every bank pays in full can nevertheless admit a self-fulfilling settlement freeze under the same balance-sheet fundamentals. Thus, observing full repayment does not establish the uniqueness or robustness of the payment equilibrium. We derive this result from a precautionary-liquidity choice: banks may delay otherwise feasible payments to insure an interim funding need, trading a positive settlement-discipline cost against the marginal value of retained cash.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21262v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #quant-finance #decision-theory&lt;/p&gt;</summary>
+    <title>Sharp Complexity Thresholds for Network Cournot Competition</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-82-sharp-complexity-thresholds-for-network"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24931v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-82-sharp-complexity-thresholds-for-network</id>
+    <updated>2026-11-18T18:55:00+00:00</updated>
+    <summary type="html">&lt;p&gt;We determine the approximation complexity of network Cournot equilibrium as a function of demand degree and the number of firms sharing a market. For common, nonincreasing concave polynomial inverse demands, convex quadratic costs of firms&amp;apos; allocation vectors, and rational total capacities, high-precision approximation is polynomial-time solvable for cubic demands, regardless of market size. Quartic demands remain tractable when each market has at most three firms, and quintic demands remain tractable with at most two.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24931v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Settling the Time and Structural Complexity of Bertrand Networks. In the seminal Bertrand network game introduced by Babaioff et al.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-65-settling-the-time-and-structural"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22216v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-65-settling-the-time-and-structural</id>
-    <updated>2026-11-17T04:52:49+00:00</updated>
-    <summary type="html">&lt;p&gt;In the seminal Bertrand network game introduced by Babaioff et al. (2013), each seller posts a single price to captive buyers and to the markets it shares with neighboring sellers, where sellers cannot price discriminate across the markets. Although the existence of equilibria and polynomial-time algorithms to compute them in trees (Babaioff et al.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22216v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #algorithms&lt;/p&gt;</summary>
+    <title>The Optimal Competitive Ratio for Subadditive Online Combinatorial Auctions is Less Than 1/2</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-83-the-optimal-competitive-ratio-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24920v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-83-the-optimal-competitive-ratio-for</id>
+    <updated>2026-11-18T18:49:49+00:00</updated>
+    <summary type="html">&lt;p&gt;We construct a four-buyer online combinatorial auction with independent subadditive valuations and a fixed, known arrival order in which every online rule earns strictly less than $1/2$ of the expected offline optimum. A common partition, revealed at the third arrival, gives the first three buyers one unit of welfare per item. If the rule uses three distinct partitions, either an item allocated early contributes zero or the fourth buyer&amp;apos;s expected value for the remaining bundle is one less than its size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24920v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Equilibrium Statistics and Stability in Random Two-Population and Three-Population Evolutionary Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-82-equilibrium-statistics-and-stability-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23223v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-82-equilibrium-statistics-and-stability-in</id>
-    <updated>2026-11-17T18:57:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Multi-population matrix evolutionary games provide a framework for studying adaptation and strategic interactions among heterogeneous agents. When payoffs are uncertain, however, analysing a specified game does not reveal how frequently different evolutionary outcomes occur or how their probabilities depend on modelling assumptions. We study two- and three-population games with two strategies per population and both within- and between-population pairwise interactions, with payoffs fixed during each evolutionary trajectory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23223v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Polycentrality in Urban Socioecological Systems: A Multilayer Analysis of Social Infrastructure in Iztapalapa, Mexico City</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-84-polycentrality-in-urban-socioecological-systems"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24758v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-84-polycentrality-in-urban-socioecological-systems</id>
+    <updated>2026-11-18T17:13:48+00:00</updated>
+    <summary type="html">&lt;p&gt;The spatial distribution of infrastructure and activities, along with the networks and interactions that connect them, is key to understanding the relationship between urban form, function, and sustainability from a complex systems perspective. Within this dynamic relationship, the extent to which localized social infrastructure can reinforce existing functional centralities or create conditions for the emergence of new ones remains insufficiently understood. This study examines these relationships through the UTOPÍAS program in Iztapalapa, Mexico City, where 15 public social facilities have been established across a historically underserved urban territory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24758v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Reversing the text is not reversing the path: a fixed-text measure without a zero, and an assembly-order comparison that vanishes identically</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-83-reversing-the-text-is-not"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23049v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-83-reversing-the-text-is-not</id>
-    <updated>2026-11-17T16:46:03+00:00</updated>
-    <summary type="html">&lt;p&gt;For an ensemble of trajectories the fluctuation theorems give the entropy production its meaning and zero. The same expression has recently been evaluated on one fixed text, $Δ= [\log P(x) - \log P(\tilde x)]/L$ with $\tilde x$ the text in reversed order, read as an entropy production separating causally from arbitrarily ordered prose. A single text is neither a distribution nor a dynamics, and the texts at issue were produced by other models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23049v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
+    <title>Modelling population distribution across cities on spatial networks using the kinetic theory of multi-agent systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-85-modelling-population-distribution-across-cities"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24657v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-85-modelling-population-distribution-across-cities</id>
+    <updated>2026-11-18T15:57:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the urban population distribution of the Italian region of Sardinia through the kinetic theory of multi-agent systems on spatial networks, interpreting cities both as agents and vertices of a graph, and representing interurban links as edges. We consider various emigration rules to model the interactions between agents, obtaining two main results: the bimodal lognormal fit of the total population distribution among cities and the Pareto fit of the tail. Overall, our model provides results consistent with the actual distribution derived from ISTAT data of Sardinia; furthermore, the bimodal lognormal fit generally follows the distribution tail more accurately than the Pareto one, although the two coincide in the first half.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24657v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Common Exponential Lower Bound for Dantzig and Modified Simplex in Deterministic Discounted Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-84-a-common-exponential-lower-bound"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22977v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-84-a-common-exponential-lower-bound</id>
-    <updated>2026-11-17T15:58:25+00:00</updated>
-    <summary type="html">&lt;p&gt;On a family of $N$-state deterministic two-player discounted games, every run that chooses adaptively between Dantzig&amp;apos;s rule and modified simplex requires $2^{Ω(N)}$ switches from a specified initial strategy, regardless of tie breaking. More generally, a return-gate construction lets Dantzig reproduce any finite Bland prefix in an undiscounted deterministic Markov decision process with rational rewards whenever every visited policy reaches a common sink from all states. Applied to an acyclic binary counter, deleting the minimizer&amp;apos;s return actions preserves every fixed maximizing strategy&amp;apos;s value at each original state while reducing Dantzig&amp;apos;s switch count from exponential to linear.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22977v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics&lt;/p&gt;</summary>
+    <title>Amplifying or Redistributing Coupling: Synchronization in Sparse Adaptive Oscillator Networks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-86-amplifying-or-redistributing-coupling-synchronization"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24268v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-86-amplifying-or-redistributing-coupling-synchronization</id>
+    <updated>2026-11-18T11:49:54+00:00</updated>
+    <summary type="html">&lt;p&gt;Synchronization -- different units falling into a common rhythm -- matters in systems ranging from electrical generators to populations of neurons. But what happens when the connections that coordinate their timing can also change? If two units become more closely aligned and their connection strengthens, that extra influence can either increase the total coupling received by a unit or take a larger share of a fixed total.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24268v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Virtual Double Oracle: Faster Convergence by Leveraging Strategies That Were Watching All Along</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-85-virtual-double-oracle-faster-convergence"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22806v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-85-virtual-double-oracle-faster-convergence</id>
-    <updated>2026-11-17T14:00:20+00:00</updated>
-    <summary type="html">&lt;p&gt;Double Oracle (DO) and PSRO approximate Nash equilibria in two-player zero-sum games by iteratively expanding a strategy population with best responses supplied by an oracle. Online Double Oracle (ODO) interleaves multiplicative weights updates (MWU) with population discovery and obtains an $O(\sqrt{k\ln k/T})$ rate, where $T$ is the number of learning rounds and $k$ is the larger of the two players&amp;apos; final population sizes. We identify the reinitialisation step as an underexplored design choice: at each expansion, MWU-based methods reset newly discovered strategies to a uniform prior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22806v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+    <title>Neither graphs nor hypergraphs: structural moments of higher-order interactions determine stochastic social-impact dynamics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-87-neither-graphs-nor-hypergraphs-structural"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24252v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-87-neither-graphs-nor-hypergraphs-structural</id>
+    <updated>2026-11-18T11:30:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Whether higher-order interactions can be reduced to simpler representations is a question about the dynamics they drive, not only about their structure: what can be discarded is whatever the dynamics does not see. We make this precise for binary-state stochastic dynamics in which each agent, when updated, interacts with a randomly selected group and changes state according to the fraction of disagreeing members, as in generalized voter and social-impact models on hypergraphs. We ask which statistics of the group-interaction process determine the resulting Markov dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24252v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Exploiting Aggregate Feedback for Decentralized Equilibrium Learning in Markov Games: A Smart Grid Application</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-86-exploiting-aggregate-feedback-for-decentralized"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22762v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-86-exploiting-aggregate-feedback-for-decentralized</id>
-    <updated>2026-11-17T13:28:16+00:00</updated>
-    <summary type="html">&lt;p&gt;In many multi-agent systems, an agent&amp;apos;s payoff depends on its own action and an aggregate of other agents&amp;apos; actions, rather than their individual decisions. This paper investigates decentralized equilibrium learning in Markov games (MGs) with such aggregative reward structures. However, existing decentralized learning algorithms for general MGs typically rely on bandit feedback, without exploiting the additional information available from aggregate observations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22762v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec #agents&lt;/p&gt;</summary>
+    <title>On the Complexity of Envy Cycle Elimination</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-88-on-the-complexity-of-envy"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24167v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-88-on-the-complexity-of-envy</id>
+    <updated>2026-11-18T10:08:54+00:00</updated>
+    <summary type="html">&lt;p&gt;The envy cycle elimination (ECE) algorithm is a fundamental algorithm for the fair allocation of indivisible goods, guaranteeing an allocation that is envy-free up to one good under arbitrary monotone utilities. We show that the ECE algorithm can be implemented in $O(nm)$ time for $n$ agents and $m$ goods, and establish the tightness of this bound.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24167v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Crowd model with anticipation and interactions: an exclusion process based mean-field game</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-87-crowd-model-with-anticipation-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22502v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-87-crowd-model-with-anticipation-and</id>
-    <updated>2026-11-17T09:59:59+00:00</updated>
-    <summary type="html">&lt;p&gt;Mean-field games (MFG) is a powerful framework to describe competitive optimization processes. A natural field of application is crowd dynamics, where pedestrians are considered to optimize their path, while interacting with the others. Despite its success to incorporate anticipation in describing pedestrian behavior, the mean-field games framework neglects microscopic granular effects, rendering its results less realistic in various applications (bottlenecks, evacuations etc.).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22502v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Localized active phase in the coevolving voter model with fixed links. The coevolving voter model (CVM) describes the evolution of node states and network topology through copying and rewiring dynamics.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-89-localized-active-phase-in-the"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23870v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-89-localized-active-phase-in-the</id>
+    <updated>2026-11-18T05:23:00+00:00</updated>
+    <summary type="html">&lt;p&gt;The coevolving voter model (CVM) describes the evolution of node states and network topology through copying and rewiring dynamics. It traditionally assumes that all ties can be rewired, overlooking unbreakable real-world relationships like family or close friendships. To address this, we introduce fixed links that cannot be rewired and study how these structural constraints modify the collective dynamics of the CVM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23870v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Computing EF1 Allocations with Few Value Queries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-88-computing-ef1-allocations-with-few"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22376v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-88-computing-ef1-allocations-with-few</id>
-    <updated>2026-11-17T08:27:48+00:00</updated>
-    <summary type="html">&lt;p&gt;We give a deterministic polynomial-time algorithm that allocates $m$ indivisible goods among $n$ agents with nonnegative additive valuations using $O(n^5\log^2 m)$ value queries and guarantees envy-freeness up to one good (EF1). Concurrent work of Lin, Liu, Tao, and Zhou achieves $O(n^8\log m)$ comparison queries, attaining the optimal $O(\log m)$ dependence on $m$ for fixed $n$. Each comparison query can be simulated using two value queries, so their bound also holds for value queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22376v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Flocking Time and Graph Volume in Nonlinear Cucker-Smale Models with Dynamic Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-89-flocking-time-and-graph-volume"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22204v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-89-flocking-time-and-graph-volume</id>
-    <updated>2026-11-17T04:41:45+00:00</updated>
-    <summary type="html">&lt;p&gt;This study proposes a Cucker-Smale model incorporating dynamic networks and the discrete $p$-Laplacian ($p \in (1,2)$) and analyzes the relationship between flocking time constraints and graph connectivity from both theoretical and experimental perspectives. We establish that this model achieves flocking within finite time and derive a quantitative relationship between the lower bound of flocking time and graph volume. Based on these results, we observe that imposing sufficiently small flocking time induces an increase in network volume, and that larger initial velocity variance requires greater volume under the same time constraint.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22204v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #analysis-pde #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Emergence and Collapse of Leader-Follower Flocks through Phantom Targets: Surprise Nullification in Bayesian and Inverse Bayesian Inference</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-90-emergence-and-collapse-of-leader"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22190v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-90-emergence-and-collapse-of-leader</id>
-    <updated>2026-11-17T04:24:54+00:00</updated>
-    <summary type="html">&lt;p&gt;In Bayesian and inverse Bayesian (BIB) inference, a large prediction error can trigger surprise nullification, which expands belief and likelihood variances by a common factor, leaving the updated variance ratio the same as in standard Bayesian updating. This can increase belief uncertainty while keeping the learning rate low. In the simulations, three agents used BIB inference to predict one another&amp;apos;s positions and moved toward those predictions, repeatedly forming leader-follower flocks that subsequently collapsed despite having no alignment rules or designated leaders.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22190v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Temporal Fair Division: Simultaneous Guarantees for Goods and Chores</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-90-temporal-fair-division-simultaneous-guarantees"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23782v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-90-temporal-fair-division-simultaneous-guarantees</id>
+    <updated>2026-11-18T03:39:21+00:00</updated>
+    <summary type="html">&lt;p&gt;We study temporal fair division of indivisible items in both the goods and chores settings, with $n \ge 2$ agents and nonnegative additive values or costs. Items arrive one at a time and must be assigned immediately and irrevocably. The arrival order and all agents&amp;apos; values or costs are known in advance, and the cumulative allocation must satisfy the fairness requirements after each arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23782v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

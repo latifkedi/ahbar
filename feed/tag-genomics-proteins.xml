@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-genomics-proteins.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <entry>
+    <title>HARICOT: De Novo Assembly of Raw Nanopore Signals using Fuzzy de Bruijn Graphs</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-46-haricot-de-novo-assembly-of"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.11.765872v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-46-haricot-de-novo-assembly-of</id>
+    <updated>2026-11-18T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nanopore sequencing enables reading long nucleotide sequences by measuring characteristic changes in ionic current as molecules pass through a nanopore. These current measurements, known as raw signals, can be analyzed without translating them into bases (i.e., without basecalling), which provides fast and resource-efficient genome analysis. Prior work, Rawsamble, enables finding overlaps between raw nanopore signals, without basecalling them, and generating assemblies from these overlaps with off-the-shelf assemblers such as miniasm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.11.765872v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>CATEomics: model selection and ensembling for heterogeneous treatment effect estimation from high-dimensional omics data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-46-cateomics-model-selection-and-ensembling"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-47-cateomics-model-selection-and-ensembling"/>
     <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-46-cateomics-model-selection-and-ensembling</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-47-cateomics-model-selection-and-ensembling</id>
     <updated>2026-11-18T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;CATEomics addresses the lack of a standardized and reproducible process for choosing among conditional average treatment effect (CATE) estimators in high-dimensional omics studies, where their estimation errors cannot be evaluated directly from observed outcomes. The R package accepts a SummarizedExperiment, applies common preprocessing and data partitions across R and Python estimators, compares their out-of-fold estimates using proxy losses, supports model selection and ensembling, and returns the resulting CATE estimates to the original object for downstream omics analysis. Availability and implementation: CATEomics is implemented in R and is freely available under the MIT license at https://github.com/matsui-lab/CATEomics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MetaboRx: R Shiny application for quality assessment and preprocessing of mass spectrometry-based metabolomics data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-47-metaborx-r-shiny-application-for"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767162v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-47-metaborx-r-shiny-application-for</id>
-    <updated>2026-11-18T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Introduction Metabolomics datasets offer deep insights into biological systems, yet the multi-step analytical workflow, from sample preparation through instrumental analysis, introduces unwanted variation. This variation, including signal drift and batch effects can confound true biological signals. Although rigorous quality control (QC) and data preprocessing are prerequisites for downstream analysis, existing workflows are often fragmented, time-consuming, and inaccessible to non-experts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767162v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>Designing functional proteins from natural language</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-48-designing-functional-proteins-from-natural"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01099-2"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-48-designing-functional-proteins-from-natural</id>
+    <updated>2026-11-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 19 November 2026; doi:10.1038/s43588-026-01099-2 Designing functional proteins from natural language&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01099-2&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
 </feed>

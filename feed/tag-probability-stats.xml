@@ -5,21 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-probability-stats.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>Dynamics-preserving graph sparsification. Many dynamical systems unfold on networks of nodes coupled by edge interactions.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-19-dynamics-preserving-graph-sparsification"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23176v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-19-dynamics-preserving-graph-sparsification</id>
-    <updated>2026-11-17T18:23:13+00:00</updated>
-    <summary type="html">&lt;p&gt;Many dynamical systems unfold on networks of nodes coupled by edge interactions. This work is motivated by the following question: can we remove most edges from a networked dynamical system without significantly altering its behavior? For a given network, our goal is to find a sparser network that approximately preserves the dynamics on the nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23176v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #complex-systems #combinatorics&lt;/p&gt;</summary>
+    <title>Cameron--Martin theorem for SLE welding measures. For $κ\in(0,4]$, we prove a Cameron--Martin theorem for the welding law induced by SLE$_κ$ loop measure.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-20-cameron-martin-theorem-for-sle"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24875v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-20-cameron-martin-theorem-for-sle</id>
+    <updated>2026-11-18T18:23:26+00:00</updated>
+    <summary type="html">&lt;p&gt;For $κ\in(0,4]$, we prove a Cameron--Martin theorem for the welding law induced by SLE$_κ$ loop measure. Under simultaneous left and right composition $h\mapsto\varphi\circ h\circψ^{-1}$, the transformed law is mutually absolutely continuous with respect to the original law exactly when both maps belong to the Weil--Petersson group, and is mutually singular otherwise. Thus the Weil--Petersson group is the quasi-invariance group of the welding law under composition on either side.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24875v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Unique continuation for the Pauli-Fierz Hamiltonian</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-20-unique-continuation-for-the-pauli"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23062v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-20-unique-continuation-for-the-pauli</id>
-    <updated>2026-11-17T16:53:33+00:00</updated>
-    <summary type="html">&lt;p&gt;We prove a unique continuation property for eigenstates of the Pauli-Fierz Hamiltonian, viewed as functions of the electron configuration with values in the spin-photon space. The vector potential may lie in $L^6_\mathrm{loc}$, with its divergence, curl, and the scalar potential in $L^p_\mathrm{loc}$ for some $p&amp;gt;2$. As an application, we prove a Hohenberg-Kohn theorem at positive coupling strength: the spin-summed ground-state density and combined current density determine the external potentials up to a gauge transformation and an additive constant.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23062v1&quot;&gt;arXiv Analysis, PDEs &amp;amp; Probability (AP, PR, NA, OC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #probability-stats #quantum-computing #logic&lt;/p&gt;</summary>
+    <title>Two almost sure upper bounds for sums of random multiplicative functions. Let $f,g$ be a squarefree and extended Rademacher random multiplicative functions, respectively.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-21-two-almost-sure-upper-bounds"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24847v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-21-two-almost-sure-upper-bounds</id>
+    <updated>2026-11-18T18:08:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $f,g$ be a squarefree and extended Rademacher random multiplicative functions, respectively. We prove that, for every $\varepsilon&amp;gt;0$, almost surely $$\big|\sum_{n \le x}\frac{f(n)}{\sqrt{n}}\big| \ll (\log\log x)^{1/4+\varepsilon}, \qquad \big|\sum_{n\le x}g(n)\big|\ll\sqrt{x}(\log\log x)^{1/4+\varepsilon}.$$ We also show that almost surely, there exist arbitrarily large values of $x$ such that $\sum_{n \le x}\frac{f(n)}{\sqrt{n}} \gg (\log\log x)^{1/4+o(1)}$. We follow Caich and Durkan and Pearce-Crump by using a version of the Azuma--Hoeffding inequality for martingale difference sequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24847v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>On a Secretary Problem with Two Equal-Sized Pools of Candidates. This paper presents the solution of a secretary type problem where the decision maker observes a sequence of offers of two types.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-22-on-a-secretary-problem-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24724v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-22-on-a-secretary-problem-with</id>
+    <updated>2026-11-18T16:42:10+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper presents the solution of a secretary type problem where the decision maker observes a sequence of offers of two types. There are N objects of both types and these objects appear to the decision maker in random order. Objects can only be compared when they are of the same type.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24724v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #optimization&lt;/p&gt;</summary>
   </entry>
 </feed>

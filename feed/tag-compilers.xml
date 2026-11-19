@@ -5,29 +5,29 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-compilers.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-compilers.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Unifying Metatheorem on Weak-Memory Robustness</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-21-a-unifying-metatheorem-on-weak"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22663v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-21-a-unifying-metatheorem-on-weak</id>
-    <updated>2026-11-17T12:20:33+00:00</updated>
-    <summary type="html">&lt;p&gt;Memory models specify the behaviors that concurrent programs may exhibit under compiler and hardware optimizations, which often deviate from Sequential Consistency (SC). Robustness is the property of a program P not exhibiting any weak behaviors when executing under a weak memory model MM, compared to SC. As such, the algorithmic problem of deciding whether $P$ is robust against MM has been studied extensively, and has been repeatedly shown to be in PSPACE for many memory models, such as TSO, PSO, and Release/Acquire.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22663v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
+    <title>MicroAssert: Microarchitecture-Aware Structured Assertion Generation for CPU Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-40-microassert-microarchitecture-aware-structured-assertion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24872v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-40-microassert-microarchitecture-aware-structured-assertion</id>
+    <updated>2026-11-18T18:23:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Automatic assertion generation reduces manual verification effort, yet existing approaches struggle to capture microarchitectural behaviors and cross-region interactions in CPUs. We present MicroAssert, a microarchitecture-aware framework that identifies functional regions directly from RTL and generates local and composite assertions through structured contracts and deterministic verification primitives. Coverage-guided feedback further improves verification completeness by progressively expanding proof-relevant RTL coverage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24872v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Python Code Generation for Isabelle/HOL. The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-22-python-code-generation-for-isabelle"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22613v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-22-python-code-generation-for-isabelle</id>
-    <updated>2026-11-17T11:29:58+00:00</updated>
-    <summary type="html">&lt;p&gt;The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22613v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #software-architecture&lt;/p&gt;</summary>
+    <title>Ideal Pseudorandom Code, Revisited</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-60-ideal-pseudorandom-code-revisited"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-60-ideal-pseudorandom-code-revisited</id>
+    <updated>2026-08-11T12:03:06+00:00</updated>
+    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,45 +5,45 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-distributed-systems.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-14-telechat-to-xing4-advancing-frontier"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-14-telechat-to-xing4-advancing-frontier</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>MicroAssert: Microarchitecture-Aware Structured Assertion Generation for CPU Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-40-microassert-microarchitecture-aware-structured-assertion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24872v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-40-microassert-microarchitecture-aware-structured-assertion</id>
+    <updated>2026-11-18T18:23:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Automatic assertion generation reduces manual verification effort, yet existing approaches struggle to capture microarchitectural behaviors and cross-region interactions in CPUs. We present MicroAssert, a microarchitecture-aware framework that identifies functional regions directly from RTL and generates local and composite assertions through structured contracts and deterministic verification primitives. Coverage-guided feedback further improves verification completeness by progressively expanding proof-relevant RTL coverage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24872v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>A Unifying Metatheorem on Weak-Memory Robustness</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-21-a-unifying-metatheorem-on-weak"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22663v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-21-a-unifying-metatheorem-on-weak</id>
-    <updated>2026-11-17T12:20:33+00:00</updated>
-    <summary type="html">&lt;p&gt;Memory models specify the behaviors that concurrent programs may exhibit under compiler and hardware optimizations, which often deviate from Sequential Consistency (SC). Robustness is the property of a program P not exhibiting any weak behaviors when executing under a weak memory model MM, compared to SC. As such, the algorithmic problem of deciding whether $P$ is robust against MM has been studied extensively, and has been repeatedly shown to be in PSPACE for many memory models, such as TSO, PSO, and Release/Acquire.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22663v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic&lt;/p&gt;</summary>
+    <title>Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-57-rethinking-zero-knowledge-tls-proof"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2187"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-57-rethinking-zero-knowledge-tls-proof</id>
+    <updated>2026-09-23T16:09:44+00:00</updated>
+    <summary type="html">&lt;p&gt;In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS, revealing nothing beyond the statement proven. Each existing scheme, however, comes with its own security model, written for that scheme alone, so the schemes are not proven secure against a common definition. The root cause is a mismatch of levels: existing models are stated at the level of TLS and therefore reflect how each construction handles it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2187&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #distributed-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Python Code Generation for Isabelle/HOL. The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-22-python-code-generation-for-isabelle"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22613v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-22-python-code-generation-for-isabelle</id>
-    <updated>2026-11-17T11:29:58+00:00</updated>
-    <summary type="html">&lt;p&gt;The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22613v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #software-architecture&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SLED: Sensor SLicing from Edge to Datacenter</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-45-sled-sensor-slicing-from-edge"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21937v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-45-sled-sensor-slicing-from-edge</id>
-    <updated>2026-11-16T21:51:51+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21937v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #distributed-systems&lt;/p&gt;</summary>
+    <title>Aker: Efficient Two-Party SLH-DSA</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-61-aker-efficient-two-party-slh"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2899"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-61-aker-efficient-two-party-slh</id>
+    <updated>2026-11-15T12:41:38+00:00</updated>
+    <summary type="html">&lt;p&gt;Threshold signing is widely deployed to protect cryptographic keys, but extending these deployments to post-quantum signatures remains challenging. While NIST&amp;apos;s lattice-based signatures now have efficient threshold protocols, distributed signing for SLH-DSA (FIPS 205), NIST&amp;apos;s stateless hash-based signature standard, has been considered prohibitively expensive because it lacks the algebraic structure those protocols typically exploit. We present Aker, a maliciously secure two-party signing protocol compatible with an unmodified FIPS 205 verifier.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2899&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Our Survey of Early Career Mathematicians. [This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT).</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-27-our-survey-of-early-career"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-27-our-survey-of-early-career"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-27-our-survey-of-early-career</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-27-our-survey-of-early-career</id>
     <updated>2026-11-09T17:12:00+00:00</updated>
     <summary type="html">&lt;p&gt;[This is a guest post by Anna Brandenberger, Hanna Mularczyk, and Dora Woodruff (MIT). This blog post was initially written in a different file format and converted using AI. — T.] In late September and early October, we distributed a survey of early career mathematicians.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/09/our-survey-of-early-career-mathematicians/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Polycentrality in Urban Socioecological Systems: A Multilayer Analysis of Social Infrastructure in Iztapalapa, Mexico City</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-84-polycentrality-in-urban-socioecological-systems"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24758v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-84-polycentrality-in-urban-socioecological-systems</id>
+    <updated>2026-11-18T17:13:48+00:00</updated>
+    <summary type="html">&lt;p&gt;The spatial distribution of infrastructure and activities, along with the networks and interactions that connect them, is key to understanding the relationship between urban form, function, and sustainability from a complex systems perspective. Within this dynamic relationship, the extent to which localized social infrastructure can reinforce existing functional centralities or create conditions for the emergence of new ones remains insufficiently understood. This study examines these relationships through the UTOPÍAS program in Iztapalapa, Mexico City, where 15 public social facilities have been established across a historically underserved urban territory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24758v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

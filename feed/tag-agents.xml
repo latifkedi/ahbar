@@ -5,93 +5,85 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-12-ascendgym-a-cost-aware-kernel"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17621"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-12-ascendgym-a-cost-aware-kernel</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17621&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>Security updates for Wednesday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-37-security-updates-for-wednesday"/>
+    <link rel="related" href="https://lwn.net/Articles/1108354/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-37-security-updates-for-wednesday</id>
+    <updated>2026-11-18T14:17:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, git-lfs, glib2,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1108354/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-14-telechat-to-xing4-advancing-frontier"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-14-telechat-to-xing4-advancing-frontier</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-15-roughcut-bench-a-benchmark-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24098"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-15-roughcut-bench-a-benchmark-for</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic rough-cut remains underexplored, without a comprehensive benchmark for evaluation or mature workflows for producing executable cut plans. To address the evaluation gap, we introduce RoughCut-Bench, which covers two practical settings: (1) a visually driven setting over video cases, covering highlight detection and selection, source-video ordering, and adherence to user requirements when provided; and (2) a speech-driven setting over automatic speech recognition (ASR) transcripts, covering filler removal, expression deduplication, and low-value content trimming.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24098&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Do LLM Agents Still Need to Be Told How to Self-Improve?. LLM agents increasingly drive their own learning.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-17-do-llm-agents-still-need"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23219"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-17-do-llm-agents-still-need</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23219&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23257"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for</id>
+    <updated>2026-09-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23257&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration. Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-18-heave-ho-decentralized-long-horizon"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22275"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-18-heave-ho-decentralized-long-horizon</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-18-piccolo-co-evolving-decision-models"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24651"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-18-piccolo-co-evolving-decision-models</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data workflows, and interactive games. Piccolo-27B tops the Decision Index Vision Full leaderboard with a score of 75.59, while Piccolo-9B and Piccolo-4B achieve 68.35 and 67.46, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24651&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-25-lean-grimoire"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-25-lean-grimoire"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-25-lean-grimoire</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-25-lean-grimoire</id>
     <updated>2026-11-12T02:36:00+00:00</updated>
     <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Cognitive grounding improves LLM simulation of collective human behavior</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-50-cognitive-grounding-improves-llm-simulation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-52-cognitive-grounding-improves-llm-simulation"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01080-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-50-cognitive-grounding-improves-llm-simulation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-52-cognitive-grounding-improves-llm-simulation</id>
     <updated>2026-11-16T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 16 November 2026; doi:10.1038/s43588-026-01080-z The study shows that guiding AI agents with descriptions of how people make decisions in a supply-chain game helps agents reproduce collective human behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01080-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Equilibrium Statistics and Stability in Random Two-Population and Three-Population Evolutionary Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-82-equilibrium-statistics-and-stability-in"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23223v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-82-equilibrium-statistics-and-stability-in</id>
-    <updated>2026-11-17T18:57:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Multi-population matrix evolutionary games provide a framework for studying adaptation and strategic interactions among heterogeneous agents. When payoffs are uncertain, however, analysing a specified game does not reveal how frequently different evolutionary outcomes occur or how their probabilities depend on modelling assumptions. We study two- and three-population games with two strategies per population and both within- and between-population pairwise interactions, with payoffs fixed during each evolutionary trajectory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23223v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Modelling population distribution across cities on spatial networks using the kinetic theory of multi-agent systems</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-85-modelling-population-distribution-across-cities"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24657v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-85-modelling-population-distribution-across-cities</id>
+    <updated>2026-11-18T15:57:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We investigate the urban population distribution of the Italian region of Sardinia through the kinetic theory of multi-agent systems on spatial networks, interpreting cities both as agents and vertices of a graph, and representing interurban links as edges. We consider various emigration rules to model the interactions between agents, obtaining two main results: the bimodal lognormal fit of the total population distribution among cities and the Pareto fit of the tail. Overall, our model provides results consistent with the actual distribution derived from ISTAT data of Sardinia; furthermore, the bimodal lognormal fit generally follows the distribution tail more accurately than the Pareto one, although the two coincide in the first half.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24657v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Virtual Double Oracle: Faster Convergence by Leveraging Strategies That Were Watching All Along</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-85-virtual-double-oracle-faster-convergence"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22806v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-85-virtual-double-oracle-faster-convergence</id>
-    <updated>2026-11-17T14:00:20+00:00</updated>
-    <summary type="html">&lt;p&gt;Double Oracle (DO) and PSRO approximate Nash equilibria in two-player zero-sum games by iteratively expanding a strategy population with best responses supplied by an oracle. Online Double Oracle (ODO) interleaves multiplicative weights updates (MWU) with population discovery and obtains an $O(\sqrt{k\ln k/T})$ rate, where $T$ is the number of learning rounds and $k$ is the larger of the two players&amp;apos; final population sizes. We identify the reinitialisation step as an underexplored design choice: at each expansion, MWU-based methods reset newly discovered strategies to a uniform prior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22806v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
+    <title>Neither graphs nor hypergraphs: structural moments of higher-order interactions determine stochastic social-impact dynamics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-87-neither-graphs-nor-hypergraphs-structural"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24252v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-87-neither-graphs-nor-hypergraphs-structural</id>
+    <updated>2026-11-18T11:30:44+00:00</updated>
+    <summary type="html">&lt;p&gt;Whether higher-order interactions can be reduced to simpler representations is a question about the dynamics they drive, not only about their structure: what can be discarded is whatever the dynamics does not see. We make this precise for binary-state stochastic dynamics in which each agent, when updated, interacts with a randomly selected group and changes state according to the fraction of disagreeing members, as in generalized voter and social-impact models on hypergraphs. We ask which statistics of the group-interaction process determine the resulting Markov dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24252v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Exploiting Aggregate Feedback for Decentralized Equilibrium Learning in Markov Games: A Smart Grid Application</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-86-exploiting-aggregate-feedback-for-decentralized"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22762v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-86-exploiting-aggregate-feedback-for-decentralized</id>
-    <updated>2026-11-17T13:28:16+00:00</updated>
-    <summary type="html">&lt;p&gt;In many multi-agent systems, an agent&amp;apos;s payoff depends on its own action and an aggregate of other agents&amp;apos; actions, rather than their individual decisions. This paper investigates decentralized equilibrium learning in Markov games (MGs) with such aggregative reward structures. However, existing decentralized learning algorithms for general MGs typically rely on bandit feedback, without exploiting the additional information available from aggregate observations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22762v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #infosec #agents&lt;/p&gt;</summary>
+    <title>On the Complexity of Envy Cycle Elimination</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-88-on-the-complexity-of-envy"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24167v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-88-on-the-complexity-of-envy</id>
+    <updated>2026-11-18T10:08:54+00:00</updated>
+    <summary type="html">&lt;p&gt;The envy cycle elimination (ECE) algorithm is a fundamental algorithm for the fair allocation of indivisible goods, guaranteeing an allocation that is envy-free up to one good under arbitrary monotone utilities. We show that the ECE algorithm can be implemented in $O(nm)$ time for $n$ agents and $m$ goods, and establish the tightness of this bound.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24167v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Computing EF1 Allocations with Few Value Queries</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-88-computing-ef1-allocations-with-few"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22376v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-88-computing-ef1-allocations-with-few</id>
-    <updated>2026-11-17T08:27:48+00:00</updated>
-    <summary type="html">&lt;p&gt;We give a deterministic polynomial-time algorithm that allocates $m$ indivisible goods among $n$ agents with nonnegative additive valuations using $O(n^5\log^2 m)$ value queries and guarantees envy-freeness up to one good (EF1). Concurrent work of Lin, Liu, Tao, and Zhou achieves $O(n^8\log m)$ comparison queries, attaining the optimal $O(\log m)$ dependence on $m$ for fixed $n$. Each comparison query can be simulated using two value queries, so their bound also holds for value queries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22376v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Emergence and Collapse of Leader-Follower Flocks through Phantom Targets: Surprise Nullification in Bayesian and Inverse Bayesian Inference</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-90-emergence-and-collapse-of-leader"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22190v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-90-emergence-and-collapse-of-leader</id>
-    <updated>2026-11-17T04:24:54+00:00</updated>
-    <summary type="html">&lt;p&gt;In Bayesian and inverse Bayesian (BIB) inference, a large prediction error can trigger surprise nullification, which expands belief and likelihood variances by a common factor, leaving the updated variance ratio the same as in standard Bayesian updating. This can increase belief uncertainty while keeping the learning rate low. In the simulations, three agents used BIB inference to predict one another&amp;apos;s positions and moved toward those predictions, repeatedly forming leader-follower flocks that subsequently collapsed despite having no alignment rules or designated leaders.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22190v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Temporal Fair Division: Simultaneous Guarantees for Goods and Chores</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-90-temporal-fair-division-simultaneous-guarantees"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23782v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-90-temporal-fair-division-simultaneous-guarantees</id>
+    <updated>2026-11-18T03:39:21+00:00</updated>
+    <summary type="html">&lt;p&gt;We study temporal fair division of indivisible items in both the goods and chores settings, with $n \ge 2$ agents and nonnegative additive values or costs. Items arrive one at a time and must be assigned immediately and irrevocably. The arrival order and all agents&amp;apos; values or costs are known in advance, and the cumulative allocation must satisfy the fairness requirements after each arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23782v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

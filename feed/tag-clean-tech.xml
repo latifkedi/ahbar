@@ -5,20 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>FastFrames: Video Generation at Interactive Latency</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-11-fastframes-video-generation-at-interactive"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23226"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-11-fastframes-video-generation-at-interactive</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23226&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-16-ultratex-aligning-physical-knowledge-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24941"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-16-ultratex-aligning-physical-knowledge-for</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24941&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Computing $F$-Symbols from Modular Data</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-34-computing-f-symbols-from-modular"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24753v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-34-computing-f-symbols-from-modular</id>
+    <updated>2026-11-18T17:09:51+00:00</updated>
+    <summary type="html">&lt;p&gt;We present a strategy for computing the $F$-symbols of unitary modular categories with a self-dual simple generator, starting from their modular data, which almost entirely avoids the non-linear solution of the pentagon equations. The algorithm climbs a ladder of braid group representations on successively more strands of the generator until enough $F$-symbols have been determined to propagate them to a complete solution. The strategy presented is successful in difficult cases through ranks 11 and 12, including $\operatorname{Z}(\mathrm{Haagerup}_3)$, and does not require the category to be multiplicity-free.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24753v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #clean-tech&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>America’s Hidden AI Advantage. The United States—not China—dominates diffusion.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-73-america-s-hidden-ai-advantage"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-78-america-s-hidden-ai-advantage"/>
     <link rel="related" href="https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-73-america-s-hidden-ai-advantage</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-78-america-s-hidden-ai-advantage</id>
     <updated>2026-11-18T09:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The United States—not China—dominates diffusion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>

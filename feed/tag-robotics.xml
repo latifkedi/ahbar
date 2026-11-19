@@ -5,21 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-robotics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-robotics.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-10-tcp4d-a-unified-tool-center"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23143"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-10-tcp4d-a-unified-tool-center</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given a monocular video and initial 2D TCP queries, the tracker directly recovers metric TCP poses in SE(3) and gripper states alongside scene geometry and camera parameters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23143&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration. Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-18-heave-ho-decentralized-long-horizon"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22275"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-18-heave-ho-decentralized-long-horizon</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>HINT-WAM: Hindsight-Informed Training for World Action Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-11-hint-wam-hindsight-informed-training"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24789"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-11-hint-wam-hindsight-informed-training</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>

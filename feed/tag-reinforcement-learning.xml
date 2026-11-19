@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <entry>
+    <title>HINT-WAM: Hindsight-Informed Training for World Action Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-11-hint-wam-hindsight-informed-training"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24789"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-11-hint-wam-hindsight-informed-training</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
 </feed>

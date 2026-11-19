@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-inference.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-inference.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
-  <entry>
-    <title>From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-41-from-token-changes-to-task"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22243v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-41-from-token-changes-to-task</id>
-    <updated>2026-11-17T05:46:02+00:00</updated>
-    <summary type="html">&lt;p&gt;In LLM serving systems with prefix caching, each KV block of a shared system prompt is held in GPU memory as a single physical copy, which every request with that prompt reads. Our earlier work measured change and showed that one bit flip in such a block changes many later responses without making them visibly degenerate. This paper extends that work by measuring how often the changed responses are wrong.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22243v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #inference&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
 </feed>

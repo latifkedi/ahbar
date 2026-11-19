@@ -5,13 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>The Case for a Trump-Xi-Putin Summit. In just a few days’ time, U.S.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-81-the-case-for-a-trump"/>
-    <link rel="related" href="https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-81-the-case-for-a-trump</id>
-    <updated>2026-11-13T05:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;In just a few days’ time, U.S. President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin could be holding a three-way summit on the sidelines of next week’s Asia-Pacific Economic Cooperation meeting in Shenzhen, China. According to The Wall Street Journal, Putin floated the idea of a trialogue last month as an opportunity to discuss ending the war in Ukraine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/case-trump-xi-putin-summit&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #number-theory&lt;/p&gt;</summary>
+    <title>An Atiyah--Hirzebruch to Adams map and the hastened Adams spectral sequence for supercohomology</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-19-an-atiyah-hirzebruch-to-adams"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24725v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-19-an-atiyah-hirzebruch-to-adams</id>
+    <updated>2026-11-18T16:42:36+00:00</updated>
+    <summary type="html">&lt;p&gt;We construct a map of filtered spectra inducing a map from the Atiyah--Hirzebruch spectral sequence (AHSS) to the Baker--Lazarev Adams spectral sequence of a $\mathit{ko}$-module $M$. Using this and a theorem of Bruner--Rognes, we construct a hastened Adams spectral sequence (HASS) for the Postnikov truncations of $\mathit{ko}$ and the connective Adams summand. Then, motivated by questions in quantum field theory, topological phases of matter, and tensor category theory, we apply the HASS to supercohomology, the cohomology theory $I_{\mathbb{C}^\times}(τ_{\le 2}\mathit{ko})$, and observe that in examples of interest it is easier to calculate with than either the AHSS or the usual Adams spectral sequence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24725v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #topology #high-energy&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Cameron--Martin theorem for SLE welding measures. For $κ\in(0,4]$, we prove a Cameron--Martin theorem for the welding law induced by SLE$_κ$ loop measure.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-20-cameron-martin-theorem-for-sle"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24875v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-20-cameron-martin-theorem-for-sle</id>
+    <updated>2026-11-18T18:23:26+00:00</updated>
+    <summary type="html">&lt;p&gt;For $κ\in(0,4]$, we prove a Cameron--Martin theorem for the welding law induced by SLE$_κ$ loop measure. Under simultaneous left and right composition $h\mapsto\varphi\circ h\circψ^{-1}$, the transformed law is mutually absolutely continuous with respect to the original law exactly when both maps belong to the Weil--Petersson group, and is mutually singular otherwise. Thus the Weil--Petersson group is the quasi-invariance group of the welding law under composition on either side.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24875v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Two almost sure upper bounds for sums of random multiplicative functions. Let $f,g$ be a squarefree and extended Rademacher random multiplicative functions, respectively.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-21-two-almost-sure-upper-bounds"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24847v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-21-two-almost-sure-upper-bounds</id>
+    <updated>2026-11-18T18:08:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Let $f,g$ be a squarefree and extended Rademacher random multiplicative functions, respectively. We prove that, for every $\varepsilon&amp;gt;0$, almost surely $$\big|\sum_{n \le x}\frac{f(n)}{\sqrt{n}}\big| \ll (\log\log x)^{1/4+\varepsilon}, \qquad \big|\sum_{n\le x}g(n)\big|\ll\sqrt{x}(\log\log x)^{1/4+\varepsilon}.$$ We also show that almost surely, there exist arbitrarily large values of $x$ such that $\sum_{n \le x}\frac{f(n)}{\sqrt{n}} \gg (\log\log x)^{1/4+o(1)}$. We follow Caich and Durkan and Pearce-Crump by using a version of the Azuma--Hoeffding inequality for martingale difference sequences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24847v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>On a Secretary Problem with Two Equal-Sized Pools of Candidates. This paper presents the solution of a secretary type problem where the decision maker observes a sequence of offers of two types.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-22-on-a-secretary-problem-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24724v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-22-on-a-secretary-problem-with</id>
+    <updated>2026-11-18T16:42:10+00:00</updated>
+    <summary type="html">&lt;p&gt;This paper presents the solution of a secretary type problem where the decision maker observes a sequence of offers of two types. There are N objects of both types and these objects appear to the decision maker in random order. Objects can only be compared when they are of the same type.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24724v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #optimization&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,77 +5,69 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-10-tcp4d-a-unified-tool-center"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23143"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-10-tcp4d-a-unified-tool-center</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given a monocular video and initial 2D TCP queries, the tracker directly recovers metric TCP poses in SE(3) and gripper states alongside scene geometry and camera parameters.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23143&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics&lt;/p&gt;</summary>
+    <title>WorldRuler: Interactive World Modeling under Configurable Rules. Rules govern how player actions change interactive worlds.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-10-worldruler-interactive-world-modeling-under"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24869"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-10-worldruler-interactive-world-modeling-under</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24869&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>FastFrames: Video Generation at Interactive Latency</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-11-fastframes-video-generation-at-interactive"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23226"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-11-fastframes-video-generation-at-interactive</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23226&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+    <title>HINT-WAM: Hindsight-Informed Training for World Action Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-11-hint-wam-hindsight-informed-training"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24789"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-11-hint-wam-hindsight-informed-training</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-12-ascendgym-a-cost-aware-kernel"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17621"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-12-ascendgym-a-cost-aware-kernel</id>
-    <updated>2026-11-12T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17621&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-12-lighttar-light-and-fast-target"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.17600"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-12-lighttar-light-and-fast-target</id>
+    <updated>2026-11-11T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prioritizes input variance but may overlook information relevant to predicting the target.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17600&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>π^4: A Foundation Model for 4D Scene Geometry and Motion. $π^4$ is a unified foundation model for 4D scene perception.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-13-4-a-foundation-model-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23144"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-13-4-a-foundation-model-for</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;$π^4$ is a unified foundation model for 4D scene perception. From diverse, uncalibrated RGB observations in the wild---a single image, an unordered collection, or a video sequence---it recovers dense geometry, camera poses, and metric scale, together with 2D/3D point tracks and moving-object masks for multi-image inputs. It couples a geometry branch with a geometry-conditioned motion branch, which predicts image-space correspondences that are lifted into 3D using reconstructed target-view geometry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23144&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-13-strideworld-benchmarking-scene-rigidity-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24408"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-13-strideworld-benchmarking-scene-rigidity-and</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a scene reconstructed from its own frames or a camera trajectory aligned to the command path with a free scale. Such references can absorb gradual scene deformation and changes in pace and route length, so these errors can pass undetected.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24408&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-14-telechat-to-xing4-advancing-frontier"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22115"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-14-telechat-to-xing4-advancing-frontier</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22115&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #distributed-systems #agents&lt;/p&gt;</summary>
+    <title>RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-15-roughcut-bench-a-benchmark-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24098"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-15-roughcut-bench-a-benchmark-for</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic rough-cut remains underexplored, without a comprehensive benchmark for evaluation or mature workflows for producing executable cut plans. To address the evaluation gap, we introduce RoughCut-Bench, which covers two practical settings: (1) a visually driven setting over video cases, covering highlight detection and selection, source-video ordering, and adherence to user requirements when provided; and (2) a speech-driven setting over automatic speech recognition (ASR) transcripts, covering filler removal, expression deduplication, and low-value content trimming.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24098&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Beyond Answering: Learning to Speak First and Act in Streaming Video</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-15-beyond-answering-learning-to-speak"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17048"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-15-beyond-answering-learning-to-speak</id>
-    <updated>2026-11-14T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics worth discussing in the evolving visual stream and initiate conversations at appropriate moments without a user query.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17048&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+    <title>UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-16-ultratex-aligning-physical-knowledge-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24941"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-16-ultratex-aligning-physical-knowledge-for</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24941&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-16-breath-dx-a-time-series"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.15348"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-16-breath-dx-a-time-series</id>
-    <updated>2026-11-10T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with inconsistent protocols, rendering results non-comparable and slowing progress.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.15348&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+    <title>StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.23257"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for</id>
+    <updated>2026-09-28T20:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23257&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Do LLM Agents Still Need to Be Told How to Self-Improve?. LLM agents increasingly drive their own learning.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-17-do-llm-agents-still-need"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23219"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-17-do-llm-agents-still-need</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23219&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration. Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-18-heave-ho-decentralized-long-horizon"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22275"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-18-heave-ho-decentralized-long-horizon</id>
-    <updated>2026-11-16T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22275&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+    <title>Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-18-piccolo-co-evolving-decision-models"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24651"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-18-piccolo-co-evolving-decision-models</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data workflows, and interactive games. Piccolo-27B tops the Decision Index Vision Full leaderboard with a score of 75.59, while Piccolo-9B and Piccolo-4B achieve 68.35 and 67.46, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24651&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,45 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>GPT‑6.2 Astra and Sol</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-01-gpt-6-2-astra-and"/>
-    <link rel="related" href="https://openai.com/index/introducing-gpt-6-2-astra-sol/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-01-gpt-6-2-astra-and</id>
-    <updated>2026-11-17T17:46:43Z</updated>
-    <summary type="html">&lt;p&gt;GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They&amp;apos;re available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://openai.com/index/introducing-gpt-6-2-astra-sol/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Unauthenticated remote code execution in Nginx. Xint is reporting that it has discovered a collection of five critical vulnerabilities in the NGINX web server.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-03-unauthenticated-remote-code-execution-in"/>
+    <link rel="related" href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-03-unauthenticated-remote-code-execution-in</id>
+    <updated>2026-11-18T15:19:55Z</updated>
+    <summary type="html">&lt;p&gt;Xint is reporting that it has discovered a collection of five critical vulnerabilities in the NGINX web server. The worst flaw, it says, would allow an unauthenticated attacker to execute commands on an affected nginx server with HTTP/2 enabled . The company also reports a local-privilege escalation (LPE) kernel vulnerability , which was introduced in the 4.15 kernel, in the Stream Control Transmission Protocol (SCTP) subsystem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>jQuery 4.1.0. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-04-jquery-4-1-0"/>
-    <link rel="related" href="https://github.com/jquery/jquery/releases/tag/4.1.0"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-04-jquery-4-1-0</id>
-    <updated>2026-11-17T19:50:40Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/jquery/jquery/releases/tag/4.1.0&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Gemini 4 Neon</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-05-gemini-4-neon"/>
+    <link rel="related" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-05-gemini-4-neon</id>
+    <updated>2026-11-18T21:34:07Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Java4Shell: RCE in OpenJDK when processing Base64. Comments</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-06-java4shell-rce-in-openjdk-when"/>
-    <link rel="related" href="https://calif.io/java4shell/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-06-java4shell-rce-in-openjdk-when</id>
-    <updated>2026-11-17T21:11:28Z</updated>
-    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://calif.io/java4shell/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>LLM assisted reverse engineering</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-14-llm-assisted-reverse-engineering"/>
+    <link rel="related" href="https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-14-llm-assisted-reverse-engineering</id>
+    <updated>2026-11-18T22:29:13Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Quad9&apos;s withdrawal from France: A canary in the coal mine. Quad9&apos;s forced withdrawal from France highlights the dangers of mandating DNS-level blocking.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-08-quad9-s-withdrawal-from-france"/>
-    <link rel="related" href="https://blog.cloudflare.com/quad9-withdrawal-from-france/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-08-quad9-s-withdrawal-from-france</id>
-    <updated>2026-11-17T22:13:34Z</updated>
-    <summary type="html">&lt;p&gt;Quad9&amp;apos;s forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.cloudflare.com/quad9-withdrawal-from-france/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Python Code Generation for Isabelle/HOL. The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-22-python-code-generation-for-isabelle"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22613v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-22-python-code-generation-for-isabelle</id>
-    <updated>2026-11-17T11:29:58+00:00</updated>
-    <summary type="html">&lt;p&gt;The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22613v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #logic #software-architecture&lt;/p&gt;</summary>
+    <title>MicroAssert: Microarchitecture-Aware Structured Assertion Generation for CPU Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-40-microassert-microarchitecture-aware-structured-assertion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24872v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-40-microassert-microarchitecture-aware-structured-assertion</id>
+    <updated>2026-11-18T18:23:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Automatic assertion generation reduces manual verification effort, yet existing approaches struggle to capture microarchitectural behaviors and cross-region interactions in CPUs. We present MicroAssert, a microarchitecture-aware framework that identifies functional regions directly from RTL and generates local and composite assertions through structured contracts and deterministic verification primitives. Coverage-guided feedback further improves verification completeness by progressively expanding proof-relevant RTL coverage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24872v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #software-architecture&lt;/p&gt;</summary>
   </entry>
 </feed>

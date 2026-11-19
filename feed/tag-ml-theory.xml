@@ -5,45 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
-    <title>ThermLeT: Transformer-based Temperature Prediction for 2.5D Chiplet Architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-44-thermlet-transformer-based-temperature-prediction"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21954v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-44-thermlet-transformer-based-temperature-prediction</id>
-    <updated>2026-11-16T22:36:06+00:00</updated>
-    <summary type="html">&lt;p&gt;The drive toward heterogeneous 2.5D chiplet packages promises unmatched performance and customization, yet the resulting density amplifies thermal challenges. To facilitate rapid design space exploration, we present ThermLeT, a multimodal transformer-based, scale invariant surrogate that integrates power density maps, spatial coordinate embeddings, material properties and heat transfer rate to predict steady state temperature in 13 ms, about four orders of magnitude faster than conventional finite element solvers such as ANSYS. To train the transformer model, we also create a dataset of 6,221 chiplet layouts perturbed from three representative architectures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21954v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SLED: Sensor SLicing from Edge to Datacenter</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-45-sled-sensor-slicing-from-edge"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21937v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-45-sled-sensor-slicing-from-edge</id>
-    <updated>2026-11-16T21:51:51+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21937v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #distributed-systems&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Reversing the text is not reversing the path: a fixed-text measure without a zero, and an assembly-order comparison that vanishes identically</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-83-reversing-the-text-is-not"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23049v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-83-reversing-the-text-is-not</id>
-    <updated>2026-11-17T16:46:03+00:00</updated>
-    <summary type="html">&lt;p&gt;For an ensemble of trajectories the fluctuation theorems give the entropy production its meaning and zero. The same expression has recently been evaluated on one fixed text, $Δ= [\log P(x) - \log P(\tilde x)]/L$ with $\tilde x$ the text in reversed order, read as an entropy production separating causally from arbitrarily ordered prose. A single text is neither a distribution nor a dynamics, and the texts at issue were produced by other models.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23049v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Virtual Double Oracle: Faster Convergence by Leveraging Strategies That Were Watching All Along</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-85-virtual-double-oracle-faster-convergence"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22806v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-85-virtual-double-oracle-faster-convergence</id>
-    <updated>2026-11-17T14:00:20+00:00</updated>
-    <summary type="html">&lt;p&gt;Double Oracle (DO) and PSRO approximate Nash equilibria in two-player zero-sum games by iteratively expanding a strategy population with best responses supplied by an oracle. Online Double Oracle (ODO) interleaves multiplicative weights updates (MWU) with population discovery and obtains an $O(\sqrt{k\ln k/T})$ rate, where $T$ is the number of learning rounds and $k$ is the larger of the two players&amp;apos; final population sizes. We identify the reinitialisation step as an underexplored design choice: at each expansion, MWU-based methods reset newly discovered strategies to a uniform prior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22806v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Flocking Time and Graph Volume in Nonlinear Cucker-Smale Models with Dynamic Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-89-flocking-time-and-graph-volume"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22204v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-89-flocking-time-and-graph-volume</id>
-    <updated>2026-11-17T04:41:45+00:00</updated>
-    <summary type="html">&lt;p&gt;This study proposes a Cucker-Smale model incorporating dynamic networks and the discrete $p$-Laplacian ($p \in (1,2)$) and analyzes the relationship between flocking time constraints and graph connectivity from both theoretical and experimental perspectives. We establish that this model achieves flocking within finite time and derive a quantitative relationship between the lower bound of flocking time and graph volume. Based on these results, we observe that imposing sufficiently small flocking time induces an increase in network volume, and that larger initial velocity variance requires greater volume under the same time constraint.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22204v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #analysis-pde #ml-theory&lt;/p&gt;</summary>
+    <title>Learning the Anyon Atlas</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-35-learning-the-anyon-atlas"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24752v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-35-learning-the-anyon-atlas</id>
+    <updated>2026-11-18T17:09:34+00:00</updated>
+    <summary type="html">&lt;p&gt;We extend our previous search for the modular data of topological quantum field theories in 2+1 dimensions from 22 to 42 anyons, identifying 150,679 new modular data. We do so by adding to our algorithm three rejection gates, two of them based on logistic regression, that discard representations of $SL(2,\mathbb{Z})$ unlikely to yield modular data. We estimate that roughly 80% of the modular data between ranks 23 and 42 has been identified after closing under known constructions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24752v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

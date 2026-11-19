@@ -5,45 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-18T13:32:16.101350625+00:00</updated>
+  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Dissecting the GPU Load/Store Unit and Exposing Its Security Risks. GPUs are the main platform for large-scale machine learning and power the largest supercomputers.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-40-dissecting-the-gpu-load-store"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23022v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-40-dissecting-the-gpu-load-store</id>
-    <updated>2026-11-17T16:28:03+00:00</updated>
-    <summary type="html">&lt;p&gt;GPUs are the main platform for large-scale machine learning and power the largest supercomputers. Their load/store units (LSUs) often determine kernel performance and have been exploited in prior attacks. Yet what is known about the LSU is only a few isolated mechanisms and parameters, and even a single one has been enough for an attack.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23022v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #infosec&lt;/p&gt;</summary>
+    <title>MicroAssert: Microarchitecture-Aware Structured Assertion Generation for CPU Verification</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-40-microassert-microarchitecture-aware-structured-assertion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24872v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-40-microassert-microarchitecture-aware-structured-assertion</id>
+    <updated>2026-11-18T18:23:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Automatic assertion generation reduces manual verification effort, yet existing approaches struggle to capture microarchitectural behaviors and cross-region interactions in CPUs. We present MicroAssert, a microarchitecture-aware framework that identifies functional regions directly from RTL and generates local and composite assertions through structured contracts and deterministic verification primitives. Coverage-guided feedback further improves verification completeness by progressively expanding proof-relevant RTL coverage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24872v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #software-architecture&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>From Token Changes to Task Failures: Bit Flips in a Shared KV-Cache Block</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-41-from-token-changes-to-task"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.22243v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-41-from-token-changes-to-task</id>
-    <updated>2026-11-17T05:46:02+00:00</updated>
-    <summary type="html">&lt;p&gt;In LLM serving systems with prefix caching, each KV block of a shared system prompt is held in GPU memory as a single physical copy, which every request with that prompt reads. Our earlier work measured change and showed that one bit flip in such a block changes many later responses without making them visibly degenerate. This paper extends that work by measuring how often the changed responses are wrong.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.22243v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #inference&lt;/p&gt;</summary>
+    <title>PULSAR-V: I/O-Aware Post-Update Attestation for RISC-V</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-41-pulsar-v-i-o-aware"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24135v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-41-pulsar-v-i-o-aware</id>
+    <updated>2026-11-18T09:47:29+00:00</updated>
+    <summary type="html">&lt;p&gt;Post-update attestation proves that a device installed the intended firmware, not that the image stayed protected until the report was signed. In a multi-master SoC, a master outside the attested processor can corrupt update-critical memory. In contrast, the firmware identity, lifecycle state, and the CPU&amp;apos;s protection evidence remain byte-identical to a healthy device&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24135v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>ThermLeT: Transformer-based Temperature Prediction for 2.5D Chiplet Architecture</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-44-thermlet-transformer-based-temperature-prediction"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21954v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-44-thermlet-transformer-based-temperature-prediction</id>
-    <updated>2026-11-16T22:36:06+00:00</updated>
-    <summary type="html">&lt;p&gt;The drive toward heterogeneous 2.5D chiplet packages promises unmatched performance and customization, yet the resulting density amplifies thermal challenges. To facilitate rapid design space exploration, we present ThermLeT, a multimodal transformer-based, scale invariant surrogate that integrates power density maps, spatial coordinate embeddings, material properties and heat transfer rate to predict steady state temperature in 13 ms, about four orders of magnitude faster than conventional finite element solvers such as ANSYS. To train the transformer model, we also create a dataset of 6,221 chiplet layouts perturbed from three representative architectures.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21954v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>SLED: Sensor SLicing from Edge to Datacenter</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-18-45-sled-sensor-slicing-from-edge"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.21937v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-18-45-sled-sensor-slicing-from-edge</id>
-    <updated>2026-11-16T21:51:51+00:00</updated>
-    <summary type="html">&lt;p&gt;Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21937v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #ml-theory #distributed-systems&lt;/p&gt;</summary>
+    <title>Mechanistic Critics for Sample-Efficient NPU Design-Space Exploration</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-44-mechanistic-critics-for-sample-efficient"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24733v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-44-mechanistic-critics-for-sample-efficient</id>
+    <updated>2026-11-18T16:48:43+00:00</updated>
+    <summary type="html">&lt;p&gt;NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power. Such feedback can rank evaluated configurations, but gives little information for deciding why a configuration is slow or which architecture parameter should be changed next. This limitation is especially severe because prefill and decode workloads can be limited by different resources, including compute throughput and HBM bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24733v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os&lt;/p&gt;</summary>
   </entry>
 </feed>
