@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-source.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-source.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <entry>
+    <title>PostgreSQL 19</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-01-postgresql-19"/>
+    <link rel="related" href="https://www.postgresql.org/docs/release/19.0/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-01-postgresql-19</id>
+    <updated>2026-11-20T03:45:45Z</updated>
+    <summary type="html">&lt;p&gt;PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year&amp;apos;s release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds &amp;quot;read-your-writes&amp;quot; consistency with the new WAIT FOR LSN command.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.postgresql.org/docs/release/19.0/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #databases&lt;/p&gt;</summary>
+  </entry>
   <entry>
     <title>Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-01-show-hn-an-e-ink"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-02-show-hn-an-e-ink"/>
     <link rel="related" href="https://github.com/arnegiacomo/fugleramme"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-01-show-hn-an-e-ink</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-02-show-hn-an-e-ink</id>
     <updated>2026-09-15T12:31:10Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/arnegiacomo/fugleramme&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Unauthenticated remote code execution in Nginx. Xint is reporting that it has discovered a collection of five critical vulnerabilities in the NGINX web server.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-03-unauthenticated-remote-code-execution-in"/>
-    <link rel="related" href="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-03-unauthenticated-remote-code-execution-in</id>
-    <updated>2026-11-18T15:19:55Z</updated>
-    <summary type="html">&lt;p&gt;Xint is reporting that it has discovered a collection of five critical vulnerabilities in the NGINX web server. The worst flaw, it says, would allow an unauthenticated attacker to execute commands on an affected nginx server with HTTP/2 enabled . The company also reports a local-privilege escalation (LPE) kernel vulnerability , which was introduced in the 4.15 kernel, in the Stream Control Transmission Protocol (SCTP) subsystem.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: Can’t afford Bloomberg Terminal? No prob, I built the next best thing</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-04-show-hn-can-t-afford"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-04-show-hn-can-t-afford"/>
     <link rel="related" href="https://github.com/DidierRLopes/GamestonkTerminal"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-04-show-hn-can-t-afford</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-04-show-hn-can-t-afford</id>
     <updated>2021-02-25T01:47:30Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/DidierRLopes/GamestonkTerminal&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Gemini 4 Neon</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-05-gemini-4-neon"/>
-    <link rel="related" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-05-gemini-4-neon</id>
-    <updated>2026-11-18T21:34:07Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Show HN: This up votes itself</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-06-show-hn-this-up-votes"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-05-show-hn-this-up-votes"/>
     <link rel="related" href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-06-show-hn-this-up-votes</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-05-show-hn-this-up-votes</id>
     <updated>2012-03-23T00:40:39Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://news.ycombinator.com/vote?for=3742902&amp;amp;dir=up&amp;amp;whence=%6e%65%77%65%73%74&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: Gemini Pro 3 imagines the HN front page 10 years from now</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-07-show-hn-gemini-pro-3"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-06-show-hn-gemini-pro-3"/>
     <link rel="related" href="https://dosaygo-studio.github.io/hn-front-page-2035/news"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-07-show-hn-gemini-pro-3</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-06-show-hn-gemini-pro-3</id>
     <updated>2025-12-09T15:00:38Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://dosaygo-studio.github.io/hn-front-page-2035/news&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: I made an open-source laptop from scratch</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-08-show-hn-i-made-an"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-07-show-hn-i-made-an"/>
     <link rel="related" href="https://www.byran.ee/posts/creation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-08-show-hn-i-made-an</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-07-show-hn-i-made-an</id>
     <updated>2025-01-22T20:41:52Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.byran.ee/posts/creation/&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Show HN: If YouTube had actual channels</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-09-show-hn-if-youtube-had"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-08-show-hn-if-youtube-had"/>
     <link rel="related" href="https://ytch.xyz"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-09-show-hn-if-youtube-had</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-08-show-hn-if-youtube-had</id>
     <updated>2024-08-14T15:10:06Z</updated>
     <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ytch.xyz&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>LLM assisted reverse engineering</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-14-llm-assisted-reverse-engineering"/>
-    <link rel="related" href="https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-14-llm-assisted-reverse-engineering</id>
-    <updated>2026-11-18T22:29:13Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in AI &amp;amp; Machine Learning. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Show HN: A retro video game console I&apos;ve been working on in my free time</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-09-show-hn-a-retro-video"/>
+    <link rel="related" href="https://internalregister.github.io/2019/03/14/Homebrew-Console.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-09-show-hn-a-retro-video</id>
+    <updated>2019-03-14T20:25:03Z</updated>
+    <summary type="html">&lt;p&gt;Published via Show HN (Trending Repos &amp;amp; Tools) in Computer Science &amp;amp; Software. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://internalregister.github.io/2019/03/14/Homebrew-Console.html&quot;&gt;Show HN (Trending Repos &amp;amp; Tools)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #trending-repo #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-37-openssl-buffer-overflow-in-evp"/>
+    <link rel="related" href="https://github.com/openssl/openssl/pull/33652"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-37-openssl-buffer-overflow-in-evp</id>
+    <updated>2026-11-20T02:01:09Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/openssl/openssl/pull/33652&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

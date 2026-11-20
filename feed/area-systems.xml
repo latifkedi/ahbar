@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-systems.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
-    <title>Security updates for Wednesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-37-security-updates-for-wednesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1108354/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-37-security-updates-for-wednesday</id>
-    <updated>2026-11-18T14:17:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, git-lfs, glib2,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1108354/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases #agents&lt;/p&gt;</summary>
+    <title>OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-37-openssl-buffer-overflow-in-evp"/>
+    <link rel="related" href="https://github.com/openssl/openssl/pull/33652"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-37-openssl-buffer-overflow-in-evp</id>
+    <updated>2026-11-20T02:01:09Z</updated>
+    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/openssl/openssl/pull/33652&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Security updates for Thursday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-38-security-updates-for-thursday"/>
+    <link rel="related" href="https://lwn.net/Articles/1108551/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-38-security-updates-for-thursday</id>
+    <updated>2026-11-19T14:05:42+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, git-lfs, glib2,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1108551/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-38-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-39-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-38-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-39-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-39-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-40-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-39-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-40-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>MicroAssert: Microarchitecture-Aware Structured Assertion Generation for CPU Verification</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-40-microassert-microarchitecture-aware-structured-assertion"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24872v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-40-microassert-microarchitecture-aware-structured-assertion</id>
-    <updated>2026-11-18T18:23:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Automatic assertion generation reduces manual verification effort, yet existing approaches struggle to capture microarchitectural behaviors and cross-region interactions in CPUs. We present MicroAssert, a microarchitecture-aware framework that identifies functional regions directly from RTL and generates local and composite assertions through structured contracts and deterministic verification primitives. Coverage-guided feedback further improves verification completeness by progressively expanding proof-relevant RTL coverage.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24872v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #computer-architecture #software-architecture&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>PULSAR-V: I/O-Aware Post-Update Attestation for RISC-V</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-41-pulsar-v-i-o-aware"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24135v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-41-pulsar-v-i-o-aware</id>
-    <updated>2026-11-18T09:47:29+00:00</updated>
-    <summary type="html">&lt;p&gt;Post-update attestation proves that a device installed the intended firmware, not that the image stayed protected until the report was signed. In a multi-master SoC, a master outside the attested processor can corrupt update-critical memory. In contrast, the firmware identity, lifecycle state, and the CPU&amp;apos;s protection evidence remain byte-identical to a healthy device&amp;apos;s.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24135v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #cryptography #semiconductors&lt;/p&gt;</summary>
-  </entry>
-  <entry>
     <title>Vulnerability that lets hackers SSH into Linux devices is under active exploitation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-42-vulnerability-that-lets-hackers-ssh"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-41-vulnerability-that-lets-hackers-ssh"/>
     <link rel="related" href="https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-42-vulnerability-that-lets-hackers-ssh</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-41-vulnerability-that-lets-hackers-ssh</id>
     <updated>2026-11-09T19:41:34+00:00</updated>
     <summary type="html">&lt;p&gt;Certain configurations of Alpine are affected. Other distros may be as well.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/&quot;&gt;Ars Technica (Applied Tech &amp;amp; Hardware)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #consumer-tech #hardware #semiconductors #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Mechanistic Critics for Sample-Efficient NPU Design-Space Exploration</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-44-mechanistic-critics-for-sample-efficient"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24733v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-44-mechanistic-critics-for-sample-efficient</id>
-    <updated>2026-11-18T16:48:43+00:00</updated>
-    <summary type="html">&lt;p&gt;NPU design-space exploration for LLM inference mainly relies on an expensive simulator that often returns only scalar feedback such as latency and power. Such feedback can rank evaluated configurations, but gives little information for deciding why a configuration is slow or which architecture parameter should be changed next. This limitation is especially severe because prefill and decode workloads can be limited by different resources, including compute throughput and HBM bandwidth.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24733v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os&lt;/p&gt;</summary>
+    <title>RouterWeave: A Unified Observation Layer for Cross-Platform Activity Analysis via Home Routers</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-43-routerweave-a-unified-observation-layer"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26134v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-43-routerweave-a-unified-observation-layer</id>
+    <updated>2026-11-19T13:53:50+00:00</updated>
+    <summary type="html">&lt;p&gt;Smart homes bring together devices from different operating systems and vendor ecosystems, but each platform reports activity only for the devices and features it supports, leaving gaps in household-wide activity monitoring. Interoperability standards such as Matter and software integrations connect and control supported devices, yet vendor restrictions and licensing barriers limit access to their data, while hardware constraints hinder integration. Our key insight is that encrypted network traffic provides complementary evidence of activity across platform boundaries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26134v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-43-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-42-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-43-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-42-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Policy and Disclosure: 2026 Edition</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-45-policy-and-disclosure-2026-edition"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-44-policy-and-disclosure-2026-edition"/>
     <link rel="related" href="https://projectzero.google/2026/11/disclosure-policy.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-45-policy-and-disclosure-2026-edition</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-44-policy-and-disclosure-2026-edition</id>
     <updated>2026-11-13T08:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The advent of AI-assisted vulnerability discovery and exploitation has changed the threat landscape such that the vulnerability remediation timeline encouraged by our disclosure policy is clearly insufficient.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/11/disclosure-policy.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-45-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-45-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <updated>2026-10-27T07:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

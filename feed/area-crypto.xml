@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/area-crypto.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/area-crypto.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
     <title>Possible futures of the Ethereum protocol, part 6: The Splurge</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-55-possible-futures-of-the-ethereum"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-55-possible-futures-of-the-ethereum"/>
     <link rel="related" href="https://vitalik.ca/general/2024/10/29/futures6.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-55-possible-futures-of-the-ethereum</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-55-possible-futures-of-the-ethereum</id>
     <updated>2024-10-29T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Published via Vitalik Buterin&amp;apos;s Blog in Cryptography, Web3 &amp;amp; Protocols. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://vitalik.ca/general/2024/10/29/futures6.html&quot;&gt;Vitalik Buterin&amp;apos;s Blog&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>9 key moments from Marc Andreessen and Chris Dixon on the CLARITY Act</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-56-9-key-moments-from-marc"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-56-9-key-moments-from-marc"/>
     <link rel="related" href="https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-56-9-key-moments-from-marc</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-56-9-key-moments-from-marc</id>
     <updated>2026-08-07T18:21:26+00:00</updated>
     <summary type="html">&lt;p&gt;Marc Andreessen and Chris Dixon on the fight over crypto market structure, why regulatory clarity matters, and what is at stake for America’s technological leadership.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://a16zfrontier.com/posts/article/9-key-moments-from-marc-andreessen-and-chris-dixon-on-the-clarity-act/&quot;&gt;a16z Crypto Research (SNARKs &amp;amp; Consensus)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-57-rethinking-zero-knowledge-tls-proof"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2187"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-57-rethinking-zero-knowledge-tls-proof</id>
-    <updated>2026-09-23T16:09:44+00:00</updated>
-    <summary type="html">&lt;p&gt;In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS, revealing nothing beyond the statement proven. Each existing scheme, however, comes with its own security model, written for that scheme alone, so the schemes are not proven secure against a common definition. The root cause is a mismatch of levels: existing models are stated at the level of TLS and therefore reflect how each construction handles it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2187&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #distributed-systems&lt;/p&gt;</summary>
+    <title>Isopolia: A Three-Tier Latency L1 Architecture for Autonomous AI Agents - Owned-Object FastPay (D4 Fencing), Day-1 X25519 + ML-KEM-768 Privacy, and Endogenous AMM Liquidation Bounds</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-57-isopolia-a-three-tier-latency"/>
+    <link rel="related" href="https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-57-isopolia-a-three-tier-latency</id>
+    <updated>2026-11-19T19:10:12+00:00</updated>
+    <summary type="html">&lt;p&gt;Overview: What We Are Building Isopolia is a sovereign Layer-1 protocol and deterministic execution stack built specifically for autonomous AI-agent economies (machine-to-machine micropayments via MCP / x402 / A2A, verifiable compute leasing, on-chain agent identity did:isop , and decentralized governance). Autonomous agents impose conflicting requirements on base-layer design: Sub-50 ms micropayments vs. shared-state safety : Tool calls and GPU streaming cannot wait for global BFT ordering, yet running a fast-path alongside BFT consensus without strict mutual exclusion creates cross-domain double-spend and state-divergence hazards.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://ethresear.ch/t/isopolia-a-three-tier-latency-l1-architecture-for-autonomous-ai-agents-owned-object-fastpay-d4-fencing-day-1-x25519-ml-kem-768-privacy-and-endogenous-amm-liquidation-bounds/26272&quot;&gt;Ethereum Research (ethresear.ch)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #zkp #consensus #rust #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On the Security of MPC-in-the-Head Signatures with Correlated GGM Trees</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-58-on-the-security-of-mpc"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/615"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-58-on-the-security-of-mpc</id>
-    <updated>2026-03-28T14:36:13+00:00</updated>
-    <summary type="html">&lt;p&gt;Recent MPC-in-the-Head techniques enable the construction of signature schemes with compact signature sizes from various hardness assumptions. These techniques rely on commitments based on GGM trees, which have been optimized to further reduce the signature size with the so-called one-tree or correlated tree optimizations. While the one-tree technique has no incidence on the security of the scheme, this is not obvious for the correlated tree technique, and a formal security analysis of this technique has been missing in the literature.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/615&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
+    <title>Succinct Arguments for QMA in the Quantum Random Oracle Model. Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-58-succinct-arguments-for-qma-in"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2099"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-58-succinct-arguments-for-qma-in</id>
+    <updated>2026-09-18T20:18:35+00:00</updated>
+    <summary type="html">&lt;p&gt;Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication. In the classical setting, succinct arguments for NP can be constructed from unstructured hardness alone (e.g., hash functions) by compiling probabilistically checkable proofs (PCPs) or interactive oracle proofs (IOPs) for NP via the commit-and-open paradigm. In contrast, known succinct arguments for QMA rely on ``structured&amp;apos;&amp;apos; cryptographic primitives, or on the quantum PCP conjecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2099&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Phoenix: Hash-and-Sign with Aborts from Lattice Gadgets</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-59-phoenix-hash-and-sign-with"/>
-    <link rel="related" href="https://eprint.iacr.org/2023/446"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-59-phoenix-hash-and-sign-with</id>
-    <updated>2023-03-27T11:25:27+00:00</updated>
-    <summary type="html">&lt;p&gt;Preimage sampling is a fundamental tool in lattice-based cryptography, and its performance directly impacts that of the cryptographic mechanisms relying on it. In 2012, Micciancio and Peikert proposed a new way of generating trapdoors (and an associated preimage sampling procedure) with very interesting features. Unfortunately, in some applications such as digital signatures, the performance may not be as competitive as other approaches like Fiat-Shamir with Aborts.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2023/446&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Differential Meet-in-the-Middle Attacks on Feistel Ciphers. Differential meet-in-the-middle attacks, introduced by Boura et al.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-59-differential-meet-in-the-middle"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1911"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-59-differential-meet-in-the-middle</id>
+    <updated>2025-10-13T15:37:40+00:00</updated>
+    <summary type="html">&lt;p&gt;Differential meet-in-the-middle attacks, introduced by Boura et al. in 2023, propose a new way of dealing with differential distinguishers. It allows, in particular, to combine differential attacks with initial structures, that were usually used exclusively for meet-in-the-middle attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1911&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Ideal Pseudorandom Code, Revisited</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-60-ideal-pseudorandom-code-revisited"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1657"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-60-ideal-pseudorandom-code-revisited</id>
-    <updated>2026-08-11T12:03:06+00:00</updated>
-    <summary type="html">&lt;p&gt;Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn at CRYPTO’24, combine pseudorandomness with error correction, providing a natural abstraction for robust watermarking and steganography on generative AI models. Subsequent standalone notions, which are ideal security for secret-key PRCs and CCA-style security for public-key PRCs, are oracle-based and do not capture composable use with explicit parties, sessions, and corruption. We give a UC treatment of PRCs via corruption-aware ideal functionalities for both settings.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1657&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
+    <title>Provable dual attack on LWE via lattice projection</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-60-provable-dual-attack-on-lwe"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2117"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-60-provable-dual-attack-on-lwe</id>
+    <updated>2026-09-20T01:17:19+00:00</updated>
+    <summary type="html">&lt;p&gt;The Learning with Errors (LWE) problem is a cornerstone of post-quantum cryptography, and the dual attack is a central tool for evaluating its concrete hardness. In provable dual attacks, a major bottleneck is the large number of discrete Gaussian samples required over the dual lattice. While recent works have focused on accelerating the guessing step via modulus switching, the sampling bottleneck has remained largely unoptimized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2117&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Aker: Efficient Two-Party SLH-DSA</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-61-aker-efficient-two-party-slh"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2899"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-61-aker-efficient-two-party-slh</id>
-    <updated>2026-11-15T12:41:38+00:00</updated>
-    <summary type="html">&lt;p&gt;Threshold signing is widely deployed to protect cryptographic keys, but extending these deployments to post-quantum signatures remains challenging. While NIST&amp;apos;s lattice-based signatures now have efficient threshold protocols, distributed signing for SLH-DSA (FIPS 205), NIST&amp;apos;s stateless hash-based signature standard, has been considered prohibitively expensive because it lacks the algebraic structure those protocols typically exploit. We present Aker, a maliciously secure two-party signing protocol compatible with an unmodified FIPS 205 verifier.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2899&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #distributed-systems #post-quantum&lt;/p&gt;</summary>
+    <title>Correlation Power Analysis of SHA-2-Based SLH-DSA</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-61-correlation-power-analysis-of-sha"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2753"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-61-correlation-power-analysis-of-sha</id>
+    <updated>2026-11-04T00:46:59+00:00</updated>
+    <summary type="html">&lt;p&gt;SLH-DSA repeatedly processes a fixed secret seed together with varying public addresses, making its physical implementation a target for side-channel analysis. We present non-profiled correlation power analysis (CPA) procedures for the address-based pseudorandom function in all six SHA-2-based SLH-DSA parameter sets, using SHA256 compression rounds and message-schedule expansion. The procedures include joint recovery of two partial secrets in the 256-bit parameter sets and an alternative first message-schedule step for 128-bit WOTS+ addresses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2753&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sunshine Systems: Enabling Privacy-Preserving Compliance with Freedom of Information Laws</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-62-sunshine-systems-enabling-privacy-preserving"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2072"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-62-sunshine-systems-enabling-privacy-preserving</id>
-    <updated>2026-09-17T16:36:27+00:00</updated>
-    <summary type="html">&lt;p&gt;Freedom of information laws (informally known as Sunshine Laws), such as the US Federal Freedom of Information Act, provide legal pathways for members of the public to compel governments to produce internal documentation. These laws have become a powerful tool for government accountability, allowing journalists and activists to uncover malfeasance and advocate for change. However, because compliance with these laws requires government actors---the same entities who may be accused of malfeasance---to produce documentation, there is a risk that evidence of malfeasance may be suppressed rather than produced in response to a query.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2072&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Guess-and-Determine Rebound Revisited: Full Quantum Collision Attack on AES-256 in DM Hash Mode</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-62-guess-and-determine-rebound-revisited"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1050"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-62-guess-and-determine-rebound-revisited</id>
+    <updated>2026-05-25T09:04:12+00:00</updated>
+    <summary type="html">&lt;p&gt;At CRYPTO 2025, Qin et al. introduced the guess-and-determine (GD) rebound attack, which integrates the guess-and-determine approach by Bouillaguet, Derbez, and Fouque and the rebound attack by Mendel et al. Taking the GD rebound as a building block, this paper introduces several classical and quantum models to convert the semi-free-start (SFS) collision attack or free-start (FS) collision attack into collision attacks on DM hashing mode with AES. As an application, the first full quantum collision attack on AES-256-DM is proposed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1050&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>QUASI: Post-Quantum Quorum Attestation of Pre-Validated Statements</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-63-quasi-post-quantum-quorum-attestation"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2810"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-63-quasi-post-quantum-quorum-attestation</id>
-    <updated>2026-11-07T02:32:00+00:00</updated>
-    <summary type="html">&lt;p&gt;We present QUASI, a newly conceived class of hash-based, post-quantum-secure protocols that enable a group of parties to produce a publicly verifiable attestation about a pre-validated statement. QUASI produces attestations that reduce the size and verification cost to a fraction of a full hash-based signatures collection, without relying on SNARKs or a trusted setup. QUASI rests on a surprising discovery: each party need not sign the entire statement.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2810&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #rust #consensus&lt;/p&gt;</summary>
+    <title>Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion. Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-63-codetta-high-capacity-keyless-and"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2218"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-63-codetta-high-capacity-keyless-and</id>
+    <updated>2026-09-25T20:48:36+00:00</updated>
+    <summary type="html">&lt;p&gt;Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration. The same communication channel can also enable collusion, such as exfiltrating confidential data or coordinating unauthorized actions. While auditors inspect transcripts to detect suspicious behavior, steganography could, in principle, evade such audits by concealing covert payloads within ordinary-looking messages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2218&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

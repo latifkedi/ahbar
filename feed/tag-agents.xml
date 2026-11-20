@@ -5,85 +5,61 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
-    <title>Security updates for Wednesday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-37-security-updates-for-wednesday"/>
-    <link rel="related" href="https://lwn.net/Articles/1108354/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-37-security-updates-for-wednesday</id>
-    <updated>2026-11-18T14:17:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, git-lfs, glib2,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1108354/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #databases #agents&lt;/p&gt;</summary>
+    <title>Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-12-mind2act-world-a-diagnostic-benchmark"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26444"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-12-mind2act-world-a-diagnostic-benchmark</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26444&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-15-roughcut-bench-a-benchmark-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24098"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-15-roughcut-bench-a-benchmark-for</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic rough-cut remains underexplored, without a comprehensive benchmark for evaluation or mature workflows for producing executable cut plans. To address the evaluation gap, we introduce RoughCut-Bench, which covers two practical settings: (1) a visually driven setting over video cases, covering highlight detection and selection, source-video ordering, and adherence to user requirements when provided; and (2) a speech-driven setting over automatic speech recognition (ASR) transcripts, covering filler removal, expression deduplication, and low-value content trimming.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24098&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-15-zerovln-learning-to-navigate-without"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26414"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-15-zerovln-learning-to-navigate-without</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves effective navigation with zero navigation-domain SFT of the VLM brain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26414&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23257"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for</id>
-    <updated>2026-09-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23257&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-18-piccolo-co-evolving-decision-models"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24651"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-18-piccolo-co-evolving-decision-models</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data workflows, and interactive games. Piccolo-27B tops the Decision Index Vision Full leaderboard with a score of 75.59, while Piccolo-9B and Piccolo-4B achieve 68.35 and 67.46, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24651&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-18-automaster-autonomous-post-training-by"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26510"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-18-automaster-autonomous-post-training-by</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26510&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-25-lean-grimoire"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-27-lean-grimoire"/>
     <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-25-lean-grimoire</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-27-lean-grimoire</id>
     <updated>2026-11-12T02:36:00+00:00</updated>
     <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Cognitive grounding improves LLM simulation of collective human behavior</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-52-cognitive-grounding-improves-llm-simulation"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01080-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-52-cognitive-grounding-improves-llm-simulation</id>
-    <updated>2026-11-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 16 November 2026; doi:10.1038/s43588-026-01080-z The study shows that guiding AI agents with descriptions of how people make decisions in a supply-chain game helps agents reproduce collective human behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01080-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
+    <title>System of agentic AI for the discovery of metal–organic frameworks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-48-system-of-agentic-ai-for"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01058-x"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-48-system-of-agentic-ai-for</id>
+    <updated>2026-11-20T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 20 November 2026; doi:10.1038/s43588-026-01058-x An agentic AI system, MOFGen, is developed to accelerate the discovery of synthesizable metal–organic frameworks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01058-x&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Modelling population distribution across cities on spatial networks using the kinetic theory of multi-agent systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-85-modelling-population-distribution-across-cities"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24657v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-85-modelling-population-distribution-across-cities</id>
-    <updated>2026-11-18T15:57:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the urban population distribution of the Italian region of Sardinia through the kinetic theory of multi-agent systems on spatial networks, interpreting cities both as agents and vertices of a graph, and representing interurban links as edges. We consider various emigration rules to model the interactions between agents, obtaining two main results: the bimodal lognormal fit of the total population distribution among cities and the Pareto fit of the tail. Overall, our model provides results consistent with the actual distribution derived from ISTAT data of Sardinia; furthermore, the bimodal lognormal fit generally follows the distribution tail more accurately than the Pareto one, although the two coincide in the first half.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24657v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-45-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-45-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <updated>2026-10-27T07:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Neither graphs nor hypergraphs: structural moments of higher-order interactions determine stochastic social-impact dynamics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-87-neither-graphs-nor-hypergraphs-structural"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24252v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-87-neither-graphs-nor-hypergraphs-structural</id>
-    <updated>2026-11-18T11:30:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether higher-order interactions can be reduced to simpler representations is a question about the dynamics they drive, not only about their structure: what can be discarded is whatever the dynamics does not see. We make this precise for binary-state stochastic dynamics in which each agent, when updated, interacts with a randomly selected group and changes state according to the fraction of disagreeing members, as in generalized voter and social-impact models on hypergraphs. We ask which statistics of the group-interaction process determine the resulting Markov dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24252v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>On the Complexity of Envy Cycle Elimination</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-88-on-the-complexity-of-envy"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24167v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-88-on-the-complexity-of-envy</id>
-    <updated>2026-11-18T10:08:54+00:00</updated>
-    <summary type="html">&lt;p&gt;The envy cycle elimination (ECE) algorithm is a fundamental algorithm for the fair allocation of indivisible goods, guaranteeing an allocation that is envy-free up to one good under arbitrary monotone utilities. We show that the ECE algorithm can be implemented in $O(nm)$ time for $n$ agents and $m$ goods, and establish the tightness of this bound.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24167v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Temporal Fair Division: Simultaneous Guarantees for Goods and Chores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-90-temporal-fair-division-simultaneous-guarantees"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23782v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-90-temporal-fair-division-simultaneous-guarantees</id>
-    <updated>2026-11-18T03:39:21+00:00</updated>
-    <summary type="html">&lt;p&gt;We study temporal fair division of indivisible items in both the goods and chores settings, with $n \ge 2$ agents and nonnegative additive values or costs. Items arrive one at a time and must be assigned immediately and irrevocably. The arrival order and all agents&amp;apos; values or costs are known in advance, and the cumulative allocation must satisfy the fairness requirements after each arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23782v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Closing Gaps in Temporal Fair Division for Chores. We study the fair division of indivisible chores that must be assigned in a prescribed order.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-87-closing-gaps-in-temporal-fair"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25892v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-87-closing-gaps-in-temporal-fair</id>
+    <updated>2026-11-19T10:45:00+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the fair division of indivisible chores that must be assigned in a prescribed order. The complete instance is known in advance, but assignments cannot be changed. Temporal envy-freeness up to one chore (TEF1) requires envy-freeness up to one chore after every arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25892v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
 </feed>

@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-market-design.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-market-design.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <entry>
+    <title>Neckpinches in a Positively Curved Market: Ricci Flow with Surgery on the Nikkei-225</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-66-neckpinches-in-a-positively-curved"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25860v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-66-neckpinches-in-a-positively-curved</id>
+    <updated>2026-11-19T10:10:48+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the intrinsic geometry of the Nikkei-225 through the discrete Ollivier-Ricci curvature (ORC) of its empirical correlation graph, using the graph Ricci flow and surgery methodology of arXiv:2510.15942. The 226-node correlation graph, built from daily returns between January 2020 and June 2026, is ORC-spherical: every edge has strictly positive curvature before any flow, close to the equal-weight value $κ\approx0.502$. Under a fixed 20-iteration Ricci flow the curvature distribution polarises into a high-curvature bulk and a low-curvature minority, and cutting the low-curvature edges splits the graph into components of 184 and 42 nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25860v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems #combinatorics&lt;/p&gt;</summary>
+  </entry>
 </feed>

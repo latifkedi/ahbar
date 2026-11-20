@@ -5,13 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-reinforcement-learning.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
-    <title>HINT-WAM: Hindsight-Informed Training for World Action Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-11-hint-wam-hindsight-informed-training"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24789"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-11-hint-wam-hindsight-informed-training</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
+    <title>ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-15-zerovln-learning-to-navigate-without"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26414"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-15-zerovln-learning-to-navigate-without</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves effective navigation with zero navigation-domain SFT of the VLM brain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26414&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
   </entry>
 </feed>

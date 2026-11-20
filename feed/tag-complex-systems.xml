@@ -5,85 +5,93 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-complex-systems.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
     <title>The Structural Number of Parties: An Electoral-Outcome-Independent Baseline for Comparing Party-System Scale</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-64-the-structural-number-of-parties"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-65-the-structural-number-of-parties"/>
     <link rel="related" href="https://arxiv.org/abs/2611.24714v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-64-the-structural-number-of-parties</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-65-the-structural-number-of-parties</id>
     <updated>2026-11-18T16:38:04+00:00</updated>
     <summary type="html">&lt;p&gt;How many parties can a country structurally sustain? Standard measures such as the effective number of parties (ENP) cannot answer this question. They are descriptive and post hoc: they summarize competition only after an election, and they depend on electoral returns that are often missing, interrupted, or unreliable in many developing democracies, particularly in Africa.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24714v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Sharp Complexity Thresholds for Network Cournot Competition</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-82-sharp-complexity-thresholds-for-network"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24931v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-82-sharp-complexity-thresholds-for-network</id>
-    <updated>2026-11-18T18:55:00+00:00</updated>
-    <summary type="html">&lt;p&gt;We determine the approximation complexity of network Cournot equilibrium as a function of demand degree and the number of firms sharing a market. For common, nonincreasing concave polynomial inverse demands, convex quadratic costs of firms&amp;apos; allocation vectors, and rational total capacities, high-precision approximation is polynomial-time solvable for cubic demands, regardless of market size. Quartic demands remain tractable when each market has at most three firms, and quintic demands remain tractable with at most two.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24931v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #combinatorics&lt;/p&gt;</summary>
+    <title>Neckpinches in a Positively Curved Market: Ricci Flow with Surgery on the Nikkei-225</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-66-neckpinches-in-a-positively-curved"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25860v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-66-neckpinches-in-a-positively-curved</id>
+    <updated>2026-11-19T10:10:48+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the intrinsic geometry of the Nikkei-225 through the discrete Ollivier-Ricci curvature (ORC) of its empirical correlation graph, using the graph Ricci flow and surgery methodology of arXiv:2510.15942. The 226-node correlation graph, built from daily returns between January 2020 and June 2026, is ORC-spherical: every edge has strictly positive curvature before any flow, close to the equal-weight value $κ\approx0.502$. Under a fixed 20-iteration Ricci flow the curvature distribution polarises into a high-curvature bulk and a low-curvature minority, and cutting the low-curvature edges splits the graph into components of 184 and 42 nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25860v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>The Optimal Competitive Ratio for Subadditive Online Combinatorial Auctions is Less Than 1/2</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-83-the-optimal-competitive-ratio-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24920v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-83-the-optimal-competitive-ratio-for</id>
-    <updated>2026-11-18T18:49:49+00:00</updated>
-    <summary type="html">&lt;p&gt;We construct a four-buyer online combinatorial auction with independent subadditive valuations and a fixed, known arrival order in which every online rule earns strictly less than $1/2$ of the expected offline optimum. A common partition, revealed at the third arrival, gives the first three buyers one unit of welfare per item. If the rule uses three distinct partitions, either an item allocated early contributes zero or the fourth buyer&amp;apos;s expected value for the remaining bundle is one less than its size.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24920v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Safe Subgame Resolving in Multiplayer Games. Poker and other games with hidden information are too large to solve in one pass.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-82-safe-subgame-resolving-in-multiplayer"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25981v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-82-safe-subgame-resolving-in-multiplayer</id>
+    <updated>2026-11-19T12:04:23+00:00</updated>
+    <summary type="html">&lt;p&gt;Poker and other games with hidden information are too large to solve in one pass. Strong systems compute a complete blueprint strategy offline and refine it in real time inside the reached subgame. In 2p0s games, a safety theorem guarantees that subgame resolving never increases how much an adversary can gain by exploiting the resolved strategy relative to the blueprint strategy.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25981v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Polycentrality in Urban Socioecological Systems: A Multilayer Analysis of Social Infrastructure in Iztapalapa, Mexico City</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-84-polycentrality-in-urban-socioecological-systems"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24758v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-84-polycentrality-in-urban-socioecological-systems</id>
-    <updated>2026-11-18T17:13:48+00:00</updated>
-    <summary type="html">&lt;p&gt;The spatial distribution of infrastructure and activities, along with the networks and interactions that connect them, is key to understanding the relationship between urban form, function, and sustainability from a complex systems perspective. Within this dynamic relationship, the extent to which localized social infrastructure can reinforce existing functional centralities or create conditions for the emergence of new ones remains insufficiently understood. This study examines these relationships through the UTOPÍAS program in Iztapalapa, Mexico City, where 15 public social facilities have been established across a historically underserved urban territory.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24758v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #distributed-systems&lt;/p&gt;</summary>
+    <title>Path-Independent Deleveraging Rules. We characterise path-independent auto-deleveraging (ADL) rules as an extended log-exponential family.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-83-path-independent-deleveraging-rules"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26623v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-83-path-independent-deleveraging-rules</id>
+    <updated>2026-11-19T18:59:21+00:00</updated>
+    <summary type="html">&lt;p&gt;We characterise path-independent auto-deleveraging (ADL) rules as an extended log-exponential family. Immunity to account splitting, merging and reopening further restrict the class. Homogeneity (essentially) restricts the class to a one-parameter family ordered by both fairness and platform risk.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26623v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Modelling population distribution across cities on spatial networks using the kinetic theory of multi-agent systems</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-85-modelling-population-distribution-across-cities"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24657v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-85-modelling-population-distribution-across-cities</id>
-    <updated>2026-11-18T15:57:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We investigate the urban population distribution of the Italian region of Sardinia through the kinetic theory of multi-agent systems on spatial networks, interpreting cities both as agents and vertices of a graph, and representing interurban links as edges. We consider various emigration rules to model the interactions between agents, obtaining two main results: the bimodal lognormal fit of the total population distribution among cities and the Pareto fit of the tail. Overall, our model provides results consistent with the actual distribution derived from ISTAT data of Sardinia; furthermore, the bimodal lognormal fit generally follows the distribution tail more accurately than the Pareto one, although the two coincide in the first half.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24657v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
+    <title>How Should Candidates Be Weighted under Open-List Proportional Representation? Harmonic Weights and Dirichlet Order Statistics</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-84-how-should-candidates-be-weighted"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26337v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-84-how-should-candidates-be-weighted</id>
+    <updated>2026-11-19T16:15:53+00:00</updated>
+    <summary type="html">&lt;p&gt;Candidates in open-list proportional representation systems are not equally prominent, and measurements that involve aggregation over candidates therefore require some form of weighting. We address the question of how those weights should be chosen. Since weights based on realized preference votes are unavailable in advance and endogenous to the electoral outcome, we seek a priori weights that depend on list position alone, and derive them as expected ordered vote shares under a probabilistic model of the division of the list vote among candidates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26337v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Amplifying or Redistributing Coupling: Synchronization in Sparse Adaptive Oscillator Networks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-86-amplifying-or-redistributing-coupling-synchronization"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24268v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-86-amplifying-or-redistributing-coupling-synchronization</id>
-    <updated>2026-11-18T11:49:54+00:00</updated>
-    <summary type="html">&lt;p&gt;Synchronization -- different units falling into a common rhythm -- matters in systems ranging from electrical generators to populations of neurons. But what happens when the connections that coordinate their timing can also change? If two units become more closely aligned and their connection strengthens, that extra influence can either increase the total coupling received by a unit or take a larger share of a fixed total.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24268v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Pareto-Optimal and Strategyproof Data-Sharing Between Competitors. We study data-sharing among firms competing in the same market through the quality of their predictive models.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-85-pareto-optimal-and-strategyproof-data"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26108v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-85-pareto-optimal-and-strategyproof-data</id>
+    <updated>2026-11-19T13:38:19+00:00</updated>
+    <summary type="html">&lt;p&gt;We study data-sharing among firms competing in the same market through the quality of their predictive models. We model firms&amp;apos; profit through two main components, precision and market share, where the former depends on the firm&amp;apos;s own number of datapoints and the latter depends on the endowments of all firms. We characterize Pareto-optimal contracts as those in which at least one firm receives all of the other firms&amp;apos; datapoints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26108v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Neither graphs nor hypergraphs: structural moments of higher-order interactions determine stochastic social-impact dynamics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-87-neither-graphs-nor-hypergraphs-structural"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24252v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-87-neither-graphs-nor-hypergraphs-structural</id>
-    <updated>2026-11-18T11:30:44+00:00</updated>
-    <summary type="html">&lt;p&gt;Whether higher-order interactions can be reduced to simpler representations is a question about the dynamics they drive, not only about their structure: what can be discarded is whatever the dynamics does not see. We make this precise for binary-state stochastic dynamics in which each agent, when updated, interacts with a randomly selected group and changes state according to the fraction of disagreeing members, as in generalized voter and social-impact models on hypergraphs. We ask which statistics of the group-interaction process determine the resulting Markov dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24252v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #combinatorics #agents&lt;/p&gt;</summary>
+    <title>Sequential Contract Design for Budgeted Crowdsourcing. A principal wishes to crowdsource a collection of tasks under a fixed compensation budget.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-86-sequential-contract-design-for-budgeted"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25988v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-86-sequential-contract-design-for-budgeted</id>
+    <updated>2026-11-19T12:10:24+00:00</updated>
+    <summary type="html">&lt;p&gt;A principal wishes to crowdsource a collection of tasks under a fixed compensation budget. The quality of a task&amp;apos;s outcome is stochastic and depends on the worker&amp;apos;s effort level. Since this effort is unobservable, the principal offers contracts to workers specifying their compensation for each possible outcome.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25988v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>On the Complexity of Envy Cycle Elimination</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-88-on-the-complexity-of-envy"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24167v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-88-on-the-complexity-of-envy</id>
-    <updated>2026-11-18T10:08:54+00:00</updated>
-    <summary type="html">&lt;p&gt;The envy cycle elimination (ECE) algorithm is a fundamental algorithm for the fair allocation of indivisible goods, guaranteeing an allocation that is envy-free up to one good under arbitrary monotone utilities. We show that the ECE algorithm can be implemented in $O(nm)$ time for $n$ agents and $m$ goods, and establish the tightness of this bound.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24167v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #algorithms #agents&lt;/p&gt;</summary>
+    <title>Closing Gaps in Temporal Fair Division for Chores. We study the fair division of indivisible chores that must be assigned in a prescribed order.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-87-closing-gaps-in-temporal-fair"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25892v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-87-closing-gaps-in-temporal-fair</id>
+    <updated>2026-11-19T10:45:00+00:00</updated>
+    <summary type="html">&lt;p&gt;We study the fair division of indivisible chores that must be assigned in a prescribed order. The complete instance is known in advance, but assignments cannot be changed. Temporal envy-freeness up to one chore (TEF1) requires envy-freeness up to one chore after every arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25892v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Localized active phase in the coevolving voter model with fixed links. The coevolving voter model (CVM) describes the evolution of node states and network topology through copying and rewiring dynamics.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-89-localized-active-phase-in-the"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23870v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-89-localized-active-phase-in-the</id>
-    <updated>2026-11-18T05:23:00+00:00</updated>
-    <summary type="html">&lt;p&gt;The coevolving voter model (CVM) describes the evolution of node states and network topology through copying and rewiring dynamics. It traditionally assumes that all ties can be rewired, overlooking unbreakable real-world relationships like family or close friendships. To address this, we introduce fixed links that cannot be rewired and study how these structural constraints modify the collective dynamics of the CVM.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23870v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
+    <title>Particle physics science communication with grass-roots Instagram: a success story</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-88-particle-physics-science-communication-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25806v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-88-particle-physics-science-communication-with</id>
+    <updated>2026-11-19T09:29:16+00:00</updated>
+    <summary type="html">&lt;p&gt;Communicating science to the public is an integral part of the work of a research collaboration, not an afterthought. Institutional and collaboration-level social media accounts are often run by professional communicators rather than by practising scientists, and single-scientist ``influencer&amp;apos;&amp;apos; accounts are demanding to sustain. We describe {\em CMSatDESY}, a crowd-sourced Instagram account on which the CMS group at DESY tells its own stories, each member in their own voice.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25806v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Temporal Fair Division: Simultaneous Guarantees for Goods and Chores</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-90-temporal-fair-division-simultaneous-guarantees"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23782v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-90-temporal-fair-division-simultaneous-guarantees</id>
-    <updated>2026-11-18T03:39:21+00:00</updated>
-    <summary type="html">&lt;p&gt;We study temporal fair division of indivisible items in both the goods and chores settings, with $n \ge 2$ agents and nonnegative additive values or costs. Items arrive one at a time and must be assigned immediately and irrevocably. The arrival order and all agents&amp;apos; values or costs are known in advance, and the cumulative allocation must satisfy the fairness requirements after each arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23782v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
+    <title>Uniqueness, Proximity, and Scaling in Atomic Splittable Polymatroid Congestion Games</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-89-uniqueness-proximity-and-scaling-in"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25757v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-89-uniqueness-proximity-and-scaling-in</id>
+    <updated>2026-11-19T09:00:08+00:00</updated>
+    <summary type="html">&lt;p&gt;We give a polynomial-time algorithm for exact equilibrium computation in atomic splittable polymatroid congestion games with integral ranks and rational player-specific affine latencies with positive slopes. The algorithm first computes equilibria of associated integer-splittable games, in which demands are allocated in multiples of a common packet size. For arbitrary polymatroid bases, no polynomial-time algorithm for these discrete equilibria was previously known.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25757v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Distortion in Online Voting. We initiate the study of distortion in online voting, a framework that bridges computational social choice and online algorithms.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-90-distortion-in-online-voting"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25709v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-90-distortion-in-online-voting</id>
+    <updated>2026-11-19T08:21:43+00:00</updated>
+    <summary type="html">&lt;p&gt;We initiate the study of distortion in online voting, a framework that bridges computational social choice and online algorithms. In contrast to the classical offline setting, where the full election instance is known in advance, we consider a dynamic environment where a fixed set of voters is present from the beginning, but alternatives arrive sequentially over time. Upon each arrival, a mechanism must immediately and irrevocably decide whether to retain the currently selected candidate or switch to the newly arriving one, operating solely on the partial ordinal rankings induced by the underlying cardinal preferences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25709v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
 </feed>

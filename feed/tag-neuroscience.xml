@@ -5,13 +5,5 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
-  <entry>
-    <title>LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-12-lighttar-light-and-fast-target"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17600"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-12-lighttar-light-and-fast-target</id>
-    <updated>2026-11-11T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prioritizes input variance but may overlook information relevant to predicting the target.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17600&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
 </feed>

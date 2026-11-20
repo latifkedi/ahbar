@@ -5,77 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-bioinformatics.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
-    <title>HARICOT: De Novo Assembly of Raw Nanopore Signals using Fuzzy de Bruijn Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-46-haricot-de-novo-assembly-of"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.11.765872v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-46-haricot-de-novo-assembly-of</id>
-    <updated>2026-11-18T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nanopore sequencing enables reading long nucleotide sequences by measuring characteristic changes in ionic current as molecules pass through a nanopore. These current measurements, known as raw signals, can be analyzed without translating them into bases (i.e., without basecalling), which provides fast and resource-efficient genome analysis. Prior work, Rawsamble, enables finding overlaps between raw nanopore signals, without basecalling them, and generating assemblies from these overlaps with off-the-shelf assemblers such as miniasm.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.11.765872v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #combinatorics&lt;/p&gt;</summary>
+    <title>ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-46-arc-impute-robust-reference-guided"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.17.767312v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-46-arc-impute-robust-reference-guided</id>
+    <updated>2026-11-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Motivation: Reference-guided spatial imputation uses single-cell RNA sequencing references to predict genes that are unmeasured in spatial transcriptomics data. Limited shared-gene overlap can leave the mapping of reference cells to spatial locations ambiguous: different assignments may reconstruct observed genes similarly yet yield different imputed expression and cell-type estimates. This gives rise to local assignment ambiguity, source-target mismatch and reference-transfer instability.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.17.767312v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>CATEomics: model selection and ensembling for heterogeneous treatment effect estimation from high-dimensional omics data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-47-cateomics-model-selection-and-ensembling"/>
-    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-47-cateomics-model-selection-and-ensembling</id>
-    <updated>2026-11-18T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;CATEomics addresses the lack of a standardized and reproducible process for choosing among conditional average treatment effect (CATE) estimators in high-dimensional omics studies, where their estimation errors cannot be evaluated directly from observed outcomes. The R package accepts a SummarizedExperiment, applies common preprocessing and data partitions across R and Python estimators, compares their out-of-fold estimates using proxy losses, supports model selection and ensembling, and returns the resulting CATE estimates to the original object for downstream omics analysis. Availability and implementation: CATEomics is implemented in R and is freely available under the MIT license at https://github.com/matsui-lab/CATEomics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.16.767168v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins&lt;/p&gt;</summary>
+    <title>MitoArc: A Reproducible Short-Read Workflow for Human Mitochondrial Genome Analysis with Circular-Coordinate and NUMT-Aware Evaluation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-47-mitoarc-a-reproducible-short-read"/>
+    <link rel="related" href="https://www.biorxiv.org/content/10.64898/2026.11.19.767817v1?rss=1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-47-mitoarc-a-reproducible-short-read</id>
+    <updated>2026-11-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Human mitochondrial DNA (mtDNA) analysis from short-read sequencing is complicated by nuclear mitochondrial DNA segments (NUMTs), circular-reference coordinates, sequencing depth, and variant-caller configuration. We developed MitoArc, a Nextflow workflow that accepts paired-end FASTQ files or pre-aligned BAM and CRAM files, retains available nuclear mapping context, and performs standard and shifted-coordinate processing. It runs Genome Analysis Toolkit (GATK) Mutect2 and mutserve2 independently and reports mitochondrial quality metrics, NUMT evidence, haplogroups, contamination estimates, functional annotations, consensus sequences, and reproducibility outputs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.biorxiv.org/content/10.64898/2026.11.19.767817v1?rss=1&quot;&gt;bioRxiv Bioinformatics Preprints&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #genomics-proteins #consensus&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>System of agentic AI for the discovery of metal–organic frameworks</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-48-system-of-agentic-ai-for"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01058-x"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-48-system-of-agentic-ai-for</id>
+    <updated>2026-11-20T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 20 November 2026; doi:10.1038/s43588-026-01058-x An agentic AI system, MOFGen, is developed to accelerate the discovery of synthesizable metal–organic frameworks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01058-x&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Predicting degradation of polymeric materials in complex chemical environments via molecular modeling</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-49-predicting-degradation-of-polymeric-materials"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01041-6"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-49-predicting-degradation-of-polymeric-materials</id>
+    <updated>2026-11-20T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 20 November 2026; doi:10.1038/s43588-026-01041-6 This Perspective explores how physical models, in collaboration with big data and artificial intelligence, can accelerate our understanding of the degradation of soft materials.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01041-6&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Designing functional proteins from natural language</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-48-designing-functional-proteins-from-natural"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-50-designing-functional-proteins-from-natural"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01099-2"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-48-designing-functional-proteins-from-natural</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-50-designing-functional-proteins-from-natural</id>
     <updated>2026-11-19T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 19 November 2026; doi:10.1038/s43588-026-01099-2 Designing functional proteins from natural language&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01099-2&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #genomics-proteins&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Formal proof search enables reliable AI-driven mathematical discovery</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-49-formal-proof-search-enables-reliable"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-51-formal-proof-search-enables-reliable"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01103-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-49-formal-proof-search-enables-reliable</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-51-formal-proof-search-enables-reliable</id>
     <updated>2026-11-19T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 19 November 2026; doi:10.1038/s43588-026-01103-9 Formal proof search enables reliable AI-driven mathematical discovery&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01103-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>An alternative path for artificial intelligence in Africa</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-52-an-alternative-path-for-artificial"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01084-9"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-52-an-alternative-path-for-artificial</id>
+    <updated>2026-11-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 19 November 2026; doi:10.1038/s43588-026-01084-9 African governments face a perceived choice between investing in costly national data centers and dependence on foreign technology providers. Both options rest on assumptions that the evidence no longer supports. We argue for a third path, distributed sovereignty: cooperative infrastructure designed for African conditions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01084-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #distributed-systems&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Generative molecular design needs oracle grounding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-53-generative-molecular-design-needs-oracle"/>
+    <link rel="related" href="https://www.nature.com/articles/s43588-026-01082-x"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-53-generative-molecular-design-needs-oracle</id>
+    <updated>2026-11-19T00:00:00+00:00</updated>
+    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 19 November 2026; doi:10.1038/s43588-026-01082-x Generative molecular design is guided by oracles, computational proxies of experimental goals that models can exploit. We argue that oracle grounding, in which experiments diagnose and correct oracle failures, will allow generative models to discover not only new molecules but also new chemistry.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01082-x&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Minimizing data requirements for chemical and material property prediction via cluster-based training set selection</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-50-minimizing-data-requirements-for-chemical"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-54-minimizing-data-requirements-for-chemical"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01076-9"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-50-minimizing-data-requirements-for-chemical</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-54-minimizing-data-requirements-for-chemical</id>
     <updated>2026-11-18T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 18 November 2026; doi:10.1038/s43588-026-01076-9 A survey of 100 algorithms across 60 chemical and materials property prediction tasks finds that cluster-based selection of training data outperforms active learning, and a theoretical framework establishes why this occurs in the low-data limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01076-9&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>The rise of AI in mathematics — and science</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-51-the-rise-of-ai-in"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01112-8"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-51-the-rise-of-ai-in</id>
-    <updated>2026-11-17T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 17 November 2026; doi:10.1038/s43588-026-01112-8 We discuss the role of artificial intelligence (AI) in mathematical research and explore its implications for the computational science community.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01112-8&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Cognitive grounding improves LLM simulation of collective human behavior</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-52-cognitive-grounding-improves-llm-simulation"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01080-z"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-52-cognitive-grounding-improves-llm-simulation</id>
-    <updated>2026-11-16T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 16 November 2026; doi:10.1038/s43588-026-01080-z The study shows that guiding AI agents with descriptions of how people make decisions in a supply-chain game helps agents reproduce collective human behavior.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01080-z&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Training reservoirs without looking back</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-53-training-reservoirs-without-looking-back"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01079-6"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-53-training-reservoirs-without-looking-back</id>
-    <updated>2026-11-13T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 13 November 2026; doi:10.1038/s43588-026-01079-6 By training a reservoir computing system without access to its intermediate states and by eliminating the coupling between its nodes, a physical learning framework achieves efficient learning both in simulation and on optoelectronic hardware.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01079-6&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Open foundation models for clinical AI. Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-54-open-foundation-models-for-clinical"/>
-    <link rel="related" href="https://www.nature.com/articles/s43588-026-01094-7"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-54-open-foundation-models-for-clinical</id>
-    <updated>2026-11-12T00:00:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 12 November 2026; doi:10.1038/s43588-026-01094-7 Open foundation models for clinical AI&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01094-7&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science&lt;/p&gt;</summary>
   </entry>
 </feed>

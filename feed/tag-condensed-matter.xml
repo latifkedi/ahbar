@@ -5,53 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-condensed-matter.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
-    <title>Residual Allan Stability under Periodic Auxiliary Ramsey Sampling</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-30-residual-allan-stability-under-periodic"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24928v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-30-residual-allan-stability-under-periodic</id>
-    <updated>2026-11-18T18:54:18+00:00</updated>
-    <summary type="html">&lt;p&gt;The timing of auxiliary Ramsey measurements can change the frequency stability associated with a drifting pulse shift at a fixed nominal Fisher-information rate for a constant shift. For periodic instantaneous observations of an Ornstein-Uhlenbeck shift with causal prediction between updates, we derive the exact residual covariance averaged over the update cycle and the corresponding Allan variance at arbitrary averaging times. Relative to a continuous Kalman reference at the same information rate, periodic estimation increases the cycle-averaged estimation-error variance, reduces the short-time residual Allan variance, and increases its long-time value.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24928v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+    <title>Fractional Charge at Dislocations from Band-Inversion Cancellation. Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-30-fractional-charge-at-dislocations-from"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26616v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-30-fractional-charge-at-dislocations-from</id>
+    <updated>2026-11-19T18:58:11+00:00</updated>
+    <summary type="html">&lt;p&gt;Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out. However, a bulk probe of the topology that survives such a cancellation is lacking. We here show that dislocations in inversion-symmetric two-band crystals with cancelling band inversions bind a half-integer charge, which reveals the quantized bulk polarization of the bond-centered obstructed atomic limit realized by such crystals.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26616v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>From geometric curvature to effective backgrounds: a dictionary for Dirac fermions in one, two and three spatial dimensions</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-31-from-geometric-curvature-to-effective"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24878v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-31-from-geometric-curvature-to-effective</id>
-    <updated>2026-11-18T18:26:45+00:00</updated>
-    <summary type="html">&lt;p&gt;Dirac equation on curved backgrounds can be rewritten as a flat-space equation in which geometry appears as a tensorial Fermi velocity together with a set of background fields. We derive this correspondence from a single Clifford-algebra identity and follow it through one, two, and three spatial dimensions. Once the spin connection is written in terms of Ricci rotation coefficients, only two contractions can occur.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24878v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #astrophysics #high-energy&lt;/p&gt;</summary>
+    <title>Field theory and the biquadratic spin-1 chain. The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-31-field-theory-and-the-biquadratic"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26610v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-31-field-theory-and-the-biquadratic</id>
+    <updated>2026-11-19T18:57:09+00:00</updated>
+    <summary type="html">&lt;p&gt;The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable. Standard arguments suggest that its low-energy physics is described by the $\mathbb{CP}^2$ nonlinear sigma model at $θ=π$. Using the Bethe ansatz, we show that its low-energy excitations can be interpreted as deconfined domain walls, just as in the sigma model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26610v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Time-Varying Medium from an Ensemble of Laser-Dressed Quantum Emitters</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-32-time-varying-medium-from-an"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24861v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-32-time-varying-medium-from-an</id>
-    <updated>2026-11-18T18:18:31+00:00</updated>
-    <summary type="html">&lt;p&gt;We propose a minimal quantum-mechanical model of a frequency dispersive, time-modulated medium that explicitly incorporates the pumping mechanism. It consists of a homogeneous ensemble of quantum emitters dressed by a pump laser. We analyze their dispersive, time-varying response to a perturbative probe field by deriving the macroscopic polarizability of the ensemble, and then solving Maxwell&amp;apos;s equations via the Floquet formalism.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24861v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics&lt;/p&gt;</summary>
+    <title>Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-32-classical-oracle-separation-of-qma"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26574v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-32-classical-oracle-separation-of-qma</id>
+    <updated>2026-11-19T18:40:14+00:00</updated>
+    <summary type="html">&lt;p&gt;Remark: This work is in submission at STOC&amp;apos;27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\mathsf{QMA}$ from $\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise ($\mathsf{CHN}$) and prove that, in the query complexity model, it is in $\mathsf{QMA}$ but hard for the $\mathsf{QCMA}$ hierarchy $\mathsf{QCMAH} = \bigcup_{d\geq1}\mathsf{QCMA}^{\mathsf{QCMA}^{\cdots^{\mathsf{QCMA}}}}$, the classical-witness quantum-verifier analogue of $\mathsf{PH}=\bigcup_{d\ge1}\mathsf{NP}^{\mathsf{NP}^{\cdots^{\mathsf{NP}}}}$. Using this problem, we show that there exists a classical oracle ${O}$ such that $\mathsf{P}^{O}=\mathsf{BQP}^{O}=\mathsf{QCMA}^{O} =\mathsf{QCMAH}^{O} \subset \mathsf{QMA}^{O} \text{ but } \mathsf{QMA}^{O}\not\subseteq\mathsf{QCMAH}^{O},$ thus showing that quantum state or quantum proof advantage could exist even if classical computers can efficiently solve any problem that can be quantumly verified with a classical proof.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26574v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Shedding Light on Quantum Non-Classicality: Witnessing Wigner Negativity with Free Electrons</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-33-shedding-light-on-quantum-non"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24834v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-33-shedding-light-on-quantum-non</id>
-    <updated>2026-11-18T18:01:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Certifying quantum non-classicality like Wigner negativity typically demands full optical state tomography. This work introduces a noise-resilient framework for witnessing optical Wigner negativity using phase-resolved quantum photon-induced near-field electron microscopy (QPINEM). By mapping electron coherences directly to symmetrically ordered optical characteristic functions within a coupling-limited phase-space region, the protocol bypasses full optical reconstruction.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24834v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #optics-photonics #logic&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Computing $F$-Symbols from Modular Data</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-34-computing-f-symbols-from-modular"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24753v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-34-computing-f-symbols-from-modular</id>
-    <updated>2026-11-18T17:09:51+00:00</updated>
-    <summary type="html">&lt;p&gt;We present a strategy for computing the $F$-symbols of unitary modular categories with a self-dual simple generator, starting from their modular data, which almost entirely avoids the non-linear solution of the pentagon equations. The algorithm climbs a ladder of braid group representations on successively more strands of the generator until enough $F$-symbols have been determined to propagate them to a complete solution. The strategy presented is successful in difficult cases through ranks 11 and 12, including $\operatorname{Z}(\mathrm{Haagerup}_3)$, and does not require the category to be multiplicity-free.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24753v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #clean-tech&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Learning the Anyon Atlas</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-35-learning-the-anyon-atlas"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24752v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-35-learning-the-anyon-atlas</id>
-    <updated>2026-11-18T17:09:34+00:00</updated>
-    <summary type="html">&lt;p&gt;We extend our previous search for the modular data of topological quantum field theories in 2+1 dimensions from 22 to 42 anyons, identifying 150,679 new modular data. We do so by adding to our algorithm three rejection gates, two of them based on logistic regression, that discard representations of $SL(2,\mathbb{Z})$ unlikely to yield modular data. We estimate that roughly 80% of the modular data between ranks 23 and 42 has been identified after closing under known constructions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24752v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #ml-theory&lt;/p&gt;</summary>
+    <title>Scaling classical hardware for accurate real-time quantum error correction</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-33-scaling-classical-hardware-for-accurate"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26447v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-33-scaling-classical-hardware-for-accurate</id>
+    <updated>2026-11-19T17:16:21+00:00</updated>
+    <summary type="html">&lt;p&gt;Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to keep up sacrifice accuracy, which must be compensated for with larger codes and thus additional physical qubits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26447v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #ml-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

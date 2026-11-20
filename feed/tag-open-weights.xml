@@ -5,69 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-open-weights.xml</id>
-  <updated>2026-11-19T13:59:20.159293422+00:00</updated>
+  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
   <entry>
-    <title>WorldRuler: Interactive World Modeling under Configurable Rules. Rules govern how player actions change interactive worlds.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-10-worldruler-interactive-world-modeling-under"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24869"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-10-worldruler-interactive-world-modeling-under</id>
+    <title>Posterior Matching Distillation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-10-posterior-matching-distillation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26629"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-10-posterior-matching-distillation</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Diffusion distillation accelerates image and video generation by compressing a pretrained teacher&amp;apos;s iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student&amp;apos;s output distribution to the teacher&amp;apos;s. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26629&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth. We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-11-depth-pro-2-sharp-and"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26603"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-11-depth-pro-2-sharp-and</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26603&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-12-mind2act-world-a-diagnostic-benchmark"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26444"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-12-mind2act-world-a-diagnostic-benchmark</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26444&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Probing the &quot;Conscious&quot; Mind: Selective Access and Global Workspace in Vision-Language Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-13-probing-the-conscious-mind-selective"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26590"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-13-probing-the-conscious-mind-selective</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26590&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>HiUni: Harmonizing Understanding and Generation in Shared Visual Space. Unified multimodal models aim to support visual understanding and generation within a single framework.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-14-hiuni-harmonizing-understanding-and-generation"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26107"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-14-hiuni-harmonizing-understanding-and-generation</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretrained vision language model can be directly extended into a unified model with extensive parameter sharing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26107&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-15-zerovln-learning-to-navigate-without"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26414"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-15-zerovln-learning-to-navigate-without</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves effective navigation with zero navigation-domain SFT of the VLM brain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26414&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-16-dailysafe-benchmarking-dynamic-safety-awareness"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26298"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-16-dailysafe-benchmarking-dynamic-safety-awareness</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users pursue legitimate goals through multi-turn, multimodal interactions, where seemingly benign requests may become safety-critical when considered alongside earlier actions and visual observations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26298&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>WM^MLLM: Turning MLLMs into World Models</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-17-wm-mllm-turning-mllms-into"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.24193"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-17-wm-mllm-turning-mllms-into</id>
     <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24869&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Video world models keep the world in the context of a generator, so a revisit is synthesized again and earlier edits can drift or disappear. We present WM^MLLM, the first interactive world model built on multimodal large language models (MLLMs), for persistent, editable world generation from a single image. WM^MLLM keeps the world state outside every generator, as a panorama with a revision history, and lets the MLLMs write it: they turn each request into operations on this state, select where a local edit is written, and check every candidate before it becomes the next state.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24193&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>HINT-WAM: Hindsight-Informed Training for World Action Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-11-hint-wam-hindsight-informed-training"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24789"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-11-hint-wam-hindsight-informed-training</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24789&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #robotics #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-12-lighttar-light-and-fast-target"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.17600"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-12-lighttar-light-and-fast-target</id>
-    <updated>2026-11-11T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prioritizes input variance but may overlook information relevant to predicting the target.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.17600&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #neuroscience&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-13-strideworld-benchmarking-scene-rigidity-and"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24408"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-13-strideworld-benchmarking-scene-rigidity-and</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action to keep a stable effect. Existing benchmarks mostly evaluate these properties against references fitted to the video under test, either a scene reconstructed from its own frames or a camera trajectory aligned to the command path with a free scale. Such references can absorb gradual scene deformation and changes in pace and route length, so these errors can pass undetected.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24408&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>RoughCut-Bench: A Benchmark for Automatic Video Rough-Cut with Large Vision-Language Models</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-15-roughcut-bench-a-benchmark-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24098"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-15-roughcut-bench-a-benchmark-for</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Video rough-cut is a core stage in media production workflows, organizing raw media materials into an initial video cut. Despite recent advances in large vision-language models (LVLMs) for video-related tasks, automatic rough-cut remains underexplored, without a comprehensive benchmark for evaluation or mature workflows for producing executable cut plans. To address the evaluation gap, we introduce RoughCut-Bench, which covers two practical settings: (1) a visually driven setting over video cases, covering highlight detection and selection, source-video ordering, and adherence to user requirements when provided; and (2) a speech-driven setting over automatic speech recognition (ASR) transcripts, covering filler removal, expression deduplication, and low-value content trimming.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24098&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>UltraTex: Aligning Physical Knowledge for High-Fidelity PBR Texture Generation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-16-ultratex-aligning-physical-knowledge-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24941"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-16-ultratex-aligning-physical-knowledge-for</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Generating physically based rendering (PBR) texture maps for a 3D mesh from a single reference image is highly ambiguous, as the observed appearance entangles material identity, surface reflectance, and illumination. While current generative methods produce realistic albedo maps, they still struggle to infer accurate metallic and roughness attributes for relighting. We present UltraTex, a cascaded multi-view framework that moves beyond appearance matching by integrating physical knowledge into multi-view diffusion-based PBR generation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24941&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.23257"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-17-stateportal-agentic-checkpoint-synthesis-for</id>
-    <updated>2026-09-28T20:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.23257&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-19-18-piccolo-co-evolving-decision-models"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.24651"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-19-18-piccolo-co-evolving-decision-models</id>
-    <updated>2026-11-17T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data workflows, and interactive games. Piccolo-27B tops the Decision Index Vision Full leaderboard with a score of 75.59, while Piccolo-9B and Piccolo-4B achieve 68.35 and 67.46, respectively.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.24651&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
+    <title>AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-18-automaster-autonomous-post-training-by"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26510"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-18-automaster-autonomous-post-training-by</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26510&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
   </entry>
 </feed>
