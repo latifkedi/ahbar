@@ -5,21 +5,21 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-software-architecture.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
-    <title>PostgreSQL 19</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-01-postgresql-19"/>
-    <link rel="related" href="https://www.postgresql.org/docs/release/19.0/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-01-postgresql-19</id>
-    <updated>2026-11-20T03:45:45Z</updated>
-    <summary type="html">&lt;p&gt;PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year&amp;apos;s release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds &amp;quot;read-your-writes&amp;quot; consistency with the new WAIT FOR LSN command.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.postgresql.org/docs/release/19.0/&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source #databases&lt;/p&gt;</summary>
+    <title>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]. Comments</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-01-levent-alp-ge-claims-proof"/>
+    <link rel="related" href="https://alpo.ge/remark.pdf"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-01-levent-alp-ge-claims-proof</id>
+    <updated>2026-11-20T14:16:21Z</updated>
+    <summary type="html">&lt;p&gt;Comments&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://alpo.ge/remark.pdf&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-37-openssl-buffer-overflow-in-evp"/>
-    <link rel="related" href="https://github.com/openssl/openssl/pull/33652"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-37-openssl-buffer-overflow-in-evp</id>
-    <updated>2026-11-20T02:01:09Z</updated>
-    <summary type="html">&lt;p&gt;Published via Hacker News in Systems, Hardware &amp;amp; Applied Tech. Primary discussion and technical specification available at the linked source.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://github.com/openssl/openssl/pull/33652&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
+    <title>Language Models Can Rewrite Their Own Weights</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-10-language-models-can-rewrite-their"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.21885"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-10-language-models-can-rewrite-their</id>
+    <updated>2026-11-20T16:29:06Z</updated>
+    <summary type="html">&lt;p&gt;Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that it can, by its own reasoning, with no gradients and no training; we call this self-rewriting.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.21885&quot;&gt;Hacker News&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #software-architecture #open-source&lt;/p&gt;</summary>
   </entry>
 </feed>

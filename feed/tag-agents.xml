@@ -5,60 +5,36 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-agents.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-agents.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
-    <title>Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-12-mind2act-world-a-diagnostic-benchmark"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.26444"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-12-mind2act-world-a-diagnostic-benchmark</id>
-    <updated>2026-11-18T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26444&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #robotics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-15-zerovln-learning-to-navigate-without"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.26414"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-15-zerovln-learning-to-navigate-without</id>
-    <updated>2026-11-18T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves effective navigation with zero navigation-domain SFT of the VLM brain.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26414&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents #reinforcement-learning&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-18-automaster-autonomous-post-training-by"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.26510"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-18-automaster-autonomous-post-training-by</id>
-    <updated>2026-11-18T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26510&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #agents&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Lean Grimoire. Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-27-lean-grimoire"/>
-    <link rel="related" href="https://terrytao.wordpress.com/2026/11/11/lean-grimoire/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-27-lean-grimoire</id>
-    <updated>2026-11-12T02:36:00+00:00</updated>
-    <summary type="html">&lt;p&gt;Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set those projects aside; but I recently found a bit of time to work on one such project that I had started back […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://terrytao.wordpress.com/2026/11/11/lean-grimoire/&quot;&gt;What&amp;apos;s New (Terence Tao)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #analysis-pde #formal-proofs #logic #agents&lt;/p&gt;</summary>
+    <title>Security updates for Friday</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-37-security-updates-for-friday"/>
+    <link rel="related" href="https://lwn.net/Articles/1108811/"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-37-security-updates-for-friday</id>
+    <updated>2026-11-20T13:52:40+00:00</updated>
+    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (bind9.18, bubblewrap, fence-agents, freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, jackson-core, jackson-databind, java-17-openjdk, java-21-openjdk, java-25-openjdk, kernel, kernel-rt, mysql8.4, mysql:8.4, qt5-qtbase, qt5-qtdeclarative, raptor2, resteasy, and sos), Debian (electrum, nginx, openjdk-17, pam-mysql, php8.2, and php8.4), Fedora (aws,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1108811/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>System of agentic AI for the discovery of metal–organic frameworks</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-48-system-of-agentic-ai-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-48-system-of-agentic-ai-for"/>
     <link rel="related" href="https://www.nature.com/articles/s43588-026-01058-x"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-48-system-of-agentic-ai-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-48-system-of-agentic-ai-for</id>
     <updated>2026-11-20T00:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Nature Computational Science, Published online: 20 November 2026; doi:10.1038/s43588-026-01058-x An agentic AI system, MOFGen, is developed to accelerate the discovery of synthesizable metal–organic frameworks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.nature.com/articles/s43588-026-01058-x&quot;&gt;Nature Computational Science&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #bioinformatics #materials-science #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-45-fuzzers-vs-ai-comparing-fuzzilli"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-44-fuzzers-vs-ai-comparing-fuzzilli"/>
     <link rel="related" href="https://projectzero.google/2026/10/fuzzing-v-AI.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-45-fuzzers-vs-ai-comparing-fuzzilli</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-44-fuzzers-vs-ai-comparing-fuzzilli</id>
     <updated>2026-10-27T07:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://projectzero.google/2026/10/fuzzing-v-AI.html&quot;&gt;Google Project Zero&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #kernel-os #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Closing Gaps in Temporal Fair Division for Chores. We study the fair division of indivisible chores that must be assigned in a prescribed order.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-87-closing-gaps-in-temporal-fair"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-87-closing-gaps-in-temporal-fair"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25892v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-87-closing-gaps-in-temporal-fair</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-87-closing-gaps-in-temporal-fair</id>
     <updated>2026-11-19T10:45:00+00:00</updated>
     <summary type="html">&lt;p&gt;We study the fair division of indivisible chores that must be assigned in a prescribed order. The complete instance is known in advance, but assignments cannot be changed. Temporal envy-freeness up to one chore (TEF1) requires envy-freeness up to one chore after every arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25892v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>

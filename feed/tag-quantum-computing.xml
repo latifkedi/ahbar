@@ -5,68 +5,68 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-quantum-computing.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>Fractional Charge at Dislocations from Band-Inversion Cancellation. Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-30-fractional-charge-at-dislocations-from"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-30-fractional-charge-at-dislocations-from"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26616v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-30-fractional-charge-at-dislocations-from</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-30-fractional-charge-at-dislocations-from</id>
     <updated>2026-11-19T18:58:11+00:00</updated>
     <summary type="html">&lt;p&gt;Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out. However, a bulk probe of the topology that survives such a cancellation is lacking. We here show that dislocations in inversion-symmetric two-band crystals with cancelling band inversions bind a half-integer charge, which reveals the quantized bulk polarization of the bond-centered obstructed atomic limit realized by such crystals.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26616v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #materials-science #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Field theory and the biquadratic spin-1 chain. The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-31-field-theory-and-the-biquadratic"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-31-field-theory-and-the-biquadratic"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26610v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-31-field-theory-and-the-biquadratic</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-31-field-theory-and-the-biquadratic</id>
     <updated>2026-11-19T18:57:09+00:00</updated>
     <summary type="html">&lt;p&gt;The antiferromagnetic biquadratic spin-1 chain is gapped, $SU(3)$ symmetric, and integrable. Standard arguments suggest that its low-energy physics is described by the $\mathbb{CP}^2$ nonlinear sigma model at $θ=π$. Using the Bethe ansatz, we show that its low-energy excitations can be interpreted as deconfined domain walls, just as in the sigma model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26610v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #high-energy #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-32-classical-oracle-separation-of-qma"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-32-classical-oracle-separation-of-qma"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26574v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-32-classical-oracle-separation-of-qma</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-32-classical-oracle-separation-of-qma</id>
     <updated>2026-11-19T18:40:14+00:00</updated>
     <summary type="html">&lt;p&gt;Remark: This work is in submission at STOC&amp;apos;27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\mathsf{QMA}$ from $\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise ($\mathsf{CHN}$) and prove that, in the query complexity model, it is in $\mathsf{QMA}$ but hard for the $\mathsf{QCMA}$ hierarchy $\mathsf{QCMAH} = \bigcup_{d\geq1}\mathsf{QCMA}^{\mathsf{QCMA}^{\cdots^{\mathsf{QCMA}}}}$, the classical-witness quantum-verifier analogue of $\mathsf{PH}=\bigcup_{d\ge1}\mathsf{NP}^{\mathsf{NP}^{\cdots^{\mathsf{NP}}}}$. Using this problem, we show that there exists a classical oracle ${O}$ such that $\mathsf{P}^{O}=\mathsf{BQP}^{O}=\mathsf{QCMA}^{O} =\mathsf{QCMAH}^{O} \subset \mathsf{QMA}^{O} \text{ but } \mathsf{QMA}^{O}\not\subseteq\mathsf{QCMAH}^{O},$ thus showing that quantum state or quantum proof advantage could exist even if classical computers can efficiently solve any problem that can be quantumly verified with a classical proof.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26574v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Scaling classical hardware for accurate real-time quantum error correction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-33-scaling-classical-hardware-for-accurate"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-33-scaling-classical-hardware-for-accurate"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26447v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-33-scaling-classical-hardware-for-accurate</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-33-scaling-classical-hardware-for-accurate</id>
     <updated>2026-11-19T17:16:21+00:00</updated>
     <summary type="html">&lt;p&gt;Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to keep up sacrifice accuracy, which must be compensated for with larger codes and thus additional physical qubits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26447v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Dana’s talk on OpenAI’s proof of the Unique Games Conjecture, now on YouTube!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-28-dana-s-talk-on-openai"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-28-dana-s-talk-on-openai"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10318"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-28-dana-s-talk-on-openai</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-28-dana-s-talk-on-openai</id>
     <updated>2026-11-10T20:27:28+00:00</updated>
     <summary type="html">&lt;p&gt;In my “Mathocalypse” post, I mentioned that my wife Dana—who’s been working on Subhash Khot’s Unique Games Conjecture since ~2009, for the entire time I’ve known her—has for the past few weeks (while on sabbatical at the Simons Institute in Berkeley) been spending essentially all of her time laboring to understand OpenAI’s recent proof of […]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10318&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Podcasts about the Topic: Part III, with Brian Greene. As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities!</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-29-podcasts-about-the-topic-part"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-29-podcasts-about-the-topic-part"/>
     <link rel="related" href="https://scottaaronson.blog/?p=10270"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-29-podcasts-about-the-topic-part</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-29-podcasts-about-the-topic-part</id>
     <updated>2026-10-31T21:40:33+00:00</updated>
     <summary type="html">&lt;p&gt;As always, I strongly recommend 2x speed, which compensates somewhat for my verbal infelicities! New! More podcasts keep dropping! This one is with the AI alignment researcher Roman Yampolskiy, about … well, AI alignment, plus the Mathocalypse, plus quantum computing, plus whether the universe is a simulation, and I forget what else!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://scottaaronson.blog/?p=10270&quot;&gt;Shtetl-Optimized (Scott Aaronson)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>End-to-End Quantum Algorithm for Differential Equations: Application to Simulating a Biomolecular System</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-34-end-to-end-quantum-algorithm"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-34-end-to-end-quantum-algorithm"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26582v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-34-end-to-end-quantum-algorithm</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-34-end-to-end-quantum-algorithm</id>
     <updated>2026-11-19T18:43:32+00:00</updated>
     <summary type="html">&lt;p&gt;Quantum algorithms for differential equations have the potential for substantial algorithmic speedups over classical methods. However, they rely on certain assumptions and abstract oracle specifications that leave their practical feasibility and computational advantages for realistic applications unclear. Here we formalize the concept of an end-to-end quantum algorithm for differential equations as one that accepts classical inputs and returns classical outputs, and provide implementations for algorithmic primitives in constructing such algorithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26582v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #algorithms&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>When lies look like noise: certifying untrusted entanglement swapping. Entanglement swapping lets quantum repeaters distribute entanglement over long distances, a prerequisite for the quantum internet.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-35-when-lies-look-like-noise"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-35-when-lies-look-like-noise"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26436v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-35-when-lies-look-like-noise</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-35-when-lies-look-like-noise</id>
     <updated>2026-11-19T17:10:09+00:00</updated>
     <summary type="html">&lt;p&gt;Entanglement swapping lets quantum repeaters distribute entanglement over long distances, a prerequisite for the quantum internet. We study its security in a noisy network whose intermediate nodes perform the quantum operations faithfully but may misreport the classical outcome that end users rely on. We show that the ideal functionality of entanglement swapping cannot be realised, because it gives the adversary no influence over the delivered state, whereas a node that relabels its report does have such influence.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26436v1&quot;&gt;arXiv CS (PL, SE, DB, DC, DS)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #compilers #distributed-systems #quantum-computing #rust&lt;/p&gt;</summary>
   </entry>

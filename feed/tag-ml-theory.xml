@@ -5,36 +5,36 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-ml-theory.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>Stability Bands for Feature Attribution: The Core, the Nucleolus and the Bargaining Set of Explained-Variance Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-64-stability-bands-for-feature-attribution"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-64-stability-bands-for-feature-attribution"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25238v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-64-stability-bands-for-feature-attribution</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-64-stability-bands-for-feature-attribution</id>
     <updated>2026-11-18T22:15:30+00:00</updated>
     <summary type="html">&lt;p&gt;Shapley-value attributions are the default way of explaining machine-learning predictions in economics, but they report a single number per feature and say nothing about whether a coalition of features that jointly accounts for more than it receives could contest that allocation. We study feature attribution through the core, the nucleolus and the bargaining set of an explained-variance game, in which the worth of a set of features is the variance of the model&amp;apos;s predictions that those features generate. For every feature we report a stability band (its range of shares over the core, or over the least core when the core is empty), with the nucleolus as distinguished point and a certificate that the allocation admits no justified objection.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25238v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Scaling classical hardware for accurate real-time quantum error correction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-33-scaling-classical-hardware-for-accurate"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-33-scaling-classical-hardware-for-accurate"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26447v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-33-scaling-classical-hardware-for-accurate</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-33-scaling-classical-hardware-for-accurate</id>
     <updated>2026-11-19T17:16:21+00:00</updated>
     <summary type="html">&lt;p&gt;Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to keep up sacrifice accuracy, which must be compensated for with larger codes and thus additional physical qubits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26447v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Safe Subgame Resolving in Multiplayer Games. Poker and other games with hidden information are too large to solve in one pass.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-82-safe-subgame-resolving-in-multiplayer"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-82-safe-subgame-resolving-in-multiplayer"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25981v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-82-safe-subgame-resolving-in-multiplayer</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-82-safe-subgame-resolving-in-multiplayer</id>
     <updated>2026-11-19T12:04:23+00:00</updated>
     <summary type="html">&lt;p&gt;Poker and other games with hidden information are too large to solve in one pass. Strong systems compute a complete blueprint strategy offline and refine it in real time inside the reached subgame. In 2p0s games, a safety theorem guarantees that subgame resolving never increases how much an adversary can gain by exploiting the resolved strategy relative to the blueprint strategy.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25981v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Pareto-Optimal and Strategyproof Data-Sharing Between Competitors. We study data-sharing among firms competing in the same market through the quality of their predictive models.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-85-pareto-optimal-and-strategyproof-data"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-85-pareto-optimal-and-strategyproof-data"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26108v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-85-pareto-optimal-and-strategyproof-data</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-85-pareto-optimal-and-strategyproof-data</id>
     <updated>2026-11-19T13:38:19+00:00</updated>
     <summary type="html">&lt;p&gt;We study data-sharing among firms competing in the same market through the quality of their predictive models. We model firms&amp;apos; profit through two main components, precision and market share, where the former depends on the firm&amp;apos;s own number of datapoints and the latter depends on the endowments of all firms. We characterize Pareto-optimal contracts as those in which at least one firm receives all of the other firms&amp;apos; datapoints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26108v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>

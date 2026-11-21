@@ -11,17 +11,17 @@
     <itunes:image href="https://latifkedi.github.io/ahbar/icons/icon-512.svg"/>
     <itunes:explicit>false</itunes:explicit>
     <item>
-      <title>Ahbar Günlük Bülten — Sayı #33 (2026-11-20)</title>
-      <link>https://latifkedi.github.io/ahbar/?date=2026-11-20</link>
-      <guid isPermaLink="false">ahbar:podcast:2026-11-20:issue:33</guid>
-      <pubDate>2026-11-20T13:40:54.510315376+00:00</pubDate>
-      <description>Ahbar Sayı #33 (2026-11-20):
+      <title>Ahbar Günlük Bülten — Sayı #34 (2026-11-21)</title>
+      <link>https://latifkedi.github.io/ahbar/?date=2026-11-21</link>
+      <guid isPermaLink="false">ahbar:podcast:2026-11-21:issue:34</guid>
+      <pubDate>2026-11-21T13:06:30.302706696+00:00</pubDate>
+      <description>Ahbar Sayı #34 (2026-11-21):
 
-1. [Bilgisayar Bilimi &amp; Yazılım] PostgreSQL 19 — Hacker News (Bilgisayar Bilimi &amp; Yazılım)
-Bilgisayar Bilimi &amp; Yazılım alanında Hacker News tarafından yayımlanan teknik araştırma ve analiz raporu: PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year&apos;s release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds &quot;read-your-writes&quot; consistency with the new WAIT FOR LSN command.
+1. [Bilgisayar Bilimi &amp; Yazılım] Discord Update: November 19, 2026. Here&apos;s the Discord Changelog from September 25, 2026, so you can stay informed on what’s new in recent app updates! — Discord Systems &amp; Database Engineering (Bilgisayar Bilimi &amp; Yazılım)
+Bilgisayar Bilimi &amp; Yazılım alanında Discord Systems &amp; Database Engineering tarafından yayımlanan teknik araştırma ve analiz raporu: Here&apos;s the Discord Changelog from September 25, 2026, so you can stay informed on what’s new in recent app updates!
 
-2. [Yapay Zekâ &amp; Makine Öğrenmesi] Posterior Matching Distillation — Hugging Face Daily Papers (Yapay Zekâ &amp; Makine Öğrenmesi)
-Yapay Zekâ &amp; Makine Öğrenmesi alanında Hugging Face Daily Papers tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Diffusion distillation accelerates image and video generation by compressing a pretrained teacher&apos;s iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student&apos;s output distribution to the teacher&apos;s. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples.
+2. [Yapay Zekâ &amp; Makine Öğrenmesi] Language Models Can Rewrite Their Own Weights — Hacker News (Yapay Zekâ &amp; Makine Öğrenmesi)
+Yapay Zekâ &amp; Makine Öğrenmesi alanında Hacker News tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that it can, by its own reasoning, with no gradients and no training; we call this self-rewriting.
 
 3. [Matematik &amp; Biçimsel Bilimler] Quasipolynomial pyjamas. The ``pyjama stripe&quot; $E(\varepsilon)$ is the set of all complex numbers whose real part lies within $\varepsilon$ of the nearest integer. — arXiv Mathematics (NT, CO, AG, LO, AT, GR) (Matematik &amp; Biçimsel Bilimler)
 Matematik &amp; Biçimsel Bilimler alanında arXiv Mathematics (NT, CO, AG, LO, AT, GR) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: The ``pyjama stripe&quot; $E(\varepsilon)$ is the set of all complex numbers whose real part lies within $\varepsilon$ of the nearest integer. The Pyjama Problem asks whether, for each $\varepsilon &gt; 0$, there exists some union of finitely many rotations of $E(\varepsilon)$ about the origin that covers the plane. This was answered in the affirmative by Manners.
@@ -29,8 +29,8 @@ Matematik &amp; Biçimsel Bilimler alanında arXiv Mathematics (NT, CO, AG, LO, 
 4. [Fizik, Kuantum &amp; Uzay] Fractional Charge at Dislocations from Band-Inversion Cancellation. Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out. — arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat) (Fizik, Kuantum &amp; Uzay)
 Fizik, Kuantum &amp; Uzay alanında arXiv Quantum &amp; Condensed Matter (quant-ph, cond-mat) tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out. However, a bulk probe of the topology that survives such a cancellation is lacking. We here show that dislocations in inversion-symmetric two-band crystals with cancelling band inversions bind a half-integer charge, which reveals the quantized bulk polarization of the bond-centered obstructed atomic limit realized by such crystals.
 
-5. [Sistem, Donanım &amp; Tüketici Teknolojisi] OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8) — Hacker News (Sistem, Donanım &amp; Tüketici Teknolojisi)
-Sistem, Donanım &amp; Tüketici Teknolojisi alanında Hacker News tarafından yayımlanan teknik araştırma ve analiz raporu: Published via Hacker News in Systems, Hardware &amp; Applied Tech. Primary discussion and technical specification available at the linked source.
+5. [Sistem, Donanım &amp; Tüketici Teknolojisi] Security updates for Friday — LWN.net (Linux &amp; Kernel Engineering) (Sistem, Donanım &amp; Tüketici Teknolojisi)
+Sistem, Donanım &amp; Tüketici Teknolojisi alanında LWN.net (Linux &amp; Kernel Engineering) tarafından yayımlanan teknik araştırma ve analiz raporu: Security updates have been issued by AlmaLinux (bind9.18, bubblewrap, fence-agents, freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, jackson-core, jackson-databind, java-17-openjdk, java-21-openjdk, java-25-openjdk, kernel, kernel-rt, mysql8.4, mysql:8.4, qt5-qtbase, qt5-qtdeclarative, raptor2, resteasy, and sos), Debian (electrum, nginx, openjdk-17, pam-mysql, php8.2, and php8.4), Fedora (aws,…
 
 6. [Biyoteknoloji, Tıp &amp; Malzeme Bilimi] ARC-Impute: robust reference-guided spatial gene imputation through regularised cell-to-spot mapping — bioRxiv Bioinformatics Preprints (Biyoteknoloji, Tıp &amp; Malzeme Bilimi)
 Biyoteknoloji, Tıp &amp; Malzeme Bilimi alanında bioRxiv Bioinformatics Preprints tarafından yayımlanan hakemli/ön-baskı araştırma makalesi: Motivation: Reference-guided spatial imputation uses single-cell RNA sequencing references to predict genes that are unmeasured in spatial transcriptomics data. Limited shared-gene overlap can leave the mapping of reference cells to spatial locations ambiguous: different assignments may reconstruct observed genes similarly yet yield different imputed expression and cell-type estimates. This gives rise to local assignment ambiguity, source-target mismatch and reference-transfer instability.

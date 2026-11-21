@@ -5,69 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-cryptography.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-32-classical-oracle-separation-of-qma"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-32-classical-oracle-separation-of-qma"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26574v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-32-classical-oracle-separation-of-qma</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-32-classical-oracle-separation-of-qma</id>
     <updated>2026-11-19T18:40:14+00:00</updated>
     <summary type="html">&lt;p&gt;Remark: This work is in submission at STOC&amp;apos;27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\mathsf{QMA}$ from $\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise ($\mathsf{CHN}$) and prove that, in the query complexity model, it is in $\mathsf{QMA}$ but hard for the $\mathsf{QCMA}$ hierarchy $\mathsf{QCMAH} = \bigcup_{d\geq1}\mathsf{QCMA}^{\mathsf{QCMA}^{\cdots^{\mathsf{QCMA}}}}$, the classical-witness quantum-verifier analogue of $\mathsf{PH}=\bigcup_{d\ge1}\mathsf{NP}^{\mathsf{NP}^{\cdots^{\mathsf{NP}}}}$. Using this problem, we show that there exists a classical oracle ${O}$ such that $\mathsf{P}^{O}=\mathsf{BQP}^{O}=\mathsf{QCMA}^{O} =\mathsf{QCMAH}^{O} \subset \mathsf{QMA}^{O} \text{ but } \mathsf{QMA}^{O}\not\subseteq\mathsf{QCMAH}^{O},$ thus showing that quantum state or quantum proof advantage could exist even if classical computers can efficiently solve any problem that can be quantumly verified with a classical proof.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26574v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-56-dailysafe-benchmarking-dynamic-safety-awareness"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26298v1"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-56-dailysafe-benchmarking-dynamic-safety-awareness</id>
+    <updated>2026-11-19T15:51:12+00:00</updated>
+    <summary type="html">&lt;p&gt;As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users pursue legitimate goals through multi-turn, multimodal interactions, where seemingly benign requests may become safety-critical when considered alongside earlier actions and visual observations.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26298v1&quot;&gt;arXiv Cryptography &amp;amp; Security (cs.CR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>Package managers have an integrity problem</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-42-package-managers-have-an-integrity"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-41-package-managers-have-an-integrity"/>
     <link rel="related" href="https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-42-package-managers-have-an-integrity</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-41-package-managers-have-an-integrity</id>
     <updated>2026-10-14T11:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;I tested 25 of the most popular package managers to check whether they detect a compromised package repository injecting malicious code into legitimate packages. This code integrity problem could be solved using cryptographic hashes or signatures, but many package managers are still vulnerable to this threat. Of the 25 package managers reviewed 1 , fewer than half used lockfiles that checked for tampering by default, and only two verified the integrity of every package they downloaded.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/&quot;&gt;Trail of Bits Security Research&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #infosec #cryptography #rust #databases&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Succinct Arguments for QMA in the Quantum Random Oracle Model. Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-58-succinct-arguments-for-qma-in"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2099"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-58-succinct-arguments-for-qma-in</id>
-    <updated>2026-09-18T20:18:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication. In the classical setting, succinct arguments for NP can be constructed from unstructured hardness alone (e.g., hash functions) by compiling probabilistically checkable proofs (PCPs) or interactive oracle proofs (IOPs) for NP via the commit-and-open paradigm. In contrast, known succinct arguments for QMA rely on ``structured&amp;apos;&amp;apos; cryptographic primitives, or on the quantum PCP conjecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2099&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Modular Walsh rigidity for Boolean functions of degree at most four</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-58-modular-walsh-rigidity-for-boolean"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2900"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-58-modular-walsh-rigidity-for-boolean</id>
+    <updated>2026-11-15T16:24:32+00:00</updated>
+    <summary type="html">&lt;p&gt;We establish the sufficient ratio $p/2^m \ge 1/2$ for Boolean functions of algebraic degree at most four in $4m$ variables for every $m \ge 4$. The modulus $p$ is odd and may be composite. If every unnormalized Walsh coefficient is congruent to one of the two bent levels modulo $p$, the function is bent.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2900&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Differential Meet-in-the-Middle Attacks on Feistel Ciphers. Differential meet-in-the-middle attacks, introduced by Boura et al.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-59-differential-meet-in-the-middle"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1911"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-59-differential-meet-in-the-middle</id>
-    <updated>2025-10-13T15:37:40+00:00</updated>
-    <summary type="html">&lt;p&gt;Differential meet-in-the-middle attacks, introduced by Boura et al. in 2023, propose a new way of dealing with differential distinguishers. It allows, in particular, to combine differential attacks with initial structures, that were usually used exclusively for meet-in-the-middle attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1911&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
+    <title>Rich Input Representations in Neural Differential Cryptanalysis: A Taxonomy and Survey</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-59-rich-input-representations-in-neural"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1530"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-59-rich-input-representations-in-neural</id>
+    <updated>2026-07-26T11:30:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Neural differential distinguishers have become an active research direction in​ symmetric-key cryptanalysis since the introduction of deep-learning-based attacks on​ round-reduced SPECK. Early neural distinguishers typically used a single ciphertext pair​ or ciphertext difference as input. Recent studies, however, show that richer input​ representations can substantially affect the information available to the classifier, the data​ cost of each labeled sample, and the relevance of the distinguisher to practical attacks.​ Examples include multi-pair, multi-difference, matrix-style, multi-round,​ structured-encoding, and score-aggregation based inputs.​ This paper provides a taxonomy and survey of rich input representations in neural​ differential cryptanalysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1530&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #neuroscience&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Provable dual attack on LWE via lattice projection</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-60-provable-dual-attack-on-lwe"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2117"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-60-provable-dual-attack-on-lwe</id>
-    <updated>2026-09-20T01:17:19+00:00</updated>
-    <summary type="html">&lt;p&gt;The Learning with Errors (LWE) problem is a cornerstone of post-quantum cryptography, and the dual attack is a central tool for evaluating its concrete hardness. In provable dual attacks, a major bottleneck is the large number of discrete Gaussian samples required over the dual lattice. While recent works have focused on accelerating the guessing step via modulus switching, the sampling bottleneck has remained largely unoptimized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2117&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-60-symphony-scalable-snarks-in-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2025/1905"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-60-symphony-scalable-snarks-in-the</id>
+    <updated>2025-10-12T22:11:24+00:00</updated>
+    <summary type="html">&lt;p&gt;Folding/Accumulation schemes are a powerful tool for building scalable proof systems. However, standard approaches for leveraging folding schemes, such as IVCs or PCDs, require embedding hash functions (modeled as random oracles) into recursive circuits, introducing both security concerns and significant proving overhead. We re-envision how to use folding schemes, and introduce Symphony, the first proving paradigm that leverages folding schemes as a black box without embedding hashes in SNARK circuits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1905&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Correlation Power Analysis of SHA-2-Based SLH-DSA</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-61-correlation-power-analysis-of-sha"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2753"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-61-correlation-power-analysis-of-sha</id>
-    <updated>2026-11-04T00:46:59+00:00</updated>
-    <summary type="html">&lt;p&gt;SLH-DSA repeatedly processes a fixed secret seed together with varying public addresses, making its physical implementation a target for side-channel analysis. We present non-profiled correlation power analysis (CPA) procedures for the address-based pseudorandom function in all six SHA-2-based SLH-DSA parameter sets, using SHA256 compression rounds and message-schedule expansion. The procedures include joint recovery of two partial secrets in the 256-bit parameter sets and an alternative first message-schedule step for 128-bit WOTS+ addresses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2753&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Bounding the security of the Bromberg-Shpilrain-Vdovina hash function. The Bromberg-Shpilrain-Vdovina hash functions are a family of Cayley hash functions indexed by an integer parameter $k\ge 2$.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-61-bounding-the-security-of-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2851"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-61-bounding-the-security-of-the</id>
+    <updated>2026-11-10T01:52:41+00:00</updated>
+    <summary type="html">&lt;p&gt;The Bromberg-Shpilrain-Vdovina hash functions are a family of Cayley hash functions indexed by an integer parameter $k\ge 2$. Hashes are matrices in $SL_2(p)$ where $p$ is a large prime. We present an attack which finds collisions of length $O(\log p)$ whose average-case time complexity is $O(p^{0.28})$ when $k=2$ and $O(p^{0.36})$ when $k=3$ under an assumption in the spirit of Zaremba&amp;apos;s Conjecture on continued fractions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2851&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Guess-and-Determine Rebound Revisited: Full Quantum Collision Attack on AES-256 in DM Hash Mode</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-62-guess-and-determine-rebound-revisited"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/1050"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-62-guess-and-determine-rebound-revisited</id>
-    <updated>2026-05-25T09:04:12+00:00</updated>
-    <summary type="html">&lt;p&gt;At CRYPTO 2025, Qin et al. introduced the guess-and-determine (GD) rebound attack, which integrates the guess-and-determine approach by Bouillaguet, Derbez, and Fouque and the rebound attack by Mendel et al. Taking the GD rebound as a building block, this paper introduces several classical and quantum models to convert the semi-free-start (SFS) collision attack or free-start (FS) collision attack into collision attacks on DM hashing mode with AES. As an application, the first full quantum collision attack on AES-256-DM is proposed.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1050&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp&lt;/p&gt;</summary>
+    <title>Optimized G+G Signature</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-62-optimized-g-g-signature"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/943"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-62-optimized-g-g-signature</id>
+    <updated>2026-05-13T03:04:51+00:00</updated>
+    <summary type="html">&lt;p&gt;At ASIACRYPT 2023, Devevey, Passelègue, and Stehlé introduced the G+G signature, a Fiat–Shamir lattice signature based on Gaussian convolution that avoids rejection sampling during signing. Although G+G achieves competitive signature sizes, its spherical Gaussian response distribution leaves room for further optimization. In this work, we propose an optimized G+G signature by incorporating asymmetric secret-key distributions into key generation and introducing a three-block non-spherical Gaussian response distribution.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/943&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion. Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-63-codetta-high-capacity-keyless-and"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2218"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-63-codetta-high-capacity-keyless-and</id>
-    <updated>2026-09-25T20:48:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration. The same communication channel can also enable collusion, such as exfiltrating confidential data or coordinating unauthorized actions. While auditors inspect transcripts to detect suspicious behavior, steganography could, in principle, evade such audits by concealing covert payloads within ordinary-looking messages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2218&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Homomorphic NIZKs and Maliciously-Secure MPC with Optimal Communication Complexity from Standard Assumptions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-63-homomorphic-nizks-and-maliciously-secure"/>
+    <link rel="related" href="https://eprint.iacr.org/2024/1806"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-63-homomorphic-nizks-and-maliciously-secure</id>
+    <updated>2024-11-05T00:51:31+00:00</updated>
+    <summary type="html">&lt;p&gt;We construct fully-homomorphic NIZKs and a communication-complexity-preserving semi-malicious to malicious multiparty computation (MPC) compiler from a broader range of cryptographic assumptions, including $\mathsf{LWE}$, $O(1)$-$\mathsf{LIN}$, and $\mathsf{DDH}$ (without circular security assumptions). Prior to this work, homomorphic NIZKs were only known based on pairing-based techniques while prior MPC compilers with similar efficiency required strong non-falsifiable assumptions. A key ingredient that we develop in this work is a new notion of a partially-hiding succinct delegation system, that we call encrypted RAM (eRAM) delegation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/1806&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

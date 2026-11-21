@@ -5,29 +5,37 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-number-theory.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>Quasipolynomial pyjamas. The ``pyjama stripe&quot; $E(\varepsilon)$ is the set of all complex numbers whose real part lies within $\varepsilon$ of the nearest integer.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-19-quasipolynomial-pyjamas"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-19-quasipolynomial-pyjamas"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26622v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-19-quasipolynomial-pyjamas</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-19-quasipolynomial-pyjamas</id>
     <updated>2026-11-19T18:59:08+00:00</updated>
     <summary type="html">&lt;p&gt;The ``pyjama stripe&amp;quot; $E(\varepsilon)$ is the set of all complex numbers whose real part lies within $\varepsilon$ of the nearest integer. The Pyjama Problem asks whether, for each $\varepsilon &amp;gt; 0$, there exists some union of finitely many rotations of $E(\varepsilon)$ about the origin that covers the plane. This was answered in the affirmative by Manners.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26622v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Equivariant iterated Eisenstein integrals for congruence subgroups of level 2</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-20-equivariant-iterated-eisenstein-integrals-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-20-equivariant-iterated-eisenstein-integrals-for"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26597v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-20-equivariant-iterated-eisenstein-integrals-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-20-equivariant-iterated-eisenstein-integrals-for</id>
     <updated>2026-11-19T18:52:33+00:00</updated>
     <summary type="html">&lt;p&gt;The modular properties of holomorphic Eisenstein series for $\mathrm{SL}_2(\mathbb{Z})$ and its congruence subgroups do not carry over to their primitives. Instead, the transformation of iterated Eisenstein integrals under congruence subgroups of level $N$ introduces inhomogeneous terms comprising (among others) cyclotomic multiple zeta values of level $N$. We combine iterated Eisenstein integrals for the congruence subgroups of level $N=2$ of arbitrary iteration depth with their complex conjugates and (single-valued) level-2 cyclotomic multiple zeta values such that they define non-holomorphic modular forms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26597v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>On Romik&apos;s rationality conjectures for critical percolation. The completely packed $O(1)$ loop model can be viewed as an interface representation of critical bond percolation on the square lattice.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-21-on-romik-s-rationality-conjectures"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-21-on-romik-s-rationality-conjectures"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26570v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-21-on-romik-s-rationality-conjectures</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-21-on-romik-s-rationality-conjectures</id>
     <updated>2026-11-19T18:36:31+00:00</updated>
     <summary type="html">&lt;p&gt;The completely packed $O(1)$ loop model can be viewed as an interface representation of critical bond percolation on the square lattice. We consider submatching events, which prescribe how these interfaces pair finitely many consecutive boundary points. Romik&amp;apos;s rationality conjectures predict that the probabilities of these events on the semi-infinite cylinder are given by specific rational functions, which even become dyadic rationals in the half-plane limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26570v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #post-quantum&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Bounding the security of the Bromberg-Shpilrain-Vdovina hash function. The Bromberg-Shpilrain-Vdovina hash functions are a family of Cayley hash functions indexed by an integer parameter $k\ge 2$.</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-61-bounding-the-security-of-the"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/2851"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-61-bounding-the-security-of-the</id>
+    <updated>2026-11-10T01:52:41+00:00</updated>
+    <summary type="html">&lt;p&gt;The Bromberg-Shpilrain-Vdovina hash functions are a family of Cayley hash functions indexed by an integer parameter $k\ge 2$. Hashes are matrices in $SL_2(p)$ where $p$ is a large prime. We present an attack which finds collisions of length $O(\log p)$ whose average-case time complexity is $O(p^{0.28})$ when $k=2$ and $O(p^{0.36})$ when $k=3$ under an assumption in the spirit of Zaremba&amp;apos;s Conjecture on continued fractions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2851&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #number-theory&lt;/p&gt;</summary>
   </entry>
 </feed>

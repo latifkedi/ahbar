@@ -5,93 +5,77 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-combinatorics.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
-    <title>Security updates for Thursday</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-38-security-updates-for-thursday"/>
-    <link rel="related" href="https://lwn.net/Articles/1108551/"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-38-security-updates-for-thursday</id>
-    <updated>2026-11-19T14:05:42+00:00</updated>
-    <summary type="html">&lt;p&gt;Security updates have been issued by AlmaLinux (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, git-lfs, glib2,…&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://lwn.net/Articles/1108551/&quot;&gt;LWN.net (Linux &amp;amp; Kernel Engineering)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #combinatorics&lt;/p&gt;</summary>
+    <title>Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-17-accord-universal-online-metric-localization"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.25279"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-17-accord-universal-online-metric-localization</id>
+    <updated>2026-11-17T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring metric scale. We present Accord, which constructs an accurate online dense metric map from any camera with an IMU. A VIO filter publishes metric poses, a depth foundation model conditioned on them predicts depth for short keyframe windows, and a factor graph fuses the resulting submaps.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25279&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #infosec&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Time Series Structure Learning with Local Causal Parent Discovery</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-18-time-series-structure-learning-with"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26232"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-18-time-series-structure-learning-with</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work introduces Iterative Temporal Parent Discovery (ITPD): a sound and complete constraint-based procedure for causal structure learning on multivariate time series with causal nonstationarity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26232&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #combinatorics #infosec&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Doom GPU Flame Graphs</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-40-doom-gpu-flame-graphs"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-39-doom-gpu-flame-graphs"/>
     <link rel="related" href="http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-40-doom-gpu-flame-graphs</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-39-doom-gpu-flame-graphs</id>
     <updated>2025-04-30T14:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;Imagine halving the resource costs of AI and what that could mean for the planet and the industry -- based on extreme estimates such savings could reduce the total US power usage by over 10% by 2030 1 . At Intel we&amp;apos;ve been creating a new analyzer tool to help reduce AI costs called AI Flame Graphs : a visualization that shows an AI accelerator or GPU hardware profile along with the full software stack, based on my CPU flame graphs . Our first version is available to customers in the Intel Tiber AI Cloud as a preview for the Intel Data Center GPU Max Series (previously called Ponte Vecchio).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html&quot;&gt;Brendan Gregg (Systems Performance &amp;amp; eBPF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #kernel-os #performance #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Quasipolynomial pyjamas. The ``pyjama stripe&quot; $E(\varepsilon)$ is the set of all complex numbers whose real part lies within $\varepsilon$ of the nearest integer.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-19-quasipolynomial-pyjamas"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-19-quasipolynomial-pyjamas"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26622v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-19-quasipolynomial-pyjamas</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-19-quasipolynomial-pyjamas</id>
     <updated>2026-11-19T18:59:08+00:00</updated>
     <summary type="html">&lt;p&gt;The ``pyjama stripe&amp;quot; $E(\varepsilon)$ is the set of all complex numbers whose real part lies within $\varepsilon$ of the nearest integer. The Pyjama Problem asks whether, for each $\varepsilon &amp;gt; 0$, there exists some union of finitely many rotations of $E(\varepsilon)$ about the origin that covers the plane. This was answered in the affirmative by Manners.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26622v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #analysis-pde&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Equivariant iterated Eisenstein integrals for congruence subgroups of level 2</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-20-equivariant-iterated-eisenstein-integrals-for"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-20-equivariant-iterated-eisenstein-integrals-for"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26597v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-20-equivariant-iterated-eisenstein-integrals-for</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-20-equivariant-iterated-eisenstein-integrals-for</id>
     <updated>2026-11-19T18:52:33+00:00</updated>
     <summary type="html">&lt;p&gt;The modular properties of holomorphic Eisenstein series for $\mathrm{SL}_2(\mathbb{Z})$ and its congruence subgroups do not carry over to their primitives. Instead, the transformation of iterated Eisenstein integrals under congruence subgroups of level $N$ introduces inhomogeneous terms comprising (among others) cyclotomic multiple zeta values of level $N$. We combine iterated Eisenstein integrals for the congruence subgroups of level $N=2$ of arbitrary iteration depth with their complex conjugates and (single-valued) level-2 cyclotomic multiple zeta values such that they define non-holomorphic modular forms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26597v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #high-energy #algebra-geometry&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>On Romik&apos;s rationality conjectures for critical percolation. The completely packed $O(1)$ loop model can be viewed as an interface representation of critical bond percolation on the square lattice.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-21-on-romik-s-rationality-conjectures"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-21-on-romik-s-rationality-conjectures"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26570v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-21-on-romik-s-rationality-conjectures</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-21-on-romik-s-rationality-conjectures</id>
     <updated>2026-11-19T18:36:31+00:00</updated>
     <summary type="html">&lt;p&gt;The completely packed $O(1)$ loop model can be viewed as an interface representation of critical bond percolation on the square lattice. We consider submatching events, which prescribe how these interfaces pair finitely many consecutive boundary points. Romik&amp;apos;s rationality conjectures predict that the probabilities of these events on the semi-infinite cylinder are given by specific rational functions, which even become dyadic rationals in the half-plane limit.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26570v1&quot;&gt;arXiv Mathematics (NT, CO, AG, LO, AT, GR)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #number-theory #combinatorics #probability-stats #post-quantum&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-32-classical-oracle-separation-of-qma"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-32-classical-oracle-separation-of-qma"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26574v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-32-classical-oracle-separation-of-qma</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-32-classical-oracle-separation-of-qma</id>
     <updated>2026-11-19T18:40:14+00:00</updated>
     <summary type="html">&lt;p&gt;Remark: This work is in submission at STOC&amp;apos;27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\mathsf{QMA}$ from $\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise ($\mathsf{CHN}$) and prove that, in the query complexity model, it is in $\mathsf{QMA}$ but hard for the $\mathsf{QCMA}$ hierarchy $\mathsf{QCMAH} = \bigcup_{d\geq1}\mathsf{QCMA}^{\mathsf{QCMA}^{\cdots^{\mathsf{QCMA}}}}$, the classical-witness quantum-verifier analogue of $\mathsf{PH}=\bigcup_{d\ge1}\mathsf{NP}^{\mathsf{NP}^{\cdots^{\mathsf{NP}}}}$. Using this problem, we show that there exists a classical oracle ${O}$ such that $\mathsf{P}^{O}=\mathsf{BQP}^{O}=\mathsf{QCMA}^{O} =\mathsf{QCMAH}^{O} \subset \mathsf{QMA}^{O} \text{ but } \mathsf{QMA}^{O}\not\subseteq\mathsf{QCMAH}^{O},$ thus showing that quantum state or quantum proof advantage could exist even if classical computers can efficiently solve any problem that can be quantumly verified with a classical proof.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26574v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #cryptography #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Neckpinches in a Positively Curved Market: Ricci Flow with Surgery on the Nikkei-225</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-66-neckpinches-in-a-positively-curved"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-66-neckpinches-in-a-positively-curved"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25860v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-66-neckpinches-in-a-positively-curved</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-66-neckpinches-in-a-positively-curved</id>
     <updated>2026-11-19T10:10:48+00:00</updated>
     <summary type="html">&lt;p&gt;We study the intrinsic geometry of the Nikkei-225 through the discrete Ollivier-Ricci curvature (ORC) of its empirical correlation graph, using the graph Ricci flow and surgery methodology of arXiv:2510.15942. The 226-node correlation graph, built from daily returns between January 2020 and June 2026, is ORC-spherical: every edge has strictly positive curvature before any flow, close to the equal-weight value $κ\approx0.502$. Under a fixed 20-iteration Ricci flow the curvature distribution polarises into a high-curvature bulk and a low-curvature minority, and cutting the low-curvature edges splits the graph into components of 184 and 42 nodes.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25860v1&quot;&gt;arXiv Quantitative Finance (q-fin.ST, q-fin.MF, q-fin.TR, q-fin.EC)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quant-finance #market-design #complex-systems #combinatorics&lt;/p&gt;</summary>
   </entry>
   <entry>
-    <title>Succinct Arguments for QMA in the Quantum Random Oracle Model. Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-58-succinct-arguments-for-qma-in"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2099"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-58-succinct-arguments-for-qma-in</id>
-    <updated>2026-09-18T20:18:35+00:00</updated>
-    <summary type="html">&lt;p&gt;Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication. In the classical setting, succinct arguments for NP can be constructed from unstructured hardness alone (e.g., hash functions) by compiling probabilistically checkable proofs (PCPs) or interactive oracle proofs (IOPs) for NP via the commit-and-open paradigm. In contrast, known succinct arguments for QMA rely on ``structured&amp;apos;&amp;apos; cryptographic primitives, or on the quantum PCP conjecture.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2099&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Differential Meet-in-the-Middle Attacks on Feistel Ciphers. Differential meet-in-the-middle attacks, introduced by Boura et al.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-59-differential-meet-in-the-middle"/>
-    <link rel="related" href="https://eprint.iacr.org/2025/1911"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-59-differential-meet-in-the-middle</id>
-    <updated>2025-10-13T15:37:40+00:00</updated>
-    <summary type="html">&lt;p&gt;Differential meet-in-the-middle attacks, introduced by Boura et al. in 2023, propose a new way of dealing with differential distinguishers. It allows, in particular, to combine differential attacks with initial structures, that were usually used exclusively for meet-in-the-middle attacks.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2025/1911&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Provable dual attack on LWE via lattice projection</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-60-provable-dual-attack-on-lwe"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2117"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-60-provable-dual-attack-on-lwe</id>
-    <updated>2026-09-20T01:17:19+00:00</updated>
-    <summary type="html">&lt;p&gt;The Learning with Errors (LWE) problem is a cornerstone of post-quantum cryptography, and the dual attack is a central tool for evaluating its concrete hardness. In provable dual attacks, a major bottleneck is the large number of discrete Gaussian samples required over the dual lattice. While recent works have focused on accelerating the guessing step via modulus switching, the sampling bottleneck has remained largely unoptimized.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2117&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
-  </entry>
-  <entry>
-    <title>Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion. Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-63-codetta-high-capacity-keyless-and"/>
-    <link rel="related" href="https://eprint.iacr.org/2026/2218"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-63-codetta-high-capacity-keyless-and</id>
-    <updated>2026-09-25T20:48:36+00:00</updated>
-    <summary type="html">&lt;p&gt;Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language collaboration. The same communication channel can also enable collusion, such as exfiltrating confidential data or coordinating unauthorized actions. While auditors inspect transcripts to detect suspicious behavior, steganography could, in principle, evade such audits by concealing covert payloads within ordinary-looking messages.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/2218&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #post-quantum #combinatorics&lt;/p&gt;</summary>
+    <title>Homomorphic NIZKs and Maliciously-Secure MPC with Optimal Communication Complexity from Standard Assumptions</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-63-homomorphic-nizks-and-maliciously-secure"/>
+    <link rel="related" href="https://eprint.iacr.org/2024/1806"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-63-homomorphic-nizks-and-maliciously-secure</id>
+    <updated>2024-11-05T00:51:31+00:00</updated>
+    <summary type="html">&lt;p&gt;We construct fully-homomorphic NIZKs and a communication-complexity-preserving semi-malicious to malicious multiparty computation (MPC) compiler from a broader range of cryptographic assumptions, including $\mathsf{LWE}$, $O(1)$-$\mathsf{LIN}$, and $\mathsf{DDH}$ (without circular security assumptions). Prior to this work, homomorphic NIZKs were only known based on pairing-based techniques while prior MPC compilers with similar efficiency required strong non-falsifiable assumptions. A key ingredient that we develop in this work is a new notion of a partially-hiding succinct delegation system, that we call encrypted RAM (eRAM) delegation.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2024/1806&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #compilers #combinatorics&lt;/p&gt;</summary>
   </entry>
 </feed>

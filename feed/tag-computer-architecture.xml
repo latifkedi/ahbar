@@ -5,28 +5,28 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-computer-architecture.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>Hot Chips 2026: Intel’s Crescent Island. All about making things affordable</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-39-hot-chips-2026-intel-s"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-38-hot-chips-2026-intel-s"/>
     <link rel="related" href="https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-39-hot-chips-2026-intel-s</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-38-hot-chips-2026-intel-s</id>
     <updated>2026-08-27T05:12:31+00:00</updated>
     <summary type="html">&lt;p&gt;All about making things affordable&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island&quot;&gt;Chips and Cheese (Microarchitecture Deep-Dives)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #semiconductors&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Scaling classical hardware for accurate real-time quantum error correction</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-33-scaling-classical-hardware-for-accurate"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-33-scaling-classical-hardware-for-accurate"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26447v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-33-scaling-classical-hardware-for-accurate</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-33-scaling-classical-hardware-for-accurate</id>
     <updated>2026-11-19T17:16:21+00:00</updated>
     <summary type="html">&lt;p&gt;Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to keep up sacrifice accuracy, which must be compensated for with larger codes and thus additional physical qubits.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26447v1&quot;&gt;arXiv Quantum &amp;amp; Condensed Matter (quant-ph, cond-mat)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #quantum-computing #condensed-matter #computer-architecture #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>RouterWeave: A Unified Observation Layer for Cross-Platform Activity Analysis via Home Routers</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-43-routerweave-a-unified-observation-layer"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-42-routerweave-a-unified-observation-layer"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26134v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-43-routerweave-a-unified-observation-layer</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-42-routerweave-a-unified-observation-layer</id>
     <updated>2026-11-19T13:53:50+00:00</updated>
     <summary type="html">&lt;p&gt;Smart homes bring together devices from different operating systems and vendor ecosystems, but each platform reports activity only for the devices and features it supports, leaving gaps in household-wide activity monitoring. Interoperability standards such as Matter and software integrations connect and control supported devices, yet vendor restrictions and licensing barriers limit access to their data, while hardware constraints hinder integration. Our key insight is that encrypted network traffic provides complementary evidence of activity across platform boundaries.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26134v1&quot;&gt;arXiv Systems &amp;amp; Architecture (cs.OS, cs.AR, cs.NI, cs.PF)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #computer-architecture #kernel-os #networking&lt;/p&gt;</summary>
   </entry>

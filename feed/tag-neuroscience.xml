@@ -5,5 +5,13 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-neuroscience.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
+  <entry>
+    <title>Rich Input Representations in Neural Differential Cryptanalysis: A Taxonomy and Survey</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-59-rich-input-representations-in-neural"/>
+    <link rel="related" href="https://eprint.iacr.org/2026/1530"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-59-rich-input-representations-in-neural</id>
+    <updated>2026-07-26T11:30:26+00:00</updated>
+    <summary type="html">&lt;p&gt;Neural differential distinguishers have become an active research direction in​ symmetric-key cryptanalysis since the introduction of deep-learning-based attacks on​ round-reduced SPECK. Early neural distinguishers typically used a single ciphertext pair​ or ciphertext difference as input. Recent studies, however, show that richer input​ representations can substantially affect the information available to the classifier, the data​ cost of each labeled sample, and the relevance of the distinguisher to practical attacks.​ Examples include multi-pair, multi-difference, matrix-style, multi-round,​ structured-encoding, and score-aggregation based inputs.​ This paper provides a taxonomy and survey of rich input representations in neural​ differential cryptanalysis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://eprint.iacr.org/2026/1530&quot;&gt;IACR Cryptology ePrint Archive&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #cryptography #zkp #neuroscience&lt;/p&gt;</summary>
+  </entry>
 </feed>

@@ -5,28 +5,44 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-clean-tech.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
-  <entry>
-    <title>Posterior Matching Distillation</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-10-posterior-matching-distillation"/>
-    <link rel="related" href="https://arxiv.org/abs/2611.26629"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-10-posterior-matching-distillation</id>
-    <updated>2026-11-18T19:00:00.000Z</updated>
-    <summary type="html">&lt;p&gt;Diffusion distillation accelerates image and video generation by compressing a pretrained teacher&amp;apos;s iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student&amp;apos;s output distribution to the teacher&amp;apos;s. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26629&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
-  </entry>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>HiUni: Harmonizing Understanding and Generation in Shared Visual Space. Unified multimodal models aim to support visual understanding and generation within a single framework.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-14-hiuni-harmonizing-understanding-and-generation"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-12-hiuni-harmonizing-understanding-and-generation"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26107"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-14-hiuni-harmonizing-understanding-and-generation</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-12-hiuni-harmonizing-understanding-and-generation</id>
     <updated>2026-11-18T19:00:00.000Z</updated>
     <summary type="html">&lt;p&gt;Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretrained vision language model can be directly extended into a unified model with extensive parameter sharing.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26107&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>
   <entry>
+    <title>RL Post-Training in Diffusion Transformers Is Activation Steering</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-13-rl-post-training-in-diffusion"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26627"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-13-rl-post-training-in-diffusion</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately simple parameterization: a fixed set of steering vectors added to the block outputs of the frozen base model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26627&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-14-one-prior-two-dynamics-repurposing"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26617"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-14-one-prior-two-dynamics-repurposing</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26617&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>AURA: AUdio-dRiven streaming Avatar</title>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-15-aura-audio-driven-streaming-avatar"/>
+    <link rel="related" href="https://arxiv.org/abs/2611.26540"/>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-15-aura-audio-driven-streaming-avatar</id>
+    <updated>2026-11-18T19:00:00.000Z</updated>
+    <summary type="html">&lt;p&gt;Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV cache, requiring only the audio of the current chunk to start generating, rather than a multi-second audio look-ahead like bidirectional models. It comes in two sizes: AURA 1.3B streams 576p video in real time on a single GPU (20.7 fps for a 16 Hz playback rate), making it suited to interactive avatar applications, and AURA 5B streams 720p video at 9.7 fps.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26540&quot;&gt;Hugging Face Daily Papers&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #llm #open-weights #clean-tech #computer-vision&lt;/p&gt;</summary>
+  </entry>
+  <entry>
     <title>America’s Hidden AI Advantage. The United States—not China—dominates diffusion.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-80-america-s-hidden-ai-advantage"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-79-america-s-hidden-ai-advantage"/>
     <link rel="related" href="https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-80-america-s-hidden-ai-advantage</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-79-america-s-hidden-ai-advantage</id>
     <updated>2026-11-18T09:00:00+00:00</updated>
     <summary type="html">&lt;p&gt;The United States—not China—dominates diffusion.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://www.foreignaffairs.com/united-states/americas-hidden-ai-advantage&quot;&gt;Foreign Affairs&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #geopolitics #defense-strategy #clean-tech #computer-vision&lt;/p&gt;</summary>
   </entry>

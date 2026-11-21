@@ -5,84 +5,84 @@
   <link href="https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml" rel="self" type="application/atom+xml"/>
   <link href="https://latifkedi.github.io/ahbar/"/>
   <id>https://latifkedi.github.io/ahbar/feed/tag-decision-theory.xml</id>
-  <updated>2026-11-20T13:40:54.510315376+00:00</updated>
+  <updated>2026-11-21T13:06:30.302706696+00:00</updated>
   <entry>
     <title>Stability Bands for Feature Attribution: The Core, the Nucleolus and the Bargaining Set of Explained-Variance Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-64-stability-bands-for-feature-attribution"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-64-stability-bands-for-feature-attribution"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25238v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-64-stability-bands-for-feature-attribution</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-64-stability-bands-for-feature-attribution</id>
     <updated>2026-11-18T22:15:30+00:00</updated>
     <summary type="html">&lt;p&gt;Shapley-value attributions are the default way of explaining machine-learning predictions in economics, but they report a single number per feature and say nothing about whether a coalition of features that jointly accounts for more than it receives could contest that allocation. We study feature attribution through the core, the nucleolus and the bargaining set of an explained-variance game, in which the worth of a set of features is the variance of the model&amp;apos;s predictions that those features generate. For every feature we report a stability band (its range of shares over the core, or over the least core when the core is empty), with the nucleolus as distinguished point and a certificate that the allocation admits no justified objection.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25238v1&quot;&gt;arXiv Economics (econ.EM, econ.GN, econ.TH)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #econometrics #macroeconomics #decision-theory #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Safe Subgame Resolving in Multiplayer Games. Poker and other games with hidden information are too large to solve in one pass.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-82-safe-subgame-resolving-in-multiplayer"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-82-safe-subgame-resolving-in-multiplayer"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25981v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-82-safe-subgame-resolving-in-multiplayer</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-82-safe-subgame-resolving-in-multiplayer</id>
     <updated>2026-11-19T12:04:23+00:00</updated>
     <summary type="html">&lt;p&gt;Poker and other games with hidden information are too large to solve in one pass. Strong systems compute a complete blueprint strategy offline and refine it in real time inside the reached subgame. In 2p0s games, a safety theorem guarantees that subgame resolving never increases how much an adversary can gain by exploiting the resolved strategy relative to the blueprint strategy.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25981v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Path-Independent Deleveraging Rules. We characterise path-independent auto-deleveraging (ADL) rules as an extended log-exponential family.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-83-path-independent-deleveraging-rules"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-83-path-independent-deleveraging-rules"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26623v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-83-path-independent-deleveraging-rules</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-83-path-independent-deleveraging-rules</id>
     <updated>2026-11-19T18:59:21+00:00</updated>
     <summary type="html">&lt;p&gt;We characterise path-independent auto-deleveraging (ADL) rules as an extended log-exponential family. Immunity to account splitting, merging and reopening further restrict the class. Homogeneity (essentially) restricts the class to a one-parameter family ordered by both fairness and platform risk.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26623v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #quant-finance&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>How Should Candidates Be Weighted under Open-List Proportional Representation? Harmonic Weights and Dirichlet Order Statistics</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-84-how-should-candidates-be-weighted"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-84-how-should-candidates-be-weighted"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26337v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-84-how-should-candidates-be-weighted</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-84-how-should-candidates-be-weighted</id>
     <updated>2026-11-19T16:15:53+00:00</updated>
     <summary type="html">&lt;p&gt;Candidates in open-list proportional representation systems are not equally prominent, and measurements that involve aggregation over candidates therefore require some form of weighting. We address the question of how those weights should be chosen. Since weights based on realized preference votes are unavailable in advance and endogenous to the electoral outcome, we seek a priori weights that depend on list position alone, and derive them as expected ordered vote shares under a probabilistic model of the division of the list vote among candidates.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26337v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #probability-stats&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Pareto-Optimal and Strategyproof Data-Sharing Between Competitors. We study data-sharing among firms competing in the same market through the quality of their predictive models.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-85-pareto-optimal-and-strategyproof-data"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-85-pareto-optimal-and-strategyproof-data"/>
     <link rel="related" href="https://arxiv.org/abs/2611.26108v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-85-pareto-optimal-and-strategyproof-data</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-85-pareto-optimal-and-strategyproof-data</id>
     <updated>2026-11-19T13:38:19+00:00</updated>
     <summary type="html">&lt;p&gt;We study data-sharing among firms competing in the same market through the quality of their predictive models. We model firms&amp;apos; profit through two main components, precision and market share, where the former depends on the firm&amp;apos;s own number of datapoints and the latter depends on the endowments of all firms. We characterize Pareto-optimal contracts as those in which at least one firm receives all of the other firms&amp;apos; datapoints.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.26108v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #ml-theory&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Sequential Contract Design for Budgeted Crowdsourcing. A principal wishes to crowdsource a collection of tasks under a fixed compensation budget.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-86-sequential-contract-design-for-budgeted"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-86-sequential-contract-design-for-budgeted"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25988v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-86-sequential-contract-design-for-budgeted</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-86-sequential-contract-design-for-budgeted</id>
     <updated>2026-11-19T12:10:24+00:00</updated>
     <summary type="html">&lt;p&gt;A principal wishes to crowdsource a collection of tasks under a fixed compensation budget. The quality of a task&amp;apos;s outcome is stochastic and depends on the worker&amp;apos;s effort level. Since this effort is unobservable, the principal offers contracts to workers specifying their compensation for each possible outcome.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25988v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Closing Gaps in Temporal Fair Division for Chores. We study the fair division of indivisible chores that must be assigned in a prescribed order.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-87-closing-gaps-in-temporal-fair"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-87-closing-gaps-in-temporal-fair"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25892v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-87-closing-gaps-in-temporal-fair</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-87-closing-gaps-in-temporal-fair</id>
     <updated>2026-11-19T10:45:00+00:00</updated>
     <summary type="html">&lt;p&gt;We study the fair division of indivisible chores that must be assigned in a prescribed order. The complete instance is known in advance, but assignments cannot be changed. Temporal envy-freeness up to one chore (TEF1) requires envy-freeness up to one chore after every arrival.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25892v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #agents&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Particle physics science communication with grass-roots Instagram: a success story</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-88-particle-physics-science-communication-with"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-88-particle-physics-science-communication-with"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25806v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-88-particle-physics-science-communication-with</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-88-particle-physics-science-communication-with</id>
     <updated>2026-11-19T09:29:16+00:00</updated>
     <summary type="html">&lt;p&gt;Communicating science to the public is an integral part of the work of a research collaboration, not an afterthought. Institutional and collaboration-level social media accounts are often run by professional communicators rather than by practising scientists, and single-scientist ``influencer&amp;apos;&amp;apos; accounts are demanding to sustain. We describe {\em CMSatDESY}, a crowd-sourced Instagram account on which the CMS group at DESY tells its own stories, each member in their own voice.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25806v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #high-energy&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Uniqueness, Proximity, and Scaling in Atomic Splittable Polymatroid Congestion Games</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-89-uniqueness-proximity-and-scaling-in"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-89-uniqueness-proximity-and-scaling-in"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25757v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-89-uniqueness-proximity-and-scaling-in</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-89-uniqueness-proximity-and-scaling-in</id>
     <updated>2026-11-19T09:00:08+00:00</updated>
     <summary type="html">&lt;p&gt;We give a polynomial-time algorithm for exact equilibrium computation in atomic splittable polymatroid congestion games with integral ranks and rational player-specific affine latencies with positive slopes. The algorithm first computes equilibria of associated integer-splittable games, in which demands are allocated in multiples of a common packet size. For arbitrary polymatroid bases, no polynomial-time algorithm for these discrete equilibria was previously known.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25757v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems #logic&lt;/p&gt;</summary>
   </entry>
   <entry>
     <title>Distortion in Online Voting. We initiate the study of distortion in online voting, a framework that bridges computational social choice and online algorithms.</title>
-    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-20-90-distortion-in-online-voting"/>
+    <link href="https://latifkedi.github.io/ahbar/?item=2026-11-21-90-distortion-in-online-voting"/>
     <link rel="related" href="https://arxiv.org/abs/2611.25709v1"/>
-    <id>https://latifkedi.github.io/ahbar/item/2026-11-20-90-distortion-in-online-voting</id>
+    <id>https://latifkedi.github.io/ahbar/item/2026-11-21-90-distortion-in-online-voting</id>
     <updated>2026-11-19T08:21:43+00:00</updated>
     <summary type="html">&lt;p&gt;We initiate the study of distortion in online voting, a framework that bridges computational social choice and online algorithms. In contrast to the classical offline setting, where the full election instance is known in advance, we consider a dynamic environment where a fixed set of voters is present from the beginning, but alternatives arrive sequentially over time. Upon each arrival, a mechanism must immediately and irrevocably decide whether to retain the currently selected candidate or switch to the newly arriving one, operating solely on the partial ordinal rankings induced by the underlying cardinal preferences.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/2611.25709v1&quot;&gt;arXiv Game Theory, Complex Systems &amp;amp; Soc-Phys (cs.GT, nlin.AO, physics.soc-ph)&lt;/a&gt; · &lt;strong&gt;Tags:&lt;/strong&gt; #decision-theory #complex-systems&lt;/p&gt;</summary>
   </entry>
